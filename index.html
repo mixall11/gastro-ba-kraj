@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Táckárne a vývarovne — Bratislavský kraj</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root{
+    --vyv:#7c3aed; --tac:#ea580c;
+    --bg:#0f172a; --panel:#1e293b; --panel2:#334155; --text:#e2e8f0; --muted:#94a3b8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+  #app{display:flex;height:100vh}
+  #sidebar{width:330px;flex-shrink:0;background:var(--panel);overflow-y:auto;padding:18px;border-right:1px solid var(--panel2)}
+  #map{flex:1}
+  h1{font-size:18px;margin:0 0 4px}
+  .sub{font-size:13px;color:var(--muted);margin-bottom:16px}
+  .count{font-weight:600;color:#fff}
+  .box{background:var(--panel2);border-radius:10px;padding:12px;margin-bottom:14px}
+  .box h2{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 10px}
+  label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
+  label.row input{accent-color:#38bdf8;width:16px;height:16px}
+  .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+  #search{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #search::placeholder{color:var(--muted)}
+  .leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.5}
+  .pop-name{font-weight:700;font-size:14px;color:#0f172a;margin-bottom:6px}
+  .pop-badge{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#fff;padding:2px 7px;border-radius:20px;margin-bottom:8px}
+  .pop-row{margin:3px 0;color:#334155}
+  .pop-row a{color:#2563eb;text-decoration:none}
+  .pop-row b{color:#0f172a}
+  .pop-size{background:#f1f5f9;border-radius:6px;padding:5px 8px;margin:7px 0;font-size:12px;color:#475569}
+  footer{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.5}
+  footer a{color:#38bdf8;text-decoration:none}
+  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:42vh}}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <h1>🍲 Táckárne &amp; vývarovne</h1>
+    <div class="sub">Bratislavský kraj · <span class="count" id="count">0</span> prevádzok</div>
+
+    <div class="box">
+      <h2>Hľadať</h2>
+      <input id="search" type="text" placeholder="názov, mesto, ulica…" autocomplete="off">
+    </div>
+
+    <div class="box">
+      <h2>Typ prevádzky</h2>
+      <label class="row"><input type="checkbox" class="fkat" value="Vyvaren / catering kuchyna" checked><span class="dot" style="background:var(--vyv)"></span> Vývarovne / catering kuchyne</label>
+      <label class="row"><input type="checkbox" class="fkat" value="Tackaren / zavodna jedalen" checked><span class="dot" style="background:var(--tac)"></span> Táckárne / závodné jedálne</label>
+    </div>
+
+    <div class="box">
+      <h2>Okres</h2>
+      <div id="okresy"></div>
+    </div>
+
+    <footer>
+      Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap (Nominatim).<br>
+      Dáta sú orientačné, pred oslovením over kontakt.<br>
+      Export: <a href="tackarne-vyvarovne.xml">XML</a> · <a href="gastro-databaza-BA-kraj.csv">CSV (celá databáza)</a>
+    </footer>
+  </div>
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="data.js"></script>
+<script>
+const COLORS = {'Vyvaren / catering kuchyna':'#7c3aed','Tackaren / zavodna jedalen':'#ea580c'};
+const LABEL  = {'Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa','Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň'};
+
+const map = L.map('map',{scrollWheelZoom:true}).setView([48.15,17.11],11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  maxZoom:19, attribution:'&copy; OpenStreetMap'}).addTo(map);
+
+// jitter pre prekrývajúce sa body (rovnaká adresa)
+const seen={};
+function jitter(la,lo){
+  const k=la.toFixed(4)+','+lo.toFixed(4);
+  const n=seen[k]=(seen[k]||0); seen[k]++;
+  if(!n) return [la,lo];
+  const ang=n*2.4, r=0.00022*Math.ceil(n/6);
+  return [la+r*Math.cos(ang), lo+r*Math.sin(ang)];
+}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function popup(d){
+  let h=`<div class="pop-name">${esc(d.firma)}</div>`;
+  h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]}</span>`;
+  h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)}</div>`;
+  if(d.velkost) h+=`<div class="pop-size">📊 ${esc(d.velkost)}</div>`;
+  if(d.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(d.tel).replace(/\s/g,'')}">${esc(d.tel)}</a></div>`;
+  if(d.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(d.email)}">${esc(d.email)}</a></div>`;
+  if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
+  if(d.ico && d.ico!=='') h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
+  if(d.pozn) h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
+  return h;
+}
+
+const markers=[];
+GASTRO_DATA.forEach(d=>{
+  if(d.lat==null) return;
+  const [la,lo]=jitter(d.lat,d.lon);
+  const m=L.circleMarker([la,lo],{
+    radius:8, color:'#fff', weight:2, fillColor:COLORS[d.kat]||'#64748b', fillOpacity:.95
+  }).bindPopup(popup(d));
+  m._d=d; markers.push(m); m.addTo(map);
+});
+
+// okresné filtre
+const okresy=[...new Set(GASTRO_DATA.map(d=>d.okres))].sort();
+const okBox=document.getElementById('okresy');
+okresy.forEach(o=>{
+  const id='ok_'+o.replace(/\W/g,'');
+  okBox.insertAdjacentHTML('beforeend',
+    `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`);
+});
+
+function apply(){
+  const kats=[...document.querySelectorAll('.fkat:checked')].map(c=>c.value);
+  const oks =[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
+  const q=document.getElementById('search').value.trim().toLowerCase();
+  let n=0;
+  markers.forEach(m=>{
+    const d=m._d;
+    const hit = kats.includes(d.kat) && oks.includes(d.okres) &&
+      (!q || (d.firma+' '+d.mesto+' '+d.adresa).toLowerCase().includes(q));
+    if(hit){ if(!map.hasLayer(m)) m.addTo(map); n++; }
+    else if(map.hasLayer(m)) map.removeLayer(m);
+  });
+  document.getElementById('count').textContent=n;
+}
+document.querySelectorAll('.fkat,.fok').forEach(c=>c.addEventListener('change',apply));
+document.getElementById('search').addEventListener('input',apply);
+apply();
+</script>
+</body>
+</html>

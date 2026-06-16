@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Bratislavsky" typ="tackarne_vyvarovne" pocet="29">
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>Delirest Slovakia s.r.o. (brand EUREST)</firma>
+    <ico>31342809</ico>
+    <adresa>Plynarenska 7/B</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>LIDER: 35,5 mil EUR, 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>eurest.sk</web>
+    <poznamka>tel/email cez ORSR (web docasne down)</poznamka>
+    <gps lat="48.1455454" lon="17.143422"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z6">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Lozorno 995 (prevadzka)</adresa>
+    <mesto>Lozorno</mesto>
+    <okres>Malacky</okres>
+    <velkost>~5,2 mil EUR (2023); 10000+ porcii/den</velkost>
+    <telefon>+421 918 797 063</telefon>
+    <email>obchod@food-time.sk</email>
+    <web>food-time.sk</web>
+    <poznamka>najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji</poznamka>
+    <gps lat="48.3346371" lon="17.0444471"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>GTH catering s.r.o. (ex-Sodexo)</firma>
+    <ico>35728434</ico>
+    <adresa>Vajnorska 100/B</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>7,1 mil EUR, 150-199 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>gthcatering.sk</web>
+    <poznamka>sidlo sa stahuje do Nitry od 1.6.2026</poznamka>
+    <gps lat="48.1698902" lon="17.140156"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z3">
+    <firma>SHARKAM B&amp;B Catering s.r.o.</firma>
+    <ico>46844341</ico>
+    <adresa>Krokusova 3 (kanc. Technopol, Kutlikova 17)</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3,4 mil EUR; jedalen 850 ludi/den</velkost>
+    <telefon>+421 915 763 073</telefon>
+    <email>bankovich@sharkam.eu</email>
+    <web>sharkam.eu</web>
+    <poznamka>jedalen Technopol + protokolarny catering</poznamka>
+    <gps lat="48.1352541" lon="17.1152978"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>RC Slovakia s.r.o. (SKIES Catering)</firma>
+    <ico>35870362</ico>
+    <adresa>Vajnorska 100/B</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>1,2 mil EUR; ISO/IFS/BRC</velkost>
+    <telefon>+421 911 713 000</telefon>
+    <email>javorkova@rcslovakia.sk</email>
+    <web>rcslovakia.sk</web>
+    <poznamka>eventy, kongresy</poznamka>
+    <gps lat="48.1698902" lon="17.140156"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z8">
+    <firma>Timeout Catering s.r.o.</firma>
+    <ico>55083561</ico>
+    <adresa>Polna 4</adresa>
+    <mesto>Senec</mesto>
+    <okres>Senec</okres>
+    <velkost>event do 1000 ludi</velkost>
+    <telefon>+421 918 227 782</telefon>
+    <email>info@timeoutcatering.sk</email>
+    <web>timeoutcatering.sk</web>
+    <poznamka>pokryva BA + Senec + Pezinok</poznamka>
+    <gps lat="48.2086452" lon="17.4018888"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>PINO group s.r.o.</firma>
+    <ico>44013141</ico>
+    <adresa>Kadnarova 99</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>skolske + firemne jedalne</velkost>
+    <telefon>+421 904 884 427</telefon>
+    <email>objednavky@pinostravovanie.sk</email>
+    <web>pinostravovanie.sk</web>
+    <poznamka>17+ rokov</poznamka>
+    <gps lat="48.2053369" lon="17.1465294"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z3">
+    <firma>Oldeji (J. Cerna Szalay, zivnost)</firma>
+    <ico>32212721</ico>
+    <adresa>Rusovska cesta 3903/50</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna od 1994, 10-19 zam</velkost>
+    <telefon>0904 630 487</telefon>
+    <email>info@oldeji.sk</email>
+    <web>oldeji.sk</web>
+    <poznamka>rozvoz v termonadobach + prevadzka jedalni</poznamka>
+    <gps lat="48.1235338" lon="17.1089883"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z1">
+    <firma>ALFA FOOD vzs s.r.o.</firma>
+    <ico>55167071</ico>
+    <adresa>Zilinska 7028/1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>0,62 mil EUR (2024), 25-49 zam</velkost>
+    <telefon>+421 903 995 595</telefon>
+    <email>info@alfafood.sk</email>
+    <web>alfafood.sk</web>
+    <poznamka>zavodne stravovanie</poznamka>
+    <gps lat="48.1545738" lon="17.1112842"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z5">
+    <firma>ProZeta s.r.o. (Happy Day Catering)</firma>
+    <ico>36739499</ico>
+    <adresa>Padlych hrdinov 24</adresa>
+    <mesto>Bratislava-Podunajske Biskupice</mesto>
+    <okres>Bratislava</okres>
+    <velkost>svadby, eventy, firmy</velkost>
+    <telefon>0948 080 180</telefon>
+    <email>info@happy-day.sk</email>
+    <web>happydaycatering.sk</web>
+    <poznamka>16+ rokov</poznamka>
+    <gps lat="48.1237261" lon="17.2123351"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>TOVAR a SLUZBY s.r.o. (Jedlo Bratislava)</firma>
+    <ico>51725053</ico>
+    <adresa>Popovova 8 (kuchyna Dr. V. Clementisa 5)</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>rozvoz obedov</velkost>
+    <telefon>0905 600 000</telefon>
+    <email></email>
+    <web>jedlobratislava.sk</web>
+    <poznamka>rozvoz po celej BA vratane noci</poznamka>
+    <gps lat="48.1608571" lon="17.1477295"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>OXA Delivery Service s.r.o.</firma>
+    <ico>50293231</ico>
+    <adresa>Stredna 1</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>0,6 mil EUR (2024), 5-9 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>catering pre materske skoly; kontakt cez ORSR</poznamka>
+    <gps lat="48.1763819" lon="17.1703672"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Eat &amp; Meet - Mlynska dolina (UK)</firma>
+    <ico></ico>
+    <adresa>Stare Grunty, blok AD-U, Mlynska dolina</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>450 miest, 4000+ jedal/den (areal Mlyny az 6000)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>eatandmeet.sk</web>
+    <poznamka>univerzitna; vlastna prevadzka UK</poznamka>
+    <gps lat="48.1641859" lon="17.0678683"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Venza - Mlyny UK</firma>
+    <ico></ico>
+    <adresa>Mlynska dolina</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>sucast arealu Mlyny (6000/den)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mlyny.uniba.sk</web>
+    <poznamka>univerzitna jedalen</poznamka>
+    <gps lat="48.1548435" lon="17.06991"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z3">
+    <firma>Jedalen EUBA - Dolnozemska (City Gastro)</firma>
+    <ico></ico>
+    <adresa>Dolnozemska cesta 1</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>500 miest / 1500 pri recepcii</velkost>
+    <telefon>+421 948 929 323</telefon>
+    <email>sekretariat@citygastro.sk</email>
+    <web>citygastro.sk</web>
+    <poznamka>prevadzkuje City Gastro</poznamka>
+    <gps lat="48.1275493" lon="17.1323468"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Jedalen Mlada garda (STU)</firma>
+    <ico></ico>
+    <adresa>Racianska 103</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>136 miest + siet 5-7 jedalni STU</velkost>
+    <telefon>+421 918 600 162</telefon>
+    <email></email>
+    <web>stuba.sk</web>
+    <poznamka>UZ SDaJ STU</poznamka>
+    <gps lat="48.177312" lon="17.1261017"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>UNB - Nemocnica Ruzinov</firma>
+    <ico></ico>
+    <adresa>Ruzinovska 6</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>&gt;100k hospitalizacii/rok</velkost>
+    <telefon>02 48234111</telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna OLVaS; vstup cez verejne obstaravanie</poznamka>
+    <gps lat="48.1552301" lon="17.1519477"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>UNB - Nem. ak. L. Derera (Kramare)</firma>
+    <ico></ico>
+    <adresa>Limbova 5</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velka nemocnica</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna kuchyna, tacovy system</poznamka>
+    <gps lat="48.1662606" lon="17.0863257"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z3">
+    <firma>UNB - Nem. sv. Cyrila a Metoda (Petrzalka)</firma>
+    <ico></ico>
+    <adresa>Antolska 11</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velka nemocnica</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna kuchyna</poznamka>
+    <gps lat="48.1020874" lon="17.1183618"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Narodny ustav srdc. a cievnych chorob (NUSCH)</firma>
+    <ico></ico>
+    <adresa>Pod Krasnou horkou 1</adresa>
+    <mesto>Bratislava-Kramare</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nusch.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1696588" lon="17.0869479"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Narodny onkologicky ustav (NOU)</firma>
+    <ico></ico>
+    <adresa>Klenova 1</adresa>
+    <mesto>Bratislava-Kramare</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna, ~200+ lozok</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nou.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1718244" lon="17.0894784"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>Nemocnica sv. Michala</firma>
+    <ico></ico>
+    <adresa>Satinskeho I. 1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna OLVaS</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nsmas.sk</web>
+    <poznamka>vojensko-policajna univ. nemocnica</poznamka>
+    <gps lat="48.1452492" lon="17.1175227"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Volkswagen Slovakia - zavodna jedalen</firma>
+    <ico></ico>
+    <adresa>Jana Jonasa 1</adresa>
+    <mesto>Bratislava-Devinska Nova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>NAJVACSI CIEL: ~11-13 tis. zamestnancov</velkost>
+    <telefon></telefon>
+    <email>facility/HR</email>
+    <web>volkswagen.sk</web>
+    <poznamka>operator stravovania NEOVERENY - priamy dopyt</poznamka>
+    <gps lat="48.2350546" lon="16.9817538"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z5">
+    <firma>Slovnaft - zavodna jedalen</firma>
+    <ico></ico>
+    <adresa>Vlcie hrdlo 1</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velky priemyselny zavod</velkost>
+    <telefon></telefon>
+    <email>facility</email>
+    <web>slovnaft.sk</web>
+    <poznamka>operator neovereny</poznamka>
+    <gps lat="48.1282386" lon="17.176661"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Mondelez SR Production - kantina</firma>
+    <ico></ico>
+    <adresa>Racianska 44</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~400 zamestnancov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>cokoladovna</poznamka>
+    <gps lat="48.1932309" lon="17.1416428"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>La Cantina - Tatracentrum (Bencik)</firma>
+    <ico></ico>
+    <adresa>Hodzovo nam. 3</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>BC kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>bencikculinary.sk</web>
+    <poznamka>siet kantin v BC (Central, Apollo, Petrzalka)</poznamka>
+    <gps lat="48.1484131" lon="17.1087896"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Food Season - Westend Square</firma>
+    <ico></ico>
+    <adresa>Dubravska cesta 2</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>firemna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>foodseason.sk</web>
+    <poznamka>bio suroviny, sous-vide</poznamka>
+    <gps lat="48.1686969" lon="17.0753887"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Canteen Priatelia - Westend Tower</firma>
+    <ico></ico>
+    <adresa>Dubravska cesta 2</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>firemna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka></poznamka>
+    <gps lat="48.1686969" lon="17.0753887"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>Fajne Jedlo - Tower 115</firma>
+    <ico></ico>
+    <adresa>Pribinova 25</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>samoobsluzna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>zona Eurovea/Twin City</poznamka>
+    <gps lat="48.1411404" lon="17.1273381"/>
+  </prevadzka>
+</gastro_databaza>
