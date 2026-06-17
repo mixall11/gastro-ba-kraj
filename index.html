@@ -89,7 +89,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=20260617b"></script>
+<script src="data.js?v=20260617c"></script>
 <script>
 const COLORS={
   'Catering dodavatel':'#2563eb','Vyvaren / catering kuchyna':'#7c3aed',
@@ -104,14 +104,8 @@ const STARTS={
   TT:{lat:48.3774,lon:17.5877,name:'Trnava — centrum'}};
 const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
-// start objazdu sa odvodi od viditelnych bodov (vacsina TT -> Trnava, inak Petrzalka)
-function startKraj(){
-  const v=visibleData();
-  if(!v.length) return 'BA';
-  let tt=0; v.forEach(d=>{if(d.kraj==='TT')tt++;});
-  return tt*2>v.length?'TT':'BA';
-}
-function curStart(){return STARTS[startKraj()];}
+// Michal je z BA a startuje z BA -> trasa vzdy zacina v Petrzalke
+function curStart(){return STARTS.BA;}
 
 // --- vrstvy: mapa + letecky rezim ---
 const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'});

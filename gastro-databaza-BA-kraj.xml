@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="82">
+<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="81">
   <prevadzka kategoria="Catering dodavatel" zona="Z2">
     <firma>MENju s.r.o.</firma>
     <ico>53455339</ico>
@@ -868,7 +868,7 @@
     <telefon>+421 915 512 230</telefon>
     <email>ahoj@kruhpekaren.sk</email>
     <web>kruhpekaren.sk</web>
-    <poznamka>Vajnorska 21, Florianska 16, Zilinska 2</poznamka>
+    <poznamka>3 prevadzky (siet remeselnych pekarni)</poznamka>
     <gps lat="48.1647644" lon="17.1307846"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z1">
@@ -881,7 +881,7 @@
     <telefon>0940 629 026</telefon>
     <email></email>
     <web>triplefivecoffee.com</web>
-    <poznamka>Jozefska, Turbinova, Racianska</poznamka>
+    <poznamka>3 prevadzky</poznamka>
     <gps lat="48.1509638" lon="17.1096081"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
@@ -894,7 +894,7 @@
     <telefon>+421 902 311 331</telefon>
     <email>info@freshgarden.sk</email>
     <web>freshgarden.sk</web>
-    <poznamka>Plynarenska, Digital Park, River Park</poznamka>
+    <poznamka>3 prevadzky</poznamka>
     <gps lat="48.1462765" lon="17.1419155"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z4">
@@ -920,7 +920,7 @@
     <telefon></telefon>
     <email></email>
     <web>dominospizza.sk</web>
-    <poznamka>Krizna, Racianska, Rusovska, Kastielska</poznamka>
+    <poznamka>4 prevadzky</poznamka>
     <gps lat="48.1568421" lon="17.1419539"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z5">
@@ -933,7 +933,7 @@
     <telefon></telefon>
     <email></email>
     <web></web>
-    <poznamka>Central, Blumental, Bory, Cubicon</poznamka>
+    <poznamka>4 prevadzky</poznamka>
     <gps lat="48.1491794" lon="17.2137098"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
@@ -946,7 +946,7 @@
     <telefon></telefon>
     <email></email>
     <web>coffeeshopcompany.com</web>
-    <poznamka>Central, Aupark, Lakeside, Rosum, EUBA</poznamka>
+    <poznamka>5-6 kaviarni</poznamka>
     <gps lat="48.1754477" lon="17.132832"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
@@ -959,7 +959,7 @@
     <telefon></telefon>
     <email>info@regalburger.com</email>
     <web>regalburger.eu</web>
-    <poznamka>Eurovea, Bory, Avion, Nivy, Fresh Market</poznamka>
+    <poznamka>5-6 prevadzok v BA; sidlo Drahovce (mimo BA kraja)</poznamka>
     <gps lat="48.1516988" lon="17.1093063"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
@@ -972,7 +972,7 @@
     <telefon>+421 905 551 705</telefon>
     <email>bevanda@bevanda.sk</email>
     <web>bevanda.sk</web>
-    <poznamka>River Park, Veranda, Istrochem, Anavi</poznamka>
+    <poznamka>6 restauracii</poznamka>
     <gps lat="48.2117407" lon="17.153861"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
@@ -985,7 +985,7 @@
     <telefon></telefon>
     <email>info@mondieu.sk</email>
     <web>mondieu.sk</web>
-    <poznamka>Eurovea, Bory, Nivy, Hviezdoslavovo, Laurinska</poznamka>
+    <poznamka>7 kaviarni</poznamka>
     <gps lat="48.1577489" lon="17.1310655"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z4">
@@ -1013,19 +1013,6 @@
     <web>spustakaviaren.sk</web>
     <poznamka>aj okresy; 2. ICO 35803568</poznamka>
     <gps lat="48.1269838" lon="17.1081707"/>
-  </prevadzka>
-  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="viac">
-    <firma>Minit Bakery (MINIT SLOVAKIA spol. s r.o.)</firma>
-    <ico>17053897</ico>
-    <adresa>sidlo Dunajska Streda (prevadzky BA+okresy)</adresa>
-    <mesto>Bratislava + okresy</mesto>
-    <okres>Bratislava/Malacky/Pezinok/Senec</okres>
-    <velkost>30+ prevadzok, pokrytie vsetkych okresov</velkost>
-    <telefon></telefon>
-    <email></email>
-    <web>minitbakery.sk</web>
-    <poznamka>Senec 1, Pezinok 2, Malacky 3</poznamka>
-    <gps lat="48.1516988" lon="17.1093063"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z3">
     <firma>AmRest Coffee SK s.r.o. (Starbucks)</firma>

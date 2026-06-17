@@ -1134,7 +1134,7 @@ const GASTRO_DATA = [
   "email": "ahoj@kruhpekaren.sk",
   "web": "kruhpekaren.sk",
   "zona": "Z2",
-  "pozn": "Vajnorska 21, Florianska 16, Zilinska 2",
+  "pozn": "3 prevadzky (siet remeselnych pekarni)",
   "lat": 48.1647644,
   "lon": 17.1307846
  },
@@ -1151,7 +1151,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "triplefivecoffee.com",
   "zona": "Z1",
-  "pozn": "Jozefska, Turbinova, Racianska",
+  "pozn": "3 prevadzky",
   "lat": 48.1509638,
   "lon": 17.1096081
  },
@@ -1168,7 +1168,7 @@ const GASTRO_DATA = [
   "email": "info@freshgarden.sk",
   "web": "freshgarden.sk",
   "zona": "Z2",
-  "pozn": "Plynarenska, Digital Park, River Park",
+  "pozn": "3 prevadzky",
   "lat": 48.1462765,
   "lon": 17.1419155
  },
@@ -1202,7 +1202,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "dominospizza.sk",
   "zona": "Z2",
-  "pozn": "Krizna, Racianska, Rusovska, Kastielska",
+  "pozn": "4 prevadzky",
   "lat": 48.1568421,
   "lon": 17.1419539
  },
@@ -1219,7 +1219,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "",
   "zona": "Z5",
-  "pozn": "Central, Blumental, Bory, Cubicon",
+  "pozn": "4 prevadzky",
   "lat": 48.1491794,
   "lon": 17.2137098
  },
@@ -1236,7 +1236,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "coffeeshopcompany.com",
   "zona": "Z2",
-  "pozn": "Central, Aupark, Lakeside, Rosum, EUBA",
+  "pozn": "5-6 kaviarni",
   "lat": 48.1754477,
   "lon": 17.132832
  },
@@ -1253,7 +1253,7 @@ const GASTRO_DATA = [
   "email": "info@regalburger.com",
   "web": "regalburger.eu",
   "zona": "Z2",
-  "pozn": "Eurovea, Bory, Avion, Nivy, Fresh Market",
+  "pozn": "5-6 prevadzok v BA; sidlo Drahovce (mimo BA kraja)",
   "lat": 48.1516988,
   "lon": 17.1093063
  },
@@ -1270,7 +1270,7 @@ const GASTRO_DATA = [
   "email": "bevanda@bevanda.sk",
   "web": "bevanda.sk",
   "zona": "Z2",
-  "pozn": "River Park, Veranda, Istrochem, Anavi",
+  "pozn": "6 restauracii",
   "lat": 48.2117407,
   "lon": 17.153861
  },
@@ -1287,7 +1287,7 @@ const GASTRO_DATA = [
   "email": "info@mondieu.sk",
   "web": "mondieu.sk",
   "zona": "Z2",
-  "pozn": "Eurovea, Bory, Nivy, Hviezdoslavovo, Laurinska",
+  "pozn": "7 kaviarni",
   "lat": 48.1577489,
   "lon": 17.1310655
  },
@@ -1324,23 +1324,6 @@ const GASTRO_DATA = [
   "pozn": "aj okresy; 2. ICO 35803568",
   "lat": 48.1269838,
   "lon": 17.1081707
- },
- {
-  "kraj": "BA",
-  "kat": "Restauracna siet (3+ prevadzok)",
-  "firma": "Minit Bakery (MINIT SLOVAKIA spol. s r.o.)",
-  "ico": "17053897",
-  "adresa": "sidlo Dunajska Streda (prevadzky BA+okresy)",
-  "mesto": "Bratislava + okresy",
-  "okres": "Bratislava/Malacky/Pezinok/Senec",
-  "velkost": "30+ prevadzok, pokrytie vsetkych okresov",
-  "tel": "",
-  "email": "",
-  "web": "minitbakery.sk",
-  "zona": "viac",
-  "pozn": "Senec 1, Pezinok 2, Malacky 3",
-  "lat": 48.1516988,
-  "lon": 17.1093063
  },
  {
   "kraj": "BA",
@@ -2188,7 +2171,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "minitbakery.sk",
   "zona": "T6",
-  "pozn": "SILNY CIEL; v TT kraji 25+ prevadzok (Trnava 7, DS 5, Piestany 5, Skalica 3, Galanta 2, Sered 2, Senica 1, Hlohovec 1)",
+  "pozn": "SILNY CIEL; sidlo firmy; ~350 pekarni MINIT Bakery (SR), 25+ v TT kraji",
   "lat": 47.996257,
   "lon": 17.6253381
  },
@@ -2205,7 +2188,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "mcdonalds.sk",
   "zona": "T1",
-  "pozn": "SILNY CIEL; fransizant McDonald's; 3 prevadzky Trnava (Hlboka, Nova ul., Trstinska); ICO doplnit",
+  "pozn": "SILNY CIEL; fransizant McDonald's; sidlo firmy; 3 prevadzky v Trnave; ICO doplnit ORSR",
   "lat": 48.374218,
   "lon": 17.5809299
  },
@@ -2222,7 +2205,7 @@ const GASTRO_DATA = [
   "email": "",
   "web": "odjednota.sk",
   "zona": "T1",
-  "pozn": "2 kaviarne, asijska restauracia, bistro, jedalen Best Food; ICO druzstva doplnit",
+  "pozn": "sidlo druzstva; viac gastro prevadzok v OD Jednota; ICO druzstva doplnit ORSR",
   "lat": 48.3774728,
   "lon": 17.5874502
  }

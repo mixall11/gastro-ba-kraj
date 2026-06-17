@@ -608,7 +608,7 @@
     <telefon></telefon>
     <email></email>
     <web>minitbakery.sk</web>
-    <poznamka>SILNY CIEL; v TT kraji 25+ prevadzok (Trnava 7, DS 5, Piestany 5, Skalica 3, Galanta 2, Sered 2, Senica 1, Hlohovec 1)</poznamka>
+    <poznamka>SILNY CIEL; sidlo firmy; ~350 pekarni MINIT Bakery (SR), 25+ v TT kraji</poznamka>
     <gps lat="47.996257" lon="17.6253381"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
@@ -621,7 +621,7 @@
     <telefon></telefon>
     <email></email>
     <web>mcdonalds.sk</web>
-    <poznamka>SILNY CIEL; fransizant McDonald's; 3 prevadzky Trnava (Hlboka, Nova ul., Trstinska); ICO doplnit</poznamka>
+    <poznamka>SILNY CIEL; fransizant McDonald's; sidlo firmy; 3 prevadzky v Trnave; ICO doplnit ORSR</poznamka>
     <gps lat="48.374218" lon="17.5809299"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
@@ -634,7 +634,7 @@
     <telefon>033/324 58 00</telefon>
     <email></email>
     <web>odjednota.sk</web>
-    <poznamka>2 kaviarne, asijska restauracia, bistro, jedalen Best Food; ICO druzstva doplnit</poznamka>
+    <poznamka>sidlo druzstva; viac gastro prevadzok v OD Jednota; ICO druzstva doplnit ORSR</poznamka>
     <gps lat="48.3774728" lon="17.5874502"/>
   </prevadzka>
 </gastro_databaza>
