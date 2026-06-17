@@ -24,7 +24,8 @@
   label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
   label.row input{accent-color:#38bdf8;width:16px;height:16px}
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-  #search{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #search,#startSel{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #startSel{cursor:pointer}
   #search::placeholder{color:var(--muted)}
   .seg{display:flex;gap:6px}
   .seg button{flex:1;padding:9px 6px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:13px;font-weight:600;cursor:pointer}
@@ -71,6 +72,15 @@
     </div>
 
     <div class="box">
+      <h2>Štart trasy</h2>
+      <select id="startSel">
+        <option value="WGO">WGO s.r.o. — Kopčianska 90/b</option>
+        <option value="WOL">Wolkrova 23</option>
+        <option value="CEN">Stred BA — Nám. SNP</option>
+      </select>
+    </div>
+
+    <div class="box">
       <h2>Trasa &amp; navigácia</h2>
       <label class="row"><input type="checkbox" id="showRoute"> 🚗 Trasa autom po ceste (optimalizovaná)</label>
       <div class="sub" style="margin:6px 0 0;font-size:12px">Reálna cesta po cestách zo štartu cez viditeľné body, poradie optimalizované na najkratšiu jazdu. Vyfiltruj okres/kategóriu pre kratší okruh.</div>
@@ -100,12 +110,14 @@ const LABEL={
   'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
   'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)'};
 const STARTS={
-  BA:{lat:48.118,lon:17.107,name:'Bratislava-Petržalka'},
-  TT:{lat:48.3774,lon:17.5877,name:'Trnava — centrum'}};
+  WGO:{lat:48.1138,lon:17.0906,name:'WGO s.r.o. — Kopčianska 90/b'},
+  WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23'},
+  CEN:{lat:48.1451,lon:17.1119,name:'Stred Bratislavy — Nám. SNP'}};
+let startKey='WGO';
 const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
-// Michal je z BA a startuje z BA -> trasa vzdy zacina v Petrzalke
-function curStart(){return STARTS.BA;}
+// start trasy je prepinatelny (WGO / Wolkrova / stred BA)
+function curStart(){return STARTS[startKey];}
 
 // --- vrstvy: mapa + letecky rezim ---
 const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'});
@@ -117,7 +129,7 @@ const aerial=L.layerGroup([esriImg,esriRef]);
 const map=L.map('map',{scrollWheelZoom:true,layers:[street]}).setView([48.2,17.3],9);
 L.control.layers({'🗺️ Mapa':street,'🛰️ Letecký':aerial},null,{position:'topright',collapsed:false}).addTo(map);
 
-const startMarker=L.marker([STARTS.BA.lat,STARTS.BA.lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b>');
+const startMarker=L.marker([curStart().lat,curStart().lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b>');
 
 const seen={};
 function jitter(la,lo){
@@ -244,6 +256,12 @@ function apply(){
 document.querySelectorAll('.fkat').forEach(c=>c.addEventListener('change',apply));
 document.getElementById('search').addEventListener('input',apply);
 routeChk.addEventListener('change',drawRoute);
+document.getElementById('startSel').addEventListener('change',e=>{
+  startKey=e.target.value;
+  const s=curStart();
+  startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
+  drawRoute();
+});
 
 buildOkresy();
 apply();
