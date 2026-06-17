@@ -26,8 +26,8 @@
   label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
   label.row input{accent-color:#38bdf8;width:16px;height:16px}
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-  #search,#startSel,#obecSel{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
-  #startSel,#obecSel{cursor:pointer}
+  #search,#startSel,#krajSel{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #startSel,#krajSel{cursor:pointer}
   #placeSearch{flex:1;min-width:0;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
   #placeSearch::placeholder{color:var(--muted)}
   #search::placeholder{color:var(--muted)}
@@ -80,14 +80,23 @@
     </div>
 
     <div class="box">
-      <h2>Okres</h2>
-      <div class="sub" id="okresNote" style="margin:0 0 8px;font-size:12px;color:#fbbf24"></div>
-      <div id="okresy"></div>
+      <h2>Kraj</h2>
+      <select id="krajSel">
+        <option value="ALL">— všetky kraje —</option>
+        <option value="Bratislavský">Bratislavský</option>
+        <option value="Trnavský">Trnavský</option>
+        <option value="Trenčiansky">Trenčiansky</option>
+        <option value="Nitriansky">Nitriansky</option>
+        <option value="Žilinský">Žilinský</option>
+        <option value="Banskobystrický">Banskobystrický</option>
+        <option value="Prešovský">Prešovský</option>
+        <option value="Košický">Košický</option>
+      </select>
     </div>
 
     <div class="box">
-      <h2>Obec (len jedna)</h2>
-      <select id="obecSel"><option value="ALL">— všetky obce —</option></select>
+      <h2>Okres</h2>
+      <div id="okresy"></div>
     </div>
 
     <div class="box">
@@ -215,26 +224,13 @@ const SK_OKRESY=[
 ];
 function buildOkresy(){
   const box=document.getElementById('okresy'); box.innerHTML='';
-  SK_OKRESY.forEach(([kraj,oks])=>{
+  const sel=document.getElementById('krajSel').value;
+  SK_OKRESY.filter(([kraj])=>sel==='ALL'||kraj===sel).forEach(([kraj,oks])=>{
     box.insertAdjacentHTML('beforeend',`<div class="grp">${kraj} kraj</div>`);
     oks.forEach(o=>box.insertAdjacentHTML('beforeend',
       `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
   });
   box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
-}
-
-const KRAJ_LABEL={BA:'Bratislavský',TT:'Trnavský',NR:'Nitriansky',TN:'Trenčiansky',
-  ZA:'Žilinský',BB:'Banskobystrický',PO:'Prešovský',KE:'Košický'};
-function buildObce(){
-  const sel=document.getElementById('obecSel');
-  const obecKraj={}; GASTRO_DATA.forEach(d=>obecKraj[d.mesto]=d.kraj);
-  [...new Set(GASTRO_DATA.map(d=>d.kraj))].forEach(k=>{
-    const og=document.createElement('optgroup'); og.label=(KRAJ_LABEL[k]||k)+' kraj';
-    Object.keys(obecKraj).filter(o=>obecKraj[o]===k).sort().forEach(o=>{
-      const opt=document.createElement('option'); opt.value=o; opt.textContent=o; og.appendChild(opt);
-    });
-    if(og.children.length) sel.appendChild(og);
-  });
 }
 
 let placeMarker=null;
@@ -325,16 +321,10 @@ function apply(){
   const kats=[...document.querySelectorAll('.fkat:checked')].map(c=>c.value);
   const oks=[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
   const q=document.getElementById('search').value.trim().toLowerCase();
-  const obec=document.getElementById('obecSel').value;
-  const okBox=document.getElementById('okresy');
-  okBox.style.opacity=obec==='ALL'?'1':'.35';
-  okBox.style.pointerEvents=obec==='ALL'?'auto':'none';
-  document.getElementById('okresNote').textContent=obec==='ALL'?'':'⤵ Riadi výber obce nižšie — daj „— všetky obce —" pre filter okresov.';
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const geoOk = obec!=='ALL' ? d.mesto===obec : oks.includes(d.okres);
-    const hit=kats.includes(d.kat)&&geoOk
+    const hit=kats.includes(d.kat)&&oks.includes(d.okres)
       &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
@@ -354,18 +344,17 @@ document.getElementById('startSel').addEventListener('change',e=>{
   startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
   drawRoute();
 });
-document.getElementById('obecSel').addEventListener('change',()=>{
-  apply();
-  if(document.getElementById('obecSel').value!=='ALL'){
+document.getElementById('krajSel').addEventListener('change',()=>{
+  buildOkresy(); apply();
+  if(document.getElementById('krajSel').value!=='ALL'){
     const vis=markers.filter(m=>map.hasLayer(m));
-    if(vis.length) map.fitBounds(L.latLngBounds(vis.map(m=>m.getLatLng())).pad(0.3));
+    if(vis.length) map.fitBounds(L.latLngBounds(vis.map(m=>m.getLatLng())).pad(0.25));
   }
 });
 document.getElementById('placeGo').addEventListener('click',searchPlace);
 document.getElementById('placeSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();searchPlace();}});
 
 buildOkresy();
-buildObce();
 apply();
 map.fitBounds(allBounds.pad(0.05));
 </script>
