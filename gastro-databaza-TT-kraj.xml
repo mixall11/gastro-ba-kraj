@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="49">
+  <prevadzka kategoria="Catering dodavatel" zona="T1">
+    <firma>Frape catering s.r.o.</firma>
+    <ico>44178450</ico>
+    <adresa>Pekarska 40</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>trzby 3,6 mil EUR (2025), 10-19 zam</velkost>
+    <telefon>033/293 33 22</telefon>
+    <email>mail@frape-catering.sk</email>
+    <web>frape-catering.sk</web>
+    <poznamka>SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; konatel D. Schmidt 0903 246 244</poznamka>
+    <gps lat="48.3789303" lon="17.5862883"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T3">
+    <firma>Catering Majernik s.r.o.</firma>
+    <ico>50803549</ico>
+    <adresa>Slnecna 6</adresa>
+    <mesto>Vrbove</mesto>
+    <okres>Piestany</okres>
+    <velkost>trzby 2-3 mil EUR (2025), 20-24 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>SILNY CIEL; rodinny catering 20+ rokov, zavodne stravovanie Vrbove/Piestany/Trnava</poznamka>
+    <gps lat="48.6238782" lon="17.7167624"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T1">
+    <firma>La Cantine (cantineparty)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>catering oblozene/party misy, firemne aj sukromne akcie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>cantineparty.sk</web>
+    <poznamka>cateringova firma Trnava; ICO + adresa doplnit ORSR</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T1">
+    <firma>Catering Relax Trnava</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Piestanska 3</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>rozvoz stravy pre firmy, denne menu, catering podujati</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>over ci nie je prepojeny s TOP-RELAX brand; ICO doplnit</poznamka>
+    <gps lat="48.384791" lon="17.6005036"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T5">
+    <firma>SEDA Catering (Katarina Sediva)</firma>
+    <ico>54787572</ico>
+    <adresa>Petrovska 4</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>SZCO; catering svadby/firemne, okres Skalica + Senica</velkost>
+    <telefon></telefon>
+    <email>info@sedacatering.sk</email>
+    <web>sedacatering.sk</web>
+    <poznamka>mensia kapacita</poznamka>
+    <gps lat="48.848089" lon="17.2390985"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T5">
+    <firma>LARK - CATERING s.r.o.</firma>
+    <ico>46939342</ico>
+    <adresa>Pod Hajkom 2</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>pekarska/cukrarska vyroba + catering + teple jedla</velkost>
+    <telefon>034 664 5164</telefon>
+    <email>sikulova@larksro.sk</email>
+    <web>larkskalica.sk</web>
+    <poznamka>SILNY CIEL; catering + vlastna vyroba, vyssi objem surovin</poznamka>
+    <gps lat="48.8385401" lon="17.2297234"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T5">
+    <firma>Kralovsky Catering</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>premium catering svadby/firemne od 15 osob</velkost>
+    <telefon>0910 646 604</telefon>
+    <email>info@kralovskycatering.sk</email>
+    <web>kralovskycatering.sk</web>
+    <poznamka>regionalny hrac Skalica + Senica; ICO doplnit</poznamka>
+    <gps lat="48.8461007" lon="17.2287837"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T3">
+    <firma>Catering 4 Events</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>catering festivaly/plesy/svadby + prenajom stanov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>catering4events.sk</web>
+    <poznamka>eventovy catering, sezonny vyssi objem</poznamka>
+    <gps lat="48.5895247" lon="17.8213848"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="T3">
+    <firma>Catering Piestany</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>sala 280 m2, kapacita 150 osob; catering</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>cateringpiestany.sk</web>
+    <poznamka>vlastny party priestor + catering</poznamka>
+    <gps lat="48.5895247" lon="17.8213848"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T1">
+    <firma>TOP-RELAX s.r.o.</firma>
+    <ico>36836061</ico>
+    <adresa>Rybnikova 16</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>trzby 10,0 mil EUR (2025), 150-199 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>top-relax.sk</web>
+    <poznamka>SILNY CIEL; zavodne stravovanie, vending, dovoz jedal; prevadzkuje jedalen UCM</poznamka>
+    <gps lat="48.3826049" lon="17.5848061"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T7">
+    <firma>Grand Gastro s.r.o.</firma>
+    <ico>50601237</ico>
+    <adresa>29. augusta 9</adresa>
+    <mesto>Galanta</mesto>
+    <okres>Galanta</okres>
+    <velkost>trzby 4,41 mil EUR (2024), 50-99 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>grandgastro.sk</web>
+    <poznamka>SILNY CIEL; dodavatel zavodneho a skolskeho stravovania, 30+ rokov; pozn. mala strata + nedoplatky 2024</poznamka>
+    <gps lat="48.1868596" lon="17.7223147"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T6">
+    <firma>Gastro DS s.r.o.</firma>
+    <ico>50808478</ico>
+    <adresa>Alzbetinske namestie 1203</adresa>
+    <mesto>Dunajska Streda</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>trzby 2,28 mil EUR (2025), 50-99 zam</velkost>
+    <telefon>+421 31 286 50 48</telefon>
+    <email>gastrods@dunstreda.sk</email>
+    <web>gastrods.sk</web>
+    <poznamka>SILNY CIEL; mestska firma, skolske jedalne vsetkych ZS/MS/gymnazii DS</poznamka>
+    <gps lat="47.9962553" lon="17.6143437"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T1">
+    <firma>Gastro-Tief s.r.o.</firma>
+    <ico>47345195</ico>
+    <adresa>Tamaskovicova 13</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>trzby 0,25 mil EUR (2025), 10-19 zam</velkost>
+    <telefon>0919 300 140</telefon>
+    <email>tief@tief.sk</email>
+    <web>tief.sk</web>
+    <poznamka>rozvoz hotovych jedal Trnava; mensia kapacita</poznamka>
+    <gps lat="48.3672675" lon="17.5959372"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T7">
+    <firma>IN-food-catering s.r.o.</firma>
+    <ico>53118839</ico>
+    <adresa>Abraham 452</adresa>
+    <mesto>Abraham</mesto>
+    <okres>Galanta</okres>
+    <velkost>trzby 0,46 mil EUR (2025), 5-9 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>restauracne cinnosti + catering</poznamka>
+    <gps lat="48.2479831" lon="17.6194193"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T6">
+    <firma>Robert Csoka - RODETT</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Luc na Ostrove</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>SZCO; vyroba a rozvoz teplych jedal od 1997</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>rodett.sk</web>
+    <poznamka>rozvoz DS/Velky Meder/Samorin + catering; ICO SZCO doplnit</poznamka>
+    <gps lat="47.9754375" lon="17.5224297"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="T7">
+    <firma>Grand Gastro Catering s.r.o.</firma>
+    <ico>50770667</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Galanta</mesto>
+    <okres>Galanta</okres>
+    <velkost>prepojena firma ku Grand Gastro</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>grandgastro.sk</web>
+    <poznamka>sesterska firma zavodne stravovanie; trzby/adresa over FinStat</poznamka>
+    <gps lat="48.1910498" lon="17.7270629"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T1">
+    <firma>PCA Slovakia s.r.o. (Stellantis Trnava)</firma>
+    <ico>36256013</ico>
+    <adresa>Automobilova 1</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>zavodna jedalen 4000-4999 zam, trzby 2,03 mld EUR (2024)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>stellantis-slovakia.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu (automobilka); operator jedalne neovereny</poznamka>
+    <gps lat="48.362353" lon="17.6192737"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T1">
+    <firma>Fakultna nemocnica Trnava</firma>
+    <ico>00610381</ico>
+    <adresa>A. Zarnova 11</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>vlastna kuchyna, 641 luzok, 1000-1999 zam</velkost>
+    <telefon>033/5938111</telefon>
+    <email>fntt@fntt.sk</email>
+    <web>fntt.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna pacienti + personal; verejny obstaravatel</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T2">
+    <firma>Saneca Pharmaceuticals a.s.</firma>
+    <ico>46833323</ico>
+    <adresa>Nitrianska 100</adresa>
+    <mesto>Hlohovec</mesto>
+    <okres>Hlohovec</okres>
+    <velkost>500-999 zam (~800), trzby 108,8 mil EUR (2025)</velkost>
+    <telefon></telefon>
+    <email>info@saneca.com</email>
+    <web>saneca.com</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu Hlohovec (byv. Slovakofarma/Zentiva areal)</poznamka>
+    <gps lat="48.4214265" lon="17.8147037"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T1">
+    <firma>ZF SACHS Slovakia a.s.</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Strojarenska 2</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>~3100 zam, zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>zf.com</web>
+    <poznamka>SILNY CIEL; automotive priem. park Trnava; ICO doplnit ORSR</poznamka>
+    <gps lat="48.3567915" lon="17.5706494"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T1">
+    <firma>Univerzita sv. Cyrila a Metoda (UCM)</firma>
+    <ico>36078913</ico>
+    <adresa>Namestie J. Herdu 2</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>studentska jedalen; catering prevadzkuje TOP-RELAX</velkost>
+    <telefon>033/5565111</telefon>
+    <email></email>
+    <web>ucm.sk</web>
+    <poznamka>objednavatel; dodavatela jedla riesi TOP-RELAX</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T1">
+    <firma>Trnavska univerzita (TRUNI)</firma>
+    <ico>31825249</ico>
+    <adresa>Hornopotocna 23</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>studentska jedalen, koncesia na prevadzku</velkost>
+    <telefon>033/5939111</telefon>
+    <email></email>
+    <web>truni.sk</web>
+    <poznamka>stravovanie cez externeho prevadzkovatela; ICO over ORSR</poznamka>
+    <gps lat="48.379698" lon="17.58686"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T7">
+    <firma>SAMSUNG Electronics Slovakia s.r.o.</firma>
+    <ico>36249564</ico>
+    <adresa>Hviezdoslavova 807</adresa>
+    <mesto>Galanta</mesto>
+    <okres>Galanta</okres>
+    <velkost>trzby 1,77 mld EUR (2024); velka zavodna jedalen, tisice cez agentury</velkost>
+    <telefon>031 7882111</telefon>
+    <email>sesk@samsung.com</email>
+    <web>samsung.com/sk</web>
+    <poznamka>SILNY CIEL; najvacsia fabrika regionu; over operatora jedalne</poznamka>
+    <gps lat="48.1860755" lon="17.7337498"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T7">
+    <firma>Nemocnica Sv. Lukasa Galanta a.s.</firma>
+    <ico>44452519</ico>
+    <adresa>Hodska 38</adresa>
+    <mesto>Galanta</mesto>
+    <okres>Galanta</okres>
+    <velkost>447 lozok, ~649 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna; siet Svet zdravia/Penta</poznamka>
+    <gps lat="48.1957203" lon="17.7213597"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T6">
+    <firma>NsP Dunajska Streda a.s.</firma>
+    <ico>44455356</ico>
+    <adresa>Velkoblahovska 23</adresa>
+    <mesto>Dunajska Streda</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>~244 lozok; Svet zdravia/Penta</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna; over interny vs cateringovy model</poznamka>
+    <gps lat="48.0009648" lon="17.6046308"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T5">
+    <firma>Schaeffler Skalica spol. s r.o.</firma>
+    <ico>30998140</ico>
+    <adresa>Dr. G. Schaefflera 1</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>trzby 455,1 mil EUR (2024), 3000-3999 zam</velkost>
+    <telefon>034 696 1111</telefon>
+    <email></email>
+    <web>schaeffler.sk</web>
+    <poznamka>SILNY CIEL; fabrika, velka zavodna jedalen, tisice obedov/den (byv. INA Skalica)</poznamka>
+    <gps lat="48.8497319" lon="17.2116194"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T5">
+    <firma>Fakultna nemocnica AGEL Skalica a.s.</firma>
+    <ico>44444761</ico>
+    <adresa>Koreszkova 7</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>spadova oblast 120000+; lozkova nemocnica</velkost>
+    <telefon>034 6212 111</telefon>
+    <email></email>
+    <web>nemocnicaskalica.agel.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna prevadzka; skupina AGEL</poznamka>
+    <gps lat="48.8440909" lon="17.2269808"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T3">
+    <firma>Nemocnica Alexandra Wintera n.o.</firma>
+    <ico>36084221</ico>
+    <adresa>Winterova 66</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>lozkova nemocnica Piestany, pacienti + personal</velkost>
+    <telefon>033 7955 111</telefon>
+    <email></email>
+    <web>nawpiestany.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna, stabilny denny objem</poznamka>
+    <gps lat="48.5880562" lon="17.8381581"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T4">
+    <firma>Mestska poliklinika Senica a.s.</firma>
+    <ico>36273074</ico>
+    <adresa>Sotinska 1</adresa>
+    <mesto>Senica</mesto>
+    <okres>Senica</okres>
+    <velkost>poliklinika; ambulantne + lozkove sluzby</velkost>
+    <telefon>034 698 7111</telefon>
+    <email></email>
+    <web>poliklinikase.sk</web>
+    <poznamka>Senica nema lozkovu nemocnicu, spada pod FN AGEL Skalica; stredny objem</poznamka>
+    <gps lat="48.6883138" lon="17.372334"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T4">
+    <firma>OMS a.s.</firma>
+    <ico>34132333</ico>
+    <adresa>Dojc 419</adresa>
+    <mesto>Dojc</mesto>
+    <okres>Senica</okres>
+    <velkost>~2,9 mil EUR; historicky ~950 zam, vyrobca svietidiel</velkost>
+    <telefon>034 694 0411</telefon>
+    <email></email>
+    <web>oms.eu</web>
+    <poznamka>vyrobny zavod s jedalnou; firma v restrukturalizacii; over aktualny pocet zam</poznamka>
+    <gps lat="48.6771217" lon="17.254151"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="T3">
+    <firma>Slovenske liecebne kupele Piestany a.s.</firma>
+    <ico>34144790</ico>
+    <adresa>Winterova 29</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>trzby 51,4 mil EUR; hotely Thermia Palace/Esplanade/Splendid/Grand, tisice stravnikov/den</velkost>
+    <telefon>033 775 7733</telefon>
+    <email>spa@ensanahotels.com</email>
+    <web>ensanahotels.com/sk</web>
+    <poznamka>SILNY CIEL; najvacsi prevadzkovatel stravovania v kraji, vlastne kuchyne + liecebna vyziva</poznamka>
+    <gps lat="48.5894483" lon="17.8364459"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T1">
+    <firma>Sladovna SESSLER a.s.</firma>
+    <ico>36253774</ico>
+    <adresa>Pri Kalvarii 17</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>svadobna sala 120 (200 m2), restauracia + minipivovar + penzion + kongres</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>sessler.sk</web>
+    <poznamka>SILNY CIEL; komplex s vlastnou varnou kapacitou, eventovy priestor</poznamka>
+    <gps lat="48.3889107" lon="17.5760428"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T2">
+    <firma>Jaster s.r.o.</firma>
+    <ico>36708364</ico>
+    <adresa>Stara hora 1</adresa>
+    <mesto>Hlohovec</mesto>
+    <okres>Hlohovec</okres>
+    <velkost>restauracia 230 miest, sala 80-150, 2 vinarne 2x50</velkost>
+    <telefon>033/7424862</telefon>
+    <email>tutura.pavol@gmail.com</email>
+    <web>jaster-hlohovec.sk</web>
+    <poznamka>SILNY CIEL; najvacsi banketovy priestor okresu Hlohovec; majitel P. Tutura 0903473379</poznamka>
+    <gps lat="48.4497091" lon="17.8114153"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T1">
+    <firma>Victoria Trnava</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>sala do 75 + terasy 40, eventova restauracia svadby/firmy</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>victoriatrnava.sk</web>
+    <poznamka>mensia kapacita; ICO doplnit</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T3">
+    <firma>Hotel Magnolia Piestany</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Nalepkova 1</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>121 izieb, restauracia 140 + kongresova sala + 2 salonky</velkost>
+    <telefon>033 762 6251</telefon>
+    <email>recepcia@hotelmagnolia.sk</email>
+    <web>hotelmagnolia.sk</web>
+    <poznamka>SILNY CIEL; velka kongresova/eventova prevadzka; prevadzkovatel/ICO doplnit ORSR</poznamka>
+    <gps lat="48.5874545" lon="17.8370356"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T3">
+    <firma>Hotel Park Piestany (Kupele)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Nabrezie I. Krasku 2</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>restauracia 150, kongresove saly, svadby/oslavy</velkost>
+    <telefon>033 775 5200</telefon>
+    <email></email>
+    <web>hotelpark.sk</web>
+    <poznamka>SILNY CIEL; banketove/svadobne + kongresy</poznamka>
+    <gps lat="48.595123" lon="17.839952"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T5">
+    <firma>Hotel sv. Ludmila Skalica</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Tehelna 40</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>restauracia 70; 8 konf. sal ~600 m2, najvacsia do 165</velkost>
+    <telefon>0910 856 102</telefon>
+    <email>info@hotelsvataludmila.sk</email>
+    <web>hotelsvataludmila.sk</web>
+    <poznamka>SILNY CIEL; svadby/firemne do 165, najvacsia eventova kapacita v Skalici</poznamka>
+    <gps lat="48.835703" lon="17.2329853"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T5">
+    <firma>Restauracia Jozef II.</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Bratislavska 20</adresa>
+    <mesto>Holic</mesto>
+    <okres>Skalica</okres>
+    <velkost>spolocenska sala 140 miest, parket/ozvucenie/projektor</velkost>
+    <telefon>034 2028912</telefon>
+    <email></email>
+    <web>jozefdruhy.sk</web>
+    <poznamka>SILNY CIEL; banketova/svadobna sala 140, Holic</poznamka>
+    <gps lat="48.8022821" lon="17.1627495"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T3">
+    <firma>Slovensky Dvor Piestany</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>kapacita 150+ osob; firemne party/oslavy/svadby</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>slovenskydvor.sk</web>
+    <poznamka>banketove akcie 150+; ICO/adresa over ORSR</poznamka>
+    <gps lat="48.5895247" lon="17.8213848"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T4">
+    <firma>Restauracia Savarin Senica</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Senica</mesto>
+    <okres>Senica</okres>
+    <velkost>svadobna sala + klimatizovana sala; svadby/firemne</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>savarinsenica.com</web>
+    <poznamka>svadobna sala centrum Senice; kapacita/ICO over</poznamka>
+    <gps lat="48.6787557" lon="17.3661529"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T6">
+    <firma>X-BIONIC SPHERE a.s.</firma>
+    <ico>46640134</ico>
+    <adresa>Dubova 33</adresa>
+    <mesto>Samorin</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>trzby ~18,1 mil EUR; hotel 282 izieb, 5+ restauracii, MICE/eventy</velkost>
+    <telefon>0904 913037</telefon>
+    <email>sales@x-bionicsphere.com</email>
+    <web>x-bionicsphere.com</web>
+    <poznamka>SILNY CIEL; obrovsky sportovy rezort, catering pre turnaje/konferencie</poznamka>
+    <gps lat="48.0186559" lon="17.2973262"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T6">
+    <firma>THERMALPARK DS a.s.</firma>
+    <ico>31450920</ico>
+    <adresa>Gabcikovska cesta 38</adresa>
+    <mesto>Dunajska Streda</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>trzby ~9,4 mil EUR (2024); termalny areal + hotel + restauracie/bufety</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>thermalpark.sk</web>
+    <poznamka>SILNY CIEL; sezonny velkoobjem; doplnit kontakt</poznamka>
+    <gps lat="47.9847932" lon="17.6086547"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T6">
+    <firma>TERMAL s.r.o. (Thermal Corvinus Velky Meder)</firma>
+    <ico>34099336</ico>
+    <adresa>Promenadna 20</adresa>
+    <mesto>Velky Meder</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>trzby ~8,5 mil EUR; termalne kupalisko + ubytovanie + gastro</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>thermalcorvinus.eu</web>
+    <poznamka>SILNY CIEL; velky termalny rezort (vlastnik mesto); viacero stravovacich bodov</poznamka>
+    <gps lat="47.8464838" lon="17.7599623"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T6">
+    <firma>Hotel Thermal Varga s.r.o.</firma>
+    <ico>44497237</ico>
+    <adresa>Promenadna 1</adresa>
+    <mesto>Velky Meder</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>restauracia 120-200 miest, sala + catering</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelthermal.sk</web>
+    <poznamka>banketova sala + catering, svadby/konferencie</poznamka>
+    <gps lat="47.8480097" lon="17.7620363"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T7">
+    <firma>Penzion Restauracia MLYN (SLOVFRUCO s.r.o.)</firma>
+    <ico>36276910</ico>
+    <adresa>J. Majku 211</adresa>
+    <mesto>Dolna Streda</mesto>
+    <okres>Galanta</okres>
+    <velkost>2 saly ~100+50, catering, svadby</velkost>
+    <telefon>0903 419103</telefon>
+    <email>penzionmlyn211@gmail.com</email>
+    <web>penzionmlyn.sk</web>
+    <poznamka>banketova sala + catering pri priem. zone Sered</poznamka>
+    <gps lat="48.2740853" lon="17.7448501"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="T7">
+    <firma>Restauracia Perlovka (AR GASTRO)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Vinarska 2</adresa>
+    <mesto>Sered</mesto>
+    <okres>Galanta</okres>
+    <velkost>kompletny servis + catering svadby/firemne/vyrocia</velkost>
+    <telefon></telefon>
+    <email>argastro.sered@gmail.com</email>
+    <web>perlovka.sk</web>
+    <poznamka>banketova/eventova restauracia pri priem. parku Sered; ICO doplnit</poznamka>
+    <gps lat="48.285043" lon="17.7372023"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T6">
+    <firma>MINIT SLOVAKIA spol. s r.o.</firma>
+    <ico>17053897</ico>
+    <adresa>Muzejna 1</adresa>
+    <mesto>Dunajska Streda</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>trzby 80,5 mil EUR (2025), 500-999 zam; ~350 pekarni MINIT Bakery</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>minitbakery.sk</web>
+    <poznamka>SILNY CIEL; v TT kraji 25+ prevadzok (Trnava 7, DS 5, Piestany 5, Skalica 3, Galanta 2, Sered 2, Senica 1, Hlohovec 1)</poznamka>
+    <gps lat="47.996257" lon="17.6253381"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
+    <firma>Reston s.r.o. (McDonald's fransiza)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>trzby ~30 mil EUR, ~700 zam (TT+BA)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mcdonalds.sk</web>
+    <poznamka>SILNY CIEL; fransizant McDonald's; 3 prevadzky Trnava (Hlboka, Nova ul., Trstinska); ICO doplnit</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
+    <firma>COOP Jednota Trnava s.d.</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Trojicne namestie 9</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>viac gastro prevadzok v OD Jednota</velkost>
+    <telefon>033/324 58 00</telefon>
+    <email></email>
+    <web>odjednota.sk</web>
+    <poznamka>2 kaviarne, asijska restauracia, bistro, jedalen Best Food; ICO druzstva doplnit</poznamka>
+    <gps lat="48.3774728" lon="17.5874502"/>
+  </prevadzka>
+</gastro_databaza>

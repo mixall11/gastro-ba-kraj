@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gastro mapa — Bratislavský kraj</title>
+<title>Gastro mapa — BA + TT kraj</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
@@ -26,9 +26,12 @@
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
   #search{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
   #search::placeholder{color:var(--muted)}
+  .seg{display:flex;gap:6px}
+  .seg button{flex:1;padding:9px 6px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:13px;font-weight:600;cursor:pointer}
+  .seg button.on{background:#0ea5e9;border-color:#0ea5e9;color:#fff}
   .btn{width:100%;padding:10px;border-radius:8px;border:0;background:#0ea5e9;color:#fff;font-size:14px;font-weight:600;cursor:pointer;margin-top:8px}
   .btn:hover{background:#0284c7}
-  .btn.sec{background:var(--bg);border:1px solid var(--panel2);color:var(--text);font-weight:500}
+  .stats{font-size:13px;color:#7dd3fc;margin-top:9px;min-height:18px;line-height:1.4}
   .leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.5}
   .pop-name{font-weight:700;font-size:14px;color:#0f172a;margin-bottom:6px}
   .pop-badge{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#fff;padding:2px 7px;border-radius:20px;margin-bottom:8px}
@@ -39,14 +42,23 @@
   .pop-nav{display:inline-block;margin-top:7px;background:#0ea5e9;color:#fff!important;padding:6px 10px;border-radius:6px;font-weight:600}
   footer{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.5}
   footer a{color:#38bdf8;text-decoration:none}
-  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:46vh}}
+  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:48vh}}
 </style>
 </head>
 <body>
 <div id="app">
   <div id="sidebar">
-    <h1>🍽️ Gastro mapa — BA kraj</h1>
+    <h1>🍽️ Gastro mapa — BA + TT kraj</h1>
     <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
+
+    <div class="box">
+      <h2>Kraj</h2>
+      <div class="seg" id="kraje">
+        <button data-k="BA">BA kraj</button>
+        <button data-k="TT">TT kraj</button>
+        <button data-k="ALL" class="on">Oba</button>
+      </div>
+    </div>
 
     <div class="box">
       <h2>Hľadať</h2>
@@ -69,15 +81,16 @@
 
     <div class="box">
       <h2>Trasa &amp; navigácia</h2>
-      <label class="row"><input type="checkbox" id="showRoute"> 🛣️ Zobraziť trasu objazdu (čiara)</label>
-      <div class="sub" style="margin:6px 0 0;font-size:12px">Trasa vedie zo štartu (Petržalka) cez viditeľné body. Vyfiltruj kategóriu/okres pre kratší okruh.</div>
+      <label class="row"><input type="checkbox" id="showRoute"> 🚗 Trasa autom po ceste (optimalizovaná)</label>
+      <div class="sub" style="margin:6px 0 0;font-size:12px">Reálna cesta po cestách zo štartu cez viditeľné body, poradie optimalizované na najkratšiu jazdu. Vyfiltruj okres/kategóriu pre kratší okruh.</div>
+      <div class="stats" id="routeStats"></div>
       <button class="btn" onclick="openGmaps()">🧭 Otvoriť trasu v Google Maps</button>
     </div>
 
     <footer>
-      Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap.<br>
+      Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap · letecké dlaždice Esri.<br>
       Dáta orientačné — pred oslovením over kontakt.<br>
-      Export: <a href="gastro-databaza-BA-kraj.xml">XML</a> · <a href="gastro-databaza-BA-kraj.csv">CSV</a> · <a href="roadmapa-auto.md">roadmapa</a>
+      Export: <a href="gastro-databaza-BA-kraj.csv">BA CSV</a> · <a href="gastro-databaza-TT-kraj.csv">TT CSV</a> · <a href="gastro-databaza-BA-kraj.xml">BA XML</a> · <a href="gastro-databaza-TT-kraj.xml">TT XML</a> · <a href="roadmapa-auto.md">roadmapa BA</a> · <a href="roadmapa-auto-TT.md">roadmapa TT</a>
     </footer>
   </div>
   <div id="map"></div>
@@ -95,12 +108,27 @@ const LABEL={
   'Catering dodavatel':'Catering / firemné stravovanie','Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa',
   'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
   'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)'};
-const START={lat:48.118,lon:17.107}; // Petržalka
+const STARTS={
+  BA:{lat:48.118,lon:17.107,name:'Bratislava-Petržalka'},
+  TT:{lat:48.3774,lon:17.5877,name:'Trnava — centrum'}};
+const VIEWS={BA:{c:[48.16,17.12],z:11}, TT:{c:[48.45,17.55],z:9}};
+const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
-const map=L.map('map',{scrollWheelZoom:true}).setView([48.16,17.12],11);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
+let currentKraj='ALL';
+function startKraj(){return currentKraj==='TT'?'TT':'BA';}
+function curStart(){return STARTS[startKraj()];}
 
-L.marker([START.lat,START.lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b><br>Petržalka');
+// --- vrstvy: mapa + letecky rezim ---
+const street=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'});
+const esriImg=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  {maxZoom:19,attribution:'Dlaždice &copy; Esri, Maxar, Earthstar Geographics'});
+const esriRef=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19});
+const aerial=L.layerGroup([esriImg,esriRef]);
+
+const map=L.map('map',{scrollWheelZoom:true,layers:[street]}).setView([48.2,17.3],9);
+L.control.layers({'🗺️ Mapa':street,'🛰️ Letecký':aerial},null,{position:'topright',collapsed:false}).addTo(map);
+
+const startMarker=L.marker([STARTS.BA.lat,STARTS.BA.lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b>');
 
 const seen={};
 function jitter(la,lo){
@@ -113,8 +141,8 @@ function jitter(la,lo){
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function popup(d){
   let h=`<div class="pop-name">${esc(d.firma)}</div>`;
-  h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]}</span>`;
-  h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)}</div>`;
+  h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]} · ${d.kraj}</span>`;
+  h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
   if(d.velkost) h+=`<div class="pop-size">📊 ${esc(d.velkost)}</div>`;
   if(d.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(d.tel).replace(/\s/g,'')}">${esc(d.tel)}</a></div>`;
   if(d.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(d.email)}">${esc(d.email)}</a></div>`;
@@ -133,18 +161,24 @@ GASTRO_DATA.forEach(d=>{
   m._d=d; markers.push(m); m.addTo(map);
 });
 document.getElementById('total').textContent=markers.length;
+const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 
-// okresné filtre
-[...new Set(GASTRO_DATA.map(d=>d.okres))].sort().forEach(o=>{
-  document.getElementById('okresy').insertAdjacentHTML('beforeend',
-    `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`);
-});
+// --- okresne filtre (podla kraja) ---
+function buildOkresy(){
+  const box=document.getElementById('okresy'); box.innerHTML='';
+  const oks=[...new Set(GASTRO_DATA.filter(d=>currentKraj==='ALL'||d.kraj===currentKraj).map(d=>d.okres))].sort();
+  oks.forEach(o=>box.insertAdjacentHTML('beforeend',
+    `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
+  box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
+}
 
-// --- trasa (nearest-neighbor zo štartu) ---
-let routeLine=null;
+// --- trasa po ceste (OSRM trip = optimalizacia poradia + cesta) ---
+let routeLayer=null, lastOrder=null;
+const routeChk=document.getElementById('showRoute');
+function setStats(t){document.getElementById('routeStats').textContent=t;}
 function visibleData(){return markers.filter(m=>map.hasLayer(m)).map(m=>m._d);}
-function routeOrder(pts){
-  const rem=pts.slice(),route=[]; let cur=START;
+function nnOrder(pts,start){
+  const rem=pts.slice(),route=[]; let cur=start;
   while(rem.length){
     let bi=0,bd=Infinity;
     rem.forEach((p,i)=>{const dx=p.lat-cur.lat,dy=p.lon-cur.lon,d=dx*dx+dy*dy;if(d<bd){bd=d;bi=i;}});
@@ -152,21 +186,49 @@ function routeOrder(pts){
   }
   return route;
 }
-function drawRoute(){
-  if(routeLine){map.removeLayer(routeLine);routeLine=null;}
-  if(!document.getElementById('showRoute').checked) return;
-  const ord=routeOrder(visibleData());
-  if(!ord.length) return;
-  const ll=[[START.lat,START.lon],...ord.map(p=>[p.lat,p.lon])];
-  routeLine=L.polyline(ll,{color:'#0284c7',weight:3,opacity:.75,dashArray:'7,9'}).addTo(map);
+async function osrmTrip(start,pts){
+  const coords=[start,...pts].map(p=>`${p.lon},${p.lat}`).join(';');
+  const url=`https://router.project-osrm.org/trip/v1/driving/${coords}?source=first&roundtrip=false&geometries=geojson&overview=full`;
+  const res=await fetch(url);
+  const j=await res.json();
+  if(j.code!=='Ok'||!j.trips||!j.trips[0]) throw new Error(j.message||'no route');
+  const wp=j.waypoints;
+  const order=pts.map((p,i)=>({p,idx:wp[i+1].waypoint_index})).sort((a,b)=>a.idx-b.idx).map(o=>o.p);
+  return {geom:j.trips[0].geometry,dist:j.trips[0].distance,dur:j.trips[0].duration,order};
+}
+async function drawRoute(){
+  if(routeLayer){map.removeLayer(routeLayer);routeLayer=null;}
+  lastOrder=null; setStats('');
+  if(!routeChk.checked) return;
+  const start=curStart();
+  let pts=visibleData();
+  if(!pts.length){setStats('Žiadne viditeľné prevádzky.');return;}
+  let capped=0;
+  if(pts.length>OSRM_MAX){capped=pts.length;pts=nnOrder(pts,start).slice(0,OSRM_MAX);}
+  setStats('Počítam trasu po ceste…');
+  try{
+    const r=await osrmTrip(start,pts);
+    if(!routeChk.checked) return;
+    routeLayer=L.geoJSON(r.geom,{style:{color:'#0284c7',weight:4,opacity:.8}}).addTo(map);
+    lastOrder=r.order;
+    const km=(r.dist/1000).toFixed(0), h=Math.floor(r.dur/3600), m=Math.round((r.dur%3600)/60);
+    setStats(`🚗 ${km} km · ~${h?h+' h ':''}${m} min · ${r.order.length} zastávok`+(capped?` (orez z ${capped} na ${OSRM_MAX})`:''));
+  }catch(e){
+    const ord=nnOrder(pts,start);
+    routeLayer=L.polyline([[start.lat,start.lon],...ord.map(p=>[p.lat,p.lon])],
+      {color:'#f59e0b',weight:3,opacity:.7,dashArray:'7,9'}).addTo(map);
+    lastOrder=ord;
+    setStats('⚠️ Routing dočasne nedostupný — orientačná čiara. Skús znova.');
+  }
 }
 function openGmaps(){
-  const ord=routeOrder(visibleData());
+  const start=curStart();
+  const ord=(routeChk.checked&&lastOrder)?lastOrder:nnOrder(visibleData(),start);
   if(!ord.length){alert('Žiadne viditeľné prevádzky.');return;}
   const stops=ord.slice(0,10);
   const dest=stops[stops.length-1];
   const wps=stops.slice(0,-1).map(p=>p.lat+','+p.lon).join('|');
-  let u='https://www.google.com/maps/dir/?api=1&origin='+START.lat+','+START.lon+'&destination='+dest.lat+','+dest.lon+'&travelmode=driving';
+  let u='https://www.google.com/maps/dir/?api=1&origin='+start.lat+','+start.lon+'&destination='+dest.lat+','+dest.lon+'&travelmode=driving';
   if(wps) u+='&waypoints='+encodeURIComponent(wps);
   window.open(u,'_blank');
   if(ord.length>10) setTimeout(()=>alert('Google Maps zvládne ~10 zastávok. Otvorených prvých 10 z '+ord.length+'. Pre presný objazd vyfiltruj okres alebo kategóriu.'),300);
@@ -179,17 +241,33 @@ function apply(){
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit=kats.includes(d.kat)&&oks.includes(d.okres)&&(!q||(d.firma+' '+d.mesto+' '+d.adresa).toLowerCase().includes(q));
+    const hit=(currentKraj==='ALL'||d.kraj===currentKraj)&&kats.includes(d.kat)&&oks.includes(d.okres)
+      &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
   });
   document.getElementById('count').textContent=n;
   drawRoute();
 }
-document.querySelectorAll('.fkat,.fok').forEach(c=>c.addEventListener('change',apply));
+
+function setKraj(k){
+  currentKraj=k;
+  document.querySelectorAll('#kraje button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
+  const s=curStart();
+  startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
+  buildOkresy();
+  apply();
+  if(k==='ALL') map.fitBounds(allBounds.pad(0.05));
+  else { const v=VIEWS[k]; map.setView(v.c,v.z); }
+}
+
+document.querySelectorAll('#kraje button').forEach(b=>b.addEventListener('click',()=>setKraj(b.dataset.k)));
+document.querySelectorAll('.fkat').forEach(c=>c.addEventListener('change',apply));
 document.getElementById('search').addEventListener('input',apply);
-document.getElementById('showRoute').addEventListener('change',drawRoute);
-apply();
+routeChk.addEventListener('change',drawRoute);
+
+buildOkresy();
+setKraj('ALL');
 </script>
 </body>
 </html>

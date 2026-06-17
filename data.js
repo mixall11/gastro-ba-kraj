@@ -1,5 +1,6 @@
 const GASTRO_DATA = [
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "MENju s.r.o.",
   "ico": "53455339",
@@ -16,6 +17,7 @@ const GASTRO_DATA = [
   "lon": 17.1654827
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "TOMIR s.r.o. (MacoMenu)",
   "ico": "47981300",
@@ -32,6 +34,7 @@ const GASTRO_DATA = [
   "lon": 17.1664571
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "Manna Factory s.r.o.",
   "ico": "52941051",
@@ -48,6 +51,7 @@ const GASTRO_DATA = [
   "lon": 17.2114238
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "CATERINGOVE SLUZBY s.r.o. (123Catering)",
   "ico": "44745982",
@@ -64,6 +68,7 @@ const GASTRO_DATA = [
   "lon": 17.1095441
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "Smart Business Solutions s.r.o. (AMIS Group)",
   "ico": "47111925",
@@ -80,6 +85,7 @@ const GASTRO_DATA = [
   "lon": 17.1749469
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "Soupa s.r.o.",
   "ico": "43814336",
@@ -96,6 +102,7 @@ const GASTRO_DATA = [
   "lon": 17.1029415
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "ROXY CATERING s.r.o.",
   "ico": "36701661",
@@ -112,6 +119,7 @@ const GASTRO_DATA = [
   "lon": 17.150143
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "PAPA GRILL s.r.o. (+ Royal Catering)",
   "ico": "45689679",
@@ -128,6 +136,7 @@ const GASTRO_DATA = [
   "lon": 17.0373725
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "CITY GASTRO a.s.",
   "ico": "46323279",
@@ -144,6 +153,7 @@ const GASTRO_DATA = [
   "lon": 17.1245613
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "ALDENTE s.r.o. (Bencik Culinary Group)",
   "ico": "35882841",
@@ -160,6 +170,7 @@ const GASTRO_DATA = [
   "lon": 17.1078921
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "Medusa Restaurants a.s. (Medusa Catering)",
   "ico": "35849592",
@@ -176,6 +187,7 @@ const GASTRO_DATA = [
   "lon": 17.1273748
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "SKGastro",
   "ico": "doplnit ORSR",
@@ -192,6 +204,7 @@ const GASTRO_DATA = [
   "lon": 17.1093063
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "Catering Bratislava",
   "ico": "doplnit ORSR",
@@ -208,6 +221,7 @@ const GASTRO_DATA = [
   "lon": 17.176006
  },
  {
+  "kraj": "BA",
   "kat": "Catering dodavatel",
   "firma": "GASTRO-CENTRUM Antovszky s.r.o.",
   "ico": "31402666",
@@ -224,6 +238,7 @@ const GASTRO_DATA = [
   "lon": 17.1987878
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "Delirest Slovakia s.r.o. (brand EUREST)",
   "ico": "31342809",
@@ -240,6 +255,7 @@ const GASTRO_DATA = [
   "lon": 17.143422
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "FOOD TIME s.r.o.",
   "ico": "52079881",
@@ -256,6 +272,7 @@ const GASTRO_DATA = [
   "lon": 17.0444471
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "GTH catering s.r.o. (ex-Sodexo)",
   "ico": "35728434",
@@ -272,6 +289,7 @@ const GASTRO_DATA = [
   "lon": 17.140156
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "SHARKAM B&B Catering s.r.o.",
   "ico": "46844341",
@@ -288,6 +306,7 @@ const GASTRO_DATA = [
   "lon": 17.1152978
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "RC Slovakia s.r.o. (SKIES Catering)",
   "ico": "35870362",
@@ -304,6 +323,7 @@ const GASTRO_DATA = [
   "lon": 17.140156
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "Timeout Catering s.r.o.",
   "ico": "55083561",
@@ -320,6 +340,7 @@ const GASTRO_DATA = [
   "lon": 17.4018888
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "PINO group s.r.o.",
   "ico": "44013141",
@@ -336,6 +357,7 @@ const GASTRO_DATA = [
   "lon": 17.1465294
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "Oldeji (J. Cerna Szalay, zivnost)",
   "ico": "32212721",
@@ -352,6 +374,7 @@ const GASTRO_DATA = [
   "lon": 17.1089883
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "ALFA FOOD vzs s.r.o.",
   "ico": "55167071",
@@ -368,6 +391,7 @@ const GASTRO_DATA = [
   "lon": 17.1112842
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "ProZeta s.r.o. (Happy Day Catering)",
   "ico": "36739499",
@@ -384,6 +408,7 @@ const GASTRO_DATA = [
   "lon": 17.2123351
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "TOVAR a SLUZBY s.r.o. (Jedlo Bratislava)",
   "ico": "51725053",
@@ -400,6 +425,7 @@ const GASTRO_DATA = [
   "lon": 17.1477295
  },
  {
+  "kraj": "BA",
   "kat": "Vyvaren / catering kuchyna",
   "firma": "OXA Delivery Service s.r.o.",
   "ico": "50293231",
@@ -416,6 +442,7 @@ const GASTRO_DATA = [
   "lon": 17.1703672
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Eat & Meet - Mlynska dolina (UK)",
   "ico": "",
@@ -432,6 +459,7 @@ const GASTRO_DATA = [
   "lon": 17.0678683
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Venza - Mlyny UK",
   "ico": "",
@@ -448,6 +476,7 @@ const GASTRO_DATA = [
   "lon": 17.06991
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Jedalen EUBA - Dolnozemska (City Gastro)",
   "ico": "",
@@ -464,6 +493,7 @@ const GASTRO_DATA = [
   "lon": 17.1323468
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Jedalen Mlada garda (STU)",
   "ico": "",
@@ -480,6 +510,7 @@ const GASTRO_DATA = [
   "lon": 17.1261017
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "UNB - Nemocnica Ruzinov",
   "ico": "",
@@ -496,6 +527,7 @@ const GASTRO_DATA = [
   "lon": 17.1519477
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "UNB - Nem. ak. L. Derera (Kramare)",
   "ico": "",
@@ -512,6 +544,7 @@ const GASTRO_DATA = [
   "lon": 17.0863257
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "UNB - Nem. sv. Cyrila a Metoda (Petrzalka)",
   "ico": "",
@@ -528,6 +561,7 @@ const GASTRO_DATA = [
   "lon": 17.1183618
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Narodny ustav srdc. a cievnych chorob (NUSCH)",
   "ico": "",
@@ -544,6 +578,7 @@ const GASTRO_DATA = [
   "lon": 17.0869479
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Narodny onkologicky ustav (NOU)",
   "ico": "",
@@ -560,6 +595,7 @@ const GASTRO_DATA = [
   "lon": 17.0894784
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Nemocnica sv. Michala",
   "ico": "",
@@ -576,6 +612,7 @@ const GASTRO_DATA = [
   "lon": 17.1175227
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Volkswagen Slovakia - zavodna jedalen",
   "ico": "",
@@ -592,6 +629,7 @@ const GASTRO_DATA = [
   "lon": 16.9817538
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Slovnaft - zavodna jedalen",
   "ico": "",
@@ -608,6 +646,7 @@ const GASTRO_DATA = [
   "lon": 17.176661
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Mondelez SR Production - kantina",
   "ico": "",
@@ -624,6 +663,7 @@ const GASTRO_DATA = [
   "lon": 17.1416428
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "La Cantina - Tatracentrum (Bencik)",
   "ico": "",
@@ -640,6 +680,7 @@ const GASTRO_DATA = [
   "lon": 17.1087896
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Food Season - Westend Square",
   "ico": "",
@@ -656,6 +697,7 @@ const GASTRO_DATA = [
   "lon": 17.0753887
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Canteen Priatelia - Westend Tower",
   "ico": "",
@@ -672,6 +714,7 @@ const GASTRO_DATA = [
   "lon": 17.0753887
  },
  {
+  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Fajne Jedlo - Tower 115",
   "ico": "",
@@ -688,6 +731,7 @@ const GASTRO_DATA = [
   "lon": 17.1273381
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Zylinder Cafe & Restaurant",
   "ico": "",
@@ -704,6 +748,7 @@ const GASTRO_DATA = [
   "lon": 17.1077327
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Restauracia Matysak (Vinny hotel)",
   "ico": "",
@@ -720,6 +765,7 @@ const GASTRO_DATA = [
   "lon": 17.2666299
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Bratislavsky mestiansky pivovar - Drevena",
   "ico": "",
@@ -736,6 +782,7 @@ const GASTRO_DATA = [
   "lon": 17.1081791
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Event Hall Malacky",
   "ico": "",
@@ -752,6 +799,7 @@ const GASTRO_DATA = [
   "lon": 17.0230915
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Bratislavsky mestiansky pivovar - Dunajska",
   "ico": "",
@@ -768,6 +816,7 @@ const GASTRO_DATA = [
   "lon": 17.1176901
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "ELESKO Wine Park (Restaurant & Wine bar)",
   "ico": "",
@@ -784,6 +833,7 @@ const GASTRO_DATA = [
   "lon": 17.3219993
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Slovak Pub",
   "ico": "",
@@ -800,6 +850,7 @@ const GASTRO_DATA = [
   "lon": 17.1124098
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "NH Bratislava Gate One",
   "ico": "",
@@ -816,6 +867,7 @@ const GASTRO_DATA = [
   "lon": 17.1774457
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Holiday Inn Bratislava",
   "ico": "",
@@ -832,6 +884,7 @@ const GASTRO_DATA = [
   "lon": 17.1488827
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Dunajsky pivovar (lod/botel)",
   "ico": "",
@@ -848,6 +901,7 @@ const GASTRO_DATA = [
   "lon": 17.1132834
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Hotel Saffron",
   "ico": "",
@@ -864,6 +918,7 @@ const GASTRO_DATA = [
   "lon": 17.117072
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Radisson Blu Carlton",
   "ico": "",
@@ -880,6 +935,7 @@ const GASTRO_DATA = [
   "lon": 17.1085808
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Hotel Senec (Lake & Aqua Resort)",
   "ico": "",
@@ -896,6 +952,7 @@ const GASTRO_DATA = [
   "lon": 17.4005824
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Sheraton Bratislava",
   "ico": "",
@@ -912,6 +969,7 @@ const GASTRO_DATA = [
   "lon": 17.1223178
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Park Inn by Radisson Danube",
   "ico": "",
@@ -928,6 +986,7 @@ const GASTRO_DATA = [
   "lon": 17.1050761
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Falkensteiner Hotel Bratislava",
   "ico": "",
@@ -944,6 +1003,7 @@ const GASTRO_DATA = [
   "lon": 17.1034683
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Grand Hotel River Park (Luxury Collection)",
   "ico": "",
@@ -960,6 +1020,7 @@ const GASTRO_DATA = [
   "lon": 17.0903098
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Koliba Senec",
   "ico": "",
@@ -976,6 +1037,7 @@ const GASTRO_DATA = [
   "lon": 17.4005824
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Stara trznica",
   "ico": "",
@@ -992,6 +1054,7 @@ const GASTRO_DATA = [
   "lon": 17.1112785
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Restauracia Zeleny dvor",
   "ico": "",
@@ -1008,6 +1071,7 @@ const GASTRO_DATA = [
   "lon": 17.0201504
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Penzion Palenica",
   "ico": "",
@@ -1024,6 +1088,7 @@ const GASTRO_DATA = [
   "lon": 17.3000328
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "RIVERBANK Restaurant",
   "ico": "",
@@ -1040,6 +1105,7 @@ const GASTRO_DATA = [
   "lon": 17.0755555
  },
  {
+  "kraj": "BA",
   "kat": "Velka restauracia / banketova sala",
   "firma": "Hotel Nostalgia",
   "ico": "",
@@ -1056,6 +1122,7 @@ const GASTRO_DATA = [
   "lon": 17.3969901
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "KRUH remeselna pekaren (Kruh remeselna vyroba s.r.o.)",
   "ico": "47762799",
@@ -1072,6 +1139,7 @@ const GASTRO_DATA = [
   "lon": 17.1307846
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Triple Five Coffee",
   "ico": "47117311",
@@ -1088,6 +1156,7 @@ const GASTRO_DATA = [
   "lon": 17.1096081
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Fresh Garden Salads (FRESH GARDEN s.r.o.)",
   "ico": "45522464",
@@ -1104,6 +1173,7 @@ const GASTRO_DATA = [
   "lon": 17.1419155
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Pulitzer family (RIVAS s.r.o.)",
   "ico": "35946008",
@@ -1120,6 +1190,7 @@ const GASTRO_DATA = [
   "lon": 17.0408338
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Domino's Pizza (APIM Gastro s.r.o.)",
   "ico": "50616951",
@@ -1136,6 +1207,7 @@ const GASTRO_DATA = [
   "lon": 17.1419539
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "EDO-KIN GROUP s.r.o.",
   "ico": "46988882",
@@ -1152,6 +1224,7 @@ const GASTRO_DATA = [
   "lon": 17.2137098
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Coffeeshop Company CEE s.r.o.",
   "ico": "35689498",
@@ -1168,6 +1241,7 @@ const GASTRO_DATA = [
   "lon": 17.132832
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Regal Burger s.r.o.",
   "ico": "47581930",
@@ -1184,6 +1258,7 @@ const GASTRO_DATA = [
   "lon": 17.1093063
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Bevanda",
   "ico": "doplnit",
@@ -1200,6 +1275,7 @@ const GASTRO_DATA = [
   "lon": 17.153861
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Mondieu (MONDIEU BRATISLAVA s.r.o.)",
   "ico": "47114533",
@@ -1216,6 +1292,7 @@ const GASTRO_DATA = [
   "lon": 17.1310655
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Veg Life s.r.o.",
   "ico": "46880526",
@@ -1232,6 +1309,7 @@ const GASTRO_DATA = [
   "lon": 17.0712854
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "SPUSTA Kaviaren & Pekaren",
   "ico": "31640826",
@@ -1248,6 +1326,7 @@ const GASTRO_DATA = [
   "lon": 17.1081707
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Minit Bakery (MINIT SLOVAKIA spol. s r.o.)",
   "ico": "17053897",
@@ -1264,6 +1343,7 @@ const GASTRO_DATA = [
   "lon": 17.1093063
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "AmRest Coffee SK s.r.o. (Starbucks)",
   "ico": "50088971",
@@ -1280,6 +1360,7 @@ const GASTRO_DATA = [
   "lon": 17.1029997
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Queensway Restaurants Slovakia s.r.o. (KFC + Pizza Hut)",
   "ico": "35852143",
@@ -1296,6 +1377,7 @@ const GASTRO_DATA = [
   "lon": 17.1151016
  },
  {
+  "kraj": "BA",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "McDonald's Slovakia spol. s r.o.",
   "ico": "31392229",
@@ -1310,5 +1392,838 @@ const GASTRO_DATA = [
   "pozn": "NAJVACSI retazec; +Pezinok",
   "lat": 48.1314358,
   "lon": 17.100331
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Frape catering s.r.o.",
+  "ico": "44178450",
+  "adresa": "Pekarska 40",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "trzby 3,6 mil EUR (2025), 10-19 zam",
+  "tel": "033/293 33 22",
+  "email": "mail@frape-catering.sk",
+  "web": "frape-catering.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; konatel D. Schmidt 0903 246 244",
+  "lat": 48.3789303,
+  "lon": 17.5862883
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Catering Majernik s.r.o.",
+  "ico": "50803549",
+  "adresa": "Slnecna 6",
+  "mesto": "Vrbove",
+  "okres": "Piestany",
+  "velkost": "trzby 2-3 mil EUR (2025), 20-24 zam",
+  "tel": "",
+  "email": "",
+  "web": "",
+  "zona": "T3",
+  "pozn": "SILNY CIEL; rodinny catering 20+ rokov, zavodne stravovanie Vrbove/Piestany/Trnava",
+  "lat": 48.6238782,
+  "lon": 17.7167624
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "La Cantine (cantineparty)",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "catering oblozene/party misy, firemne aj sukromne akcie",
+  "tel": "",
+  "email": "",
+  "web": "cantineparty.sk",
+  "zona": "T1",
+  "pozn": "cateringova firma Trnava; ICO + adresa doplnit ORSR",
+  "lat": 48.374218,
+  "lon": 17.5809299
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Catering Relax Trnava",
+  "ico": "doplnit ORSR",
+  "adresa": "Piestanska 3",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "rozvoz stravy pre firmy, denne menu, catering podujati",
+  "tel": "",
+  "email": "",
+  "web": "",
+  "zona": "T1",
+  "pozn": "over ci nie je prepojeny s TOP-RELAX brand; ICO doplnit",
+  "lat": 48.384791,
+  "lon": 17.6005036
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "SEDA Catering (Katarina Sediva)",
+  "ico": "54787572",
+  "adresa": "Petrovska 4",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "SZCO; catering svadby/firemne, okres Skalica + Senica",
+  "tel": "",
+  "email": "info@sedacatering.sk",
+  "web": "sedacatering.sk",
+  "zona": "T5",
+  "pozn": "mensia kapacita",
+  "lat": 48.848089,
+  "lon": 17.2390985
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "LARK - CATERING s.r.o.",
+  "ico": "46939342",
+  "adresa": "Pod Hajkom 2",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "pekarska/cukrarska vyroba + catering + teple jedla",
+  "tel": "034 664 5164",
+  "email": "sikulova@larksro.sk",
+  "web": "larkskalica.sk",
+  "zona": "T5",
+  "pozn": "SILNY CIEL; catering + vlastna vyroba, vyssi objem surovin",
+  "lat": 48.8385401,
+  "lon": 17.2297234
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Kralovsky Catering",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "premium catering svadby/firemne od 15 osob",
+  "tel": "0910 646 604",
+  "email": "info@kralovskycatering.sk",
+  "web": "kralovskycatering.sk",
+  "zona": "T5",
+  "pozn": "regionalny hrac Skalica + Senica; ICO doplnit",
+  "lat": 48.8461007,
+  "lon": 17.2287837
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Catering 4 Events",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "catering festivaly/plesy/svadby + prenajom stanov",
+  "tel": "",
+  "email": "",
+  "web": "catering4events.sk",
+  "zona": "T3",
+  "pozn": "eventovy catering, sezonny vyssi objem",
+  "lat": 48.5895247,
+  "lon": 17.8213848
+ },
+ {
+  "kraj": "TT",
+  "kat": "Catering dodavatel",
+  "firma": "Catering Piestany",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "sala 280 m2, kapacita 150 osob; catering",
+  "tel": "",
+  "email": "",
+  "web": "cateringpiestany.sk",
+  "zona": "T3",
+  "pozn": "vlastny party priestor + catering",
+  "lat": 48.5895247,
+  "lon": 17.8213848
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "TOP-RELAX s.r.o.",
+  "ico": "36836061",
+  "adresa": "Rybnikova 16",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "trzby 10,0 mil EUR (2025), 150-199 zam",
+  "tel": "",
+  "email": "",
+  "web": "top-relax.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; zavodne stravovanie, vending, dovoz jedal; prevadzkuje jedalen UCM",
+  "lat": 48.3826049,
+  "lon": 17.5848061
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Grand Gastro s.r.o.",
+  "ico": "50601237",
+  "adresa": "29. augusta 9",
+  "mesto": "Galanta",
+  "okres": "Galanta",
+  "velkost": "trzby 4,41 mil EUR (2024), 50-99 zam",
+  "tel": "",
+  "email": "",
+  "web": "grandgastro.sk",
+  "zona": "T7",
+  "pozn": "SILNY CIEL; dodavatel zavodneho a skolskeho stravovania, 30+ rokov; pozn. mala strata + nedoplatky 2024",
+  "lat": 48.1868596,
+  "lon": 17.7223147
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Gastro DS s.r.o.",
+  "ico": "50808478",
+  "adresa": "Alzbetinske namestie 1203",
+  "mesto": "Dunajska Streda",
+  "okres": "Dunajska Streda",
+  "velkost": "trzby 2,28 mil EUR (2025), 50-99 zam",
+  "tel": "+421 31 286 50 48",
+  "email": "gastrods@dunstreda.sk",
+  "web": "gastrods.sk",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; mestska firma, skolske jedalne vsetkych ZS/MS/gymnazii DS",
+  "lat": 47.9962553,
+  "lon": 17.6143437
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Gastro-Tief s.r.o.",
+  "ico": "47345195",
+  "adresa": "Tamaskovicova 13",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "trzby 0,25 mil EUR (2025), 10-19 zam",
+  "tel": "0919 300 140",
+  "email": "tief@tief.sk",
+  "web": "tief.sk",
+  "zona": "T1",
+  "pozn": "rozvoz hotovych jedal Trnava; mensia kapacita",
+  "lat": 48.3672675,
+  "lon": 17.5959372
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "IN-food-catering s.r.o.",
+  "ico": "53118839",
+  "adresa": "Abraham 452",
+  "mesto": "Abraham",
+  "okres": "Galanta",
+  "velkost": "trzby 0,46 mil EUR (2025), 5-9 zam",
+  "tel": "",
+  "email": "",
+  "web": "",
+  "zona": "T7",
+  "pozn": "restauracne cinnosti + catering",
+  "lat": 48.2479831,
+  "lon": 17.6194193
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Robert Csoka - RODETT",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Luc na Ostrove",
+  "okres": "Dunajska Streda",
+  "velkost": "SZCO; vyroba a rozvoz teplych jedal od 1997",
+  "tel": "",
+  "email": "",
+  "web": "rodett.sk",
+  "zona": "T6",
+  "pozn": "rozvoz DS/Velky Meder/Samorin + catering; ICO SZCO doplnit",
+  "lat": 47.9754375,
+  "lon": 17.5224297
+ },
+ {
+  "kraj": "TT",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Grand Gastro Catering s.r.o.",
+  "ico": "50770667",
+  "adresa": "doplnit",
+  "mesto": "Galanta",
+  "okres": "Galanta",
+  "velkost": "prepojena firma ku Grand Gastro",
+  "tel": "",
+  "email": "",
+  "web": "grandgastro.sk",
+  "zona": "T7",
+  "pozn": "sesterska firma zavodne stravovanie; trzby/adresa over FinStat",
+  "lat": 48.1910498,
+  "lon": 17.7270629
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "PCA Slovakia s.r.o. (Stellantis Trnava)",
+  "ico": "36256013",
+  "adresa": "Automobilova 1",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "zavodna jedalen 4000-4999 zam, trzby 2,03 mld EUR (2024)",
+  "tel": "",
+  "email": "",
+  "web": "stellantis-slovakia.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu (automobilka); operator jedalne neovereny",
+  "lat": 48.362353,
+  "lon": 17.6192737
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Fakultna nemocnica Trnava",
+  "ico": "00610381",
+  "adresa": "A. Zarnova 11",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "vlastna kuchyna, 641 luzok, 1000-1999 zam",
+  "tel": "033/5938111",
+  "email": "fntt@fntt.sk",
+  "web": "fntt.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; nemocnicna kuchyna pacienti + personal; verejny obstaravatel",
+  "lat": 48.374218,
+  "lon": 17.5809299
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Saneca Pharmaceuticals a.s.",
+  "ico": "46833323",
+  "adresa": "Nitrianska 100",
+  "mesto": "Hlohovec",
+  "okres": "Hlohovec",
+  "velkost": "500-999 zam (~800), trzby 108,8 mil EUR (2025)",
+  "tel": "",
+  "email": "info@saneca.com",
+  "web": "saneca.com",
+  "zona": "T2",
+  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Hlohovec (byv. Slovakofarma/Zentiva areal)",
+  "lat": 48.4214265,
+  "lon": 17.8147037
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "ZF SACHS Slovakia a.s.",
+  "ico": "doplnit ORSR",
+  "adresa": "Strojarenska 2",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "~3100 zam, zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "zf.com",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; automotive priem. park Trnava; ICO doplnit ORSR",
+  "lat": 48.3567915,
+  "lon": 17.5706494
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Univerzita sv. Cyrila a Metoda (UCM)",
+  "ico": "36078913",
+  "adresa": "Namestie J. Herdu 2",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "studentska jedalen; catering prevadzkuje TOP-RELAX",
+  "tel": "033/5565111",
+  "email": "",
+  "web": "ucm.sk",
+  "zona": "T1",
+  "pozn": "objednavatel; dodavatela jedla riesi TOP-RELAX",
+  "lat": 48.374218,
+  "lon": 17.5809299
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Trnavska univerzita (TRUNI)",
+  "ico": "31825249",
+  "adresa": "Hornopotocna 23",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "studentska jedalen, koncesia na prevadzku",
+  "tel": "033/5939111",
+  "email": "",
+  "web": "truni.sk",
+  "zona": "T1",
+  "pozn": "stravovanie cez externeho prevadzkovatela; ICO over ORSR",
+  "lat": 48.379698,
+  "lon": 17.58686
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "SAMSUNG Electronics Slovakia s.r.o.",
+  "ico": "36249564",
+  "adresa": "Hviezdoslavova 807",
+  "mesto": "Galanta",
+  "okres": "Galanta",
+  "velkost": "trzby 1,77 mld EUR (2024); velka zavodna jedalen, tisice cez agentury",
+  "tel": "031 7882111",
+  "email": "sesk@samsung.com",
+  "web": "samsung.com/sk",
+  "zona": "T7",
+  "pozn": "SILNY CIEL; najvacsia fabrika regionu; over operatora jedalne",
+  "lat": 48.1860755,
+  "lon": 17.7337498
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Sv. Lukasa Galanta a.s.",
+  "ico": "44452519",
+  "adresa": "Hodska 38",
+  "mesto": "Galanta",
+  "okres": "Galanta",
+  "velkost": "447 lozok, ~649 zam",
+  "tel": "",
+  "email": "",
+  "web": "pentahospitals.sk",
+  "zona": "T7",
+  "pozn": "SILNY CIEL; nemocnicna kuchyna; siet Svet zdravia/Penta",
+  "lat": 48.1957203,
+  "lon": 17.7213597
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "NsP Dunajska Streda a.s.",
+  "ico": "44455356",
+  "adresa": "Velkoblahovska 23",
+  "mesto": "Dunajska Streda",
+  "okres": "Dunajska Streda",
+  "velkost": "~244 lozok; Svet zdravia/Penta",
+  "tel": "",
+  "email": "",
+  "web": "pentahospitals.sk",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; nemocnicna kuchyna; over interny vs cateringovy model",
+  "lat": 48.0009648,
+  "lon": 17.6046308
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Schaeffler Skalica spol. s r.o.",
+  "ico": "30998140",
+  "adresa": "Dr. G. Schaefflera 1",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "trzby 455,1 mil EUR (2024), 3000-3999 zam",
+  "tel": "034 696 1111",
+  "email": "",
+  "web": "schaeffler.sk",
+  "zona": "T5",
+  "pozn": "SILNY CIEL; fabrika, velka zavodna jedalen, tisice obedov/den (byv. INA Skalica)",
+  "lat": 48.8497319,
+  "lon": 17.2116194
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Fakultna nemocnica AGEL Skalica a.s.",
+  "ico": "44444761",
+  "adresa": "Koreszkova 7",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "spadova oblast 120000+; lozkova nemocnica",
+  "tel": "034 6212 111",
+  "email": "",
+  "web": "nemocnicaskalica.agel.sk",
+  "zona": "T5",
+  "pozn": "SILNY CIEL; nemocnicna prevadzka; skupina AGEL",
+  "lat": 48.8440909,
+  "lon": 17.2269808
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Alexandra Wintera n.o.",
+  "ico": "36084221",
+  "adresa": "Winterova 66",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "lozkova nemocnica Piestany, pacienti + personal",
+  "tel": "033 7955 111",
+  "email": "",
+  "web": "nawpiestany.sk",
+  "zona": "T3",
+  "pozn": "SILNY CIEL; nemocnicna kuchyna, stabilny denny objem",
+  "lat": 48.5880562,
+  "lon": 17.8381581
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Mestska poliklinika Senica a.s.",
+  "ico": "36273074",
+  "adresa": "Sotinska 1",
+  "mesto": "Senica",
+  "okres": "Senica",
+  "velkost": "poliklinika; ambulantne + lozkove sluzby",
+  "tel": "034 698 7111",
+  "email": "",
+  "web": "poliklinikase.sk",
+  "zona": "T4",
+  "pozn": "Senica nema lozkovu nemocnicu, spada pod FN AGEL Skalica; stredny objem",
+  "lat": 48.6883138,
+  "lon": 17.372334
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "OMS a.s.",
+  "ico": "34132333",
+  "adresa": "Dojc 419",
+  "mesto": "Dojc",
+  "okres": "Senica",
+  "velkost": "~2,9 mil EUR; historicky ~950 zam, vyrobca svietidiel",
+  "tel": "034 694 0411",
+  "email": "",
+  "web": "oms.eu",
+  "zona": "T4",
+  "pozn": "vyrobny zavod s jedalnou; firma v restrukturalizacii; over aktualny pocet zam",
+  "lat": 48.6771217,
+  "lon": 17.254151
+ },
+ {
+  "kraj": "TT",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Slovenske liecebne kupele Piestany a.s.",
+  "ico": "34144790",
+  "adresa": "Winterova 29",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "trzby 51,4 mil EUR; hotely Thermia Palace/Esplanade/Splendid/Grand, tisice stravnikov/den",
+  "tel": "033 775 7733",
+  "email": "spa@ensanahotels.com",
+  "web": "ensanahotels.com/sk",
+  "zona": "T3",
+  "pozn": "SILNY CIEL; najvacsi prevadzkovatel stravovania v kraji, vlastne kuchyne + liecebna vyziva",
+  "lat": 48.5894483,
+  "lon": 17.8364459
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Sladovna SESSLER a.s.",
+  "ico": "36253774",
+  "adresa": "Pri Kalvarii 17",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "svadobna sala 120 (200 m2), restauracia + minipivovar + penzion + kongres",
+  "tel": "",
+  "email": "",
+  "web": "sessler.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; komplex s vlastnou varnou kapacitou, eventovy priestor",
+  "lat": 48.3889107,
+  "lon": 17.5760428
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Jaster s.r.o.",
+  "ico": "36708364",
+  "adresa": "Stara hora 1",
+  "mesto": "Hlohovec",
+  "okres": "Hlohovec",
+  "velkost": "restauracia 230 miest, sala 80-150, 2 vinarne 2x50",
+  "tel": "033/7424862",
+  "email": "tutura.pavol@gmail.com",
+  "web": "jaster-hlohovec.sk",
+  "zona": "T2",
+  "pozn": "SILNY CIEL; najvacsi banketovy priestor okresu Hlohovec; majitel P. Tutura 0903473379",
+  "lat": 48.4497091,
+  "lon": 17.8114153
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Victoria Trnava",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "sala do 75 + terasy 40, eventova restauracia svadby/firmy",
+  "tel": "",
+  "email": "",
+  "web": "victoriatrnava.sk",
+  "zona": "T1",
+  "pozn": "mensia kapacita; ICO doplnit",
+  "lat": 48.374218,
+  "lon": 17.5809299
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Magnolia Piestany",
+  "ico": "doplnit ORSR",
+  "adresa": "Nalepkova 1",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "121 izieb, restauracia 140 + kongresova sala + 2 salonky",
+  "tel": "033 762 6251",
+  "email": "recepcia@hotelmagnolia.sk",
+  "web": "hotelmagnolia.sk",
+  "zona": "T3",
+  "pozn": "SILNY CIEL; velka kongresova/eventova prevadzka; prevadzkovatel/ICO doplnit ORSR",
+  "lat": 48.5874545,
+  "lon": 17.8370356
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Park Piestany (Kupele)",
+  "ico": "doplnit ORSR",
+  "adresa": "Nabrezie I. Krasku 2",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "restauracia 150, kongresove saly, svadby/oslavy",
+  "tel": "033 775 5200",
+  "email": "",
+  "web": "hotelpark.sk",
+  "zona": "T3",
+  "pozn": "SILNY CIEL; banketove/svadobne + kongresy",
+  "lat": 48.595123,
+  "lon": 17.839952
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel sv. Ludmila Skalica",
+  "ico": "doplnit ORSR",
+  "adresa": "Tehelna 40",
+  "mesto": "Skalica",
+  "okres": "Skalica",
+  "velkost": "restauracia 70; 8 konf. sal ~600 m2, najvacsia do 165",
+  "tel": "0910 856 102",
+  "email": "info@hotelsvataludmila.sk",
+  "web": "hotelsvataludmila.sk",
+  "zona": "T5",
+  "pozn": "SILNY CIEL; svadby/firemne do 165, najvacsia eventova kapacita v Skalici",
+  "lat": 48.835703,
+  "lon": 17.2329853
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Restauracia Jozef II.",
+  "ico": "doplnit ORSR",
+  "adresa": "Bratislavska 20",
+  "mesto": "Holic",
+  "okres": "Skalica",
+  "velkost": "spolocenska sala 140 miest, parket/ozvucenie/projektor",
+  "tel": "034 2028912",
+  "email": "",
+  "web": "jozefdruhy.sk",
+  "zona": "T5",
+  "pozn": "SILNY CIEL; banketova/svadobna sala 140, Holic",
+  "lat": 48.8022821,
+  "lon": 17.1627495
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Slovensky Dvor Piestany",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Piestany",
+  "okres": "Piestany",
+  "velkost": "kapacita 150+ osob; firemne party/oslavy/svadby",
+  "tel": "",
+  "email": "",
+  "web": "slovenskydvor.sk",
+  "zona": "T3",
+  "pozn": "banketove akcie 150+; ICO/adresa over ORSR",
+  "lat": 48.5895247,
+  "lon": 17.8213848
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Restauracia Savarin Senica",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Senica",
+  "okres": "Senica",
+  "velkost": "svadobna sala + klimatizovana sala; svadby/firemne",
+  "tel": "",
+  "email": "",
+  "web": "savarinsenica.com",
+  "zona": "T4",
+  "pozn": "svadobna sala centrum Senice; kapacita/ICO over",
+  "lat": 48.6787557,
+  "lon": 17.3661529
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "X-BIONIC SPHERE a.s.",
+  "ico": "46640134",
+  "adresa": "Dubova 33",
+  "mesto": "Samorin",
+  "okres": "Dunajska Streda",
+  "velkost": "trzby ~18,1 mil EUR; hotel 282 izieb, 5+ restauracii, MICE/eventy",
+  "tel": "0904 913037",
+  "email": "sales@x-bionicsphere.com",
+  "web": "x-bionicsphere.com",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; obrovsky sportovy rezort, catering pre turnaje/konferencie",
+  "lat": 48.0186559,
+  "lon": 17.2973262
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "THERMALPARK DS a.s.",
+  "ico": "31450920",
+  "adresa": "Gabcikovska cesta 38",
+  "mesto": "Dunajska Streda",
+  "okres": "Dunajska Streda",
+  "velkost": "trzby ~9,4 mil EUR (2024); termalny areal + hotel + restauracie/bufety",
+  "tel": "",
+  "email": "",
+  "web": "thermalpark.sk",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; sezonny velkoobjem; doplnit kontakt",
+  "lat": 47.9847932,
+  "lon": 17.6086547
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "TERMAL s.r.o. (Thermal Corvinus Velky Meder)",
+  "ico": "34099336",
+  "adresa": "Promenadna 20",
+  "mesto": "Velky Meder",
+  "okres": "Dunajska Streda",
+  "velkost": "trzby ~8,5 mil EUR; termalne kupalisko + ubytovanie + gastro",
+  "tel": "",
+  "email": "",
+  "web": "thermalcorvinus.eu",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; velky termalny rezort (vlastnik mesto); viacero stravovacich bodov",
+  "lat": 47.8464838,
+  "lon": 17.7599623
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Thermal Varga s.r.o.",
+  "ico": "44497237",
+  "adresa": "Promenadna 1",
+  "mesto": "Velky Meder",
+  "okres": "Dunajska Streda",
+  "velkost": "restauracia 120-200 miest, sala + catering",
+  "tel": "",
+  "email": "",
+  "web": "hotelthermal.sk",
+  "zona": "T6",
+  "pozn": "banketova sala + catering, svadby/konferencie",
+  "lat": 47.8480097,
+  "lon": 17.7620363
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Penzion Restauracia MLYN (SLOVFRUCO s.r.o.)",
+  "ico": "36276910",
+  "adresa": "J. Majku 211",
+  "mesto": "Dolna Streda",
+  "okres": "Galanta",
+  "velkost": "2 saly ~100+50, catering, svadby",
+  "tel": "0903 419103",
+  "email": "penzionmlyn211@gmail.com",
+  "web": "penzionmlyn.sk",
+  "zona": "T7",
+  "pozn": "banketova sala + catering pri priem. zone Sered",
+  "lat": 48.2740853,
+  "lon": 17.7448501
+ },
+ {
+  "kraj": "TT",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Restauracia Perlovka (AR GASTRO)",
+  "ico": "doplnit ORSR",
+  "adresa": "Vinarska 2",
+  "mesto": "Sered",
+  "okres": "Galanta",
+  "velkost": "kompletny servis + catering svadby/firemne/vyrocia",
+  "tel": "",
+  "email": "argastro.sered@gmail.com",
+  "web": "perlovka.sk",
+  "zona": "T7",
+  "pozn": "banketova/eventova restauracia pri priem. parku Sered; ICO doplnit",
+  "lat": 48.285043,
+  "lon": 17.7372023
+ },
+ {
+  "kraj": "TT",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "MINIT SLOVAKIA spol. s r.o.",
+  "ico": "17053897",
+  "adresa": "Muzejna 1",
+  "mesto": "Dunajska Streda",
+  "okres": "Dunajska Streda",
+  "velkost": "trzby 80,5 mil EUR (2025), 500-999 zam; ~350 pekarni MINIT Bakery",
+  "tel": "",
+  "email": "",
+  "web": "minitbakery.sk",
+  "zona": "T6",
+  "pozn": "SILNY CIEL; v TT kraji 25+ prevadzok (Trnava 7, DS 5, Piestany 5, Skalica 3, Galanta 2, Sered 2, Senica 1, Hlohovec 1)",
+  "lat": 47.996257,
+  "lon": 17.6253381
+ },
+ {
+  "kraj": "TT",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "Reston s.r.o. (McDonald's fransiza)",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "trzby ~30 mil EUR, ~700 zam (TT+BA)",
+  "tel": "",
+  "email": "",
+  "web": "mcdonalds.sk",
+  "zona": "T1",
+  "pozn": "SILNY CIEL; fransizant McDonald's; 3 prevadzky Trnava (Hlboka, Nova ul., Trstinska); ICO doplnit",
+  "lat": 48.374218,
+  "lon": 17.5809299
+ },
+ {
+  "kraj": "TT",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "COOP Jednota Trnava s.d.",
+  "ico": "doplnit ORSR",
+  "adresa": "Trojicne namestie 9",
+  "mesto": "Trnava",
+  "okres": "Trnava",
+  "velkost": "viac gastro prevadzok v OD Jednota",
+  "tel": "033/324 58 00",
+  "email": "",
+  "web": "odjednota.sk",
+  "zona": "T1",
+  "pozn": "2 kaviarne, asijska restauracia, bistro, jedalen Best Food; ICO druzstva doplnit",
+  "lat": 48.3774728,
+  "lon": 17.5874502
  }
 ];
