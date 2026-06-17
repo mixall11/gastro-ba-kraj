@@ -11,11 +11,13 @@ JS_OUT = f'{BASE}/data.js'
 KRAJE = [
     ('BA', 'Bratislavsky', f'{BASE}/gastro-databaza-BA-kraj.csv', f'{BASE}/gastro-databaza-BA-kraj.xml'),
     ('TT', 'Trnavsky',     f'{BASE}/gastro-databaza-TT-kraj.csv', f'{BASE}/gastro-databaza-TT-kraj.xml'),
+    ('NR', 'Nitriansky',   f'{BASE}/gastro-databaza-NR-kraj.csv', f'{BASE}/gastro-databaza-NR-kraj.xml'),
 ]
 
 # manualne GPS opravy (ICO -> lat,lon) tam, kde Nominatim trafi vedlajsiu budovu
 MANUAL_GPS = {
     '31392229': (48.13244, 17.10755),  # McDonald's, Einsteinova 33 (Nominatim trafil budovu ERNI ~550m vedla)
+    '35826487': (48.15663, 17.89696),  # Duslo Sala (adresa "Administrativna budova ev.c.1236" trafila vychod SR)
 }
 
 # mestske casti BA -> oficialny okres Bratislava I-V (pre BA kraj)

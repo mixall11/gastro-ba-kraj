@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Nitriansky" typ="vsetky" pocet="51">
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Jaguar Land Rover Slovakia s.r.o.</firma>
+    <ico>48302392</ico>
+    <adresa>Horne luky 4540/1</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 362,8 mil EUR (2024), 4000-4999 zam</velkost>
+    <telefon>0800 500 047</telefon>
+    <email>hrdirectsk@jaguarlandrover.com</email>
+    <web>jaguarlandrover.com</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu, automobilka, tisice obedov denne v zavodnom stravovani</poznamka>
+    <gps lat="48.3458575" lon="18.0470198"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Foxconn Slovakia, spol. s r.o.</firma>
+    <ico>35683724</ico>
+    <adresa>Dolne Hony 29</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 558,7 mil EUR (2024), 500-999 zam</velkost>
+    <telefon>037 6944111</telefon>
+    <email>informacie@foxconn.com</email>
+    <web>foxconn.sk</web>
+    <poznamka>SILNY CIEL; velka elektrovyroba v parku Nitra-Sever, smenova prevadzka so zavodnym stravovanim</poznamka>
+    <gps lat="48.3270845" lon="18.0491024"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Fakultna nemocnica Nitra</firma>
+    <ico>17336007</ico>
+    <adresa>Spitalska 588/6</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>vynosy 109,9 mil EUR (2025), 1000-1999 zam, ~1200 lozok</velkost>
+    <telefon>037 6545111</telefon>
+    <email>info@fnnitra.sk</email>
+    <web>fnnitra.sk</web>
+    <poznamka>SILNY CIEL; prispevkova org. s vlastnou kuchynou, denne stravovanie pacientov + personalu, najvacsi gastro objem v okrese</poznamka>
+    <gps lat="48.3020114" lon="18.087383"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Miba Steeltec s.r.o.</firma>
+    <ico>36565911</ico>
+    <adresa>Hlavna 48</adresa>
+    <mesto>Vrable</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 103 mil EUR (2025), 500-999 zam</velkost>
+    <telefon>037 230 15 75</telefon>
+    <email></email>
+    <web>miba.com</web>
+    <poznamka>SILNY CIEL; strojarsky zavod (ocelove diely), smenova prevadzka, vlastne stravovanie</poznamka>
+    <gps lat="48.2488025" lon="18.3025588"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Bourbon Automotive Plastics Nitra s.r.o.</firma>
+    <ico>35882409</ico>
+    <adresa>Cab 280</adresa>
+    <mesto>Cab</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 96,6 mil EUR (2025), 500-999 zam</velkost>
+    <telefon>037 7921111</telefon>
+    <email>sekretariat@plastivaloire.com</email>
+    <web>groupe-plastivaloire.com</web>
+    <poznamka>SILNY CIEL; automotive plasty, ~500 zam v zmenovej prevadzke, zavodne stravovanie</poznamka>
+    <gps lat="48.4078828" lon="17.9894147"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>SMRC Automotive Solutions Slovakia s.r.o.</firma>
+    <ico>36861162</ico>
+    <adresa>Dolne Hony 2</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 93,9 mil EUR (2024), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>smrc-automotive.com</web>
+    <poznamka>automotive interiery v parku Nitra-Sever, dodavatel JLR, stredny objem stravovania</poznamka>
+    <gps lat="48.341425" lon="18.0640503"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>G-TEKT Slovakia, s.r.o.</firma>
+    <ico>51087618</ico>
+    <adresa>Na Pasienkoch 9</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 64 mil EUR (2024), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>automotive karoserne diely, zavod v Nitre, smenova prevadzka</poznamka>
+    <gps lat="48.3330772" lon="18.0578381"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Slovenska polnohospodarska univerzita v Nitre - Studentske domovy a jedalne</firma>
+    <ico>00397482</ico>
+    <adresa>Sturova 3</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>vynosy 46,84 mil EUR (2025), 500-999 zam, vlastna menza</velkost>
+    <telefon>037 6415701</telefon>
+    <email>rsdjspu@uniag.sk</email>
+    <web>uniag.sk</web>
+    <poznamka>SILNY CIEL; vlastne riaditelstvo studentskych jedalni (menza vo vlastnej rezii), priamy kontakt na stravovaci uzol</poznamka>
+    <gps lat="48.3066317" lon="18.087736"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Univerzita Konstantina Filozofa v Nitre - Univerzitna jedalen</firma>
+    <ico>00157716</ico>
+    <adresa>Nabrezie mladeze 1</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>vynosy 41,97 mil EUR (2025), 500-999 zam</velkost>
+    <telefon>037 6408111</telefon>
+    <email></email>
+    <web>ukf.sk</web>
+    <poznamka>stravovanie outsourcovane (Gastromir, kuchyna SD Brezovy haj); UKF = vlastnik priestoru/odberatel</poznamka>
+    <gps lat="48.3176027" lon="18.0977842"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>agrokomplex NARODNE VYSTAVISKO, statny podnik</firma>
+    <ico>36855642</ico>
+    <adresa>Vystavna 4</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 8,29 mil EUR (2025), 50-99 zam</velkost>
+    <telefon>037 6572111</telefon>
+    <email>agrokomplex@agrokomplex.sk</email>
+    <web>agrokomplex.sk</web>
+    <poznamka>SILNY CIEL; statne vystavisko, vlastny catering pre vystavy/koncerty/konferencie/svadby, sezonne velkokapacitne eventy</poznamka>
+    <gps lat="48.3084349" lon="18.1029376"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>Golden Catering (esca, s.r.o.)</firma>
+    <ico>46482253</ico>
+    <adresa>Stracia 23</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 0,24 mil EUR (2024)</velkost>
+    <telefon>0950 777 765</telefon>
+    <email>info@goldencatering.sk</email>
+    <web>goldencatering.sk</web>
+    <poznamka>20 rokov na trhu, svadby/firemne/VIP catering, prenajom vybavenia; etablovany event dodavatel</poznamka>
+    <gps lat="48.2963998" lon="18.093401"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>Catering Servis Nitra s. r. o.</firma>
+    <ico>52748561</ico>
+    <adresa>Dumbierska 700/45</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 0,05 mil EUR (2025)</velkost>
+    <telefon></telefon>
+    <email>info@cateringnr.sk</email>
+    <web>cateringnr.sk</web>
+    <poznamka>mensi event/svadobny catering, prevadzkuje aj eventove priestory; doplnkovy ciel</poznamka>
+    <gps lat="48.306602" lon="18.1108036"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="">
+    <firma>MS Gastro, s.r.o.</firma>
+    <ico>36359891</ico>
+    <adresa>Velky Lapas 351</adresa>
+    <mesto>Velky Lapas</mesto>
+    <okres>Nitra</okres>
+    <velkost>trzby 0,78 mil EUR (2025), 5-9 zam</velkost>
+    <telefon>0904 878 707</telefon>
+    <email>msgastro@msgastro.sk</email>
+    <web>msgastro.sk</web>
+    <poznamka>SILNY CIEL; zavodne/firemne stravovanie pre vyrobne firmy v regione, vlastna jedalen + donaska, stabilny velkoodber</poznamka>
+    <gps lat="48.2907243" lon="18.18375"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="">
+    <firma>GastroIng (Dagmar Hascakova)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Priemyselna 5</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>6 hlavnych jedal + polievka denne, zavodna jedalen + rozvoz po Nitre</velkost>
+    <telefon>037 6574048</telefon>
+    <email></email>
+    <web>gastroing.sk</web>
+    <poznamka>zavodne stravovanie a rozvoz obedov; zivnost, ICO neoverene na FinStat</poznamka>
+    <gps lat="48.2899467" lon="18.0905222"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel Zlaty Klucik (Golden Key Services, s.r.o.)</firma>
+    <ico>56031173</ico>
+    <adresa>Svaturbanska 103/29</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>sala do 150 hosti + 2 restauracie + svadobny pavilon, 41 izieb, 4* superior</velkost>
+    <telefon>037 6550289</telefon>
+    <email>recepcia@zlatyklucik.sk</email>
+    <web>zlatyklucik.sk</web>
+    <poznamka>SILNY CIEL; svadobna sala 150 miest, kongresy a eventy, pravidelne velke akcie</poznamka>
+    <gps lat="48.31295" lon="18.0894593"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="">
+    <firma>Tantal (Tantal expres 1 s. r. o.)</firma>
+    <ico>47164948</ico>
+    <adresa>Plynarenska 5</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>4 prevadzky v Nitre (OC Galeria, OC Centro, Kaufland Klokocina + Expres)</velkost>
+    <telefon>0915 979 065</telefon>
+    <email>tantal@tantal.sk</email>
+    <web>tantal.sk</web>
+    <poznamka>talianska kuchyna, 4 prevadzky od 2008, centralny dodavatel surovin</poznamka>
+    <gps lat="48.3128581" lon="18.1190757"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Nemocnica AGEL Zlate Moravce a.s.</firma>
+    <ico>50433946</ico>
+    <adresa>Bernolakova 4</adresa>
+    <mesto>Zlate Moravce</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>trzby 7,63 mil EUR (2025), 150-199 zam, 70 lozok</velkost>
+    <telefon>037 6402111</telefon>
+    <email>nemocnicazm@agel.sk</email>
+    <web>nemocnicazlatemoravce.agel.sk</web>
+    <poznamka>SILNY CIEL; vlastna nemocnicna kuchyna, denne stravovanie pacientov + personalu, stabilny odber</poznamka>
+    <gps lat="48.383163" lon="18.3986"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Secop s. r. o.</firma>
+    <ico>35800399</ico>
+    <adresa>Tovarenska 49</adresa>
+    <mesto>Zlate Moravce</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>trzby 94,45 mil EUR (2024), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>secop.com</web>
+    <poznamka>SILNY CIEL; najvacsi vyrobny zamestnavatel v okrese (kompresory, byv. Nidec/Danfoss), velka zavodna jedalen</poznamka>
+    <gps lat="48.3954249" lon="18.4002148"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Estamp Slovakia s.r.o.</firma>
+    <ico>35950765</ico>
+    <adresa>Tovarenska 52</adresa>
+    <mesto>Zlate Moravce</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>trzby 50,10 mil EUR (2024), 200-249 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>estamp.com</web>
+    <poznamka>SILNY CIEL; automotive dodavatel (vylisky), velky zavod v priem. parku, zavodne stravovanie</poznamka>
+    <gps lat="48.3923241" lon="18.3990039"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel ViOn (ViOn, a.s.)</firma>
+    <ico>36526185</ico>
+    <adresa>Tovarenska 64</adresa>
+    <mesto>Zlate Moravce</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>restauracia 120 miest + kongresova/banketova sala ~130 miest; firma trzby 30,97 mil EUR (2025)</velkost>
+    <telefon>037 6402471</telefon>
+    <email>hotel@vion.sk</email>
+    <web>hotelvion.sk</web>
+    <poznamka>SILNY CIEL; najvacsi hotel+restauracia v meste, svadby/bankety/recepcie, vlastna velka kuchyna</poznamka>
+    <gps lat="48.3982894" lon="18.4053974"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>GASTRO ABM s. r. o.</firma>
+    <ico>56429096</ico>
+    <adresa>Hlavna 125</adresa>
+    <mesto>Tesarske Mlynany</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>catering + zavodne stravovanie, polievka + 4 hl. jedla denne; firma zal. 2024</velkost>
+    <telefon>0907 650 755</telefon>
+    <email>gastroabm@gastroabm.sk</email>
+    <web>gastroabm.sk</web>
+    <poznamka>SILNY CIEL; dodava zavodne stravovanie firmam, velky denny objem jedal v okrese ZM</poznamka>
+    <gps lat="48.3346131" lon="18.3547198"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Restauracia RIO (Julia Pivarciova)</firma>
+    <ico>33334595</ico>
+    <adresa>Sladkovicova 37</adresa>
+    <mesto>Zlate Moravce</mesto>
+    <okres>Zlate Moravce</okres>
+    <velkost>hl. sala 160 miest + terasa 40; zivnostnik</velkost>
+    <telefon>037 6421343</telefon>
+    <email></email>
+    <web></web>
+    <poznamka>najvacsia banketova kapacita pre svadby/oslavy v meste (160 miest), sezonny odber pri akciach</poznamka>
+    <gps lat="48.3801929" lon="18.3958499"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>Restauracia Domino (Ondrej Kozuch)</firma>
+    <ico>41169123</ico>
+    <adresa>SNP 1306</adresa>
+    <mesto>Sala</mesto>
+    <okres>Sala</okres>
+    <velkost>~85 miest, denny firemny rozvoz obedov + catering + svadobne/smutocne hostiny</velkost>
+    <telefon>0905 835 102</telefon>
+    <email>info@restauraciadomino.sk</email>
+    <web>restauraciadomino.sk</web>
+    <poznamka>catering a pravidelny rozvoz obedov pre firmy, B2B partner pre dodavky surovin</poznamka>
+    <gps lat="48.1548103" lon="17.8723263"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Duslo, a.s.</firma>
+    <ico>35826487</ico>
+    <adresa>Administrativna budova ev. c. 1236</adresa>
+    <mesto>Sala</mesto>
+    <okres>Sala</okres>
+    <velkost>trzby 553,7 mil EUR (2024), 1000-1999 zam</velkost>
+    <telefon>031 775 1111</telefon>
+    <email>sekretariat@duslo.sk</email>
+    <web>duslo.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel v okrese (chemicka), velkoobjemova zavodna jedalen, top objem surovin</poznamka>
+    <gps lat="48.15663" lon="17.89696"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Nemocnica s poliklinikou Sala</firma>
+    <ico>00610305</ico>
+    <adresa>Nemocnicna 1</adresa>
+    <mesto>Sala</mesto>
+    <okres>Sala</okres>
+    <velkost>nemocnica s vlastnou kuchynou, stravovanie pacientov + personalu</velkost>
+    <telefon>031 7730 320</telefon>
+    <email></email>
+    <web>poliklinikansksala.sk</web>
+    <poznamka>SILNY CIEL; celodenne nemocnicne stravovanie, stabilny velkoodber surovin</poznamka>
+    <gps lat="48.1513" lon="17.8714854"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel Central (HOTEL CENTRAL ZIBAK COMPANY)</firma>
+    <ico>32361769</ico>
+    <adresa>Nam. Sv. Trojice 3</adresa>
+    <mesto>Sala</mesto>
+    <okres>Sala</okres>
+    <velkost>banketova sala 150 miest + mensia 40-50, ubytovanie 80 lozok, svadby/bankety/konferencie</velkost>
+    <telefon>031 770 1141</telefon>
+    <email>recepcia@hotelcentral.sk</email>
+    <web>hotelcentral.sk</web>
+    <poznamka>banketova sala v centre Sale, svadby/firemne akcie - pravidelne velke hostiny</poznamka>
+    <gps lat="48.1522468" lon="17.8753827"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Restaurant Rico (Martina Borikova)</firma>
+    <ico>41171471</ico>
+    <adresa>Jarmocna 626/1</adresa>
+    <mesto>Sala</mesto>
+    <okres>Sala</okres>
+    <velkost>hlavna sala 131 miest + terasa 50 + salonik 25 (~206), svadby/firemne akcie</velkost>
+    <telefon>0910 548 517</telefon>
+    <email></email>
+    <web>restaurantrico.sk</web>
+    <poznamka>velkokapacitna restauracia, svadby a firemne eventy - pravidelny odber surovin</poznamka>
+    <gps lat="48.1466541" lon="17.8736525"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>PARADISE, s.r.o.</firma>
+    <ico>36260339</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Kalna nad Hronom</mesto>
+    <okres>Levice</okres>
+    <velkost>ostatne ucelove stravovanie, 5-9 zam, prevadzkuje kantinu pri AE Mochovce</velkost>
+    <telefon>0907 795 223</telefon>
+    <email></email>
+    <web></web>
+    <poznamka>prevadzkuje zavodnu kantinu Little Paradise pre elektraren Mochovce a dodavatelov - vstup do najvacsieho zamestnavatela v okoli, SILNY CIEL</poznamka>
+    <gps lat="48.1997294" lon="18.5185286"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Nemocnica AGEL Levice s.r.o.</firma>
+    <ico>50861450</ico>
+    <adresa>SNP 19</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>trzby 40,41 mil EUR (2024), vlastna nemocnicna kuchyna, stovky lozok + personal</velkost>
+    <telefon>036 6373 111</telefon>
+    <email></email>
+    <web>nemocnicalevice.agel.sk</web>
+    <poznamka>SILNY CIEL; vlastne ustavne stravovanie (pacienti+zamestnanci), denne stovky porcii, siet AGEL</poznamka>
+    <gps lat="48.2227843" lon="18.6145835"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>ZF Slovakia, a.s. (zavod Levice-Gena)</firma>
+    <ico>36707341</ico>
+    <adresa>Priemyselny park Gena 5654/63</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>ZF Slovakia trzby 797 mil EUR (2023), 3000-3999 zam; zavod Levice ~1700 prac. miest, zavodne stravovanie</velkost>
+    <telefon>036 6357 111</telefon>
+    <email></email>
+    <web>zf.com</web>
+    <poznamka>SILNY CIEL; najvacsi priemyselny zamestnavatel v okrese, zavodna jedalen (sidlo a.s. Trnava, kantina v Leviciach)</poznamka>
+    <gps lat="48.2163194" lon="18.6000869"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>VIALE, s.r.o. (Hotel Lev Levice)</firma>
+    <ico>36567795</ico>
+    <adresa>Csl. armady 2</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>spolocenska sala do 350 miest, svadobna do 200; trzby ~695 tis EUR, 20-24 zam</velkost>
+    <telefon>036 3700 300</telefon>
+    <email>recepcia@hotellev.sk</email>
+    <web>hotellev.sk</web>
+    <poznamka>SILNY CIEL; najvacsia banketova/svadobna sala v meste Levice (350 miest), restauracia+kaviaren</poznamka>
+    <gps lat="48.2190665" lon="18.6074125"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>AMALION s.r.o. (Koliba rezort Margita-Ilona)</firma>
+    <ico>36556068</ico>
+    <adresa>Mochovska 30</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>trzby 723 503 EUR (2025), 10-19 zam; rezort so salami na svadby/firemne akcie + vinny dom</velkost>
+    <telefon>036 6316793</telefon>
+    <email>amalion@amalion.sk</email>
+    <web>kolibarezort.sk</web>
+    <poznamka>eventovy/svadobny rezort 6 km od Levic, banketove priestory + tradicna kuchyna; objemove svadby a firemne akcie</poznamka>
+    <gps lat="48.2024329" lon="18.6099651"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>HOTELY SK, s.r.o. (Hotel Atom / Restaurant il Caffe)</firma>
+    <ico>36795399</ico>
+    <adresa>Ul. sv. Michala 4</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>restauracia 130 miest + 2 terasy, hotel 121 lozok; svadby/oslavy/firemne akcie</velkost>
+    <telefon>036 6312790</telefon>
+    <email></email>
+    <web>restaurantilcaffe.sk</web>
+    <poznamka>banketova restauracia v centre Levic (130 miest); over aktualny stav hotela pred oslovenim</poznamka>
+    <gps lat="48.2163194" lon="18.6000869"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Fakultna nemocnica s poliklinikou Nove Zamky</firma>
+    <ico>17336112</ico>
+    <adresa>Slovenska 5587/11A</adresa>
+    <mesto>Nove Zamky</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>trzby 85,33 mil EUR (2024), 1000-1999 zam, 795 lozok, vlastna kuchyna</velkost>
+    <telefon>035 691 2111</telefon>
+    <email>email@nspnz.sk</email>
+    <web>nspnz.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnica, vlastna stravovacia prevadzka pre stovky lozok + zamestnancov, denne velkoobjem</poznamka>
+    <gps lat="47.9885036" lon="18.1535382"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>VADAS, s.r.o. (Vadas Thermal Resort)</firma>
+    <ico>34136215</ico>
+    <adresa>Pri Vadasi 2</adresa>
+    <mesto>Sturovo</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>trzby 6,40 mil EUR (2025), 50-99 zam, hotel Thermal 148 lozok + restauracie + bufety, sezonny velkoobjem</velkost>
+    <telefon>036 7560111</telefon>
+    <email>rezervacia@vadas.sk</email>
+    <web>vadasthermal.sk</web>
+    <poznamka>SILNY CIEL; termalny rezort, sezonny napor tisicov navstevnikov, restauracie/bufety/hotel pod jednou firmou</poznamka>
+    <gps lat="47.8009942" lon="18.7163802"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Termalne kupalisko Podhajska, s.r.o.</firma>
+    <ico>34126040</ico>
+    <adresa>Podhajska 493</adresa>
+    <mesto>Podhajska</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>trzby 8,39 mil EUR (2025), 100-149 zam, sezonny velkoobjem, ubytovanie + stravovacie prevadzky</velkost>
+    <telefon>037 7428023</telefon>
+    <email>info@tkpodhajska.sk</email>
+    <web>tkpodhajska.sk</web>
+    <poznamka>SILNY CIEL; velky sezonny navstevnicky objem, viacero stravovacich prevadzok v rezorte</poznamka>
+    <gps lat="48.1027332" lon="18.3442713"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Smurfit Westrock Slovakia, a.s.</firma>
+    <ico>36531359</ico>
+    <adresa>Tovarenska 1</adresa>
+    <mesto>Sturovo</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>trzby 67,93 mil EUR (2025), 200-249 zam, velky priemyselny zavod so zavodnym stravovanim</velkost>
+    <telefon>036 7562491</telefon>
+    <email></email>
+    <web>smurfitkappa.com</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel v Sturove (papierne), denna zavodna jedalen pre stovky robotnikov v zmenovej prevadzke</poznamka>
+    <gps lat="47.7933976" lon="18.6954913"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="">
+    <firma>GASTRO DOM NZ, s.r.o.</firma>
+    <ico>44881975</ico>
+    <adresa>Komarnanska cesta 13</adresa>
+    <mesto>Nove Zamky</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>800+ obedov denne (200 na mieste + rozvoz), 20-24 zam, vlastna sala 150 miest</velkost>
+    <telefon>0948 028 487</telefon>
+    <email>info@gastrodomnz.sk</email>
+    <web>gastrodomnz.sk</web>
+    <poznamka>SILNY CIEL; dodavatel zavodneho/firemneho stravovania 800+ jedal denne, sala 150 miest na bankety/svadby</poznamka>
+    <gps lat="47.9724476" lon="18.1833607"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Restaurant Michelle Nove Zamky</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>T. G. Masaryka 31</adresa>
+    <mesto>Nove Zamky</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>kapacita 150 miest (sala 262 m2, celk. 600 m2), profi kuchyna + vlastny catering</velkost>
+    <telefon>0904 365 656</telefon>
+    <email>info@michellenovezamky.sk</email>
+    <web>michellenovezamky.sk</web>
+    <poznamka>banketova/svadobna sala v centre, vlastna profi kuchyna a catering - odber surovin vo velkom; ICO doplnit ORSR</poznamka>
+    <gps lat="47.994562" lon="18.1700825"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>SAM INDUSTRIES a. s. (lodenice Komarno)</firma>
+    <ico>36246093</ico>
+    <adresa>Rolnickej skoly 1519</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>trzby 68,1 mil EUR (2025), 250-499 zam</velkost>
+    <telefon>02 209 69 000</telefon>
+    <email>info_KN@samindustries.sk</email>
+    <web>samindustries.sk</web>
+    <poznamka>SILNY CIEL; jedina SK lodenica, vyrobny zavod s vlastnym stravovanim; sidlo firmy v BA, prevadzka KN</poznamka>
+    <gps lat="47.7629689" lon="18.1061687"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Nemocnica AGEL Komarno s.r.o.</firma>
+    <ico>50828371</ico>
+    <adresa>Medercska 39</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>trzby 44,54 mil EUR (2024), nemocnica 11 luzkovych oddeleni</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicakomarno.agel.sk</web>
+    <poznamka>SILNY CIEL; nemocnica s vlastnou kuchynou, celodenna strava pre pacientov+personal; spadova oblast 110 000 obyv.</poznamka>
+    <gps lat="47.76432" lon="18.126722"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Termalne kupalisko Komarno (COMORRA SERVIS)</firma>
+    <ico>44191758</ico>
+    <adresa>Vnutorna okruzna 19</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>trzby 2,30 mil EUR (2024), areal 2,5 ha, 7 bazenov + bufety</velkost>
+    <telefon>035 7713014</telefon>
+    <email>info@thermalkn.sk</email>
+    <web>thermalkn.sk</web>
+    <poznamka>mestska prispevkova org., letna sezona vysoke objemy strediska + bufety/gastro</poznamka>
+    <gps lat="47.7572978" lon="18.1340456"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel Bow Garden (BOW GARDEN s.r.o.)</firma>
+    <ico>46719253</ico>
+    <adresa>Sturova 1017</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>hotel + restauracia s terasou, konferencne priestory, bowling/squash/fitness</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelbowgarden.sk</web>
+    <poznamka>banketove/event priestory, restauracia europska kuchyna; B2B suroviny</poznamka>
+    <gps lat="47.7604131" lon="18.1235672"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel Peklo Komarno</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Platanova alej 1</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>70 luzok, restauracia + wellness, konferencna sala do 70 osob (svadby/seminare)</velkost>
+    <telefon>035 7740620</telefon>
+    <email>recepcia@hotelpeklo.sk</email>
+    <web>hotelpeklo.sk</web>
+    <poznamka>povodny prevadzkovatel DEVILS s.r.o. zruseny 8/2024 - over aktualny subjekt v ORSR; hotel aktivny</poznamka>
+    <gps lat="47.7545385" lon="18.1220248"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>TOP-DAY catering &amp; vyzdoba (Roman Stevanka)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Nam. M. R. Stefanika 2/6</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>event/svadby/firemny catering, kapacita podla podujatia</velkost>
+    <telefon>0904 594582</telefon>
+    <email></email>
+    <web>top-day.sk</web>
+    <poznamka>zivnostnik, neoverene ICO na FinStat; svadby+firemne+stuzkove, B2B partner pre suroviny</poznamka>
+    <gps lat="48.5590846" lon="18.1740035"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="">
+    <firma>FEAST CATERING</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>8+ rokov, oblozene misy + catering na podujatia</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>feastcatering.sk</web>
+    <poznamka>mensi catering, B2B suroviny; ICO neoverene na FinStat</poznamka>
+    <gps lat="48.5594345" lon="18.1754394"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>HYZA a.s.</firma>
+    <ico>31562540</ico>
+    <adresa>Odbojarov 2279/37</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>trzby 131,3 mil EUR (2024), 500-999 zam</velkost>
+    <telefon>038 53 722 36</telefon>
+    <email>sekretariat@hyza.sk</email>
+    <web>hyza.sk</web>
+    <poznamka>SILNY CIEL; najvacsi spracovatel hydiny, 900+ ludi, vlastna zavodna jedalen; skupina AGROFERT</poznamka>
+    <gps lat="48.5606794" lon="18.138358"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>DECODOM, spol. s r.o.</firma>
+    <ico>36305073</ico>
+    <adresa>Pilska 7</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>trzby 33,84 mil EUR (2024), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>decodom.sk</web>
+    <poznamka>SILNY CIEL; najvacsi SK vyrobca nabytku, vyroba v TO, zavodne stravovanie; firma v restrukturalizacii (over solventnost)</poznamka>
+    <gps lat="48.5666108" lon="18.165336"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
+    <firma>Nemocnica Topolcany, a. s. (Penta/Svet zdravia)</firma>
+    <ico>46458581</ico>
+    <adresa>Pavlovova 17</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>trzby 29,69 mil EUR, akutna nemocnica</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna, celodenne stravovanie pacientov+zamestnancov; siet Penta Hospitals</poznamka>
+    <gps lat="48.5521333" lon="18.1677687"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Mestske sluzby Topolcany, s.r.o.</firma>
+    <ico>44818378</ico>
+    <adresa>Nam. M. R. Stefanika 1/1</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>mestska s.r.o., kryta plavaren + letne kupalisko, kapacita 160+</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>sluzbyto.sk</web>
+    <poznamka>sezonne gastro/bufet na kupaliskach, mestsky prevadzkovatel</poznamka>
+    <gps lat="48.5585009" lon="18.1741558"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="">
+    <firma>Hotel Novy Kastiel Topolcany</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Topolcany</mesto>
+    <okres>Topolcany</okres>
+    <velkost>3* business hotel pri centre, restauracia, vhodny na firemne podujatia</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>novykastiel.sk</web>
+    <poznamka>event/firemne priestory; ICO neoverene na FinStat (over presny prevadzkovy subjekt)</poznamka>
+    <gps lat="48.5594345" lon="18.1754394"/>
+  </prevadzka>
+</gastro_databaza>
