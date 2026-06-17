@@ -129,7 +129,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=20260617f"></script>
+<script src="data.js?v=20260617g"></script>
 <script>
 const COLORS={
   'Catering dodavatel':'#2563eb','Vyvaren / catering kuchyna':'#7c3aed',
@@ -202,13 +202,23 @@ document.getElementById('total').textContent=markers.length;
 const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 
 // --- okresne filtre (podla kraja) ---
+// vsetkych 8 krajov a 79 okresov SR (hodnota okresu = ASCII, sedi s datami)
+const SK_OKRESY=[
+ ['Bratislavský',['Bratislava I','Bratislava II','Bratislava III','Bratislava IV','Bratislava V','Malacky','Pezinok','Senec']],
+ ['Trnavský',['Dunajska Streda','Galanta','Hlohovec','Piestany','Senica','Skalica','Trnava']],
+ ['Trenčiansky',['Banovce nad Bebravou','Ilava','Myjava','Nove Mesto nad Vahom','Partizanske','Povazska Bystrica','Prievidza','Puchov','Trencin']],
+ ['Nitriansky',['Komarno','Levice','Nitra','Nove Zamky','Sala','Topolcany','Zlate Moravce']],
+ ['Žilinský',['Bytca','Cadca','Dolny Kubin','Kysucke Nove Mesto','Liptovsky Mikulas','Martin','Namestovo','Ruzomberok','Turcianske Teplice','Tvrdosin','Zilina']],
+ ['Banskobystrický',['Banska Bystrica','Banska Stiavnica','Brezno','Detva','Krupina','Lucenec','Poltar','Revuca','Rimavska Sobota','Velky Krtis','Zvolen','Zarnovica','Ziar nad Hronom']],
+ ['Prešovský',['Bardejov','Humenne','Kezmarok','Levoca','Medzilaborce','Poprad','Presov','Sabinov','Snina','Stara Lubovna','Stropkov','Svidnik','Vranov nad Toplou']],
+ ['Košický',['Gelnica','Kosice I','Kosice II','Kosice III','Kosice IV','Kosice-okolie','Michalovce','Roznava','Sobrance','Spisska Nova Ves','Trebisov']],
+];
 function buildOkresy(){
   const box=document.getElementById('okresy'); box.innerHTML='';
-  [...new Set(GASTRO_DATA.map(d=>d.kraj))].forEach(k=>{
-    box.insertAdjacentHTML('beforeend',`<div class="grp">${(KRAJ_LABEL[k]||k)} kraj</div>`);
-    [...new Set(GASTRO_DATA.filter(d=>d.kraj===k).map(d=>d.okres))].sort().forEach(o=>
-      box.insertAdjacentHTML('beforeend',
-        `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
+  SK_OKRESY.forEach(([kraj,oks])=>{
+    box.insertAdjacentHTML('beforeend',`<div class="grp">${kraj} kraj</div>`);
+    oks.forEach(o=>box.insertAdjacentHTML('beforeend',
+      `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
   });
   box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
 }

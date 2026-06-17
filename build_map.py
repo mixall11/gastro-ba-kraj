@@ -18,6 +18,16 @@ MANUAL_GPS = {
     '31392229': (48.13244, 17.10755),  # McDonald's, Einsteinova 33 (Nominatim trafil budovu ERNI ~550m vedla)
 }
 
+# mestske casti BA -> oficialny okres Bratislava I-V (pre BA kraj)
+BA_OKRES = {
+    'Bratislava-Stare Mesto':'Bratislava I',
+    'Bratislava-Ruzinov':'Bratislava II','Bratislava-Vrakuna':'Bratislava II','Bratislava-Podunajske Biskupice':'Bratislava II',
+    'Bratislava-Nove Mesto':'Bratislava III','Bratislava-Raca':'Bratislava III','Bratislava-Kramare':'Bratislava III',
+    'Bratislava-Karlova Ves':'Bratislava IV','Bratislava-Dubravka':'Bratislava IV','Bratislava-Devinska Nova Ves':'Bratislava IV',
+    'Bratislava-Petrzalka':'Bratislava V',
+    'Bratislava':'Bratislava I',
+}
+
 cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 
 def save_cache():
@@ -84,6 +94,8 @@ for kod, nazov, csv_in, xml_out in KRAJE:
     print(f'\n=== {nazov} kraj ({kod}) — zaznamov: {len(rows)} ===')
     for r in rows:
         la, lo = MANUAL_GPS.get(r['ICO']) or geocode_row(r)
+        if kod == 'BA':
+            r['Okres'] = BA_OKRES.get(r['Mesto_Stvrt'], r['Okres'])
         r['lat'], r['lon'] = la, lo
         flag = 'OK ' if la else '!! '
         print(f"  {flag}{r['Firma'][:42]:42} | {r['Mesto_Stvrt']}")
