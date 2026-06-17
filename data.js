@@ -2784,8 +2784,8 @@ const GASTRO_DATA = [
   "web": "continental.com",
   "zona": "N4",
   "pozn": "SILNY CIEL #1; obrovska zavodna jedalen (najvacsi zamestnavatel kraja), tisice obedov denne",
-  "lat": 49.123928,
-  "lon": 18.3239559
+  "lat": 49.1031,
+  "lon": 18.3176
  },
  {
   "kraj": "TN",
