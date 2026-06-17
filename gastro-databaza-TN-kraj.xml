@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="53">
+  <prevadzka kategoria="Catering dodavatel" zona="N1">
+    <firma>Catering Trencin (Polis)</firma>
+    <ico>53236807</ico>
+    <adresa>Mierove namestie 1</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>live-cooking catering do 1000 hosti, firemne aj eventy</velkost>
+    <telefon>0911 554 911</telefon>
+    <email>polis.trencin@gmail.com</email>
+    <web>cateringtrencin.sk</web>
+    <poznamka>catering do 1000 osob, firemne stravovanie + rozvoz</poznamka>
+    <gps lat="48.89441" lon="18.0399914"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="N1">
+    <firma>GASTRO-SYST s.r.o.</firma>
+    <ico>36300691</ico>
+    <adresa>Legionarska 5</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>vyroba teplych jedal + zavodne stravovanie pre PO v Trencine a okoli</velkost>
+    <telefon>032/381 15 58</telefon>
+    <email></email>
+    <web>gastro-syst.sk</web>
+    <poznamka>SILNY CIEL; dodavatel stravy pre pravnicke osoby, vlastna vyvarovna</poznamka>
+    <gps lat="48.8870783" lon="18.035633"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="N8">
+    <firma>GASTRO GROUP s.r.o.</firma>
+    <ico>36317969</ico>
+    <adresa>Rybarska 1</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>trzby 1,07 mil EUR (2025), 25-49 zam; catering pre firmy + hostiny/svadby</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>gastrogroup.sk</web>
+    <poznamka>jediny dedikovany cateringovy dodavatel v okrese, vlastna vyvarovna + rozvoz</poznamka>
+    <gps lat="48.7560492" lon="17.8426128"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="N3">
+    <firma>Champion Food s.r.o.</firma>
+    <ico>36336882</ico>
+    <adresa>M. R. Stefanika 175/32</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>trzby 1,31 mil EUR (2024), 10-19 zam; vyroba peciva/studena kuchyna + catering</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>championfood.sk</web>
+    <poznamka>vyroba bagiet/salatov/studenej kuchyne + catering</poznamka>
+    <gps lat="49.1185708" lon="18.4383117"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N1">
+    <firma>HEES - GASTROSLUZBY spol. s r.o.</firma>
+    <ico>34131710</ico>
+    <adresa>Hodzova 37</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>trzby 0,97 mil EUR (2024), 6-25 zam; skolske jedalne + dovoz stravy pre seniorov mesta</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>prevadzkuje skolske jedalne + mestsky dovoz stravy, vlastna vyvarovna</poznamka>
+    <gps lat="48.8975251" lon="18.0592243"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N2">
+    <firma>GASTRO-SERVICE a.s. (byv. ZTS-SLUZBY)</firma>
+    <ico>36302694</ico>
+    <adresa>Tovarenska 1</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>kapacita ~12000 jedal/den (ZTS areal), priestory 25-300 miest, restauracia Gurman</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>gastroservice.sk</web>
+    <poznamka>SILNY CIEL; preberalo zavodne stravovanie celeho ZTS arealu Dubnica, velkokapacitna vyvarovna + catering</poznamka>
+    <gps lat="48.9675722" lon="18.1850808"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N5">
+    <firma>BESPA - STRAV PD s.r.o.</firma>
+    <ico>33609438</ico>
+    <adresa>Kosovska 16</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>vyvarovna - zavodne aj verejne stravovanie, viacero prevadzok</velkost>
+    <telefon></telefon>
+    <email>bespastrav@zoznam.sk</email>
+    <web>bespastrav.sk</web>
+    <poznamka>dodavatel teplych obedov pre firmy a verejnost v Prievidzi, rozvoz a vydaj</poznamka>
+    <gps lat="48.7651044" lon="18.6178423"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N3">
+    <firma>Gastro - sluzby s.r.o.</firma>
+    <ico>36298531</ico>
+    <adresa>Robotnicka 2156</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>trzby 1,42 mil EUR (2024), 25-49 zam; zmluvne stravovanie</velkost>
+    <telefon>042/432 22 59</telefon>
+    <email></email>
+    <web>gastro-sluzby.sk</web>
+    <poznamka>SILNY CIEL; profesional na zavodne/skolske stravovanie + catering + rozvoz menu</poznamka>
+    <gps lat="49.1228658" lon="18.4299255"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N8">
+    <firma>HARVIS s.r.o.</firma>
+    <ico>31410081</ico>
+    <adresa>Priemyselna 2</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>trzby 0,85 mil EUR (2025), 20-24 zam; denne obedove menu + rozvoz, priemyselna zona</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>menu.harvis.sk</web>
+    <poznamka>vyvarovna pre priemyselny park NMnV; odber surovin vo vacsom objeme</poznamka>
+    <gps lat="48.7401681" lon="17.8217107"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N4">
+    <firma>Restauracia Viva (Puchov)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Puchov</mesto>
+    <okres>Puchov</okres>
+    <velkost>rozvoz obedoveho menu firmam v Puchove a okoli</velkost>
+    <telefon>0911 394 971</telefon>
+    <email></email>
+    <web>restauraciaviva.sk</web>
+    <poznamka>dodavatel teplych obedov B2B (rozvoz do firiem) + spolocenske podujatia; ICO doplnit</poznamka>
+    <gps lat="49.123928" lon="18.3239559"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="N9">
+    <firma>Socialne sluzby Myjava n.o.</firma>
+    <ico>36119610</ico>
+    <adresa>Trokanova 236</adresa>
+    <mesto>Myjava</mesto>
+    <okres>Myjava</okres>
+    <velkost>utulok kap. 47 klientov + komunitne centrum/noclaharen, vlastna kuchyna</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>socialne stravovanie pre klientov utulkov/noclaharne v Myjave; mensia kapacita</poznamka>
+    <gps lat="48.7564692" lon="17.5693827"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N1">
+    <firma>Fakultna nemocnica Trencin</firma>
+    <ico>00610470</ico>
+    <adresa>Legionarska 641/28</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>trzby 97,8 mil EUR (2025), 1000-1999 zam; vlastne oddelenie liecebnej vyzivy a stravovania</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>fntn.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnicna kuchyna, pacienti + personal</poznamka>
+    <gps lat="48.8843801" lon="18.0308363"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N1">
+    <firma>Trencianska univerzita A. Dubceka (TnUAD)</firma>
+    <ico>31118259</ico>
+    <adresa>Studentska 1639/2</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>trzby 26,5 mil EUR (2025), 250-499 zam; vlastna jedalen + studentske domovy</velkost>
+    <telefon>032/740 01 11</telefon>
+    <email></email>
+    <web>tnuni.sk</web>
+    <poznamka>SILNY CIEL; univerzitna jedalen + internaty</poznamka>
+    <gps lat="48.8986434" lon="18.0474896"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>ZVS holding a.s.</firma>
+    <ico>36305600</ico>
+    <adresa>Sturova 925/27</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>trzby 119,4 mil EUR (2024), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>zvsholding.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu (zbrojarstvo), velka zavodna jedalen</poznamka>
+    <gps lat="48.953013" lon="18.1826864"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>STV Machinery a.s. (byv. MATADOR Industries)</firma>
+    <ico>31632301</ico>
+    <adresa>Tovarenska 1</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>200-249 zam; kovovyroba v ZTS areali</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>stv-machinery.sk</web>
+    <poznamka>zavodna jedalen v ZTS areali (cast stravy cez GASTRO-SERVICE)</poznamka>
+    <gps lat="48.9675722" lon="18.1850808"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>HF Slovakia a.s. (byv. HF NaJUS)</firma>
+    <ico>36294632</ico>
+    <adresa>Lieskovec 847/124</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>150-199 zam; vyroba strojov pre gumarensky priemysel</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hfnajus.sk</web>
+    <poznamka>vacsi zavod v Dubnici, zavodne stravovanie</poznamka>
+    <gps lat="48.9715355" lon="18.1976222"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>Ustav na vykon trestu a vazby Ilava (ZVJS)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Mierove namestie 1</adresa>
+    <mesto>Ilava</mesto>
+    <okres>Ilava</okres>
+    <velkost>kapacita 846 miest (677 odsudeni + 169 obvineni)</velkost>
+    <telefon>042/446 54 32</telefon>
+    <email>ustavil@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna pre 846+ osob denne; ICO over (ZVJS zdiela 00738344)</poznamka>
+    <gps lat="48.9980143" lon="18.231942"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>Centrum socialnych sluzieb AVE Dubnica</firma>
+    <ico>00632384</ico>
+    <adresa>Sportovcov 671/23</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>celorocna pobytova soc. sluzba, vlastna kuchyna</velkost>
+    <telefon>042/442 12 92</telefon>
+    <email>info@cssdubnica.sk</email>
+    <web>cssdubnica.sk</web>
+    <poznamka>DSS s vlastnou kuchynou, denne stravovanie klientov</poznamka>
+    <gps lat="48.960372" lon="18.1594926"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N2">
+    <firma>Zariadenie pre seniorov Dubina m.r.o.</firma>
+    <ico>00632333</ico>
+    <adresa>Pod hajom 1291/119</adresa>
+    <mesto>Dubnica nad Vahom</mesto>
+    <okres>Ilava</okres>
+    <velkost>kapacita 249 klientov, trzby 6,3 mil EUR (2024)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>dubina.org</web>
+    <poznamka>velka institucionalna kuchyna, denne stravovanie 249 klientov</poznamka>
+    <gps lat="48.9568606" lon="18.1729766"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N5">
+    <firma>Brose Prievidza spol. s r.o.</firma>
+    <ico>48046434</ico>
+    <adresa>Max Brose 2909/20</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>1000-1999 zam (~1300), trzby 346,6 mil EUR (2023); vlastna zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>brose.com</web>
+    <poznamka>SILNY CIEL; najvacsi automotive zavod okresu, ~1300 zam</poznamka>
+    <gps lat="48.7638765" lon="18.5897465"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N5">
+    <firma>Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach</firma>
+    <ico>17335795</ico>
+    <adresa>Nemocnicna 2</adresa>
+    <mesto>Bojnice</mesto>
+    <okres>Prievidza</okres>
+    <velkost>spadova oblast ~140000 obyv.; ustavna nemocnica + celodenne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hospital-bojnice.sk</web>
+    <poznamka>SILNY CIEL; velka okresna nemocnica, pacienti + personal</poznamka>
+    <gps lat="48.7853369" lon="18.5894152"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N5">
+    <firma>FORTISCHEM a.s.</firma>
+    <ico>46693874</ico>
+    <adresa>M. R. Stefanika 1</adresa>
+    <mesto>Novaky</mesto>
+    <okres>Prievidza</okres>
+    <velkost>500-999 zam; chemicky zavod so zavodnym stravovanim</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>fortischem.sk</web>
+    <poznamka>SILNY CIEL; najvacsi chemicky zavod regionu, smenne stravovanie</poznamka>
+    <gps lat="48.7051557" lon="18.5326102"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N5">
+    <firma>VEGUM a.s.</firma>
+    <ico>44141211</ico>
+    <adresa>Gumarenska 337</adresa>
+    <mesto>Dolne Vestenice</mesto>
+    <okres>Prievidza</okres>
+    <velkost>500-999 zam; gumarensky zavod, smenna prevadzka so stravovanim</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>vegum.sk</web>
+    <poznamka>SILNY CIEL; velky gumarensky zavod, smenne stravovanie; Dolne Vestenice = okres Prievidza</poznamka>
+    <gps lat="48.6996957" lon="18.4030904"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N5">
+    <firma>Hornonitrianske bane Prievidza a.s. (HBP)</firma>
+    <ico>36005622</ico>
+    <adresa>Matiasovce 10</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>trzby ~12,2 mil EUR (2024); banska firma, viacero prevadzok</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hbp.sk</web>
+    <poznamka>tazba uhlia ukoncena 2023, firma funguje; over aktualnu kapacitu stravovania</poznamka>
+    <gps lat="48.7718361" lon="18.6234916"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N7">
+    <firma>HELLA Slovakia Lighting s.r.o.</firma>
+    <ico>36325732</ico>
+    <adresa>Svatoplukova 1550</adresa>
+    <mesto>Banovce nad Bebravou</mesto>
+    <okres>Banovce nad Bebravou</okres>
+    <velkost>~3000 zam (3 zavody), trzby 712,5 mil EUR; autosvietidla, zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hella.com</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu, masivne smenne stravovanie</poznamka>
+    <gps lat="48.7303027" lon="18.2495556"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N7">
+    <firma>Gabor spol. s r.o.</firma>
+    <ico>36322067</ico>
+    <adresa>J. Gabora 1</adresa>
+    <mesto>Banovce nad Bebravou</mesto>
+    <okres>Banovce nad Bebravou</okres>
+    <velkost>~1300-1800 zam; obuvnicka vyroba, zavodne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>gabor.sk</web>
+    <poznamka>SILNY CIEL; velky obuvnicky zavod, celodenne stravovanie zamestnancov</poznamka>
+    <gps lat="48.7216671" lon="18.2598263"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N7">
+    <firma>MILSY a.s. (Banovecka mliekaren)</firma>
+    <ico>31412572</ico>
+    <adresa>Partizanska 224/B</adresa>
+    <mesto>Banovce nad Bebravou</mesto>
+    <okres>Banovce nad Bebravou</okres>
+    <velkost>250-499 zam; mliekaren, zavodne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>banoveckamliekaren.sk</web>
+    <poznamka>velky potravinarsky zavod; zavodna jedalen, aj potencialny dodavatel mliecnych surovin</poznamka>
+    <gps lat="48.7124664" lon="18.2565905"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N6">
+    <firma>LOWA PRODUCTION s.r.o.</firma>
+    <ico>31420796</ico>
+    <adresa>Tovarenska 10</adresa>
+    <mesto>Bosany</mesto>
+    <okres>Partizanske</okres>
+    <velkost>~1900 zam, trzby 121,5 mil EUR; obuvnicky zavod (Tecnica Group), zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>lowa.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu Partizanske, masivne smenne stravovanie</poznamka>
+    <gps lat="48.5766942" lon="18.2424823"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N6">
+    <firma>Medline Assembly Slovakia s.r.o.</firma>
+    <ico>47858168</ico>
+    <adresa>Malobielicka 284/8</adresa>
+    <mesto>Partizanske</mesto>
+    <okres>Partizanske</okres>
+    <velkost>500-999 zam, trzby 82,5 mil EUR (2024); vyroba zdravotnickych pomocok</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>medline.eu</web>
+    <poznamka>SILNY CIEL; druhy najvacsi zavod okresu, rastuci, smenne stravovanie</poznamka>
+    <gps lat="48.6281665" lon="18.3308972"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N6">
+    <firma>Nemocnica na okraji mesta n.o. (Partizanske)</firma>
+    <ico>45736316</ico>
+    <adresa>Nova nemocnica 511</adresa>
+    <mesto>Partizanske</mesto>
+    <okres>Partizanske</okres>
+    <velkost>250-499 zam, 6 oddeleni + 18 ambulancii; celodenne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>okresna nemocnica (Penta Hospitals), pacienti + personal</poznamka>
+    <gps lat="48.6265223" lon="18.371762"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N3">
+    <firma>Nemocnica s poliklinikou Povazska Bystrica</firma>
+    <ico>00610411</ico>
+    <adresa>Nemocnicna 986/1</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>trzby 56,7 mil EUR (2025), lozkova nemocnica TSK</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicapb.sk</web>
+    <poznamka>SILNY CIEL; velka lozkova nemocnica, vlastna kuchyna, pacienti + personal</poznamka>
+    <gps lat="49.1066834" lon="18.4605166"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N3">
+    <firma>thyssenkrupp rothe erde Slovakia a.s. (ex-PSL)</firma>
+    <ico>31626599</ico>
+    <adresa>Robotnicka</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>500-999 zam, trzby ~76,5 mil EUR (2025), vyroba lozisk</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>thyssenkrupp-rotheerde.com</web>
+    <poznamka>SILNY CIEL; velka strojarska fabrika, zavodne stravovanie</poznamka>
+    <gps lat="49.1228658" lon="18.4299255"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N4">
+    <firma>NsP Zdravie s.r.o. (NsP Puchov)</firma>
+    <ico>53770668</ico>
+    <adresa>Pod Lachovcom 1727/55</adresa>
+    <mesto>Puchov</mesto>
+    <okres>Puchov</okres>
+    <velkost>nemocnica s poliklinikou, viacero ambulancii + lekarne</velkost>
+    <telefon>042/460 51 11</telefon>
+    <email>info@nspzdravie.sk</email>
+    <web>nspzdravie.sk</web>
+    <poznamka>nemocnicne stravovanie pacientov a personalu</poznamka>
+    <gps lat="49.1294986" lon="18.3237458"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N4">
+    <firma>Continental Tires Slovakia s.r.o. (ex-Matador Rubber)</firma>
+    <ico>36709557</ico>
+    <adresa>Terezie Vansovej 1054</adresa>
+    <mesto>Puchov</mesto>
+    <okres>Puchov</okres>
+    <velkost>5000-9999 zam, trzby 1,751 mld EUR (2024), vyroba pneumatik</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>continental.com</web>
+    <poznamka>SILNY CIEL #1; obrovska zavodna jedalen (najvacsi zamestnavatel kraja), tisice obedov denne</poznamka>
+    <gps lat="49.123928" lon="18.3239559"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N4">
+    <firma>RONA a.s.</firma>
+    <ico>31642403</ico>
+    <adresa>Schreiberova 365</adresa>
+    <mesto>Lednicke Rovne</mesto>
+    <okres>Puchov</okres>
+    <velkost>1000-1999 zam, trzby 70,72 mil EUR (2025), sklarne</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>rona.glass</web>
+    <poznamka>SILNY CIEL; velka sklarska fabrika so zavodnou jedalnou; aj vyrobca poharov pre gastro</poznamka>
+    <gps lat="49.0672865" lon="18.2872364"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N8">
+    <firma>Vertiv Slovakia a.s. (byv. Emerson)</firma>
+    <ico>31411606</ico>
+    <adresa>Piestanska 1202</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>trzby 267,7 mil EUR (2024), 1000-1999 zam; najvacsi zamestnavatel okresu</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>vertiv.com</web>
+    <poznamka>SILNY CIEL; 1000+ zam, najvacsia fabrika okresu, zavodna jedalen</poznamka>
+    <gps lat="48.7438855" lon="17.8362388"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N8">
+    <firma>Elster s.r.o. (Honeywell)</firma>
+    <ico>31421482</ico>
+    <adresa>nam. Dr. Alberta Schweitzera 194</adresa>
+    <mesto>Stara Tura</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>250-499 zam, vyrobca plynomerov, zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>elster.sk</web>
+    <poznamka>SILNY CIEL; velka fabrika v Starej Turej (areal Chirana), clen Honeywell</poznamka>
+    <gps lat="48.7732958" lon="17.6966817"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N8">
+    <firma>CHIRANA T.Injecta a.s.</firma>
+    <ico>36794619</ico>
+    <adresa>nam. Dr. Alberta Schweitzera 194</adresa>
+    <mesto>Stara Tura</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>trzby 23,82 mil EUR (2024), 250-499 zam; zdravotnicka technika</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>chirana.eu</web>
+    <poznamka>SILNY CIEL; historicky areal Chirana v Starej Turej, zavodne stravovanie</poznamka>
+    <gps lat="48.7732958" lon="17.6966817"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N8">
+    <firma>Zariadenie pre seniorov Nove Mesto nad Vahom</firma>
+    <ico>42372984</ico>
+    <adresa>Frana Krala 2688/4</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>kapacita 92 lozok, 24h prevadzka s vlastnou kuchynou</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>zpsnm.sk</web>
+    <poznamka>celodenne stravovanie 92 klientov + zamestnanci (mestska org.)</poznamka>
+    <gps lat="48.7533958" lon="17.8262642"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N9">
+    <firma>Nemocnica s poliklinikou Myjava</firma>
+    <ico>00610721</ico>
+    <adresa>Staromyjavska 712/59</adresa>
+    <mesto>Myjava</mesto>
+    <okres>Myjava</okres>
+    <velkost>vynosy 17,28 mil EUR (2025), lozkove oddelenia, vlastna nemocnicna kuchyna</velkost>
+    <telefon>034/697 91 11</telefon>
+    <email></email>
+    <web>nspmyjava.sk</web>
+    <poznamka>SILNY CIEL; jedina nemocnica okresu, najvacsi odberatel potravin v okrese</poznamka>
+    <gps lat="48.7632026" lon="17.5613471"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="N9">
+    <firma>C.E.P. Scherdel Pruziny spol. s r.o.</firma>
+    <ico>31445012</ico>
+    <adresa>Javorinska 1200/4</adresa>
+    <mesto>Myjava</mesto>
+    <okres>Myjava</okres>
+    <velkost>200-249 zam, vyroba pruzin a kovovych dielov, zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>scherdel.sk</web>
+    <poznamka>SILNY CIEL; najvacsi priemyselny zamestnavatel v meste Myjava</poznamka>
+    <gps lat="48.7637922" lon="17.573576"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N1">
+    <firma>Hotel Elizabeth (SYNOT GASTRO SLOVAKIA)</firma>
+    <ico>36690805</ico>
+    <adresa>Gen. M. R. Stefanika 2</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>trzby 8,6 mil EUR (2024); kongresova sala 180 miest, restauracia + Cafe Sissi, 78 izieb</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelelizabeth.sk</web>
+    <poznamka>SILNY CIEL; 4* hotel, najvacsia kongresova/banketova sala v centre Trencina</poznamka>
+    <gps lat="48.6466095" lon="18.3669031"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N1">
+    <firma>Hotel Magnus (NLK GROUP)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Vodna 7</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>kongresova miestnost 120 miest + dalsie saly, restauracia + wellness + bowling</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelmagnus.sk</web>
+    <poznamka>4* hotel, kongresove priestory do 120 miest; ICO prevadzkovatela over</poznamka>
+    <gps lat="48.6584805" lon="17.5648828"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N5">
+    <firma>Kupele Bojnice a.s.</firma>
+    <ico>31638694</ico>
+    <adresa>Kupele 1</adresa>
+    <mesto>Bojnice</mesto>
+    <okres>Prievidza</okres>
+    <velkost>250-499 zam, trzby 18,68 mil EUR (2024); kupelny areal, viacero jedalni (Lysec, Banik, Mier)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>kupele-bojnice.sk</web>
+    <poznamka>SILNY CIEL; velkokapacitne celodenne stravovanie hosti kupelov</poznamka>
+    <gps lat="48.7750199" lon="18.5720005"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N5">
+    <firma>RM Hotel Wellness &amp; Congress (LK Consulting SK)</firma>
+    <ico>45920397</ico>
+    <adresa>Uzka 418/4</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>4* hotel, kongresova sala do 100 osob + restauracia</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>rmhotel.sk</web>
+    <poznamka>najvacsi kongresovo-banketovy hotel v Prievidzi; svadby, firemne akcie, catering</poznamka>
+    <gps lat="48.7743402" lon="18.5982852"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N3">
+    <firma>Hotel Gino Park Palace (EUROCOM &amp; Co)</firma>
+    <ico>35761172</ico>
+    <adresa>Orlove 116</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>banket atrium + stan do 250 osob, hl. sala 80, 4* hotel</velkost>
+    <telefon>042/445 96 00</telefon>
+    <email>info@parkpalace.sk</email>
+    <web>parkpalace.sk</web>
+    <poznamka>SILNY CIEL; najvacsia banketova kapacita v okrese (250); sidlo firmy v BA, prevadzka Orlove</poznamka>
+    <gps lat="49.130776" lon="18.4249771"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N4">
+    <firma>ALEXANDRA HOTEL s.r.o.</firma>
+    <ico>36845981</ico>
+    <adresa>Dvory 581</adresa>
+    <mesto>Puchov</mesto>
+    <okres>Puchov</okres>
+    <velkost>kongres/banket do 280 osob, 4* hotel</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>alexandrahotel.sk</web>
+    <poznamka>SILNY CIEL; najvacsia kongresova/svadobna sala v Puchove (280 miest)</poznamka>
+    <gps lat="49.1265332" lon="18.3298679"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N4">
+    <firma>Sisi Rent s.r.o. (SISI Gardens)</firma>
+    <ico>52078825</ico>
+    <adresa>Strezenicka cesta 45</adresa>
+    <mesto>Puchov</mesto>
+    <okres>Puchov</okres>
+    <velkost>svadobna sala do 130 osob + zahradna terasa</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>sisigardens.sk</web>
+    <poznamka>svadobna/eventova sala 130 miest, ubytovanie + stravovanie</poznamka>
+    <gps lat="49.1140045" lon="18.3109652"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N8">
+    <firma>Mestske kulturne stredisko Nove Mesto nad Vahom</firma>
+    <ico>00350702</ico>
+    <adresa>Hviezdoslavova 4</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>spolocenska sala 164 miest + balkon 60; prispevkova org. mesta</velkost>
+    <telefon></telefon>
+    <email>riaditelka@msks.sk</email>
+    <web>msks.sk</web>
+    <poznamka>najvacsia banketova/spolocenska sala v meste; catering externe</poznamka>
+    <gps lat="48.7567319" lon="17.8275982"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N9">
+    <firma>Sprava majetku Mesta Myjava s.r.o. (KD Samka Dudika)</firma>
+    <ico>36268071</ico>
+    <adresa>M. R. Stefanika 560/4</adresa>
+    <mesto>Myjava</mesto>
+    <okres>Myjava</okres>
+    <velkost>velka sala 609 miest (prizemie 428 + balkon 181) + spolocenska sala + VIP salonik</velkost>
+    <telefon>034/621 33 89</telefon>
+    <email></email>
+    <web>smmm.sk</web>
+    <poznamka>najvacsia banketova/kongresova sala v okrese; externy catering</poznamka>
+    <gps lat="48.7526382" lon="17.5659685"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="N9">
+    <firma>Agropenzion ADAM Podkylava (TBS a.s.)</firma>
+    <ico>36303241</ico>
+    <adresa>Podkylava 916</adresa>
+    <mesto>Podkylava</mesto>
+    <okres>Myjava</okres>
+    <velkost>53 lozok, 3 gastroprevadzky (Koliba Eva), kongresova sala + salon, wellness</velkost>
+    <telefon>032/777 21 11</telefon>
+    <email></email>
+    <web>penzion-adam.sk</web>
+    <poznamka>ubytovaco-eventove zariadenie; svadby/firemne/kongresy; ICO patri prevadzkovatelovi TBS a.s. - over ORSR</poznamka>
+    <gps lat="48.6825621" lon="17.6688858"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="N3">
+    <firma>Cinska restauracia Zlaty Lotos</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>siet 3 prevadzok (Povazska Bystrica, Puchov, Dubnica nad Vahom)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>cinskejedlo.sk</web>
+    <poznamka>retazec 3 prevadzok, uvedene na sidle PB; ICO nezistene z verejnych zdrojov</poznamka>
+    <gps lat="49.1159316" lon="18.4469936"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="N5">
+    <firma>COOP Jednota Prievidza spotrebne druzstvo</firma>
+    <ico>00169005</ico>
+    <adresa>A. Hlinku I. 437</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>velke spotrebne druzstvo, viacero retail + gastro prevadzok (bufety/jedalne)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>coopprievidza.sk</web>
+    <poznamka>sidlo druzstva; viacero gastro prevadzok; analogia ku COOP Jednota Trnava</poznamka>
+    <gps lat="48.7734738" lon="18.6166724"/>
+  </prevadzka>
+</gastro_databaza>

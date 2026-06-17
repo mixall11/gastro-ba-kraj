@@ -11,6 +11,7 @@ JS_OUT = f'{BASE}/data.js'
 KRAJE = [
     ('BA', 'Bratislavsky', f'{BASE}/gastro-databaza-BA-kraj.csv', f'{BASE}/gastro-databaza-BA-kraj.xml'),
     ('TT', 'Trnavsky',     f'{BASE}/gastro-databaza-TT-kraj.csv', f'{BASE}/gastro-databaza-TT-kraj.xml'),
+    ('TN', 'Trenciansky',  f'{BASE}/gastro-databaza-TN-kraj.csv', f'{BASE}/gastro-databaza-TN-kraj.xml'),
     ('NR', 'Nitriansky',   f'{BASE}/gastro-databaza-NR-kraj.csv', f'{BASE}/gastro-databaza-NR-kraj.xml'),
 ]
 
