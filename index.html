@@ -24,8 +24,10 @@
   label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
   label.row input{accent-color:#38bdf8;width:16px;height:16px}
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-  #search,#startSel{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
-  #startSel{cursor:pointer}
+  #search,#startSel,#obecSel{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #startSel,#obecSel{cursor:pointer}
+  #placeSearch{flex:1;min-width:0;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
+  #placeSearch::placeholder{color:var(--muted)}
   #search::placeholder{color:var(--muted)}
   .seg{display:flex;gap:6px}
   .seg button{flex:1;padding:9px 6px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:13px;font-weight:600;cursor:pointer}
@@ -53,8 +55,17 @@
     <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
 
     <div class="box">
-      <h2>Hľadať</h2>
+      <h2>Hľadať vo firmách</h2>
       <input id="search" type="text" placeholder="názov, mesto, ulica…" autocomplete="off">
+    </div>
+
+    <div class="box">
+      <h2>Skočiť na miesto</h2>
+      <div style="display:flex;gap:6px">
+        <input id="placeSearch" type="text" placeholder="mesto / adresa na mape…" autocomplete="off">
+        <button class="btn" id="placeGo" style="width:auto;margin:0;padding:0 13px">🔍</button>
+      </div>
+      <div class="sub" id="placeMsg" style="margin:6px 0 0;font-size:12px"></div>
     </div>
 
     <div class="box">
@@ -69,6 +80,11 @@
     <div class="box">
       <h2>Okres</h2>
       <div id="okresy"></div>
+    </div>
+
+    <div class="box">
+      <h2>Obec (len jedna)</h2>
+      <select id="obecSel"><option value="ALL">— všetky obce —</option></select>
     </div>
 
     <div class="box">
@@ -173,6 +189,38 @@ function buildOkresy(){
   box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
 }
 
+const KRAJ_LABEL={BA:'Bratislavský',TT:'Trnavský',NR:'Nitriansky',TN:'Trenčiansky',
+  ZA:'Žilinský',BB:'Banskobystrický',PO:'Prešovský',KE:'Košický'};
+function buildObce(){
+  const sel=document.getElementById('obecSel');
+  const obecKraj={}; GASTRO_DATA.forEach(d=>obecKraj[d.mesto]=d.kraj);
+  [...new Set(GASTRO_DATA.map(d=>d.kraj))].forEach(k=>{
+    const og=document.createElement('optgroup'); og.label=(KRAJ_LABEL[k]||k)+' kraj';
+    Object.keys(obecKraj).filter(o=>obecKraj[o]===k).sort().forEach(o=>{
+      const opt=document.createElement('option'); opt.value=o; opt.textContent=o; og.appendChild(opt);
+    });
+    if(og.children.length) sel.appendChild(og);
+  });
+}
+
+let placeMarker=null;
+async function searchPlace(){
+  const q=document.getElementById('placeSearch').value.trim();
+  const msg=document.getElementById('placeMsg');
+  if(!q){msg.textContent='';return;}
+  msg.textContent='Hľadám…';
+  try{
+    const url='https://nominatim.openstreetmap.org/search?'+new URLSearchParams({q:q+', Slovensko',format:'json',limit:'1',countrycodes:'sk'});
+    const d=await (await fetch(url)).json();
+    if(!d.length){msg.textContent='Nenašlo sa: '+q;return;}
+    const la=+d[0].lat, lo=+d[0].lon;
+    if(placeMarker) map.removeLayer(placeMarker);
+    placeMarker=L.marker([la,lo]).addTo(map).bindPopup('📍 '+d[0].display_name.split(',').slice(0,3).join(',').trim()).openPopup();
+    map.setView([la,lo],13);
+    msg.textContent='';
+  }catch(e){ msg.textContent='Chyba vyhľadávania, skús znova.'; }
+}
+
 // --- trasa po ceste (OSRM trip = optimalizacia poradia + cesta) ---
 let routeLayer=null, lastOrder=null;
 const routeChk=document.getElementById('showRoute');
@@ -243,10 +291,12 @@ function apply(){
   const kats=[...document.querySelectorAll('.fkat:checked')].map(c=>c.value);
   const oks=[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
   const q=document.getElementById('search').value.trim().toLowerCase();
+  const obec=document.getElementById('obecSel').value;
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit=kats.includes(d.kat)&&oks.includes(d.okres)
+    const geoOk = obec!=='ALL' ? d.mesto===obec : oks.includes(d.okres);
+    const hit=kats.includes(d.kat)&&geoOk
       &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
@@ -266,8 +316,18 @@ document.getElementById('startSel').addEventListener('change',e=>{
   startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
   drawRoute();
 });
+document.getElementById('obecSel').addEventListener('change',()=>{
+  apply();
+  if(document.getElementById('obecSel').value!=='ALL'){
+    const vis=markers.filter(m=>map.hasLayer(m));
+    if(vis.length) map.fitBounds(L.latLngBounds(vis.map(m=>m.getLatLng())).pad(0.3));
+  }
+});
+document.getElementById('placeGo').addEventListener('click',searchPlace);
+document.getElementById('placeSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();searchPlace();}});
 
 buildOkresy();
+buildObce();
 apply();
 map.fitBounds(allBounds.pad(0.05));
 </script>
