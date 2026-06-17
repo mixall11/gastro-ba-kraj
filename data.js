@@ -1373,8 +1373,8 @@ const GASTRO_DATA = [
   "web": "mcdonalds.sk",
   "zona": "Z3",
   "pozn": "NAJVACSI retazec; +Pezinok",
-  "lat": 48.1314358,
-  "lon": 17.100331
+  "lat": 48.13244,
+  "lon": 17.10755
  },
  {
   "kraj": "TT",

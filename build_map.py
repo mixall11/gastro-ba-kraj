@@ -13,6 +13,11 @@ KRAJE = [
     ('TT', 'Trnavsky',     f'{BASE}/gastro-databaza-TT-kraj.csv', f'{BASE}/gastro-databaza-TT-kraj.xml'),
 ]
 
+# manualne GPS opravy (ICO -> lat,lon) tam, kde Nominatim trafi vedlajsiu budovu
+MANUAL_GPS = {
+    '31392229': (48.13244, 17.10755),  # McDonald's, Einsteinova 33 (Nominatim trafil budovu ERNI ~550m vedla)
+}
+
 cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 
 def save_cache():
@@ -78,7 +83,7 @@ for kod, nazov, csv_in, xml_out in KRAJE:
     rows = list(csv.DictReader(open(csv_in, newline='', encoding='utf-8')))
     print(f'\n=== {nazov} kraj ({kod}) — zaznamov: {len(rows)} ===')
     for r in rows:
-        la, lo = geocode_row(r)
+        la, lo = MANUAL_GPS.get(r['ICO']) or geocode_row(r)
         r['lat'], r['lon'] = la, lo
         flag = 'OK ' if la else '!! '
         print(f"  {flag}{r['Firma'][:42]:42} | {r['Mesto_Stvrt']}")
