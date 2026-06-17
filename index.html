@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gastro mapa — BA + TT kraj</title>
+<title>Gastro mapa — BA · TT · NR · TN · BB</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root{
-    --cat:#2563eb; --vyv:#7c3aed; --tac:#ea580c; --res:#dc2626; --sie:#16a34a;
+    --cat:#2563eb; --vyv:#7c3aed; --tac:#ea580c; --res:#dc2626; --sie:#16a34a; --sta:#0891b2;
     --bg:#0f172a; --panel:#1e293b; --panel2:#334155; --text:#e2e8f0; --muted:#94a3b8;
   }
   *{box-sizing:border-box}
@@ -53,7 +53,7 @@
 <body>
 <div id="app">
   <div id="sidebar">
-    <h1>🍽️ Gastro mapa — BA + TT kraj</h1>
+    <h1>🍽️ Gastro mapa — BA · TT · NR · TN · BB</h1>
     <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
 
     <div class="box">
@@ -77,6 +77,7 @@
       <label class="row"><input type="checkbox" class="fkat" value="Tackaren / zavodna jedalen" checked><span class="dot" style="background:var(--tac)"></span> Táckárne / závodné jedálne</label>
       <label class="row"><input type="checkbox" class="fkat" value="Velka restauracia / banketova sala" checked><span class="dot" style="background:var(--res)"></span> Veľké reštaurácie / sály</label>
       <label class="row"><input type="checkbox" class="fkat" value="Restauracna siet (3+ prevadzok)" checked><span class="dot" style="background:var(--sie)"></span> Reštauračné siete (3+)</label>
+      <label class="row"><input type="checkbox" class="fkat" value="Statne firmy a urady" checked><span class="dot" style="background:var(--sta)"></span> Štátne firmy a úrady</label>
     </div>
 
     <div class="box">
@@ -130,7 +131,9 @@
     <footer>
       Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap · letecké dlaždice Esri.<br>
       Dáta orientačné — pred oslovením over kontakt.<br>
-      Export: <a href="gastro-databaza-BA-kraj.csv">BA CSV</a> · <a href="gastro-databaza-TT-kraj.csv">TT CSV</a> · <a href="gastro-databaza-BA-kraj.xml">BA XML</a> · <a href="gastro-databaza-TT-kraj.xml">TT XML</a> · <a href="roadmapa-auto.md">roadmapa BA</a> · <a href="roadmapa-auto-TT.md">roadmapa TT</a>
+      Export CSV: <a href="gastro-databaza-BA-kraj.csv">BA</a> · <a href="gastro-databaza-TT-kraj.csv">TT</a> · <a href="gastro-databaza-NR-kraj.csv">NR</a> · <a href="gastro-databaza-TN-kraj.csv">TN</a> · <a href="gastro-databaza-BB-kraj.csv">BB</a><br>
+      Export XML: <a href="gastro-databaza-BA-kraj.xml">BA</a> · <a href="gastro-databaza-TT-kraj.xml">TT</a> · <a href="gastro-databaza-NR-kraj.xml">NR</a> · <a href="gastro-databaza-TN-kraj.xml">TN</a> · <a href="gastro-databaza-BB-kraj.xml">BB</a><br>
+      Roadmapy: <a href="roadmapa-auto.md">BA</a> · <a href="roadmapa-auto-TT.md">TT</a>
     </footer>
   </div>
   <div id="map"></div>
@@ -138,16 +141,16 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=20260617j"></script>
+<script src="data.js?v=20260617k"></script>
 <script>
 const COLORS={
   'Catering dodavatel':'#2563eb','Vyvaren / catering kuchyna':'#7c3aed',
   'Tackaren / zavodna jedalen':'#ea580c','Velka restauracia / banketova sala':'#dc2626',
-  'Restauracna siet (3+ prevadzok)':'#16a34a'};
+  'Restauracna siet (3+ prevadzok)':'#16a34a','Statne firmy a urady':'#0891b2'};
 const LABEL={
   'Catering dodavatel':'Catering / firemné stravovanie','Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa',
   'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
-  'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)'};
+  'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)','Statne firmy a urady':'Štátne firmy a úrady'};
 const STARTS={
   WGO:{lat:48.11501,lon:17.08823,name:'WGO s.r.o. — Kopčianska 90/b',q:'Kopčianska 90B, Bratislava'},
   WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23',q:'Wolkrova 23, Bratislava'},

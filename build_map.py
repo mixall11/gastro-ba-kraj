@@ -13,6 +13,7 @@ KRAJE = [
     ('TT', 'Trnavsky',     f'{BASE}/gastro-databaza-TT-kraj.csv', f'{BASE}/gastro-databaza-TT-kraj.xml'),
     ('TN', 'Trenciansky',  f'{BASE}/gastro-databaza-TN-kraj.csv', f'{BASE}/gastro-databaza-TN-kraj.xml'),
     ('NR', 'Nitriansky',   f'{BASE}/gastro-databaza-NR-kraj.csv', f'{BASE}/gastro-databaza-NR-kraj.xml'),
+    ('BB', 'Banskobystricky', f'{BASE}/gastro-databaza-BB-kraj.csv', f'{BASE}/gastro-databaza-BB-kraj.xml'),
 ]
 
 # manualne GPS opravy (ICO -> lat,lon) tam, kde Nominatim trafi vedlajsiu budovu

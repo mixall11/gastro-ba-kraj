@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="59">
+  <prevadzka kategoria="Catering dodavatel" zona="B1">
+    <firma>Stravovanie KOZAK, s. r. o.</firma>
+    <ico>57362777</ico>
+    <adresa>Pieninska 6433/25</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>zavodne stravovanie + rozvoz teplych jedal firmy/organizacie BB</velkost>
+    <telefon>048/4145205</telefon>
+    <email></email>
+    <web>stravovaniekozak.sk</web>
+    <poznamka>catering + rozvoz, kuchyna na 9. maja 74 (Uhlisko); povodne SZCO M. Kozak ICO 41678575</poznamka>
+    <gps lat="48.7625666" lon="19.1603931"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="B4">
+    <firma>Klobaskaren (Michal Mraz)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Piest 2, c. 78</adresa>
+    <mesto>Detva</mesto>
+    <okres>Detva</okres>
+    <velkost>SZCO; masovyroba + catering firemne/rodinne oslavy/svadby; posobnost Zvolen + Detva</velkost>
+    <telefon>0908 245 708</telefon>
+    <email>info@klobaskaren.sk</email>
+    <web>klobaskaren.sk</web>
+    <poznamka>catering + vlastna masova vyroba (vyssi objem surovin); majitel Michal Mraz; ICO SZCO doplnit ORSR</poznamka>
+    <gps lat="48.5595662" lon="19.4205586"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="B7">
+    <firma>IK CATERING s.r.o.</firma>
+    <ico>36768332</ico>
+    <adresa>Cukrovarska 145/51</adresa>
+    <mesto>Rimavska Sobota</mesto>
+    <okres>Rimavska Sobota</okres>
+    <velkost>catering od 1996; studena kuchyna, party servis, oblozene misy</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>ikcatering.sk</web>
+    <poznamka>najvacsi etablovany catering okresu RS (od 1996); studena/teply catering + party; objem surovin stredny az vyssi</poznamka>
+    <gps lat="48.3863257" lon="20.0144511"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="B1">
+    <firma>TRADIMEX spol. s r.o.</firma>
+    <ico>30223601</ico>
+    <adresa>Zvolenska cesta 27</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>trzby 2,50 mil EUR (2025), 25-49 zam; zavodne stravovanie + ubytovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>tradimex.sk</web>
+    <poznamka>SILNY CIEL; zavodne stravovanie, 6 jedal denne, cena MJ 5,75 EUR bez DPH; Motel Madona</poznamka>
+    <gps lat="48.7050435" lon="19.1389801"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="B3">
+    <firma>Zavodna kuchyna Kabina</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Bystricka 4</adresa>
+    <mesto>Zarnovica</mesto>
+    <okres>Zarnovica</okres>
+    <velkost>jedalen 60 miest + banketovy priestor 20; rozvoz jedal firmam 19+ rokov</velkost>
+    <telefon>045/681 39 53</telefon>
+    <email></email>
+    <web></web>
+    <poznamka>vyvaren + rozvoz do firiem/obchodov v okrese Zarnovica + catering (pecenie prasiat, slavnostne jedla); ICO/prevadzkovatel doplnit ORSR</poznamka>
+    <gps lat="48.4903301" lon="18.7232451"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>Fakultna nemocnica s poliklinikou F. D. Roosevelta Banska Bystrica</firma>
+    <ico>00165549</ico>
+    <adresa>Namestie Ludvika Svobodu 3865/1</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>trzby 178,9 mil EUR (2025), 2000-2999 zam, vlastna kuchyna</velkost>
+    <telefon>048/441 1111</telefon>
+    <email></email>
+    <web>fnspfdr.sk</web>
+    <poznamka>SILNY CIEL; najvacsia nemocnica regiona, vlastna kuchyna pacienti + personal, verejny obstaravatel</poznamka>
+    <gps lat="48.7435675" lon="19.1206201"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>Stredoslovensky ustav srdcovych a cievnych chorob, a.s.</firma>
+    <ico>36644331</ico>
+    <adresa>Cesta k nemocnici 1</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>500-999 zam; specializovane kardiocentrum, vlastna lozkova prevadzka</velkost>
+    <telefon>048/4333411</telefon>
+    <email></email>
+    <web>suscch.eu</web>
+    <poznamka>SILNY CIEL; specializovany ustav, stravovanie pacienti + personal</poznamka>
+    <gps lat="48.7419682" lon="19.159325"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>Detska fakultna nemocnica s poliklinikou Banska Bystrica</firma>
+    <ico>37957937</ico>
+    <adresa>Namestie Ludvika Svobodu 4</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>500-999 zam; detska nemocnica najvyssej urovne na Slovensku</velkost>
+    <telefon>048/4726111</telefon>
+    <email></email>
+    <web>detskanemocnica.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna detski pacienti + personal, verejny obstaravatel</poznamka>
+    <gps lat="48.742949" lon="19.1184625"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>SHP Harmanec, a.s.</firma>
+    <ico>00153052</ico>
+    <adresa>Harmanec 3</adresa>
+    <mesto>Harmanec</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>trzby 115,9 mil EUR (2024), 250-499 zam (~546); papieren</velkost>
+    <telefon>048/4372111</telefon>
+    <email></email>
+    <web>shpgroup.eu</web>
+    <poznamka>SILNY CIEL; najvacsi priemyselny zamestnavatel okresu, zavodna jedalen</poznamka>
+    <gps lat="48.7951387" lon="19.0783321"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>Evonik Fermas s.r.o.</firma>
+    <ico>31578896</ico>
+    <adresa>Slovenska Lupca 938</adresa>
+    <mesto>Slovenska Lupca</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>trzby 63,4 mil EUR (2025), 250-499 zam; biotech zavod</velkost>
+    <telefon>048/4307111</telefon>
+    <email></email>
+    <web>fermas.sk</web>
+    <poznamka>SILNY CIEL; chemicko-biotech vyroba (aminokyseliny/biosurfaktanty), zavodne stravovanie</poznamka>
+    <gps lat="48.7673613" lon="19.2759831"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B1">
+    <firma>Univerzita Mateja Bela v Banskej Bystrici</firma>
+    <ico>30232295</ico>
+    <adresa>Narodna 12</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>500-999 zam + tisice studentov; studentska jedalen/menza</velkost>
+    <telefon>048/4461111</telefon>
+    <email></email>
+    <web>umb.sk</web>
+    <poznamka>SILNY CIEL; univerzitna jedalen + zamestnanci; over operatora stravovania</poznamka>
+    <gps lat="48.7331796" lon="19.1455309"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B2">
+    <firma>Technicka univerzita vo Zvolene (SDaJ)</firma>
+    <ico>00397440</ico>
+    <adresa>Studentska 27</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>studentska jedalen, 5+ jedal/obed; tisice studentov + zamestnanci</velkost>
+    <telefon>045/520 66 30</telefon>
+    <email></email>
+    <web>tuzvo.sk</web>
+    <poznamka>SILNY CIEL; Studentsky domov a jedalen je interna sucast univerzity (sdj.tuzvo.sk); sidlo T. G. Masaryka 24</poznamka>
+    <gps lat="48.5725862" lon="19.1147562"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B2">
+    <firma>Nemocnica AGEL Zvolen a.s.</firma>
+    <ico>45594929</ico>
+    <adresa>Kuzmanyho nabrezie 28</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>~200+ luzok, 500-999 zam, az 40 typov diet</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicazvolen.agel.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna pacienti + personal; skupina AGEL; pristavba +60 novych luzok</poznamka>
+    <gps lat="48.5804374" lon="19.1340044"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B2">
+    <firma>KRONOSPAN s.r.o. (byv. Bucina)</firma>
+    <ico>36059323</ico>
+    <adresa>Lucenecka cesta 1335/21</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>250-499 zam; drevarsky/DDD zavod, zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>kronospan.sk</web>
+    <poznamka>SILNY CIEL; velky drevospracujuci zavod Zvolen (historicky nazov Bucina DDD); zavodne stravovanie</poznamka>
+    <gps lat="48.5675611" lon="19.1555066"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B4">
+    <firma>PPS Group a.s.</firma>
+    <ico>36011509</ico>
+    <adresa>Tajovskeho 7</adresa>
+    <mesto>Detva</mesto>
+    <okres>Detva</okres>
+    <velkost>trzby 56,43 mil EUR (2025), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>ppsgroup.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu Detva (strojarstvo, zvarence/rame); velka zavodna jedalen; operator stravovania over</poznamka>
+    <gps lat="48.5449791" lon="19.4153127"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B4">
+    <firma>Nemocnica s poliklinikou Krupina</firma>
+    <ico>17335701</ico>
+    <adresa>29. augusta 23</adresa>
+    <mesto>Krupina</mesto>
+    <okres>Krupina</okres>
+    <velkost>mestska lozkova nemocnica + poliklinika; pacienti + personal</velkost>
+    <telefon>045/5550</telefon>
+    <email></email>
+    <web>nemocnicakrupina.agel.sk</web>
+    <poznamka>SILNY CIEL; jedina lozkova nemocnica okresu Krupina; prevadzkovana cez AGEL; trzby/pocet luzok doplnit FinStat</poznamka>
+    <gps lat="48.3523215" lon="19.0645468"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>Nemak Slovakia s.r.o.</firma>
+    <ico>36042773</ico>
+    <adresa>Ladomerska Vieska 394</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>trzby 230,5 mil EUR (2024), 1000-1999 zam; zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemak.com</web>
+    <poznamka>SILNY CIEL; automotive zlievaren hlinika, najvacsi sukromny zamestnavatel okresu (~1500 zam); over operatora jedalne</poznamka>
+    <gps lat="48.5767461" lon="18.8767073"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>Slovalco, a.s.</firma>
+    <ico>31587011</ico>
+    <adresa>Priemyselna 14</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>trzby 101,3 mil EUR (2024), 150-199 zam; zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>slovalco.sk</web>
+    <poznamka>SILNY CIEL; spracovanie hlinika (Hydro 55%); po odstaveni elektrolyznych peci 2023 redukovany stav, stale velka prevadzka v ZSNP areali</poznamka>
+    <gps lat="48.5672502" lon="18.8606186"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>Fagor Ederlan Slovensko, a.s.</firma>
+    <ico>36022934</ico>
+    <adresa>Priemyselna 12</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>100-149 zam; tlakova zlievaren hlinika, zavodne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>fagorederlan.com</web>
+    <poznamka>SILNY CIEL; automotive zlievaren (byv. ZSNP Foundry) v priemyselnom areali ZSNP; stabilny denny objem obedov</poznamka>
+    <gps lat="48.5668272" lon="18.8552847"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>TUBAPACK, a.s.</firma>
+    <ico>36629723</ico>
+    <adresa>Priemyselna 12</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>vyrobca hlinikovych a laminatovych tub; zaklad. imanie 6,79 mil EUR; zavodne stravovanie</velkost>
+    <telefon>0908 738 855</telefon>
+    <email>tubapack@tubapack.sk</email>
+    <web>tubapack.eu</web>
+    <poznamka>priemyselny zavod v ZSNP areali; stredny-velky objem stravnikov; pocet zam over FinStat</poznamka>
+    <gps lat="48.5668272" lon="18.8552847"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>Nemocnica AGEL Ziar nad Hronom a Banska Stiavnica s.r.o.</firma>
+    <ico>54588952</ico>
+    <adresa>Sladkovicova 11</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>196 luzok, 18 ambulancii; spadova oblast ~100000 (ZH+ZC+BS)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicaziarnadhronom.agel.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna pacienti + personal; skupina AGEL; hlavna lozkova prevadzka v Ziari</poznamka>
+    <gps lat="48.590194" lon="18.8429164"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B3">
+    <firma>Knauf Insulation, s.r.o. (zavod Nova Bana)</firma>
+    <ico>31628109</ico>
+    <adresa>Zeleznicny rad 24</adresa>
+    <mesto>Nova Bana</mesto>
+    <okres>Zarnovica</okres>
+    <velkost>250-499 zam; jediny vyrobca kamennej miner. vlny v SR; zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>knaufinsulation-zavod.sk</web>
+    <poznamka>SILNY CIEL; najvacsi priemyselny zamestnavatel okresu Zarnovica; nepretrzita prevadzka = denne stravovanie cez zmeny</poznamka>
+    <gps lat="48.4103002" lon="18.6419354"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>Vseobecna nemocnica s poliklinikou Lucenec n.o.</firma>
+    <ico>37954571</ico>
+    <adresa>Namestie republiky 2373/15</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>trzby 37,6 mil EUR (2025), 500-999 zam; nova kuchyna pre pacientov + personal</velkost>
+    <telefon>047/4311111</telefon>
+    <email>info@lcnsp.sk</email>
+    <web>lcnsp.sk</web>
+    <poznamka>SILNY CIEL; najvacsia nemocnicna kuchyna okresu, novovybudovana prevadzka liecebnej vyzivy + jedalen pre personal</poznamka>
+    <gps lat="48.3286318" lon="19.6596809"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>Adient/Johnson Controls (zavod Lucenec)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Priemyselna zona Juh</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>automotive vyroba penovych komponentov sedaciek; velka prevadzka so zavodnym stravovanim</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>adient.com</web>
+    <poznamka>SILNY CIEL; velky automotive zamestnavatel okresu, priem. zona Juh; presny prevadzkovy subjekt + ICO + operator jedalne over ORSR</poznamka>
+    <gps lat="48.3303886" lon="19.6634149"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>MECOM GROUP s.r.o. (prevadzka Lucenec)</firma>
+    <ico>31735151</ico>
+    <adresa>Mikusovska cesta 3022</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>cely podnik trzby 189,5 mil EUR (2024), 1000-1999 zam; vlastna zavodna jedalen na prevadzke</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mecom.sk</web>
+    <poznamka>SILNY CIEL; masokombinat (Smithfield), vlastne zavodne stravovanie; sidlo firmy Humenne, prevadzka v Lucenci</poznamka>
+    <gps lat="48.3066404" lon="19.6805383"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>Vseobecna nemocnica s poliklinikou n.o. Velky Krtis</firma>
+    <ico>31908977</ico>
+    <adresa>Nemocnicna 756/1</adresa>
+    <mesto>Velky Krtis</mesto>
+    <okres>Velky Krtis</okres>
+    <velkost>trzby 10,6 mil EUR (2024), 250-499 zam; nemocnicna kuchyna</velkost>
+    <telefon>047/2900111</telefon>
+    <email></email>
+    <web>nspvk.sk</web>
+    <poznamka>SILNY CIEL; spadova nemocnica okresu, vlastna kuchyna pacienti + personal; financne napata (strata 2024)</poznamka>
+    <gps lat="48.2105819" lon="19.3508582"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>R-GLASS Trade s.r.o.</firma>
+    <ico>44936982</ico>
+    <adresa>Katarinska Huta</adresa>
+    <mesto>Katarinska Huta</mesto>
+    <okres>Poltar</okres>
+    <velkost>trzby 7,5+ mil EUR, ~200 zam; sklarska vyroba so zavodnou jedalnou</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>r-glass.sk</web>
+    <poznamka>SILNY CIEL; najvacsi vyrobny zamestnavatel okresu Poltar (sklarne v byv. areali Slovglass), zavodne stravovanie</poznamka>
+    <gps lat="48.4636561" lon="19.6357923"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B7">
+    <firma>TAURIS, a.s.</firma>
+    <ico>36773123</ico>
+    <adresa>Potravinarska 6</adresa>
+    <mesto>Rimavska Sobota</mesto>
+    <okres>Rimavska Sobota</okres>
+    <velkost>1000-1999 zam; zavodna jedalen masokombinatu</velkost>
+    <telefon>047/5618201</telefon>
+    <email>tauris@tauris.sk</email>
+    <web>taurisgroup.sk</web>
+    <poznamka>SILNY CIEL; najvacsi priemyselny zamestnavatel okresu (masokombinat TAURIS Group), velka zavodna jedalen; over operatora stravovania</poznamka>
+    <gps lat="48.3747446" lon="20.0300839"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B7">
+    <firma>Slovenske magnezitove zavody, a.s. Jelsava (SMZ)</firma>
+    <ico>31685340</ico>
+    <adresa>Tepla Voda 671</adresa>
+    <mesto>Jelsava</mesto>
+    <okres>Revuca</okres>
+    <velkost>trzby 39 mil EUR (2025), 500-999 zam; zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>smzjelsava.sk</web>
+    <poznamka>SILNY CIEL; najvacsia fabrika okresu Revuca (magnezit), zavodne stravovanie; dcera SMZ-Sluzby (stravovanie) zrusena 2021 - over operatora</poznamka>
+    <gps lat="48.6441966" lon="20.2170711"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B7">
+    <firma>Vseobecna nemocnica Rimavska Sobota (Svet zdravia/Penta)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Srobarova 3129</adresa>
+    <mesto>Rimavska Sobota</mesto>
+    <okres>Rimavska Sobota</okres>
+    <velkost>12 luzkovych oddeleni, ~279 luzok; nemocnicna kuchyna pacienti + personal</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna, siet Svet zdravia/Penta; prevadzkovy subjekt + ICO over ORSR</poznamka>
+    <gps lat="48.3828439" lon="20.0256058"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B5">
+    <firma>Nemocnica s poliklinikou Brezno, n.o.</firma>
+    <ico>31908969</ico>
+    <adresa>Banisko 273/1</adresa>
+    <mesto>Brezno</mesto>
+    <okres>Brezno</okres>
+    <velkost>320 luzok; nemocnicna kuchyna pacienti + personal</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nspbr.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna, samostatna n.o. (NIE Svet zdravia); stabilny denny objem</poznamka>
+    <gps lat="48.809133" lon="19.6236492"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B7">
+    <firma>Nemocnica s poliklinikou, n.o. Revuca</firma>
+    <ico>45736324</ico>
+    <adresa>Litovelska 25</adresa>
+    <mesto>Revuca</mesto>
+    <okres>Revuca</okres>
+    <velkost>lozkova nemocnica Revuca; nemocnicna kuchyna pacienti + personal</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nsprevuca.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna; samostatna n.o.; pocet luzok over</poznamka>
+    <gps lat="48.6916682" lon="20.1186586"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B5">
+    <firma>ZLH Plus, a.s.</firma>
+    <ico>36853151</ico>
+    <adresa>Zlievarenska 533</adresa>
+    <mesto>Hronec</mesto>
+    <okres>Brezno</okres>
+    <velkost>trzby 26,7 mil EUR (2024), 200-249 zam; zavodna jedalen zlievarne</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>zlhhronec.sk</web>
+    <poznamka>SILNY CIEL; zlievaren (odliatky pre zelez. priemysel), zavodne stravovanie; over operatora jedalne</poznamka>
+    <gps lat="48.8001741" lon="19.5771414"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B1">
+    <firma>DIXON Resort Congress Hotel (MUDr. Juraj Sninsky - DIXON)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Svermova 32</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>105 izieb/235 luzok, kongresova sala 500 (najvacsia v regione) + 5 salonikov, restauracia + aquapark</velkost>
+    <telefon>048/4144711</telefon>
+    <email></email>
+    <web>dixonresort.sk</web>
+    <poznamka>SILNY CIEL; najvacsia kongresova/banketova kapacita v BB; prevadzkuje SZCO J. Sninsky, ICO doplnit ORSR</poznamka>
+    <gps lat="48.7359616" lon="19.1251864"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B1">
+    <firma>Hotel Arcade Banska Bystrica</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Namestie SNP 5</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>kongresova sala 230 (kino) / 120 banket, restauracia + cukraren</velkost>
+    <telefon>048/4302111</telefon>
+    <email></email>
+    <web>arcade.sk</web>
+    <poznamka>banketova/eventova prevadzka v centre; prevadzkovatel/ICO doplnit ORSR</poznamka>
+    <gps lat="48.734617" lon="19.1456519"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B1">
+    <firma>Restauracia Cerveny Rak (KREBS s.r.o.)</firma>
+    <ico>44995474</ico>
+    <adresa>Namestie SNP 13</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>restauracia + pivaren do 120 miest, catering do 250 osob</velkost>
+    <telefon>0905 261 355</telefon>
+    <email>post@cervenyrak.sk</email>
+    <web>cervenyrak.sk</web>
+    <poznamka>SILNY CIEL; vlastna varna kapacita + catering do 250 osob, minipivovar KREBS</poznamka>
+    <gps lat="48.7349855" lon="19.1438772"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B2">
+    <firma>TENIS CENTRUM s.r.o. (Hotel Tenis CITY RESORT)</firma>
+    <ico>36029751</ico>
+    <adresa>Neresnicka cesta 13</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>4* kongres+wellness hotel, 5 konf. sal kapacita 10-400 osob, 2 restauracie, 50-99 zam</velkost>
+    <telefon>045/532 23 73</telefon>
+    <email></email>
+    <web>hoteltenis.sk</web>
+    <poznamka>SILNY CIEL; najvacsia kongresova/banketova kapacita Zvolena (do 400), svadby/plesy/firemne; tel 0915 988 811</poznamka>
+    <gps lat="48.5591527" lon="19.1319182"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B2">
+    <firma>Restauracia Centrum Zvolen</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>J. Kozaceka 8</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>3 prepojene priestory, kongresova sala + restauracia, kapacita do 300 osob, tanecny parket</velkost>
+    <telefon>045/533 50 36</telefon>
+    <email>info@restauraciacentrum.sk</email>
+    <web>restauracia-centrum.sk</web>
+    <poznamka>SILNY CIEL; velka kongresova/svadobna sala do 300 + catering; prevadzkuje aj Kuraci Svet a Blue Cafe; ICO doplnit ORSR</poznamka>
+    <gps lat="48.5782517" lon="19.1247135"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B4">
+    <firma>Hotel DETVA s.r.o.</firma>
+    <ico>36014613</ico>
+    <adresa>Zahradna 22</adresa>
+    <mesto>Detva</mesto>
+    <okres>Detva</okres>
+    <velkost>hotel 134 luzok, restauracia + vlastna cukraren + kaviaren + bar; svadby/oslavy</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>SILNY CIEL; najvacsia ubytovacia + eventova prevadzka okresu Detva; vlastnici R. a M. Suptak; ICO over</poznamka>
+    <gps lat="48.5412764" lon="19.4040356"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B3">
+    <firma>Premium Star Hotels a.s. (Salamandra Resort)</firma>
+    <ico>47432039</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Hodrusa-Hamre</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>156 luzok, restauracia + bar, kongresove saly do 130 osob, wellness</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>salamandra.sk</web>
+    <poznamka>SILNY CIEL; styrhviezdickovy horsky rezort pri Banskej Stiavnici (9 km), MICE/eventy/svadby; sidlo firmy v BA, rezort v Hodrusi-Hamroch (okres Ziar)</poznamka>
+    <gps lat="48.4662496" lon="18.8187939"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B3">
+    <firma>HGM s.r.o. (Hotel Grand Matej)</firma>
+    <ico>31568742</ico>
+    <adresa>Namestie sv. Trojice 3</adresa>
+    <mesto>Banska Stiavnica</mesto>
+    <okres>Banska Stiavnica</okres>
+    <velkost>restauracia + terasa; kongresova sala do 250 osob, salonik 60 + 15</velkost>
+    <telefon>045/692 12 13</telefon>
+    <email></email>
+    <web>grandmatej.sk</web>
+    <poznamka>SILNY CIEL; najvacsia eventova/kongresova kapacita v centre UNESCO Banskej Stiavnice; svadby/firemne</poznamka>
+    <gps lat="48.4593745" lon="18.8923427"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B3">
+    <firma>Hotel Salamander</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>J. Palarika 1</adresa>
+    <mesto>Banska Stiavnica</mesto>
+    <okres>Banska Stiavnica</okres>
+    <velkost>restauracia ~30 + salonik 30; hotel v centre mesta</velkost>
+    <telefon>045/691 39 92</telefon>
+    <email></email>
+    <web>salamanderhotel.sk</web>
+    <poznamka>mensia kapacita; restauracia + ubytovanie v historickom centre; ICO/prevadzkovatel doplnit ORSR</poznamka>
+    <gps lat="48.4580926" lon="18.8988414"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B6">
+    <firma>Hotel Reduta Lucenec (komplex)</firma>
+    <ico>31615724</ico>
+    <adresa>Vajanskeho 2</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>hotel + viacero restauracii/kaviarni + velka spolocenska sala s foyer; svadby/firemne/oslavy</velkost>
+    <telefon></telefon>
+    <email>podujatia@redutalucenec.sk</email>
+    <web>redutalucenec.sk</web>
+    <poznamka>SILNY CIEL; najvacsi eventovy/banketovy komplex v centre Lucenca; povodny prevadzkovatel TRADE CENTER s.r.o. v konkurze, over aktualneho operatora</poznamka>
+    <gps lat="48.3273237" lon="19.6692054"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B6">
+    <firma>Restauracia KPU (krcma pana Urbancoka)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Obrancov mieru 486</adresa>
+    <mesto>Poltar</mesto>
+    <okres>Poltar</okres>
+    <velkost>klimatizovana sala 150 osob + salonik; svadby/oslavy/plesy + kompletny catering</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>dobruchutpoltar.sk</web>
+    <poznamka>SILNY CIEL; najvacsia banketova/svadobna sala okresu Poltar, vlastny catering + penzion; ICO doplnit ORSR</poznamka>
+    <gps lat="48.4344742" lon="19.7966007"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B6">
+    <firma>Hotel Polo Poltar</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Poltar</mesto>
+    <okres>Poltar</okres>
+    <velkost>restauracia kapacita 100 osob; oslavy/banketovky/svadby/kongresy</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotel-polo.sk</web>
+    <poznamka>banketova/eventova prevadzka v okrese Poltar; ICO + presna adresa doplnit ORSR</poznamka>
+    <gps lat="48.4308293" lon="19.7923921"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B6">
+    <firma>MOVINO, spol. s r.o. (Penzion u Vinara)</firma>
+    <ico>31617824</ico>
+    <adresa>Janka Krala 2667</adresa>
+    <mesto>Velky Krtis</mesto>
+    <okres>Velky Krtis</okres>
+    <velkost>trzby 5,99 mil EUR (2024), ~30 zam; penzion + restauracia + vinarstvo, firemne eventy/seminare/svadby</velkost>
+    <telefon>0911 033 248</telefon>
+    <email>recepcia@penzionuvinara.sk</email>
+    <web>penzionuvinara.sk</web>
+    <poznamka>SILNY CIEL; najvacsi vinar stredoslovenskej oblasti (230 ha), eventovy priestor + vino + ubytovanie pre firemne akcie</poznamka>
+    <gps lat="48.211172" lon="19.3338701"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B5">
+    <firma>HOTEL PARTIZAN PS, s.r.o. (Wellness Hotel Partizan Tale)</firma>
+    <ico>47250208</ico>
+    <adresa>Bystra 108</adresa>
+    <mesto>Bystra</mesto>
+    <okres>Brezno</okres>
+    <velkost>86 dvojluzkovych izieb + 11 apartmanov; kongres do 450 osob (1000 m2); 5 restauracii/barov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>partizan.sk</web>
+    <poznamka>SILNY CIEL; najvacsia kongresovo-eventova kapacita regionu Tale, viacero vlastnych kuchyn/restauracii; rodina Kico</poznamka>
+    <gps lat="48.8442095" lon="19.6063437"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B5">
+    <firma>Tale a.s. (Ski, Golf &amp; Hotel Resort Tale)</firma>
+    <ico>36028631</ico>
+    <adresa>Tale 100</adresa>
+    <mesto>Horna Lehota</mesto>
+    <okres>Brezno</okres>
+    <velkost>Hotel Stupka + Golf; restauracia 80 + Koliba 80-100 + Stodola do 150; svadby/eventy</velkost>
+    <telefon>048 6712 601</telefon>
+    <email>infotale@tale.sk</email>
+    <web>tale.sk</web>
+    <poznamka>SILNY CIEL; horsky rezort s viacerymi gastro prevadzkami, banketova kapacita do 150 (Stodola), svadby/firemne</poznamka>
+    <gps lat="48.8699186" lon="19.5919461"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="B5">
+    <firma>Restauracia OMEGA (Nana s.r.o.)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Svermova 7</adresa>
+    <mesto>Brezno</mesto>
+    <okres>Brezno</okres>
+    <velkost>restauracia v Dome kultury Brezno; svadby/plesy/firemne + catering, donaska</velkost>
+    <telefon>048/611 55 61</telefon>
+    <email></email>
+    <web>restauraciaomega.sk</web>
+    <poznamka>banketova/eventova restauracia v Dome kultury Brezno + catering; ICO Nana s.r.o. doplnit ORSR</poznamka>
+    <gps lat="48.8025421" lon="19.6391146"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="B4">
+    <firma>COOP Jednota Krupina, spotrebne druzstvo</firma>
+    <ico>00169021</ico>
+    <adresa>Svatotrojicne namestie 22</adresa>
+    <mesto>Krupina</mesto>
+    <okres>Krupina</okres>
+    <velkost>trzby 161 mil EUR (2024); siet predajni + pohostinska/restauracna cinnost v 12 okresoch BB kraja</velkost>
+    <telefon>045/511 51 22</telefon>
+    <email>info@ka.coop.sk</email>
+    <web>coopka.sk</web>
+    <poznamka>SILNY CIEL; najvacsie regionalne druzstvo v kraji (160 predajni), pohostinska cinnost, velkoodberatel surovin pre vlastne gastro prevadzky</poznamka>
+    <gps lat="48.353408" lon="19.0671217"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="B5">
+    <firma>COOP Jednota Brezno, spotrebne druzstvo</firma>
+    <ico>36009342</ico>
+    <adresa>Nam. gen. M. R. Stefanika 44/52</adresa>
+    <mesto>Brezno</mesto>
+    <okres>Brezno</okres>
+    <velkost>trzby 33,65 mil EUR (2025); 250-499 zam; pohostinska cinnost + siet predajni v okrese Brezno</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>SILNY CIEL; regionalne spotrebne druzstvo s pohostinskou cinnostou, stabilny velkoodberatel potravin v Horehronskom regione</poznamka>
+    <gps lat="48.8063408" lon="19.6417475"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="B2">
+    <firma>McDonald's fransiza Zvolen + Banska Bystrica</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Obchodna 9</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>2 prevadzky McDonald's (Zvolen + Banska Bystrica), planovana 3.</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mcdonalds.sk</web>
+    <poznamka>fransizove prevadzky McDonald's (Zvolen Obchodna 9 + SC Europa BB); franchisant zrejme V. Tomko; prevadzkova firma + ICO over ORSR</poznamka>
+    <gps lat="48.5837269" lon="19.1058097"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Banskobystricky samospravny kraj (Urad BBSK)</firma>
+    <ico>37828100</ico>
+    <adresa>Namestie SNP 23</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>250-499 zam, rozpocet ~200 mil EUR (2025); zriadovatel desiatok skol/soc. zariadeni s vlastnymi kuchynami</velkost>
+    <telefon>048/4325111</telefon>
+    <email>podatelna@bbsk.sk</email>
+    <web>bbsk.sk</web>
+    <poznamka>SILNY CIEL; krajsky urad + zriadovatel ~50 strednych skol a socialnych zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)</poznamka>
+    <gps lat="48.7361975" lon="19.1457471"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>LESY Slovenskej republiky, s.p. - generalne riaditelstvo</firma>
+    <ico>36038351</ico>
+    <adresa>Namestie SNP 8</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>velky statny podnik, tisice zam celostatne; GR sidli v BB</velkost>
+    <telefon>048/4344111</telefon>
+    <email>lesysr@lesy.sk</email>
+    <web>lesy.sk</web>
+    <poznamka>SILNY CIEL; sidlo statneho podniku v BB, odber stravovacich sluzieb pre GR; over model jedalne (vlastna vs externa)</poznamka>
+    <gps lat="48.7345471" lon="19.1450621"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B2">
+    <firma>81. kridlo Sliac (letecka zakladna OS SR)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Letisko Sliac</adresa>
+    <mesto>Sliac</mesto>
+    <okres>Zvolen</okres>
+    <velkost>letecka zakladna OS SR, stovky vojakov + personal, vojenska jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>81k.mil.sk</web>
+    <poznamka>SILNY CIEL; vojenska zakladna s velkou jedalnou (kazdodenne stravovanie posadky); utvar OS SR pod MO SR (ICO 30845572), samostatne doplnit</poznamka>
+    <gps lat="48.6379611" lon="19.1356756"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B2">
+    <firma>Velitelstvo vzdusnych sil OS SR Zvolen</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Jana Jiskru 10</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>velitelstvo VzS OS SR, vojaci + civilni zam, vojenska jedalen</velkost>
+    <telefon>0960/464111</telefon>
+    <email></email>
+    <web>vvzs.mil.sk</web>
+    <poznamka>SILNY CIEL; velitelstvo + posadka Zvolen s vojenskou jedalnou; utvar OS SR pod MO SR (ICO 30845572), samostatne doplnit</poznamka>
+    <gps lat="48.5752552" lon="19.1290487"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Mesto Banska Bystrica (Mestsky urad)</firma>
+    <ico>00313271</ico>
+    <adresa>Ceskoslovenskej armady 26</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>1000-1999 zam (mesto + organizacie), najvacsia samosprava kraja</velkost>
+    <telefon>048/4330111</telefon>
+    <email>msu@banskabystrica.sk</email>
+    <web>banskabystrica.sk</web>
+    <poznamka>SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin)</poznamka>
+    <gps lat="48.7383681" lon="19.1563277"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B2">
+    <firma>Mesto Zvolen (Mestsky urad)</firma>
+    <ico>00320439</ico>
+    <adresa>Namestie slobody 22</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>250-499 zam, druha najvacsia samosprava kraja</velkost>
+    <telefon>045/5303111</telefon>
+    <email>mesto@zvolen.sk</email>
+    <web>zvolen.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Zvolen (odber potravin/stravy)</poznamka>
+    <gps lat="48.5782185" lon="19.1234142"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Banskej Bystrici</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>9. maja 1</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>krajske riaditelstvo PZ, stovky prislusnikov v kraji</velkost>
+    <telefon>0961/601111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajske riaditelstvo PZ; spada pod MV SR; over ci ma vlastnu jedalen alebo obstarava stravu externe</poznamka>
+    <gps lat="48.7319682" lon="19.1528607"/>
+  </prevadzka>
+</gastro_databaza>
