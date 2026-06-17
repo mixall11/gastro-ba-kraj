@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="82">
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>MENju s.r.o.</firma>
+    <ico>53455339</ico>
+    <adresa>Karpatske nam. 10A</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 169 tis EUR (2025), 3-4 zam</velkost>
+    <telefon>+421 908 368 968</telefon>
+    <email>event@menju.sk</email>
+    <web>menju.sk</web>
+    <poznamka>rozvoz do officu + teambuilding; prevadzka Tomasikova 17</poznamka>
+    <gps lat="48.2161175" lon="17.1654827"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>TOMIR s.r.o. (MacoMenu)</firma>
+    <ico>47981300</ico>
+    <adresa>Bojnicka 10</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 652 tis EUR (2024), 5-9 zam</velkost>
+    <telefon>0948 083 707</telefon>
+    <email>mirka.habudova@gurmanservis.sk</email>
+    <web>macomenu.sk</web>
+    <poznamka>denny rozvoz obedov od 7,50 EUR, dovoz zdarma, min 2 ks</poznamka>
+    <gps lat="48.1794915" lon="17.1664571"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z5">
+    <firma>Manna Factory s.r.o.</firma>
+    <ico>52941051</ico>
+    <adresa>Latoricka 4</adresa>
+    <mesto>Bratislava-Podunajske Biskupice</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby ~1,0 mil EUR (2025), 25-49 zam</velkost>
+    <telefon>0902 985 500</telefon>
+    <email>office@mannacatering.sk</email>
+    <web>mannacatering.sk</web>
+    <poznamka>SILNY CIEL; korporatne eventy (Accenture, IBM, Microsoft)</poznamka>
+    <gps lat="48.1345931" lon="17.2114238"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z3">
+    <firma>CATERINGOVE SLUZBY s.r.o. (123Catering)</firma>
+    <ico>44745982</ico>
+    <adresa>Cernysevskeho 10</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 1,3 mil EUR (2025), 5-9 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>123catering.sk</web>
+    <poznamka>event catering; kontakt cez web/ORSR</poznamka>
+    <gps lat="48.1281468" lon="17.1095441"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>Smart Business Solutions s.r.o. (AMIS Group)</firma>
+    <ico>47111925</ico>
+    <adresa>Laliova 2792/28</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 1,43 mil EUR (2024), 10-19 zam</velkost>
+    <telefon>+421 910 259 945</telefon>
+    <email>manager@amisgroup.sk</email>
+    <web>amisgroup.sk</web>
+    <poznamka>zavodne stravovanie + sala Senec 250 os</poznamka>
+    <gps lat="48.144877" lon="17.1749469"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z1">
+    <firma>Soupa s.r.o.</firma>
+    <ico>43814336</ico>
+    <adresa>Kozia 11</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 1,53 mil EUR (2024), 10-19 zam</velkost>
+    <telefon>0948 611 544</telefon>
+    <email>info@soupa.sk</email>
+    <web>soupa.sk</web>
+    <poznamka>bufety, ranajky, priestor Kulturama do 200 os</poznamka>
+    <gps lat="48.1463945" lon="17.1029415"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>ROXY CATERING s.r.o.</firma>
+    <ico>36701661</ico>
+    <adresa>Bajkalska 29/E</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 3,12 mil EUR (2024), 25-49 zam</velkost>
+    <telefon>+421 903 456 662</telefon>
+    <email></email>
+    <web>roxycatering.sk</web>
+    <poznamka>recepcie, vecierky, plesy</poznamka>
+    <gps lat="48.1513206" lon="17.150143"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z6">
+    <firma>PAPA GRILL s.r.o. (+ Royal Catering)</firma>
+    <ico>45689679</ico>
+    <adresa>Priemyselna 5863</adresa>
+    <mesto>Malacky</mesto>
+    <okres>Malacky</okres>
+    <velkost>trzby 4,85 mil EUR (2025), 25-49 zam</velkost>
+    <telefon>+421 910 333 511</telefon>
+    <email>info@papagrill.sk</email>
+    <web>papagrill.sk</web>
+    <poznamka>SILNY CIEL; kontraktove firemne jedalne, kuchyna 600 m2; event +421 911 580 480</poznamka>
+    <gps lat="48.4213126" lon="17.0373725"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>CITY GASTRO a.s.</firma>
+    <ico>46323279</ico>
+    <adresa>Sliacska 3269/1E</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 8,33 mil EUR (2024), 100-149 zam</velkost>
+    <telefon>+421 948 929 323</telefon>
+    <email>sekretariat@citygastro.sk</email>
+    <web>citygastro.sk</web>
+    <poznamka>zavodne stravovanie + catering, ISO 9001/22000; prevadzkuje jedalen EUBA</poznamka>
+    <gps lat="48.1714307" lon="17.1245613"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z1">
+    <firma>ALDENTE s.r.o. (Bencik Culinary Group)</firma>
+    <ico>35882841</ico>
+    <adresa>Hviezdoslavovo nam. 20</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 8,52 mil EUR (2024), 150-199 zam</velkost>
+    <telefon></telefon>
+    <email>info@bencikculinary.sk</email>
+    <web>bencikculinary.sk</web>
+    <poznamka>premiove jedalne v BC (Obederia, La Cantina)</poznamka>
+    <gps lat="48.1421185" lon="17.1078921"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>Medusa Restaurants a.s. (Medusa Catering)</firma>
+    <ico>35849592</ico>
+    <adresa>Sutazna 3</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>trzby 28,76 mil EUR (2024), 250-499 zam</velkost>
+    <telefon>+421 2 3300 2808</telefon>
+    <email></email>
+    <web>medusarestaurants.sk</web>
+    <poznamka>najvacsia gastro skupina SK; event catering pre tisice</poznamka>
+    <gps lat="48.1488728" lon="17.1273748"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z?">
+    <firma>SKGastro</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>doplnit</adresa>
+    <mesto>Bratislava</mesto>
+    <okres>Bratislava</okres>
+    <velkost>nezverejnene</velkost>
+    <telefon>0908 898 677</telefon>
+    <email>skgastro@skgastro.sk</email>
+    <web>skgastro.sk</web>
+    <poznamka>zavodne stravovanie; over ICO + sidlo</poznamka>
+    <gps lat="48.1516988" lon="17.1093063"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z2">
+    <firma>Catering Bratislava</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Galvaniho 12/B</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>nezverejnene</velkost>
+    <telefon>0910 166 999</telefon>
+    <email>catering@cateringbratislava.sk</email>
+    <web>cateringbratislava.sk</web>
+    <poznamka>eventy + pozicovna inventara; over ICO</poznamka>
+    <gps lat="48.1738535" lon="17.176006"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="Z5">
+    <firma>GASTRO-CENTRUM Antovszky s.r.o.</firma>
+    <ico>31402666</ico>
+    <adresa>Hradska 26</adresa>
+    <mesto>Bratislava-Vrakuna</mesto>
+    <okres>Bratislava</okres>
+    <velkost>spiaca firma ~0 EUR</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>antovszkycatering.sk</web>
+    <poznamka>VYRADIT - fakticky necinna</poznamka>
+    <gps lat="48.1520531" lon="17.1987878"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>Delirest Slovakia s.r.o. (brand EUREST)</firma>
+    <ico>31342809</ico>
+    <adresa>Plynarenska 7/B</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>LIDER: 35,5 mil EUR, 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>eurest.sk</web>
+    <poznamka>tel/email cez ORSR (web docasne down)</poznamka>
+    <gps lat="48.1455454" lon="17.143422"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z6">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Lozorno 995 (prevadzka)</adresa>
+    <mesto>Lozorno</mesto>
+    <okres>Malacky</okres>
+    <velkost>~5,2 mil EUR (2023); 10000+ porcii/den</velkost>
+    <telefon>+421 918 797 063</telefon>
+    <email>obchod@food-time.sk</email>
+    <web>food-time.sk</web>
+    <poznamka>najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji</poznamka>
+    <gps lat="48.3346371" lon="17.0444471"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>GTH catering s.r.o. (ex-Sodexo)</firma>
+    <ico>35728434</ico>
+    <adresa>Vajnorska 100/B</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>7,1 mil EUR, 150-199 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>gthcatering.sk</web>
+    <poznamka>sidlo sa stahuje do Nitry od 1.6.2026</poznamka>
+    <gps lat="48.1698902" lon="17.140156"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z3">
+    <firma>SHARKAM B&amp;B Catering s.r.o.</firma>
+    <ico>46844341</ico>
+    <adresa>Krokusova 3 (kanc. Technopol, Kutlikova 17)</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3,4 mil EUR; jedalen 850 ludi/den</velkost>
+    <telefon>+421 915 763 073</telefon>
+    <email>bankovich@sharkam.eu</email>
+    <web>sharkam.eu</web>
+    <poznamka>jedalen Technopol + protokolarny catering</poznamka>
+    <gps lat="48.1352541" lon="17.1152978"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>RC Slovakia s.r.o. (SKIES Catering)</firma>
+    <ico>35870362</ico>
+    <adresa>Vajnorska 100/B</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>1,2 mil EUR; ISO/IFS/BRC</velkost>
+    <telefon>+421 911 713 000</telefon>
+    <email>javorkova@rcslovakia.sk</email>
+    <web>rcslovakia.sk</web>
+    <poznamka>eventy, kongresy</poznamka>
+    <gps lat="48.1698902" lon="17.140156"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z8">
+    <firma>Timeout Catering s.r.o.</firma>
+    <ico>55083561</ico>
+    <adresa>Polna 4</adresa>
+    <mesto>Senec</mesto>
+    <okres>Senec</okres>
+    <velkost>event do 1000 ludi</velkost>
+    <telefon>+421 918 227 782</telefon>
+    <email>info@timeoutcatering.sk</email>
+    <web>timeoutcatering.sk</web>
+    <poznamka>pokryva BA + Senec + Pezinok</poznamka>
+    <gps lat="48.2086452" lon="17.4018888"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>PINO group s.r.o.</firma>
+    <ico>44013141</ico>
+    <adresa>Kadnarova 99</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>skolske + firemne jedalne</velkost>
+    <telefon>+421 904 884 427</telefon>
+    <email>objednavky@pinostravovanie.sk</email>
+    <web>pinostravovanie.sk</web>
+    <poznamka>17+ rokov</poznamka>
+    <gps lat="48.2053369" lon="17.1465294"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z3">
+    <firma>Oldeji (J. Cerna Szalay, zivnost)</firma>
+    <ico>32212721</ico>
+    <adresa>Rusovska cesta 3903/50</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna od 1994, 10-19 zam</velkost>
+    <telefon>0904 630 487</telefon>
+    <email>info@oldeji.sk</email>
+    <web>oldeji.sk</web>
+    <poznamka>rozvoz v termonadobach + prevadzka jedalni</poznamka>
+    <gps lat="48.1235338" lon="17.1089883"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z1">
+    <firma>ALFA FOOD vzs s.r.o.</firma>
+    <ico>55167071</ico>
+    <adresa>Zilinska 7028/1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>0,62 mil EUR (2024), 25-49 zam</velkost>
+    <telefon>+421 903 995 595</telefon>
+    <email>info@alfafood.sk</email>
+    <web>alfafood.sk</web>
+    <poznamka>zavodne stravovanie</poznamka>
+    <gps lat="48.1545738" lon="17.1112842"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z5">
+    <firma>ProZeta s.r.o. (Happy Day Catering)</firma>
+    <ico>36739499</ico>
+    <adresa>Padlych hrdinov 24</adresa>
+    <mesto>Bratislava-Podunajske Biskupice</mesto>
+    <okres>Bratislava</okres>
+    <velkost>svadby, eventy, firmy</velkost>
+    <telefon>0948 080 180</telefon>
+    <email>info@happy-day.sk</email>
+    <web>happydaycatering.sk</web>
+    <poznamka>16+ rokov</poznamka>
+    <gps lat="48.1237261" lon="17.2123351"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>TOVAR a SLUZBY s.r.o. (Jedlo Bratislava)</firma>
+    <ico>51725053</ico>
+    <adresa>Popovova 8 (kuchyna Dr. V. Clementisa 5)</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>rozvoz obedov</velkost>
+    <telefon>0905 600 000</telefon>
+    <email></email>
+    <web>jedlobratislava.sk</web>
+    <poznamka>rozvoz po celej BA vratane noci</poznamka>
+    <gps lat="48.1608571" lon="17.1477295"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
+    <firma>OXA Delivery Service s.r.o.</firma>
+    <ico>50293231</ico>
+    <adresa>Stredna 1</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>0,6 mil EUR (2024), 5-9 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>catering pre materske skoly; kontakt cez ORSR</poznamka>
+    <gps lat="48.1763819" lon="17.1703672"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Eat &amp; Meet - Mlynska dolina (UK)</firma>
+    <ico></ico>
+    <adresa>Stare Grunty, blok AD-U, Mlynska dolina</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>450 miest, 4000+ jedal/den (areal Mlyny az 6000)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>eatandmeet.sk</web>
+    <poznamka>univerzitna; vlastna prevadzka UK</poznamka>
+    <gps lat="48.1641859" lon="17.0678683"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Venza - Mlyny UK</firma>
+    <ico></ico>
+    <adresa>Mlynska dolina</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>sucast arealu Mlyny (6000/den)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mlyny.uniba.sk</web>
+    <poznamka>univerzitna jedalen</poznamka>
+    <gps lat="48.1548435" lon="17.06991"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z3">
+    <firma>Jedalen EUBA - Dolnozemska (City Gastro)</firma>
+    <ico></ico>
+    <adresa>Dolnozemska cesta 1</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>500 miest / 1500 pri recepcii</velkost>
+    <telefon>+421 948 929 323</telefon>
+    <email>sekretariat@citygastro.sk</email>
+    <web>citygastro.sk</web>
+    <poznamka>prevadzkuje City Gastro</poznamka>
+    <gps lat="48.1275493" lon="17.1323468"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Jedalen Mlada garda (STU)</firma>
+    <ico></ico>
+    <adresa>Racianska 103</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>136 miest + siet 5-7 jedalni STU</velkost>
+    <telefon>+421 918 600 162</telefon>
+    <email></email>
+    <web>stuba.sk</web>
+    <poznamka>UZ SDaJ STU</poznamka>
+    <gps lat="48.177312" lon="17.1261017"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>UNB - Nemocnica Ruzinov</firma>
+    <ico></ico>
+    <adresa>Ruzinovska 6</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>&gt;100k hospitalizacii/rok</velkost>
+    <telefon>02 48234111</telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna OLVaS; vstup cez verejne obstaravanie</poznamka>
+    <gps lat="48.1552301" lon="17.1519477"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>UNB - Nem. ak. L. Derera (Kramare)</firma>
+    <ico></ico>
+    <adresa>Limbova 5</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velka nemocnica</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna kuchyna, tacovy system</poznamka>
+    <gps lat="48.1662606" lon="17.0863257"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z3">
+    <firma>UNB - Nem. sv. Cyrila a Metoda (Petrzalka)</firma>
+    <ico></ico>
+    <adresa>Antolska 11</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velka nemocnica</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>unb.sk</web>
+    <poznamka>vlastna kuchyna</poznamka>
+    <gps lat="48.1020874" lon="17.1183618"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Narodny ustav srdc. a cievnych chorob (NUSCH)</firma>
+    <ico></ico>
+    <adresa>Pod Krasnou horkou 1</adresa>
+    <mesto>Bratislava-Kramare</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nusch.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1696588" lon="17.0869479"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Narodny onkologicky ustav (NOU)</firma>
+    <ico></ico>
+    <adresa>Klenova 1</adresa>
+    <mesto>Bratislava-Kramare</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna kuchyna, ~200+ lozok</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nou.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1718244" lon="17.0894784"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>Nemocnica sv. Michala</firma>
+    <ico></ico>
+    <adresa>Satinskeho I. 1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>vlastna OLVaS</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nsmas.sk</web>
+    <poznamka>vojensko-policajna univ. nemocnica</poznamka>
+    <gps lat="48.1452492" lon="17.1175227"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Volkswagen Slovakia - zavodna jedalen</firma>
+    <ico></ico>
+    <adresa>Jana Jonasa 1</adresa>
+    <mesto>Bratislava-Devinska Nova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>NAJVACSI CIEL: ~11-13 tis. zamestnancov</velkost>
+    <telefon></telefon>
+    <email>facility/HR</email>
+    <web>volkswagen.sk</web>
+    <poznamka>operator stravovania NEOVERENY - priamy dopyt</poznamka>
+    <gps lat="48.2350546" lon="16.9817538"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z5">
+    <firma>Slovnaft - zavodna jedalen</firma>
+    <ico></ico>
+    <adresa>Vlcie hrdlo 1</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>velky priemyselny zavod</velkost>
+    <telefon></telefon>
+    <email>facility</email>
+    <web>slovnaft.sk</web>
+    <poznamka>operator neovereny</poznamka>
+    <gps lat="48.1282386" lon="17.176661"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z2">
+    <firma>Mondelez SR Production - kantina</firma>
+    <ico></ico>
+    <adresa>Racianska 44</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~400 zamestnancov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>cokoladovna</poznamka>
+    <gps lat="48.1932309" lon="17.1416428"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>La Cantina - Tatracentrum (Bencik)</firma>
+    <ico></ico>
+    <adresa>Hodzovo nam. 3</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>BC kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>bencikculinary.sk</web>
+    <poznamka>siet kantin v BC (Central, Apollo, Petrzalka)</poznamka>
+    <gps lat="48.1484131" lon="17.1087896"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Food Season - Westend Square</firma>
+    <ico></ico>
+    <adresa>Dubravska cesta 2</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>firemna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>foodseason.sk</web>
+    <poznamka>bio suroviny, sous-vide</poznamka>
+    <gps lat="48.1686969" lon="17.0753887"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
+    <firma>Canteen Priatelia - Westend Tower</firma>
+    <ico></ico>
+    <adresa>Dubravska cesta 2</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>firemna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka></poznamka>
+    <gps lat="48.1686969" lon="17.0753887"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z1">
+    <firma>Fajne Jedlo - Tower 115</firma>
+    <ico></ico>
+    <adresa>Pribinova 25</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>samoobsluzna kantina</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>zona Eurovea/Twin City</poznamka>
+    <gps lat="48.1411404" lon="17.1273381"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Zylinder Cafe &amp; Restaurant</firma>
+    <ico></ico>
+    <adresa>Hviezdoslavovo nam. 19</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>80 sed / 120 raut + terasa 50</velkost>
+    <telefon>+421 903 123 134</telefon>
+    <email>rezervacie@zylinder.sk</email>
+    <web>zylinder.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1419314" lon="17.1077327"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z7">
+    <firma>Restauracia Matysak (Vinny hotel)</firma>
+    <ico></ico>
+    <adresa>Holubyho 85</adresa>
+    <mesto>Pezinok</mesto>
+    <okres>Pezinok</okres>
+    <velkost>130 + terasa 30, banketove priestory</velkost>
+    <telefon>0907 701 070</telefon>
+    <email>restauracia@vinomatysak.sk</email>
+    <web>restauraciamatysak.sk</web>
+    <poznamka>svadby</poznamka>
+    <gps lat="48.2883571" lon="17.2666299"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Bratislavsky mestiansky pivovar - Drevena</firma>
+    <ico></ico>
+    <adresa>Drevena 8</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~180 + terasa 25, salonik 35</velkost>
+    <telefon></telefon>
+    <email>info@mestianskypivovar.sk</email>
+    <web>mestianskypivovar.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1469194" lon="17.1081791"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z6">
+    <firma>Event Hall Malacky</firma>
+    <ico></ico>
+    <adresa>Malacky</adresa>
+    <mesto>Malacky</mesto>
+    <okres>Malacky</okres>
+    <velkost>svadobna sala do 250, vlastna kuchyna</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>eventhall.sk</web>
+    <poznamka>kontakt cez web</poznamka>
+    <gps lat="48.4325413" lon="17.0230915"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Bratislavsky mestiansky pivovar - Dunajska</firma>
+    <ico></ico>
+    <adresa>Dunajska 21</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~280 + terasa 300, salonik 60</velkost>
+    <telefon>0948 710 888</telefon>
+    <email>dunajska@mestianskypivovar.sk</email>
+    <web>mestianskypivovar.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1459308" lon="17.1176901"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z7">
+    <firma>ELESKO Wine Park (Restaurant &amp; Wine bar)</firma>
+    <ico></ico>
+    <adresa>Partizanska 2275</adresa>
+    <mesto>Modra</mesto>
+    <okres>Pezinok</okres>
+    <velkost>Zoya Museum 200-400, restauracia 80</velkost>
+    <telefon>+421 905 704 873</telefon>
+    <email></email>
+    <web>elesko.sk</web>
+    <poznamka>event manager Peter Toth</poznamka>
+    <gps lat="48.3541412" lon="17.3219993"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Slovak Pub</firma>
+    <ico></ico>
+    <adresa>Obchodna 62</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~500 miest (11 miestnosti)</velkost>
+    <telefon>+421 917 629 221</telefon>
+    <email>slovakpub@slovakpub.sk</email>
+    <web>slovakpub.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1483346" lon="17.1124098"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z2">
+    <firma>NH Bratislava Gate One</firma>
+    <ico></ico>
+    <adresa>Ambrusova 7</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>najvacsia sala do 600, 8-10 sal</velkost>
+    <telefon></telefon>
+    <email>nhgateone@nh-hotels.com</email>
+    <web>nh-hotels.com</web>
+    <poznamka></poznamka>
+    <gps lat="48.1662442" lon="17.1774457"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z2">
+    <firma>Holiday Inn Bratislava</firma>
+    <ico></ico>
+    <adresa>Bajkalska 25/A</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>6 sal, do 600 hosti</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>ihg.com</web>
+    <poznamka>event kontakt cez IHG</poznamka>
+    <gps lat="48.1530346" lon="17.1488827"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z3">
+    <firma>Dunajsky pivovar (lod/botel)</firma>
+    <ico></ico>
+    <adresa>Tyrsovo nabrezie</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~600 (terasa 250, salonik 50)</velkost>
+    <telefon>+421 948 418 934</telefon>
+    <email>dunajskypivovar@dunajskypivovar.sk</email>
+    <web>dunajskypivovar.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1363762" lon="17.1132834"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Hotel Saffron</firma>
+    <ico></ico>
+    <adresa>Radlinskeho 27</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>6 sal, 1500 m2, do 900 osob</velkost>
+    <telefon>+421 948 660 459</telefon>
+    <email>marketing@hotelsaffron.sk</email>
+    <web>hotelsaffron.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.1523448" lon="17.117072"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Radisson Blu Carlton</firma>
+    <ico></ico>
+    <adresa>Hviezdoslavovo nam. 3</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>do 1000 hosti</velkost>
+    <telefon>+421 2 5939 0000</telefon>
+    <email>reservation.bratislava@radissonblu.com</email>
+    <web>radissonhotels.com</web>
+    <poznamka></poznamka>
+    <gps lat="48.1412124" lon="17.1085808"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z8">
+    <firma>Hotel Senec (Lake &amp; Aqua Resort)</firma>
+    <ico></ico>
+    <adresa>Slnecne jazera-Sever</adresa>
+    <mesto>Senec</mesto>
+    <okres>Senec</okres>
+    <velkost>kongres do 1000 (svadby do ~300)</velkost>
+    <telefon>+421 904 543 513</telefon>
+    <email>kakasova@hotelsenec.sk</email>
+    <web>hotelsenec.sk</web>
+    <poznamka>event Stela Kakasova</poznamka>
+    <gps lat="48.2215028" lon="17.4005824"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Sheraton Bratislava</firma>
+    <ico></ico>
+    <adresa>Pribinova 12</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>ballroom do 400, standing do 1500</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>marriott.com</web>
+    <poznamka>Eurovea; event cez Marriott MICE</poznamka>
+    <gps lat="48.1403976" lon="17.1223178"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Park Inn by Radisson Danube</firma>
+    <ico></ico>
+    <adresa>Rybne nam. 1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>event 471 m2, do 400 delegatov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>radissonhotels.com</web>
+    <poznamka></poznamka>
+    <gps lat="48.1404872" lon="17.1050761"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Falkensteiner Hotel Bratislava</firma>
+    <ico></ico>
+    <adresa>Pilarikova 5</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>sala 173 m2, recepcia do 300</velkost>
+    <telefon>+421 2 5923 6100</telefon>
+    <email></email>
+    <web>falkensteiner.com</web>
+    <poznamka></poznamka>
+    <gps lat="48.1460616" lon="17.1034683"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Grand Hotel River Park (Luxury Collection)</firma>
+    <ico></ico>
+    <adresa>Dvorakovo nabrezie 6</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>banketove saly</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>grandriverpark.sk</web>
+    <poznamka>event cez Marriott</poznamka>
+    <gps lat="48.1414165" lon="17.0903098"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z8">
+    <firma>Koliba Senec</firma>
+    <ico></ico>
+    <adresa>Slnecne jazera-Sever</adresa>
+    <mesto>Senec</mesto>
+    <okres>Senec</okres>
+    <velkost>svadby/oslavy/firemne, bazen, ubytovanie</velkost>
+    <telefon>+421 908 602 020</telefon>
+    <email></email>
+    <web>kolibasenec.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.2215028" lon="17.4005824"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>Stara trznica</firma>
+    <ico></ico>
+    <adresa>Namestie SNP 25</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>multifunkcna hala, velke eventy</velkost>
+    <telefon>+421 948 420 999</telefon>
+    <email>trznica@staratrznica.sk</email>
+    <web>staratrznica.sk</web>
+    <poznamka>catering externy</poznamka>
+    <gps lat="48.1448115" lon="17.1112785"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z6">
+    <firma>Restauracia Zeleny dvor</firma>
+    <ico></ico>
+    <adresa>M. R. Stefanika 110</adresa>
+    <mesto>Malacky</mesto>
+    <okres>Malacky</okres>
+    <velkost>svadby/oslavy/firemne</velkost>
+    <telefon>+421 917 977 311</telefon>
+    <email></email>
+    <web>zelenydvormalacky.sk</web>
+    <poznamka></poznamka>
+    <gps lat="48.425248" lon="17.0201504"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z8">
+    <firma>Penzion Palenica</firma>
+    <ico></ico>
+    <adresa>Bernolakovo</adresa>
+    <mesto>Bernolakovo</mesto>
+    <okres>Senec</okres>
+    <velkost>terasova miestnost ~100, restauracia 60</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>penzionpalenica.eu</web>
+    <poznamka></poznamka>
+    <gps lat="48.1989817" lon="17.3000328"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
+    <firma>RIVERBANK Restaurant</firma>
+    <ico></ico>
+    <adresa>Dvorakovo nabrezie</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>fine-dining pri Dunaji</velkost>
+    <telefon>+421 910 872 168</telefon>
+    <email></email>
+    <web>riverbank.sk</web>
+    <poznamka>pri Grand Hotel River Park</poznamka>
+    <gps lat="48.1437502" lon="17.0755555"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z8">
+    <firma>Hotel Nostalgia</firma>
+    <ico></ico>
+    <adresa>Senec</adresa>
+    <mesto>Senec</mesto>
+    <okres>Senec</okres>
+    <velkost>sala do ~120 s parketom</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelnostalgia.sk</web>
+    <poznamka>svadby/oslavy</poznamka>
+    <gps lat="48.2199473" lon="17.3969901"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>KRUH remeselna pekaren (Kruh remeselna vyroba s.r.o.)</firma>
+    <ico>47762799</ico>
+    <adresa>Kutuzovova 11 (sidlo)</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3 prevadzky</velkost>
+    <telefon>+421 915 512 230</telefon>
+    <email>ahoj@kruhpekaren.sk</email>
+    <web>kruhpekaren.sk</web>
+    <poznamka>Vajnorska 21, Florianska 16, Zilinska 2</poznamka>
+    <gps lat="48.1647644" lon="17.1307846"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z1">
+    <firma>Triple Five Coffee</firma>
+    <ico>47117311</ico>
+    <adresa>Jozefska 2A</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3 prevadzky</velkost>
+    <telefon>0940 629 026</telefon>
+    <email></email>
+    <web>triplefivecoffee.com</web>
+    <poznamka>Jozefska, Turbinova, Racianska</poznamka>
+    <gps lat="48.1509638" lon="17.1096081"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Fresh Garden Salads (FRESH GARDEN s.r.o.)</firma>
+    <ico>45522464</ico>
+    <adresa>Plynarenska 2/A</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3 prevadzky</velkost>
+    <telefon>+421 902 311 331</telefon>
+    <email>info@freshgarden.sk</email>
+    <web>freshgarden.sk</web>
+    <poznamka>Plynarenska, Digital Park, River Park</poznamka>
+    <gps lat="48.1462765" lon="17.1419155"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z4">
+    <firma>Pulitzer family (RIVAS s.r.o.)</firma>
+    <ico>35946008</ico>
+    <adresa>Drobneho 21 (sidlo)</adresa>
+    <mesto>Bratislava-Dubravka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>3 restauracie fine-dining</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>Stefanka, Pulitzer, U zlateho jelena</poznamka>
+    <gps lat="48.1914663" lon="17.0408338"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Domino's Pizza (APIM Gastro s.r.o.)</firma>
+    <ico>50616951</ico>
+    <adresa>Sartorisova 11 (sidlo)</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>4 prevadzky</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>dominospizza.sk</web>
+    <poznamka>Krizna, Racianska, Rusovska, Kastielska</poznamka>
+    <gps lat="48.1568421" lon="17.1419539"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z5">
+    <firma>EDO-KIN GROUP s.r.o.</firma>
+    <ico>46988882</ico>
+    <adresa>Raztocna 25 (sidlo)</adresa>
+    <mesto>Bratislava-Vrakuna</mesto>
+    <okres>Bratislava</okres>
+    <velkost>4 prevadzky, trzby 2,84 mil EUR (2024)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>Central, Blumental, Bory, Cubicon</poznamka>
+    <gps lat="48.1491794" lon="17.2137098"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Coffeeshop Company CEE s.r.o.</firma>
+    <ico>35689498</ico>
+    <adresa>Janoskova 4 (sidlo)</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>5-6 kaviarni</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>coffeeshopcompany.com</web>
+    <poznamka>Central, Aupark, Lakeside, Rosum, EUBA</poznamka>
+    <gps lat="48.1754477" lon="17.132832"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Regal Burger s.r.o.</firma>
+    <ico>47581930</ico>
+    <adresa>sidlo Drahovce (prevadzky v BA)</adresa>
+    <mesto>Bratislava</mesto>
+    <okres>Bratislava</okres>
+    <velkost>5-6 prevadzok</velkost>
+    <telefon></telefon>
+    <email>info@regalburger.com</email>
+    <web>regalburger.eu</web>
+    <poznamka>Eurovea, Bory, Avion, Nivy, Fresh Market</poznamka>
+    <gps lat="48.1516988" lon="17.1093063"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Bevanda</firma>
+    <ico>doplnit</ico>
+    <adresa>Kubacova 23</adresa>
+    <mesto>Bratislava-Raca</mesto>
+    <okres>Bratislava</okres>
+    <velkost>6 restauracii</velkost>
+    <telefon>+421 905 551 705</telefon>
+    <email>bevanda@bevanda.sk</email>
+    <web>bevanda.sk</web>
+    <poznamka>River Park, Veranda, Istrochem, Anavi</poznamka>
+    <gps lat="48.2117407" lon="17.153861"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z2">
+    <firma>Mondieu (MONDIEU BRATISLAVA s.r.o.)</firma>
+    <ico>47114533</ico>
+    <adresa>Mileticova 1 (sidlo)</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava</okres>
+    <velkost>7 kaviarni</velkost>
+    <telefon></telefon>
+    <email>info@mondieu.sk</email>
+    <web>mondieu.sk</web>
+    <poznamka>Eurovea, Bory, Nivy, Hviezdoslavovo, Laurinska</poznamka>
+    <gps lat="48.1577489" lon="17.1310655"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z4">
+    <firma>Veg Life s.r.o.</firma>
+    <ico>46880526</ico>
+    <adresa>Dubravska cesta 14 (sidlo)</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava</okres>
+    <velkost>8 bistro prevadzok</velkost>
+    <telefon>0905 295 165</telefon>
+    <email>info@veglife.sk</email>
+    <web>veglife.sk</web>
+    <poznamka>cisty 1 kontakt - dobry B2B lead</poznamka>
+    <gps lat="48.1710686" lon="17.0712854"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z3">
+    <firma>SPUSTA Kaviaren &amp; Pekaren</firma>
+    <ico>31640826</ico>
+    <adresa>Pifflova 6</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>17-18 prevadzok (vratane Senec, Pezinok)</velkost>
+    <telefon>+421 918 689 366</telefon>
+    <email>info@spustakaviaren.sk</email>
+    <web>spustakaviaren.sk</web>
+    <poznamka>aj okresy; 2. ICO 35803568</poznamka>
+    <gps lat="48.1269838" lon="17.1081707"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="viac">
+    <firma>Minit Bakery (MINIT SLOVAKIA spol. s r.o.)</firma>
+    <ico>17053897</ico>
+    <adresa>sidlo Dunajska Streda (prevadzky BA+okresy)</adresa>
+    <mesto>Bratislava + okresy</mesto>
+    <okres>Bratislava/Malacky/Pezinok/Senec</okres>
+    <velkost>30+ prevadzok, pokrytie vsetkych okresov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>minitbakery.sk</web>
+    <poznamka>Senec 1, Pezinok 2, Malacky 3</poznamka>
+    <gps lat="48.1516988" lon="17.1093063"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z3">
+    <firma>AmRest Coffee SK s.r.o. (Starbucks)</firma>
+    <ico>50088971</ico>
+    <adresa>Pajstunska 3 (sidlo)</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>Starbucks 6-7 + KFC/BK/PizzaHut</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>starbucksslovakia.sk</web>
+    <poznamka>skupina AmRest, viac brandov</poznamka>
+    <gps lat="48.1111834" lon="17.1029997"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z1">
+    <firma>Queensway Restaurants Slovakia s.r.o. (KFC + Pizza Hut)</firma>
+    <ico>35852143</ico>
+    <adresa>Pribinova 4, Eurovea Central 1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava</okres>
+    <velkost>~20,5 mil EUR; KFC 7 + Pizza Hut 3</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>kfcslovakia.sk</web>
+    <poznamka>over aktualnu entitu (AmRest)</poznamka>
+    <gps lat="48.1534392" lon="17.1151016"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="Z3">
+    <firma>McDonald's Slovakia spol. s r.o.</firma>
+    <ico>31392229</ico>
+    <adresa>Einsteinova 33</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava</okres>
+    <velkost>52,45 mil EUR (2024); ~18 prevadzok v kraji</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mcdonalds.sk</web>
+    <poznamka>NAJVACSI retazec; +Pezinok</poznamka>
+    <gps lat="48.1314358" lon="17.100331"/>
+  </prevadzka>
+</gastro_databaza>

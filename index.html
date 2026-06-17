@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Táckárne a vývarovne — Bratislavský kraj</title>
+<title>Gastro mapa — Bratislavský kraj</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root{
-    --vyv:#7c3aed; --tac:#ea580c;
+    --cat:#2563eb; --vyv:#7c3aed; --tac:#ea580c; --res:#dc2626; --sie:#16a34a;
     --bg:#0f172a; --panel:#1e293b; --panel2:#334155; --text:#e2e8f0; --muted:#94a3b8;
   }
   *{box-sizing:border-box}
   html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
   #app{display:flex;height:100vh}
-  #sidebar{width:330px;flex-shrink:0;background:var(--panel);overflow-y:auto;padding:18px;border-right:1px solid var(--panel2)}
+  #sidebar{width:340px;flex-shrink:0;background:var(--panel);overflow-y:auto;padding:18px;border-right:1px solid var(--panel2)}
   #map{flex:1}
-  h1{font-size:18px;margin:0 0 4px}
+  h1{font-size:17px;margin:0 0 4px}
   .sub{font-size:13px;color:var(--muted);margin-bottom:16px}
   .count{font-weight:600;color:#fff}
   .box{background:var(--panel2);border-radius:10px;padding:12px;margin-bottom:14px}
@@ -26,6 +26,9 @@
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
   #search{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:14px}
   #search::placeholder{color:var(--muted)}
+  .btn{width:100%;padding:10px;border-radius:8px;border:0;background:#0ea5e9;color:#fff;font-size:14px;font-weight:600;cursor:pointer;margin-top:8px}
+  .btn:hover{background:#0284c7}
+  .btn.sec{background:var(--bg);border:1px solid var(--panel2);color:var(--text);font-weight:500}
   .leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.5}
   .pop-name{font-weight:700;font-size:14px;color:#0f172a;margin-bottom:6px}
   .pop-badge{display:inline-block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#fff;padding:2px 7px;border-radius:20px;margin-bottom:8px}
@@ -33,16 +36,17 @@
   .pop-row a{color:#2563eb;text-decoration:none}
   .pop-row b{color:#0f172a}
   .pop-size{background:#f1f5f9;border-radius:6px;padding:5px 8px;margin:7px 0;font-size:12px;color:#475569}
+  .pop-nav{display:inline-block;margin-top:7px;background:#0ea5e9;color:#fff!important;padding:6px 10px;border-radius:6px;font-weight:600}
   footer{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.5}
   footer a{color:#38bdf8;text-decoration:none}
-  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:42vh}}
+  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:46vh}}
 </style>
 </head>
 <body>
 <div id="app">
   <div id="sidebar">
-    <h1>🍲 Táckárne &amp; vývarovne</h1>
-    <div class="sub">Bratislavský kraj · <span class="count" id="count">0</span> prevádzok</div>
+    <h1>🍽️ Gastro mapa — BA kraj</h1>
+    <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
 
     <div class="box">
       <h2>Hľadať</h2>
@@ -51,8 +55,11 @@
 
     <div class="box">
       <h2>Typ prevádzky</h2>
+      <label class="row"><input type="checkbox" class="fkat" value="Catering dodavatel" checked><span class="dot" style="background:var(--cat)"></span> Catering / firemné stravovanie</label>
       <label class="row"><input type="checkbox" class="fkat" value="Vyvaren / catering kuchyna" checked><span class="dot" style="background:var(--vyv)"></span> Vývarovne / catering kuchyne</label>
       <label class="row"><input type="checkbox" class="fkat" value="Tackaren / zavodna jedalen" checked><span class="dot" style="background:var(--tac)"></span> Táckárne / závodné jedálne</label>
+      <label class="row"><input type="checkbox" class="fkat" value="Velka restauracia / banketova sala" checked><span class="dot" style="background:var(--res)"></span> Veľké reštaurácie / sály</label>
+      <label class="row"><input type="checkbox" class="fkat" value="Restauracna siet (3+ prevadzok)" checked><span class="dot" style="background:var(--sie)"></span> Reštauračné siete (3+)</label>
     </div>
 
     <div class="box">
@@ -60,10 +67,17 @@
       <div id="okresy"></div>
     </div>
 
+    <div class="box">
+      <h2>Trasa &amp; navigácia</h2>
+      <label class="row"><input type="checkbox" id="showRoute"> 🛣️ Zobraziť trasu objazdu (čiara)</label>
+      <div class="sub" style="margin:6px 0 0;font-size:12px">Trasa vedie zo štartu (Petržalka) cez viditeľné body. Vyfiltruj kategóriu/okres pre kratší okruh.</div>
+      <button class="btn" onclick="openGmaps()">🧭 Otvoriť trasu v Google Maps</button>
+    </div>
+
     <footer>
-      Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap (Nominatim).<br>
-      Dáta sú orientačné, pred oslovením over kontakt.<br>
-      Export: <a href="tackarne-vyvarovne.xml">XML</a> · <a href="gastro-databaza-BA-kraj.csv">CSV (celá databáza)</a>
+      Zdroj: FinStat / weby firiem · geokódovanie OpenStreetMap.<br>
+      Dáta orientačné — pred oslovením over kontakt.<br>
+      Export: <a href="gastro-databaza-BA-kraj.xml">XML</a> · <a href="gastro-databaza-BA-kraj.csv">CSV</a> · <a href="roadmapa-auto.md">roadmapa</a>
     </footer>
   </div>
   <div id="map"></div>
@@ -73,20 +87,27 @@
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="data.js"></script>
 <script>
-const COLORS = {'Vyvaren / catering kuchyna':'#7c3aed','Tackaren / zavodna jedalen':'#ea580c'};
-const LABEL  = {'Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa','Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň'};
+const COLORS={
+  'Catering dodavatel':'#2563eb','Vyvaren / catering kuchyna':'#7c3aed',
+  'Tackaren / zavodna jedalen':'#ea580c','Velka restauracia / banketova sala':'#dc2626',
+  'Restauracna siet (3+ prevadzok)':'#16a34a'};
+const LABEL={
+  'Catering dodavatel':'Catering / firemné stravovanie','Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa',
+  'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
+  'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)'};
+const START={lat:48.118,lon:17.107}; // Petržalka
 
-const map = L.map('map',{scrollWheelZoom:true}).setView([48.15,17.11],11);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-  maxZoom:19, attribution:'&copy; OpenStreetMap'}).addTo(map);
+const map=L.map('map',{scrollWheelZoom:true}).setView([48.16,17.12],11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(map);
 
-// jitter pre prekrývajúce sa body (rovnaká adresa)
+L.marker([START.lat,START.lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b><br>Petržalka');
+
 const seen={};
 function jitter(la,lo){
   const k=la.toFixed(4)+','+lo.toFixed(4);
   const n=seen[k]=(seen[k]||0); seen[k]++;
   if(!n) return [la,lo];
-  const ang=n*2.4, r=0.00022*Math.ceil(n/6);
+  const ang=n*2.4, r=0.00024*Math.ceil(n/6);
   return [la+r*Math.cos(ang), lo+r*Math.sin(ang)];
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
@@ -98,8 +119,9 @@ function popup(d){
   if(d.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(d.tel).replace(/\s/g,'')}">${esc(d.tel)}</a></div>`;
   if(d.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(d.email)}">${esc(d.email)}</a></div>`;
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
-  if(d.ico && d.ico!=='') h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
-  if(d.pozn) h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
+  if(d.ico)   h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
+  if(d.pozn)  h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
+  h+=`<a class="pop-nav" href="https://www.google.com/maps/dir/?api=1&destination=${d.lat},${d.lon}&travelmode=driving" target="_blank" rel="noopener">🧭 Navigovať sem</a>`;
   return h;
 }
 
@@ -107,37 +129,66 @@ const markers=[];
 GASTRO_DATA.forEach(d=>{
   if(d.lat==null) return;
   const [la,lo]=jitter(d.lat,d.lon);
-  const m=L.circleMarker([la,lo],{
-    radius:8, color:'#fff', weight:2, fillColor:COLORS[d.kat]||'#64748b', fillOpacity:.95
-  }).bindPopup(popup(d));
+  const m=L.circleMarker([la,lo],{radius:7,color:'#fff',weight:2,fillColor:COLORS[d.kat]||'#64748b',fillOpacity:.95}).bindPopup(popup(d));
   m._d=d; markers.push(m); m.addTo(map);
 });
+document.getElementById('total').textContent=markers.length;
 
 // okresné filtre
-const okresy=[...new Set(GASTRO_DATA.map(d=>d.okres))].sort();
-const okBox=document.getElementById('okresy');
-okresy.forEach(o=>{
-  const id='ok_'+o.replace(/\W/g,'');
-  okBox.insertAdjacentHTML('beforeend',
+[...new Set(GASTRO_DATA.map(d=>d.okres))].sort().forEach(o=>{
+  document.getElementById('okresy').insertAdjacentHTML('beforeend',
     `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`);
 });
 
+// --- trasa (nearest-neighbor zo štartu) ---
+let routeLine=null;
+function visibleData(){return markers.filter(m=>map.hasLayer(m)).map(m=>m._d);}
+function routeOrder(pts){
+  const rem=pts.slice(),route=[]; let cur=START;
+  while(rem.length){
+    let bi=0,bd=Infinity;
+    rem.forEach((p,i)=>{const dx=p.lat-cur.lat,dy=p.lon-cur.lon,d=dx*dx+dy*dy;if(d<bd){bd=d;bi=i;}});
+    cur=rem[bi]; route.push(cur); rem.splice(bi,1);
+  }
+  return route;
+}
+function drawRoute(){
+  if(routeLine){map.removeLayer(routeLine);routeLine=null;}
+  if(!document.getElementById('showRoute').checked) return;
+  const ord=routeOrder(visibleData());
+  if(!ord.length) return;
+  const ll=[[START.lat,START.lon],...ord.map(p=>[p.lat,p.lon])];
+  routeLine=L.polyline(ll,{color:'#0284c7',weight:3,opacity:.75,dashArray:'7,9'}).addTo(map);
+}
+function openGmaps(){
+  const ord=routeOrder(visibleData());
+  if(!ord.length){alert('Žiadne viditeľné prevádzky.');return;}
+  const stops=ord.slice(0,10);
+  const dest=stops[stops.length-1];
+  const wps=stops.slice(0,-1).map(p=>p.lat+','+p.lon).join('|');
+  let u='https://www.google.com/maps/dir/?api=1&origin='+START.lat+','+START.lon+'&destination='+dest.lat+','+dest.lon+'&travelmode=driving';
+  if(wps) u+='&waypoints='+encodeURIComponent(wps);
+  window.open(u,'_blank');
+  if(ord.length>10) setTimeout(()=>alert('Google Maps zvládne ~10 zastávok. Otvorených prvých 10 z '+ord.length+'. Pre presný objazd vyfiltruj okres alebo kategóriu.'),300);
+}
+
 function apply(){
   const kats=[...document.querySelectorAll('.fkat:checked')].map(c=>c.value);
-  const oks =[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
+  const oks=[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
   const q=document.getElementById('search').value.trim().toLowerCase();
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit = kats.includes(d.kat) && oks.includes(d.okres) &&
-      (!q || (d.firma+' '+d.mesto+' '+d.adresa).toLowerCase().includes(q));
-    if(hit){ if(!map.hasLayer(m)) m.addTo(map); n++; }
-    else if(map.hasLayer(m)) map.removeLayer(m);
+    const hit=kats.includes(d.kat)&&oks.includes(d.okres)&&(!q||(d.firma+' '+d.mesto+' '+d.adresa).toLowerCase().includes(q));
+    if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
+    else if(map.hasLayer(m))map.removeLayer(m);
   });
   document.getElementById('count').textContent=n;
+  drawRoute();
 }
 document.querySelectorAll('.fkat,.fok').forEach(c=>c.addEventListener('change',apply));
 document.getElementById('search').addEventListener('input',apply);
+document.getElementById('showRoute').addEventListener('change',drawRoute);
 apply();
 </script>
 </body>

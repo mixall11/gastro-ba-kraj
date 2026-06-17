@@ -1,25 +1,30 @@
-# Táckárne & vývarovne — Bratislavský kraj
+# Gastro mapa — Bratislavský kraj
 
-Interaktívna mapa a databáza veľkokapacitných stravovacích prevádzok (vývarovne / catering kuchyne + závodné jedálne / táckárne) v Bratislavskom kraji. B2B nástroj na cielené oslovenie.
+Interaktívna mapa a databáza veľkokapacitnej gastronómie v Bratislavskom kraji. B2B nástroj na cielené oslovenie.
+
+**Živá mapa:** https://mixall11.github.io/gastro-ba-kraj/
 
 ## Obsah
-- **`index.html`** — interaktívna Leaflet mapa (filtre podľa typu a okresu, hľadanie, popupy s kontaktom)
-- **`data.js`** — dáta mapy (29 prevádzok s GPS)
-- **`tackarne-vyvarovne.xml`** — XML export (vývarovne + táckárne)
-- **`gastro-databaza-BA-kraj.csv`** — celá databáza (76 prevádzok: + reštaurácie, siete, catering dodávatelia)
+- **`index.html`** — interaktívna Leaflet mapa: 5 kategórií, filtre podľa typu a okresu, hľadanie, popupy s kontaktom, **trasa objazdu ako čiara** a **navigácia cez Google Maps**
+- **`data.js`** — dáta mapy (82 prevádzok s GPS)
+- **`gastro-databaza-BA-kraj.xml`** — XML export (všetky prevádzky)
+- **`gastro-databaza-BA-kraj.csv`** — databáza (82 prevádzok)
 - **`roadmapa-auto.md`** — návrh trasy autom na objazd (štart Petržalka)
 - **`build_map.py`** — regenerácia XML + `data.js` z CSV (geokódovanie cez Nominatim/OSM)
 
-## Lokálny náhľad
-```bash
-python3 -m http.server 8791
-# http://localhost:8791/
-```
+## Kategórie
+Catering / firemné stravovanie · vývarovne / catering kuchyne · táckárne / závodné jedálne · veľké reštaurácie / sály · reštauračné siete (3+ prevádzok).
 
-## Regenerácia dát
+## Funkcie mapy
+- **Filtre** — typ prevádzky, okres, fulltext hľadanie
+- **🛣️ Trasa objazdu** — čiara cez aktuálne viditeľné body (nearest-neighbor zo štartu v Petržalke)
+- **🧭 Google Maps** — globálne tlačidlo otvorí trasu cez viditeľné body (max ~10 zastávok), v popupe každého bodu „Navigovať sem"
+
+## Lokálny náhľad / regenerácia
 ```bash
-python3 build_map.py   # prečíta CSV, geokóduje, prepíše XML + data.js
+python3 -m http.server 8791        # http://localhost:8791/
+python3 build_map.py               # prečíta CSV, geokóduje, prepíše XML + data.js
 ```
 
 ## Zdroje
-FinStat.sk (IČO, tržby), weby firiem (kontakty), OpenStreetMap/Nominatim (geokódovanie). Dáta sú orientačné — pred oslovením over kontakt.
+FinStat.sk (IČO, tržby), weby firiem (kontakty), OpenStreetMap/Nominatim (geokódovanie). Dáta orientačné — pred oslovením over kontakt.

@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
-"""Geokóduje vývarovne + táckárne z CSV a vygeneruje XML + data.js pre Leaflet mapu."""
+"""Geokóduje VŠETKY prevádzky z CSV a vygeneruje XML + data.js pre Leaflet mapu."""
 import csv, json, time, os, urllib.request, urllib.parse
 from xml.sax.saxutils import escape
 
 BASE = '/home/michal/gastro-ba-kraj'
 CSV_IN = f'{BASE}/gastro-databaza-BA-kraj.csv'
 CACHE = f'{BASE}/geocache.json'
-XML_OUT = f'{BASE}/tackarne-vyvarovne.xml'
+XML_OUT = f'{BASE}/gastro-databaza-BA-kraj.xml'
 JS_OUT = f'{BASE}/data.js'
-
-KATEGORIE = {'Vyvaren / catering kuchyna', 'Tackaren / zavodna jedalen'}
 
 cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 
@@ -37,29 +35,30 @@ def geocode(query):
 def clean_addr(a):
     return a.split('(')[0].strip().rstrip(',')
 
-def city_query(m):
+def city_clean(m):
+    # multi-mesto (Minit "Bratislava + okresy") -> centrum BA
+    if '+' in m or '/' in m:
+        return 'Bratislava'
     return m.replace('-', ', ')
 
-rows = []
-with open(CSV_IN, newline='', encoding='utf-8') as f:
-    for r in csv.DictReader(f):
-        if r['Kategoria'] in KATEGORIE:
-            rows.append(r)
-
-print(f'Filtrovaných záznamov: {len(rows)}')
+rows = list(csv.DictReader(open(CSV_IN, newline='', encoding='utf-8')))
+print(f'Záznamov spolu: {len(rows)}')
 
 out = []
 for r in rows:
     addr = clean_addr(r['Adresa'])
     mesto = r['Mesto_Stvrt']
-    print(f"Geo: {r['Firma'][:40]} | {addr} | {mesto}")
+    addr_l = addr.lower()
+    # adresu nepoužij ak je to sídlo mimo prevádzky alebo nedoplnená
+    use_addr = addr and 'doplnit' not in addr_l and not addr_l.startswith('sidlo')
+    print(f"Geo: {r['Firma'][:38]:38} | {addr[:28] if use_addr else '(mesto)':28} | {mesto}")
     loc = None
-    if addr and 'doplnit' not in addr.lower():
-        loc = geocode(f'{addr}, {city_query(mesto)}, Slovakia')
+    if use_addr:
+        loc = geocode(f'{addr}, {city_clean(mesto)}, Slovakia')
     if not loc:
-        loc = geocode(f'{city_query(mesto)}, Slovakia')
+        loc = geocode(f'{city_clean(mesto)}, Slovakia')
     if not loc:
-        loc = geocode(f"{r['Okres']}, Slovakia")
+        loc = geocode(f"{r['Okres'].split('/')[0]}, Slovakia")
     rec = dict(r)
     rec['lat'] = loc['lat'] if loc else None
     rec['lon'] = loc['lon'] if loc else None
@@ -68,17 +67,16 @@ for r in rows:
 ok = sum(1 for r in out if r['lat'])
 print(f'Geokódovaných: {ok}/{len(out)}')
 
-# --- XML ---
+# --- XML (kompletný export) ---
 with open(XML_OUT, 'w', encoding='utf-8') as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-    f.write(f'<gastro_databaza kraj="Bratislavsky" typ="tackarne_vyvarovne" pocet="{len(out)}">\n')
+    f.write(f'<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="{len(out)}">\n')
     for r in out:
         f.write(f'  <prevadzka kategoria="{escape(r["Kategoria"])}" zona="{escape(r["Zona_trasa"])}">\n')
         for tag, key in [('firma','Firma'),('ico','ICO'),('adresa','Adresa'),
                          ('mesto','Mesto_Stvrt'),('okres','Okres'),('velkost','Velkost_Trzby_Kapacita'),
                          ('telefon','Telefon'),('email','Email'),('web','Web'),('poznamka','Poznamka')]:
-            val = r.get(key, '') or ''
-            f.write(f'    <{tag}>{escape(val)}</{tag}>\n')
+            f.write(f'    <{tag}>{escape(r.get(key,"") or "")}</{tag}>\n')
         if r['lat']:
             f.write(f'    <gps lat="{r["lat"]}" lon="{r["lon"]}"/>\n')
         f.write('  </prevadzka>\n')
