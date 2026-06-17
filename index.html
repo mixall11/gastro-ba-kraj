@@ -90,9 +90,20 @@
     <div class="box">
       <h2>Štart trasy</h2>
       <select id="startSel">
-        <option value="WGO">WGO s.r.o. — Kopčianska 90/b</option>
-        <option value="WOL">Wolkrova 23</option>
-        <option value="CEN">Stred BA — Nám. SNP</option>
+        <optgroup label="Bratislava">
+          <option value="WGO">WGO s.r.o. — Kopčianska 90/b</option>
+          <option value="WOL">Wolkrova 23</option>
+          <option value="CEN">Stred BA — Nám. SNP</option>
+        </optgroup>
+        <optgroup label="Krajské mestá (centrum)">
+          <option value="TT">Trnava</option>
+          <option value="NR">Nitra</option>
+          <option value="TN">Trenčín</option>
+          <option value="ZA">Žilina</option>
+          <option value="BB">Banská Bystrica</option>
+          <option value="PO">Prešov</option>
+          <option value="KE">Košice</option>
+        </optgroup>
       </select>
     </div>
 
@@ -128,7 +139,14 @@ const LABEL={
 const STARTS={
   WGO:{lat:48.11501,lon:17.08823,name:'WGO s.r.o. — Kopčianska 90/b',q:'Kopčianska 90B, Bratislava'},
   WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23',q:'Wolkrova 23, Bratislava'},
-  CEN:{lat:48.1451,lon:17.1119,name:'Stred Bratislavy — Nám. SNP',q:'Námestie SNP, Bratislava'}};
+  CEN:{lat:48.1451,lon:17.1119,name:'Stred Bratislavy — Nám. SNP',q:'Námestie SNP, Bratislava'},
+  TT:{lat:48.3774,lon:17.5877,name:'Trnava — centrum',q:'Trnava'},
+  NR:{lat:48.313,lon:18.0895,name:'Nitra — centrum',q:'Nitra'},
+  TN:{lat:48.8923,lon:18.0387,name:'Trenčín — centrum',q:'Trenčín'},
+  ZA:{lat:49.2235,lon:18.7393,name:'Žilina — centrum',q:'Žilina'},
+  BB:{lat:48.7354,lon:19.1457,name:'Banská Bystrica — centrum',q:'Banská Bystrica'},
+  PO:{lat:49.0,lon:21.2392,name:'Prešov — centrum',q:'Prešov'},
+  KE:{lat:48.7172,lon:21.2497,name:'Košice — centrum',q:'Košice'}};
 let startKey='WGO';
 const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
