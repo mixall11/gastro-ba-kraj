@@ -14,6 +14,9 @@ KRAJE = [
     ('TN', 'Trenciansky',  f'{BASE}/gastro-databaza-TN-kraj.csv', f'{BASE}/gastro-databaza-TN-kraj.xml'),
     ('NR', 'Nitriansky',   f'{BASE}/gastro-databaza-NR-kraj.csv', f'{BASE}/gastro-databaza-NR-kraj.xml'),
     ('BB', 'Banskobystricky', f'{BASE}/gastro-databaza-BB-kraj.csv', f'{BASE}/gastro-databaza-BB-kraj.xml'),
+    ('ZA', 'Zilinsky',     f'{BASE}/gastro-databaza-ZA-kraj.csv', f'{BASE}/gastro-databaza-ZA-kraj.xml'),
+    ('PO', 'Presovsky',    f'{BASE}/gastro-databaza-PO-kraj.csv', f'{BASE}/gastro-databaza-PO-kraj.xml'),
+    ('KE', 'Kosicky',      f'{BASE}/gastro-databaza-KE-kraj.csv', f'{BASE}/gastro-databaza-KE-kraj.xml'),
 ]
 
 # manualne GPS opravy (ICO -> lat,lon) tam, kde Nominatim trafi vedlajsiu budovu

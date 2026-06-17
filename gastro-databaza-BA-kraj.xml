@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="81">
+<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="95">
   <prevadzka kategoria="Catering dodavatel" zona="Z2">
     <firma>MENju s.r.o.</firma>
     <ico>53455339</ico>
@@ -1052,5 +1052,187 @@
     <web>mcdonalds.sk</web>
     <poznamka>NAJVACSI retazec; +Pezinok</poznamka>
     <gps lat="48.13244" lon="17.10755"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Bratislavsky samospravny kraj (Urad BSK)</firma>
+    <ico>36063606</ico>
+    <adresa>Sabinovska 16</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava II</okres>
+    <velkost>kraj ~470 tis obyv; zriadovatel ~50 strednych skol a soc. zariadeni so skolskymi/zariadenskymi jedalnami</velkost>
+    <telefon>02/4826 4111</telefon>
+    <email>podatelna@region-bsk.sk</email>
+    <web>region-bsk.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel SOS/gymnazii a DSS s vlastnymi kuchynami; centralne VO potravin pre svoje organizacie</poznamka>
+    <gps lat="48.1608571" lon="17.1477295"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Hlavne mesto SR Bratislava (Magistrat)</firma>
+    <ico>00603481</ico>
+    <adresa>Primacialne namestie 1</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>mesto ~475 tis obyv; cez mestske casti zriadovatel MS/ZS so skolskymi jedalnami, mestske organizacie</velkost>
+    <telefon>02/5935 6111</telefon>
+    <email>info@bratislava.sk</email>
+    <web>bratislava.sk</web>
+    <poznamka>SILNY CIEL; siet skolskych jedalni MS/ZS, socialne zariadenia mesta, VO stravy a potravin</poznamka>
+    <gps lat="48.1445175" lon="17.1091382"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Univerzita Komenskeho v Bratislave</firma>
+    <ico>00397865</ico>
+    <adresa>Safarikovo namestie 6</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>najvacsia VS v SR, ~20-25 tis studentov + ~4-5 tis zam; vlastne menzy a jedalne</velkost>
+    <telefon>02/5924 4111</telefon>
+    <email></email>
+    <web>uniba.sk</web>
+    <poznamka>SILNY CIEL; vlastne vysokoskolske jedalne, tisice stravnikov denne</poznamka>
+    <gps lat="48.1411725" lon="17.1154529"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Vysokoskolske mesto L. Stura - Mlyny UK</firma>
+    <ico>00397865</ico>
+    <adresa>Stare grunty 36</adresa>
+    <mesto>Bratislava-Karlova Ves</mesto>
+    <okres>Bratislava IV</okres>
+    <velkost>internat ~6500 luzok; najvacsi SD v SR, vlastne stravovacie prevadzky (jedalen/bufety)</velkost>
+    <telefon>02/9012 9555</telefon>
+    <email>mlyny@uniba.sk</email>
+    <web>mlyny.uniba.sk</web>
+    <poznamka>SILNY CIEL; najvacsi student. domov v SR, vlastne jedalne pre tisice stravnikov; sucast UK (rovnake ICO)</poznamka>
+    <gps lat="48.1599875" lon="17.0668479"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Slovenska technicka univerzita v Bratislave</firma>
+    <ico>00397687</ico>
+    <adresa>Vazovova 5</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>~12-15 tis studentov + ~3-4 tis zam; vlastne menzy (Mladost, Nezabudka)</velkost>
+    <telefon>02/5729 4537</telefon>
+    <email></email>
+    <web>stuba.sk</web>
+    <poznamka>SILNY CIEL; menza Mladost (Stare grunty 53) + dalsie jedalne, velkoobjemove stravovanie</poznamka>
+    <gps lat="48.1547473" lon="17.1178057"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Ekonomicka univerzita v Bratislave</firma>
+    <ico>00399957</ico>
+    <adresa>Dolnozemska cesta 1</adresa>
+    <mesto>Bratislava-Petrzalka</mesto>
+    <okres>Bratislava V</okres>
+    <velkost>~8 tis studentov + zam; studentske domovy a univerzitna jedalen</velkost>
+    <telefon>02/6729 5356</telefon>
+    <email>komunikacia@euba.sk</email>
+    <web>euba.sk</web>
+    <poznamka>SILNY CIEL; SD Horsky park/Hrobonova + univ. jedalen (prevadzkuje aj externy dodavatel)</poznamka>
+    <gps lat="48.1275493" lon="17.1323468"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Univerzitna nemocnica Bratislava (UNB)</firma>
+    <ico>31813861</ico>
+    <adresa>Pazitkova 4</adresa>
+    <mesto>Bratislava-Ruzinov</mesto>
+    <okres>Bratislava II</okres>
+    <velkost>5000-9999 zam; 5 nemocnic (Ruzinov, Stare Mesto, Kramare, Petrzalka, Podunajske Biskupice)</velkost>
+    <telefon>02/4823 4111</telefon>
+    <email>unb@unb.sk</email>
+    <web>unb.sk</web>
+    <poznamka>SILNY CIEL; viacero nemocnicnych kuchyn, strava pacientov + zamestnanci; velke VO potravin</poznamka>
+    <gps lat="48.1538941" lon="17.1506544"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Ministerstvo obrany SR</firma>
+    <ico>30845572</ico>
+    <adresa>Kutuzovova 8</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava III</okres>
+    <velkost>rezort tisice zam v BA; rezortne jedalne a stravovacie zariadenia</velkost>
+    <telefon>02/4445 2134</telefon>
+    <email>tlacove@mod.gov.sk</email>
+    <web>mosr.sk</web>
+    <poznamka>SILNY CIEL; rezortna jedalen na ustredi + VO stravovania pre OS SR</poznamka>
+    <gps lat="48.1644832" lon="17.1319388"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Velitelstvo posadky Bratislava (OS SR)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Kutuzovova 8</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava III</okres>
+    <velkost>posadkove zabezpecenie hl. mesta; kasarenske stravovacie zariadenia v BA</velkost>
+    <telefon>0960 312 333</telefon>
+    <email></email>
+    <web>vepba.mil.sk</web>
+    <poznamka>SILNY CIEL; kasarenske kuchyne/jedalne vojakov; utvar OS SR (ICO pod MO SR 30845572)</poznamka>
+    <gps lat="48.1644832" lon="17.1319388"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Ministerstvo vnutra SR</firma>
+    <ico>00151866</ico>
+    <adresa>Pribinova 2</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>rezort &gt;30 tis zam; ustredie + jedalne na pracoviskach v BA</velkost>
+    <telefon>02/5094 1111</telefon>
+    <email>tokmv@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; rezortne jedalne (PZ, HaZZ), centralne VO potravin a stravovania</poznamka>
+    <gps lat="48.140558" lon="17.1182672"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Krajske riaditelstvo PZ v Bratislave</firma>
+    <ico>00151866</ico>
+    <adresa>Spitalska 14</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>krajske velitelstvo policie pre BA kraj; stravovanie prislusnikov</velkost>
+    <telefon>0961 011 111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; jedalen pre policajtov na Spitalskej; rozpoctovo pod MV SR 00151866</poznamka>
+    <gps lat="48.1482956" lon="17.1171202"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Ustav na vykon vazby a vykon trestu Bratislava (ZVJS)</firma>
+    <ico>00738255</ico>
+    <adresa>Chorvatska 5</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>kapacita ~773 vaznenych + personal; vlastna vazenska kuchyna varia denne stovky porcii</velkost>
+    <telefon>02/2083 2105</telefon>
+    <email>sekretariatrba@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna, stabilne velkoobjemove VO potravin (maso, pecivo, zelenina)</poznamka>
+    <gps lat="48.1513547" lon="17.1237338"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Zeleznice Slovenskej republiky (ZSR)</firma>
+    <ico>31364501</ico>
+    <adresa>Klemensova 8</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>10000-19999 zam; GR + prevadzky v BA, zazemie so stravovanim</velkost>
+    <telefon>02/2029 2111</telefon>
+    <email>gro210@zsr.sk</email>
+    <web>zsr.sk</web>
+    <poznamka>Velky statny podnik, sidlo GR v BA; firemne stravovanie na ustredi a prevadzkach</poznamka>
+    <gps lat="48.14349" lon="17.1186894"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Slovenska posta a.s. - prevadzka Bratislava</firma>
+    <ico>36631124</ico>
+    <adresa>Tomasikova 54</adresa>
+    <mesto>Bratislava-Nove Mesto</mesto>
+    <okres>Bratislava III</okres>
+    <velkost>statny podnik ~12 tis zam; velky spracovatelsky uzol + riaditelstva v BA</velkost>
+    <telefon>0850 122 413</telefon>
+    <email></email>
+    <web>posta.sk</web>
+    <poznamka>Velky statny zamestnavatel; BA prevadzka/uzol so zamestnaneckym stravovanim</poznamka>
+    <gps lat="48.170123" lon="17.1476088"/>
   </prevadzka>
 </gastro_databaza>

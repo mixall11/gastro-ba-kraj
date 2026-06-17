@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="59">
+<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="67">
   <prevadzka kategoria="Catering dodavatel" zona="B1">
     <firma>Stravovanie KOZAK, s. r. o.</firma>
     <ico>57362777</ico>
@@ -766,5 +766,109 @@
     <web>minv.sk</web>
     <poznamka>krajske riaditelstvo PZ; spada pod MV SR; over ci ma vlastnu jedalen alebo obstarava stravu externe</poznamka>
     <gps lat="48.7319682" lon="19.1528607"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Slovenska posta a.s. - generalne riaditelstvo</firma>
+    <ico>36631124</ico>
+    <adresa>Partizanska cesta 9</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>1000-1999 zam (GR + prevadzky), velky statny zamestnavatel so sidlom v BB</velkost>
+    <telefon>048/4330200</telefon>
+    <email></email>
+    <web>posta.sk</web>
+    <poznamka>SILNY CIEL; generalne riaditelstvo statnej a.s. so sidlom v BB, zamestnanecke stravovanie pre stovky zam GR; odber stravovacich sluzieb / zavodna jedalen</poznamka>
+    <gps lat="48.7401412" lon="19.1616185"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Univerzita Mateja Bela v Banskej Bystrici (UMB)</firma>
+    <ico>30232295</ico>
+    <adresa>Narodna 12</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>500-999 zam + tisice studentov; vlastne studentske jedalne (SJ1 Tajovskeho 40) a studentske domovy</velkost>
+    <telefon>048/4467619</telefon>
+    <email>umb@umb.sk</email>
+    <web>umb.sk</web>
+    <poznamka>SILNY CIEL; verejna univerzita s vlastnymi studentskymi jedalnami a SD (tisice stravnikov denne); velke verejne obstaravanie potravin a stravy</poznamka>
+    <gps lat="48.7331796" lon="19.1455309"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Fakultna nemocnica s poliklinikou F. D. Roosevelta Banska Bystrica</firma>
+    <ico>00165549</ico>
+    <adresa>Namestie L. Svobodu 1</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>2000+ zam, najvacsia nemocnica kraja; velka nemocnicna kuchyna (pacienti + personal)</velkost>
+    <telefon>048/4411111</telefon>
+    <email>sekretariatgr@nspbb.sk</email>
+    <web>fnspfdr.sk</web>
+    <poznamka>SILNY CIEL; najvacsia nemocnicna kuchyna v kraji, kazdodenne stravovanie pacientov a personalu; obrovsky odber potravin, verejne obstaravanie stravy</poznamka>
+    <gps lat="48.735429" lon="19.1457338"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B2">
+    <firma>Technicka univerzita vo Zvolene</firma>
+    <ico>00397440</ico>
+    <adresa>T. G. Masaryka 24</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>250-499 zam + studenti; vlastna studentska jedalen a studentske domovy vo Zvolene</velkost>
+    <telefon>045/5206111</telefon>
+    <email>info@tuzvo.sk</email>
+    <web>tuzvo.sk</web>
+    <poznamka>SILNY CIEL; verejna univerzita s vlastnou studentskou jedalnou a SD vo Zvolene; verejne obstaravanie potravin/stravy</poznamka>
+    <gps lat="48.5718444" lon="19.1172994"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B1">
+    <firma>Ustav na vykon trestu odnatia slobody Banska Bystrica (ZVJS, Kralova)</firma>
+    <ico>00738328</ico>
+    <adresa>Sladkovicova 2238/80</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>kapacita ~750 odsudenych + personal; vazenska kuchyna s celodennou prevadzkou</velkost>
+    <telefon>048/4161111</telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna ZVJS (kazdodenne stravovanie cca 750 odsudenych + zamestnancov); samostatne ICO, velke obstaravanie potravin</poznamka>
+    <gps lat="48.7083339" lon="19.1293871"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B4">
+    <firma>Mesto Lucenec (Mestsky urad)</firma>
+    <ico>00316181</ico>
+    <adresa>Novohradska 1</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>250-499 zam (mesto + organizacie), najvacsia samosprava juznej casti kraja</velkost>
+    <telefon>047/4307220</telefon>
+    <email>sekretariat@lucenec.sk</email>
+    <web>lucenec.sk</web>
+    <poznamka>zriadovatel MS/ZS so skolskymi jedalnami v Lucenci (odber potravin/stravy)</poznamka>
+    <gps lat="48.3303071" lon="19.6641699"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B4">
+    <firma>Mesto Rimavska Sobota (Mestsky urad)</firma>
+    <ico>00319031</ico>
+    <adresa>Svatoplukova 9</adresa>
+    <mesto>Rimavska Sobota</mesto>
+    <okres>Rimavska Sobota</okres>
+    <velkost>250-499 zam (mesto + organizacie), okresne mesto Gemera</velkost>
+    <telefon>047/5631139</telefon>
+    <email>mesto@rimavskasobota.sk</email>
+    <web>rimavskasobota.sk</web>
+    <poznamka>zriadovatel MS/ZS so skolskymi jedalnami v Rimavskej Sobote (odber potravin/stravy)</poznamka>
+    <gps lat="48.3843557" lon="20.0185411"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B3">
+    <firma>Mesto Ziar nad Hronom (Mestsky urad)</firma>
+    <ico>00321125</ico>
+    <adresa>Stefana Moysesa 46</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>250-499 zam (mesto + organizacie), priemyselne okresne mesto</velkost>
+    <telefon>045/6787153</telefon>
+    <email>msu@ziar.sk</email>
+    <web>ziar.sk</web>
+    <poznamka>zriadovatel MS/ZS so skolskymi jedalnami v Ziari nad Hronom (odber potravin/stravy)</poznamka>
+    <gps lat="48.5917457" lon="18.8496777"/>
   </prevadzka>
 </gastro_databaza>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Kosicky" typ="vsetky" pocet="13">
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Kosicky samospravny kraj</firma>
+    <ico>35541016</ico>
+    <adresa>Namestie Maratonu mieru 1</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>250-499 zam uradu; zriadovatel ~25 SS a 13 socialnych zariadeni s kuchynami</velkost>
+    <telefon>055/7268111</telefon>
+    <email>vuc@vucke.sk</email>
+    <web>vucke.sk</web>
+    <poznamka>SILNY CIEL; VUC zriadovatel desiatok skolskych a socialnych jedalni v celom kraji, VO stravy</poznamka>
+    <gps lat="48.7276311" lon="21.2544388"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Mesto Kosice - Magistrat</firma>
+    <ico>00691135</ico>
+    <adresa>Trieda SNP 48/A</adresa>
+    <mesto>Kosice-Zapad</mesto>
+    <okres>Kosice II</okres>
+    <velkost>stovky zamestnancov magistratu; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>055/6419111</telefon>
+    <email>magistrat@kosice.sk</email>
+    <web>kosice.sk</web>
+    <poznamka>Najvacsie mesto vychodu, zriadovatel desiatok skolskych jedalni, VO stravovania</poznamka>
+    <gps lat="48.7144757" lon="21.2338655"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Univerzita Pavla Jozefa Safarika v Kosiciach</firma>
+    <ico>00397768</ico>
+    <adresa>Srobarova 2</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>tisice studentov; rektorat + ucelove zariadenie studentske domovy a jedalen</velkost>
+    <telefon>055/2341100</telefon>
+    <email>rektor@upjs.sk</email>
+    <web>upjs.sk</web>
+    <poznamka>SILNY CIEL; velka kosicka univerzita, SD a jedalne pre studentov</poznamka>
+    <gps lat="48.7193707" lon="21.2512131"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Technicka univerzita v Kosiciach</firma>
+    <ico>00397610</ico>
+    <adresa>Letna 1/9</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>tisice studentov; siet jedalni TUKE + studentske domovy (Jedlikova 9 kapacita 1316 lozok)</velkost>
+    <telefon>055/6022151</telefon>
+    <email>jedalne@tuke.sk</email>
+    <web>tuke.sk</web>
+    <poznamka>SILNY CIEL; najvacsia VS vychodu, vlastne jedalne a studentske domovy s kuchynami</poznamka>
+    <gps lat="48.7305176" lon="21.2454592"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Univerzitna nemocnica L. Pasteura Kosice</firma>
+    <ico>00606707</ico>
+    <adresa>Rastislavova 785/43</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>3000+ zamestnancov; velka centralna nemocnicna kuchyna (Rastislavova, Tr. SNP, Murgasova)</velkost>
+    <telefon>055/6153035</telefon>
+    <email></email>
+    <web>unlp.sk</web>
+    <poznamka>SILNY CIEL; najvacsia nemocnica vychodu, denne tisice stravnikov pacienti+personal, vlastna kuchyna</poznamka>
+    <gps lat="48.7091037" lon="21.256115"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Ustav na vykon trestu odnatia slobody Kosice-Saca (ZVJS)</firma>
+    <ico>00738395</ico>
+    <adresa>Budovatelska 1</adresa>
+    <mesto>Kosice-Saca</mesto>
+    <okres>Kosice II</okres>
+    <velkost>kapacita 809 miest + personal; vlastna vazenska kuchyna</velkost>
+    <telefon>055/2832111</telefon>
+    <email>podatelna.sa@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna variaca denne pre stovky odsudenych a personal</poznamka>
+    <gps lat="48.6331155" lon="21.1710042"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Ustav na vykon vazby a Ustav na vykon trestu Kosice (ZVJS)</firma>
+    <ico>00738387</ico>
+    <adresa>Florianska 18</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>stovky obvinenych/odsudenych + personal; vlastna kuchyna</velkost>
+    <telefon>055/2831111</telefon>
+    <email>ustavke@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; centralna vazba v meste, denna varba pre uvaznenych aj personal</poznamka>
+    <gps lat="48.7177664" lon="21.2478585"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Okresny urad Kosice</firma>
+    <ico>00151866</ico>
+    <adresa>Komenskeho 52</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>stovky zamestnancov v klientskom centre a odboroch</velkost>
+    <telefon>055/6001201</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>velky statny zamestnavatel v sidle kraja (pod MV SR), klientske centrum</poznamka>
+    <gps lat="48.7360852" lon="21.2459087"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Kosiciach</firma>
+    <ico>00151866</ico>
+    <adresa>Kuzmanyho 8</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>stovky prislusnikov a zamestnancov; sluzobne stravovanie</velkost>
+    <telefon>055/6181111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>velky zamestnavatel (pod MV SR ICO 00151866), policajne sluzobne stravovanie, VO</poznamka>
+    <gps lat="48.7172221" lon="21.2514097"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE2">
+    <firma>Mesto Michalovce (Mestsky urad)</firma>
+    <ico>00325490</ico>
+    <adresa>Namestie osloboditelov 30</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>stovky zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>056/6864210</telefon>
+    <email>msumi@msumi.sk</email>
+    <web>michalovce.sk</web>
+    <poznamka>okresne mesto, zriadovatel skolskych jedalni, VO stravovania pre samospravu</poznamka>
+    <gps lat="48.755882" lon="21.91768"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE3">
+    <firma>Mesto Spisska Nova Ves (Mestsky urad)</firma>
+    <ico>00329614</ico>
+    <adresa>Radnicne namestie 7</adresa>
+    <mesto>Spisska Nova Ves</mesto>
+    <okres>Spisska Nova Ves</okres>
+    <velkost>stovky zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>053/4176610</telefon>
+    <email></email>
+    <web>spisskanovaves.eu</web>
+    <poznamka>okresne mesto, zriadovatel skolskych jedalni, VO stravy</poznamka>
+    <gps lat="48.9440806" lon="20.5672397"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE2">
+    <firma>Mesto Trebisov (Mestsky urad)</firma>
+    <ico>00331996</ico>
+    <adresa>M. R. Stefanika 862/204</adresa>
+    <mesto>Trebisov</mesto>
+    <okres>Trebisov</okres>
+    <velkost>stovky zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>056/6722665</telefon>
+    <email></email>
+    <web>trebisov.sk</web>
+    <poznamka>okresne mesto, zriadovatel skolskych jedalni, VO stravy</poznamka>
+    <gps lat="48.6190461" lon="21.7191398"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE2">
+    <firma>LUMEN - Specializovane zariadenie a DSS Trebisov</firma>
+    <ico>00035777</ico>
+    <adresa>Jilemnickeho 1707/1</adresa>
+    <mesto>Trebisov</mesto>
+    <okres>Trebisov</okres>
+    <velkost>117 zamestnancov + stovky klientov; vlastna kuchyna</velkost>
+    <telefon>056/6724049</telefon>
+    <email></email>
+    <web>lumentv.sk</web>
+    <poznamka>SILNY CIEL; rozpoctova organizacia KSK, vlastna kuchyna pre seniorov/klientov + personal</poznamka>
+    <gps lat="48.6198489" lon="21.71409"/>
+  </prevadzka>
+</gastro_databaza>

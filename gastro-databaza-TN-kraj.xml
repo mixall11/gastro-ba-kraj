@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="53">
+<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="64">
   <prevadzka kategoria="Catering dodavatel" zona="N1">
     <firma>Catering Trencin (Polis)</firma>
     <ico>53236807</ico>
@@ -688,5 +688,148 @@
     <web>coopprievidza.sk</web>
     <poznamka>sidlo druzstva; viacero gastro prevadzok; analogia ku COOP Jednota Trnava</poznamka>
     <gps lat="48.7734738" lon="18.6166724"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Trenciansky samospravny kraj (Urad TSK)</firma>
+    <ico>36126624</ico>
+    <adresa>K dolnej stanici 7282/20A</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>150-199 zam, rozpocet ~153 mil EUR (2025); zriadovatel desiatok strednych skol a socialnych zariadeni s vlastnymi kuchynami</velkost>
+    <telefon>032/6555111</telefon>
+    <email>info@tsk.sk</email>
+    <web>tsk.sk</web>
+    <poznamka>SILNY CIEL; krajsky urad + zriadovatel SS a soc. zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)</poznamka>
+    <gps lat="48.887335" lon="18.0335441"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Fakultna nemocnica Trencin</firma>
+    <ico>00610470</ico>
+    <adresa>Legionarska 28</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>1000-1999 zam, naklady ~125 mil EUR (2025); velka nemocnicna kuchyna varia pre pacientov + personal</velkost>
+    <telefon>032/6566111</telefon>
+    <email>riaditel@fntn.sk</email>
+    <web>fntn.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnicna kuchyna (kazdodenne stravovanie pacientov a personalu), verejne obstaravanie potravin</poznamka>
+    <gps lat="48.8843801" lon="18.0308363"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Trencianska univerzita Alexandra Dubceka v Trencine</firma>
+    <ico>31118259</ico>
+    <adresa>Studentska 2</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>verejna vysoka skola, tisice studentov + zam; studentsky domov s jedalnou</velkost>
+    <telefon>032/7400111</telefon>
+    <email>rektor@tnuni.sk</email>
+    <web>tnuni.sk</web>
+    <poznamka>SILNY CIEL; studentsky domov a jedalen (vysokoskolske stravovanie), verejne obstaravanie potravin</poznamka>
+    <gps lat="48.8986434" lon="18.0474896"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Velitelstvo pozemnych sil OS SR Trencin (vojenska posadka)</firma>
+    <ico>30845572</ico>
+    <adresa>Kragujevackych hrdinov</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>velitelstvo PS OS SR + posadka Trencin, stovky vojakov; velka vojenska jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mosr.sk</web>
+    <poznamka>SILNY CIEL; vojenska posadka s velkou jedalnou (kazdodenne stravovanie posadky); utvar OS SR pod MO SR</poznamka>
+    <gps lat="48.8956027" lon="18.0496368"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN3">
+    <firma>Ustav na vykon trestu odnatia slobody a Ustav na vykon vazby Ilava (ZVJS)</firma>
+    <ico>00738344</ico>
+    <adresa>Mierove namestie 1</adresa>
+    <mesto>Ilava</mesto>
+    <okres>Ilava</okres>
+    <velkost>vazenske zariadenie ZVJS, stovky odsudenych + personal; vazenska kuchyna</velkost>
+    <telefon>042/2831111</telefon>
+    <email>ustavil@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna (kazdodenne stravovanie odsudenych a personalu), verejne obstaravanie potravin</poznamka>
+    <gps lat="48.9980143" lon="18.231942"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Mesto Trencin (Mestsky urad)</firma>
+    <ico>00312037</ico>
+    <adresa>Mierove namestie 2</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>200-249 zam (mesto), najvacsia samosprava kraja; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>032/6504111</telefon>
+    <email>mestsky.urad@trencin.sk</email>
+    <web>trencin.sk</web>
+    <poznamka>SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin/stravy)</poznamka>
+    <gps lat="48.89441" lon="18.0399914"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN2">
+    <firma>Mesto Prievidza (Mestsky urad)</firma>
+    <ico>00318442</ico>
+    <adresa>Namestie slobody 14</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>250-499 zam (mesto + organizacie), druha najvacsia samosprava kraja</velkost>
+    <telefon>046/5179110</telefon>
+    <email>info@prievidza.sk</email>
+    <web>prievidza.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Prievidza (odber potravin/stravy)</poznamka>
+    <gps lat="48.7713124" lon="18.6241498"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN3">
+    <firma>Mesto Povazska Bystrica (Mestsky urad)</firma>
+    <ico>00317667</ico>
+    <adresa>Centrum 2/3</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>250-499 zam (mesto + organizacie), tretia najvacsia samosprava kraja</velkost>
+    <telefon>042/4305111</telefon>
+    <email>primator@povazska-bystrica.sk</email>
+    <web>povazska-bystrica.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v Povazskej Bystrici (odber potravin/stravy)</poznamka>
+    <gps lat="49.1162074" lon="18.4472524"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN2">
+    <firma>Hornonitrianske bane Prievidza, a.s. (HBP)</firma>
+    <ico>36005622</ico>
+    <adresa>Matice slovenskej 10</adresa>
+    <mesto>Prievidza</mesto>
+    <okres>Prievidza</okres>
+    <velkost>500-999 zam, najvacsi zamestnavatel hornej Nitry; zavodne stravovanie</velkost>
+    <telefon>046/5421111</telefon>
+    <email>hbp@hbp.sk</email>
+    <web>hbp.sk</web>
+    <poznamka>najvacsi priemyselny zamestnavatel regionu, zavodne stravovanie pre stovky baniarov; over model jedalne (vlastna vs externa)</poznamka>
+    <gps lat="48.7703573" lon="18.6260215"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Trencine</firma>
+    <ico>00151866</ico>
+    <adresa>Jilemnickeho 1</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>krajske riaditelstvo PZ, stovky prislusnikov v kraji</velkost>
+    <telefon>0961/201111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajske riaditelstvo PZ; spada pod MV SR (ICO 00151866); over ci ma vlastnu jedalen alebo obstarava stravu externe</poznamka>
+    <gps lat="48.8886533" lon="18.0345975"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Okresny urad Trencin</firma>
+    <ico>00151866</ico>
+    <adresa>Hviezdoslavova 3</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>okresny urad v sidle kraja, klientske centrum + odbory, stovky zam</velkost>
+    <telefon>032/7411111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>okresny urad v sidle kraja pod MV SR (ICO 00151866); odber stravnych sluzieb pre zamestnancov, over model</poznamka>
+    <gps lat="48.8932726" lon="18.0400079"/>
   </prevadzka>
 </gastro_databaza>

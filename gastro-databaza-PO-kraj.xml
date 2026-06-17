@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Presovsky" typ="vsetky" pocet="12">
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Presovsky samospravny kraj (PSK)</firma>
+    <ico>37870475</ico>
+    <adresa>Namestie mieru 2</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>zriadovatel SS a soc. zariadeni s kuchynami v celom kraji; VO stravy/potravin</velkost>
+    <telefon>051/7081111</telefon>
+    <email>info@psk.sk</email>
+    <web>psk.sk</web>
+    <poznamka>SILNY CIEL; VUC zriadovatel skol a soc. sluzieb s vlastnymi kuchynami</poznamka>
+    <gps lat="49.0019597" lon="21.2417788"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Presovska univerzita v Presove</firma>
+    <ico>17070775</ico>
+    <adresa>Ul. 17. novembra 13</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>univerzita 7000+ studentov; vlastne SD a jedalne</velkost>
+    <telefon>051/7722851</telefon>
+    <email></email>
+    <web>unipo.sk</web>
+    <poznamka>SILNY CIEL; univerzitne jedalne a studentske domovy, masova denna strava</poznamka>
+    <gps lat="49.0000074" lon="21.2392122"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Fakultna nemocnica s poliklinikou J. A. Reimana Presov</firma>
+    <ico>00610577</ico>
+    <adresa>Holleho 14</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>velka nemocnica, stovky luzok; vlastna nemocnicna kuchyna, celodenna strava pacienti+personal</velkost>
+    <telefon>051/7011111</telefon>
+    <email></email>
+    <web>fnsppresov.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnicna kuchyna, stabilny odber potravin</poznamka>
+    <gps lat="48.9964472" lon="21.2536714"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Ustav na vykon vazby a Ustav na vykon trestu odnatia slobody Presov (ZVJS)</firma>
+    <ico>00738409</ico>
+    <adresa>Kpt. Nalepku 1</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>vazenska kuchyna, denna strava pre vaznov + personal</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna, garantovany objem, VO potravin</poznamka>
+    <gps lat="48.9925511" lon="21.2461638"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>2. mechanizovana brigada Presov (VU 1018, OS SR)</firma>
+    <ico>30845572</ico>
+    <adresa>Mukacevska 22</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>velka vojenska posadka; vojenska jedalen/stravovanie utvaru</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mosr.sk</web>
+    <poznamka>SILNY CIEL; vojensky utvar OS SR pod MO SR, posadkove stravovanie</poznamka>
+    <gps lat="49.0115086" lon="21.225793"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Presove</firma>
+    <ico>00151866</ico>
+    <adresa>Sturova 7</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>krajska policia; zavodne stravovanie zamestnancov</velkost>
+    <telefon>0961/801111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajsky urad PZ pod MV SR (ICO 00151866), zamestnanecke stravovanie</poznamka>
+    <gps lat="48.9866306" lon="21.2443316"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Mesto Presov (Mestsky urad)</firma>
+    <ico>00327646</ico>
+    <adresa>Hlavna 73</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>stovky zamestnancov MsU; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>051/3100111</telefon>
+    <email>mesto.radnica@presov.sk</email>
+    <web>presov.sk</web>
+    <poznamka>mesto zriadovatel skolskych jedalni, VO potravin pre MS/ZS</poznamka>
+    <gps lat="48.9972579" lon="21.2397286"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO2">
+    <firma>Mesto Poprad (Mestsky urad)</firma>
+    <ico>00326470</ico>
+    <adresa>Nabrezie Jana Pavla II. 2802/3</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>druhe najvacsie mesto kraja; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>052/7167111</telefon>
+    <email>podatelna@msupoprad.sk</email>
+    <web>poprad.sk</web>
+    <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
+    <gps lat="49.0556857" lon="20.2955291"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO4">
+    <firma>Mesto Humenne (Mestsky urad)</firma>
+    <ico>00323021</ico>
+    <adresa>Kukorelliho 1501/34</adresa>
+    <mesto>Humenne</mesto>
+    <okres>Humenne</okres>
+    <velkost>okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>057/7863211</telefon>
+    <email>msu@humenne.sk</email>
+    <web>humenne.sk</web>
+    <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
+    <gps lat="48.9355568" lon="21.9071083"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO3">
+    <firma>Mesto Bardejov (Mestsky urad)</firma>
+    <ico>00321842</ico>
+    <adresa>Radnicne namestie 16</adresa>
+    <mesto>Bardejov</mesto>
+    <okres>Bardejov</okres>
+    <velkost>okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>054/4862122</telefon>
+    <email>info@bardejov.sk</email>
+    <web>bardejov.sk</web>
+    <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
+    <gps lat="49.2921571" lon="21.2764398"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO4">
+    <firma>Mesto Vranov nad Toplou (Mestsky urad)</firma>
+    <ico>00332933</ico>
+    <adresa>Dr. C. Daxnera 87/1</adresa>
+    <mesto>Vranov nad Toplou</mesto>
+    <okres>Vranov nad Toplou</okres>
+    <velkost>okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>057/4422551</telefon>
+    <email></email>
+    <web>vranov.sk</web>
+    <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
+    <gps lat="48.8900235" lon="21.6855858"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Lesy SR, statny podnik, OZ Saris Presov</firma>
+    <ico>36038351</ico>
+    <adresa>Obrancov mieru 6</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>statny podnik, jeden z uzemne najvacsich OZ; zavodne stravovanie</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>lesy.sk</web>
+    <poznamka>statny podnik Lesy SR, zamestnanecke stravovanie</poznamka>
+    <gps lat="48.9937862" lon="21.2297657"/>
+  </prevadzka>
+</gastro_databaza>

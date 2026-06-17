@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Nitriansky" typ="vsetky" pocet="51">
+<gastro_databaza kraj="Nitriansky" typ="vsetky" pocet="60">
   <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
     <firma>Jaguar Land Rover Slovakia s.r.o.</firma>
     <ico>48302392</ico>
@@ -662,5 +662,122 @@
     <web>novykastiel.sk</web>
     <poznamka>event/firemne priestory; ICO neoverene na FinStat (over presny prevadzkovy subjekt)</poznamka>
     <gps lat="48.5594345" lon="18.1754394"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Nitriansky samospravny kraj (Urad NSK)</firma>
+    <ico>37861298</ico>
+    <adresa>Razusova 2A</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>200-249 zam na urade; zriadovatel desiatok strednych skol a socialnych zariadeni s vlastnymi kuchynami</velkost>
+    <telefon>037 6925111</telefon>
+    <email>predseda@unsk.sk</email>
+    <web>unsk.sk</web>
+    <poznamka>SILNY CIEL; krajsky urad + zriadovatel ~40 strednych skol a soc. zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)</poznamka>
+    <gps lat="48.2996657" lon="18.080946"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Mesto Nitra (Mestsky urad)</firma>
+    <ico>00308307</ico>
+    <adresa>Stefanikova trieda 60</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>1000-1999 zam (mesto + organizacie), najvacsia samosprava kraja</velkost>
+    <telefon>037 6502111</telefon>
+    <email>podatelna@msunitra.sk</email>
+    <web>nitra.sk</web>
+    <poznamka>SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin/stravy)</poznamka>
+    <gps lat="48.310976" lon="18.0866376"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Nitre</firma>
+    <ico>00151866</ico>
+    <adresa>Kalvarska 2</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>krajske riaditelstvo PZ, stovky prislusnikov v kraji</velkost>
+    <telefon>0961 302111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajske riaditelstvo PZ; organizacna zlozka MV SR (ICO 00151866); over ci ma vlastnu jedalen alebo obstarava stravu externe</poznamka>
+    <gps lat="48.3005653" lon="18.0893427"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Ustav na vykon vazby a Ustav na vykon trestu odnatia slobody Nitra</firma>
+    <ico>00738280</ico>
+    <adresa>Cintorinska 1472/3</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>250-499 zam, kapacita 401 vaznenych; vlastna vazenska kuchyna</velkost>
+    <telefon>037 6526111</telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenska kuchyna pre stovky vaznenych + personal, celodenne stravovanie, stabilny velkoodber surovin (ZVJS, vlastne ICO)</poznamka>
+    <gps lat="48.306917" lon="18.0830619"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Ustav na vykon trestu odnatia slobody Nitra-Chrenova</firma>
+    <ico>00738417</ico>
+    <adresa>Vasinova 124/59</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>zenska vaznica, stovky odsudenych + personal; vlastna kuchyna</velkost>
+    <telefon>037 6536537</telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; samostatny zensky ustav s vlastnou vazenskou kuchynou, celodenne stravovanie, stabilny odber potravin (ZVJS, vlastne ICO)</poznamka>
+    <gps lat="48.3213311" lon="18.1135424"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR3">
+    <firma>Slovenske elektrarne, a.s. - Atomove elektrarne Mochovce (EMO)</firma>
+    <ico>35829052</ico>
+    <adresa>Mochovce</adresa>
+    <mesto>Mochovce</mesto>
+    <okres>Levice</okres>
+    <velkost>velky energeticky zavod, stovky-tisic zam + dodavatelia; zavodna jedalen</velkost>
+    <telefon>036 6361111</telefon>
+    <email>emo@seas.sk</email>
+    <web>seas.sk</web>
+    <poznamka>SILNY CIEL; jadrova elektraren so zavodnou jedalnou, denne stovky obedov pre personal + dodavatelov, dlhodoby velkoodber</poznamka>
+    <gps lat="48.2593112" lon="18.4578148"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR2">
+    <firma>Mesto Nove Zamky (Mestsky urad)</firma>
+    <ico>00309150</ico>
+    <adresa>Hlavne namestie 10</adresa>
+    <mesto>Nove Zamky</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>250-499 zam (mesto + organizacie), druha najvacsia samosprava kraja</velkost>
+    <telefon>035 6400225</telefon>
+    <email>info@novezamky.sk</email>
+    <web>novezamky.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Nove Zamky (odber potravin/stravy)</poznamka>
+    <gps lat="47.985304" lon="18.163841"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR2">
+    <firma>Mesto Komarno (Mestsky urad)</firma>
+    <ico>00306525</ico>
+    <adresa>Namestie generala Klapku 1</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>250-499 zam, vyznamna samosprava juhu kraja</velkost>
+    <telefon>035 2851212</telefon>
+    <email>prednosta@komarno.sk</email>
+    <web>komarno.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Komarno (odber potravin/stravy)</poznamka>
+    <gps lat="47.7575891" lon="18.1296806"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR3">
+    <firma>Mesto Levice (Mestsky urad)</firma>
+    <ico>00307203</ico>
+    <adresa>Namestie hrdinov 1</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>250-499 zam, najvacsia samosprava juhozapadu kraja</velkost>
+    <telefon>036 6350263</telefon>
+    <email>msu@levice.sk</email>
+    <web>levice.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Levice (odber potravin/stravy)</poznamka>
+    <gps lat="48.2193111" lon="18.6065104"/>
   </prevadzka>
 </gastro_databaza>

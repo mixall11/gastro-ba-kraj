@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="49">
+<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="61">
   <prevadzka kategoria="Catering dodavatel" zona="T1">
     <firma>Frape catering s.r.o.</firma>
     <ico>44178450</ico>
@@ -636,5 +636,161 @@
     <web>odjednota.sk</web>
     <poznamka>sidlo druzstva; viac gastro prevadzok v OD Jednota; ICO druzstva doplnit ORSR</poznamka>
     <gps lat="48.3774728" lon="17.5874502"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Trnavsky samospravny kraj (TTSK)</firma>
+    <ico>37836901</ico>
+    <adresa>Starohajska 6868/10</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>250-499 zamestnancov; zriadovatel SS a soc. zariadeni s kuchynami</velkost>
+    <telefon>033 5559111</telefon>
+    <email>podatelna@trnava-vuc.sk</email>
+    <web>trnava-vuc.sk</web>
+    <poznamka>SILNY CIEL; VUC zriadovatel desiatok SOS/gymnazii a domovov soc. sluzieb s vlastnymi kuchynami v celom kraji, centralne VO stravy</poznamka>
+    <gps lat="48.3789056" lon="17.5951119"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Mesto Trnava (Mestsky urad)</firma>
+    <ico>00313114</ico>
+    <adresa>Trhova 3</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>250-499 zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>033 3236101</telefon>
+    <email>podatelna@trnava.sk</email>
+    <web>trnava.sk</web>
+    <poznamka>SILNY CIEL; zriadovatel materskych a zakladnych skol so skolskymi jedalnami, centralne VO potravin</poznamka>
+    <gps lat="48.3758955" lon="17.5880409"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT2">
+    <firma>Mesto Piestany (Mestsky urad)</firma>
+    <ico>00612031</ico>
+    <adresa>Namestie SNP 1475/3</adresa>
+    <mesto>Piestany</mesto>
+    <okres>Piestany</okres>
+    <velkost>100-249 zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>033 7765311</telefon>
+    <email>msu@piestany.sk</email>
+    <web>piestany.sk</web>
+    <poznamka>zriadovatel skol so skolskymi jedalnami, VO potravin/stravy</poznamka>
+    <gps lat="48.5917427" lon="17.8315613"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT4">
+    <firma>Mesto Dunajska Streda (Mestsky urad)</firma>
+    <ico>00305383</ico>
+    <adresa>Hlavna 50/16</adresa>
+    <mesto>Dunajska Streda</mesto>
+    <okres>Dunajska Streda</okres>
+    <velkost>250-499 zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>031 5903941</telefon>
+    <email>info@dunstreda.sk</email>
+    <web>dunstreda.sk</web>
+    <poznamka>zriadovatel skol so skolskymi jedalnami, dvojjazycny region, VO potravin</poznamka>
+    <gps lat="47.9926251" lon="17.6187289"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT4">
+    <firma>Mesto Galanta (Mestsky urad)</firma>
+    <ico>00305936</ico>
+    <adresa>Mierove namestie 940/1</adresa>
+    <mesto>Galanta</mesto>
+    <okres>Galanta</okres>
+    <velkost>100-249 zamestnancov; zriadovatel MS/ZS so skolskymi jedalnami</velkost>
+    <telefon>031 7884301</telefon>
+    <email>info@galanta.sk</email>
+    <web>galanta.sk</web>
+    <poznamka>zriadovatel skol so skolskymi jedalnami, VO potravin/stravy</poznamka>
+    <gps lat="48.1900095" lon="17.7261175"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Slovenske elektrarne, a.s. - Atomove elektrarne Bohunice</firma>
+    <ico>35829052</ico>
+    <adresa>Jaslovske Bohunice</adresa>
+    <mesto>Jaslovske Bohunice</mesto>
+    <okres>Trnava</okres>
+    <velkost>Jadrova elektraren, tisicky zamestnancov a dodavatelov; velka zavodna jedalen</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>seas.sk</web>
+    <poznamka>SILNY CIEL; jadrova elektraren EBO V2 s velkou zavodnou stravovacou prevadzkou, kontinualne stravovanie zmenovej prevadzky; sidlo a.s. v Bratislave</poznamka>
+    <gps lat="48.4764978" lon="17.6479239"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Trnavska univerzita v Trnave</firma>
+    <ico>31825249</ico>
+    <adresa>Hornopotocna 23</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>Verejna vysoka skola; Studentsky domov Petra Pazmana s jedalnou</velkost>
+    <telefon>033 5939111</telefon>
+    <email>rektorat@truni.sk</email>
+    <web>truni.sk</web>
+    <poznamka>SILNY CIEL; studentsky domov a jedalen, VO potravin pre studentske stravovanie</poznamka>
+    <gps lat="48.379698" lon="17.58686"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Univerzita sv. Cyrila a Metoda v Trnave (UCM)</firma>
+    <ico>36078913</ico>
+    <adresa>Namestie J. Herdu 577/2</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>Verejna vysoka skola; studentske stravovanie/jedalen</velkost>
+    <telefon>033 5565111</telefon>
+    <email>info@ucm.sk</email>
+    <web>ucm.sk</web>
+    <poznamka>SILNY CIEL; velka univerzita so studentskym stravovanim, VO potravin a cateringu</poznamka>
+    <gps lat="48.374218" lon="17.5809299"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Fakultna nemocnica Trnava</firma>
+    <ico>00610381</ico>
+    <adresa>Andreja Zarnova 11</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>1000-1999 zamestnancov; velka nemocnicna kuchyna 24/7</velkost>
+    <telefon>033 5938111</telefon>
+    <email>fntt@fntt.sk</email>
+    <web>fntt.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnicna stravovacia prevadzka pre pacientov a personal, kontinualne VO potravin</poznamka>
+    <gps lat="48.3683466" lon="17.5883897"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Trnave</firma>
+    <ico>00151866</ico>
+    <adresa>Kollarova 31</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>Stovky prislusnikov; sluzobne stravovanie</velkost>
+    <telefon>0961 102101</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajske riaditelstvo PZ pod MV SR (ICO 00151866), sluzobne stravovanie prislusnikov, VO potravin/stravovacich sluzieb</poznamka>
+    <gps lat="48.3715167" lon="17.5887612"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Ustav na vykon trestu odnatia slobody Hrnciarovce nad Parnou (ZVJS)</firma>
+    <ico>00738263</ico>
+    <adresa>Dlhe Luky 6966/1</adresa>
+    <mesto>Hrnciarovce nad Parnou</mesto>
+    <okres>Trnava</okres>
+    <velkost>1443 ubytovacich miest; najvacsia vaznica v SR, vazenska kuchyna</velkost>
+    <telefon>033 2832111</telefon>
+    <email>ustavhnp@zvjs.sk</email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; najvacsia vaznica v SR, velka vazenska kuchyna var 3x denne pre vsetkych odsudenych + personal</poznamka>
+    <gps lat="48.3519493" lon="17.5651008"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Okresny urad Trnava</firma>
+    <ico>00151866</ico>
+    <adresa>Kollarova 8</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>Stovky zamestnancov; klientske centrum a odbory statnej spravy</velkost>
+    <telefon>033 5564111</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>najvacsi okresny urad v kraji, miestna statna sprava, moznost cateringu/VO</poznamka>
+    <gps lat="48.3718636" lon="17.5859539"/>
   </prevadzka>
 </gastro_databaza>

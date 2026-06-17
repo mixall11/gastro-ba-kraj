@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastro_databaza kraj="Zilinsky" typ="vsetky" pocet="14">
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Zilinsky samospravny kraj</firma>
+    <ico>37808427</ico>
+    <adresa>Komenskeho 48</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>zriadovatel desiatok SS a socialnych zariadeni s kuchynami v kraji</velkost>
+    <telefon>041/5032111</telefon>
+    <email>podatelna@zilinskazupa.sk</email>
+    <web>zilinskazupa.sk</web>
+    <poznamka>SILNY CIEL; VUC zriadovatel SS a DSS s vlastnymi skolskymi a zariadenskymi jedalnami, centralizovane VO potravin</poznamka>
+    <gps lat="49.2167085" lon="18.7371007"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Zilinska univerzita v Ziline</firma>
+    <ico>00397563</ico>
+    <adresa>Univerzitna 8215/1</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>vyse 8000 studentov + 1000+ zam; viacero menz a studentskych domovov</velkost>
+    <telefon>041/5135001</telefon>
+    <email>rektor@uniza.sk</email>
+    <web>uniza.sk</web>
+    <poznamka>SILNY CIEL; najvacsia VS v kraji, tisice stravnikov denne v menzach a SD, verejne obstaravanie stravy a potravin</poznamka>
+    <gps lat="49.2038443" lon="18.7557359"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA2">
+    <firma>Univerzitna nemocnica Martin</firma>
+    <ico>00365327</ico>
+    <adresa>Kollarova 2</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>900 lozok; velka nemocnicna kuchyna, stravovanie pacientov + personalu</velkost>
+    <telefon>043/4203303</telefon>
+    <email>sekretariat@unm.sk</email>
+    <web>unm.sk</web>
+    <poznamka>SILNY CIEL; fakultna nemocnica s celoslovenskou posobnostou, velkokapacitna stravovacia prevadzka</poznamka>
+    <gps lat="49.060448" lon="18.919489"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Fakultna nemocnica s poliklinikou Zilina</firma>
+    <ico>17335825</ico>
+    <adresa>Vojtecha Spanyola 1740/43</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>velka krajska nemocnica; nemocnicna kuchyna pre pacientov a personal</velkost>
+    <telefon>041/5110111</telefon>
+    <email>sekretariat@fnspza.sk</email>
+    <web>fnspza.sk</web>
+    <poznamka>SILNY CIEL; jedna z najvacsich nemocnic v kraji, velkokapacitna kuchyna, pravidelne VO potravin</poznamka>
+    <gps lat="49.2177793" lon="18.7455203"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA3">
+    <firma>Akademia ozbrojenych sil generala M. R. Stefanika</firma>
+    <ico>37910337</ico>
+    <adresa>Demanova 393</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>vojenska vysoka skola; vojenska jedalen pre studentov a personal</velkost>
+    <telefon>0960/422090</telefon>
+    <email>akaos@aos.sk</email>
+    <web>aos.sk</web>
+    <poznamka>SILNY CIEL; vojenska akademia s vlastnym ICO, stala vojenska jedalen, VO stravy a potravin</poznamka>
+    <gps lat="49.0596732" lon="19.5815009"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA3">
+    <firma>Ustav na vykon trestu odnatia slobody Ruzomberok (ZVJS)</firma>
+    <ico>00738379</ico>
+    <adresa>Doncova 1457/6</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>kapacita 378 odsudenych; vazenska kuchyna stravujuca odsudenych + personal</velkost>
+    <telefon>044/4324035</telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, denne stravovanie stoviek osob, VO potravin</poznamka>
+    <gps lat="49.0836812" lon="19.299741"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA2">
+    <firma>Ustav na vykon trestu odnatia slobody pre mladistvych Sucany (ZVJS)</firma>
+    <ico>00738361</ico>
+    <adresa>Druzstevna 1611/2</adresa>
+    <mesto>Sucany</mesto>
+    <okres>Martin</okres>
+    <velkost>kapacita 517 osob; vazenska kuchyna pre odsudenych + personal</velkost>
+    <telefon>043/4222720</telefon>
+    <email></email>
+    <web>zvjs.sk</web>
+    <poznamka>SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, velka kapacita, denne stravovanie stoviek osob</poznamka>
+    <gps lat="49.0952717" lon="18.9748783"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA3">
+    <firma>Katolicka univerzita v Ruzomberku</firma>
+    <ico>37801279</ico>
+    <adresa>Hrabovska cesta 5512/1A</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>vyse 2000 studentov; studentske domovy a jedalen</velkost>
+    <telefon>044/4326842</telefon>
+    <email>rektor@ku.sk</email>
+    <web>ku.sk</web>
+    <poznamka>SILNY CIEL; druha univerzita v kraji, SD jedalen, VO stravy a potravin</poznamka>
+    <gps lat="49.0824185" lon="19.2795441"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Mesto Zilina (Mestsky urad)</firma>
+    <ico>00321796</ico>
+    <adresa>Namestie obeti komunizmu 1</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>mestsky urad; zriadovatel ZS a MS so skolskymi jedalnami</velkost>
+    <telefon>041/7063111</telefon>
+    <email>sekretariatmsu@zilina.sk</email>
+    <web>zilina.sk</web>
+    <poznamka>SILNY CIEL; mestsky urad zriadovatel skol so skolskymi jedalnami, centralne VO potravin pre jedalne</poznamka>
+    <gps lat="49.2215702" lon="18.7427482"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA2">
+    <firma>Mesto Martin (Mestsky urad)</firma>
+    <ico>00316792</ico>
+    <adresa>Namestie S. H. Vajanskeho 1</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>mestsky urad; zriadovatel ZS a MS so skolskymi jedalnami</velkost>
+    <telefon>043/4204111</telefon>
+    <email>msu@martin.sk</email>
+    <web>martin.sk</web>
+    <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
+    <gps lat="49.0684556" lon="18.9257016"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA3">
+    <firma>Mesto Ruzomberok (Mestsky urad)</firma>
+    <ico>00315737</ico>
+    <adresa>Namestie A. Hlinku 1098/1</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>mestsky urad; zriadovatel ZS a MS so skolskymi jedalnami</velkost>
+    <telefon>044/4314422</telefon>
+    <email>podatelna@ruzomberok.sk</email>
+    <web>ruzomberok.sk</web>
+    <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
+    <gps lat="49.0815132" lon="19.3034281"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA3">
+    <firma>Mesto Liptovsky Mikulas (Mestsky urad)</firma>
+    <ico>00315524</ico>
+    <adresa>Sturova 1989/41</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>mestsky urad; zriadovatel ZS a MS so skolskymi jedalnami</velkost>
+    <telefon>044/5565111</telefon>
+    <email>lmikulas@mikulas.sk</email>
+    <web>mikulas.sk</web>
+    <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
+    <gps lat="49.0857579" lon="19.6084034"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA4">
+    <firma>Mesto Cadca (Mestsky urad)</firma>
+    <ico>00313971</ico>
+    <adresa>Namestie Slobody 30</adresa>
+    <mesto>Cadca</mesto>
+    <okres>Cadca</okres>
+    <velkost>mestsky urad; zriadovatel ZS a MS so skolskymi jedalnami</velkost>
+    <telefon>041/4302212</telefon>
+    <email>sekretariat@mestocadca.sk</email>
+    <web>mestocadca.sk</web>
+    <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, centralny ciel pre Kysuce</poznamka>
+    <gps lat="49.4381043" lon="18.7901917"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Krajske riaditelstvo Policajneho zboru v Ziline</firma>
+    <ico>00151866</ico>
+    <adresa>Kuzmanyho 26</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>krajske policajne riaditelstvo; stravovanie prislusnikov PZ</velkost>
+    <telefon>0961/402115</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>krajske riaditelstvo PZ pod MV SR (ICO 00151866), stravovanie prislusnikov, VO stravnych sluzieb</poznamka>
+    <gps lat="49.2216152" lon="18.7363761"/>
+  </prevadzka>
+</gastro_databaza>
