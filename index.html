@@ -79,6 +79,7 @@
 
     <div class="box">
       <h2>Okres</h2>
+      <div class="sub" id="okresNote" style="margin:0 0 8px;font-size:12px;color:#fbbf24"></div>
       <div id="okresy"></div>
     </div>
 
@@ -310,6 +311,10 @@ function apply(){
   const oks=[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
   const q=document.getElementById('search').value.trim().toLowerCase();
   const obec=document.getElementById('obecSel').value;
+  const okBox=document.getElementById('okresy');
+  okBox.style.opacity=obec==='ALL'?'1':'.35';
+  okBox.style.pointerEvents=obec==='ALL'?'auto':'none';
+  document.getElementById('okresNote').textContent=obec==='ALL'?'':'⤵ Riadi výber obce nižšie — daj „— všetky obce —" pre filter okresov.';
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
