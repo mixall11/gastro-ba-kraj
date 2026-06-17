@@ -1,14 +1,15 @@
-# Gastro mapa — Bratislavský + Trnavský kraj
+# Gastro mapa — Bratislavský + Trnavský + Nitriansky kraj
 
-Interaktívna mapa a databáza veľkokapacitnej gastronómie v **Bratislavskom a Trnavskom kraji**. B2B nástroj na cielené oslovenie (predaj surovín/služieb gastru).
+Interaktívna mapa a databáza veľkokapacitnej gastronómie v **Bratislavskom, Trnavskom a Nitrianskom kraji**. B2B nástroj na cielené oslovenie (predaj surovín/služieb gastru).
 
 **Živá mapa:** https://mixall11.github.io/gastro-ba-kraj/
 
 ## Obsah
-- **`index.html`** — interaktívna Leaflet mapa: prepínač **kraja (BA / TT / Oba)**, **letecký režim** (satelit Esri), 5 kategórií, filtre podľa typu a okresu, hľadanie, popupy s kontaktom, **trasa autom po ceste (OSRM)** s optimalizovaným poradím + km/čas a **navigácia cez Google Maps**
-- **`data.js`** — dáta mapy (131 prevádzok s GPS: 82 BA + 49 TT, pole `kraj`)
+- **`index.html`** — interaktívna Leaflet mapa: prepínač **kraja (BA / TT / NR / Oba)**, **letecký režim** (satelit Esri), 5 kategórií, filtre podľa typu a okresu, hľadanie, popupy s kontaktom, **trasa autom po ceste (OSRM)** s optimalizovaným poradím + km/čas a **navigácia cez Google Maps**
+- **`data.js`** — dáta mapy (181 prevádzok s GPS: 82 BA + 49 TT + 51 NR, pole `kraj`)
 - **`gastro-databaza-BA-kraj.csv` / `.xml`** — databáza Bratislavský kraj (82)
 - **`gastro-databaza-TT-kraj.csv` / `.xml`** — databáza Trnavský kraj (49)
+- **`gastro-databaza-NR-kraj.csv` / `.xml`** — databáza Nitriansky kraj (51, okresy Nitra/Komarno/Levice/Nove Zamky/Sala/Topolcany/Zlate Moravce)
 - **`roadmapa-auto.md`** — návrh trasy autom, BA kraj (štart Petržalka)
 - **`roadmapa-auto-TT.md`** — návrh trasy autom, TT kraj (štart Trnava, 2 dni juh/sever, ~439 km)
 - **`build_map.py`** — regenerácia XML + `data.js` z oboch CSV (geokódovanie cez Nominatim/OSM)
