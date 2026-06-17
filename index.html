@@ -21,6 +21,8 @@
   .count{font-weight:600;color:#fff}
   .box{background:var(--panel2);border-radius:10px;padding:12px;margin-bottom:14px}
   .box h2{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 10px}
+  .grp{font-size:11px;font-weight:700;color:#7dd3fc;margin:12px 0 4px;text-transform:uppercase;letter-spacing:.03em}
+  .grp:first-child{margin-top:0}
   label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
   label.row input{accent-color:#38bdf8;width:16px;height:16px}
   .dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
@@ -202,9 +204,12 @@ const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 // --- okresne filtre (podla kraja) ---
 function buildOkresy(){
   const box=document.getElementById('okresy'); box.innerHTML='';
-  const oks=[...new Set(GASTRO_DATA.map(d=>d.okres))].sort();
-  oks.forEach(o=>box.insertAdjacentHTML('beforeend',
-    `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
+  [...new Set(GASTRO_DATA.map(d=>d.kraj))].forEach(k=>{
+    box.insertAdjacentHTML('beforeend',`<div class="grp">${(KRAJ_LABEL[k]||k)} kraj</div>`);
+    [...new Set(GASTRO_DATA.filter(d=>d.kraj===k).map(d=>d.okres))].sort().forEach(o=>
+      box.insertAdjacentHTML('beforeend',
+        `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
+  });
   box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
 }
 
