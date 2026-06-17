@@ -110,9 +110,9 @@ const LABEL={
   'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
   'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)'};
 const STARTS={
-  WGO:{lat:48.11501,lon:17.08823,name:'WGO s.r.o. — Kopčianska 90/b'},
-  WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23'},
-  CEN:{lat:48.1451,lon:17.1119,name:'Stred Bratislavy — Nám. SNP'}};
+  WGO:{lat:48.11501,lon:17.08823,name:'WGO s.r.o. — Kopčianska 90/b',q:'Kopčianska 90B, Bratislava'},
+  WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23',q:'Wolkrova 23, Bratislava'},
+  CEN:{lat:48.1451,lon:17.1119,name:'Stred Bratislavy — Nám. SNP',q:'Námestie SNP, Bratislava'}};
 let startKey='WGO';
 const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
@@ -150,7 +150,7 @@ function popup(d){
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
   if(d.ico)   h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
   if(d.pozn)  h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
-  h+=`<a class="pop-nav" href="https://www.google.com/maps/dir/?api=1&destination=${d.lat},${d.lon}&travelmode=driving" target="_blank" rel="noopener">🧭 Navigovať sem</a>`;
+  h+=`<a class="pop-nav" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(gmapsQ(d))}&travelmode=driving" target="_blank" rel="noopener">🧭 Navigovať sem</a>`;
   return h;
 }
 
@@ -220,14 +220,20 @@ async function drawRoute(){
     setStats('⚠️ Routing dočasne nedostupný — orientačná čiara. Skús znova.');
   }
 }
+// text zastavky pre Google Maps: firma + adresa + mesto (aby sedel nazov, nie najblizsie POI)
+function gmapsQ(p){
+  const a=(p.adresa||'').toLowerCase();
+  return (!p.adresa||a.includes('doplnit')) ? `${p.firma}, ${p.mesto}` : `${p.firma}, ${p.adresa}, ${p.mesto}`;
+}
 function openGmaps(){
   const start=curStart();
   const ord=(routeChk.checked&&lastOrder)?lastOrder:nnOrder(visibleData(),start);
   if(!ord.length){alert('Žiadne viditeľné prevádzky.');return;}
   const stops=ord.slice(0,10);
   const dest=stops[stops.length-1];
-  const wps=stops.slice(0,-1).map(p=>p.lat+','+p.lon).join('|');
-  let u='https://www.google.com/maps/dir/?api=1&origin='+start.lat+','+start.lon+'&destination='+dest.lat+','+dest.lon+'&travelmode=driving';
+  const wps=stops.slice(0,-1).map(p=>gmapsQ(p)).join('|');
+  let u='https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(start.q)
+       +'&destination='+encodeURIComponent(gmapsQ(dest))+'&travelmode=driving';
   if(wps) u+='&waypoints='+encodeURIComponent(wps);
   window.open(u,'_blank');
   if(ord.length>10) setTimeout(()=>alert('Google Maps zvládne ~10 zastávok. Otvorených prvých 10 z '+ord.length+'. Pre presný objazd vyfiltruj okres alebo kategóriu.'),300);
