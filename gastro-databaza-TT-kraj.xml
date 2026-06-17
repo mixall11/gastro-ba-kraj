@@ -3,15 +3,15 @@
   <prevadzka kategoria="Catering dodavatel" zona="T1">
     <firma>Frape catering s.r.o.</firma>
     <ico>44178450</ico>
-    <adresa>Pekarska 40</adresa>
+    <adresa>Hudobna 7</adresa>
     <mesto>Trnava</mesto>
     <okres>Trnava</okres>
     <velkost>trzby 3,6 mil EUR (2025), 10-19 zam</velkost>
     <telefon>033/293 33 22</telefon>
     <email>mail@frape-catering.sk</email>
     <web>frape-catering.sk</web>
-    <poznamka>SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; konatel D. Schmidt 0903 246 244</poznamka>
-    <gps lat="48.3789303" lon="17.5862883"/>
+    <poznamka>SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; sidlo Hudobna 9715/7, prevadzka Pekarska 40A, office Jana Holleho 5; konatel D. Schmidt 0903 246 244</poznamka>
+    <gps lat="48.3678367" lon="17.5567561"/>
   </prevadzka>
   <prevadzka kategoria="Catering dodavatel" zona="T3">
     <firma>Catering Majernik s.r.o.</firma>
@@ -613,16 +613,16 @@
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
     <firma>Reston s.r.o. (McDonald's fransiza)</firma>
-    <ico>doplnit ORSR</ico>
-    <adresa>doplnit</adresa>
+    <ico>35795425</ico>
+    <adresa>Hlboka 4</adresa>
     <mesto>Trnava</mesto>
     <okres>Trnava</okres>
     <velkost>trzby ~30 mil EUR, ~700 zam (TT+BA)</velkost>
     <telefon></telefon>
     <email></email>
     <web>mcdonalds.sk</web>
-    <poznamka>SILNY CIEL; fransizant McDonald's; sidlo firmy; 3 prevadzky v Trnave; ICO doplnit ORSR</poznamka>
-    <gps lat="48.374218" lon="17.5809299"/>
+    <poznamka>SILNY CIEL; fransizant McDonald's; majitel Anton Novotny; 3 prevadzky v Trnave (Hlboka 4, Nova, Trstinska)</poznamka>
+    <gps lat="48.3815617" lon="17.593004"/>
   </prevadzka>
   <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="T1">
     <firma>COOP Jednota Trnava s.d.</firma>

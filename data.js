@@ -177,7 +177,7 @@ const GASTRO_DATA = [
   "adresa": "Sutazna 3",
   "mesto": "Bratislava-Ruzinov",
   "okres": "Bratislava",
-  "velkost": "trzby 28,76 mil EUR (2024), 250-499 zam",
+  "velkost": "trzby 28,15 mil EUR (2024), 250-499 zam",
   "tel": "+421 2 3300 2808",
   "email": "",
   "web": "medusarestaurants.sk",
@@ -1381,7 +1381,7 @@ const GASTRO_DATA = [
   "kat": "Catering dodavatel",
   "firma": "Frape catering s.r.o.",
   "ico": "44178450",
-  "adresa": "Pekarska 40",
+  "adresa": "Hudobna 7",
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "trzby 3,6 mil EUR (2025), 10-19 zam",
@@ -1389,9 +1389,9 @@ const GASTRO_DATA = [
   "email": "mail@frape-catering.sk",
   "web": "frape-catering.sk",
   "zona": "T1",
-  "pozn": "SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; konatel D. Schmidt 0903 246 244",
-  "lat": 48.3789303,
-  "lon": 17.5862883
+  "pozn": "SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; sidlo Hudobna 9715/7, prevadzka Pekarska 40A, office Jana Holleho 5; konatel D. Schmidt 0903 246 244",
+  "lat": 48.3678367,
+  "lon": 17.5567561
  },
  {
   "kraj": "TT",
@@ -2179,8 +2179,8 @@ const GASTRO_DATA = [
   "kraj": "TT",
   "kat": "Restauracna siet (3+ prevadzok)",
   "firma": "Reston s.r.o. (McDonald's fransiza)",
-  "ico": "doplnit ORSR",
-  "adresa": "doplnit",
+  "ico": "35795425",
+  "adresa": "Hlboka 4",
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "trzby ~30 mil EUR, ~700 zam (TT+BA)",
@@ -2188,9 +2188,9 @@ const GASTRO_DATA = [
   "email": "",
   "web": "mcdonalds.sk",
   "zona": "T1",
-  "pozn": "SILNY CIEL; fransizant McDonald's; sidlo firmy; 3 prevadzky v Trnave; ICO doplnit ORSR",
-  "lat": 48.374218,
-  "lon": 17.5809299
+  "pozn": "SILNY CIEL; fransizant McDonald's; majitel Anton Novotny; 3 prevadzky v Trnave (Hlboka 4, Nova, Trstinska)",
+  "lat": 48.3815617,
+  "lon": 17.593004
  },
  {
   "kraj": "TT",
