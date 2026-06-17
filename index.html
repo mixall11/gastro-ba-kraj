@@ -21,6 +21,12 @@
   .count{font-weight:600;color:#fff}
   .box{background:var(--panel2);border-radius:10px;padding:12px;margin-bottom:14px}
   .box h2{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 10px}
+  #okresBox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  #okresBox summary::-webkit-details-marker{display:none}
+  #okresBox summary::after{content:'▸';margin-left:auto;font-size:13px;transition:transform .15s}
+  #okresBox[open] summary::after{transform:rotate(90deg)}
+  #okresBox .okcount{color:#7dd3fc;font-weight:700}
+  #okresy{max-height:300px;overflow:auto;margin-top:10px}
   .grp{font-size:11px;font-weight:700;color:#7dd3fc;margin:12px 0 4px;text-transform:uppercase;letter-spacing:.03em}
   .grp:first-child{margin-top:0}
   label.row{display:flex;align-items:center;gap:8px;padding:5px 0;cursor:pointer;font-size:14px}
@@ -96,8 +102,10 @@
     </div>
 
     <div class="box">
-      <h2>Okres</h2>
-      <div id="okresy"></div>
+      <details id="okresBox">
+        <summary>Okres <span class="okcount" id="okCount"></span></summary>
+        <div id="okresy"></div>
+      </details>
     </div>
 
     <div class="box">
@@ -233,7 +241,13 @@ function buildOkresy(){
     oks.forEach(o=>box.insertAdjacentHTML('beforeend',
       `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
   });
-  box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
+  box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',()=>{updateOkCount();apply();}));
+  updateOkCount();
+}
+function updateOkCount(){
+  const all=document.querySelectorAll('.fok'), on=document.querySelectorAll('.fok:checked');
+  const el=document.getElementById('okCount');
+  if(el) el.textContent = on.length===all.length ? `— všetky (${all.length})` : `— ${on.length}/${all.length}`;
 }
 
 let placeMarker=null;
