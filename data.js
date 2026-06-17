@@ -1092,7 +1092,7 @@ const GASTRO_DATA = [
   "kat": "Velka restauracia / banketova sala",
   "firma": "RIVERBANK Restaurant",
   "ico": "",
-  "adresa": "Dvorakovo nabrezie",
+  "adresa": "Dvorakovo nabrezie 6",
   "mesto": "Bratislava-Stare Mesto",
   "okres": "Bratislava",
   "velkost": "fine-dining pri Dunaji",
@@ -1101,8 +1101,8 @@ const GASTRO_DATA = [
   "web": "riverbank.sk",
   "zona": "Z1",
   "pozn": "pri Grand Hotel River Park",
-  "lat": 48.1437502,
-  "lon": 17.0755555
+  "lat": 48.1414165,
+  "lon": 17.0903098
  },
  {
   "kraj": "BA",

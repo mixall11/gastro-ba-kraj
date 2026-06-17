@@ -835,7 +835,7 @@
   <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z1">
     <firma>RIVERBANK Restaurant</firma>
     <ico></ico>
-    <adresa>Dvorakovo nabrezie</adresa>
+    <adresa>Dvorakovo nabrezie 6</adresa>
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava</okres>
     <velkost>fine-dining pri Dunaji</velkost>
@@ -843,7 +843,7 @@
     <email></email>
     <web>riverbank.sk</web>
     <poznamka>pri Grand Hotel River Park</poznamka>
-    <gps lat="48.1437502" lon="17.0755555"/>
+    <gps lat="48.1414165" lon="17.0903098"/>
   </prevadzka>
   <prevadzka kategoria="Velka restauracia / banketova sala" zona="Z8">
     <firma>Hotel Nostalgia</firma>
