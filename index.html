@@ -52,15 +52,6 @@
     <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
 
     <div class="box">
-      <h2>Kraj</h2>
-      <div class="seg" id="kraje">
-        <button data-k="BA">BA kraj</button>
-        <button data-k="TT">TT kraj</button>
-        <button data-k="ALL" class="on">Oba</button>
-      </div>
-    </div>
-
-    <div class="box">
       <h2>Hľadať</h2>
       <input id="search" type="text" placeholder="názov, mesto, ulica…" autocomplete="off">
     </div>
@@ -111,11 +102,15 @@ const LABEL={
 const STARTS={
   BA:{lat:48.118,lon:17.107,name:'Bratislava-Petržalka'},
   TT:{lat:48.3774,lon:17.5877,name:'Trnava — centrum'}};
-const VIEWS={BA:{c:[48.16,17.12],z:11}, TT:{c:[48.45,17.55],z:9}};
 const OSRM_MAX=99; // OSRM trip zvladne max 100 bodov vratane startu
 
-let currentKraj='ALL';
-function startKraj(){return currentKraj==='TT'?'TT':'BA';}
+// start objazdu sa odvodi od viditelnych bodov (vacsina TT -> Trnava, inak Petrzalka)
+function startKraj(){
+  const v=visibleData();
+  if(!v.length) return 'BA';
+  let tt=0; v.forEach(d=>{if(d.kraj==='TT')tt++;});
+  return tt*2>v.length?'TT':'BA';
+}
 function curStart(){return STARTS[startKraj()];}
 
 // --- vrstvy: mapa + letecky rezim ---
@@ -166,7 +161,7 @@ const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 // --- okresne filtre (podla kraja) ---
 function buildOkresy(){
   const box=document.getElementById('okresy'); box.innerHTML='';
-  const oks=[...new Set(GASTRO_DATA.filter(d=>currentKraj==='ALL'||d.kraj===currentKraj).map(d=>d.okres))].sort();
+  const oks=[...new Set(GASTRO_DATA.map(d=>d.okres))].sort();
   oks.forEach(o=>box.insertAdjacentHTML('beforeend',
     `<label class="row"><input type="checkbox" class="fok" value="${o}" checked> ${o}</label>`));
   box.querySelectorAll('.fok').forEach(c=>c.addEventListener('change',apply));
@@ -241,33 +236,24 @@ function apply(){
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit=(currentKraj==='ALL'||d.kraj===currentKraj)&&kats.includes(d.kat)&&oks.includes(d.okres)
+    const hit=kats.includes(d.kat)&&oks.includes(d.okres)
       &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
   });
   document.getElementById('count').textContent=n;
+  const s=curStart();
+  startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
   drawRoute();
 }
 
-function setKraj(k){
-  currentKraj=k;
-  document.querySelectorAll('#kraje button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
-  const s=curStart();
-  startMarker.setLatLng([s.lat,s.lon]).setPopupContent(`<b>🚩 Štart objazdu</b><br>${s.name}`);
-  buildOkresy();
-  apply();
-  if(k==='ALL') map.fitBounds(allBounds.pad(0.05));
-  else { const v=VIEWS[k]; map.setView(v.c,v.z); }
-}
-
-document.querySelectorAll('#kraje button').forEach(b=>b.addEventListener('click',()=>setKraj(b.dataset.k)));
 document.querySelectorAll('.fkat').forEach(c=>c.addEventListener('change',apply));
 document.getElementById('search').addEventListener('input',apply);
 routeChk.addEventListener('change',drawRoute);
 
 buildOkresy();
-setKraj('ALL');
+apply();
+map.fitBounds(allBounds.pad(0.05));
 </script>
 </body>
 </html>
