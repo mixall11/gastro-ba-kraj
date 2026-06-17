@@ -53,7 +53,23 @@
   .pop-nav{display:inline-block;margin-top:7px;background:#0ea5e9;color:#fff!important;padding:6px 10px;border-radius:6px;font-weight:600}
   footer{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.5}
   footer a{color:#38bdf8;text-decoration:none}
-  @media(max-width:720px){#app{flex-direction:column}#sidebar{width:100%;max-height:48vh}}
+  /* stav cieľa */
+  .stc{margin-left:auto;color:#7dd3fc;font-weight:700;font-size:12px}
+  .pop-status-lbl{font-size:11px;color:#64748b;margin:8px 0 4px;text-transform:uppercase;letter-spacing:.04em}
+  .pop-status{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:4px}
+  .pop-status button{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid #cbd5e1;background:#fff;color:#334155;cursor:pointer;font-weight:600}
+  .pop-status button.on{color:#fff;border-color:transparent}
+  .stExp{display:flex;gap:6px;margin-top:8px}
+  .stExp button{flex:1;padding:8px 6px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:12px;font-weight:600;cursor:pointer}
+  .stExp button:hover{border-color:#38bdf8}
+  #mapToggle{display:none}
+  @media(max-width:720px){
+    #app{flex-direction:column}
+    #sidebar{width:100%;max-height:48vh}
+    #mapToggle{display:inline-flex;align-items:center;gap:6px;position:fixed;top:8px;right:8px;z-index:1200;background:#0ea5e9;color:#fff;border:0;border-radius:9px;padding:9px 13px;font-size:13px;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.45);cursor:pointer}
+    #app.panel-hidden #sidebar{display:none}
+    #app.panel-hidden{height:100vh}
+  }
 </style>
 </head>
 <body>
@@ -84,6 +100,21 @@
       <label class="row"><input type="checkbox" class="fkat" value="Velka restauracia / banketova sala" checked><span class="dot" style="background:var(--res)"></span> Veľké reštaurácie / sály</label>
       <label class="row"><input type="checkbox" class="fkat" value="Restauracna siet (3+ prevadzok)" checked><span class="dot" style="background:var(--sie)"></span> Reštauračné siete (3+)</label>
       <label class="row"><input type="checkbox" class="fkat" value="Statne firmy a urady" checked><span class="dot" style="background:var(--sta)"></span> Štátne firmy a úrady</label>
+    </div>
+
+    <div class="box">
+      <h2>Stav cieľa (obvolávanie)</h2>
+      <label class="row"><input type="checkbox" class="fst" value="wait" checked><span class="dot" style="background:#94a3b8"></span> ⚪ Čaká <span class="stc" data-s="wait"></span></label>
+      <label class="row"><input type="checkbox" class="fst" value="visited" checked><span class="dot" style="background:#eab308"></span> 🟡 Navštívené <span class="stc" data-s="visited"></span></label>
+      <label class="row"><input type="checkbox" class="fst" value="success" checked><span class="dot" style="background:#16a34a"></span> 🟢 Úspech <span class="stc" data-s="success"></span></label>
+      <label class="row"><input type="checkbox" class="fst" value="fail" checked><span class="dot" style="background:#dc2626"></span> 🔴 Neúspech <span class="stc" data-s="fail"></span></label>
+      <label class="row"><input type="checkbox" class="fst" value="done" checked><span class="dot" style="background:#0ea5e9"></span> 🔵 Vybavené <span class="stc" data-s="done"></span></label>
+      <div class="stExp">
+        <button id="expStatus" title="Stiahnuť stavy ako zálohu">⬇ Export stavov</button>
+        <button id="impStatus" title="Načítať stavy zo zálohy">⬆ Import</button>
+      </div>
+      <input type="file" id="impFile" accept="application/json" hidden>
+      <div class="sub" style="margin:6px 0 0;font-size:11px">Stavy sú uložené v tomto prehliadači. Export = záloha / prenos na iné zariadenie.</div>
     </div>
 
     <div class="box">
@@ -146,6 +177,7 @@
     </footer>
   </div>
   <div id="map"></div>
+  <button id="mapToggle" aria-label="Celá mapa">🗺️ Celá mapa</button>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -160,6 +192,28 @@ const LABEL={
   'Catering dodavatel':'Catering / firemné stravovanie','Vyvaren / catering kuchyna':'Vývareň / catering kuchyňa',
   'Tackaren / zavodna jedalen':'Táckáreň / závodná jedáleň','Velka restauracia / banketova sala':'Veľká reštaurácia / sála',
   'Restauracna siet (3+ prevadzok)':'Reštauračná sieť (3+)','Statne firmy a urady':'Štátne firmy a úrady'};
+// --- STAV CIEĽA (per bod, localStorage) ---
+const STATUS={
+  wait:   {label:'Čaká',       color:'#94a3b8', emoji:'⚪'},
+  visited:{label:'Navštívené', color:'#eab308', emoji:'🟡'},
+  success:{label:'Úspech',     color:'#16a34a', emoji:'🟢'},
+  fail:   {label:'Neúspech',   color:'#dc2626', emoji:'🔴'},
+  done:   {label:'Vybavené',   color:'#0ea5e9', emoji:'🔵'},
+};
+const STATUS_ORDER=['wait','visited','success','fail','done'];
+const STATUS_STORE='gastro_status_v1';
+let statusMap={};
+try{ statusMap=JSON.parse(localStorage.getItem(STATUS_STORE)||'{}')||{}; }catch(e){ statusMap={}; }
+// stabilný kľúč bodu — IČO ak je, inak firma|mesto|adresa (prežije regeneráciu data.js)
+function bodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
+function getStatus(d){ return statusMap[bodKey(d)]||'wait'; }
+function saveStatus(){ try{ localStorage.setItem(STATUS_STORE, JSON.stringify(statusMap)); }catch(e){} }
+function setStatusFor(d,s){ const k=bodKey(d); if(s==='wait') delete statusMap[k]; else statusMap[k]=s; saveStatus(); }
+function applyStatusStyle(m){
+  const st=getStatus(m._d);
+  if(st==='wait'){ m.setStyle({color:'#fff',weight:2}); m.setRadius(7); }
+  else { m.setStyle({color:STATUS[st].color,weight:3.5}); m.setRadius(8); }
+}
 const STARTS={
   WGO:{lat:48.11501,lon:17.08823,name:'WGO s.r.o. — Kopčianska 90/b',q:'Kopčianska 90B, Bratislava'},
   WOL:{lat:48.1244,lon:17.1098,name:'Wolkrova 23',q:'Wolkrova 23, Bratislava'},
@@ -198,7 +252,7 @@ function jitter(la,lo){
   return [la+r*Math.cos(ang), lo+r*Math.sin(ang)];
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
-function popup(d){
+function popup(d,idx){
   let h=`<div class="pop-name">${esc(d.firma)}</div>`;
   h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]} · ${d.kraj}</span>`;
   h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
@@ -208,6 +262,10 @@ function popup(d){
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
   if(d.ico)   h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
   if(d.pozn)  h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
+  const cur=getStatus(d);
+  h+=`<div class="pop-status-lbl">Stav</div><div class="pop-status">`;
+  h+=STATUS_ORDER.map(s=>`<button class="${s===cur?'on':''}"${s===cur?` style="background:${STATUS[s].color}"`:''} onclick="setBodStatus(${idx},'${s}')">${STATUS[s].emoji} ${STATUS[s].label}</button>`).join('');
+  h+=`</div>`;
   h+=`<a class="pop-nav" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(gmapsQ(d))}&travelmode=driving" target="_blank" rel="noopener">🧭 Navigovať sem</a>`;
   return h;
 }
@@ -216,9 +274,35 @@ const markers=[];
 GASTRO_DATA.forEach(d=>{
   if(d.lat==null) return;
   const [la,lo]=jitter(d.lat,d.lon);
-  const m=L.circleMarker([la,lo],{radius:7,color:'#fff',weight:2,fillColor:COLORS[d.kat]||'#64748b',fillOpacity:.95}).bindPopup(popup(d));
-  m._d=d; markers.push(m); m.addTo(map);
+  const idx=markers.length;
+  const m=L.circleMarker([la,lo],{radius:7,color:'#fff',weight:2,fillColor:COLORS[d.kat]||'#64748b',fillOpacity:.95}).bindPopup(()=>popup(d,idx));
+  m._d=d; m._i=idx; markers.push(m); m.addTo(map); applyStatusStyle(m);
 });
+function setBodStatus(idx,s){
+  const m=markers[idx]; if(!m) return;
+  setStatusFor(m._d,s);
+  applyStatusStyle(m);
+  m.setPopupContent(popup(m._d,idx));
+  updateStatusCounts();
+  apply();
+}
+window.setBodStatus=setBodStatus;
+function updateStatusCounts(){
+  const c={wait:0,visited:0,success:0,fail:0,done:0};
+  markers.forEach(m=>c[getStatus(m._d)]++);
+  document.querySelectorAll('.stc').forEach(el=>{el.textContent=c[el.dataset.s]||0;});
+}
+function exportStatus(){
+  const blob=new Blob([JSON.stringify(statusMap,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='gastro-stavy.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);
+}
+function importStatus(e){
+  const f=e.target.files&&e.target.files[0]; if(!f){return;}
+  const r=new FileReader();
+  r.onload=()=>{ try{ const o=JSON.parse(r.result); if(o&&typeof o==='object'){ statusMap=Object.assign(statusMap,o); saveStatus(); markers.forEach(applyStatusStyle); updateStatusCounts(); apply(); alert('Stavy načítané zo zálohy.'); } else alert('Neplatný formát.'); }catch(err){ alert('Neplatný JSON súbor.'); } e.target.value=''; };
+  r.readAsText(f);
+}
 document.getElementById('total').textContent=markers.length;
 const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 
@@ -338,11 +422,12 @@ function openGmaps(){
 function apply(){
   const kats=[...document.querySelectorAll('.fkat:checked')].map(c=>c.value);
   const oks=[...document.querySelectorAll('.fok:checked')].map(c=>c.value);
+  const sts=[...document.querySelectorAll('.fst:checked')].map(c=>c.value);
   const q=document.getElementById('search').value.trim().toLowerCase();
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit=kats.includes(d.kat)&&oks.includes(d.okres)
+    const hit=kats.includes(d.kat)&&oks.includes(d.okres)&&sts.includes(getStatus(d))
       &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
@@ -354,6 +439,10 @@ function apply(){
 }
 
 document.querySelectorAll('.fkat').forEach(c=>c.addEventListener('change',apply));
+document.querySelectorAll('.fst').forEach(c=>c.addEventListener('change',apply));
+document.getElementById('expStatus').addEventListener('click',exportStatus);
+document.getElementById('impStatus').addEventListener('click',()=>document.getElementById('impFile').click());
+document.getElementById('impFile').addEventListener('change',importStatus);
 document.getElementById('search').addEventListener('input',apply);
 routeChk.addEventListener('change',drawRoute);
 document.getElementById('startSel').addEventListener('change',e=>{
@@ -372,7 +461,15 @@ document.getElementById('krajSel').addEventListener('change',()=>{
 document.getElementById('placeGo').addEventListener('click',searchPlace);
 document.getElementById('placeSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();searchPlace();}});
 
+document.getElementById('mapToggle').addEventListener('click',()=>{
+  const app=document.getElementById('app');
+  const hidden=app.classList.toggle('panel-hidden');
+  document.getElementById('mapToggle').textContent = hidden ? '☰ Filtre' : '🗺️ Celá mapa';
+  setTimeout(()=>map.invalidateSize(),210);
+});
+
 buildOkresy();
+updateStatusCounts();
 apply();
 map.fitBounds(allBounds.pad(0.05));
 </script>
