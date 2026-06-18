@@ -128,10 +128,10 @@
     <div class="box">
       <h2>Stav cieľa (obvolávanie)</h2>
       <label class="row"><input type="checkbox" class="fst" value="wait" checked><span class="dot" style="background:#94a3b8"></span> ⚪ Čaká <span class="stc" data-s="wait"></span></label>
+      <label class="row"><input type="checkbox" class="fst" value="proc" checked><span class="dot" style="background:#0ea5e9"></span> 🔵 V procese <span class="stc" data-s="proc"></span></label>
       <label class="row"><input type="checkbox" class="fst" value="visited" checked><span class="dot" style="background:#eab308"></span> 🟡 Navštívené <span class="stc" data-s="visited"></span></label>
       <label class="row"><input type="checkbox" class="fst" value="success" checked><span class="dot" style="background:#16a34a"></span> 🟢 Úspech <span class="stc" data-s="success"></span></label>
       <label class="row"><input type="checkbox" class="fst" value="fail" checked><span class="dot" style="background:#dc2626"></span> 🔴 Neúspech <span class="stc" data-s="fail"></span></label>
-      <label class="row"><input type="checkbox" class="fst" value="done" checked><span class="dot" style="background:#0ea5e9"></span> 🔵 Vybavené <span class="stc" data-s="done"></span></label>
       <div class="stExp">
         <button id="expStatus" title="Stiahnuť stavy ako zálohu">⬇ Export stavov</button>
         <button id="impStatus" title="Načítať stavy zo zálohy">⬆ Import</button>
@@ -252,9 +252,9 @@ const STATUS={
   visited:{label:'Navštívené', color:'#eab308', emoji:'🟡'},
   success:{label:'Úspech',     color:'#16a34a', emoji:'🟢'},
   fail:   {label:'Neúspech',   color:'#dc2626', emoji:'🔴'},
-  done:   {label:'Vybavené',   color:'#0ea5e9', emoji:'🔵'},
+  proc:   {label:'V procese',  color:'#0ea5e9', emoji:'🔵'},
 };
-const STATUS_ORDER=['wait','visited','success','fail','done'];
+const STATUS_ORDER=['wait','proc','visited','success','fail'];
 const STATUS_STORE='gastro_status_v1';
 let statusMap={};
 try{ statusMap=JSON.parse(localStorage.getItem(STATUS_STORE)||'{}')||{}; }catch(e){ statusMap={}; }
@@ -354,7 +354,7 @@ function setBodStatus(idx,s){
 }
 window.setBodStatus=setBodStatus;
 function updateStatusCounts(){
-  const c={wait:0,visited:0,success:0,fail:0,done:0};
+  const c={wait:0,proc:0,visited:0,success:0,fail:0};
   markers.forEach(m=>c[getStatus(m._d)]++);
   document.querySelectorAll('.stc').forEach(el=>{el.textContent=c[el.dataset.s]||0;});
 }
