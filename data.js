@@ -6,16 +6,16 @@ const GASTRO_DATA = [
   "ico": "53455339",
   "adresa": "Karpatske nam. 10A",
   "mesto": "Bratislava-Raca",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "trzby 169 tis EUR (2025), 3-4 zam",
   "tel": "+421 908 368 968",
   "email": "event@menju.sk",
   "web": "menju.sk",
   "zona": "Z2",
   "pozn": "rozvoz do officu + teambuilding; prevadzka Tomasikova 17",
+  "konatel": "Ing. Tomáš Janvars",
   "lat": 48.2161175,
-  "lon": 17.1654827,
-  "konatel": "Ing. Tomáš Janvars"
+  "lon": 17.1654827
  },
  {
   "kraj": "BA",
@@ -24,16 +24,16 @@ const GASTRO_DATA = [
   "ico": "47981300",
   "adresa": "Bojnicka 10",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "trzby 652 tis EUR (2024), 5-9 zam",
   "tel": "0948 083 707",
   "email": "mirka.habudova@gurmanservis.sk",
   "web": "macomenu.sk",
   "zona": "Z2",
   "pozn": "denny rozvoz obedov od 7,50 EUR, dovoz zdarma, min 2 ks",
+  "konatel": "Miroslava Habudová, Milan Habuda",
   "lat": 48.1794915,
-  "lon": 17.1664571,
-  "konatel": "Miroslava Habudová, Milan Habuda"
+  "lon": 17.1664571
  },
  {
   "kraj": "BA",
@@ -42,16 +42,16 @@ const GASTRO_DATA = [
   "ico": "52941051",
   "adresa": "Latoricka 4",
   "mesto": "Bratislava-Podunajske Biskupice",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "trzby ~1,0 mil EUR (2025), 25-49 zam",
   "tel": "0902 985 500",
   "email": "office@mannacatering.sk",
   "web": "mannacatering.sk",
   "zona": "Z5",
   "pozn": "SILNY CIEL; korporatne eventy (Accenture, IBM, Microsoft)",
+  "konatel": "Szilárd Cséfalvay",
   "lat": 48.1345931,
-  "lon": 17.2114238,
-  "konatel": "Szilárd Cséfalvay"
+  "lon": 17.2114238
  },
  {
   "kraj": "BA",
@@ -60,16 +60,16 @@ const GASTRO_DATA = [
   "ico": "44745982",
   "adresa": "Cernysevskeho 10",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "trzby 1,3 mil EUR (2025), 5-9 zam",
-  "tel": "",
-  "email": "",
+  "tel": "421940637990",
+  "email": "info@123catering.sk",
   "web": "123catering.sk",
   "zona": "Z3",
   "pozn": "event catering; kontakt cez web/ORSR",
+  "konatel": "Ing. Monika Dubjelová, Ing. Jozef Dubjel, Roman Střítecký",
   "lat": 48.1281468,
-  "lon": 17.1095441,
-  "konatel": "Ing. Monika Dubjelová, Ing. Jozef Dubjel, Roman Střítecký"
+  "lon": 17.1095441
  },
  {
   "kraj": "BA",
@@ -78,16 +78,16 @@ const GASTRO_DATA = [
   "ico": "47111925",
   "adresa": "Laliova 2792/28",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "trzby 1,43 mil EUR (2024), 10-19 zam",
   "tel": "+421 910 259 945",
   "email": "manager@amisgroup.sk",
   "web": "amisgroup.sk",
   "zona": "Z2",
   "pozn": "zavodne stravovanie + sala Senec 250 os",
+  "konatel": "Mgr. Peter Illy",
   "lat": 48.144877,
-  "lon": 17.1749469,
-  "konatel": "Mgr. Peter Illy"
+  "lon": 17.1749469
  },
  {
   "kraj": "BA",
@@ -96,16 +96,16 @@ const GASTRO_DATA = [
   "ico": "43814336",
   "adresa": "Kozia 11",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "trzby 1,53 mil EUR (2024), 10-19 zam",
   "tel": "0948 611 544",
   "email": "info@soupa.sk",
   "web": "soupa.sk",
   "zona": "Z1",
   "pozn": "bufety, ranajky, priestor Kulturama do 200 os",
+  "konatel": "Slavko Felix",
   "lat": 48.1463945,
-  "lon": 17.1029415,
-  "konatel": "Slavko Felix"
+  "lon": 17.1029415
  },
  {
   "kraj": "BA",
@@ -114,16 +114,16 @@ const GASTRO_DATA = [
   "ico": "36701661",
   "adresa": "Bajkalska 29/E",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "trzby 3,12 mil EUR (2024), 25-49 zam",
   "tel": "+421 903 456 662",
-  "email": "",
+  "email": "roxy@roxycatering.sk",
   "web": "roxycatering.sk",
   "zona": "Z2",
   "pozn": "recepcie, vecierky, plesy",
+  "konatel": "Ján Benetin, Peter Ondruššek",
   "lat": 48.1513206,
-  "lon": 17.150143,
-  "konatel": "Ján Benetin, Peter Ondruššek"
+  "lon": 17.150143
  },
  {
   "kraj": "BA",
@@ -139,9 +139,9 @@ const GASTRO_DATA = [
   "web": "papagrill.sk",
   "zona": "Z6",
   "pozn": "SILNY CIEL; kontraktove firemne jedalne, kuchyna 600 m2; event +421 911 580 480",
+  "konatel": "Adam Pernecký, Adrián Pernecký",
   "lat": 48.4213126,
-  "lon": 17.0373725,
-  "konatel": "Adam Pernecký, Adrián Pernecký"
+  "lon": 17.0373725
  },
  {
   "kraj": "BA",
@@ -150,16 +150,16 @@ const GASTRO_DATA = [
   "ico": "46323279",
   "adresa": "Sliacska 3269/1E",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "trzby 8,33 mil EUR (2024), 100-149 zam",
   "tel": "+421 948 929 323",
   "email": "sekretariat@citygastro.sk",
   "web": "citygastro.sk",
   "zona": "Z2",
   "pozn": "zavodne stravovanie + catering, ISO 9001/22000; prevadzkuje jedalen EUBA",
+  "konatel": "Ing. Marian Lalik, Silvia Zaičková, Ing. Martin Borguľa, Ing. Michal Borguľa",
   "lat": 48.1714307,
-  "lon": 17.1245613,
-  "konatel": "Ing. Marian Lalik, Silvia Zaičková, Ing. Martin Borguľa, Ing. Michal Borguľa"
+  "lon": 17.1245613
  },
  {
   "kraj": "BA",
@@ -168,16 +168,16 @@ const GASTRO_DATA = [
   "ico": "35882841",
   "adresa": "Hviezdoslavovo nam. 20",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "trzby 8,52 mil EUR (2024), 150-199 zam",
   "tel": "",
   "email": "info@bencikculinary.sk",
   "web": "bencikculinary.sk",
   "zona": "Z1",
   "pozn": "premiove jedalne v BC (Obederia, La Cantina)",
+  "konatel": "Pavol Benčík",
   "lat": 48.1421185,
-  "lon": 17.1078921,
-  "konatel": "Pavol Benčík"
+  "lon": 17.1078921
  },
  {
   "kraj": "BA",
@@ -186,16 +186,16 @@ const GASTRO_DATA = [
   "ico": "35849592",
   "adresa": "Svatoplukova 2A",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "trzby 28,15 mil EUR (2024), 250-499 zam",
   "tel": "+421 2 3300 2808",
   "email": "recepcia@medusagroup.sk",
   "web": "medusarestaurants.sk",
   "zona": "Z2",
   "pozn": "najvacsia gastro skupina SK; event catering pre tisice; prevadzka Pradiareni 1900",
+  "konatel": "Ing. Peter Štecko, Bronislava Štecková, Tomáš Mrva",
   "lat": 48.1484987,
-  "lon": 17.1310906,
-  "konatel": "Ing. Peter Štecko, Bronislava Štecková, Tomáš Mrva"
+  "lon": 17.1310906
  },
  {
   "kraj": "BA",
@@ -204,16 +204,16 @@ const GASTRO_DATA = [
   "ico": "doplnit ORSR",
   "adresa": "doplnit",
   "mesto": "Bratislava",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "nezverejnene",
   "tel": "0908 898 677",
   "email": "skgastro@skgastro.sk",
   "web": "skgastro.sk",
   "zona": "Z?",
   "pozn": "zavodne stravovanie; over ICO + sidlo",
+  "konatel": "",
   "lat": 48.1516988,
-  "lon": 17.1093063,
-  "konatel": ""
+  "lon": 17.1093063
  },
  {
   "kraj": "BA",
@@ -222,16 +222,16 @@ const GASTRO_DATA = [
   "ico": "doplnit ORSR",
   "adresa": "Galvaniho 12/B",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "nezverejnene",
   "tel": "0910 166 999",
   "email": "catering@cateringbratislava.sk",
   "web": "cateringbratislava.sk",
   "zona": "Z2",
   "pozn": "eventy + pozicovna inventara; over ICO",
+  "konatel": "",
   "lat": 48.1738535,
-  "lon": 17.176006,
-  "konatel": ""
+  "lon": 17.176006
  },
  {
   "kraj": "BA",
@@ -247,9 +247,9 @@ const GASTRO_DATA = [
   "web": "food-time.sk",
   "zona": "Z6",
   "pozn": "najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji",
-  "lat": 48.3346371,
-  "lon": 17.0444471,
-  "konatel": "Michal Kintler, Tomáš Kotras"
+  "konatel": "Michal Kintler, Tomáš Kotras",
+  "lat": 49.2025305,
+  "lon": 18.731419
  },
  {
   "kraj": "BA",
@@ -258,16 +258,16 @@ const GASTRO_DATA = [
   "ico": "35728434",
   "adresa": "Vajnorska 100/B",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "7,1 mil EUR, 150-199 zam",
-  "tel": "",
-  "email": "",
+  "tel": "421907161705",
+  "email": "obchodsk@gthcatering.cz",
   "web": "gthcatering.sk",
   "zona": "Z2",
   "pozn": "sidlo sa stahuje do Nitry od 1.6.2026",
+  "konatel": "Daria Choděrová, Tomáš Hubka",
   "lat": 48.1698902,
-  "lon": 17.140156,
-  "konatel": "Daria Choděrová, Tomáš Hubka"
+  "lon": 17.140156
  },
  {
   "kraj": "BA",
@@ -276,16 +276,16 @@ const GASTRO_DATA = [
   "ico": "46844341",
   "adresa": "Krokusova 3 (kanc. Technopol, Kutlikova 17)",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "3,4 mil EUR; jedalen 850 ludi/den",
   "tel": "+421 915 763 073",
   "email": "bankovich@sharkam.eu",
   "web": "sharkam.eu",
   "zona": "Z3",
   "pozn": "jedalen Technopol + protokolarny catering",
+  "konatel": "Andrej Bruna, Pavol Bankovich",
   "lat": 48.1352541,
-  "lon": 17.1152978,
-  "konatel": "Andrej Bruna, Pavol Bankovich"
+  "lon": 17.1152978
  },
  {
   "kraj": "BA",
@@ -294,16 +294,16 @@ const GASTRO_DATA = [
   "ico": "35870362",
   "adresa": "Vajnorska 100/B",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "1,2 mil EUR; ISO/IFS/BRC",
   "tel": "+421 911 713 000",
   "email": "javorkova@rcslovakia.sk",
   "web": "rcslovakia.sk",
   "zona": "Z2",
   "pozn": "eventy, kongresy",
+  "konatel": "Marián Zubo",
   "lat": 48.1698902,
-  "lon": 17.140156,
-  "konatel": "Marián Zubo"
+  "lon": 17.140156
  },
  {
   "kraj": "BA",
@@ -319,9 +319,9 @@ const GASTRO_DATA = [
   "web": "timeoutcatering.sk",
   "zona": "Z8",
   "pozn": "pokryva BA + Senec + Pezinok",
+  "konatel": "Tomáš Gajar, Pavol Hideghéty",
   "lat": 48.2086452,
-  "lon": 17.4018888,
-  "konatel": "Tomáš Gajar, Pavol Hideghéty"
+  "lon": 17.4018888
  },
  {
   "kraj": "BA",
@@ -330,16 +330,16 @@ const GASTRO_DATA = [
   "ico": "44013141",
   "adresa": "Kadnarova 99",
   "mesto": "Bratislava-Raca",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "skolske + firemne jedalne",
   "tel": "+421 904 884 427",
   "email": "objednavky@pinostravovanie.sk",
   "web": "pinostravovanie.sk",
   "zona": "Z2",
   "pozn": "17+ rokov",
+  "konatel": "Tomáš Mészároš, Oliver Soboňa, Jozef Volárik",
   "lat": 48.2053369,
-  "lon": 17.1465294,
-  "konatel": "Tomáš Mészároš, Oliver Soboňa, Jozef Volárik"
+  "lon": 17.1465294
  },
  {
   "kraj": "BA",
@@ -348,16 +348,16 @@ const GASTRO_DATA = [
   "ico": "32212721",
   "adresa": "Rusovska cesta 3903/50",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "vlastna kuchyna od 1994, 10-19 zam",
   "tel": "0904 630 487",
   "email": "info@oldeji.sk",
   "web": "oldeji.sk",
   "zona": "Z3",
   "pozn": "rozvoz v termonadobach + prevadzka jedalni",
+  "konatel": "",
   "lat": 48.1235338,
-  "lon": 17.1089883,
-  "konatel": ""
+  "lon": 17.1089883
  },
  {
   "kraj": "BA",
@@ -366,16 +366,16 @@ const GASTRO_DATA = [
   "ico": "55167071",
   "adresa": "Zilinska 7028/1",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "0,62 mil EUR (2024), 25-49 zam",
   "tel": "+421 903 995 595",
   "email": "info@alfafood.sk",
   "web": "alfafood.sk",
   "zona": "Z1",
   "pozn": "zavodne stravovanie",
+  "konatel": "Filip Minárik, Tibor Čapák",
   "lat": 48.1545738,
-  "lon": 17.1112842,
-  "konatel": "Filip Minárik, Tibor Čapák"
+  "lon": 17.1112842
  },
  {
   "kraj": "BA",
@@ -384,16 +384,16 @@ const GASTRO_DATA = [
   "ico": "36739499",
   "adresa": "Padlych hrdinov 24",
   "mesto": "Bratislava-Podunajske Biskupice",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "svadby, eventy, firmy",
   "tel": "0948 080 180",
   "email": "info@happy-day.sk",
   "web": "happydaycatering.sk",
   "zona": "Z5",
   "pozn": "16+ rokov",
+  "konatel": "Adrian Pastucha",
   "lat": 48.1237261,
-  "lon": 17.2123351,
-  "konatel": "Adrian Pastucha"
+  "lon": 17.2123351
  },
  {
   "kraj": "BA",
@@ -402,16 +402,16 @@ const GASTRO_DATA = [
   "ico": "51725053",
   "adresa": "Popovova 8 (kuchyna Dr. V. Clementisa 5)",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "rozvoz obedov",
   "tel": "0905 600 000",
-  "email": "",
+  "email": "oldbrickpubsk@gmail.com",
   "web": "jedlobratislava.sk",
   "zona": "Z2",
   "pozn": "rozvoz po celej BA vratane noci",
+  "konatel": "Boris Križanovič",
   "lat": 48.1608571,
-  "lon": 17.1477295,
-  "konatel": "Boris Križanovič"
+  "lon": 17.1477295
  },
  {
   "kraj": "BA",
@@ -420,13 +420,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Stare Grunty, blok AD-U, Mlynska dolina",
   "mesto": "Bratislava-Karlova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "450 miest, 4000+ jedal/den (areal Mlyny az 6000)",
-  "tel": "",
-  "email": "",
+  "tel": "903635457",
+  "email": "info@eatandmeet.sk",
   "web": "eatandmeet.sk",
   "zona": "Z4",
   "pozn": "univerzitna; vlastna prevadzka UK",
+  "konatel": "",
   "lat": 48.1641859,
   "lon": 17.0678683
  },
@@ -437,13 +438,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Mlynska dolina",
   "mesto": "Bratislava-Karlova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "sucast arealu Mlyny (6000/den)",
   "tel": "",
   "email": "",
   "web": "mlyny.uniba.sk",
   "zona": "Z4",
   "pozn": "univerzitna jedalen",
+  "konatel": "",
   "lat": 48.1548435,
   "lon": 17.06991
  },
@@ -454,13 +456,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dolnozemska cesta 1",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "500 miest / 1500 pri recepcii",
   "tel": "+421 948 929 323",
   "email": "sekretariat@citygastro.sk",
   "web": "citygastro.sk",
   "zona": "Z3",
   "pozn": "prevadzkuje City Gastro",
+  "konatel": "",
   "lat": 48.1275493,
   "lon": 17.1323468
  },
@@ -471,13 +474,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Racianska 103",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "136 miest + siet 5-7 jedalni STU",
-  "tel": "+421 918 600 162",
-  "email": "",
+  "tel": "421917470507",
+  "email": "public@stuba.sk",
   "web": "stuba.sk",
   "zona": "Z2",
   "pozn": "UZ SDaJ STU",
+  "konatel": "",
   "lat": 48.177312,
   "lon": 17.1261017
  },
@@ -488,13 +492,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Ruzinovska 6",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": ">100k hospitalizacii/rok",
-  "tel": "02 48234111",
+  "tel": "+421 2 48234 111",
   "email": "",
   "web": "unb.sk",
   "zona": "Z2",
   "pozn": "vlastna OLVaS; vstup cez verejne obstaravanie",
+  "konatel": "",
   "lat": 48.1552301,
   "lon": 17.1519477
  },
@@ -505,13 +510,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Limbova 5",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "velka nemocnica",
   "tel": "",
   "email": "",
   "web": "unb.sk",
   "zona": "Z2",
   "pozn": "vlastna kuchyna, tacovy system",
+  "konatel": "",
   "lat": 48.1662606,
   "lon": 17.0863257
  },
@@ -522,13 +528,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Antolska 11",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "velka nemocnica",
   "tel": "",
   "email": "",
   "web": "unb.sk",
   "zona": "Z3",
   "pozn": "vlastna kuchyna",
+  "konatel": "",
   "lat": 48.1020874,
   "lon": 17.1183618
  },
@@ -539,13 +546,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Pod Krasnou horkou 1",
   "mesto": "Bratislava-Kramare",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "vlastna kuchyna",
   "tel": "",
   "email": "",
   "web": "nusch.sk",
   "zona": "Z2",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1696588,
   "lon": 17.0869479
  },
@@ -556,13 +564,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Klenova 1",
   "mesto": "Bratislava-Kramare",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "vlastna kuchyna, ~200+ lozok",
   "tel": "",
   "email": "",
   "web": "nou.sk",
   "zona": "Z2",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1718244,
   "lon": 17.0894784
  },
@@ -573,13 +582,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Satinskeho I. 1",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "vlastna OLVaS",
   "tel": "",
   "email": "",
   "web": "nsmas.sk",
   "zona": "Z1",
   "pozn": "vojensko-policajna univ. nemocnica",
+  "konatel": "",
   "lat": 48.1452492,
   "lon": 17.1175227
  },
@@ -590,13 +600,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Jana Jonasa 1",
   "mesto": "Bratislava-Devinska Nova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "NAJVACSI CIEL: ~11-13 tis. zamestnancov",
   "tel": "",
   "email": "facility/HR",
   "web": "volkswagen.sk",
   "zona": "Z4",
   "pozn": "operator stravovania NEOVERENY - priamy dopyt",
+  "konatel": "",
   "lat": 48.2350546,
   "lon": 16.9817538
  },
@@ -607,13 +618,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Vlcie hrdlo 1",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "velky priemyselny zavod",
   "tel": "",
   "email": "facility",
   "web": "slovnaft.sk",
   "zona": "Z5",
   "pozn": "operator neovereny",
+  "konatel": "",
   "lat": 48.1282386,
   "lon": 17.176661
  },
@@ -624,13 +636,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Racianska 44",
   "mesto": "Bratislava-Raca",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "~400 zamestnancov",
   "tel": "",
   "email": "",
   "web": "",
   "zona": "Z2",
   "pozn": "cokoladovna",
+  "konatel": "",
   "lat": 48.1932309,
   "lon": 17.1416428
  },
@@ -641,13 +654,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Hodzovo nam. 3",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "BC kantina",
   "tel": "",
   "email": "",
   "web": "bencikculinary.sk",
   "zona": "Z1",
   "pozn": "siet kantin v BC (Central, Apollo, Petrzalka)",
+  "konatel": "",
   "lat": 48.1484131,
   "lon": 17.1087896
  },
@@ -658,13 +672,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dubravska cesta 2",
   "mesto": "Bratislava-Karlova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "firemna kantina",
   "tel": "",
   "email": "",
   "web": "foodseason.sk",
   "zona": "Z4",
   "pozn": "bio suroviny, sous-vide",
+  "konatel": "",
   "lat": 48.1686969,
   "lon": 17.0753887
  },
@@ -675,13 +690,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dubravska cesta 2",
   "mesto": "Bratislava-Karlova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "firemna kantina",
   "tel": "",
   "email": "",
   "web": "",
   "zona": "Z4",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1686969,
   "lon": 17.0753887
  },
@@ -692,13 +708,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Pribinova 25",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "samoobsluzna kantina",
   "tel": "",
   "email": "",
   "web": "",
   "zona": "Z1",
   "pozn": "zona Eurovea/Twin City",
+  "konatel": "",
   "lat": 48.1411404,
   "lon": 17.1273381
  },
@@ -709,13 +726,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Hviezdoslavovo nam. 19",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "80 sed / 120 raut + terasa 50",
   "tel": "+421 903 123 134",
   "email": "rezervacie@zylinder.sk",
   "web": "zylinder.sk",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1419314,
   "lon": 17.1077327
  },
@@ -733,6 +751,7 @@ const GASTRO_DATA = [
   "web": "restauraciamatysak.sk",
   "zona": "Z7",
   "pozn": "svadby",
+  "konatel": "",
   "lat": 48.2883571,
   "lon": 17.2666299
  },
@@ -743,13 +762,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Drevena 8",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "~180 + terasa 25, salonik 35",
-  "tel": "",
+  "tel": "944512265",
   "email": "info@mestianskypivovar.sk",
   "web": "mestianskypivovar.sk",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1469194,
   "lon": 17.1081791
  },
@@ -762,11 +782,12 @@ const GASTRO_DATA = [
   "mesto": "Malacky",
   "okres": "Malacky",
   "velkost": "svadobna sala do 250, vlastna kuchyna",
-  "tel": "",
-  "email": "",
+  "tel": "910780790",
+  "email": "info@eventhall.sk",
   "web": "eventhall.sk",
   "zona": "Z6",
   "pozn": "kontakt cez web",
+  "konatel": "",
   "lat": 48.4325413,
   "lon": 17.0230915
  },
@@ -777,13 +798,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dunajska 21",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "~280 + terasa 300, salonik 60",
-  "tel": "0948 710 888",
+  "tel": "948710888",
   "email": "dunajska@mestianskypivovar.sk",
   "web": "mestianskypivovar.sk",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1459308,
   "lon": 17.1176901
  },
@@ -797,10 +819,11 @@ const GASTRO_DATA = [
   "okres": "Pezinok",
   "velkost": "Zoya Museum 200-400, restauracia 80",
   "tel": "+421 905 704 873",
-  "email": "",
+  "email": "martin.chovanec@elesko.sk",
   "web": "elesko.sk",
   "zona": "Z7",
   "pozn": "event manager Peter Toth",
+  "konatel": "",
   "lat": 48.3541412,
   "lon": 17.3219993
  },
@@ -811,13 +834,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Obchodna 62",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "~500 miest (11 miestnosti)",
   "tel": "+421 917 629 221",
   "email": "slovakpub@slovakpub.sk",
   "web": "slovakpub.sk",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1483346,
   "lon": 17.1124098
  },
@@ -828,13 +852,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Ambrusova 7",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "najvacsia sala do 600, 8-10 sal",
   "tel": "",
   "email": "nhgateone@nh-hotels.com",
   "web": "nh-hotels.com",
   "zona": "Z2",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1662442,
   "lon": 17.1774457
  },
@@ -845,13 +870,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Bajkalska 25/A",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "6 sal, do 600 hosti",
   "tel": "",
   "email": "",
   "web": "ihg.com",
   "zona": "Z2",
   "pozn": "event kontakt cez IHG",
+  "konatel": "",
   "lat": 48.1530346,
   "lon": 17.1488827
  },
@@ -862,13 +888,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Tyrsovo nabrezie",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "~600 (terasa 250, salonik 50)",
   "tel": "+421 948 418 934",
   "email": "dunajskypivovar@dunajskypivovar.sk",
   "web": "dunajskypivovar.sk",
   "zona": "Z3",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1363762,
   "lon": 17.1132834
  },
@@ -879,13 +906,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Radlinskeho 27",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "6 sal, 1500 m2, do 900 osob",
   "tel": "+421 948 660 459",
   "email": "marketing@hotelsaffron.sk",
   "web": "hotelsaffron.sk",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1523448,
   "lon": 17.117072
  },
@@ -896,13 +924,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Hviezdoslavovo nam. 3",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "do 1000 hosti",
   "tel": "+421 2 5939 0000",
   "email": "reservation.bratislava@radissonblu.com",
   "web": "radissonhotels.com",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1412124,
   "lon": 17.1085808
  },
@@ -920,6 +949,7 @@ const GASTRO_DATA = [
   "web": "hotelsenec.sk",
   "zona": "Z8",
   "pozn": "event Stela Kakasova",
+  "konatel": "",
   "lat": 48.2215028,
   "lon": 17.4005824
  },
@@ -930,13 +960,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Pribinova 12",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "ballroom do 400, standing do 1500",
   "tel": "",
   "email": "",
   "web": "marriott.com",
   "zona": "Z1",
   "pozn": "Eurovea; event cez Marriott MICE",
+  "konatel": "",
   "lat": 48.1403976,
   "lon": 17.1223178
  },
@@ -947,13 +978,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Rybne nam. 1",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "event 471 m2, do 400 delegatov",
-  "tel": "",
+  "tel": "+353 1 5138080",
   "email": "",
   "web": "radissonhotels.com",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1404872,
   "lon": 17.1050761
  },
@@ -964,13 +996,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Pilarikova 5",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "sala 173 m2, recepcia do 300",
   "tel": "+421 2 5923 6100",
   "email": "",
   "web": "falkensteiner.com",
   "zona": "Z1",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1460616,
   "lon": 17.1034683
  },
@@ -981,13 +1014,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dvorakovo nabrezie 6",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "banketove saly",
-  "tel": "",
+  "tel": "+421 2 3223 8222",
   "email": "",
   "web": "grandriverpark.sk",
   "zona": "Z1",
   "pozn": "event cez Marriott",
+  "konatel": "",
   "lat": 48.1414165,
   "lon": 17.0903098
  },
@@ -1005,6 +1039,7 @@ const GASTRO_DATA = [
   "web": "kolibasenec.sk",
   "zona": "Z8",
   "pozn": "",
+  "konatel": "",
   "lat": 48.2215028,
   "lon": 17.4005824
  },
@@ -1015,13 +1050,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Namestie SNP 25",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "multifunkcna hala, velke eventy",
   "tel": "+421 948 420 999",
   "email": "trznica@staratrznica.sk",
   "web": "staratrznica.sk",
   "zona": "Z1",
   "pozn": "catering externy",
+  "konatel": "",
   "lat": 48.1448115,
   "lon": 17.1112785
  },
@@ -1039,6 +1075,7 @@ const GASTRO_DATA = [
   "web": "zelenydvormalacky.sk",
   "zona": "Z6",
   "pozn": "",
+  "konatel": "",
   "lat": 48.425248,
   "lon": 17.0201504
  },
@@ -1051,11 +1088,12 @@ const GASTRO_DATA = [
   "mesto": "Bernolakovo",
   "okres": "Senec",
   "velkost": "terasova miestnost ~100, restauracia 60",
-  "tel": "",
+  "tel": "421907795658",
   "email": "",
   "web": "penzionpalenica.eu",
   "zona": "Z8",
   "pozn": "",
+  "konatel": "",
   "lat": 48.1989817,
   "lon": 17.3000328
  },
@@ -1066,13 +1104,14 @@ const GASTRO_DATA = [
   "ico": "",
   "adresa": "Dvorakovo nabrezie 6",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "fine-dining pri Dunaji",
   "tel": "+421 910 872 168",
   "email": "",
   "web": "riverbank.sk",
   "zona": "Z1",
   "pozn": "pri Grand Hotel River Park",
+  "konatel": "",
   "lat": 48.1414165,
   "lon": 17.0903098
  },
@@ -1085,11 +1124,12 @@ const GASTRO_DATA = [
   "mesto": "Senec",
   "okres": "Senec",
   "velkost": "sala do ~120 s parketom",
-  "tel": "",
+  "tel": "+421 / 949 616 665",
   "email": "",
   "web": "hotelnostalgia.sk",
   "zona": "Z8",
   "pozn": "svadby/oslavy",
+  "konatel": "",
   "lat": 48.2199473,
   "lon": 17.3969901
  },
@@ -1100,16 +1140,16 @@ const GASTRO_DATA = [
   "ico": "47762799",
   "adresa": "Kutuzovova 11 (sidlo)",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "3 prevadzky",
   "tel": "+421 915 512 230",
   "email": "ahoj@kruhpekaren.sk",
   "web": "kruhpekaren.sk",
   "zona": "Z2",
   "pozn": "3 prevadzky (siet remeselnych pekarni)",
+  "konatel": "Emília Tomljenović",
   "lat": 48.1647644,
-  "lon": 17.1307846,
-  "konatel": "Emília Tomljenović"
+  "lon": 17.1307846
  },
  {
   "kraj": "BA",
@@ -1118,16 +1158,16 @@ const GASTRO_DATA = [
   "ico": "47117311",
   "adresa": "Jozefska 2A",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "3 prevadzky",
   "tel": "0940 629 026",
   "email": "",
   "web": "triplefivecoffee.com",
   "zona": "Z1",
   "pozn": "3 prevadzky",
+  "konatel": "Martin Beniak, Tomáš Tatarka",
   "lat": 48.1509638,
-  "lon": 17.1096081,
-  "konatel": "Martin Beniak, Tomáš Tatarka"
+  "lon": 17.1096081
  },
  {
   "kraj": "BA",
@@ -1136,16 +1176,16 @@ const GASTRO_DATA = [
   "ico": "45522464",
   "adresa": "Plynarenska 2/A",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "3 prevadzky",
   "tel": "+421 902 311 331",
   "email": "info@freshgarden.sk",
   "web": "freshgarden.sk",
   "zona": "Z2",
   "pozn": "3 prevadzky",
+  "konatel": "Radoslav Laurinec",
   "lat": 48.1462765,
-  "lon": 17.1419155,
-  "konatel": "Radoslav Laurinec"
+  "lon": 17.1419155
  },
  {
   "kraj": "BA",
@@ -1154,16 +1194,16 @@ const GASTRO_DATA = [
   "ico": "35946008",
   "adresa": "Drobneho 21 (sidlo)",
   "mesto": "Bratislava-Dubravka",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "3 restauracie fine-dining",
-  "tel": "",
-  "email": "",
-  "web": "",
+  "tel": "421940511179",
+  "email": "rezervacie@pulitzer.sk",
+  "web": "https://pulitzer.sk/",
   "zona": "Z4",
   "pozn": "Stefanka, Pulitzer, U zlateho jelena",
+  "konatel": "Richard Farenzena",
   "lat": 48.1914663,
-  "lon": 17.0408338,
-  "konatel": "Richard Farenzena"
+  "lon": 17.0408338
  },
  {
   "kraj": "BA",
@@ -1172,16 +1212,16 @@ const GASTRO_DATA = [
   "ico": "50616951",
   "adresa": "Sartorisova 11 (sidlo)",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "4 prevadzky",
   "tel": "",
   "email": "",
   "web": "dominospizza.sk",
   "zona": "Z2",
   "pozn": "4 prevadzky",
+  "konatel": "Ivan Apostolov, Mário Apostolov",
   "lat": 48.1568421,
-  "lon": 17.1419539,
-  "konatel": "Ivan Apostolov, Mário Apostolov"
+  "lon": 17.1419539
  },
  {
   "kraj": "BA",
@@ -1190,16 +1230,16 @@ const GASTRO_DATA = [
   "ico": "46988882",
   "adresa": "Raztocna 25 (sidlo)",
   "mesto": "Bratislava-Vrakuna",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "4 prevadzky, trzby 2,84 mil EUR (2024)",
-  "tel": "",
+  "tel": "421903508894",
   "email": "",
-  "web": "",
+  "web": "www.edo-kin.sk/",
   "zona": "Z5",
   "pozn": "4 prevadzky",
+  "konatel": "Michal Šramko, Karol Gálik",
   "lat": 48.1491794,
-  "lon": 17.2137098,
-  "konatel": "Michal Šramko, Karol Gálik"
+  "lon": 17.2137098
  },
  {
   "kraj": "BA",
@@ -1208,16 +1248,16 @@ const GASTRO_DATA = [
   "ico": "35689498",
   "adresa": "Janoskova 4 (sidlo)",
   "mesto": "Bratislava-Nove Mesto",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "5-6 kaviarni",
-  "tel": "",
-  "email": "",
+  "tel": "‭+43 1 2260226 - 11‬",
+  "email": "office@coffeeshopcompany.com",
   "web": "coffeeshopcompany.com",
   "zona": "Z2",
   "pozn": "5-6 kaviarni",
+  "konatel": "Zhanna Alanova",
   "lat": 48.1754477,
-  "lon": 17.132832,
-  "konatel": "Zhanna Alanova"
+  "lon": 17.132832
  },
  {
   "kraj": "BA",
@@ -1226,16 +1266,16 @@ const GASTRO_DATA = [
   "ico": "47581930",
   "adresa": "sidlo Drahovce (prevadzky v BA)",
   "mesto": "Bratislava",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "5-6 prevadzok",
   "tel": "",
   "email": "info@regalburger.com",
-  "web": "regalburger.eu",
+  "web": "regalburger.com",
   "zona": "Z2",
   "pozn": "5-6 prevadzok v BA; sidlo Drahovce (mimo BA kraja)",
+  "konatel": "Jozef Bardík, Jozef Kuzma",
   "lat": 48.1516988,
-  "lon": 17.1093063,
-  "konatel": "Jozef Bardík, Jozef Kuzma"
+  "lon": 17.1093063
  },
  {
   "kraj": "BA",
@@ -1244,16 +1284,16 @@ const GASTRO_DATA = [
   "ico": "doplnit",
   "adresa": "Kubacova 23",
   "mesto": "Bratislava-Raca",
-  "okres": "Bratislava III",
+  "okres": "Bratislava",
   "velkost": "6 restauracii",
   "tel": "+421 905 551 705",
   "email": "bevanda@bevanda.sk",
   "web": "bevanda.sk",
   "zona": "Z2",
   "pozn": "6 restauracii",
+  "konatel": "",
   "lat": 48.2117407,
-  "lon": 17.153861,
-  "konatel": ""
+  "lon": 17.153861
  },
  {
   "kraj": "BA",
@@ -1262,16 +1302,16 @@ const GASTRO_DATA = [
   "ico": "47114533",
   "adresa": "Mileticova 1 (sidlo)",
   "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
+  "okres": "Bratislava",
   "velkost": "7 kaviarni",
   "tel": "",
   "email": "info@mondieu.sk",
   "web": "mondieu.sk",
   "zona": "Z2",
   "pozn": "7 kaviarni",
+  "konatel": "Ľubomír Slimák",
   "lat": 48.1577489,
-  "lon": 17.1310655,
-  "konatel": "Ľubomír Slimák"
+  "lon": 17.1310655
  },
  {
   "kraj": "BA",
@@ -1280,16 +1320,16 @@ const GASTRO_DATA = [
   "ico": "46880526",
   "adresa": "Dubravska cesta 14 (sidlo)",
   "mesto": "Bratislava-Karlova Ves",
-  "okres": "Bratislava IV",
+  "okres": "Bratislava",
   "velkost": "8 bistro prevadzok",
   "tel": "0905 295 165",
   "email": "info@veglife.sk",
   "web": "veglife.sk",
   "zona": "Z4",
   "pozn": "cisty 1 kontakt - dobry B2B lead",
+  "konatel": "Filip Jaško, Peter Jurík",
   "lat": 48.1710686,
-  "lon": 17.0712854,
-  "konatel": "Filip Jaško, Peter Jurík"
+  "lon": 17.0712854
  },
  {
   "kraj": "BA",
@@ -1298,16 +1338,16 @@ const GASTRO_DATA = [
   "ico": "31640826",
   "adresa": "Pifflova 6",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "17-18 prevadzok (vratane Senec, Pezinok)",
   "tel": "+421 918 689 366",
   "email": "info@spustakaviaren.sk",
   "web": "spustakaviaren.sk",
   "zona": "Z3",
   "pozn": "aj okresy; 2. ICO 35803568",
+  "konatel": "Ing. Dušan Spusta",
   "lat": 48.1269838,
-  "lon": 17.1081707,
-  "konatel": "Ing. Dušan Spusta"
+  "lon": 17.1081707
  },
  {
   "kraj": "BA",
@@ -1316,16 +1356,16 @@ const GASTRO_DATA = [
   "ico": "50088971",
   "adresa": "Pajstunska 3 (sidlo)",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "Starbucks 6-7 + KFC/BK/PizzaHut",
   "tel": "",
   "email": "",
   "web": "starbucksslovakia.sk",
   "zona": "Z3",
   "pozn": "skupina AmRest, viac brandov",
+  "konatel": "Ismael Moreno, Santiago Pérez",
   "lat": 48.1111834,
-  "lon": 17.1029997,
-  "konatel": "Ismael Moreno, Santiago Pérez"
+  "lon": 17.1029997
  },
  {
   "kraj": "BA",
@@ -1334,16 +1374,16 @@ const GASTRO_DATA = [
   "ico": "35852143",
   "adresa": "Pribinova 4, Eurovea Central 1",
   "mesto": "Bratislava-Stare Mesto",
-  "okres": "Bratislava I",
+  "okres": "Bratislava",
   "velkost": "~20,5 mil EUR; KFC 7 + Pizza Hut 3",
   "tel": "",
   "email": "",
   "web": "kfcslovakia.sk",
   "zona": "Z1",
   "pozn": "over aktualnu entitu (AmRest)",
+  "konatel": "Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy",
   "lat": 48.1534392,
-  "lon": 17.1151016,
-  "konatel": "Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy"
+  "lon": 17.1151016
  },
  {
   "kraj": "BA",
@@ -1352,16 +1392,16 @@ const GASTRO_DATA = [
   "ico": "31392229",
   "adresa": "Einsteinova 33",
   "mesto": "Bratislava-Petrzalka",
-  "okres": "Bratislava V",
+  "okres": "Bratislava",
   "velkost": "52,45 mil EUR (2024); ~18 prevadzok v kraji",
   "tel": "",
   "email": "",
   "web": "mcdonalds.sk",
   "zona": "Z3",
   "pozn": "NAJVACSI retazec; +Pezinok",
-  "lat": 48.13244,
-  "lon": 17.10755,
-  "konatel": "Tereza Trepáčová, Yuliya Badritdinova"
+  "konatel": "Tereza Trepáčová, Yuliya Badritdinova",
+  "lat": 48.99802,
+  "lon": 21.26936
  },
  {
   "kraj": "BA",
@@ -1377,9 +1417,9 @@ const GASTRO_DATA = [
   "web": "region-bsk.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; zriadovatel SOS/gymnazii a DSS s vlastnymi kuchynami; centralne VO potravin pre svoje organizacie",
+  "konatel": "",
   "lat": 48.1608571,
-  "lon": 17.1477295,
-  "konatel": ""
+  "lon": 17.1477295
  },
  {
   "kraj": "BA",
@@ -1395,9 +1435,9 @@ const GASTRO_DATA = [
   "web": "bratislava.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; siet skolskych jedalni MS/ZS, socialne zariadenia mesta, VO stravy a potravin",
+  "konatel": "",
   "lat": 48.1445175,
-  "lon": 17.1091382,
-  "konatel": ""
+  "lon": 17.1091382
  },
  {
   "kraj": "BA",
@@ -1408,14 +1448,14 @@ const GASTRO_DATA = [
   "mesto": "Bratislava-Stare Mesto",
   "okres": "Bratislava I",
   "velkost": "najvacsia VS v SR, ~20-25 tis studentov + ~4-5 tis zam; vlastne menzy a jedalne",
-  "tel": "02/5924 4111",
-  "email": "",
-  "web": "uniba.sk",
+  "tel": "02/9012 9555",
+  "email": "mlyny@uniba.sk",
+  "web": "mlyny.uniba.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; vlastne vysokoskolske jedalne, tisice stravnikov denne",
+  "konatel": "",
   "lat": 48.1411725,
-  "lon": 17.1154529,
-  "konatel": ""
+  "lon": 17.1154529
  },
  {
   "kraj": "BA",
@@ -1431,9 +1471,9 @@ const GASTRO_DATA = [
   "web": "mlyny.uniba.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; najvacsi student. domov v SR, vlastne jedalne pre tisice stravnikov; sucast UK (rovnake ICO)",
+  "konatel": "",
   "lat": 48.1599875,
-  "lon": 17.0668479,
-  "konatel": ""
+  "lon": 17.0668479
  },
  {
   "kraj": "BA",
@@ -1449,9 +1489,9 @@ const GASTRO_DATA = [
   "web": "stuba.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; menza Mladost (Stare grunty 53) + dalsie jedalne, velkoobjemove stravovanie",
+  "konatel": "",
   "lat": 48.1547473,
-  "lon": 17.1178057,
-  "konatel": ""
+  "lon": 17.1178057
  },
  {
   "kraj": "BA",
@@ -1467,9 +1507,9 @@ const GASTRO_DATA = [
   "web": "euba.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; SD Horsky park/Hrobonova + univ. jedalen (prevadzkuje aj externy dodavatel)",
+  "konatel": "",
   "lat": 48.1275493,
-  "lon": 17.1323468,
-  "konatel": ""
+  "lon": 17.1323468
  },
  {
   "kraj": "BA",
@@ -1485,9 +1525,9 @@ const GASTRO_DATA = [
   "web": "unb.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; viacero nemocnicnych kuchyn, strava pacientov + zamestnanci; velke VO potravin",
+  "konatel": "",
   "lat": 48.1538941,
-  "lon": 17.1506544,
-  "konatel": ""
+  "lon": 17.1506544
  },
  {
   "kraj": "BA",
@@ -1503,9 +1543,9 @@ const GASTRO_DATA = [
   "web": "mosr.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; rezortna jedalen na ustredi + VO stravovania pre OS SR",
+  "konatel": "",
   "lat": 48.1644832,
-  "lon": 17.1319388,
-  "konatel": ""
+  "lon": 17.1319388
  },
  {
   "kraj": "BA",
@@ -1521,9 +1561,9 @@ const GASTRO_DATA = [
   "web": "vepba.mil.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; kasarenske kuchyne/jedalne vojakov; utvar OS SR (ICO pod MO SR 30845572)",
+  "konatel": "",
   "lat": 48.1644832,
-  "lon": 17.1319388,
-  "konatel": ""
+  "lon": 17.1319388
  },
  {
   "kraj": "BA",
@@ -1534,14 +1574,14 @@ const GASTRO_DATA = [
   "mesto": "Bratislava-Stare Mesto",
   "okres": "Bratislava I",
   "velkost": "rezort >30 tis zam; ustredie + jedalne na pracoviskach v BA",
-  "tel": "02/5094 1111",
+  "tel": "0961 011 111",
   "email": "tokmv@minv.sk",
   "web": "minv.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; rezortne jedalne (PZ, HaZZ), centralne VO potravin a stravovania",
+  "konatel": "",
   "lat": 48.140558,
-  "lon": 17.1182672,
-  "konatel": ""
+  "lon": 17.1182672
  },
  {
   "kraj": "BA",
@@ -1557,9 +1597,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; jedalen pre policajtov na Spitalskej; rozpoctovo pod MV SR 00151866",
+  "konatel": "",
   "lat": 48.1482956,
-  "lon": 17.1171202,
-  "konatel": ""
+  "lon": 17.1171202
  },
  {
   "kraj": "BA",
@@ -1575,9 +1615,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; vazenska kuchyna, stabilne velkoobjemove VO potravin (maso, pecivo, zelenina)",
+  "konatel": "",
   "lat": 48.1513547,
-  "lon": 17.1237338,
-  "konatel": ""
+  "lon": 17.1237338
  },
  {
   "kraj": "BA",
@@ -1593,9 +1633,9 @@ const GASTRO_DATA = [
   "web": "zsr.sk",
   "zona": "BA1",
   "pozn": "Velky statny podnik, sidlo GR v BA; firemne stravovanie na ustredi a prevadzkach",
+  "konatel": "Miroslav Garaj",
   "lat": 48.14349,
-  "lon": 17.1186894,
-  "konatel": "Miroslav Garaj"
+  "lon": 17.1186894
  },
  {
   "kraj": "BA",
@@ -1611,9 +1651,9 @@ const GASTRO_DATA = [
   "web": "posta.sk",
   "zona": "BA1",
   "pozn": "Velky statny zamestnavatel; BA prevadzka/uzol so zamestnaneckym stravovanim",
+  "konatel": "Vladislav Kupka, Melinda Burdanová, Juliana Márquez, Michaela Rajtarová, Filip Kamenský",
   "lat": 48.170123,
-  "lon": 17.1476088,
-  "konatel": "Vladislav Kupka, Melinda Burdanová, Juliana Márquez, Michaela Rajtarová, Filip Kamenský"
+  "lon": 17.1476088
  },
  {
   "kraj": "BA",
@@ -1629,9 +1669,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "BA1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR 00151866)",
+  "konatel": "",
   "lat": 48.1501233,
-  "lon": 17.1148611,
-  "konatel": ""
+  "lon": 17.1148611
  },
  {
   "kraj": "TT",
@@ -1647,9 +1687,9 @@ const GASTRO_DATA = [
   "web": "frape-catering.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; komplexny catering + rozvoz; dodava pre soc. zariadenia TTSK; sidlo Hudobna 9715/7, prevadzka Pekarska 40A, office Jana Holleho 5; konatel D. Schmidt 0903 246 244",
+  "konatel": "Dušan Schmidt",
   "lat": 48.3678367,
-  "lon": 17.5567561,
-  "konatel": "Dušan Schmidt"
+  "lon": 17.5567561
  },
  {
   "kraj": "TT",
@@ -1665,9 +1705,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "T3",
   "pozn": "SILNY CIEL; rodinny catering 20+ rokov, zavodne stravovanie Vrbove/Piestany/Trnava",
+  "konatel": "Pavol Majerník, Petra Macháčová",
   "lat": 48.6238782,
-  "lon": 17.7167624,
-  "konatel": "Pavol Majerník, Petra Macháčová"
+  "lon": 17.7167624
  },
  {
   "kraj": "TT",
@@ -1683,9 +1723,9 @@ const GASTRO_DATA = [
   "web": "cantineparty.sk",
   "zona": "T1",
   "pozn": "cateringova firma Trnava; ICO + adresa doplnit ORSR",
+  "konatel": "",
   "lat": 48.374218,
-  "lon": 17.5809299,
-  "konatel": ""
+  "lon": 17.5809299
  },
  {
   "kraj": "TT",
@@ -1701,9 +1741,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "T1",
   "pozn": "over ci nie je prepojeny s TOP-RELAX brand; ICO doplnit",
+  "konatel": "",
   "lat": 48.384791,
-  "lon": 17.6005036,
-  "konatel": ""
+  "lon": 17.6005036
  },
  {
   "kraj": "TT",
@@ -1719,9 +1759,9 @@ const GASTRO_DATA = [
   "web": "sedacatering.sk",
   "zona": "T5",
   "pozn": "mensia kapacita",
+  "konatel": "",
   "lat": 48.848089,
-  "lon": 17.2390985,
-  "konatel": ""
+  "lon": 17.2390985
  },
  {
   "kraj": "TT",
@@ -1737,9 +1777,9 @@ const GASTRO_DATA = [
   "web": "larkskalica.sk",
   "zona": "T5",
   "pozn": "SILNY CIEL; catering + vlastna vyroba, vyssi objem surovin",
+  "konatel": "Iveta Čechová, Vladimír Čech",
   "lat": 48.8385401,
-  "lon": 17.2297234,
-  "konatel": "Iveta Čechová, Vladimír Čech"
+  "lon": 17.2297234
  },
  {
   "kraj": "TT",
@@ -1755,9 +1795,9 @@ const GASTRO_DATA = [
   "web": "kralovskycatering.sk",
   "zona": "T5",
   "pozn": "regionalny hrac Skalica + Senica; ICO doplnit",
+  "konatel": "",
   "lat": 48.8461007,
-  "lon": 17.2287837,
-  "konatel": ""
+  "lon": 17.2287837
  },
  {
   "kraj": "TT",
@@ -1773,9 +1813,9 @@ const GASTRO_DATA = [
   "web": "catering4events.sk",
   "zona": "T3",
   "pozn": "eventovy catering, sezonny vyssi objem",
+  "konatel": "",
   "lat": 48.5895247,
-  "lon": 17.8213848,
-  "konatel": ""
+  "lon": 17.8213848
  },
  {
   "kraj": "TT",
@@ -1791,9 +1831,9 @@ const GASTRO_DATA = [
   "web": "cateringpiestany.sk",
   "zona": "T3",
   "pozn": "vlastny party priestor + catering",
+  "konatel": "",
   "lat": 48.5895247,
-  "lon": 17.8213848,
-  "konatel": ""
+  "lon": 17.8213848
  },
  {
   "kraj": "TT",
@@ -1809,9 +1849,9 @@ const GASTRO_DATA = [
   "web": "top-relax.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; zavodne stravovanie, vending, dovoz jedal; prevadzkuje jedalen UCM",
+  "konatel": "Jozef Svátek",
   "lat": 48.3826049,
-  "lon": 17.5848061,
-  "konatel": "Jozef Svátek"
+  "lon": 17.5848061
  },
  {
   "kraj": "TT",
@@ -1827,9 +1867,9 @@ const GASTRO_DATA = [
   "web": "grandgastro.sk",
   "zona": "T7",
   "pozn": "SILNY CIEL; dodavatel zavodneho a skolskeho stravovania, 30+ rokov; pozn. mala strata + nedoplatky 2024",
+  "konatel": "Roland Kiss",
   "lat": 48.1868596,
-  "lon": 17.7223147,
-  "konatel": "Roland Kiss"
+  "lon": 17.7223147
  },
  {
   "kraj": "TT",
@@ -1845,9 +1885,9 @@ const GASTRO_DATA = [
   "web": "gastrods.sk",
   "zona": "T6",
   "pozn": "SILNY CIEL; mestska firma, skolske jedalne vsetkych ZS/MS/gymnazii DS",
+  "konatel": "Tomáš Lakky, Anetta Križanová, Erika Szelle",
   "lat": 47.9962553,
-  "lon": 17.6143437,
-  "konatel": "Tomáš Lakky, Anetta Križanová, Erika Szelle"
+  "lon": 17.6143437
  },
  {
   "kraj": "TT",
@@ -1863,9 +1903,9 @@ const GASTRO_DATA = [
   "web": "tief.sk",
   "zona": "T1",
   "pozn": "rozvoz hotovych jedal Trnava; mensia kapacita",
+  "konatel": "Zuzana Čambálová",
   "lat": 48.3672675,
-  "lon": 17.5959372,
-  "konatel": "Zuzana Čambálová"
+  "lon": 17.5959372
  },
  {
   "kraj": "TT",
@@ -1881,9 +1921,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "T7",
   "pozn": "restauracne cinnosti + catering",
+  "konatel": "Marián Manek",
   "lat": 48.2479831,
-  "lon": 17.6194193,
-  "konatel": "Marián Manek"
+  "lon": 17.6194193
  },
  {
   "kraj": "TT",
@@ -1899,9 +1939,9 @@ const GASTRO_DATA = [
   "web": "rodett.sk",
   "zona": "T6",
   "pozn": "rozvoz DS/Velky Meder/Samorin + catering; ICO SZCO doplnit",
+  "konatel": "",
   "lat": 47.9754375,
-  "lon": 17.5224297,
-  "konatel": ""
+  "lon": 17.5224297
  },
  {
   "kraj": "TT",
@@ -1917,9 +1957,9 @@ const GASTRO_DATA = [
   "web": "grandgastro.sk",
   "zona": "T7",
   "pozn": "sesterska firma zavodne stravovanie; trzby/adresa over FinStat",
+  "konatel": "Roland Kiss",
   "lat": 48.1910498,
-  "lon": 17.7270629,
-  "konatel": "Roland Kiss"
+  "lon": 17.7270629
  },
  {
   "kraj": "TT",
@@ -1935,9 +1975,9 @@ const GASTRO_DATA = [
   "web": "stellantis-slovakia.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu (automobilka); operator jedalne neovereny",
+  "konatel": "Monika Poussard",
   "lat": 48.362353,
-  "lon": 17.6192737,
-  "konatel": "Monika Poussard"
+  "lon": 17.6192737
  },
  {
   "kraj": "TT",
@@ -1948,14 +1988,14 @@ const GASTRO_DATA = [
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "vlastna kuchyna, 641 luzok, 1000-1999 zam",
-  "tel": "033/5938111",
+  "tel": "033 5938111",
   "email": "fntt@fntt.sk",
   "web": "fntt.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; nemocnicna kuchyna pacienti + personal; verejny obstaravatel",
-  "lat": 48.374218,
-  "lon": 17.5809299,
-  "konatel": ""
+  "konatel": "",
+  "lat": 48.3683466,
+  "lon": 17.5883897
  },
  {
   "kraj": "TT",
@@ -1971,9 +2011,9 @@ const GASTRO_DATA = [
   "web": "saneca.com",
   "zona": "T2",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Hlohovec (byv. Slovakofarma/Zentiva areal)",
+  "konatel": "Ing. Jozef Krištofčák, Ing. Ľubomír Šoltýs, Andrew Mitchell, Mgr. Michal Staroň",
   "lat": 48.4214265,
-  "lon": 17.8147037,
-  "konatel": "Ing. Jozef Krištofčák, Ing. Ľubomír Šoltýs, Andrew Mitchell, Mgr. Michal Staroň"
+  "lon": 17.8147037
  },
  {
   "kraj": "TT",
@@ -1989,9 +2029,9 @@ const GASTRO_DATA = [
   "web": "zf.com",
   "zona": "T1",
   "pozn": "SILNY CIEL; automotive priem. park Trnava; ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.3567915,
-  "lon": 17.5706494,
-  "konatel": ""
+  "lon": 17.5706494
  },
  {
   "kraj": "TT",
@@ -2002,14 +2042,14 @@ const GASTRO_DATA = [
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "studentska jedalen; catering prevadzkuje TOP-RELAX",
-  "tel": "033/5565111",
-  "email": "",
+  "tel": "033 5565111",
+  "email": "info@ucm.sk",
   "web": "ucm.sk",
   "zona": "T1",
   "pozn": "objednavatel; dodavatela jedla riesi TOP-RELAX",
+  "konatel": "",
   "lat": 48.374218,
-  "lon": 17.5809299,
-  "konatel": ""
+  "lon": 17.5809299
  },
  {
   "kraj": "TT",
@@ -2020,14 +2060,14 @@ const GASTRO_DATA = [
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "studentska jedalen, koncesia na prevadzku",
-  "tel": "033/5939111",
-  "email": "",
+  "tel": "033 5939111",
+  "email": "rektorat@truni.sk",
   "web": "truni.sk",
   "zona": "T1",
   "pozn": "stravovanie cez externeho prevadzkovatela; ICO over ORSR",
+  "konatel": "",
   "lat": 48.379698,
-  "lon": 17.58686,
-  "konatel": ""
+  "lon": 17.58686
  },
  {
   "kraj": "TT",
@@ -2043,9 +2083,9 @@ const GASTRO_DATA = [
   "web": "samsung.com/sk",
   "zona": "T7",
   "pozn": "SILNY CIEL; najvacsia fabrika regionu; over operatora jedalne",
+  "konatel": "Seokkeun HAN, Soohyun YIM, Iksu NOH, Wonchul SONG",
   "lat": 48.1860755,
-  "lon": 17.7337498,
-  "konatel": "Seokkeun HAN, Soohyun YIM, Iksu NOH, Wonchul SONG"
+  "lon": 17.7337498
  },
  {
   "kraj": "TT",
@@ -2061,9 +2101,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "T7",
   "pozn": "SILNY CIEL; nemocnicna kuchyna; siet Svet zdravia/Penta",
+  "konatel": "Alexandra Pavlovičová, Radoslav Čuha, Tomáš Valaška, Ondrej Hajdúk",
   "lat": 48.1957203,
-  "lon": 17.7213597,
-  "konatel": "Alexandra Pavlovičová, Radoslav Čuha, Tomáš Valaška, Ondrej Hajdúk"
+  "lon": 17.7213597
  },
  {
   "kraj": "TT",
@@ -2079,9 +2119,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "T6",
   "pozn": "SILNY CIEL; nemocnicna kuchyna; over interny vs cateringovy model",
+  "konatel": "Sylvia Bock, Radoslav Čuha, Tomáš Valaška, Gabriela Meszaros",
   "lat": 48.0009648,
-  "lon": 17.6046308,
-  "konatel": "Sylvia Bock, Radoslav Čuha, Tomáš Valaška, Gabriela Meszaros"
+  "lon": 17.6046308
  },
  {
   "kraj": "TT",
@@ -2097,9 +2137,9 @@ const GASTRO_DATA = [
   "web": "schaeffler.sk",
   "zona": "T5",
   "pozn": "SILNY CIEL; fabrika, velka zavodna jedalen, tisice obedov/den (byv. INA Skalica)",
+  "konatel": "Miroslav Janota, Petr Hajný",
   "lat": 48.8497319,
-  "lon": 17.2116194,
-  "konatel": "Miroslav Janota, Petr Hajný"
+  "lon": 17.2116194
  },
  {
   "kraj": "TT",
@@ -2115,9 +2155,9 @@ const GASTRO_DATA = [
   "web": "nemocnicaskalica.agel.sk",
   "zona": "T5",
   "pozn": "SILNY CIEL; nemocnicna prevadzka; skupina AGEL",
+  "konatel": "Vladislav Šrojta, Michal Pišoja, Tomáš Lučkai, Michal Zakarovský",
   "lat": 48.8440909,
-  "lon": 17.2269808,
-  "konatel": "Vladislav Šrojta, Michal Pišoja, Tomáš Lučkai, Michal Zakarovský"
+  "lon": 17.2269808
  },
  {
   "kraj": "TT",
@@ -2133,9 +2173,9 @@ const GASTRO_DATA = [
   "web": "nawpiestany.sk",
   "zona": "T3",
   "pozn": "SILNY CIEL; nemocnicna kuchyna, stabilny denny objem",
+  "konatel": "",
   "lat": 48.5880562,
-  "lon": 17.8381581,
-  "konatel": ""
+  "lon": 17.8381581
  },
  {
   "kraj": "TT",
@@ -2151,9 +2191,9 @@ const GASTRO_DATA = [
   "web": "poliklinikase.sk",
   "zona": "T4",
   "pozn": "Senica nema lozkovu nemocnicu, spada pod FN AGEL Skalica; stredny objem",
+  "konatel": "Miriam Madunická, Ivana Mičová, Jozef Mikuš, Martin Džačovský, Roman Sova",
   "lat": 48.6883138,
-  "lon": 17.372334,
-  "konatel": "Miriam Madunická, Ivana Mičová, Jozef Mikuš, Martin Džačovský, Roman Sova"
+  "lon": 17.372334
  },
  {
   "kraj": "TT",
@@ -2169,9 +2209,9 @@ const GASTRO_DATA = [
   "web": "oms.eu",
   "zona": "T4",
   "pozn": "vyrobny zavod s jedalnou; firma v restrukturalizacii; over aktualny pocet zam",
+  "konatel": "Vladimír Levársky, Radovan Slíž, Gréta Noé, Egidijus Razmus",
   "lat": 48.6771217,
-  "lon": 17.254151,
-  "konatel": "Vladimír Levársky, Radovan Slíž, Gréta Noé, Egidijus Razmus"
+  "lon": 17.254151
  },
  {
   "kraj": "TT",
@@ -2187,9 +2227,9 @@ const GASTRO_DATA = [
   "web": "ensanahotels.com/sk",
   "zona": "T3",
   "pozn": "SILNY CIEL; najvacsi prevadzkovatel stravovania v kraji, vlastne kuchyne + liecebna vyziva",
+  "konatel": "Peter Bednarčík, Emanuel Paulech, Frank Halmos, Richard Kolárik, Mark Hennebry",
   "lat": 48.5894483,
-  "lon": 17.8364459,
-  "konatel": "Peter Bednarčík, Emanuel Paulech, Frank Halmos, Richard Kolárik, Mark Hennebry"
+  "lon": 17.8364459
  },
  {
   "kraj": "TT",
@@ -2205,9 +2245,9 @@ const GASTRO_DATA = [
   "web": "sessler.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; komplex s vlastnou varnou kapacitou, eventovy priestor",
+  "konatel": "Peter Klas, Dagmara Pivolusková, Zuzana Benková",
   "lat": 48.3889107,
-  "lon": 17.5760428,
-  "konatel": "Peter Klas, Dagmara Pivolusková, Zuzana Benková"
+  "lon": 17.5760428
  },
  {
   "kraj": "TT",
@@ -2223,9 +2263,9 @@ const GASTRO_DATA = [
   "web": "jaster-hlohovec.sk",
   "zona": "T2",
   "pozn": "SILNY CIEL; najvacsi banketovy priestor okresu Hlohovec; majitel P. Tutura 0903473379",
+  "konatel": "Pavol Tutura",
   "lat": 48.4497091,
-  "lon": 17.8114153,
-  "konatel": "Pavol Tutura"
+  "lon": 17.8114153
  },
  {
   "kraj": "TT",
@@ -2241,9 +2281,9 @@ const GASTRO_DATA = [
   "web": "victoriatrnava.sk",
   "zona": "T1",
   "pozn": "mensia kapacita; ICO doplnit",
+  "konatel": "",
   "lat": 48.374218,
-  "lon": 17.5809299,
-  "konatel": ""
+  "lon": 17.5809299
  },
  {
   "kraj": "TT",
@@ -2259,9 +2299,9 @@ const GASTRO_DATA = [
   "web": "hotelmagnolia.sk",
   "zona": "T3",
   "pozn": "SILNY CIEL; velka kongresova/eventova prevadzka; prevadzkovatel/ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.5874545,
-  "lon": 17.8370356,
-  "konatel": ""
+  "lon": 17.8370356
  },
  {
   "kraj": "TT",
@@ -2277,9 +2317,9 @@ const GASTRO_DATA = [
   "web": "hotelpark.sk",
   "zona": "T3",
   "pozn": "SILNY CIEL; banketove/svadobne + kongresy",
+  "konatel": "",
   "lat": 48.595123,
-  "lon": 17.839952,
-  "konatel": ""
+  "lon": 17.839952
  },
  {
   "kraj": "TT",
@@ -2295,9 +2335,9 @@ const GASTRO_DATA = [
   "web": "hotelsvataludmila.sk",
   "zona": "T5",
   "pozn": "SILNY CIEL; svadby/firemne do 165, najvacsia eventova kapacita v Skalici",
+  "konatel": "",
   "lat": 48.835703,
-  "lon": 17.2329853,
-  "konatel": ""
+  "lon": 17.2329853
  },
  {
   "kraj": "TT",
@@ -2313,9 +2353,9 @@ const GASTRO_DATA = [
   "web": "jozefdruhy.sk",
   "zona": "T5",
   "pozn": "SILNY CIEL; banketova/svadobna sala 140, Holic",
+  "konatel": "",
   "lat": 48.8022821,
-  "lon": 17.1627495,
-  "konatel": ""
+  "lon": 17.1627495
  },
  {
   "kraj": "TT",
@@ -2331,9 +2371,9 @@ const GASTRO_DATA = [
   "web": "slovenskydvor.sk",
   "zona": "T3",
   "pozn": "banketove akcie 150+; ICO/adresa over ORSR",
+  "konatel": "",
   "lat": 48.5895247,
-  "lon": 17.8213848,
-  "konatel": ""
+  "lon": 17.8213848
  },
  {
   "kraj": "TT",
@@ -2349,9 +2389,9 @@ const GASTRO_DATA = [
   "web": "savarinsenica.com",
   "zona": "T4",
   "pozn": "svadobna sala centrum Senice; kapacita/ICO over",
+  "konatel": "",
   "lat": 48.6787557,
-  "lon": 17.3661529,
-  "konatel": ""
+  "lon": 17.3661529
  },
  {
   "kraj": "TT",
@@ -2367,9 +2407,9 @@ const GASTRO_DATA = [
   "web": "x-bionicsphere.com",
   "zona": "T6",
   "pozn": "SILNY CIEL; obrovsky sportovy rezort, catering pre turnaje/konferencie",
+  "konatel": "Juraj Bača, Svetlana Poláková, Patrik Danek, Jan Mašek",
   "lat": 48.0186559,
-  "lon": 17.2973262,
-  "konatel": "Juraj Bača, Svetlana Poláková, Patrik Danek, Jan Mašek"
+  "lon": 17.2973262
  },
  {
   "kraj": "TT",
@@ -2385,9 +2425,9 @@ const GASTRO_DATA = [
   "web": "thermalpark.sk",
   "zona": "T6",
   "pozn": "SILNY CIEL; sezonny velkoobjem; doplnit kontakt",
+  "konatel": "Ladislav Bachman, Ladislav Gútay, Alexander Dakó, Ivan Nagy",
   "lat": 47.9847932,
-  "lon": 17.6086547,
-  "konatel": "Ladislav Bachman, Ladislav Gútay, Alexander Dakó, Ivan Nagy"
+  "lon": 17.6086547
  },
  {
   "kraj": "TT",
@@ -2403,9 +2443,9 @@ const GASTRO_DATA = [
   "web": "thermalcorvinus.eu",
   "zona": "T6",
   "pozn": "SILNY CIEL; velky termalny rezort (vlastnik mesto); viacero stravovacich bodov",
+  "konatel": "Roland Šušík, Peter Balázs, Tomáš Földes, Richard Forró",
   "lat": 47.8464838,
-  "lon": 17.7599623,
-  "konatel": "Roland Šušík, Peter Balázs, Tomáš Földes, Richard Forró"
+  "lon": 17.7599623
  },
  {
   "kraj": "TT",
@@ -2421,9 +2461,9 @@ const GASTRO_DATA = [
   "web": "hotelthermal.sk",
   "zona": "T6",
   "pozn": "banketova sala + catering, svadby/konferencie",
+  "konatel": "Ernest Varga, Marta Vargová, Martin Varga",
   "lat": 47.8480097,
-  "lon": 17.7620363,
-  "konatel": "Ernest Varga, Marta Vargová, Martin Varga"
+  "lon": 17.7620363
  },
  {
   "kraj": "TT",
@@ -2439,9 +2479,9 @@ const GASTRO_DATA = [
   "web": "penzionmlyn.sk",
   "zona": "T7",
   "pozn": "banketova sala + catering pri priem. zone Sered",
+  "konatel": "Miloš Bartek",
   "lat": 48.2740853,
-  "lon": 17.7448501,
-  "konatel": "Miloš Bartek"
+  "lon": 17.7448501
  },
  {
   "kraj": "TT",
@@ -2457,9 +2497,9 @@ const GASTRO_DATA = [
   "web": "perlovka.sk",
   "zona": "T7",
   "pozn": "banketova/eventova restauracia pri priem. parku Sered; ICO doplnit",
+  "konatel": "",
   "lat": 48.285043,
-  "lon": 17.7372023,
-  "konatel": ""
+  "lon": 17.7372023
  },
  {
   "kraj": "TT",
@@ -2475,9 +2515,9 @@ const GASTRO_DATA = [
   "web": "minitbakery.sk",
   "zona": "T6",
   "pozn": "SILNY CIEL; sidlo firmy; ~350 pekarni MINIT Bakery (SR), 25+ v TT kraji",
+  "konatel": "František Ambrovics, Ladislav Ambrovics",
   "lat": 47.996257,
-  "lon": 17.6253381,
-  "konatel": "František Ambrovics, Ladislav Ambrovics"
+  "lon": 17.6253381
  },
  {
   "kraj": "TT",
@@ -2493,9 +2533,9 @@ const GASTRO_DATA = [
   "web": "mcdonalds.sk",
   "zona": "T1",
   "pozn": "SILNY CIEL; fransizant McDonald's; majitel Anton Novotny; 3 prevadzky v Trnave (Hlboka 4, Nova, Trstinska)",
+  "konatel": "Anton Novotný",
   "lat": 48.3815617,
-  "lon": 17.593004,
-  "konatel": "Anton Novotný"
+  "lon": 17.593004
  },
  {
   "kraj": "TT",
@@ -2511,9 +2551,9 @@ const GASTRO_DATA = [
   "web": "odjednota.sk",
   "zona": "T1",
   "pozn": "sidlo druzstva; viac gastro prevadzok v OD Jednota; ICO druzstva doplnit ORSR",
+  "konatel": "",
   "lat": 48.3774728,
-  "lon": 17.5874502,
-  "konatel": ""
+  "lon": 17.5874502
  },
  {
   "kraj": "TT",
@@ -2529,9 +2569,9 @@ const GASTRO_DATA = [
   "web": "trnava-vuc.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; VUC zriadovatel desiatok SOS/gymnazii a domovov soc. sluzieb s vlastnymi kuchynami v celom kraji, centralne VO stravy",
+  "konatel": "",
   "lat": 48.3789056,
-  "lon": 17.5951119,
-  "konatel": ""
+  "lon": 17.5951119
  },
  {
   "kraj": "TT",
@@ -2547,9 +2587,9 @@ const GASTRO_DATA = [
   "web": "trnava.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; zriadovatel materskych a zakladnych skol so skolskymi jedalnami, centralne VO potravin",
+  "konatel": "",
   "lat": 48.3758955,
-  "lon": 17.5880409,
-  "konatel": ""
+  "lon": 17.5880409
  },
  {
   "kraj": "TT",
@@ -2565,9 +2605,9 @@ const GASTRO_DATA = [
   "web": "piestany.sk",
   "zona": "TT2",
   "pozn": "zriadovatel skol so skolskymi jedalnami, VO potravin/stravy",
+  "konatel": "",
   "lat": 48.5917427,
-  "lon": 17.8315613,
-  "konatel": ""
+  "lon": 17.8315613
  },
  {
   "kraj": "TT",
@@ -2583,9 +2623,9 @@ const GASTRO_DATA = [
   "web": "dunstreda.sk",
   "zona": "TT4",
   "pozn": "zriadovatel skol so skolskymi jedalnami, dvojjazycny region, VO potravin",
+  "konatel": "",
   "lat": 47.9926251,
-  "lon": 17.6187289,
-  "konatel": ""
+  "lon": 17.6187289
  },
  {
   "kraj": "TT",
@@ -2601,9 +2641,9 @@ const GASTRO_DATA = [
   "web": "galanta.sk",
   "zona": "TT4",
   "pozn": "zriadovatel skol so skolskymi jedalnami, VO potravin/stravy",
+  "konatel": "",
   "lat": 48.1900095,
-  "lon": 17.7261175,
-  "konatel": ""
+  "lon": 17.7261175
  },
  {
   "kraj": "TT",
@@ -2619,9 +2659,9 @@ const GASTRO_DATA = [
   "web": "seas.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; jadrova elektraren EBO V2 s velkou zavodnou stravovacou prevadzkou, kontinualne stravovanie zmenovej prevadzky; sidlo a.s. v Bratislave",
+  "konatel": "Milan Molnár, Andrej Rubint, Rastislav Fleško, Zoran Kupkovič",
   "lat": 48.4764978,
-  "lon": 17.6479239,
-  "konatel": "Milan Molnár, Andrej Rubint, Rastislav Fleško, Zoran Kupkovič"
+  "lon": 17.6479239
  },
  {
   "kraj": "TT",
@@ -2637,9 +2677,9 @@ const GASTRO_DATA = [
   "web": "truni.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; studentsky domov a jedalen, VO potravin pre studentske stravovanie",
+  "konatel": "",
   "lat": 48.379698,
-  "lon": 17.58686,
-  "konatel": ""
+  "lon": 17.58686
  },
  {
   "kraj": "TT",
@@ -2655,9 +2695,9 @@ const GASTRO_DATA = [
   "web": "ucm.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; velka univerzita so studentskym stravovanim, VO potravin a cateringu",
+  "konatel": "",
   "lat": 48.374218,
-  "lon": 17.5809299,
-  "konatel": ""
+  "lon": 17.5809299
  },
  {
   "kraj": "TT",
@@ -2673,9 +2713,9 @@ const GASTRO_DATA = [
   "web": "fntt.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; velka nemocnicna stravovacia prevadzka pre pacientov a personal, kontinualne VO potravin",
+  "konatel": "",
   "lat": 48.3683466,
-  "lon": 17.5883897,
-  "konatel": ""
+  "lon": 17.5883897
  },
  {
   "kraj": "TT",
@@ -2686,14 +2726,14 @@ const GASTRO_DATA = [
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "Stovky prislusnikov; sluzobne stravovanie",
-  "tel": "0961 102101",
+  "tel": "033 5564111",
   "email": "",
   "web": "minv.sk",
   "zona": "TT1",
   "pozn": "krajske riaditelstvo PZ pod MV SR (ICO 00151866), sluzobne stravovanie prislusnikov, VO potravin/stravovacich sluzieb",
+  "konatel": "",
   "lat": 48.3715167,
-  "lon": 17.5887612,
-  "konatel": ""
+  "lon": 17.5887612
  },
  {
   "kraj": "TT",
@@ -2709,9 +2749,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; najvacsia vaznica v SR, velka vazenska kuchyna var 3x denne pre vsetkych odsudenych + personal",
+  "konatel": "",
   "lat": 48.3519493,
-  "lon": 17.5651008,
-  "konatel": ""
+  "lon": 17.5651008
  },
  {
   "kraj": "TT",
@@ -2727,9 +2767,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "TT1",
   "pozn": "najvacsi okresny urad v kraji, miestna statna sprava, moznost cateringu/VO",
+  "konatel": "",
   "lat": 48.3718636,
-  "lon": 17.5859539,
-  "konatel": ""
+  "lon": 17.5859539
  },
  {
   "kraj": "TT",
@@ -2740,14 +2780,14 @@ const GASTRO_DATA = [
   "mesto": "Trnava",
   "okres": "Trnava",
   "velkost": "statny zbor, stovky zamestnancov; pod MV SR",
-  "tel": "",
+  "tel": "033 5564111",
   "email": "sekretariat.tt@minv.sk",
   "web": "minv.sk",
   "zona": "TT1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; ICO=MV SR (vlastne ICO nedohladane)",
+  "konatel": "",
   "lat": 48.3742834,
-  "lon": 17.5853656,
-  "konatel": ""
+  "lon": 17.5853656
  },
  {
   "kraj": "TT",
@@ -2763,1251 +2803,9 @@ const GASTRO_DATA = [
   "web": "zsr.sk",
   "zona": "TT1",
   "pozn": "OZ Trnava pokryva TT+NR kraj; vlastna kuchyna/zavodne stravovanie",
+  "konatel": "Miroslav Garaj",
   "lat": 48.3687029,
-  "lon": 17.5842316,
-  "konatel": "Miroslav Garaj"
- },
- {
-  "kraj": "TN",
-  "kat": "Catering dodavatel",
-  "firma": "Catering Trencin (Polis)",
-  "ico": "53236807",
-  "adresa": "Mierove namestie 1",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "live-cooking catering do 1000 hosti, firemne aj eventy",
-  "tel": "0911 554 911",
-  "email": "polis.trencin@gmail.com",
-  "web": "cateringtrencin.sk",
-  "zona": "N1",
-  "pozn": "catering do 1000 osob, firemne stravovanie + rozvoz",
-  "lat": 48.89441,
-  "lon": 18.0399914,
-  "konatel": "Peter Bočík"
- },
- {
-  "kraj": "TN",
-  "kat": "Catering dodavatel",
-  "firma": "GASTRO-SYST s.r.o.",
-  "ico": "36300691",
-  "adresa": "Legionarska 5",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "vyroba teplych jedal + zavodne stravovanie pre PO v Trencine a okoli",
-  "tel": "032/381 15 58",
-  "email": "",
-  "web": "gastro-syst.sk",
-  "zona": "N1",
-  "pozn": "SILNY CIEL; dodavatel stravy pre pravnicke osoby, vlastna vyvarovna",
-  "lat": 48.8870783,
-  "lon": 18.035633,
-  "konatel": "Radek Roth"
- },
- {
-  "kraj": "TN",
-  "kat": "Catering dodavatel",
-  "firma": "GASTRO GROUP s.r.o.",
-  "ico": "36317969",
-  "adresa": "Rybarska 1",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "trzby 1,07 mil EUR (2025), 25-49 zam; catering pre firmy + hostiny/svadby",
-  "tel": "",
-  "email": "",
-  "web": "gastrogroup.sk",
-  "zona": "N8",
-  "pozn": "jediny dedikovany cateringovy dodavatel v okrese, vlastna vyvarovna + rozvoz",
-  "lat": 48.7560492,
-  "lon": 17.8426128,
-  "konatel": "Slávka Snohová, Milan Špánik"
- },
- {
-  "kraj": "TN",
-  "kat": "Catering dodavatel",
-  "firma": "Champion Food s.r.o.",
-  "ico": "36336882",
-  "adresa": "M. R. Stefanika 175/32",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "trzby 1,31 mil EUR (2024), 10-19 zam; vyroba peciva/studena kuchyna + catering",
-  "tel": "",
-  "email": "",
-  "web": "championfood.sk",
-  "zona": "N3",
-  "pozn": "vyroba bagiet/salatov/studenej kuchyne + catering",
-  "lat": 49.1185708,
-  "lon": 18.4383117,
-  "konatel": "Marek Brojo"
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "HEES - GASTROSLUZBY spol. s r.o.",
-  "ico": "34131710",
-  "adresa": "Hodzova 37",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "trzby 0,97 mil EUR (2024), 6-25 zam; skolske jedalne + dovoz stravy pre seniorov mesta",
-  "tel": "",
-  "email": "",
-  "web": "",
-  "zona": "N1",
-  "pozn": "prevadzkuje skolske jedalne + mestsky dovoz stravy, vlastna vyvarovna",
-  "lat": 48.8975251,
-  "lon": 18.0592243,
-  "konatel": "Ramzi Hassouna, Lazhar Hassouna, Beáta Hassounová"
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "GASTRO-SERVICE a.s. (byv. ZTS-SLUZBY)",
-  "ico": "36302694",
-  "adresa": "Tovarenska 1",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "kapacita ~12000 jedal/den (ZTS areal), priestory 25-300 miest, restauracia Gurman",
-  "tel": "",
-  "email": "",
-  "web": "gastroservice.sk",
-  "zona": "N2",
-  "pozn": "SILNY CIEL; preberalo zavodne stravovanie celeho ZTS arealu Dubnica, velkokapacitna vyvarovna + catering",
-  "lat": 48.9675722,
-  "lon": 18.1850808,
-  "konatel": "Milan Vozár, Jozef Chrenko, Ing. Erika, Andrea Lalinská"
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "BESPA - STRAV PD s.r.o.",
-  "ico": "33609438",
-  "adresa": "Kosovska 16",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "vyvarovna - zavodne aj verejne stravovanie, viacero prevadzok",
-  "tel": "",
-  "email": "bespastrav@zoznam.sk",
-  "web": "bespastrav.sk",
-  "zona": "N5",
-  "pozn": "dodavatel teplych obedov pre firmy a verejnost v Prievidzi, rozvoz a vydaj",
-  "lat": 48.7651044,
-  "lon": 18.6178423,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "Gastro - sluzby s.r.o.",
-  "ico": "36298531",
-  "adresa": "Robotnicka 2156",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "trzby 1,42 mil EUR (2024), 25-49 zam; zmluvne stravovanie",
-  "tel": "042/432 22 59",
-  "email": "",
-  "web": "gastro-sluzby.sk",
-  "zona": "N3",
-  "pozn": "SILNY CIEL; profesional na zavodne/skolske stravovanie + catering + rozvoz menu",
-  "lat": 49.1228658,
-  "lon": 18.4299255,
-  "konatel": "Oldřich Vdoleček, Richard Vdoleček"
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "HARVIS s.r.o.",
-  "ico": "31410081",
-  "adresa": "Priemyselna 2",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "trzby 0,85 mil EUR (2025), 20-24 zam; denne obedove menu + rozvoz, priemyselna zona",
-  "tel": "",
-  "email": "",
-  "web": "menu.harvis.sk",
-  "zona": "N8",
-  "pozn": "vyvarovna pre priemyselny park NMnV; odber surovin vo vacsom objeme",
-  "lat": 48.7401681,
-  "lon": 17.8217107,
-  "konatel": "Miroslav Hlinka, Štefan Hlinka"
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "Restauracia Viva (Puchov)",
-  "ico": "doplnit ORSR",
-  "adresa": "doplnit",
-  "mesto": "Puchov",
-  "okres": "Puchov",
-  "velkost": "rozvoz obedoveho menu firmam v Puchove a okoli",
-  "tel": "0911 394 971",
-  "email": "",
-  "web": "restauraciaviva.sk",
-  "zona": "N4",
-  "pozn": "dodavatel teplych obedov B2B (rozvoz do firiem) + spolocenske podujatia; ICO doplnit",
-  "lat": 49.123928,
-  "lon": 18.3239559,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "Socialne sluzby Myjava n.o.",
-  "ico": "36119610",
-  "adresa": "Trokanova 236",
-  "mesto": "Myjava",
-  "okres": "Myjava",
-  "velkost": "utulok kap. 47 klientov + komunitne centrum/noclaharen, vlastna kuchyna",
-  "tel": "",
-  "email": "",
-  "web": "",
-  "zona": "N9",
-  "pozn": "socialne stravovanie pre klientov utulkov/noclaharne v Myjave; mensia kapacita",
-  "lat": 48.7564692,
-  "lon": 17.5693827,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Fakultna nemocnica Trencin",
-  "ico": "00610470",
-  "adresa": "Legionarska 641/28",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "trzby 97,8 mil EUR (2025), 1000-1999 zam; vlastne oddelenie liecebnej vyzivy a stravovania",
-  "tel": "",
-  "email": "",
-  "web": "fntn.sk",
-  "zona": "N1",
-  "pozn": "SILNY CIEL; velka nemocnicna kuchyna, pacienti + personal",
-  "lat": 48.8843801,
-  "lon": 18.0308363,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Trencianska univerzita A. Dubceka (TnUAD)",
-  "ico": "31118259",
-  "adresa": "Studentska 1639/2",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "trzby 26,5 mil EUR (2025), 250-499 zam; vlastna jedalen + studentske domovy",
-  "tel": "032/740 01 11",
-  "email": "",
-  "web": "tnuni.sk",
-  "zona": "N1",
-  "pozn": "SILNY CIEL; univerzitna jedalen + internaty",
-  "lat": 48.8986434,
-  "lon": 18.0474896,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "ZVS holding a.s.",
-  "ico": "36305600",
-  "adresa": "Sturova 925/27",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "trzby 119,4 mil EUR (2024), 1000-1999 zam",
-  "tel": "",
-  "email": "",
-  "web": "zvsholding.sk",
-  "zona": "N2",
-  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu (zbrojarstvo), velka zavodna jedalen",
-  "lat": 48.953013,
-  "lon": 18.1826864,
-  "konatel": "Ľubomír Šebo, Jakub Krchňavý, Daniel Duchoň, Milan Krištof"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "STV Machinery a.s. (byv. MATADOR Industries)",
-  "ico": "31632301",
-  "adresa": "Tovarenska 1",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "200-249 zam; kovovyroba v ZTS areali",
-  "tel": "",
-  "email": "",
-  "web": "stv-machinery.sk",
-  "zona": "N2",
-  "pozn": "zavodna jedalen v ZTS areali (cast stravy cez GASTRO-SERVICE)",
-  "lat": 48.9675722,
-  "lon": 18.1850808,
-  "konatel": "Mário Chudý, Jozef Kubena, Jozef Sýkora, Pavel Beran"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "HF Slovakia a.s. (byv. HF NaJUS)",
-  "ico": "36294632",
-  "adresa": "Lieskovec 847/124",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "150-199 zam; vyroba strojov pre gumarensky priemysel",
-  "tel": "",
-  "email": "",
-  "web": "hfnajus.sk",
-  "zona": "N2",
-  "pozn": "vacsi zavod v Dubnici, zavodne stravovanie",
-  "lat": 48.9715355,
-  "lon": 18.1976222,
-  "konatel": "Karol Vanko, Tomáš Kyčina, Holger Rudzio, Zoran Uranjek, Ľubomír Žilka"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Ustav na vykon trestu a vazby Ilava (ZVJS)",
-  "ico": "doplnit ORSR",
-  "adresa": "Mierove namestie 1",
-  "mesto": "Ilava",
-  "okres": "Ilava",
-  "velkost": "kapacita 846 miest (677 odsudeni + 169 obvineni)",
-  "tel": "042/446 54 32",
-  "email": "ustavil@zvjs.sk",
-  "web": "zvjs.sk",
-  "zona": "N2",
-  "pozn": "SILNY CIEL; vazenska kuchyna pre 846+ osob denne; ICO over (ZVJS zdiela 00738344)",
-  "lat": 48.9980143,
-  "lon": 18.231942,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Centrum socialnych sluzieb AVE Dubnica",
-  "ico": "00632384",
-  "adresa": "Sportovcov 671/23",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "celorocna pobytova soc. sluzba, vlastna kuchyna",
-  "tel": "042/442 12 92",
-  "email": "info@cssdubnica.sk",
-  "web": "cssdubnica.sk",
-  "zona": "N2",
-  "pozn": "DSS s vlastnou kuchynou, denne stravovanie klientov",
-  "lat": 48.960372,
-  "lon": 18.1594926,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Zariadenie pre seniorov Dubina m.r.o.",
-  "ico": "00632333",
-  "adresa": "Pod hajom 1291/119",
-  "mesto": "Dubnica nad Vahom",
-  "okres": "Ilava",
-  "velkost": "kapacita 249 klientov, trzby 6,3 mil EUR (2024)",
-  "tel": "",
-  "email": "",
-  "web": "dubina.org",
-  "zona": "N2",
-  "pozn": "velka institucionalna kuchyna, denne stravovanie 249 klientov",
-  "lat": 48.9568606,
-  "lon": 18.1729766,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Brose Prievidza spol. s r.o.",
-  "ico": "48046434",
-  "adresa": "Max Brose 2909/20",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "1000-1999 zam (~1300), trzby 346,6 mil EUR (2023); vlastna zavodna jedalen",
-  "tel": "",
-  "email": "",
-  "web": "brose.com",
-  "zona": "N5",
-  "pozn": "SILNY CIEL; najvacsi automotive zavod okresu, ~1300 zam",
-  "lat": 48.7638765,
-  "lon": 18.5897465,
-  "konatel": "Axel Mallener, Michael Brandstetter, Sabine Neuß"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach",
-  "ico": "17335795",
-  "adresa": "Nemocnicna 2",
-  "mesto": "Bojnice",
-  "okres": "Prievidza",
-  "velkost": "spadova oblast ~140000 obyv.; ustavna nemocnica + celodenne stravovanie",
-  "tel": "",
-  "email": "",
-  "web": "hospital-bojnice.sk",
-  "zona": "N5",
-  "pozn": "SILNY CIEL; velka okresna nemocnica, pacienti + personal",
-  "lat": 48.7853369,
-  "lon": 18.5894152,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "FORTISCHEM a.s.",
-  "ico": "46693874",
-  "adresa": "M. R. Stefanika 1",
-  "mesto": "Novaky",
-  "okres": "Prievidza",
-  "velkost": "500-999 zam; chemicky zavod so zavodnym stravovanim",
-  "tel": "",
-  "email": "",
-  "web": "fortischem.sk",
-  "zona": "N5",
-  "pozn": "SILNY CIEL; najvacsi chemicky zavod regionu, smenne stravovanie",
-  "lat": 48.7051557,
-  "lon": 18.5326102,
-  "konatel": "Ján Hartl, Jakub Racek, Jan Křička, Patrik Košian, Andrej Nociar"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "VEGUM a.s.",
-  "ico": "44141211",
-  "adresa": "Gumarenska 337",
-  "mesto": "Dolne Vestenice",
-  "okres": "Prievidza",
-  "velkost": "500-999 zam; gumarensky zavod, smenna prevadzka so stravovanim",
-  "tel": "",
-  "email": "",
-  "web": "vegum.sk",
-  "zona": "N5",
-  "pozn": "SILNY CIEL; velky gumarensky zavod, smenne stravovanie; Dolne Vestenice = okres Prievidza",
-  "lat": 48.6996957,
-  "lon": 18.4030904,
-  "konatel": "Paulína Jakubec, Peter Hajduk, Teodor Kvapil, Miroslav Bebjak"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Hornonitrianske bane Prievidza a.s. (HBP)",
-  "ico": "36005622",
-  "adresa": "Matiasovce 10",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "trzby ~12,2 mil EUR (2024); banska firma, viacero prevadzok",
-  "tel": "",
-  "email": "",
-  "web": "hbp.sk",
-  "zona": "N5",
-  "pozn": "tazba uhlia ukoncena 2023, firma funguje; over aktualnu kapacitu stravovania",
-  "lat": 48.7718361,
-  "lon": 18.6234916,
-  "konatel": "Peter Čičmanec, Stanislav Gurský, Petra Sládečková"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "HELLA Slovakia Lighting s.r.o.",
-  "ico": "36325732",
-  "adresa": "Svatoplukova 1550",
-  "mesto": "Banovce nad Bebravou",
-  "okres": "Banovce nad Bebravou",
-  "velkost": "~3000 zam (3 zavody), trzby 712,5 mil EUR; autosvietidla, zavodna jedalen",
-  "tel": "",
-  "email": "",
-  "web": "hella.com",
-  "zona": "N7",
-  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu, masivne smenne stravovanie",
-  "lat": 48.7303027,
-  "lon": 18.2495556,
-  "konatel": "Giovanni Salatin, Jenal Bukeh, Matej Kseňák, Daniel Dvořák"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Gabor spol. s r.o.",
-  "ico": "36322067",
-  "adresa": "J. Gabora 1",
-  "mesto": "Banovce nad Bebravou",
-  "okres": "Banovce nad Bebravou",
-  "velkost": "~1300-1800 zam; obuvnicka vyroba, zavodne stravovanie",
-  "tel": "",
-  "email": "",
-  "web": "gabor.sk",
-  "zona": "N7",
-  "pozn": "SILNY CIEL; velky obuvnicky zavod, celodenne stravovanie zamestnancov",
-  "lat": 48.7216671,
-  "lon": 18.2598263,
-  "konatel": "Juraj Vodička, Markus Bacher"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "MILSY a.s. (Banovecka mliekaren)",
-  "ico": "31412572",
-  "adresa": "Partizanska 224/B",
-  "mesto": "Banovce nad Bebravou",
-  "okres": "Banovce nad Bebravou",
-  "velkost": "250-499 zam; mliekaren, zavodne stravovanie",
-  "tel": "",
-  "email": "",
-  "web": "banoveckamliekaren.sk",
-  "zona": "N7",
-  "pozn": "velky potravinarsky zavod; zavodna jedalen, aj potencialny dodavatel mliecnych surovin",
-  "lat": 48.7124664,
-  "lon": 18.2565905,
-  "konatel": "Bohuslav Šiko, Rastislav Lupták, Andrea Mokrá, Andreas Aichinger"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "LOWA PRODUCTION s.r.o.",
-  "ico": "31420796",
-  "adresa": "Tovarenska 10",
-  "mesto": "Bosany",
-  "okres": "Partizanske",
-  "velkost": "~1900 zam, trzby 121,5 mil EUR; obuvnicky zavod (Tecnica Group), zavodna jedalen",
-  "tel": "",
-  "email": "",
-  "web": "lowa.sk",
-  "zona": "N6",
-  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Partizanske, masivne smenne stravovanie",
-  "lat": 48.5766942,
-  "lon": 18.2424823,
-  "konatel": "Alberto Zanatta, Alexander Nicolai, Richard Cesar"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Medline Assembly Slovakia s.r.o.",
-  "ico": "47858168",
-  "adresa": "Malobielicka 284/8",
-  "mesto": "Partizanske",
-  "okres": "Partizanske",
-  "velkost": "500-999 zam, trzby 82,5 mil EUR (2024); vyroba zdravotnickych pomocok",
-  "tel": "",
-  "email": "",
-  "web": "medline.eu",
-  "zona": "N6",
-  "pozn": "SILNY CIEL; druhy najvacsi zavod okresu, rastuci, smenne stravovanie",
-  "lat": 48.6281665,
-  "lon": 18.3308972,
-  "konatel": "Lionel Dintras, Andrew Mills"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica na okraji mesta n.o. (Partizanske)",
-  "ico": "45736316",
-  "adresa": "Nova nemocnica 511",
-  "mesto": "Partizanske",
-  "okres": "Partizanske",
-  "velkost": "250-499 zam, 6 oddeleni + 18 ambulancii; celodenne stravovanie",
-  "tel": "",
-  "email": "",
-  "web": "pentahospitals.sk",
-  "zona": "N6",
-  "pozn": "okresna nemocnica (Penta Hospitals), pacienti + personal",
-  "lat": 48.6265223,
-  "lon": 18.371762,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Povazska Bystrica",
-  "ico": "00610411",
-  "adresa": "Nemocnicna 986/1",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "trzby 56,7 mil EUR (2025), lozkova nemocnica TSK",
-  "tel": "",
-  "email": "",
-  "web": "nemocnicapb.sk",
-  "zona": "N3",
-  "pozn": "SILNY CIEL; velka lozkova nemocnica, vlastna kuchyna, pacienti + personal",
-  "lat": 49.1066834,
-  "lon": 18.4605166,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "thyssenkrupp rothe erde Slovakia a.s. (ex-PSL)",
-  "ico": "31626599",
-  "adresa": "Robotnicka",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "500-999 zam, trzby ~76,5 mil EUR (2025), vyroba lozisk",
-  "tel": "",
-  "email": "",
-  "web": "thyssenkrupp-rotheerde.com",
-  "zona": "N3",
-  "pozn": "SILNY CIEL; velka strojarska fabrika, zavodne stravovanie",
-  "lat": 49.1228658,
-  "lon": 18.4299255,
-  "konatel": "Achim Stuhlmann, Ľudovít Francl, Ľuboš Šimík, Lisa Denoyelle"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "NsP Zdravie s.r.o. (NsP Puchov)",
-  "ico": "53770668",
-  "adresa": "Pod Lachovcom 1727/55",
-  "mesto": "Puchov",
-  "okres": "Puchov",
-  "velkost": "nemocnica s poliklinikou, viacero ambulancii + lekarne",
-  "tel": "042/460 51 11",
-  "email": "info@nspzdravie.sk",
-  "web": "nspzdravie.sk",
-  "zona": "N4",
-  "pozn": "nemocnicne stravovanie pacientov a personalu",
-  "lat": 49.1294986,
-  "lon": 18.3237458,
-  "konatel": "Rastislav Pagáč, Michal Pagáč, Miloš Pagáč, Zdeňka Pagáčová"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Continental Tires Slovakia s.r.o. (ex-Matador Rubber)",
-  "ico": "36709557",
-  "adresa": "Terezie Vansovej 1054",
-  "mesto": "Puchov",
-  "okres": "Puchov",
-  "velkost": "5000-9999 zam, trzby 1,751 mld EUR (2024), vyroba pneumatik",
-  "tel": "",
-  "email": "",
-  "web": "continental.com",
-  "zona": "N4",
-  "pozn": "SILNY CIEL #1; obrovska zavodna jedalen (najvacsi zamestnavatel kraja), tisice obedov denne",
-  "lat": 49.1031,
-  "lon": 18.3176,
-  "konatel": "Igor Krištofík, Ladislav Rosina, Marián Kurtin"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "RONA a.s.",
-  "ico": "31642403",
-  "adresa": "Schreiberova 365",
-  "mesto": "Lednicke Rovne",
-  "okres": "Puchov",
-  "velkost": "1000-1999 zam, trzby 70,72 mil EUR (2025), sklarne",
-  "tel": "",
-  "email": "",
-  "web": "rona.glass",
-  "zona": "N4",
-  "pozn": "SILNY CIEL; velka sklarska fabrika so zavodnou jedalnou; aj vyrobca poharov pre gastro",
-  "lat": 49.0672865,
-  "lon": 18.2872364,
-  "konatel": "Stanislav Biroš, Pavol Brnka, Štefan Hanák, Peter Vačko"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Vertiv Slovakia a.s. (byv. Emerson)",
-  "ico": "31411606",
-  "adresa": "Piestanska 1202",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "trzby 267,7 mil EUR (2024), 1000-1999 zam; najvacsi zamestnavatel okresu",
-  "tel": "",
-  "email": "",
-  "web": "vertiv.com",
-  "zona": "N8",
-  "pozn": "SILNY CIEL; 1000+ zam, najvacsia fabrika okresu, zavodna jedalen",
-  "lat": 48.7438855,
-  "lon": 17.8362388,
-  "konatel": "Jozef Aľušík, Božena Nunhardt, Giovanna Moschetto, Christopher Hales, Paul Ryan"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Elster s.r.o. (Honeywell)",
-  "ico": "31421482",
-  "adresa": "nam. Dr. Alberta Schweitzera 194",
-  "mesto": "Stara Tura",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "250-499 zam, vyrobca plynomerov, zavodna jedalen",
-  "tel": "",
-  "email": "",
-  "web": "elster.sk",
-  "zona": "N8",
-  "pozn": "SILNY CIEL; velka fabrika v Starej Turej (areal Chirana), clen Honeywell",
-  "lat": 48.7732958,
-  "lon": 17.6966817,
-  "konatel": "Ľubomír Brezina, Štefan Ševela"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "CHIRANA T.Injecta a.s.",
-  "ico": "36794619",
-  "adresa": "nam. Dr. Alberta Schweitzera 194",
-  "mesto": "Stara Tura",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "trzby 23,82 mil EUR (2024), 250-499 zam; zdravotnicka technika",
-  "tel": "",
-  "email": "",
-  "web": "chirana.eu",
-  "zona": "N8",
-  "pozn": "SILNY CIEL; historicky areal Chirana v Starej Turej, zavodne stravovanie",
-  "lat": 48.7732958,
-  "lon": 17.6966817,
-  "konatel": "Ing. Ľubomír Šoltýs, Mgr. Michal Staroň, Ing. Martin Lieskovský, Martin Šmigura"
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Zariadenie pre seniorov Nove Mesto nad Vahom",
-  "ico": "42372984",
-  "adresa": "Frana Krala 2688/4",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "kapacita 92 lozok, 24h prevadzka s vlastnou kuchynou",
-  "tel": "",
-  "email": "",
-  "web": "zpsnm.sk",
-  "zona": "N8",
-  "pozn": "celodenne stravovanie 92 klientov + zamestnanci (mestska org.)",
-  "lat": 48.7533958,
-  "lon": 17.8262642,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Myjava",
-  "ico": "00610721",
-  "adresa": "Staromyjavska 712/59",
-  "mesto": "Myjava",
-  "okres": "Myjava",
-  "velkost": "vynosy 17,28 mil EUR (2025), lozkove oddelenia, vlastna nemocnicna kuchyna",
-  "tel": "034/697 91 11",
-  "email": "",
-  "web": "nspmyjava.sk",
-  "zona": "N9",
-  "pozn": "SILNY CIEL; jedina nemocnica okresu, najvacsi odberatel potravin v okrese",
-  "lat": 48.7632026,
-  "lon": 17.5613471,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "C.E.P. Scherdel Pruziny spol. s r.o.",
-  "ico": "31445012",
-  "adresa": "Javorinska 1200/4",
-  "mesto": "Myjava",
-  "okres": "Myjava",
-  "velkost": "200-249 zam, vyroba pruzin a kovovych dielov, zavodna jedalen",
-  "tel": "",
-  "email": "",
-  "web": "scherdel.sk",
-  "zona": "N9",
-  "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel v meste Myjava",
-  "lat": 48.7637922,
-  "lon": 17.573576,
-  "konatel": "Herbert Makosch, Ulrich Petzschke, Róbert Sasák"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Hotel Elizabeth (SYNOT GASTRO SLOVAKIA)",
-  "ico": "36690805",
-  "adresa": "Gen. M. R. Stefanika 2",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "trzby 8,6 mil EUR (2024); kongresova sala 180 miest, restauracia + Cafe Sissi, 78 izieb",
-  "tel": "",
-  "email": "",
-  "web": "hotelelizabeth.sk",
-  "zona": "N1",
-  "pozn": "SILNY CIEL; 4* hotel, najvacsia kongresova/banketova sala v centre Trencina",
-  "lat": 48.6466095,
-  "lon": 18.3669031,
-  "konatel": "Jana Donková, Erik Donko, Kvetoslava Klčovská"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Hotel Magnus (NLK GROUP)",
-  "ico": "doplnit ORSR",
-  "adresa": "Vodna 7",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "kongresova miestnost 120 miest + dalsie saly, restauracia + wellness + bowling",
-  "tel": "",
-  "email": "",
-  "web": "hotelmagnus.sk",
-  "zona": "N1",
-  "pozn": "4* hotel, kongresove priestory do 120 miest; ICO prevadzkovatela over",
-  "lat": 48.6584805,
-  "lon": 17.5648828,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Kupele Bojnice a.s.",
-  "ico": "31638694",
-  "adresa": "Kupele 1",
-  "mesto": "Bojnice",
-  "okres": "Prievidza",
-  "velkost": "250-499 zam, trzby 18,68 mil EUR (2024); kupelny areal, viacero jedalni (Lysec, Banik, Mier)",
-  "tel": "",
-  "email": "",
-  "web": "kupele-bojnice.sk",
-  "zona": "N5",
-  "pozn": "SILNY CIEL; velkokapacitne celodenne stravovanie hosti kupelov",
-  "lat": 48.7750199,
-  "lon": 18.5720005,
-  "konatel": "Slavomír Eliaš, Ján Mravík, Ctibor Stacha"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "RM Hotel Wellness & Congress (LK Consulting SK)",
-  "ico": "45920397",
-  "adresa": "Uzka 418/4",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "4* hotel, kongresova sala do 100 osob + restauracia",
-  "tel": "",
-  "email": "",
-  "web": "rmhotel.sk",
-  "zona": "N5",
-  "pozn": "najvacsi kongresovo-banketovy hotel v Prievidzi; svadby, firemne akcie, catering",
-  "lat": 48.7743402,
-  "lon": 18.5982852,
-  "konatel": "Richard Marko"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Hotel Gino Park Palace (EUROCOM & Co)",
-  "ico": "35761172",
-  "adresa": "Orlove 116",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "banket atrium + stan do 250 osob, hl. sala 80, 4* hotel",
-  "tel": "042/445 96 00",
-  "email": "info@parkpalace.sk",
-  "web": "parkpalace.sk",
-  "zona": "N3",
-  "pozn": "SILNY CIEL; najvacsia banketova kapacita v okrese (250); sidlo firmy v BA, prevadzka Orlove",
-  "lat": 49.130776,
-  "lon": 18.4249771,
-  "konatel": "Nodari Giorgadze, Lali Tvauri"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "ALEXANDRA HOTEL s.r.o.",
-  "ico": "36845981",
-  "adresa": "Dvory 581",
-  "mesto": "Puchov",
-  "okres": "Puchov",
-  "velkost": "kongres/banket do 280 osob, 4* hotel",
-  "tel": "",
-  "email": "",
-  "web": "alexandrahotel.sk",
-  "zona": "N4",
-  "pozn": "SILNY CIEL; najvacsia kongresova/svadobna sala v Puchove (280 miest)",
-  "lat": 49.1265332,
-  "lon": 18.3298679,
-  "konatel": "Ivana Hantáková"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Sisi Rent s.r.o. (SISI Gardens)",
-  "ico": "52078825",
-  "adresa": "Strezenicka cesta 45",
-  "mesto": "Puchov",
-  "okres": "Puchov",
-  "velkost": "svadobna sala do 130 osob + zahradna terasa",
-  "tel": "",
-  "email": "",
-  "web": "sisigardens.sk",
-  "zona": "N4",
-  "pozn": "svadobna/eventova sala 130 miest, ubytovanie + stravovanie",
-  "lat": 49.1140045,
-  "lon": 18.3109652,
-  "konatel": "Radoslav Prokop, Matej Prokop"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Mestske kulturne stredisko Nove Mesto nad Vahom",
-  "ico": "00350702",
-  "adresa": "Hviezdoslavova 4",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "spolocenska sala 164 miest + balkon 60; prispevkova org. mesta",
-  "tel": "",
-  "email": "riaditelka@msks.sk",
-  "web": "msks.sk",
-  "zona": "N8",
-  "pozn": "najvacsia banketova/spolocenska sala v meste; catering externe",
-  "lat": 48.7567319,
-  "lon": 17.8275982,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Sprava majetku Mesta Myjava s.r.o. (KD Samka Dudika)",
-  "ico": "36268071",
-  "adresa": "M. R. Stefanika 560/4",
-  "mesto": "Myjava",
-  "okres": "Myjava",
-  "velkost": "velka sala 609 miest (prizemie 428 + balkon 181) + spolocenska sala + VIP salonik",
-  "tel": "034/621 33 89",
-  "email": "",
-  "web": "smmm.sk",
-  "zona": "N9",
-  "pozn": "najvacsia banketova/kongresova sala v okrese; externy catering",
-  "lat": 48.7526382,
-  "lon": 17.5659685,
-  "konatel": "Emília Maniačková, Ing. Emil Hlavatovič"
- },
- {
-  "kraj": "TN",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Agropenzion ADAM Podkylava (TBS a.s.)",
-  "ico": "36303241",
-  "adresa": "Podkylava 916",
-  "mesto": "Podkylava",
-  "okres": "Myjava",
-  "velkost": "53 lozok, 3 gastroprevadzky (Koliba Eva), kongresova sala + salon, wellness",
-  "tel": "032/777 21 11",
-  "email": "",
-  "web": "penzion-adam.sk",
-  "zona": "N9",
-  "pozn": "ubytovaco-eventove zariadenie; svadby/firemne/kongresy; ICO patri prevadzkovatelovi TBS a.s. - over ORSR",
-  "lat": 48.6825621,
-  "lon": 17.6688858,
-  "konatel": "Ľubor Tĺčik, Ľudmila Tĺčiková, Miroslava Lacková, Anna Obuchová"
- },
- {
-  "kraj": "TN",
-  "kat": "Restauracna siet (3+ prevadzok)",
-  "firma": "Cinska restauracia Zlaty Lotos",
-  "ico": "doplnit ORSR",
-  "adresa": "doplnit",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "siet 3 prevadzok (Povazska Bystrica, Puchov, Dubnica nad Vahom)",
-  "tel": "",
-  "email": "",
-  "web": "cinskejedlo.sk",
-  "zona": "N3",
-  "pozn": "retazec 3 prevadzok, uvedene na sidle PB; ICO nezistene z verejnych zdrojov",
-  "lat": 49.1159316,
-  "lon": 18.4469936,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Restauracna siet (3+ prevadzok)",
-  "firma": "COOP Jednota Prievidza spotrebne druzstvo",
-  "ico": "00169005",
-  "adresa": "A. Hlinku I. 437",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "velke spotrebne druzstvo, viacero retail + gastro prevadzok (bufety/jedalne)",
-  "tel": "",
-  "email": "",
-  "web": "coopprievidza.sk",
-  "zona": "N5",
-  "pozn": "sidlo druzstva; viacero gastro prevadzok; analogia ku COOP Jednota Trnava",
-  "lat": 48.7734738,
-  "lon": 18.6166724,
-  "konatel": "Janka Madajová, Antonín Cholasta, Oľga Majerová, Ján Budovič, Anton Pavlíček"
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Trenciansky samospravny kraj (Urad TSK)",
-  "ico": "36126624",
-  "adresa": "K dolnej stanici 7282/20A",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "150-199 zam, rozpocet ~153 mil EUR (2025); zriadovatel desiatok strednych skol a socialnych zariadeni s vlastnymi kuchynami",
-  "tel": "032/6555111",
-  "email": "info@tsk.sk",
-  "web": "tsk.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; krajsky urad + zriadovatel SS a soc. zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)",
-  "lat": 48.887335,
-  "lon": 18.0335441,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Fakultna nemocnica Trencin",
-  "ico": "00610470",
-  "adresa": "Legionarska 28",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "1000-1999 zam, naklady ~125 mil EUR (2025); velka nemocnicna kuchyna varia pre pacientov + personal",
-  "tel": "032/6566111",
-  "email": "riaditel@fntn.sk",
-  "web": "fntn.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; velka nemocnicna kuchyna (kazdodenne stravovanie pacientov a personalu), verejne obstaravanie potravin",
-  "lat": 48.8843801,
-  "lon": 18.0308363,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Trencianska univerzita Alexandra Dubceka v Trencine",
-  "ico": "31118259",
-  "adresa": "Studentska 2",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "verejna vysoka skola, tisice studentov + zam; studentsky domov s jedalnou",
-  "tel": "032/7400111",
-  "email": "rektor@tnuni.sk",
-  "web": "tnuni.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; studentsky domov a jedalen (vysokoskolske stravovanie), verejne obstaravanie potravin",
-  "lat": 48.8986434,
-  "lon": 18.0474896,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Velitelstvo pozemnych sil OS SR Trencin (vojenska posadka)",
-  "ico": "30845572",
-  "adresa": "Kragujevackych hrdinov",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "velitelstvo PS OS SR + posadka Trencin, stovky vojakov; velka vojenska jedalen",
-  "tel": "",
-  "email": "",
-  "web": "mosr.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; vojenska posadka s velkou jedalnou (kazdodenne stravovanie posadky); utvar OS SR pod MO SR",
-  "lat": 48.8956027,
-  "lon": 18.0496368,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Ustav na vykon trestu odnatia slobody a Ustav na vykon vazby Ilava (ZVJS)",
-  "ico": "00738344",
-  "adresa": "Mierove namestie 1",
-  "mesto": "Ilava",
-  "okres": "Ilava",
-  "velkost": "vazenske zariadenie ZVJS, stovky odsudenych + personal; vazenska kuchyna",
-  "tel": "042/2831111",
-  "email": "ustavil@zvjs.sk",
-  "web": "zvjs.sk",
-  "zona": "TN3",
-  "pozn": "SILNY CIEL; vazenska kuchyna (kazdodenne stravovanie odsudenych a personalu), verejne obstaravanie potravin",
-  "lat": 48.9980143,
-  "lon": 18.231942,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Trencin (Mestsky urad)",
-  "ico": "00312037",
-  "adresa": "Mierove namestie 2",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "200-249 zam (mesto), najvacsia samosprava kraja; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "032/6504111",
-  "email": "mestsky.urad@trencin.sk",
-  "web": "trencin.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin/stravy)",
-  "lat": 48.89441,
-  "lon": 18.0399914,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Prievidza (Mestsky urad)",
-  "ico": "00318442",
-  "adresa": "Namestie slobody 14",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "250-499 zam (mesto + organizacie), druha najvacsia samosprava kraja",
-  "tel": "046/5179110",
-  "email": "info@prievidza.sk",
-  "web": "prievidza.sk",
-  "zona": "TN2",
-  "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Prievidza (odber potravin/stravy)",
-  "lat": 48.7713124,
-  "lon": 18.6241498,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Povazska Bystrica (Mestsky urad)",
-  "ico": "00317667",
-  "adresa": "Centrum 2/3",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "250-499 zam (mesto + organizacie), tretia najvacsia samosprava kraja",
-  "tel": "042/4305111",
-  "email": "primator@povazska-bystrica.sk",
-  "web": "povazska-bystrica.sk",
-  "zona": "TN3",
-  "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v Povazskej Bystrici (odber potravin/stravy)",
-  "lat": 49.1162074,
-  "lon": 18.4472524,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Hornonitrianske bane Prievidza, a.s. (HBP)",
-  "ico": "36005622",
-  "adresa": "Matice slovenskej 10",
-  "mesto": "Prievidza",
-  "okres": "Prievidza",
-  "velkost": "500-999 zam, najvacsi zamestnavatel hornej Nitry; zavodne stravovanie",
-  "tel": "046/5421111",
-  "email": "hbp@hbp.sk",
-  "web": "hbp.sk",
-  "zona": "TN2",
-  "pozn": "najvacsi priemyselny zamestnavatel regionu, zavodne stravovanie pre stovky baniarov; over model jedalne (vlastna vs externa)",
-  "lat": 48.7703573,
-  "lon": 18.6260215,
-  "konatel": "Peter Čičmanec, Stanislav Gurský, Petra Sládečková"
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Krajske riaditelstvo Policajneho zboru v Trencine",
-  "ico": "00151866",
-  "adresa": "Jilemnickeho 1",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "krajske riaditelstvo PZ, stovky prislusnikov v kraji",
-  "tel": "0961/201111",
-  "email": "",
-  "web": "minv.sk",
-  "zona": "TN1",
-  "pozn": "krajske riaditelstvo PZ; spada pod MV SR (ICO 00151866); over ci ma vlastnu jedalen alebo obstarava stravu externe",
-  "lat": 48.8886533,
-  "lon": 18.0345975,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Okresny urad Trencin",
-  "ico": "00151866",
-  "adresa": "Hviezdoslavova 3",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "okresny urad v sidle kraja, klientske centrum + odbory, stovky zam",
-  "tel": "032/7411111",
-  "email": "",
-  "web": "minv.sk",
-  "zona": "TN1",
-  "pozn": "okresny urad v sidle kraja pod MV SR (ICO 00151866); odber stravnych sluzieb pre zamestnancov, over model",
-  "lat": 48.8932726,
-  "lon": 18.0400079,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Statne firmy a urady",
-  "firma": "Krajske riaditelstvo Hasicskeho a zachranneho zboru v Trencine",
-  "ico": "36127647",
-  "adresa": "Stefanikova 20",
-  "mesto": "Trencin",
-  "okres": "Trencin",
-  "velkost": "statny zbor, stovky zamestnancov; pod MV SR",
-  "tel": "032/741 1550",
-  "email": "sekretariat.tc@minv.sk",
-  "web": "minv.sk",
-  "zona": "TN1",
-  "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
-  "lat": 48.9952219,
-  "lon": 18.2281263,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach",
-  "ico": "17335795",
-  "adresa": "Nemocnicna 581/2",
-  "mesto": "Bojnice",
-  "okres": "Prievidza",
-  "velkost": "obrat 50 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "",
-  "email": "",
-  "web": "hospital-bojnice.sk",
-  "zona": "TN2",
-  "pozn": "SILNY CIEL; prispevkova org TSK; sidlo Bojnice (nie Prievidza); 1000+ zam",
-  "lat": 48.7853369,
-  "lon": 18.5894152,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Povazska Bystrica",
-  "ico": "00610411",
-  "adresa": "Nemocnicna 986/1",
-  "mesto": "Povazska Bystrica",
-  "okres": "Povazska Bystrica",
-  "velkost": "obrat 52 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "",
-  "email": "",
-  "web": "nemocnicapb.sk",
-  "zona": "TN3",
-  "pozn": "SILNY CIEL; prispevkova org TSK; 1000+ zam",
-  "lat": 49.1066834,
-  "lon": 18.4605166,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "NsP Nove Mesto nad Vahom n.o.",
-  "ico": "36119369",
-  "adresa": "M. R. Stefanika 812/2",
-  "mesto": "Nove Mesto nad Vahom",
-  "okres": "Nove Mesto nad Vahom",
-  "velkost": "obrat 11 mil EUR (2025, trzby), 200-249 zam",
-  "tel": "",
-  "email": "",
-  "web": "nemocnica.nspnm.sk",
-  "zona": "TN4",
-  "pozn": "mensa lozkova nemocnica; n.o. TSK",
-  "lat": 48.7535834,
-  "lon": 17.8311931,
-  "konatel": ""
- },
- {
-  "kraj": "TN",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica s poliklinikou Myjava",
-  "ico": "00610721",
-  "adresa": "Staromyjavska 712/59",
-  "mesto": "Myjava",
-  "okres": "Myjava",
-  "velkost": "obrat 16 mil EUR (2025, trzby), 250-499 zam",
-  "tel": "",
-  "email": "",
-  "web": "nspmyjava.sk",
-  "zona": "TN4",
-  "pozn": "prispevkova org TSK; 250-499 zam",
-  "lat": 48.7632026,
-  "lon": 17.5613471,
-  "konatel": ""
+  "lon": 17.5842316
  },
  {
   "kraj": "NR",
@@ -4023,9 +2821,9 @@ const GASTRO_DATA = [
   "web": "jaguarlandrover.com",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu, automobilka, tisice obedov denne v zavodnom stravovani",
+  "konatel": "Russell Leslie, Neil Marsons, Christopher Tye",
   "lat": 48.3458575,
-  "lon": 18.0470198,
-  "konatel": "Russell Leslie, Neil Marsons, Christopher Tye"
+  "lon": 18.0470198
  },
  {
   "kraj": "NR",
@@ -4041,9 +2839,9 @@ const GASTRO_DATA = [
   "web": "foxconn.sk",
   "zona": "",
   "pozn": "SILNY CIEL; velka elektrovyroba v parku Nitra-Sever, smenova prevadzka so zavodnym stravovanim",
+  "konatel": "Peter Hrčka, Han-Min Yen, Michal Valkovič, Chung-Cheng Lin",
   "lat": 48.3270845,
-  "lon": 18.0491024,
-  "konatel": "Peter Hrčka, Han-Min Yen, Michal Valkovič, Chung-Cheng Lin"
+  "lon": 18.0491024
  },
  {
   "kraj": "NR",
@@ -4059,9 +2857,9 @@ const GASTRO_DATA = [
   "web": "fnnitra.sk",
   "zona": "",
   "pozn": "SILNY CIEL; prispevkova org. s vlastnou kuchynou, denne stravovanie pacientov + personalu, najvacsi gastro objem v okrese",
+  "konatel": "",
   "lat": 48.3020114,
-  "lon": 18.087383,
-  "konatel": ""
+  "lon": 18.087383
  },
  {
   "kraj": "NR",
@@ -4077,9 +2875,9 @@ const GASTRO_DATA = [
   "web": "miba.com",
   "zona": "",
   "pozn": "SILNY CIEL; strojarsky zavod (ocelove diely), smenova prevadzka, vlastne stravovanie",
+  "konatel": "Patrik Rác, Martin Reich, Eva Gajdošová, Michael Hummelbrunner",
   "lat": 48.2488025,
-  "lon": 18.3025588,
-  "konatel": "Patrik Rác, Martin Reich, Eva Gajdošová, Michael Hummelbrunner"
+  "lon": 18.3025588
  },
  {
   "kraj": "NR",
@@ -4095,9 +2893,9 @@ const GASTRO_DATA = [
   "web": "groupe-plastivaloire.com",
   "zona": "",
   "pozn": "SILNY CIEL; automotive plasty, ~500 zam v zmenovej prevadzke, zavodne stravovanie",
+  "konatel": "Antoine Doutriaux, Yves Neuville",
   "lat": 48.4078828,
-  "lon": 17.9894147,
-  "konatel": "Antoine Doutriaux, Yves Neuville"
+  "lon": 17.9894147
  },
  {
   "kraj": "NR",
@@ -4113,9 +2911,9 @@ const GASTRO_DATA = [
   "web": "smrc-automotive.com",
   "zona": "",
   "pozn": "automotive interiery v parku Nitra-Sever, dodavatel JLR, stredny objem stravovania",
+  "konatel": "Andreas Heuser, Christophe Ancey",
   "lat": 48.341425,
-  "lon": 18.0640503,
-  "konatel": "Andreas Heuser, Christophe Ancey"
+  "lon": 18.0640503
  },
  {
   "kraj": "NR",
@@ -4131,9 +2929,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "",
   "pozn": "automotive karoserne diely, zavod v Nitre, smenova prevadzka",
+  "konatel": "Nicholas Thomas, Yoshiyuki Kassai, Yoshitaka Suzuki, Hajime Kanai",
   "lat": 48.3330772,
-  "lon": 18.0578381,
-  "konatel": "Nicholas Thomas, Yoshiyuki Kassai, Yoshitaka Suzuki, Hajime Kanai"
+  "lon": 18.0578381
  },
  {
   "kraj": "NR",
@@ -4149,9 +2947,9 @@ const GASTRO_DATA = [
   "web": "uniag.sk",
   "zona": "",
   "pozn": "SILNY CIEL; vlastne riaditelstvo studentskych jedalni (menza vo vlastnej rezii), priamy kontakt na stravovaci uzol",
+  "konatel": "",
   "lat": 48.3066317,
-  "lon": 18.087736,
-  "konatel": ""
+  "lon": 18.087736
  },
  {
   "kraj": "NR",
@@ -4167,9 +2965,9 @@ const GASTRO_DATA = [
   "web": "ukf.sk",
   "zona": "",
   "pozn": "stravovanie outsourcovane (Gastromir, kuchyna SD Brezovy haj); UKF = vlastnik priestoru/odberatel",
+  "konatel": "",
   "lat": 48.3176027,
-  "lon": 18.0977842,
-  "konatel": ""
+  "lon": 18.0977842
  },
  {
   "kraj": "NR",
@@ -4185,9 +2983,9 @@ const GASTRO_DATA = [
   "web": "agrokomplex.sk",
   "zona": "",
   "pozn": "SILNY CIEL; statne vystavisko, vlastny catering pre vystavy/koncerty/konferencie/svadby, sezonne velkokapacitne eventy",
+  "konatel": "Jozef Pavle",
   "lat": 48.3084349,
-  "lon": 18.1029376,
-  "konatel": "Jozef Pavle"
+  "lon": 18.1029376
  },
  {
   "kraj": "NR",
@@ -4203,9 +3001,9 @@ const GASTRO_DATA = [
   "web": "goldencatering.sk",
   "zona": "",
   "pozn": "20 rokov na trhu, svadby/firemne/VIP catering, prenajom vybavenia; etablovany event dodavatel",
+  "konatel": "Andrej Jokai",
   "lat": 48.2963998,
-  "lon": 18.093401,
-  "konatel": "Andrej Jokai"
+  "lon": 18.093401
  },
  {
   "kraj": "NR",
@@ -4221,9 +3019,9 @@ const GASTRO_DATA = [
   "web": "cateringnr.sk",
   "zona": "",
   "pozn": "mensi event/svadobny catering, prevadzkuje aj eventove priestory; doplnkovy ciel",
+  "konatel": "",
   "lat": 48.306602,
-  "lon": 18.1108036,
-  "konatel": ""
+  "lon": 18.1108036
  },
  {
   "kraj": "NR",
@@ -4239,9 +3037,9 @@ const GASTRO_DATA = [
   "web": "msgastro.sk",
   "zona": "",
   "pozn": "SILNY CIEL; zavodne/firemne stravovanie pre vyrobne firmy v regione, vlastna jedalen + donaska, stabilny velkoodber",
+  "konatel": "Marek Stanek",
   "lat": 48.2907243,
-  "lon": 18.18375,
-  "konatel": "Marek Stanek"
+  "lon": 18.18375
  },
  {
   "kraj": "NR",
@@ -4257,9 +3055,9 @@ const GASTRO_DATA = [
   "web": "gastroing.sk",
   "zona": "",
   "pozn": "zavodne stravovanie a rozvoz obedov; zivnost, ICO neoverene na FinStat",
+  "konatel": "",
   "lat": 48.2899467,
-  "lon": 18.0905222,
-  "konatel": ""
+  "lon": 18.0905222
  },
  {
   "kraj": "NR",
@@ -4275,9 +3073,9 @@ const GASTRO_DATA = [
   "web": "zlatyklucik.sk",
   "zona": "",
   "pozn": "SILNY CIEL; svadobna sala 150 miest, kongresy a eventy, pravidelne velke akcie",
+  "konatel": "Kristína Andraško",
   "lat": 48.31295,
-  "lon": 18.0894593,
-  "konatel": "Kristína Andraško"
+  "lon": 18.0894593
  },
  {
   "kraj": "NR",
@@ -4293,9 +3091,9 @@ const GASTRO_DATA = [
   "web": "tantal.sk",
   "zona": "",
   "pozn": "talianska kuchyna, 4 prevadzky od 2008, centralny dodavatel surovin",
+  "konatel": "Andrej Martinec",
   "lat": 48.3128581,
-  "lon": 18.1190757,
-  "konatel": "Andrej Martinec"
+  "lon": 18.1190757
  },
  {
   "kraj": "NR",
@@ -4311,9 +3109,9 @@ const GASTRO_DATA = [
   "web": "nemocnicazlatemoravce.agel.sk",
   "zona": "",
   "pozn": "SILNY CIEL; vlastna nemocnicna kuchyna, denne stravovanie pacientov + personalu, stabilny odber",
+  "konatel": "Miroslav Jaška, Marta Eckhardtová, Michal Pišoja, Michal Zakarovský",
   "lat": 48.383163,
-  "lon": 18.3986,
-  "konatel": "Miroslav Jaška, Marta Eckhardtová, Michal Pišoja, Michal Zakarovský"
+  "lon": 18.3986
  },
  {
   "kraj": "NR",
@@ -4329,9 +3127,9 @@ const GASTRO_DATA = [
   "web": "secop.com",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi vyrobny zamestnavatel v okrese (kompresory, byv. Nidec/Danfoss), velka zavodna jedalen",
+  "konatel": "Ing. Miroslav Maťašovský",
   "lat": 48.3954249,
-  "lon": 18.4002148,
-  "konatel": "Ing. Miroslav Maťašovský"
+  "lon": 18.4002148
  },
  {
   "kraj": "NR",
@@ -4347,9 +3145,9 @@ const GASTRO_DATA = [
   "web": "estamp.com",
   "zona": "",
   "pozn": "SILNY CIEL; automotive dodavatel (vylisky), velky zavod v priem. parku, zavodne stravovanie",
+  "konatel": "",
   "lat": 48.3923241,
-  "lon": 18.3990039,
-  "konatel": ""
+  "lon": 18.3990039
  },
  {
   "kraj": "NR",
@@ -4365,9 +3163,9 @@ const GASTRO_DATA = [
   "web": "hotelvion.sk",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi hotel+restauracia v meste, svadby/bankety/recepcie, vlastna velka kuchyna",
+  "konatel": "Martin Ondrejka, Juraj Petrovič, Karol Cibira, Ľudmila Šabíková",
   "lat": 48.3982894,
-  "lon": 18.4053974,
-  "konatel": "Martin Ondrejka, Juraj Petrovič, Karol Cibira, Ľudmila Šabíková"
+  "lon": 18.4053974
  },
  {
   "kraj": "NR",
@@ -4383,9 +3181,9 @@ const GASTRO_DATA = [
   "web": "gastroabm.sk",
   "zona": "",
   "pozn": "SILNY CIEL; dodava zavodne stravovanie firmam, velky denny objem jedal v okrese ZM",
+  "konatel": "Miroslava Belenčíková",
   "lat": 48.3346131,
-  "lon": 18.3547198,
-  "konatel": "Miroslava Belenčíková"
+  "lon": 18.3547198
  },
  {
   "kraj": "NR",
@@ -4401,9 +3199,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "",
   "pozn": "najvacsia banketova kapacita pre svadby/oslavy v meste (160 miest), sezonny odber pri akciach",
+  "konatel": "",
   "lat": 48.3801929,
-  "lon": 18.3958499,
-  "konatel": ""
+  "lon": 18.3958499
  },
  {
   "kraj": "NR",
@@ -4419,9 +3217,9 @@ const GASTRO_DATA = [
   "web": "restauraciadomino.sk",
   "zona": "",
   "pozn": "catering a pravidelny rozvoz obedov pre firmy, B2B partner pre dodavky surovin",
+  "konatel": "",
   "lat": 48.1548103,
-  "lon": 17.8723263,
-  "konatel": ""
+  "lon": 17.8723263
  },
  {
   "kraj": "NR",
@@ -4437,9 +3235,9 @@ const GASTRO_DATA = [
   "web": "duslo.sk",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel v okrese (chemicka), velkoobjemova zavodna jedalen, top objem surovin",
+  "konatel": "Ing. Andrej Babiš, Ing. Robert Konopka, JUDr. Vojtech Agner, Ing. Roman Karlubík",
   "lat": 48.15663,
-  "lon": 17.89696,
-  "konatel": "Ing. Andrej Babiš, Ing. Robert Konopka, JUDr. Vojtech Agner, Ing. Roman Karlubík"
+  "lon": 17.89696
  },
  {
   "kraj": "NR",
@@ -4455,9 +3253,9 @@ const GASTRO_DATA = [
   "web": "poliklinikansksala.sk",
   "zona": "",
   "pozn": "SILNY CIEL; celodenne nemocnicne stravovanie, stabilny velkoodber surovin",
+  "konatel": "",
   "lat": 48.1513,
-  "lon": 17.8714854,
-  "konatel": ""
+  "lon": 17.8714854
  },
  {
   "kraj": "NR",
@@ -4473,9 +3271,9 @@ const GASTRO_DATA = [
   "web": "hotelcentral.sk",
   "zona": "",
   "pozn": "banketova sala v centre Sale, svadby/firemne akcie - pravidelne velke hostiny",
+  "konatel": "",
   "lat": 48.1522468,
-  "lon": 17.8753827,
-  "konatel": ""
+  "lon": 17.8753827
  },
  {
   "kraj": "NR",
@@ -4491,9 +3289,9 @@ const GASTRO_DATA = [
   "web": "restaurantrico.sk",
   "zona": "",
   "pozn": "velkokapacitna restauracia, svadby a firemne eventy - pravidelny odber surovin",
+  "konatel": "",
   "lat": 48.1466541,
-  "lon": 17.8736525,
-  "konatel": ""
+  "lon": 17.8736525
  },
  {
   "kraj": "NR",
@@ -4509,9 +3307,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "",
   "pozn": "prevadzkuje zavodnu kantinu Little Paradise pre elektraren Mochovce a dodavatelov - vstup do najvacsieho zamestnavatela v okoli, SILNY CIEL",
+  "konatel": "Zsolt Koháry, Radoslav Erdélyi",
   "lat": 48.1997294,
-  "lon": 18.5185286,
-  "konatel": "Zsolt Koháry, Radoslav Erdélyi"
+  "lon": 18.5185286
  },
  {
   "kraj": "NR",
@@ -4527,9 +3325,9 @@ const GASTRO_DATA = [
   "web": "nemocnicalevice.agel.sk",
   "zona": "",
   "pozn": "SILNY CIEL; vlastne ustavne stravovanie (pacienti+zamestnanci), denne stovky porcii, siet AGEL",
+  "konatel": "Michal Pišoja, Ján Belanský, Waldemar Kmiecik",
   "lat": 48.2227843,
-  "lon": 18.6145835,
-  "konatel": "Michal Pišoja, Ján Belanský, Waldemar Kmiecik"
+  "lon": 18.6145835
  },
  {
   "kraj": "NR",
@@ -4545,9 +3343,9 @@ const GASTRO_DATA = [
   "web": "zf.com",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel v okrese, zavodna jedalen (sidlo a.s. Trnava, kantina v Leviciach)",
+  "konatel": "Dietmar Weigt, Peter Doll, Ing. Peter Ábel, Ing. Miroslav Daniš",
   "lat": 48.2163194,
-  "lon": 18.6000869,
-  "konatel": "Dietmar Weigt, Peter Doll, Ing. Peter Ábel, Ing. Miroslav Daniš"
+  "lon": 18.6000869
  },
  {
   "kraj": "NR",
@@ -4563,9 +3361,9 @@ const GASTRO_DATA = [
   "web": "hotellev.sk",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsia banketova/svadobna sala v meste Levice (350 miest), restauracia+kaviaren",
+  "konatel": "Jozef Horniak, Gregor Horniak, Iris Gajdošová",
   "lat": 48.2190665,
-  "lon": 18.6074125,
-  "konatel": "Jozef Horniak, Gregor Horniak, Iris Gajdošová"
+  "lon": 18.6074125
  },
  {
   "kraj": "NR",
@@ -4581,9 +3379,9 @@ const GASTRO_DATA = [
   "web": "kolibarezort.sk",
   "zona": "",
   "pozn": "eventovy/svadobny rezort 6 km od Levic, banketove priestory + tradicna kuchyna; objemove svadby a firemne akcie",
+  "konatel": "Milan Martiško, Peter Martiško, Lívia Martišková",
   "lat": 48.2024329,
-  "lon": 18.6099651,
-  "konatel": "Milan Martiško, Peter Martiško, Lívia Martišková"
+  "lon": 18.6099651
  },
  {
   "kraj": "NR",
@@ -4599,9 +3397,9 @@ const GASTRO_DATA = [
   "web": "restaurantilcaffe.sk",
   "zona": "",
   "pozn": "banketova restauracia v centre Levic (130 miest); over aktualny stav hotela pred oslovenim",
+  "konatel": "Roman Penzeš, Ján Kubáň",
   "lat": 48.2163194,
-  "lon": 18.6000869,
-  "konatel": "Roman Penzeš, Ján Kubáň"
+  "lon": 18.6000869
  },
  {
   "kraj": "NR",
@@ -4617,9 +3415,9 @@ const GASTRO_DATA = [
   "web": "nspnz.sk",
   "zona": "",
   "pozn": "SILNY CIEL; velka nemocnica, vlastna stravovacia prevadzka pre stovky lozok + zamestnancov, denne velkoobjem",
+  "konatel": "",
   "lat": 47.9885036,
-  "lon": 18.1535382,
-  "konatel": ""
+  "lon": 18.1535382
  },
  {
   "kraj": "NR",
@@ -4635,9 +3433,9 @@ const GASTRO_DATA = [
   "web": "vadasthermal.sk",
   "zona": "",
   "pozn": "SILNY CIEL; termalny rezort, sezonny napor tisicov navstevnikov, restauracie/bufety/hotel pod jednou firmou",
+  "konatel": "Alena Podhorská, Milan Kilar, Andrea Vitkóová, Réka Bokor",
   "lat": 47.8009942,
-  "lon": 18.7163802,
-  "konatel": "Alena Podhorská, Milan Kilar, Andrea Vitkóová, Réka Bokor"
+  "lon": 18.7163802
  },
  {
   "kraj": "NR",
@@ -4653,9 +3451,9 @@ const GASTRO_DATA = [
   "web": "tkpodhajska.sk",
   "zona": "",
   "pozn": "SILNY CIEL; velky sezonny navstevnicky objem, viacero stravovacich prevadzok v rezorte",
+  "konatel": "Jozef Krajmer, Ján Kosiba, Juraj Melišek, Peter Ďuráč",
   "lat": 48.1027332,
-  "lon": 18.3442713,
-  "konatel": "Jozef Krajmer, Ján Kosiba, Juraj Melišek, Peter Ďuráč"
+  "lon": 18.3442713
  },
  {
   "kraj": "NR",
@@ -4671,9 +3469,9 @@ const GASTRO_DATA = [
   "web": "smurfitkappa.com",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel v Sturove (papierne), denna zavodna jedalen pre stovky robotnikov v zmenovej prevadzke",
+  "konatel": "Marek Polák, Jan Pražák, Zdeněk Suchitra, Erika Skutová, Lilla Csipaková",
   "lat": 47.7933976,
-  "lon": 18.6954913,
-  "konatel": "Marek Polák, Jan Pražák, Zdeněk Suchitra, Erika Skutová, Lilla Csipaková"
+  "lon": 18.6954913
  },
  {
   "kraj": "NR",
@@ -4689,9 +3487,9 @@ const GASTRO_DATA = [
   "web": "gastrodomnz.sk",
   "zona": "",
   "pozn": "SILNY CIEL; dodavatel zavodneho/firemneho stravovania 800+ jedal denne, sala 150 miest na bankety/svadby",
+  "konatel": "František Štefánik, Dominik Štefánik, Andrej Štefánik",
   "lat": 47.9724476,
-  "lon": 18.1833607,
-  "konatel": "František Štefánik, Dominik Štefánik, Andrej Štefánik"
+  "lon": 18.1833607
  },
  {
   "kraj": "NR",
@@ -4707,9 +3505,9 @@ const GASTRO_DATA = [
   "web": "michellenovezamky.sk",
   "zona": "",
   "pozn": "banketova/svadobna sala v centre, vlastna profi kuchyna a catering - odber surovin vo velkom; ICO doplnit ORSR",
+  "konatel": "",
   "lat": 47.994562,
-  "lon": 18.1700825,
-  "konatel": ""
+  "lon": 18.1700825
  },
  {
   "kraj": "NR",
@@ -4725,9 +3523,9 @@ const GASTRO_DATA = [
   "web": "samindustries.sk",
   "zona": "",
   "pozn": "SILNY CIEL; jedina SK lodenica, vyrobny zavod s vlastnym stravovanim; sidlo firmy v BA, prevadzka KN",
+  "konatel": "Tomáš Palacka, Nora Félová, Jozef Magyarics, Ladislav Molnár, Marek Hajdu",
   "lat": 47.7629689,
-  "lon": 18.1061687,
-  "konatel": "Tomáš Palacka, Nora Félová, Jozef Magyarics, Ladislav Molnár, Marek Hajdu"
+  "lon": 18.1061687
  },
  {
   "kraj": "NR",
@@ -4743,9 +3541,9 @@ const GASTRO_DATA = [
   "web": "nemocnicakomarno.agel.sk",
   "zona": "",
   "pozn": "SILNY CIEL; nemocnica s vlastnou kuchynou, celodenna strava pre pacientov+personal; spadova oblast 110 000 obyv.",
+  "konatel": "Michal Pišoja, Miroslav Jaška, Jakub Rybár, Tomáš Lučkai",
   "lat": 47.76432,
-  "lon": 18.126722,
-  "konatel": "Michal Pišoja, Miroslav Jaška, Jakub Rybár, Tomáš Lučkai"
+  "lon": 18.126722
  },
  {
   "kraj": "NR",
@@ -4761,9 +3559,9 @@ const GASTRO_DATA = [
   "web": "thermalkn.sk",
   "zona": "",
   "pozn": "mestska prispevkova org., letna sezona vysoke objemy strediska + bufety/gastro",
+  "konatel": "",
   "lat": 47.7572978,
-  "lon": 18.1340456,
-  "konatel": ""
+  "lon": 18.1340456
  },
  {
   "kraj": "NR",
@@ -4779,9 +3577,9 @@ const GASTRO_DATA = [
   "web": "hotelbowgarden.sk",
   "zona": "",
   "pozn": "banketove/event priestory, restauracia europska kuchyna; B2B suroviny",
+  "konatel": "Jakub Litva",
   "lat": 47.7604131,
-  "lon": 18.1235672,
-  "konatel": "Jakub Litva"
+  "lon": 18.1235672
  },
  {
   "kraj": "NR",
@@ -4797,9 +3595,9 @@ const GASTRO_DATA = [
   "web": "hotelpeklo.sk",
   "zona": "",
   "pozn": "povodny prevadzkovatel DEVILS s.r.o. zruseny 8/2024 - over aktualny subjekt v ORSR; hotel aktivny",
+  "konatel": "",
   "lat": 47.7545385,
-  "lon": 18.1220248,
-  "konatel": ""
+  "lon": 18.1220248
  },
  {
   "kraj": "NR",
@@ -4815,9 +3613,9 @@ const GASTRO_DATA = [
   "web": "top-day.sk",
   "zona": "",
   "pozn": "zivnostnik, neoverene ICO na FinStat; svadby+firemne+stuzkove, B2B partner pre suroviny",
+  "konatel": "",
   "lat": 48.5590846,
-  "lon": 18.1740035,
-  "konatel": ""
+  "lon": 18.1740035
  },
  {
   "kraj": "NR",
@@ -4833,9 +3631,9 @@ const GASTRO_DATA = [
   "web": "feastcatering.sk",
   "zona": "",
   "pozn": "mensi catering, B2B suroviny; ICO neoverene na FinStat",
+  "konatel": "",
   "lat": 48.5594345,
-  "lon": 18.1754394,
-  "konatel": ""
+  "lon": 18.1754394
  },
  {
   "kraj": "NR",
@@ -4851,9 +3649,9 @@ const GASTRO_DATA = [
   "web": "hyza.sk",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi spracovatel hydiny, 900+ ludi, vlastna zavodna jedalen; skupina AGROFERT",
+  "konatel": "Ing. Petr Cingr, Ing. Kvetoslava Trenčianska, Ondrej Fačkovec, Ing. Jan Stoklasa, Ing. Marian Dávid",
   "lat": 48.5606794,
-  "lon": 18.138358,
-  "konatel": "Ing. Petr Cingr, Ing. Kvetoslava Trenčianska, Ondrej Fačkovec, Ing. Jan Stoklasa, Ing. Marian Dávid"
+  "lon": 18.138358
  },
  {
   "kraj": "NR",
@@ -4869,9 +3667,9 @@ const GASTRO_DATA = [
   "web": "decodom.sk",
   "zona": "",
   "pozn": "SILNY CIEL; najvacsi SK vyrobca nabytku, vyroba v TO, zavodne stravovanie; firma v restrukturalizacii (over solventnost)",
+  "konatel": "Roman Gejdoš, Ing. Vladimír Šrámek, Ing. Juraj Kubíček, Marián Závodný",
   "lat": 48.5666108,
-  "lon": 18.165336,
-  "konatel": "Roman Gejdoš, Ing. Vladimír Šrámek, Ing. Juraj Kubíček, Marián Závodný"
+  "lon": 18.165336
  },
  {
   "kraj": "NR",
@@ -4887,9 +3685,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "",
   "pozn": "SILNY CIEL; nemocnicna kuchyna, celodenne stravovanie pacientov+zamestnancov; siet Penta Hospitals",
+  "konatel": "Radoslav Čuha, Tomáš Valaška, Ivan Mokrý, Ľubomír Tóda",
   "lat": 48.5521333,
-  "lon": 18.1677687,
-  "konatel": "Radoslav Čuha, Tomáš Valaška, Ivan Mokrý, Ľubomír Tóda"
+  "lon": 18.1677687
  },
  {
   "kraj": "NR",
@@ -4905,9 +3703,9 @@ const GASTRO_DATA = [
   "web": "sluzbyto.sk",
   "zona": "",
   "pozn": "sezonne gastro/bufet na kupaliskach, mestsky prevadzkovatel",
+  "konatel": "Martin Bucko, Juraj Želiska, Július Krajčík, Veronika Streicherová",
   "lat": 48.5585009,
-  "lon": 18.1741558,
-  "konatel": "Martin Bucko, Juraj Želiska, Július Krajčík, Veronika Streicherová"
+  "lon": 18.1741558
  },
  {
   "kraj": "NR",
@@ -4923,9 +3721,9 @@ const GASTRO_DATA = [
   "web": "novykastiel.sk",
   "zona": "",
   "pozn": "event/firemne priestory; ICO neoverene na FinStat (over presny prevadzkovy subjekt)",
+  "konatel": "",
   "lat": 48.5594345,
-  "lon": 18.1754394,
-  "konatel": ""
+  "lon": 18.1754394
  },
  {
   "kraj": "NR",
@@ -4941,9 +3739,9 @@ const GASTRO_DATA = [
   "web": "unsk.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; krajsky urad + zriadovatel ~40 strednych skol a soc. zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)",
+  "konatel": "",
   "lat": 48.2996657,
-  "lon": 18.080946,
-  "konatel": ""
+  "lon": 18.080946
  },
  {
   "kraj": "NR",
@@ -4959,9 +3757,9 @@ const GASTRO_DATA = [
   "web": "nitra.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.310976,
-  "lon": 18.0866376,
-  "konatel": ""
+  "lon": 18.0866376
  },
  {
   "kraj": "NR",
@@ -4977,9 +3775,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "NR1",
   "pozn": "krajske riaditelstvo PZ; organizacna zlozka MV SR (ICO 00151866); over ci ma vlastnu jedalen alebo obstarava stravu externe",
+  "konatel": "",
   "lat": 48.3005653,
-  "lon": 18.0893427,
-  "konatel": ""
+  "lon": 18.0893427
  },
  {
   "kraj": "NR",
@@ -4995,9 +3793,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; vazenska kuchyna pre stovky vaznenych + personal, celodenne stravovanie, stabilny velkoodber surovin (ZVJS, vlastne ICO)",
+  "konatel": "",
   "lat": 48.306917,
-  "lon": 18.0830619,
-  "konatel": ""
+  "lon": 18.0830619
  },
  {
   "kraj": "NR",
@@ -5013,9 +3811,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; samostatny zensky ustav s vlastnou vazenskou kuchynou, celodenne stravovanie, stabilny odber potravin (ZVJS, vlastne ICO)",
+  "konatel": "",
   "lat": 48.3213311,
-  "lon": 18.1135424,
-  "konatel": ""
+  "lon": 18.1135424
  },
  {
   "kraj": "NR",
@@ -5031,9 +3829,9 @@ const GASTRO_DATA = [
   "web": "seas.sk",
   "zona": "NR3",
   "pozn": "SILNY CIEL; jadrova elektraren so zavodnou jedalnou, denne stovky obedov pre personal + dodavatelov, dlhodoby velkoodber",
+  "konatel": "Milan Molnár, Andrej Rubint, Rastislav Fleško, Zoran Kupkovič",
   "lat": 48.2593112,
-  "lon": 18.4578148,
-  "konatel": "Milan Molnár, Andrej Rubint, Rastislav Fleško, Zoran Kupkovič"
+  "lon": 18.4578148
  },
  {
   "kraj": "NR",
@@ -5049,9 +3847,9 @@ const GASTRO_DATA = [
   "web": "novezamky.sk",
   "zona": "NR2",
   "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Nove Zamky (odber potravin/stravy)",
+  "konatel": "",
   "lat": 47.985304,
-  "lon": 18.163841,
-  "konatel": ""
+  "lon": 18.163841
  },
  {
   "kraj": "NR",
@@ -5067,9 +3865,9 @@ const GASTRO_DATA = [
   "web": "komarno.sk",
   "zona": "NR2",
   "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Komarno (odber potravin/stravy)",
+  "konatel": "",
   "lat": 47.7575891,
-  "lon": 18.1296806,
-  "konatel": ""
+  "lon": 18.1296806
  },
  {
   "kraj": "NR",
@@ -5085,9 +3883,9 @@ const GASTRO_DATA = [
   "web": "levice.sk",
   "zona": "NR3",
   "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Levice (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.2193111,
-  "lon": 18.6065104,
-  "konatel": ""
+  "lon": 18.6065104
  },
  {
   "kraj": "NR",
@@ -5103,9 +3901,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
+  "konatel": "",
   "lat": 48.2992514,
-  "lon": 18.0671306,
-  "konatel": ""
+  "lon": 18.0671306
  },
  {
   "kraj": "NR",
@@ -5116,14 +3914,14 @@ const GASTRO_DATA = [
   "mesto": "Nitra",
   "okres": "Nitra",
   "velkost": "obrat 110 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "",
-  "email": "",
+  "tel": "037 6545111",
+  "email": "info@fnnitra.sk",
   "web": "fnnitra.sk",
   "zona": "NR1",
   "pozn": "SILNY CIEL; statna prispevkova org MZ SR, 600+ lozok; velka nemocnicna kuchyna",
+  "konatel": "",
   "lat": 48.3020114,
-  "lon": 18.087383,
-  "konatel": ""
+  "lon": 18.087383
  },
  {
   "kraj": "NR",
@@ -5134,14 +3932,14 @@ const GASTRO_DATA = [
   "mesto": "Nove Zamky",
   "okres": "Nove Zamky",
   "velkost": "obrat 89 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "",
-  "email": "",
+  "tel": "035 691 2111",
+  "email": "email@nspnz.sk",
   "web": "nspnz.sk",
   "zona": "NR4",
   "pozn": "SILNY CIEL; statna prispevkova org MZ SR; 1000+ zam",
+  "konatel": "",
   "lat": 47.9885036,
-  "lon": 18.1535382,
-  "konatel": ""
+  "lon": 18.1535382
  },
  {
   "kraj": "NR",
@@ -5157,9 +3955,9 @@ const GASTRO_DATA = [
   "web": "nemocnicakomarno.agel.sk",
   "zona": "NR6",
   "pozn": "SILNY CIEL; AGEL skupina; lozkova nemocnica",
+  "konatel": "Michal Pišoja, Miroslav Jaška, Jakub Rybár, Tomáš Lučkai",
   "lat": 47.76432,
-  "lon": 18.126722,
-  "konatel": "Michal Pišoja, Miroslav Jaška, Jakub Rybár, Tomáš Lučkai"
+  "lon": 18.126722
  },
  {
   "kraj": "NR",
@@ -5170,14 +3968,1256 @@ const GASTRO_DATA = [
   "mesto": "Levice",
   "okres": "Levice",
   "velkost": "obrat 48 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "",
+  "tel": "036 6373 111",
   "email": "",
   "web": "nemocnicalevice.agel.sk",
   "zona": "NR5",
   "pozn": "SILNY CIEL; AGEL skupina; lozkova nemocnica",
+  "konatel": "Michal Pišoja, Ján Belanský, Waldemar Kmiecik",
   "lat": 48.2227843,
-  "lon": 18.6145835,
-  "konatel": "Michal Pišoja, Ján Belanský, Waldemar Kmiecik"
+  "lon": 18.6145835
+ },
+ {
+  "kraj": "TN",
+  "kat": "Catering dodavatel",
+  "firma": "Catering Trencin (Polis)",
+  "ico": "53236807",
+  "adresa": "Mierove namestie 1",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "live-cooking catering do 1000 hosti, firemne aj eventy",
+  "tel": "0911 554 911",
+  "email": "polis.trencin@gmail.com",
+  "web": "cateringtrencin.sk",
+  "zona": "N1",
+  "pozn": "catering do 1000 osob, firemne stravovanie + rozvoz",
+  "konatel": "Peter Bočík",
+  "lat": 48.89441,
+  "lon": 18.0399914
+ },
+ {
+  "kraj": "TN",
+  "kat": "Catering dodavatel",
+  "firma": "GASTRO-SYST s.r.o.",
+  "ico": "36300691",
+  "adresa": "Legionarska 5",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "vyroba teplych jedal + zavodne stravovanie pre PO v Trencine a okoli",
+  "tel": "032/381 15 58",
+  "email": "",
+  "web": "gastro-syst.sk",
+  "zona": "N1",
+  "pozn": "SILNY CIEL; dodavatel stravy pre pravnicke osoby, vlastna vyvarovna",
+  "konatel": "Radek Roth",
+  "lat": 48.8870783,
+  "lon": 18.035633
+ },
+ {
+  "kraj": "TN",
+  "kat": "Catering dodavatel",
+  "firma": "GASTRO GROUP s.r.o.",
+  "ico": "36317969",
+  "adresa": "Rybarska 1",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "trzby 1,07 mil EUR (2025), 25-49 zam; catering pre firmy + hostiny/svadby",
+  "tel": "",
+  "email": "",
+  "web": "gastrogroup.sk",
+  "zona": "N8",
+  "pozn": "jediny dedikovany cateringovy dodavatel v okrese, vlastna vyvarovna + rozvoz",
+  "konatel": "Slávka Snohová, Milan Špánik",
+  "lat": 48.7560492,
+  "lon": 17.8426128
+ },
+ {
+  "kraj": "TN",
+  "kat": "Catering dodavatel",
+  "firma": "Champion Food s.r.o.",
+  "ico": "36336882",
+  "adresa": "M. R. Stefanika 175/32",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "trzby 1,31 mil EUR (2024), 10-19 zam; vyroba peciva/studena kuchyna + catering",
+  "tel": "",
+  "email": "",
+  "web": "championfood.sk",
+  "zona": "N3",
+  "pozn": "vyroba bagiet/salatov/studenej kuchyne + catering",
+  "konatel": "Marek Brojo",
+  "lat": 49.1185708,
+  "lon": 18.4383117
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "HEES - GASTROSLUZBY spol. s r.o.",
+  "ico": "34131710",
+  "adresa": "Hodzova 37",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "trzby 0,97 mil EUR (2024), 6-25 zam; skolske jedalne + dovoz stravy pre seniorov mesta",
+  "tel": "",
+  "email": "",
+  "web": "",
+  "zona": "N1",
+  "pozn": "prevadzkuje skolske jedalne + mestsky dovoz stravy, vlastna vyvarovna",
+  "konatel": "Ramzi Hassouna, Lazhar Hassouna, Beáta Hassounová",
+  "lat": 48.8975251,
+  "lon": 18.0592243
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "GASTRO-SERVICE a.s. (byv. ZTS-SLUZBY)",
+  "ico": "36302694",
+  "adresa": "Tovarenska 1",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "kapacita ~12000 jedal/den (ZTS areal), priestory 25-300 miest, restauracia Gurman",
+  "tel": "",
+  "email": "",
+  "web": "gastroservice.sk",
+  "zona": "N2",
+  "pozn": "SILNY CIEL; preberalo zavodne stravovanie celeho ZTS arealu Dubnica, velkokapacitna vyvarovna + catering",
+  "konatel": "Milan Vozár, Jozef Chrenko, Ing. Erika, Andrea Lalinská",
+  "lat": 48.9675722,
+  "lon": 18.1850808
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "BESPA - STRAV PD s.r.o.",
+  "ico": "33609438",
+  "adresa": "Kosovska 16",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "vyvarovna - zavodne aj verejne stravovanie, viacero prevadzok",
+  "tel": "",
+  "email": "bespastrav@zoznam.sk",
+  "web": "bespastrav.sk",
+  "zona": "N5",
+  "pozn": "dodavatel teplych obedov pre firmy a verejnost v Prievidzi, rozvoz a vydaj",
+  "konatel": "",
+  "lat": 48.7651044,
+  "lon": 18.6178423
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Gastro - sluzby s.r.o.",
+  "ico": "36298531",
+  "adresa": "Robotnicka 2156",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "trzby 1,42 mil EUR (2024), 25-49 zam; zmluvne stravovanie",
+  "tel": "042/432 22 59",
+  "email": "",
+  "web": "gastro-sluzby.sk",
+  "zona": "N3",
+  "pozn": "SILNY CIEL; profesional na zavodne/skolske stravovanie + catering + rozvoz menu",
+  "konatel": "Oldřich Vdoleček, Richard Vdoleček",
+  "lat": 49.1228658,
+  "lon": 18.4299255
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "HARVIS s.r.o.",
+  "ico": "31410081",
+  "adresa": "Priemyselna 2",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "trzby 0,85 mil EUR (2025), 20-24 zam; denne obedove menu + rozvoz, priemyselna zona",
+  "tel": "",
+  "email": "",
+  "web": "menu.harvis.sk",
+  "zona": "N8",
+  "pozn": "vyvarovna pre priemyselny park NMnV; odber surovin vo vacsom objeme",
+  "konatel": "Miroslav Hlinka, Štefan Hlinka",
+  "lat": 48.7401681,
+  "lon": 17.8217107
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Restauracia Viva (Puchov)",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Puchov",
+  "okres": "Puchov",
+  "velkost": "rozvoz obedoveho menu firmam v Puchove a okoli",
+  "tel": "0911 394 971",
+  "email": "",
+  "web": "restauraciaviva.sk",
+  "zona": "N4",
+  "pozn": "dodavatel teplych obedov B2B (rozvoz do firiem) + spolocenske podujatia; ICO doplnit",
+  "konatel": "",
+  "lat": 49.123928,
+  "lon": 18.3239559
+ },
+ {
+  "kraj": "TN",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Socialne sluzby Myjava n.o.",
+  "ico": "36119610",
+  "adresa": "Trokanova 236",
+  "mesto": "Myjava",
+  "okres": "Myjava",
+  "velkost": "utulok kap. 47 klientov + komunitne centrum/noclaharen, vlastna kuchyna",
+  "tel": "",
+  "email": "",
+  "web": "",
+  "zona": "N9",
+  "pozn": "socialne stravovanie pre klientov utulkov/noclaharne v Myjave; mensia kapacita",
+  "konatel": "",
+  "lat": 48.7564692,
+  "lon": 17.5693827
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Fakultna nemocnica Trencin",
+  "ico": "00610470",
+  "adresa": "Legionarska 641/28",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "trzby 97,8 mil EUR (2025), 1000-1999 zam; vlastne oddelenie liecebnej vyzivy a stravovania",
+  "tel": "032/6566111",
+  "email": "riaditel@fntn.sk",
+  "web": "fntn.sk",
+  "zona": "N1",
+  "pozn": "SILNY CIEL; velka nemocnicna kuchyna, pacienti + personal",
+  "konatel": "",
+  "lat": 48.8843801,
+  "lon": 18.0308363
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Trencianska univerzita A. Dubceka (TnUAD)",
+  "ico": "31118259",
+  "adresa": "Studentska 1639/2",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "trzby 26,5 mil EUR (2025), 250-499 zam; vlastna jedalen + studentske domovy",
+  "tel": "032/7400111",
+  "email": "rektor@tnuni.sk",
+  "web": "tnuni.sk",
+  "zona": "N1",
+  "pozn": "SILNY CIEL; univerzitna jedalen + internaty",
+  "konatel": "",
+  "lat": 48.8986434,
+  "lon": 18.0474896
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "ZVS holding a.s.",
+  "ico": "36305600",
+  "adresa": "Sturova 925/27",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "trzby 119,4 mil EUR (2024), 1000-1999 zam",
+  "tel": "",
+  "email": "",
+  "web": "zvsholding.sk",
+  "zona": "N2",
+  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu (zbrojarstvo), velka zavodna jedalen",
+  "konatel": "Ľubomír Šebo, Jakub Krchňavý, Daniel Duchoň, Milan Krištof",
+  "lat": 48.953013,
+  "lon": 18.1826864
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "STV Machinery a.s. (byv. MATADOR Industries)",
+  "ico": "31632301",
+  "adresa": "Tovarenska 1",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "200-249 zam; kovovyroba v ZTS areali",
+  "tel": "",
+  "email": "",
+  "web": "stv-machinery.sk",
+  "zona": "N2",
+  "pozn": "zavodna jedalen v ZTS areali (cast stravy cez GASTRO-SERVICE)",
+  "konatel": "Mário Chudý, Jozef Kubena, Jozef Sýkora, Pavel Beran",
+  "lat": 48.9675722,
+  "lon": 18.1850808
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "HF Slovakia a.s. (byv. HF NaJUS)",
+  "ico": "36294632",
+  "adresa": "Lieskovec 847/124",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "150-199 zam; vyroba strojov pre gumarensky priemysel",
+  "tel": "",
+  "email": "",
+  "web": "hfnajus.sk",
+  "zona": "N2",
+  "pozn": "vacsi zavod v Dubnici, zavodne stravovanie",
+  "konatel": "Karol Vanko, Tomáš Kyčina, Holger Rudzio, Zoran Uranjek, Ľubomír Žilka",
+  "lat": 48.9715355,
+  "lon": 18.1976222
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Ustav na vykon trestu a vazby Ilava (ZVJS)",
+  "ico": "doplnit ORSR",
+  "adresa": "Mierove namestie 1",
+  "mesto": "Ilava",
+  "okres": "Ilava",
+  "velkost": "kapacita 846 miest (677 odsudeni + 169 obvineni)",
+  "tel": "042/446 54 32",
+  "email": "ustavil@zvjs.sk",
+  "web": "zvjs.sk",
+  "zona": "N2",
+  "pozn": "SILNY CIEL; vazenska kuchyna pre 846+ osob denne; ICO over (ZVJS zdiela 00738344)",
+  "konatel": "",
+  "lat": 48.9980143,
+  "lon": 18.231942
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Centrum socialnych sluzieb AVE Dubnica",
+  "ico": "00632384",
+  "adresa": "Sportovcov 671/23",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "celorocna pobytova soc. sluzba, vlastna kuchyna",
+  "tel": "042/442 12 92",
+  "email": "info@cssdubnica.sk",
+  "web": "cssdubnica.sk",
+  "zona": "N2",
+  "pozn": "DSS s vlastnou kuchynou, denne stravovanie klientov",
+  "konatel": "",
+  "lat": 48.960372,
+  "lon": 18.1594926
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Zariadenie pre seniorov Dubina m.r.o.",
+  "ico": "00632333",
+  "adresa": "Pod hajom 1291/119",
+  "mesto": "Dubnica nad Vahom",
+  "okres": "Ilava",
+  "velkost": "kapacita 249 klientov, trzby 6,3 mil EUR (2024)",
+  "tel": "",
+  "email": "",
+  "web": "dubina.org",
+  "zona": "N2",
+  "pozn": "velka institucionalna kuchyna, denne stravovanie 249 klientov",
+  "konatel": "",
+  "lat": 48.9568606,
+  "lon": 18.1729766
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Brose Prievidza spol. s r.o.",
+  "ico": "48046434",
+  "adresa": "Max Brose 2909/20",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "1000-1999 zam (~1300), trzby 346,6 mil EUR (2023); vlastna zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "brose.com",
+  "zona": "N5",
+  "pozn": "SILNY CIEL; najvacsi automotive zavod okresu, ~1300 zam",
+  "konatel": "Axel Mallener, Michael Brandstetter, Sabine Neuß",
+  "lat": 48.7638765,
+  "lon": 18.5897465
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach",
+  "ico": "17335795",
+  "adresa": "Nemocnicna 2",
+  "mesto": "Bojnice",
+  "okres": "Prievidza",
+  "velkost": "spadova oblast ~140000 obyv.; ustavna nemocnica + celodenne stravovanie",
+  "tel": "",
+  "email": "",
+  "web": "hospital-bojnice.sk",
+  "zona": "N5",
+  "pozn": "SILNY CIEL; velka okresna nemocnica, pacienti + personal",
+  "konatel": "",
+  "lat": 48.7853369,
+  "lon": 18.5894152
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "FORTISCHEM a.s.",
+  "ico": "46693874",
+  "adresa": "M. R. Stefanika 1",
+  "mesto": "Novaky",
+  "okres": "Prievidza",
+  "velkost": "500-999 zam; chemicky zavod so zavodnym stravovanim",
+  "tel": "",
+  "email": "",
+  "web": "fortischem.sk",
+  "zona": "N5",
+  "pozn": "SILNY CIEL; najvacsi chemicky zavod regionu, smenne stravovanie",
+  "konatel": "Ján Hartl, Jakub Racek, Jan Křička, Patrik Košian, Andrej Nociar",
+  "lat": 48.7051557,
+  "lon": 18.5326102
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "VEGUM a.s.",
+  "ico": "44141211",
+  "adresa": "Gumarenska 337",
+  "mesto": "Dolne Vestenice",
+  "okres": "Prievidza",
+  "velkost": "500-999 zam; gumarensky zavod, smenna prevadzka so stravovanim",
+  "tel": "",
+  "email": "",
+  "web": "vegum.sk",
+  "zona": "N5",
+  "pozn": "SILNY CIEL; velky gumarensky zavod, smenne stravovanie; Dolne Vestenice = okres Prievidza",
+  "konatel": "Paulína Jakubec, Peter Hajduk, Teodor Kvapil, Miroslav Bebjak",
+  "lat": 48.6996957,
+  "lon": 18.4030904
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Hornonitrianske bane Prievidza a.s. (HBP)",
+  "ico": "36005622",
+  "adresa": "Matiasovce 10",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "trzby ~12,2 mil EUR (2024); banska firma, viacero prevadzok",
+  "tel": "046/5421111",
+  "email": "hbp@hbp.sk",
+  "web": "hbp.sk",
+  "zona": "N5",
+  "pozn": "tazba uhlia ukoncena 2023, firma funguje; over aktualnu kapacitu stravovania",
+  "konatel": "Peter Čičmanec, Stanislav Gurský, Petra Sládečková",
+  "lat": 48.7718361,
+  "lon": 18.6234916
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "HELLA Slovakia Lighting s.r.o.",
+  "ico": "36325732",
+  "adresa": "Svatoplukova 1550",
+  "mesto": "Banovce nad Bebravou",
+  "okres": "Banovce nad Bebravou",
+  "velkost": "~3000 zam (3 zavody), trzby 712,5 mil EUR; autosvietidla, zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "hella.com",
+  "zona": "N7",
+  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu, masivne smenne stravovanie",
+  "konatel": "Giovanni Salatin, Jenal Bukeh, Matej Kseňák, Daniel Dvořák",
+  "lat": 48.7303027,
+  "lon": 18.2495556
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Gabor spol. s r.o.",
+  "ico": "36322067",
+  "adresa": "J. Gabora 1",
+  "mesto": "Banovce nad Bebravou",
+  "okres": "Banovce nad Bebravou",
+  "velkost": "~1300-1800 zam; obuvnicka vyroba, zavodne stravovanie",
+  "tel": "",
+  "email": "",
+  "web": "gabor.sk",
+  "zona": "N7",
+  "pozn": "SILNY CIEL; velky obuvnicky zavod, celodenne stravovanie zamestnancov",
+  "konatel": "Juraj Vodička, Markus Bacher",
+  "lat": 48.7216671,
+  "lon": 18.2598263
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "MILSY a.s. (Banovecka mliekaren)",
+  "ico": "31412572",
+  "adresa": "Partizanska 224/B",
+  "mesto": "Banovce nad Bebravou",
+  "okres": "Banovce nad Bebravou",
+  "velkost": "250-499 zam; mliekaren, zavodne stravovanie",
+  "tel": "",
+  "email": "",
+  "web": "banoveckamliekaren.sk",
+  "zona": "N7",
+  "pozn": "velky potravinarsky zavod; zavodna jedalen, aj potencialny dodavatel mliecnych surovin",
+  "konatel": "Bohuslav Šiko, Rastislav Lupták, Andrea Mokrá, Andreas Aichinger",
+  "lat": 48.7124664,
+  "lon": 18.2565905
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "LOWA PRODUCTION s.r.o.",
+  "ico": "31420796",
+  "adresa": "Tovarenska 10",
+  "mesto": "Bosany",
+  "okres": "Partizanske",
+  "velkost": "~1900 zam, trzby 121,5 mil EUR; obuvnicky zavod (Tecnica Group), zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "lowa.sk",
+  "zona": "N6",
+  "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Partizanske, masivne smenne stravovanie",
+  "konatel": "Alberto Zanatta, Alexander Nicolai, Richard Cesar",
+  "lat": 48.5766942,
+  "lon": 18.2424823
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Medline Assembly Slovakia s.r.o.",
+  "ico": "47858168",
+  "adresa": "Malobielicka 284/8",
+  "mesto": "Partizanske",
+  "okres": "Partizanske",
+  "velkost": "500-999 zam, trzby 82,5 mil EUR (2024); vyroba zdravotnickych pomocok",
+  "tel": "",
+  "email": "",
+  "web": "medline.eu",
+  "zona": "N6",
+  "pozn": "SILNY CIEL; druhy najvacsi zavod okresu, rastuci, smenne stravovanie",
+  "konatel": "Lionel Dintras, Andrew Mills",
+  "lat": 48.6281665,
+  "lon": 18.3308972
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica na okraji mesta n.o. (Partizanske)",
+  "ico": "45736316",
+  "adresa": "Nova nemocnica 511",
+  "mesto": "Partizanske",
+  "okres": "Partizanske",
+  "velkost": "250-499 zam, 6 oddeleni + 18 ambulancii; celodenne stravovanie",
+  "tel": "",
+  "email": "",
+  "web": "pentahospitals.sk",
+  "zona": "N6",
+  "pozn": "okresna nemocnica (Penta Hospitals), pacienti + personal",
+  "konatel": "",
+  "lat": 48.6265223,
+  "lon": 18.371762
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Povazska Bystrica",
+  "ico": "00610411",
+  "adresa": "Nemocnicna 986/1",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "trzby 56,7 mil EUR (2025), lozkova nemocnica TSK",
+  "tel": "",
+  "email": "",
+  "web": "nemocnicapb.sk",
+  "zona": "N3",
+  "pozn": "SILNY CIEL; velka lozkova nemocnica, vlastna kuchyna, pacienti + personal",
+  "konatel": "",
+  "lat": 49.1066834,
+  "lon": 18.4605166
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "thyssenkrupp rothe erde Slovakia a.s. (ex-PSL)",
+  "ico": "31626599",
+  "adresa": "Robotnicka",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "500-999 zam, trzby ~76,5 mil EUR (2025), vyroba lozisk",
+  "tel": "",
+  "email": "",
+  "web": "thyssenkrupp-rotheerde.com",
+  "zona": "N3",
+  "pozn": "SILNY CIEL; velka strojarska fabrika, zavodne stravovanie",
+  "konatel": "Achim Stuhlmann, Ľudovít Francl, Ľuboš Šimík, Lisa Denoyelle",
+  "lat": 49.1228658,
+  "lon": 18.4299255
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "NsP Zdravie s.r.o. (NsP Puchov)",
+  "ico": "53770668",
+  "adresa": "Pod Lachovcom 1727/55",
+  "mesto": "Puchov",
+  "okres": "Puchov",
+  "velkost": "nemocnica s poliklinikou, viacero ambulancii + lekarne",
+  "tel": "042/460 51 11",
+  "email": "info@nspzdravie.sk",
+  "web": "nspzdravie.sk",
+  "zona": "N4",
+  "pozn": "nemocnicne stravovanie pacientov a personalu",
+  "konatel": "Rastislav Pagáč, Michal Pagáč, Miloš Pagáč, Zdeňka Pagáčová",
+  "lat": 49.1294986,
+  "lon": 18.3237458
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Continental Tires Slovakia s.r.o. (ex-Matador Rubber)",
+  "ico": "36709557",
+  "adresa": "Terezie Vansovej 1054",
+  "mesto": "Puchov",
+  "okres": "Puchov",
+  "velkost": "5000-9999 zam, trzby 1,751 mld EUR (2024), vyroba pneumatik",
+  "tel": "",
+  "email": "",
+  "web": "continental.com",
+  "zona": "N4",
+  "pozn": "SILNY CIEL #1; obrovska zavodna jedalen (najvacsi zamestnavatel kraja), tisice obedov denne",
+  "konatel": "Igor Krištofík, Ladislav Rosina, Marián Kurtin",
+  "lat": 49.1031,
+  "lon": 18.3176
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "RONA a.s.",
+  "ico": "31642403",
+  "adresa": "Schreiberova 365",
+  "mesto": "Lednicke Rovne",
+  "okres": "Puchov",
+  "velkost": "1000-1999 zam, trzby 70,72 mil EUR (2025), sklarne",
+  "tel": "",
+  "email": "",
+  "web": "rona.glass",
+  "zona": "N4",
+  "pozn": "SILNY CIEL; velka sklarska fabrika so zavodnou jedalnou; aj vyrobca poharov pre gastro",
+  "konatel": "Stanislav Biroš, Pavol Brnka, Štefan Hanák, Peter Vačko",
+  "lat": 49.0672865,
+  "lon": 18.2872364
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Vertiv Slovakia a.s. (byv. Emerson)",
+  "ico": "31411606",
+  "adresa": "Piestanska 1202",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "trzby 267,7 mil EUR (2024), 1000-1999 zam; najvacsi zamestnavatel okresu",
+  "tel": "",
+  "email": "",
+  "web": "vertiv.com",
+  "zona": "N8",
+  "pozn": "SILNY CIEL; 1000+ zam, najvacsia fabrika okresu, zavodna jedalen",
+  "konatel": "Jozef Aľušík, Božena Nunhardt, Giovanna Moschetto, Christopher Hales, Paul Ryan",
+  "lat": 48.7438855,
+  "lon": 17.8362388
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Elster s.r.o. (Honeywell)",
+  "ico": "31421482",
+  "adresa": "nam. Dr. Alberta Schweitzera 194",
+  "mesto": "Stara Tura",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "250-499 zam, vyrobca plynomerov, zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "elster.sk",
+  "zona": "N8",
+  "pozn": "SILNY CIEL; velka fabrika v Starej Turej (areal Chirana), clen Honeywell",
+  "konatel": "Ľubomír Brezina, Štefan Ševela",
+  "lat": 48.7732958,
+  "lon": 17.6966817
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "CHIRANA T.Injecta a.s.",
+  "ico": "36794619",
+  "adresa": "nam. Dr. Alberta Schweitzera 194",
+  "mesto": "Stara Tura",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "trzby 23,82 mil EUR (2024), 250-499 zam; zdravotnicka technika",
+  "tel": "",
+  "email": "",
+  "web": "chirana.eu",
+  "zona": "N8",
+  "pozn": "SILNY CIEL; historicky areal Chirana v Starej Turej, zavodne stravovanie",
+  "konatel": "Ing. Ľubomír Šoltýs, Mgr. Michal Staroň, Ing. Martin Lieskovský, Martin Šmigura",
+  "lat": 48.7732958,
+  "lon": 17.6966817
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Zariadenie pre seniorov Nove Mesto nad Vahom",
+  "ico": "42372984",
+  "adresa": "Frana Krala 2688/4",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "kapacita 92 lozok, 24h prevadzka s vlastnou kuchynou",
+  "tel": "",
+  "email": "",
+  "web": "zpsnm.sk",
+  "zona": "N8",
+  "pozn": "celodenne stravovanie 92 klientov + zamestnanci (mestska org.)",
+  "konatel": "",
+  "lat": 48.7533958,
+  "lon": 17.8262642
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Myjava",
+  "ico": "00610721",
+  "adresa": "Staromyjavska 712/59",
+  "mesto": "Myjava",
+  "okres": "Myjava",
+  "velkost": "vynosy 17,28 mil EUR (2025), lozkove oddelenia, vlastna nemocnicna kuchyna",
+  "tel": "034/697 91 11",
+  "email": "",
+  "web": "nspmyjava.sk",
+  "zona": "N9",
+  "pozn": "SILNY CIEL; jedina nemocnica okresu, najvacsi odberatel potravin v okrese",
+  "konatel": "",
+  "lat": 48.7632026,
+  "lon": 17.5613471
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "C.E.P. Scherdel Pruziny spol. s r.o.",
+  "ico": "31445012",
+  "adresa": "Javorinska 1200/4",
+  "mesto": "Myjava",
+  "okres": "Myjava",
+  "velkost": "200-249 zam, vyroba pruzin a kovovych dielov, zavodna jedalen",
+  "tel": "",
+  "email": "",
+  "web": "scherdel.sk",
+  "zona": "N9",
+  "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel v meste Myjava",
+  "konatel": "Herbert Makosch, Ulrich Petzschke, Róbert Sasák",
+  "lat": 48.7637922,
+  "lon": 17.573576
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Elizabeth (SYNOT GASTRO SLOVAKIA)",
+  "ico": "36690805",
+  "adresa": "Gen. M. R. Stefanika 2",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "trzby 8,6 mil EUR (2024); kongresova sala 180 miest, restauracia + Cafe Sissi, 78 izieb",
+  "tel": "",
+  "email": "",
+  "web": "hotelelizabeth.sk",
+  "zona": "N1",
+  "pozn": "SILNY CIEL; 4* hotel, najvacsia kongresova/banketova sala v centre Trencina",
+  "konatel": "Jana Donková, Erik Donko, Kvetoslava Klčovská",
+  "lat": 48.6466095,
+  "lon": 18.3669031
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Magnus (NLK GROUP)",
+  "ico": "doplnit ORSR",
+  "adresa": "Vodna 7",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "kongresova miestnost 120 miest + dalsie saly, restauracia + wellness + bowling",
+  "tel": "",
+  "email": "",
+  "web": "hotelmagnus.sk",
+  "zona": "N1",
+  "pozn": "4* hotel, kongresove priestory do 120 miest; ICO prevadzkovatela over",
+  "konatel": "",
+  "lat": 48.6584805,
+  "lon": 17.5648828
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Kupele Bojnice a.s.",
+  "ico": "31638694",
+  "adresa": "Kupele 1",
+  "mesto": "Bojnice",
+  "okres": "Prievidza",
+  "velkost": "250-499 zam, trzby 18,68 mil EUR (2024); kupelny areal, viacero jedalni (Lysec, Banik, Mier)",
+  "tel": "",
+  "email": "",
+  "web": "kupele-bojnice.sk",
+  "zona": "N5",
+  "pozn": "SILNY CIEL; velkokapacitne celodenne stravovanie hosti kupelov",
+  "konatel": "Slavomír Eliaš, Ján Mravík, Ctibor Stacha",
+  "lat": 48.7750199,
+  "lon": 18.5720005
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "RM Hotel Wellness & Congress (LK Consulting SK)",
+  "ico": "45920397",
+  "adresa": "Uzka 418/4",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "4* hotel, kongresova sala do 100 osob + restauracia",
+  "tel": "",
+  "email": "",
+  "web": "rmhotel.sk",
+  "zona": "N5",
+  "pozn": "najvacsi kongresovo-banketovy hotel v Prievidzi; svadby, firemne akcie, catering",
+  "konatel": "Richard Marko",
+  "lat": 48.7743402,
+  "lon": 18.5982852
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel Gino Park Palace (EUROCOM & Co)",
+  "ico": "35761172",
+  "adresa": "Orlove 116",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "banket atrium + stan do 250 osob, hl. sala 80, 4* hotel",
+  "tel": "042/445 96 00",
+  "email": "info@parkpalace.sk",
+  "web": "parkpalace.sk",
+  "zona": "N3",
+  "pozn": "SILNY CIEL; najvacsia banketova kapacita v okrese (250); sidlo firmy v BA, prevadzka Orlove",
+  "konatel": "Nodari Giorgadze, Lali Tvauri",
+  "lat": 49.130776,
+  "lon": 18.4249771
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "ALEXANDRA HOTEL s.r.o.",
+  "ico": "36845981",
+  "adresa": "Dvory 581",
+  "mesto": "Puchov",
+  "okres": "Puchov",
+  "velkost": "kongres/banket do 280 osob, 4* hotel",
+  "tel": "",
+  "email": "",
+  "web": "alexandrahotel.sk",
+  "zona": "N4",
+  "pozn": "SILNY CIEL; najvacsia kongresova/svadobna sala v Puchove (280 miest)",
+  "konatel": "Ivana Hantáková",
+  "lat": 49.1265332,
+  "lon": 18.3298679
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Sisi Rent s.r.o. (SISI Gardens)",
+  "ico": "52078825",
+  "adresa": "Strezenicka cesta 45",
+  "mesto": "Puchov",
+  "okres": "Puchov",
+  "velkost": "svadobna sala do 130 osob + zahradna terasa",
+  "tel": "",
+  "email": "",
+  "web": "sisigardens.sk",
+  "zona": "N4",
+  "pozn": "svadobna/eventova sala 130 miest, ubytovanie + stravovanie",
+  "konatel": "Radoslav Prokop, Matej Prokop",
+  "lat": 49.1140045,
+  "lon": 18.3109652
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Mestske kulturne stredisko Nove Mesto nad Vahom",
+  "ico": "00350702",
+  "adresa": "Hviezdoslavova 4",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "spolocenska sala 164 miest + balkon 60; prispevkova org. mesta",
+  "tel": "",
+  "email": "riaditelka@msks.sk",
+  "web": "msks.sk",
+  "zona": "N8",
+  "pozn": "najvacsia banketova/spolocenska sala v meste; catering externe",
+  "konatel": "",
+  "lat": 48.7567319,
+  "lon": 17.8275982
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Sprava majetku Mesta Myjava s.r.o. (KD Samka Dudika)",
+  "ico": "36268071",
+  "adresa": "M. R. Stefanika 560/4",
+  "mesto": "Myjava",
+  "okres": "Myjava",
+  "velkost": "velka sala 609 miest (prizemie 428 + balkon 181) + spolocenska sala + VIP salonik",
+  "tel": "034/621 33 89",
+  "email": "",
+  "web": "smmm.sk",
+  "zona": "N9",
+  "pozn": "najvacsia banketova/kongresova sala v okrese; externy catering",
+  "konatel": "Emília Maniačková, Ing. Emil Hlavatovič",
+  "lat": 48.7526382,
+  "lon": 17.5659685
+ },
+ {
+  "kraj": "TN",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Agropenzion ADAM Podkylava (TBS a.s.)",
+  "ico": "36303241",
+  "adresa": "Podkylava 916",
+  "mesto": "Podkylava",
+  "okres": "Myjava",
+  "velkost": "53 lozok, 3 gastroprevadzky (Koliba Eva), kongresova sala + salon, wellness",
+  "tel": "032/777 21 11",
+  "email": "",
+  "web": "penzion-adam.sk",
+  "zona": "N9",
+  "pozn": "ubytovaco-eventove zariadenie; svadby/firemne/kongresy; ICO patri prevadzkovatelovi TBS a.s. - over ORSR",
+  "konatel": "Ľubor Tĺčik, Ľudmila Tĺčiková, Miroslava Lacková, Anna Obuchová",
+  "lat": 48.6825621,
+  "lon": 17.6688858
+ },
+ {
+  "kraj": "TN",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "Cinska restauracia Zlaty Lotos",
+  "ico": "doplnit ORSR",
+  "adresa": "doplnit",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "siet 3 prevadzok (Povazska Bystrica, Puchov, Dubnica nad Vahom)",
+  "tel": "",
+  "email": "",
+  "web": "cinskejedlo.sk",
+  "zona": "N3",
+  "pozn": "retazec 3 prevadzok, uvedene na sidle PB; ICO nezistene z verejnych zdrojov",
+  "konatel": "",
+  "lat": 49.1159316,
+  "lon": 18.4469936
+ },
+ {
+  "kraj": "TN",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "COOP Jednota Prievidza spotrebne druzstvo",
+  "ico": "00169005",
+  "adresa": "A. Hlinku I. 437",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "velke spotrebne druzstvo, viacero retail + gastro prevadzok (bufety/jedalne)",
+  "tel": "",
+  "email": "",
+  "web": "coopprievidza.sk",
+  "zona": "N5",
+  "pozn": "sidlo druzstva; viacero gastro prevadzok; analogia ku COOP Jednota Trnava",
+  "konatel": "Janka Madajová, Antonín Cholasta, Oľga Majerová, Ján Budovič, Anton Pavlíček",
+  "lat": 48.7734738,
+  "lon": 18.6166724
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Trenciansky samospravny kraj (Urad TSK)",
+  "ico": "36126624",
+  "adresa": "K dolnej stanici 7282/20A",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "150-199 zam, rozpocet ~153 mil EUR (2025); zriadovatel desiatok strednych skol a socialnych zariadeni s vlastnymi kuchynami",
+  "tel": "032/6555111",
+  "email": "info@tsk.sk",
+  "web": "tsk.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; krajsky urad + zriadovatel SS a soc. zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)",
+  "konatel": "",
+  "lat": 48.887335,
+  "lon": 18.0335441
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Fakultna nemocnica Trencin",
+  "ico": "00610470",
+  "adresa": "Legionarska 28",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "1000-1999 zam, naklady ~125 mil EUR (2025); velka nemocnicna kuchyna varia pre pacientov + personal",
+  "tel": "032/6566111",
+  "email": "riaditel@fntn.sk",
+  "web": "fntn.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; velka nemocnicna kuchyna (kazdodenne stravovanie pacientov a personalu), verejne obstaravanie potravin",
+  "konatel": "",
+  "lat": 48.8843801,
+  "lon": 18.0308363
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Trencianska univerzita Alexandra Dubceka v Trencine",
+  "ico": "31118259",
+  "adresa": "Studentska 2",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "verejna vysoka skola, tisice studentov + zam; studentsky domov s jedalnou",
+  "tel": "032/7400111",
+  "email": "rektor@tnuni.sk",
+  "web": "tnuni.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; studentsky domov a jedalen (vysokoskolske stravovanie), verejne obstaravanie potravin",
+  "konatel": "",
+  "lat": 48.8986434,
+  "lon": 18.0474896
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Velitelstvo pozemnych sil OS SR Trencin (vojenska posadka)",
+  "ico": "30845572",
+  "adresa": "Kragujevackych hrdinov",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "velitelstvo PS OS SR + posadka Trencin, stovky vojakov; velka vojenska jedalen",
+  "tel": "",
+  "email": "",
+  "web": "mosr.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; vojenska posadka s velkou jedalnou (kazdodenne stravovanie posadky); utvar OS SR pod MO SR",
+  "konatel": "",
+  "lat": 48.8956027,
+  "lon": 18.0496368
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Ustav na vykon trestu odnatia slobody a Ustav na vykon vazby Ilava (ZVJS)",
+  "ico": "00738344",
+  "adresa": "Mierove namestie 1",
+  "mesto": "Ilava",
+  "okres": "Ilava",
+  "velkost": "vazenske zariadenie ZVJS, stovky odsudenych + personal; vazenska kuchyna",
+  "tel": "042/2831111",
+  "email": "ustavil@zvjs.sk",
+  "web": "zvjs.sk",
+  "zona": "TN3",
+  "pozn": "SILNY CIEL; vazenska kuchyna (kazdodenne stravovanie odsudenych a personalu), verejne obstaravanie potravin",
+  "konatel": "",
+  "lat": 48.9980143,
+  "lon": 18.231942
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Trencin (Mestsky urad)",
+  "ico": "00312037",
+  "adresa": "Mierove namestie 2",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "200-249 zam (mesto), najvacsia samosprava kraja; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "032/6504111",
+  "email": "mestsky.urad@trencin.sk",
+  "web": "trencin.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin/stravy)",
+  "konatel": "",
+  "lat": 48.89441,
+  "lon": 18.0399914
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Prievidza (Mestsky urad)",
+  "ico": "00318442",
+  "adresa": "Namestie slobody 14",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "250-499 zam (mesto + organizacie), druha najvacsia samosprava kraja",
+  "tel": "046/5179110",
+  "email": "info@prievidza.sk",
+  "web": "prievidza.sk",
+  "zona": "TN2",
+  "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Prievidza (odber potravin/stravy)",
+  "konatel": "",
+  "lat": 48.7713124,
+  "lon": 18.6241498
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Povazska Bystrica (Mestsky urad)",
+  "ico": "00317667",
+  "adresa": "Centrum 2/3",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "250-499 zam (mesto + organizacie), tretia najvacsia samosprava kraja",
+  "tel": "042/4305111",
+  "email": "primator@povazska-bystrica.sk",
+  "web": "povazska-bystrica.sk",
+  "zona": "TN3",
+  "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v Povazskej Bystrici (odber potravin/stravy)",
+  "konatel": "",
+  "lat": 49.1162074,
+  "lon": 18.4472524
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Hornonitrianske bane Prievidza, a.s. (HBP)",
+  "ico": "36005622",
+  "adresa": "Matice slovenskej 10",
+  "mesto": "Prievidza",
+  "okres": "Prievidza",
+  "velkost": "500-999 zam, najvacsi zamestnavatel hornej Nitry; zavodne stravovanie",
+  "tel": "046/5421111",
+  "email": "hbp@hbp.sk",
+  "web": "hbp.sk",
+  "zona": "TN2",
+  "pozn": "najvacsi priemyselny zamestnavatel regionu, zavodne stravovanie pre stovky baniarov; over model jedalne (vlastna vs externa)",
+  "konatel": "Peter Čičmanec, Stanislav Gurský, Petra Sládečková",
+  "lat": 48.7703573,
+  "lon": 18.6260215
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Krajske riaditelstvo Policajneho zboru v Trencine",
+  "ico": "00151866",
+  "adresa": "Jilemnickeho 1",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "krajske riaditelstvo PZ, stovky prislusnikov v kraji",
+  "tel": "032/7411111",
+  "email": "",
+  "web": "minv.sk",
+  "zona": "TN1",
+  "pozn": "krajske riaditelstvo PZ; spada pod MV SR (ICO 00151866); over ci ma vlastnu jedalen alebo obstarava stravu externe",
+  "konatel": "",
+  "lat": 48.8886533,
+  "lon": 18.0345975
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Okresny urad Trencin",
+  "ico": "00151866",
+  "adresa": "Hviezdoslavova 3",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "okresny urad v sidle kraja, klientske centrum + odbory, stovky zam",
+  "tel": "032/7411111",
+  "email": "",
+  "web": "minv.sk",
+  "zona": "TN1",
+  "pozn": "okresny urad v sidle kraja pod MV SR (ICO 00151866); odber stravnych sluzieb pre zamestnancov, over model",
+  "konatel": "",
+  "lat": 48.8932726,
+  "lon": 18.0400079
+ },
+ {
+  "kraj": "TN",
+  "kat": "Statne firmy a urady",
+  "firma": "Krajske riaditelstvo Hasicskeho a zachranneho zboru v Trencine",
+  "ico": "36127647",
+  "adresa": "Stefanikova 20",
+  "mesto": "Trencin",
+  "okres": "Trencin",
+  "velkost": "statny zbor, stovky zamestnancov; pod MV SR",
+  "tel": "032/741 1550",
+  "email": "sekretariat.tc@minv.sk",
+  "web": "minv.sk",
+  "zona": "TN1",
+  "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
+  "konatel": "",
+  "lat": 48.9952219,
+  "lon": 18.2281263
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach",
+  "ico": "17335795",
+  "adresa": "Nemocnicna 581/2",
+  "mesto": "Bojnice",
+  "okres": "Prievidza",
+  "velkost": "obrat 50 mil EUR (2025, trzby), 1000-1999 zam",
+  "tel": "",
+  "email": "",
+  "web": "hospital-bojnice.sk",
+  "zona": "TN2",
+  "pozn": "SILNY CIEL; prispevkova org TSK; sidlo Bojnice (nie Prievidza); 1000+ zam",
+  "konatel": "",
+  "lat": 48.7853369,
+  "lon": 18.5894152
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Povazska Bystrica",
+  "ico": "00610411",
+  "adresa": "Nemocnicna 986/1",
+  "mesto": "Povazska Bystrica",
+  "okres": "Povazska Bystrica",
+  "velkost": "obrat 52 mil EUR (2025, trzby), 1000-1999 zam",
+  "tel": "",
+  "email": "",
+  "web": "nemocnicapb.sk",
+  "zona": "TN3",
+  "pozn": "SILNY CIEL; prispevkova org TSK; 1000+ zam",
+  "konatel": "",
+  "lat": 49.1066834,
+  "lon": 18.4605166
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "NsP Nove Mesto nad Vahom n.o.",
+  "ico": "36119369",
+  "adresa": "M. R. Stefanika 812/2",
+  "mesto": "Nove Mesto nad Vahom",
+  "okres": "Nove Mesto nad Vahom",
+  "velkost": "obrat 11 mil EUR (2025, trzby), 200-249 zam",
+  "tel": "",
+  "email": "",
+  "web": "nemocnica.nspnm.sk",
+  "zona": "TN4",
+  "pozn": "mensa lozkova nemocnica; n.o. TSK",
+  "konatel": "",
+  "lat": 48.7535834,
+  "lon": 17.8311931
+ },
+ {
+  "kraj": "TN",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica s poliklinikou Myjava",
+  "ico": "00610721",
+  "adresa": "Staromyjavska 712/59",
+  "mesto": "Myjava",
+  "okres": "Myjava",
+  "velkost": "obrat 16 mil EUR (2025, trzby), 250-499 zam",
+  "tel": "034/697 91 11",
+  "email": "",
+  "web": "nspmyjava.sk",
+  "zona": "TN4",
+  "pozn": "prispevkova org TSK; 250-499 zam",
+  "konatel": "",
+  "lat": 48.7632026,
+  "lon": 17.5613471
  },
  {
   "kraj": "BB",
@@ -5193,9 +5233,9 @@ const GASTRO_DATA = [
   "web": "stravovaniekozak.sk",
   "zona": "B1",
   "pozn": "catering + rozvoz, kuchyna na 9. maja 74 (Uhlisko); povodne SZCO M. Kozak ICO 41678575",
+  "konatel": "Michal Kožák",
   "lat": 48.7625666,
-  "lon": 19.1603931,
-  "konatel": "Michal Kožák"
+  "lon": 19.1603931
  },
  {
   "kraj": "BB",
@@ -5211,9 +5251,9 @@ const GASTRO_DATA = [
   "web": "klobaskaren.sk",
   "zona": "B4",
   "pozn": "catering + vlastna masova vyroba (vyssi objem surovin); majitel Michal Mraz; ICO SZCO doplnit ORSR",
+  "konatel": "",
   "lat": 48.5595662,
-  "lon": 19.4205586,
-  "konatel": ""
+  "lon": 19.4205586
  },
  {
   "kraj": "BB",
@@ -5229,9 +5269,9 @@ const GASTRO_DATA = [
   "web": "ikcatering.sk",
   "zona": "B7",
   "pozn": "najvacsi etablovany catering okresu RS (od 1996); studena/teply catering + party; objem surovin stredny az vyssi",
+  "konatel": "Igor Klinčák, Xénia Klinčáková",
   "lat": 48.3863257,
-  "lon": 20.0144511,
-  "konatel": "Igor Klinčák, Xénia Klinčáková"
+  "lon": 20.0144511
  },
  {
   "kraj": "BB",
@@ -5247,9 +5287,9 @@ const GASTRO_DATA = [
   "web": "tradimex.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; zavodne stravovanie, 6 jedal denne, cena MJ 5,75 EUR bez DPH; Motel Madona",
+  "konatel": "Karol Boháč, Elena Kálusová",
   "lat": 48.7050435,
-  "lon": 19.1389801,
-  "konatel": "Karol Boháč, Elena Kálusová"
+  "lon": 19.1389801
  },
  {
   "kraj": "BB",
@@ -5265,9 +5305,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "B3",
   "pozn": "vyvaren + rozvoz do firiem/obchodov v okrese Zarnovica + catering (pecenie prasiat, slavnostne jedla); ICO/prevadzkovatel doplnit ORSR",
+  "konatel": "",
   "lat": 48.4903301,
-  "lon": 18.7232451,
-  "konatel": ""
+  "lon": 18.7232451
  },
  {
   "kraj": "BB",
@@ -5278,14 +5318,14 @@ const GASTRO_DATA = [
   "mesto": "Banska Bystrica",
   "okres": "Banska Bystrica",
   "velkost": "trzby 178,9 mil EUR (2025), 2000-2999 zam, vlastna kuchyna",
-  "tel": "048/441 1111",
-  "email": "",
+  "tel": "048/4411111",
+  "email": "sekretariatgr@nspbb.sk",
   "web": "fnspfdr.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsia nemocnica regiona, vlastna kuchyna pacienti + personal, verejny obstaravatel",
-  "lat": 48.7435675,
-  "lon": 19.1206201,
-  "konatel": ""
+  "konatel": "",
+  "lat": 48.735429,
+  "lon": 19.1457338
  },
  {
   "kraj": "BB",
@@ -5301,9 +5341,9 @@ const GASTRO_DATA = [
   "web": "suscch.eu",
   "zona": "B1",
   "pozn": "SILNY CIEL; specializovany ustav, stravovanie pacienti + personal",
+  "konatel": "Juraj Frajt, Adrian Bystriansky, Martina Soláriková",
   "lat": 48.7419682,
-  "lon": 19.159325,
-  "konatel": "Juraj Frajt, Adrian Bystriansky, Martina Soláriková"
+  "lon": 19.159325
  },
  {
   "kraj": "BB",
@@ -5319,9 +5359,9 @@ const GASTRO_DATA = [
   "web": "detskanemocnica.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; nemocnicna kuchyna detski pacienti + personal, verejny obstaravatel",
+  "konatel": "",
   "lat": 48.742949,
-  "lon": 19.1184625,
-  "konatel": ""
+  "lon": 19.1184625
  },
  {
   "kraj": "BB",
@@ -5337,9 +5377,9 @@ const GASTRO_DATA = [
   "web": "shpgroup.eu",
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel okresu, zavodna jedalen",
+  "konatel": "Martin Harbáč, Stevan Lomic, Bernhard Peschek, Milan Fiľo",
   "lat": 48.7951387,
-  "lon": 19.0783321,
-  "konatel": "Martin Harbáč, Stevan Lomic, Bernhard Peschek, Milan Fiľo"
+  "lon": 19.0783321
  },
  {
   "kraj": "BB",
@@ -5355,9 +5395,9 @@ const GASTRO_DATA = [
   "web": "fermas.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; chemicko-biotech vyroba (aminokyseliny/biosurfaktanty), zavodne stravovanie",
+  "konatel": "Miroslav Havlík, Miroslava Čikošová, Radoslava Pavlíková, Miroslav Zajac",
   "lat": 48.7673613,
-  "lon": 19.2759831,
-  "konatel": "Miroslav Havlík, Miroslava Čikošová, Radoslava Pavlíková, Miroslav Zajac"
+  "lon": 19.2759831
  },
  {
   "kraj": "BB",
@@ -5368,14 +5408,14 @@ const GASTRO_DATA = [
   "mesto": "Banska Bystrica",
   "okres": "Banska Bystrica",
   "velkost": "500-999 zam + tisice studentov; studentska jedalen/menza",
-  "tel": "048/4461111",
-  "email": "",
+  "tel": "048/4467619",
+  "email": "umb@umb.sk",
   "web": "umb.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; univerzitna jedalen + zamestnanci; over operatora stravovania",
+  "konatel": "",
   "lat": 48.7331796,
-  "lon": 19.1455309,
-  "konatel": ""
+  "lon": 19.1455309
  },
  {
   "kraj": "BB",
@@ -5386,14 +5426,14 @@ const GASTRO_DATA = [
   "mesto": "Zvolen",
   "okres": "Zvolen",
   "velkost": "studentska jedalen, 5+ jedal/obed; tisice studentov + zamestnanci",
-  "tel": "045/520 66 30",
-  "email": "",
+  "tel": "045/5206111",
+  "email": "info@tuzvo.sk",
   "web": "tuzvo.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; Studentsky domov a jedalen je interna sucast univerzity (sdj.tuzvo.sk); sidlo T. G. Masaryka 24",
+  "konatel": "",
   "lat": 48.5725862,
-  "lon": 19.1147562,
-  "konatel": ""
+  "lon": 19.1147562
  },
  {
   "kraj": "BB",
@@ -5409,9 +5449,9 @@ const GASTRO_DATA = [
   "web": "nemocnicazvolen.agel.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; nemocnicna kuchyna pacienti + personal; skupina AGEL; pristavba +60 novych luzok",
+  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Ján Haško, Michal Zakarovský",
   "lat": 48.5804374,
-  "lon": 19.1340044,
-  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Ján Haško, Michal Zakarovský"
+  "lon": 19.1340044
  },
  {
   "kraj": "BB",
@@ -5427,9 +5467,9 @@ const GASTRO_DATA = [
   "web": "kronospan.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; velky drevospracujuci zavod Zvolen (historicky nazov Bucina DDD); zavodne stravovanie",
+  "konatel": "Denisa Klöslová, Pavel Jurčišin, Daniel Huliak",
   "lat": 48.5675611,
-  "lon": 19.1555066,
-  "konatel": "Denisa Klöslová, Pavel Jurčišin, Daniel Huliak"
+  "lon": 19.1555066
  },
  {
   "kraj": "BB",
@@ -5445,9 +5485,9 @@ const GASTRO_DATA = [
   "web": "ppsgroup.sk",
   "zona": "B4",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Detva (strojarstvo, zvarence/rame); velka zavodna jedalen; operator stravovania over",
+  "konatel": "Ing. Ľuboš Valach, Ing. Roman Hýrošš, Ing. Stanislav Pavel",
   "lat": 48.5449791,
-  "lon": 19.4153127,
-  "konatel": "Ing. Ľuboš Valach, Ing. Roman Hýrošš, Ing. Stanislav Pavel"
+  "lon": 19.4153127
  },
  {
   "kraj": "BB",
@@ -5463,9 +5503,9 @@ const GASTRO_DATA = [
   "web": "nemocnicakrupina.agel.sk",
   "zona": "B4",
   "pozn": "SILNY CIEL; jedina lozkova nemocnica okresu Krupina; prevadzkovana cez AGEL; trzby/pocet luzok doplnit FinStat",
+  "konatel": "",
   "lat": 48.3523215,
-  "lon": 19.0645468,
-  "konatel": ""
+  "lon": 19.0645468
  },
  {
   "kraj": "BB",
@@ -5481,9 +5521,9 @@ const GASTRO_DATA = [
   "web": "nemak.com",
   "zona": "B3",
   "pozn": "SILNY CIEL; automotive zlievaren hlinika, najvacsi sukromny zamestnavatel okresu (~1500 zam); over operatora jedalne",
+  "konatel": "Rastislav Gáll, Milan Marko, Marek Minda",
   "lat": 48.5767461,
-  "lon": 18.8767073,
-  "konatel": "Rastislav Gáll, Milan Marko, Marek Minda"
+  "lon": 18.8767073
  },
  {
   "kraj": "BB",
@@ -5499,9 +5539,9 @@ const GASTRO_DATA = [
   "web": "slovalco.sk",
   "zona": "B3",
   "pozn": "SILNY CIEL; spracovanie hlinika (Hydro 55%); po odstaveni elektrolyznych peci 2023 redukovany stav, stale velka prevadzka v ZSNP areali",
+  "konatel": "Marián Slivovič, Knut Meel, Martin Krchňavý, Phillip McIntosh",
   "lat": 48.5672502,
-  "lon": 18.8606186,
-  "konatel": "Marián Slivovič, Knut Meel, Martin Krchňavý, Phillip McIntosh"
+  "lon": 18.8606186
  },
  {
   "kraj": "BB",
@@ -5517,9 +5557,9 @@ const GASTRO_DATA = [
   "web": "fagorederlan.com",
   "zona": "B3",
   "pozn": "SILNY CIEL; automotive zlievaren (byv. ZSNP Foundry) v priemyselnom areali ZSNP; stabilny denny objem obedov",
+  "konatel": "Ernesto Gabilondo, Adam Pajunk",
   "lat": 48.5668272,
-  "lon": 18.8552847,
-  "konatel": "Ernesto Gabilondo, Adam Pajunk"
+  "lon": 18.8552847
  },
  {
   "kraj": "BB",
@@ -5535,9 +5575,9 @@ const GASTRO_DATA = [
   "web": "tubapack.eu",
   "zona": "B3",
   "pozn": "priemyselny zavod v ZSNP areali; stredny-velky objem stravnikov; pocet zam over FinStat",
+  "konatel": "Beata Javorská, Richard Pittner, Radovan Pittner, Monika Bošková",
   "lat": 48.5668272,
-  "lon": 18.8552847,
-  "konatel": "Beata Javorská, Richard Pittner, Radovan Pittner, Monika Bošková"
+  "lon": 18.8552847
  },
  {
   "kraj": "BB",
@@ -5553,9 +5593,9 @@ const GASTRO_DATA = [
   "web": "nemocnicaziarnadhronom.agel.sk",
   "zona": "B3",
   "pozn": "SILNY CIEL; nemocnicna kuchyna pacienti + personal; skupina AGEL; hlavna lozkova prevadzka v Ziari",
+  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Tomáš Lučkai, Ján Haško",
   "lat": 48.590194,
-  "lon": 18.8429164,
-  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Tomáš Lučkai, Ján Haško"
+  "lon": 18.8429164
  },
  {
   "kraj": "BB",
@@ -5571,9 +5611,9 @@ const GASTRO_DATA = [
   "web": "knaufinsulation-zavod.sk",
   "zona": "B3",
   "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel okresu Zarnovica; nepretrzita prevadzka = denne stravovanie cez zmeny",
+  "konatel": "Ing. Alexander Écsi, Dominique Bossan, Ing. Vladimír Boroš, Ing. Fritz Lackner, Ing. Tivadar Németh",
   "lat": 48.4103002,
-  "lon": 18.6419354,
-  "konatel": "Ing. Alexander Écsi, Dominique Bossan, Ing. Vladimír Boroš, Ing. Fritz Lackner, Ing. Tivadar Németh"
+  "lon": 18.6419354
  },
  {
   "kraj": "BB",
@@ -5589,9 +5629,9 @@ const GASTRO_DATA = [
   "web": "lcnsp.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; najvacsia nemocnicna kuchyna okresu, novovybudovana prevadzka liecebnej vyzivy + jedalen pre personal",
+  "konatel": "",
   "lat": 48.3286318,
-  "lon": 19.6596809,
-  "konatel": ""
+  "lon": 19.6596809
  },
  {
   "kraj": "BB",
@@ -5607,9 +5647,9 @@ const GASTRO_DATA = [
   "web": "adient.com",
   "zona": "B6",
   "pozn": "SILNY CIEL; velky automotive zamestnavatel okresu, priem. zona Juh; presny prevadzkovy subjekt + ICO + operator jedalne over ORSR",
+  "konatel": "",
   "lat": 48.3303886,
-  "lon": 19.6634149,
-  "konatel": ""
+  "lon": 19.6634149
  },
  {
   "kraj": "BB",
@@ -5625,9 +5665,9 @@ const GASTRO_DATA = [
   "web": "mecom.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; masokombinat (Smithfield), vlastne zavodne stravovanie; sidlo firmy Humenne, prevadzka v Lucenci",
+  "konatel": "Ladislav Čechovič, Adriana Sill",
   "lat": 48.3066404,
-  "lon": 19.6805383,
-  "konatel": "Ladislav Čechovič, Adriana Sill"
+  "lon": 19.6805383
  },
  {
   "kraj": "BB",
@@ -5643,9 +5683,9 @@ const GASTRO_DATA = [
   "web": "nspvk.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; spadova nemocnica okresu, vlastna kuchyna pacienti + personal; financne napata (strata 2024)",
+  "konatel": "",
   "lat": 48.2105819,
-  "lon": 19.3508582,
-  "konatel": ""
+  "lon": 19.3508582
  },
  {
   "kraj": "BB",
@@ -5661,9 +5701,9 @@ const GASTRO_DATA = [
   "web": "r-glass.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; najvacsi vyrobny zamestnavatel okresu Poltar (sklarne v byv. areali Slovglass), zavodne stravovanie",
+  "konatel": "Brigita Mrázová, Drahomíra Riečicová",
   "lat": 48.4636561,
-  "lon": 19.6357923,
-  "konatel": "Brigita Mrázová, Drahomíra Riečicová"
+  "lon": 19.6357923
  },
  {
   "kraj": "BB",
@@ -5679,9 +5719,9 @@ const GASTRO_DATA = [
   "web": "taurisgroup.sk",
   "zona": "B7",
   "pozn": "SILNY CIEL; najvacsi priemyselny zamestnavatel okresu (masokombinat TAURIS Group), velka zavodna jedalen; over operatora stravovania",
+  "konatel": "Štefan Kalafa, Ivan Treľo, Vladimír Podolinský, Ivan Stanislav, Richard Duda",
   "lat": 48.3747446,
-  "lon": 20.0300839,
-  "konatel": "Štefan Kalafa, Ivan Treľo, Vladimír Podolinský, Ivan Stanislav, Richard Duda"
+  "lon": 20.0300839
  },
  {
   "kraj": "BB",
@@ -5697,9 +5737,9 @@ const GASTRO_DATA = [
   "web": "smzjelsava.sk",
   "zona": "B7",
   "pozn": "SILNY CIEL; najvacsia fabrika okresu Revuca (magnezit), zavodne stravovanie; dcera SMZ-Sluzby (stravovanie) zrusena 2021 - over operatora",
+  "konatel": "Roman Gažúr, Ivan Nemeth, Marek Šeševička, Peter Košinár, Ján Chlebuš",
   "lat": 48.6441966,
-  "lon": 20.2170711,
-  "konatel": "Roman Gažúr, Ivan Nemeth, Marek Šeševička, Peter Košinár, Ján Chlebuš"
+  "lon": 20.2170711
  },
  {
   "kraj": "BB",
@@ -5715,9 +5755,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "B7",
   "pozn": "SILNY CIEL; nemocnicna kuchyna, siet Svet zdravia/Penta; prevadzkovy subjekt + ICO over ORSR",
+  "konatel": "",
   "lat": 48.3828439,
-  "lon": 20.0256058,
-  "konatel": ""
+  "lon": 20.0256058
  },
  {
   "kraj": "BB",
@@ -5733,9 +5773,9 @@ const GASTRO_DATA = [
   "web": "nspbr.sk",
   "zona": "B5",
   "pozn": "SILNY CIEL; nemocnicna kuchyna, samostatna n.o. (NIE Svet zdravia); stabilny denny objem",
+  "konatel": "",
   "lat": 48.809133,
-  "lon": 19.6236492,
-  "konatel": ""
+  "lon": 19.6236492
  },
  {
   "kraj": "BB",
@@ -5751,9 +5791,9 @@ const GASTRO_DATA = [
   "web": "nsprevuca.sk",
   "zona": "B7",
   "pozn": "SILNY CIEL; nemocnicna kuchyna; samostatna n.o.; pocet luzok over",
+  "konatel": "",
   "lat": 48.6916682,
-  "lon": 20.1186586,
-  "konatel": ""
+  "lon": 20.1186586
  },
  {
   "kraj": "BB",
@@ -5769,9 +5809,9 @@ const GASTRO_DATA = [
   "web": "zlhhronec.sk",
   "zona": "B5",
   "pozn": "SILNY CIEL; zlievaren (odliatky pre zelez. priemysel), zavodne stravovanie; over operatora jedalne",
+  "konatel": "Ing. Peter Jarkovský, Ing. Michal Škuta, Ing. Alexej Beljajev, Pavel Kúš",
   "lat": 48.8001741,
-  "lon": 19.5771414,
-  "konatel": "Ing. Peter Jarkovský, Ing. Michal Škuta, Ing. Alexej Beljajev, Pavel Kúš"
+  "lon": 19.5771414
  },
  {
   "kraj": "BB",
@@ -5787,9 +5827,9 @@ const GASTRO_DATA = [
   "web": "dixonresort.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsia kongresova/banketova kapacita v BB; prevadzkuje SZCO J. Sninsky, ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.7359616,
-  "lon": 19.1251864,
-  "konatel": ""
+  "lon": 19.1251864
  },
  {
   "kraj": "BB",
@@ -5805,9 +5845,9 @@ const GASTRO_DATA = [
   "web": "arcade.sk",
   "zona": "B1",
   "pozn": "banketova/eventova prevadzka v centre; prevadzkovatel/ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.734617,
-  "lon": 19.1456519,
-  "konatel": ""
+  "lon": 19.1456519
  },
  {
   "kraj": "BB",
@@ -5823,9 +5863,9 @@ const GASTRO_DATA = [
   "web": "cervenyrak.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; vlastna varna kapacita + catering do 250 osob, minipivovar KREBS",
+  "konatel": "Milan Lukáč, Katarína Lukáčová, Ladislav Lukáč",
   "lat": 48.7349855,
-  "lon": 19.1438772,
-  "konatel": "Milan Lukáč, Katarína Lukáčová, Ladislav Lukáč"
+  "lon": 19.1438772
  },
  {
   "kraj": "BB",
@@ -5841,9 +5881,9 @@ const GASTRO_DATA = [
   "web": "hoteltenis.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; najvacsia kongresova/banketova kapacita Zvolena (do 400), svadby/plesy/firemne; tel 0915 988 811",
+  "konatel": "Jiří Příkazský, Ľubomír Kardoš",
   "lat": 48.5591527,
-  "lon": 19.1319182,
-  "konatel": "Jiří Příkazský, Ľubomír Kardoš"
+  "lon": 19.1319182
  },
  {
   "kraj": "BB",
@@ -5859,9 +5899,9 @@ const GASTRO_DATA = [
   "web": "restauracia-centrum.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; velka kongresova/svadobna sala do 300 + catering; prevadzkuje aj Kuraci Svet a Blue Cafe; ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.5782517,
-  "lon": 19.1247135,
-  "konatel": ""
+  "lon": 19.1247135
  },
  {
   "kraj": "BB",
@@ -5877,9 +5917,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "B4",
   "pozn": "SILNY CIEL; najvacsia ubytovacia + eventova prevadzka okresu Detva; vlastnici R. a M. Suptak; ICO over",
+  "konatel": "Robert Ľupták",
   "lat": 48.5412764,
-  "lon": 19.4040356,
-  "konatel": "Robert Ľupták"
+  "lon": 19.4040356
  },
  {
   "kraj": "BB",
@@ -5895,9 +5935,9 @@ const GASTRO_DATA = [
   "web": "salamandra.sk",
   "zona": "B3",
   "pozn": "SILNY CIEL; styrhviezdickovy horsky rezort pri Banskej Stiavnici (9 km), MICE/eventy/svadby; sidlo firmy v BA, rezort v Hodrusi-Hamroch (okres Ziar)",
+  "konatel": "Jaroslav Kubaľa, Lucia Krasnohorská, Július Strapek, Adam Jašek",
   "lat": 48.4662496,
-  "lon": 18.8187939,
-  "konatel": "Jaroslav Kubaľa, Lucia Krasnohorská, Július Strapek, Adam Jašek"
+  "lon": 18.8187939
  },
  {
   "kraj": "BB",
@@ -5913,9 +5953,9 @@ const GASTRO_DATA = [
   "web": "grandmatej.sk",
   "zona": "B3",
   "pozn": "SILNY CIEL; najvacsia eventova/kongresova kapacita v centre UNESCO Banskej Stiavnice; svadby/firemne",
+  "konatel": "Darina Kaníková",
   "lat": 48.4593745,
-  "lon": 18.8923427,
-  "konatel": "Darina Kaníková"
+  "lon": 18.8923427
  },
  {
   "kraj": "BB",
@@ -5931,9 +5971,9 @@ const GASTRO_DATA = [
   "web": "salamanderhotel.sk",
   "zona": "B3",
   "pozn": "mensia kapacita; restauracia + ubytovanie v historickom centre; ICO/prevadzkovatel doplnit ORSR",
+  "konatel": "",
   "lat": 48.4580926,
-  "lon": 18.8988414,
-  "konatel": ""
+  "lon": 18.8988414
  },
  {
   "kraj": "BB",
@@ -5949,9 +5989,9 @@ const GASTRO_DATA = [
   "web": "redutalucenec.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; najvacsi eventovy/banketovy komplex v centre Lucenca; povodny prevadzkovatel TRADE CENTER s.r.o. v konkurze, over aktualneho operatora",
+  "konatel": "Juraj Sýkora",
   "lat": 48.3273237,
-  "lon": 19.6692054,
-  "konatel": "Juraj Sýkora"
+  "lon": 19.6692054
  },
  {
   "kraj": "BB",
@@ -5967,9 +6007,9 @@ const GASTRO_DATA = [
   "web": "dobruchutpoltar.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; najvacsia banketova/svadobna sala okresu Poltar, vlastny catering + penzion; ICO doplnit ORSR",
+  "konatel": "",
   "lat": 48.4344742,
-  "lon": 19.7966007,
-  "konatel": ""
+  "lon": 19.7966007
  },
  {
   "kraj": "BB",
@@ -5985,9 +6025,9 @@ const GASTRO_DATA = [
   "web": "hotel-polo.sk",
   "zona": "B6",
   "pozn": "banketova/eventova prevadzka v okrese Poltar; ICO + presna adresa doplnit ORSR",
+  "konatel": "",
   "lat": 48.4308293,
-  "lon": 19.7923921,
-  "konatel": ""
+  "lon": 19.7923921
  },
  {
   "kraj": "BB",
@@ -6003,9 +6043,9 @@ const GASTRO_DATA = [
   "web": "penzionuvinara.sk",
   "zona": "B6",
   "pozn": "SILNY CIEL; najvacsi vinar stredoslovenskej oblasti (230 ha), eventovy priestor + vino + ubytovanie pre firemne akcie",
+  "konatel": "Ing. Bohumír Kóňa, Ing. Marek Špirko, Ing. Jozef Špirko",
   "lat": 48.211172,
-  "lon": 19.3338701,
-  "konatel": "Ing. Bohumír Kóňa, Ing. Marek Špirko, Ing. Jozef Špirko"
+  "lon": 19.3338701
  },
  {
   "kraj": "BB",
@@ -6021,9 +6061,9 @@ const GASTRO_DATA = [
   "web": "partizan.sk",
   "zona": "B5",
   "pozn": "SILNY CIEL; najvacsia kongresovo-eventova kapacita regionu Tale, viacero vlastnych kuchyn/restauracii; rodina Kico",
+  "konatel": "Michal Kič, Miloslava Kičová, Martin Kič",
   "lat": 48.8442095,
-  "lon": 19.6063437,
-  "konatel": "Michal Kič, Miloslava Kičová, Martin Kič"
+  "lon": 19.6063437
  },
  {
   "kraj": "BB",
@@ -6039,9 +6079,9 @@ const GASTRO_DATA = [
   "web": "tale.sk",
   "zona": "B5",
   "pozn": "SILNY CIEL; horsky rezort s viacerymi gastro prevadzkami, banketova kapacita do 150 (Stodola), svadby/firemne",
+  "konatel": "Marian Kurčík, Jozef Soták, Vladimír Soták",
   "lat": 48.8699186,
-  "lon": 19.5919461,
-  "konatel": "Marian Kurčík, Jozef Soták, Vladimír Soták"
+  "lon": 19.5919461
  },
  {
   "kraj": "BB",
@@ -6057,9 +6097,9 @@ const GASTRO_DATA = [
   "web": "restauraciaomega.sk",
   "zona": "B5",
   "pozn": "banketova/eventova restauracia v Dome kultury Brezno + catering; ICO Nana s.r.o. doplnit ORSR",
+  "konatel": "",
   "lat": 48.8025421,
-  "lon": 19.6391146,
-  "konatel": ""
+  "lon": 19.6391146
  },
  {
   "kraj": "BB",
@@ -6075,9 +6115,9 @@ const GASTRO_DATA = [
   "web": "coopka.sk",
   "zona": "B4",
   "pozn": "SILNY CIEL; najvacsie regionalne druzstvo v kraji (160 predajni), pohostinska cinnost, velkoodberatel surovin pre vlastne gastro prevadzky",
+  "konatel": "Jozef Vahančík, Ján Ungvarský, Jana Šebianová, Dominika Vahančíková, Anna Horváthová",
   "lat": 48.353408,
-  "lon": 19.0671217,
-  "konatel": "Jozef Vahančík, Ján Ungvarský, Jana Šebianová, Dominika Vahančíková, Anna Horváthová"
+  "lon": 19.0671217
  },
  {
   "kraj": "BB",
@@ -6093,9 +6133,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "B5",
   "pozn": "SILNY CIEL; regionalne spotrebne druzstvo s pohostinskou cinnostou, stabilny velkoodberatel potravin v Horehronskom regione",
+  "konatel": "Eva Kolajová, Jozef Ďurica, Ján Králik, Ján Kováčik, Eva Matovičová",
   "lat": 48.8063408,
-  "lon": 19.6417475,
-  "konatel": "Eva Kolajová, Jozef Ďurica, Ján Králik, Ján Kováčik, Eva Matovičová"
+  "lon": 19.6417475
  },
  {
   "kraj": "BB",
@@ -6111,9 +6151,9 @@ const GASTRO_DATA = [
   "web": "mcdonalds.sk",
   "zona": "B2",
   "pozn": "fransizove prevadzky McDonald's (Zvolen Obchodna 9 + SC Europa BB); franchisant zrejme V. Tomko; prevadzkova firma + ICO over ORSR",
+  "konatel": "",
   "lat": 48.5837269,
-  "lon": 19.1058097,
-  "konatel": ""
+  "lon": 19.1058097
  },
  {
   "kraj": "BB",
@@ -6129,9 +6169,9 @@ const GASTRO_DATA = [
   "web": "bbsk.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; krajsky urad + zriadovatel ~50 strednych skol a socialnych zariadeni v kraji (skolske/zariadenske kuchyne, verejne obstaravanie stravy a potravin)",
+  "konatel": "",
   "lat": 48.7361975,
-  "lon": 19.1457471,
-  "konatel": ""
+  "lon": 19.1457471
  },
  {
   "kraj": "BB",
@@ -6147,9 +6187,9 @@ const GASTRO_DATA = [
   "web": "lesy.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; sidlo statneho podniku v BB, odber stravovacich sluzieb pre GR; over model jedalne (vlastna vs externa)",
+  "konatel": "Boris Gregor",
   "lat": 48.7345471,
-  "lon": 19.1450621,
-  "konatel": "Boris Gregor"
+  "lon": 19.1450621
  },
  {
   "kraj": "BB",
@@ -6165,9 +6205,9 @@ const GASTRO_DATA = [
   "web": "81k.mil.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; vojenska zakladna s velkou jedalnou (kazdodenne stravovanie posadky); utvar OS SR pod MO SR (ICO 30845572), samostatne doplnit",
+  "konatel": "",
   "lat": 48.6379611,
-  "lon": 19.1356756,
-  "konatel": ""
+  "lon": 19.1356756
  },
  {
   "kraj": "BB",
@@ -6183,9 +6223,9 @@ const GASTRO_DATA = [
   "web": "vvzs.mil.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; velitelstvo + posadka Zvolen s vojenskou jedalnou; utvar OS SR pod MO SR (ICO 30845572), samostatne doplnit",
+  "konatel": "",
   "lat": 48.5752552,
-  "lon": 19.1290487,
-  "konatel": ""
+  "lon": 19.1290487
  },
  {
   "kraj": "BB",
@@ -6201,9 +6241,9 @@ const GASTRO_DATA = [
   "web": "banskabystrica.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsia samosprava kraja, zriadovatel MS/ZS so skolskymi jedalnami (odber potravin)",
+  "konatel": "",
   "lat": 48.7383681,
-  "lon": 19.1563277,
-  "konatel": ""
+  "lon": 19.1563277
  },
  {
   "kraj": "BB",
@@ -6219,9 +6259,9 @@ const GASTRO_DATA = [
   "web": "zvolen.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Zvolen (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.5782185,
-  "lon": 19.1234142,
-  "konatel": ""
+  "lon": 19.1234142
  },
  {
   "kraj": "BB",
@@ -6237,9 +6277,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "B1",
   "pozn": "krajske riaditelstvo PZ; spada pod MV SR; over ci ma vlastnu jedalen alebo obstarava stravu externe",
+  "konatel": "",
   "lat": 48.7319682,
-  "lon": 19.1528607,
-  "konatel": ""
+  "lon": 19.1528607
  },
  {
   "kraj": "BB",
@@ -6255,9 +6295,9 @@ const GASTRO_DATA = [
   "web": "posta.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; generalne riaditelstvo statnej a.s. so sidlom v BB, zamestnanecke stravovanie pre stovky zam GR; odber stravovacich sluzieb / zavodna jedalen",
+  "konatel": "Vladislav Kupka, Melinda Burdanová, Juliana Márquez, Michaela Rajtarová, Filip Kamenský",
   "lat": 48.7401412,
-  "lon": 19.1616185,
-  "konatel": "Vladislav Kupka, Melinda Burdanová, Juliana Márquez, Michaela Rajtarová, Filip Kamenský"
+  "lon": 19.1616185
  },
  {
   "kraj": "BB",
@@ -6273,9 +6313,9 @@ const GASTRO_DATA = [
   "web": "umb.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; verejna univerzita s vlastnymi studentskymi jedalnami a SD (tisice stravnikov denne); velke verejne obstaravanie potravin a stravy",
+  "konatel": "",
   "lat": 48.7331796,
-  "lon": 19.1455309,
-  "konatel": ""
+  "lon": 19.1455309
  },
  {
   "kraj": "BB",
@@ -6291,9 +6331,9 @@ const GASTRO_DATA = [
   "web": "fnspfdr.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsia nemocnicna kuchyna v kraji, kazdodenne stravovanie pacientov a personalu; obrovsky odber potravin, verejne obstaravanie stravy",
+  "konatel": "",
   "lat": 48.735429,
-  "lon": 19.1457338,
-  "konatel": ""
+  "lon": 19.1457338
  },
  {
   "kraj": "BB",
@@ -6309,9 +6349,9 @@ const GASTRO_DATA = [
   "web": "tuzvo.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; verejna univerzita s vlastnou studentskou jedalnou a SD vo Zvolene; verejne obstaravanie potravin/stravy",
+  "konatel": "",
   "lat": 48.5718444,
-  "lon": 19.1172994,
-  "konatel": ""
+  "lon": 19.1172994
  },
  {
   "kraj": "BB",
@@ -6327,9 +6367,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "B1",
   "pozn": "SILNY CIEL; vazenska kuchyna ZVJS (kazdodenne stravovanie cca 750 odsudenych + zamestnancov); samostatne ICO, velke obstaravanie potravin",
+  "konatel": "",
   "lat": 48.7083339,
-  "lon": 19.1293871,
-  "konatel": ""
+  "lon": 19.1293871
  },
  {
   "kraj": "BB",
@@ -6345,9 +6385,9 @@ const GASTRO_DATA = [
   "web": "lucenec.sk",
   "zona": "B4",
   "pozn": "zriadovatel MS/ZS so skolskymi jedalnami v Lucenci (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.3303071,
-  "lon": 19.6641699,
-  "konatel": ""
+  "lon": 19.6641699
  },
  {
   "kraj": "BB",
@@ -6363,9 +6403,9 @@ const GASTRO_DATA = [
   "web": "rimavskasobota.sk",
   "zona": "B4",
   "pozn": "zriadovatel MS/ZS so skolskymi jedalnami v Rimavskej Sobote (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.3843557,
-  "lon": 20.0185411,
-  "konatel": ""
+  "lon": 20.0185411
  },
  {
   "kraj": "BB",
@@ -6381,9 +6421,9 @@ const GASTRO_DATA = [
   "web": "ziar.sk",
   "zona": "B3",
   "pozn": "zriadovatel MS/ZS so skolskymi jedalnami v Ziari nad Hronom (odber potravin/stravy)",
+  "konatel": "",
   "lat": 48.5917457,
-  "lon": 18.8496777,
-  "konatel": ""
+  "lon": 18.8496777
  },
  {
   "kraj": "BB",
@@ -6399,9 +6439,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "BB1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
+  "konatel": "",
   "lat": 48.7398807,
-  "lon": 19.1472445,
-  "konatel": ""
+  "lon": 19.1472445
  },
  {
   "kraj": "BB",
@@ -6417,9 +6457,9 @@ const GASTRO_DATA = [
   "web": "zsr.sk",
   "zona": "B2",
   "pozn": "OZ Zvolen - oblastne riaditelstvo pre BB kraj; vlastna kuchyna/zavodne stravovanie",
+  "konatel": "Miroslav Garaj",
   "lat": 48.5772763,
-  "lon": 19.1227954,
-  "konatel": "Miroslav Garaj"
+  "lon": 19.1227954
  },
  {
   "kraj": "BB",
@@ -6435,9 +6475,9 @@ const GASTRO_DATA = [
   "web": "nemocnicazvolen.agel.sk",
   "zona": "B2",
   "pozn": "SILNY CIEL; AGEL skupina; lozkova nemocnica BB kraj",
+  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Ján Haško, Michal Zakarovský",
   "lat": 48.5804374,
-  "lon": 19.1340044,
-  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Ján Haško, Michal Zakarovský"
+  "lon": 19.1340044
  },
  {
   "kraj": "BB",
@@ -6453,9 +6493,9 @@ const GASTRO_DATA = [
   "web": "nspbr.sk",
   "zona": "B5",
   "pozn": "statna n.o.; lozkova nemocnica; zriadovatel BBSK",
+  "konatel": "",
   "lat": 48.809133,
-  "lon": 19.6236492,
-  "konatel": ""
+  "lon": 19.6236492
  },
  {
   "kraj": "BB",
@@ -6466,14 +6506,14 @@ const GASTRO_DATA = [
   "mesto": "Lucenec",
   "okres": "Lucenec",
   "velkost": "200-499 zam",
-  "tel": "",
-  "email": "",
+  "tel": "047/4311111",
+  "email": "info@lcnsp.sk",
   "web": "lcnsp.sk",
   "zona": "B6",
   "pozn": "n.o.; lozkova nemocnica BB kraj",
+  "konatel": "",
   "lat": 48.3286318,
-  "lon": 19.6596809,
-  "konatel": ""
+  "lon": 19.6596809
  },
  {
   "kraj": "BB",
@@ -6489,9 +6529,9 @@ const GASTRO_DATA = [
   "web": "nsprevuca.sk",
   "zona": "B6",
   "pozn": "n.o.; lozkova nemocnica; okres Revuca",
+  "konatel": "",
   "lat": 48.6916682,
-  "lon": 20.1186586,
-  "konatel": ""
+  "lon": 20.1186586
  },
  {
   "kraj": "BB",
@@ -6507,9 +6547,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "B7",
   "pozn": "SILNY CIEL; Penta Hospitals (byvaly Svet zdravia); lozkova nemocnica",
+  "konatel": "Radoslav Čuha, Tomáš Valaška, Igor Pramuk, Martin Krchňavý",
   "lat": 48.3843739,
-  "lon": 20.0264796,
-  "konatel": "Radoslav Čuha, Tomáš Valaška, Igor Pramuk, Martin Krchňavý"
+  "lon": 20.0264796
  },
  {
   "kraj": "BB",
@@ -6525,9 +6565,9 @@ const GASTRO_DATA = [
   "web": "nemocnicaziarnadhronom.agel.sk",
   "zona": "B2",
   "pozn": "AGEL od 2023 (byvaly Svet zdravia); 196 lozok",
+  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Tomáš Lučkai, Ján Haško",
   "lat": 48.590194,
-  "lon": 18.8429164,
-  "konatel": "Waldemar Kmiecik, Ľudmila Veselá, Tomáš Lučkai, Ján Haško"
+  "lon": 18.8429164
  },
  {
   "kraj": "ZA",
@@ -6543,9 +6583,9 @@ const GASTRO_DATA = [
   "web": "eltoro.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; rozvoz jedal pre firmy a zamestnancov + catering; pobocka v Dolnom Kubine (eltorodk.sk), NACE 5611",
+  "konatel": "Richard Podhorec",
   "lat": 49.20385,
-  "lon": 18.72742,
-  "konatel": "Richard Podhorec"
+  "lon": 18.72742
  },
  {
   "kraj": "ZA",
@@ -6561,9 +6601,9 @@ const GASTRO_DATA = [
   "web": "dugecatering.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; zavodne stravovanie + rozvoz + bankety/svadby pre horny Liptov; sidlo Janosikova 538 Liptovsky Mikulas, NACE catering",
+  "konatel": "Dušan Gejdoš",
   "lat": 49.0362197,
-  "lon": 19.7367544,
-  "konatel": "Dušan Gejdoš"
+  "lon": 19.7367544
  },
  {
   "kraj": "ZA",
@@ -6579,9 +6619,9 @@ const GASTRO_DATA = [
   "web": "gastroturiec.sk",
   "zona": "ZA2",
   "pozn": "rozvoz denneho menu + eventovy catering (svadby od 14 EUR/os); prevadzka Martin-Tomcany, na trhu cca 18 rokov",
+  "konatel": "Martin Rizman, Ivan Rizman, Viera Rizmanová",
   "lat": 49.0622551,
-  "lon": 18.9410104,
-  "konatel": "Martin Rizman, Ivan Rizman, Viera Rizmanová"
+  "lon": 18.9410104
  },
  {
   "kraj": "ZA",
@@ -6597,9 +6637,9 @@ const GASTRO_DATA = [
   "web": "buenogusto.sk",
   "zona": "ZA1",
   "pozn": "firemne stravovanie (vernostne karty + mesacna fakturacia) + catering; vlastna vyrobna kuchyna v Ziline",
+  "konatel": "Martin Novotný, Zuzana Blaha",
   "lat": 49.1980494,
-  "lon": 18.7685331,
-  "konatel": "Martin Novotný, Zuzana Blaha"
+  "lon": 18.7685331
  },
  {
   "kraj": "ZA",
@@ -6615,9 +6655,9 @@ const GASTRO_DATA = [
   "web": "slovtrend.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; velkokapacitne zavodne stravovanie + rozvoz obedov do firiem + catering, 1300+ stravnikov denne, NACE 5611",
+  "konatel": "Adriana Hodasová, Rastislav Hodas, Tomáš Hodas",
   "lat": 49.2208498,
-  "lon": 18.7299827,
-  "konatel": "Adriana Hodasová, Rastislav Hodas, Tomáš Hodas"
+  "lon": 18.7299827
  },
  {
   "kraj": "ZA",
@@ -6633,9 +6673,9 @@ const GASTRO_DATA = [
   "web": "food-time.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; velky dodavatel zavodneho stravovania 24/7, vyrobna kuchyna v Ziline; sidlo firmy je Trencianske Teplice (TN kraj), prevadzka pre ZA",
+  "konatel": "Michal Kintler, Tomáš Kotras",
   "lat": 49.2025305,
-  "lon": 18.731419,
-  "konatel": "Michal Kintler, Tomáš Kotras"
+  "lon": 18.731419
  },
  {
   "kraj": "ZA",
@@ -6651,9 +6691,9 @@ const GASTRO_DATA = [
   "web": "pemmeva.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; centralna vyrobna + zavodne stravovanie + catering + bufet v nemocnici; sidlo Zavazna Poruba; existuje aj samostatna s.r.o. ICO 51871939 (mensi obrat)",
+  "konatel": "",
   "lat": 49.0785371,
-  "lon": 19.6514188,
-  "konatel": ""
+  "lon": 19.6514188
  },
  {
   "kraj": "ZA",
@@ -6664,14 +6704,14 @@ const GASTRO_DATA = [
   "mesto": "Zilina",
   "okres": "Zilina",
   "velkost": "cca 806 jedal denne (z toho ~420 rozvoz elektromobilmi do dennych centier a seniorom); 4 stravovacie zariadenia mesta",
-  "tel": "+421 905 393 526",
-  "email": "kc_informator@zilina.sk",
+  "tel": "041/7063111",
+  "email": "sekretariatmsu@zilina.sk",
   "web": "zilina.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; mestska velkokapacitna vyvarovna + rozvoz seniorom; ICO 00321796 je ICO Mesta Zilina (zriadovatel)",
+  "konatel": "",
   "lat": 49.21278,
-  "lon": 18.7618657,
-  "konatel": ""
+  "lon": 18.7618657
  },
  {
   "kraj": "ZA",
@@ -6687,9 +6727,9 @@ const GASTRO_DATA = [
   "web": "kia.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; najvacsia automobilka kraja, uzavrety areal, 3 zmeny, tisice obedov denne; operator jedalne neovereny",
+  "konatel": "Chang Han, In Bae, Eui Chung, Tae Koo",
   "lat": 49.2138586,
-  "lon": 18.8128131,
-  "konatel": "Chang Han, In Bae, Eui Chung, Tae Koo"
+  "lon": 18.8128131
  },
  {
   "kraj": "ZA",
@@ -6705,9 +6745,9 @@ const GASTRO_DATA = [
   "web": "mobis.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; najvacsi dodavatel modulov pre Kiu, smenna prevadzka, tisice stravnikov; operator jedalne neovereny",
+  "konatel": "Shin Kang, Gyu Lee, Jaeho Lee, Youngbin Kim",
   "lat": 49.2127399,
-  "lon": 18.8478998,
-  "konatel": "Shin Kang, Gyu Lee, Jaeho Lee, Youngbin Kim"
+  "lon": 18.8478998
  },
  {
   "kraj": "ZA",
@@ -6723,9 +6763,9 @@ const GASTRO_DATA = [
   "web": "hyundai-transys.sk",
   "zona": "ZA1",
   "pozn": "byvaly Hyundai Dymos Slovakia, dodavatel prevodoviek/sedaciek pre Kiu; mensi zavod ale smenna prevadzka; operator jedalne neovereny",
+  "konatel": "Hyuk-Chung Gueon",
   "lat": 49.22958,
-  "lon": 18.72759,
-  "konatel": "Hyuk-Chung Gueon"
+  "lon": 18.72759
  },
  {
   "kraj": "ZA",
@@ -6741,9 +6781,9 @@ const GASTRO_DATA = [
   "web": "schaeffler.sk",
   "zona": "ZA4",
   "pozn": "SILNY CIEL; byvaly INA Kysuce, najvacsi zamestnavatel Kysuc, vyroba lozisk, kontinualna prevadzka, tisice stravnikov; operator jedalne neovereny",
+  "konatel": "Ing. Jaroslav Patka, Ing. Miloš Šplhák",
   "lat": 49.297989,
-  "lon": 18.7674727,
-  "konatel": "Ing. Jaroslav Patka, Ing. Miloš Šplhák"
+  "lon": 18.7674727
  },
  {
   "kraj": "ZA",
@@ -6759,9 +6799,9 @@ const GASTRO_DATA = [
   "web": "kinex.sk",
   "zona": "ZA1",
   "pozn": "byvaly ZKL Kinex, vyrobca loziskovych segmentov, smenna prevadzka v Bytci; operator jedalne neovereny",
+  "konatel": "Eduard Jakubík, Peter Schnelly, Michal Perun, Ferdinand Štefanec, Peter Hajnala",
   "lat": 49.2215664,
-  "lon": 18.555622,
-  "konatel": "Eduard Jakubík, Peter Schnelly, Michal Perun, Ferdinand Štefanec, Peter Hajnala"
+  "lon": 18.555622
  },
  {
   "kraj": "ZA",
@@ -6777,9 +6817,9 @@ const GASTRO_DATA = [
   "web": "mondislovensko.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; najvacsia integrovana papierna a celuloza v SR, nepretrzita prevadzka, velky pocet zamestnancov na jednom mieste; operator jedalne neovereny",
+  "konatel": "Miloslav Čurilla, Robert Wagner, Thomas Seidl, Joachim Grünewald, Bernhard Cantzler",
   "lat": 49.0778956,
-  "lon": 19.3186291,
-  "konatel": "Miloslav Čurilla, Robert Wagner, Thomas Seidl, Joachim Grünewald, Bernhard Cantzler"
+  "lon": 19.3186291
  },
  {
   "kraj": "ZA",
@@ -6795,9 +6835,9 @@ const GASTRO_DATA = [
   "web": "pideu.panasonic.sk",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; najvacsi zamestnavatel okresu Tvrdosin, smenna prevadzka, masove stravovanie; operator jedalne neovereny",
+  "konatel": "Robert Sippel, Jozef Hricov",
   "lat": 49.3648877,
-  "lon": 19.6247664,
-  "konatel": "Robert Sippel, Jozef Hricov"
+  "lon": 19.6247664
  },
  {
   "kraj": "ZA",
@@ -6813,9 +6853,9 @@ const GASTRO_DATA = [
   "web": "yanfeng.com",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; vyrobny zavod automobilovych interierov v Namestove (odstepny zavod ICO 47257831, sidlo BA), velky zamestnavatel Oravy; operator jedalne neovereny",
+  "konatel": "Maria Fernandes, Daniel Freyder, Christoph Bremkamp, Jun Luo, Dušan Brázda",
   "lat": 49.4227984,
-  "lon": 19.5011939,
-  "konatel": "Maria Fernandes, Daniel Freyder, Christoph Bremkamp, Jun Luo, Dušan Brázda"
+  "lon": 19.5011939
  },
  {
   "kraj": "ZA",
@@ -6831,9 +6871,9 @@ const GASTRO_DATA = [
   "web": "uvn.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; najvacsia vojenska fakultna nemocnica v SR, velkokapacitna nemocnicna kuchyna pre pacientov a personal",
+  "konatel": "",
   "lat": 49.076232,
-  "lon": 19.3124302,
-  "konatel": ""
+  "lon": 19.3124302
  },
  {
   "kraj": "ZA",
@@ -6849,9 +6889,9 @@ const GASTRO_DATA = [
   "web": "kysuckanemocnica.sk",
   "zona": "ZA4",
   "pozn": "SILNY CIEL; krajska nemocnica pre Kysuce (ZSK), nemocnicna kuchyna pacienti + personal, pravidelne VO potravin",
+  "konatel": "",
   "lat": 49.4383465,
-  "lon": 18.7720268,
-  "konatel": ""
+  "lon": 18.7720268
  },
  {
   "kraj": "ZA",
@@ -6867,9 +6907,9 @@ const GASTRO_DATA = [
   "web": "nsplm.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; vseobecna nemocnica ZSK pre Liptov, nemocnicna kuchyna pacienti + personal",
+  "konatel": "",
   "lat": 49.0861328,
-  "lon": 19.5898188,
-  "konatel": ""
+  "lon": 19.5898188
  },
  {
   "kraj": "ZA",
@@ -6885,9 +6925,9 @@ const GASTRO_DATA = [
   "web": "donsp.sk",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; vseobecna nemocnica ZSK pre dolnu Oravu, nemocnicna kuchyna pacienti + personal",
+  "konatel": "",
   "lat": 49.2142852,
-  "lon": 19.3031187,
-  "konatel": ""
+  "lon": 19.3031187
  },
  {
   "kraj": "ZA",
@@ -6903,9 +6943,9 @@ const GASTRO_DATA = [
   "web": "nsptrstena.sk",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; vseobecna nemocnica ZSK pre hornu Oravu, nemocnicna kuchyna pacienti + personal",
+  "konatel": "",
   "lat": 49.3581308,
-  "lon": 19.6017006,
-  "konatel": ""
+  "lon": 19.6017006
  },
  {
   "kraj": "ZA",
@@ -6916,14 +6956,14 @@ const GASTRO_DATA = [
   "mesto": "Demanovska Dolina",
   "okres": "Liptovsky Mikulas",
   "velkost": "Grand Hotel Jasna 147 izieb, kongresove saly kombinovane az 300 osob",
-  "tel": "+421 44 523 1911",
-  "email": "info@grandjasna.sk",
-  "web": "grandjasna.sk",
+  "tel": "+421 44 4307 700",
+  "email": "info@galeriathermal.sk",
+  "web": "galeriathermal.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; vlajkovy 4* rezort TMR v Jasnej, kongresova/banketova kapacita az 300 osob, MICE a firemne eventy",
-  "lat": 48.97122,
-  "lon": 19.58108,
-  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský"
+  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
+  "lat": 49.1005697,
+  "lon": 19.4464463
  },
  {
   "kraj": "ZA",
@@ -6934,14 +6974,14 @@ const GASTRO_DATA = [
   "mesto": "Liptovsky Mikulas",
   "okres": "Liptovsky Mikulas",
   "velkost": "Tatralandia aquapark cca 1,2 mil navstevnikov rocne, 100+ chatiek, kongresova sala 300-320 osob",
-  "tel": "+421 44 556 1011",
-  "email": "info@tatralandia.sk",
-  "web": "tatralandia.sk",
+  "tel": "+421 44 4307 700",
+  "email": "info@galeriathermal.sk",
+  "web": "galeriathermal.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; najnavstevovanejsi aquapark SK (~1,2 mil rocne), celorocna prevadzka, banketova kapacita 300-320 osob",
-  "lat": 49.10706,
-  "lon": 19.57128,
-  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský"
+  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
+  "lat": 49.1005697,
+  "lon": 19.4464463
  },
  {
   "kraj": "ZA",
@@ -6957,9 +6997,9 @@ const GASTRO_DATA = [
   "web": "hotelchopok.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; kongresovy hotel 4* v Demanovskej, banketova sala Praslicka 360 osob + Plesnivec 150 osob",
+  "konatel": "František Hirner, Juraj Hirner, Lucia Hirnerová, Roman Hirner",
   "lat": 49.01919,
-  "lon": 19.57668,
-  "konatel": "František Hirner, Juraj Hirner, Lucia Hirnerová, Roman Hirner"
+  "lon": 19.57668
  },
  {
   "kraj": "ZA",
@@ -6975,9 +7015,9 @@ const GASTRO_DATA = [
   "web": "galeriathermal.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; 4* hotel s termalnym wellnessom pri aquaparku Gino Paradise Besenova (TMR), banketova kapacita 270-410 osob",
+  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
   "lat": 49.1005697,
-  "lon": 19.4464463,
-  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský"
+  "lon": 19.4464463
  },
  {
   "kraj": "ZA",
@@ -6993,9 +7033,9 @@ const GASTRO_DATA = [
   "web": "tristudnicky.sk",
   "zona": "ZA3",
   "pozn": "Butikovy 4* hotel (dcera TMR), restauracia 100 miest; banketova/konferencna sala do 80 osob",
+  "konatel": "Rudolf Galko, Michal Galko",
   "lat": 49.02962,
-  "lon": 19.5724,
-  "konatel": "Rudolf Galko, Michal Galko"
+  "lon": 19.5724
  },
  {
   "kraj": "ZA",
@@ -7011,9 +7051,9 @@ const GASTRO_DATA = [
   "web": "spa.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; kupelny rezort Aphrodite s aquaparkom, velkokapacitna restauracia ~205 miest, banketove/kongresove priestory ~100 osob",
+  "konatel": "Zdenek Miškolci, Mária Záňová, Mária Barošová, Ladislav Miškolci, Janka Miškolciová",
   "lat": 49.130319,
-  "lon": 18.6970297,
-  "konatel": "Zdenek Miškolci, Mária Záňová, Mária Barošová, Ladislav Miškolci, Janka Miškolciová"
+  "lon": 18.6970297
  },
  {
   "kraj": "ZA",
@@ -7029,9 +7069,9 @@ const GASTRO_DATA = [
   "web": "hotel-diery.sk",
   "zona": "ZA1",
   "pozn": "Rezortovy hotel pri Terchovskych dierach (Vratna dolina), konferencna/banketova kapacita 100-150 osob",
+  "konatel": "Katarína Hlaváčová, Tatiana Pavlíková",
   "lat": 49.2575433,
-  "lon": 19.0667606,
-  "konatel": "Katarína Hlaváčová, Tatiana Pavlíková"
+  "lon": 19.0667606
  },
  {
   "kraj": "ZA",
@@ -7047,9 +7087,9 @@ const GASTRO_DATA = [
   "web": "holidayinn-zilina.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; najvacsi kongresovo-banketovy hotel v Ziline (brand Holiday Inn/IHG, prevadzkuje HI Kongres Hotel Zilina s.r.o.), banket az 600 osob",
+  "konatel": "Jozef Mihalik, Jozef Michalek",
   "lat": 49.2295687,
-  "lon": 18.7420638,
-  "konatel": "Jozef Mihalik, Jozef Michalek"
+  "lon": 18.7420638
  },
  {
   "kraj": "ZA",
@@ -7065,9 +7105,9 @@ const GASTRO_DATA = [
   "web": "hotelturiec.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; 4* biznis hotel v Martine, 7 konferencnych sal, banketova kapacita do 170 osob",
+  "konatel": "Ľudmila Kočvarová, Jaroslav Ondrľa, Radovan Kočvara, Nadežda Reiprichová",
   "lat": 49.0620277,
-  "lon": 18.9233544,
-  "konatel": "Ľudmila Kočvarová, Jaroslav Ondrľa, Radovan Kočvara, Nadežda Reiprichová"
+  "lon": 18.9233544
  },
  {
   "kraj": "ZA",
@@ -7083,9 +7123,9 @@ const GASTRO_DATA = [
   "web": "hotelvictoria.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; 4* hotel v Martine, banketova kapacita az 350 osob (Congress + Lobby Bar)",
+  "konatel": "Ondrej Čuraj, Martin Lindner",
   "lat": 49.0809886,
-  "lon": 18.8994056,
-  "konatel": "Ondrej Čuraj, Martin Lindner"
+  "lon": 18.8994056
  },
  {
   "kraj": "ZA",
@@ -7101,9 +7141,9 @@ const GASTRO_DATA = [
   "web": "therme.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; kupelny rezort Turcianske Teplice (Hotel Royal Palace 5*), banketova sala Kursalon do 150-200 osob",
+  "konatel": "Zuzana Ďurinová, Radovan Horecký, Alena Spišiaková, Gabriela Skorčíková",
   "lat": 48.8606904,
-  "lon": 18.8607068,
-  "konatel": "Zuzana Ďurinová, Radovan Horecký, Alena Spišiaková, Gabriela Skorčíková"
+  "lon": 18.8607068
  },
  {
   "kraj": "ZA",
@@ -7119,9 +7159,9 @@ const GASTRO_DATA = [
   "web": "hotelkultura.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; kongresovy hotel v Ruzomberku, Velka dvorana az 500 osob, viacero banketovych sal",
+  "konatel": "Ing. Ľubomír Cimrák, Ing. Michal Mišúl, Ing. Jozef Zurek, JUDr. Ondrej Juriga, Ing. Daniel Laura",
   "lat": 49.0815718,
-  "lon": 19.3034168,
-  "konatel": "Ing. Ľubomír Cimrák, Ing. Michal Mišúl, Ing. Jozef Zurek, JUDr. Ondrej Juriga, Ing. Daniel Laura"
+  "lon": 19.3034168
  },
  {
   "kraj": "ZA",
@@ -7137,9 +7177,9 @@ const GASTRO_DATA = [
   "web": "hotelaltis.sk",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; 4* hotel pri Oravskej priehrade, kongresova/banketova kapacita cca 100 hosti",
+  "konatel": "Bruno Holthof",
   "lat": 49.4011358,
-  "lon": 19.5061786,
-  "konatel": "Bruno Holthof"
+  "lon": 19.5061786
  },
  {
   "kraj": "ZA",
@@ -7155,9 +7195,9 @@ const GASTRO_DATA = [
   "web": "oravskyhaj.sk",
   "zona": "ZA5",
   "pozn": "SILNY CIEL; Oravsky Haj Garden Hotel & Resort pri Trstene, banketova kapacita 120-150 osob (firma KIMEX, sidlo Kosice)",
+  "konatel": "Jozef Jankulák, Jozef Benčič",
   "lat": 49.34815,
-  "lon": 19.66246,
-  "konatel": "Jozef Jankulák, Jozef Benčič"
+  "lon": 19.66246
  },
  {
   "kraj": "ZA",
@@ -7173,9 +7213,9 @@ const GASTRO_DATA = [
   "web": "nhabe.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; vietnamske bistro NhaBe, 3 prevadzky (Martin, Banska Bystrica, Zilina-Vlcince Obchodna 3D); zalozene 2017",
+  "konatel": "Nam Nguyen",
   "lat": 49.0637701,
-  "lon": 18.9221005,
-  "konatel": "Nam Nguyen"
+  "lon": 18.9221005
  },
  {
   "kraj": "ZA",
@@ -7191,9 +7231,9 @@ const GASTRO_DATA = [
   "web": "lippek.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; pekarensko-cukrarska siet; 2 kaviarne Cafe Vcela (Garbiarska + Podbreziny v Lipt. Mikulasi) + predajne v Lipt. Hradku, Ruzomberku, Likavke; gastro jadro = 2 kaviarne, zvysok maloobchod s pecivom",
+  "konatel": "",
   "lat": 49.0801168,
-  "lon": 19.6283257,
-  "konatel": ""
+  "lon": 19.6283257
  },
  {
   "kraj": "ZA",
@@ -7209,9 +7249,9 @@ const GASTRO_DATA = [
   "web": "",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; McD prevadzky v Ziline a Martine drzi licencny partner Luiz Franca (od 2020); firma/ICO franchisanta sa nepodarilo overit v ORSR/FinStat - NIE centrala McDonald's Slovakia s.r.o.",
+  "konatel": "",
   "lat": 49.0798132,
-  "lon": 19.2985208,
-  "konatel": ""
+  "lon": 19.2985208
  },
  {
   "kraj": "ZA",
@@ -7227,9 +7267,9 @@ const GASTRO_DATA = [
   "web": "coopjednotaza.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; spotrebne druzstvo, primarne maloobchod s potravinami; gastro zlozka = vyroba hotovych jedal a stravovacia cinnost v predajniach (doplnkova, nie samostatne restauracie)",
+  "konatel": "Viera Hreusíková, Marián Jandačka, Miriam Drígeľová, Vincent Vojtek, Adriana Holienková",
   "lat": 49.2202592,
-  "lon": 18.7484913,
-  "konatel": "Viera Hreusíková, Marián Jandačka, Miriam Drígeľová, Vincent Vojtek, Adriana Holienková"
+  "lon": 18.7484913
  },
  {
   "kraj": "ZA",
@@ -7245,9 +7285,9 @@ const GASTRO_DATA = [
   "web": "coopcadca.sk",
   "zona": "ZA4",
   "pozn": "SILNY CIEL; spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)",
+  "konatel": "Miroslav Janík, Martin Janík, Bohuslav Cyprich, Františka Soroková, František Strnádel",
   "lat": 49.4381099,
-  "lon": 18.7851344,
-  "konatel": "Miroslav Janík, Martin Janík, Bohuslav Cyprich, Františka Soroková, František Strnádel"
+  "lon": 18.7851344
  },
  {
   "kraj": "ZA",
@@ -7263,9 +7303,9 @@ const GASTRO_DATA = [
   "web": "jednotalm.sk",
   "zona": "ZA3",
   "pozn": "spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)",
+  "konatel": "Iveta Ághová, Soňa Balážiková, Anna Devečková, Alžbeta Kiniková, Edita Šarafínová",
   "lat": 49.08056,
-  "lon": 19.61983,
-  "konatel": "Iveta Ághová, Soňa Balážiková, Anna Devečková, Alžbeta Kiniková, Edita Šarafínová"
+  "lon": 19.61983
  },
  {
   "kraj": "ZA",
@@ -7281,9 +7321,9 @@ const GASTRO_DATA = [
   "web": "zilinskazupa.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; VUC zriadovatel SS a DSS s vlastnymi skolskymi a zariadenskymi jedalnami, centralizovane VO potravin",
+  "konatel": "",
   "lat": 49.2167085,
-  "lon": 18.7371007,
-  "konatel": ""
+  "lon": 18.7371007
  },
  {
   "kraj": "ZA",
@@ -7299,9 +7339,9 @@ const GASTRO_DATA = [
   "web": "uniza.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; najvacsia VS v kraji, tisice stravnikov denne v menzach a SD, verejne obstaravanie stravy a potravin",
+  "konatel": "",
   "lat": 49.2038443,
-  "lon": 18.7557359,
-  "konatel": ""
+  "lon": 18.7557359
  },
  {
   "kraj": "ZA",
@@ -7317,9 +7357,9 @@ const GASTRO_DATA = [
   "web": "unm.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; fakultna nemocnica s celoslovenskou posobnostou, velkokapacitna stravovacia prevadzka",
+  "konatel": "",
   "lat": 49.060448,
-  "lon": 18.919489,
-  "konatel": ""
+  "lon": 18.919489
  },
  {
   "kraj": "ZA",
@@ -7335,9 +7375,9 @@ const GASTRO_DATA = [
   "web": "fnspza.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; jedna z najvacsich nemocnic v kraji, velkokapacitna kuchyna, pravidelne VO potravin",
+  "konatel": "",
   "lat": 49.2177793,
-  "lon": 18.7455203,
-  "konatel": ""
+  "lon": 18.7455203
  },
  {
   "kraj": "ZA",
@@ -7353,9 +7393,9 @@ const GASTRO_DATA = [
   "web": "aos.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; vojenska akademia s vlastnym ICO, stala vojenska jedalen, VO stravy a potravin",
+  "konatel": "",
   "lat": 49.0596732,
-  "lon": 19.5815009,
-  "konatel": ""
+  "lon": 19.5815009
  },
  {
   "kraj": "ZA",
@@ -7371,9 +7411,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, denne stravovanie stoviek osob, VO potravin",
+  "konatel": "",
   "lat": 49.0836812,
-  "lon": 19.299741,
-  "konatel": ""
+  "lon": 19.299741
  },
  {
   "kraj": "ZA",
@@ -7389,9 +7429,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "ZA2",
   "pozn": "SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, velka kapacita, denne stravovanie stoviek osob",
+  "konatel": "",
   "lat": 49.0952717,
-  "lon": 18.9748783,
-  "konatel": ""
+  "lon": 18.9748783
  },
  {
   "kraj": "ZA",
@@ -7407,9 +7447,9 @@ const GASTRO_DATA = [
   "web": "ku.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; druha univerzita v kraji, SD jedalen, VO stravy a potravin",
+  "konatel": "",
   "lat": 49.0824185,
-  "lon": 19.2795441,
-  "konatel": ""
+  "lon": 19.2795441
  },
  {
   "kraj": "ZA",
@@ -7425,9 +7465,9 @@ const GASTRO_DATA = [
   "web": "zilina.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; mestsky urad zriadovatel skol so skolskymi jedalnami, centralne VO potravin pre jedalne",
+  "konatel": "",
   "lat": 49.2215702,
-  "lon": 18.7427482,
-  "konatel": ""
+  "lon": 18.7427482
  },
  {
   "kraj": "ZA",
@@ -7443,9 +7483,9 @@ const GASTRO_DATA = [
   "web": "martin.sk",
   "zona": "ZA2",
   "pozn": "mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne",
+  "konatel": "",
   "lat": 49.0684556,
-  "lon": 18.9257016,
-  "konatel": ""
+  "lon": 18.9257016
  },
  {
   "kraj": "ZA",
@@ -7461,9 +7501,9 @@ const GASTRO_DATA = [
   "web": "ruzomberok.sk",
   "zona": "ZA3",
   "pozn": "mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne",
+  "konatel": "",
   "lat": 49.0815132,
-  "lon": 19.3034281,
-  "konatel": ""
+  "lon": 19.3034281
  },
  {
   "kraj": "ZA",
@@ -7479,9 +7519,9 @@ const GASTRO_DATA = [
   "web": "mikulas.sk",
   "zona": "ZA3",
   "pozn": "mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne",
+  "konatel": "",
   "lat": 49.0857579,
-  "lon": 19.6084034,
-  "konatel": ""
+  "lon": 19.6084034
  },
  {
   "kraj": "ZA",
@@ -7497,9 +7537,9 @@ const GASTRO_DATA = [
   "web": "mestocadca.sk",
   "zona": "ZA4",
   "pozn": "mestsky urad zriadovatel skol so skolskymi jedalnami, centralny ciel pre Kysuce",
+  "konatel": "",
   "lat": 49.4381043,
-  "lon": 18.7901917,
-  "konatel": ""
+  "lon": 18.7901917
  },
  {
   "kraj": "ZA",
@@ -7515,9 +7555,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "ZA1",
   "pozn": "krajske riaditelstvo PZ pod MV SR (ICO 00151866), stravovanie prislusnikov, VO stravnych sluzieb",
+  "konatel": "",
   "lat": 49.2216152,
-  "lon": 18.7363761,
-  "konatel": ""
+  "lon": 18.7363761
  },
  {
   "kraj": "ZA",
@@ -7533,9 +7573,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
+  "konatel": "",
   "lat": 49.22059,
-  "lon": 18.7349889,
-  "konatel": ""
+  "lon": 18.7349889
  },
  {
   "kraj": "ZA",
@@ -7551,9 +7591,9 @@ const GASTRO_DATA = [
   "web": "zsr.sk",
   "zona": "ZA1",
   "pozn": "SILNY CIEL; OZ Zilina - najvacsi ZSR uzol; vlastna kuchyna/zavodne stravovanie",
+  "konatel": "Miroslav Garaj",
   "lat": 49.2248108,
-  "lon": 18.7487078,
-  "konatel": "Miroslav Garaj"
+  "lon": 18.7487078
  },
  {
   "kraj": "ZA",
@@ -7564,14 +7604,14 @@ const GASTRO_DATA = [
   "mesto": "Liptovsky Mikulas",
   "okres": "Liptovsky Mikulas",
   "velkost": "500+ zam",
-  "tel": "044/556 3100",
+  "tel": "+421 44 5563 111",
   "email": "",
   "web": "nsplm.sk",
   "zona": "ZA3",
   "pozn": "SILNY CIEL; ZSK; lozkova nemocnica; Liptov",
+  "konatel": "",
   "lat": 49.0861328,
-  "lon": 19.5898188,
-  "konatel": ""
+  "lon": 19.5898188
  },
  {
   "kraj": "ZA",
@@ -7582,14 +7622,14 @@ const GASTRO_DATA = [
   "mesto": "Dolny Kubin",
   "okres": "Dolny Kubin",
   "velkost": "250-499 zam",
-  "tel": "043/580 1111",
+  "tel": "+421 43 5801 111",
   "email": "",
   "web": "donsp.sk",
   "zona": "ZA5",
   "pozn": "ZSK; lozkova nemocnica; Oravia (okres Dolny Kubin)",
+  "konatel": "",
   "lat": 49.2142852,
-  "lon": 19.3031187,
-  "konatel": ""
+  "lon": 19.3031187
  },
  {
   "kraj": "ZA",
@@ -7600,950 +7640,14 @@ const GASTRO_DATA = [
   "mesto": "Cadca",
   "okres": "Cadca",
   "velkost": "200-499 zam",
-  "tel": "",
+  "tel": "+421 41 460 4111",
   "email": "",
   "web": "kysuckanemocnica.sk",
   "zona": "ZA4",
   "pozn": "ZSK; lozkova nemocnica; Kysuce",
+  "konatel": "",
   "lat": 49.4383465,
-  "lon": 18.7720268,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Catering dodavatel",
-  "firma": "MICO s.r.o.",
-  "ico": "47089768",
-  "adresa": "Chalupkova 341/34",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 168 tis EUR (2024, trzby), 3-4 zam",
-  "tel": "0915623432",
-  "email": "micocatering@gmail.com",
-  "web": "micocatering.sk",
-  "zona": "PO1",
-  "pozn": "Eventovy + svadobny catering Presov/KE, kapacita svadby do 200 osob",
-  "lat": 48.97293,
-  "lon": 21.25757,
-  "konatel": "Jozef Mičo, Pavol Mičo"
- },
- {
-  "kraj": "PO",
-  "kat": "Catering dodavatel",
-  "firma": "Euro Catering Agency s.r.o.",
-  "ico": "51544440",
-  "adresa": "Maly Saris 576",
-  "mesto": "Maly Saris",
-  "okres": "Presov",
-  "velkost": "obrat 7,8 tis EUR (2024, trzby), 1 zam",
-  "tel": "0904777750",
-  "email": "1eurocatering@gmail.com",
-  "web": "eurocatering.sk",
-  "zona": "PO1",
-  "pozn": "Maly regionalni catering Presov + okolie, zalozeny 2018",
-  "lat": 49.0003973,
-  "lon": 21.1850893,
-  "konatel": "Marek Poprenda"
- },
- {
-  "kraj": "PO",
-  "kat": "Catering dodavatel",
-  "firma": "Bistro Tatjana - Tatiana Malyszka",
-  "ico": "51974983",
-  "adresa": "Kukucinova 4245",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "zivnostnik od 2019, rozvoz Poprad a okolie",
-  "tel": "0948308545",
-  "email": "info@tatjana.sk",
-  "web": "tatjana.sk",
-  "zona": "PO2",
-  "pozn": "Catering + donaska Poprad; firemne obedy, svadby, teambuildingy; prevadzka Podjavorinskey 3405/22",
-  "lat": 49.057731,
-  "lon": 20.3108247,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "TOP GASTRO, s.r.o.",
-  "ico": "36480924",
-  "adresa": "Volgogradska 13",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 480 tis EUR (2025, trzby), 10-19 zam; 2500 jedal/den, 180 zmluv",
-  "tel": "051/7710429",
-  "email": "topgastro@gmail.com",
-  "web": "top-gastro.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; zavod + seniori + eventy od 2002, sponzorska sala 150 miest, NACE 5621",
-  "lat": 49.0105056,
-  "lon": 21.2201529,
-  "konatel": "Pavol Škripko"
- },
- {
-  "kraj": "PO",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "ACEM, s.r.o.",
-  "ico": "43786774",
-  "adresa": "Solnobanska 11809/5A",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 2,644 mil EUR (2025, trzby), 25-49 zam; prevadzky Petrovany (Presov) aj Poprad",
-  "tel": "0918625732",
-  "email": "info@acem.sk",
-  "web": "acem.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; zavodne stravovanie vychod SK od 2007, operuje jedalen Tatravagonka (tatravagonka@acem.sk), prevadzka aj v Poprade; NACE 5621",
-  "lat": 48.9804658,
-  "lon": 21.2760365,
-  "konatel": "Peter Čmelík, Jozef Leško"
- },
- {
-  "kraj": "PO",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "Jozef Mico - TIP-TOP",
-  "ico": "10737618",
-  "adresa": "Chalupkova 34",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "50-99 zam; 8 predajni (Presov, Poprad, Kosice)",
-  "tel": "0918857273",
-  "email": "tip.top.objednavka@gmail.com",
-  "web": "tiptopjedla.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; najvacsia regionalna vyvaren PO kraja, rozvoz teplych jedal + maso velkoobchod, zivnostnik od 1992",
-  "lat": 48.9728268,
-  "lon": 21.2574657,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "TATRAVAGONKA a.s.",
-  "ico": "31699847",
-  "adresa": "Stefanikova 887/53",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 595 mil EUR (2024, trzby), 2000-2999 zam",
-  "tel": "",
-  "email": "",
-  "web": "tatravagonka.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; najvacsi vyrobca zeleznicnych vagonov SR, 2000+ zam, zavodna jedalen pre velku prevadzku",
-  "lat": 49.0597298,
-  "lon": 20.3156999,
-  "konatel": "Alexej Beljajev, Peter Malec, Juraj Hudáč, Jaroslava Ďumbalová"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Beko Manufacturing Slovakia spol. s r.o. (ex-Whirlpool)",
-  "ico": "35796570",
-  "adresa": "Hlavna 5039/1A",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 257,9 mil EUR (2024, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "beko.com",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; vyrobna prevadzka dom. spotrebicov WhirlpoolBeko 2024, zavodna jedalen pre 500+ zam",
-  "lat": 49.0751835,
-  "lon": 20.3254824,
-  "konatel": "Michal Major, Jaroslav Grygar, Fatih Ebiçlioglu, Hakan Bulgurlu"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "CHEMES a.s. Humenne",
-  "ico": "31695426",
-  "adresa": "Chemlonska 1",
-  "mesto": "Humenne",
-  "okres": "Humenne",
-  "velkost": "obrat 28,58 mil EUR (2023, trzby), v konkurze od 06.2026",
-  "tel": "",
-  "email": "",
-  "web": "chemes.sk",
-  "zona": "PO4",
-  "pozn": "Chemicky zavod v konkurze od 06/2026; overit nastupnicku firmu pred oslovenim",
-  "lat": 48.9287863,
-  "lon": 21.9060966,
-  "konatel": "Ing. František Chvostaľ, Ing. Vladimír Skoupil, Ing. Marek Matias, Ing. Martin Vinčúr"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "BUKOZA Export-Import a.s.",
-  "ico": "36445266",
-  "adresa": "Hencovska 2073",
-  "mesto": "Hencovce",
-  "okres": "Vranov nad Toplou",
-  "velkost": "obrat 88,87 mil EUR (2023, trzby), v konkurze od 05.2026",
-  "tel": "",
-  "email": "",
-  "web": "bukoza.sk",
-  "zona": "PO4",
-  "pozn": "Papierenska skupina v konkurze od 05/2026; overit noveho prevadzkovatela priemyselneho parku Hencovce pred oslovenim",
-  "lat": 48.8631495,
-  "lon": 21.7286199,
-  "konatel": "Miloslav Dittrich, Marek Mlčoch, Roman Staněk, František Dobiáš"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Fakultna nemocnica s poliklinikou J. A. Reimana Presov",
-  "ico": "00610577",
-  "adresa": "Jana Holleho 14",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 158,1 mil EUR (2025, trzby), 3000-3999 zam",
-  "tel": "051/3441111",
-  "email": "",
-  "web": "fnspresov.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; uz v Statne firmy a urady; najvacsia nemocnica PO kraja, tackaren stravuje tisicky pacientov + personal denne",
-  "lat": 48.9978055,
-  "lon": 21.2557611,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica Poprad a.s.",
-  "ico": "36513458",
-  "adresa": "Banicka 803/28",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 72,56 mil EUR (2024, trzby), 1000-1999 zam",
-  "tel": "052/7165111",
-  "email": "",
-  "web": "nemocnicapoprad.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; hlavna nemocnica Poprad, akutna starostlivost, tackaren pre 1000+ zam + pacienti",
-  "lat": 49.0518388,
-  "lon": 20.3035108,
-  "konatel": "Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica AGEL Levoca a.s.",
-  "ico": "36594849",
-  "adresa": "Probstnerova cesta 2/3082",
-  "mesto": "Levoca",
-  "okres": "Levoca",
-  "velkost": "obrat 30,12 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "053/4512511",
-  "email": "",
-  "web": "nemocnica-levoca.sk",
-  "zona": "PO2",
-  "pozn": "Byvala Vseobecna nemocnica Levoca, prevzata sietou AGEL; tackaren pre pacientov a personel",
-  "lat": 49.0210406,
-  "lon": 20.5851443,
-  "konatel": "Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "NsP Sv. Jakuba n.o. Bardejov",
-  "ico": "36167908",
-  "adresa": "Sv. Jakuba 21",
-  "mesto": "Bardejov",
-  "okres": "Bardejov",
-  "velkost": "obrat 41,58 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "054/4862111",
-  "email": "",
-  "web": "nspbardejov.sk",
-  "zona": "PO3",
-  "pozn": "Hlavna nemocnica okresu Bardejov, n.o., tackaren pre hospitalizovanych a zamestnancov",
-  "lat": 49.2872502,
-  "lon": 21.2723445,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica A. Lena Humenne a.s.",
-  "ico": "47249048",
-  "adresa": "Nemocnicna 7",
-  "mesto": "Humenne",
-  "okres": "Humenne",
-  "velkost": "obrat 24,67 mil EUR (2024, trzby), 500-999 zam",
-  "tel": "057/7786111",
-  "email": "",
-  "web": "nemocnicahumenne.sk",
-  "zona": "PO4",
-  "pozn": "Nastupnica po NsP Humenne; tackaren pre pacientov a personel okresu Humenne",
-  "lat": 48.9346454,
-  "lon": 21.8983233,
-  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Vranovska nemocnica a.s.",
-  "ico": "47249021",
-  "adresa": "M. R. Stefanika 187/177B",
-  "mesto": "Vranov nad Toplou",
-  "okres": "Vranov nad Toplou",
-  "velkost": "obrat 25,79 mil EUR (2024, trzby), 500-999 zam",
-  "tel": "057/4461111",
-  "email": "",
-  "web": "vranovskanemocnica.sk",
-  "zona": "PO4",
-  "pozn": "Hlavna nemocnica okresu Vranov nad Toplou; tackaren pre hospitalizovanych a personel",
-  "lat": 48.8891513,
-  "lon": 21.6822318,
-  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Lubovnianska nemocnica n.o.",
-  "ico": "37886851",
-  "adresa": "Obrancov mieru 510/3",
-  "mesto": "Stara Lubovna",
-  "okres": "Stara Lubovna",
-  "velkost": "obrat 30,3 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "052/4320111",
-  "email": "",
-  "web": "lubovnianskanemocnica.sk",
-  "zona": "PO2",
-  "pozn": "Jedina nemocnica okresu Stara Lubovna, n.o.; tackaren pre pacientov a zamestnancov",
-  "lat": 49.2975195,
-  "lon": 20.687879,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.",
-  "ico": "37886436",
-  "adresa": "Huncovska 1788/42",
-  "mesto": "Kezmarok",
-  "okres": "Kezmarok",
-  "velkost": "obrat 14,24 mil EUR (2024, trzby), 250-499 zam",
-  "tel": "052/4501111",
-  "email": "",
-  "web": "nemocnicakezmarok.sk",
-  "zona": "PO2",
-  "pozn": "Okresna nemocnica Kezmarok, n.o.; tackaren pre pacientov a zamestnancov",
-  "lat": 49.131834,
-  "lon": 20.4216313,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Presovska univerzita v Presove",
-  "ico": "17070775",
-  "adresa": "Ul. 17. novembra 13",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 48,09 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "051/7570111",
-  "email": "",
-  "web": "unipo.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; uz v Statne firmy a urady; univerzitna menza stravuje tisicky studentov denne",
-  "lat": 49.0000074,
-  "lon": 21.2392122,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Tatry mountain resorts, a.s. (Grandhotel Praha)",
-  "ico": "31560636",
-  "adresa": "Tatranska Lomnica 8",
-  "mesto": "Tatranska Lomnica",
-  "okres": "Poprad",
-  "velkost": "obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 108 izieb + 15 apartmanov, banketova sala 250 osob",
-  "tel": "052/4780111",
-  "email": "hotelreservations@tmr.sk",
-  "web": "tmrhotels.com",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; historicky hotel 4* (1905) v Tatranskej Lomnici; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi)",
-  "lat": 49.1616613,
-  "lon": 20.2939518,
-  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Tatry mountain resorts, a.s. (Grandhotel Stary Smokovec)",
-  "ico": "31560636",
-  "adresa": "Stary Smokovec 38",
-  "mesto": "Stary Smokovec",
-  "okres": "Poprad",
-  "velkost": "obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 70 izieb + 14 apartmanov, 214 luzok, banket 100-150 osob",
-  "tel": "052/4780000",
-  "email": "info@grandhotel.sk",
-  "web": "grandhotel.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; historicky hotel 4* (1904) Stary Smokovec; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi); GPS seedovat geocache",
-  "lat": 49.1414836,
-  "lon": 20.2221042,
-  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "BHP Tatry, s. r. o. (Grand Hotel Kempinski High Tatras)",
-  "ico": "45948879",
-  "adresa": "Kupelna 6",
-  "mesto": "Strbske Pleso",
-  "okres": "Poprad",
-  "velkost": "obrat 13,78 mil EUR (2024, trzby), 100-149 zam; 98 izieb, banket 150-200 osob, jediny 5* hotel PO kraja",
-  "tel": "052/3262222",
-  "email": "",
-  "web": "kempinski.com",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; jediny 5-hviezdicovy hotel v PO kraji, Strbske Pleso; prevadzkovatel BHP Tatry s.r.o. (sid. BA); vlastnik J&T",
-  "lat": 49.1192835,
-  "lon": 20.0595525,
-  "konatel": "Branislav Babík, Petr Janů"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "TATRA HOTEL SLOVAKIA, a.s. (Hotel Patria Strbske Pleso)",
-  "ico": "31638759",
-  "adresa": "K Vodopadom 4033/15",
-  "mesto": "Strbske Pleso",
-  "okres": "Poprad",
-  "velkost": "obrat 10,98 mil EUR (2025, trzby), 100-149 zam; hotel 4* na brehu Strbskeho plesa, banket 120-150 osob",
-  "tel": "",
-  "email": "",
-  "web": "hotelpatria.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; hotel priamo pri jazere Strbske Pleso, wellness + banketova sala; NACE 5510",
-  "lat": 49.1244449,
-  "lon": 20.0609115,
-  "konatel": "Michal Sýkora, Jozef Bendžala, Kamila Sýkorová"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "TMR Strbske Pleso s. r. o. (Hotel FIS)",
-  "ico": "55737854",
-  "adresa": "K Vodopadom 4028/26",
-  "mesto": "Strbske Pleso",
-  "okres": "Poprad",
-  "velkost": "obrat 8,46 mil EUR (2024, trzby), 10-19 zam; 80 izieb, konferencna kapacita 100 osob",
-  "tel": "0915954636",
-  "email": "hotelfis@hotelfis.sk",
-  "web": "hotelfis.sk",
-  "zona": "PO2",
-  "pozn": "Lyziarski hotel pri skokanskych mostikoch FIS Strbske Pleso; prevadzkovatel TMR Strbske Pleso s.r.o. (ine ICO ako TMR a.s.)",
-  "lat": 49.1287622,
-  "lon": 20.0613192,
-  "konatel": "Branislav Kačkovič, Dušan Slavkovský"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "AQUAPARK Poprad, s.r.o. (AquaCity Poprad)",
-  "ico": "36482609",
-  "adresa": "Sportova 1397/1",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 12,97 mil EUR (2024, trzby), 100-149 zam; kongresova sala 350 osob, geotermalna voda",
-  "tel": "052/7851222",
-  "email": "recepcia@aquacity.sk",
-  "web": "aquacity.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; aquapark + hotel + kongresovy komplex v Poprade; kongresova sala az 350 osob",
-  "lat": 49.0603207,
-  "lon": 20.3068944,
-  "konatel": "Richard Pichoňský, Peter Hudec, Róbert Bartek, Tomáš Zedníček"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "SATEL - SLOVAKIA, s.r.o. (Hotel Satel Poprad)",
-  "ico": "31712797",
-  "adresa": "Mnohelova 825",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 2,795 mil EUR (2024, trzby), 25-49 zam; 250 luzok, 8 konferencnych sali az 300 osob",
-  "tel": "",
-  "email": "",
-  "web": "hotelsatel.com",
-  "zona": "PO2",
-  "pozn": "Najvacsi hotel v meste Poprad (250 luzok); kongresy az 450 osob; NACE 5510",
-  "lat": 49.0567076,
-  "lon": 20.2960523,
-  "konatel": "Peter Zemančík"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "BARDEJOVSKE KUPELE a. s.",
-  "ico": "36168301",
-  "adresa": "Kupelny rad 1",
-  "mesto": "Bardejovske Kupele",
-  "okres": "Bardejov",
-  "velkost": "obrat 19,41 mil EUR (2025, trzby), 250-499 zam; kupelny komplex 4 hotely, banket/kongres 150-200 osob",
-  "tel": "054/4774000",
-  "email": "sekretariat@kupele-bj.sk",
-  "web": "kupele-bj.sk",
-  "zona": "PO3",
-  "pozn": "SILNY CIEL; historicke kupele od 1777 (Bardejovske Kupele), 4 hotely (Astoria, Ozon, Alexander, Alzbeta), 250-499 zam",
-  "lat": 49.3273239,
-  "lon": 21.2739014,
-  "konatel": "Jozef Bača, Helena Bačová, Oľga Bačová, Jaroslav Komora, Maroš Komora"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "KUPELE VYSNE RUZBACHY, a.s.",
-  "ico": "31714501",
-  "adresa": "Vysne Ruzbachy 48",
-  "mesto": "Vysne Ruzbachy",
-  "okres": "Kezmarok",
-  "velkost": "obrat 6,83 mil EUR (2024, trzby), 100-149 zam; Grand Hotel Strand 88 luzok + dalsie, banket 100-150 osob",
-  "tel": "052/4266111",
-  "email": "rezervacie@ruzbachy.sk",
-  "web": "ruzbachy.sk",
-  "zona": "PO2",
-  "pozn": "Termalny kupelny komplex Vysne Ruzbachy pod Pieninami; NACE 8699",
-  "lat": 49.3042641,
-  "lon": 20.5648591,
-  "konatel": "Ing. Ivan Maroš, Mgr. Soňa Marošová, Hezy Mordehaev, MUDr. Peter Bartoň"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "LINEAS, s.r.o. (Hotel Lineas Presov)",
-  "ico": "31692923",
-  "adresa": "Budovatelska 14",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 1,43 mil EUR (2024, trzby), 25-49 zam; 165 izieb, 340 luzok, kongresova sala az 200 osob",
-  "tel": "0907801093",
-  "email": "akcia@lineas.sk",
-  "web": "lineas.sk",
-  "zona": "PO1",
-  "pozn": "Najvacsi hotel v meste Presov (340 luzok); kongresove kapacity do 200 osob; NACE 5510",
-  "lat": 48.985434,
-  "lon": 21.2435871,
-  "konatel": "Vladimír Stračiak, Ján Hardoň, Jozef Durkoš"
- },
- {
-  "kraj": "PO",
-  "kat": "Velka restauracia / banketova sala",
-  "firma": "Hotel DUKLA, a.s. Presov",
-  "ico": "36482293",
-  "adresa": "Namestie legionarov 2",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 944 tis EUR (2024, trzby), 10-19 zam; 60 izieb, banketova sala 120 osob (divadlo 200 osob)",
-  "tel": "051/7722741",
-  "email": "recepcia@hotelduklapresov.sk",
-  "web": "hotelduklapresov.sk",
-  "zona": "PO1",
-  "pozn": "Hotel v centre Presova, banketova kapacita 120 osob; NACE 5510",
-  "lat": 48.9936783,
-  "lon": 21.2442244,
-  "konatel": "Anton Bidovský, Oto Sivák, Juraj Koval, Stanislav Oravec"
- },
- {
-  "kraj": "PO",
-  "kat": "Restauracna siet (3+ prevadzok)",
-  "firma": "McDonald's Slovakia spol. s r.o.",
-  "ico": "31392229",
-  "adresa": "Vihorlatska 13591/2B",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 52,45 mil EUR (2024, trzby); 3 pobocky v PO kraji (Presov MAX, Presov OC Novum, Poprad)",
-  "tel": "",
-  "email": "",
-  "web": "mcdonalds.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; 3 pobocky v PO: Presov MAX (Vihorlatska), Presov OC Novum (Nam. legionarov), Poprad (Stefanikova)",
-  "lat": 48.99802,
-  "lon": 21.26936,
-  "konatel": "Tereza Trepáčová, Yuliya Badritdinova"
- },
- {
-  "kraj": "PO",
-  "kat": "Restauracna siet (3+ prevadzok)",
-  "firma": "Queensway Restaurants Slovakia s.r.o. (KFC)",
-  "ico": "35852143",
-  "adresa": "Vihorlatska 14",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "obrat 20,845 mil EUR (2024, trzby), 250-499 zam celonarodne; 2 pobocky v PO (Presov OC Novum, Poprad OC Forum) + 3. v stavbe 2026-2027",
-  "tel": "",
-  "email": "",
-  "web": "kfcslovakia.sk",
-  "zona": "PO1",
-  "pozn": "KFC SK franchize; 2 prevadzky v PO + 3. Presov-Solivar v stavbe (2026-2027); zaradit ako perspektivnu siet s prisucom v PO",
-  "lat": 48.9999611,
-  "lon": 21.2731762,
-  "konatel": "Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy"
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Presovsky samospravny kraj (PSK)",
-  "ico": "37870475",
-  "adresa": "Namestie mieru 2",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "zriadovatel SS a soc. zariadeni s kuchynami v celom kraji; VO stravy/potravin",
-  "tel": "051/7081111",
-  "email": "info@psk.sk",
-  "web": "psk.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; VUC zriadovatel skol a soc. sluzieb s vlastnymi kuchynami",
-  "lat": 49.0019597,
-  "lon": 21.2417788,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Presovska univerzita v Presove",
-  "ico": "17070775",
-  "adresa": "Ul. 17. novembra 13",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "univerzita 7000+ studentov; vlastne SD a jedalne",
-  "tel": "051/7722851",
-  "email": "",
-  "web": "unipo.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; univerzitne jedalne a studentske domovy, masova denna strava",
-  "lat": 49.0000074,
-  "lon": 21.2392122,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Fakultna nemocnica s poliklinikou J. A. Reimana Presov",
-  "ico": "00610577",
-  "adresa": "Holleho 14",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "velka nemocnica, stovky luzok; vlastna nemocnicna kuchyna, celodenna strava pacienti+personal",
-  "tel": "051/7011111",
-  "email": "",
-  "web": "fnsppresov.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; velka nemocnicna kuchyna, stabilny odber potravin",
-  "lat": 48.9964472,
-  "lon": 21.2536714,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Ustav na vykon vazby a Ustav na vykon trestu odnatia slobody Presov (ZVJS)",
-  "ico": "00738409",
-  "adresa": "Kpt. Nalepku 1",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "vazenska kuchyna, denna strava pre vaznov + personal",
-  "tel": "",
-  "email": "",
-  "web": "zvjs.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; vazenska kuchyna, garantovany objem, VO potravin",
-  "lat": 48.9925511,
-  "lon": 21.2461638,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "2. mechanizovana brigada Presov (VU 1018, OS SR)",
-  "ico": "30845572",
-  "adresa": "Mukacevska 22",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "velka vojenska posadka; vojenska jedalen/stravovanie utvaru",
-  "tel": "",
-  "email": "",
-  "web": "mosr.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; vojensky utvar OS SR pod MO SR, posadkove stravovanie",
-  "lat": 49.0115086,
-  "lon": 21.225793,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Krajske riaditelstvo Policajneho zboru v Presove",
-  "ico": "00151866",
-  "adresa": "Sturova 7",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "krajska policia; zavodne stravovanie zamestnancov",
-  "tel": "0961/801111",
-  "email": "",
-  "web": "minv.sk",
-  "zona": "PO1",
-  "pozn": "krajsky urad PZ pod MV SR (ICO 00151866), zamestnanecke stravovanie",
-  "lat": 48.9866306,
-  "lon": 21.2443316,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Presov (Mestsky urad)",
-  "ico": "00327646",
-  "adresa": "Hlavna 73",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "stovky zamestnancov MsU; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "051/3100111",
-  "email": "mesto.radnica@presov.sk",
-  "web": "presov.sk",
-  "zona": "PO1",
-  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin pre MS/ZS",
-  "lat": 48.9972579,
-  "lon": 21.2397286,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Poprad (Mestsky urad)",
-  "ico": "00326470",
-  "adresa": "Nabrezie Jana Pavla II. 2802/3",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "druhe najvacsie mesto kraja; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "052/7167111",
-  "email": "podatelna@msupoprad.sk",
-  "web": "poprad.sk",
-  "zona": "PO2",
-  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
-  "lat": 49.0556857,
-  "lon": 20.2955291,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Humenne (Mestsky urad)",
-  "ico": "00323021",
-  "adresa": "Kukorelliho 1501/34",
-  "mesto": "Humenne",
-  "okres": "Humenne",
-  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "057/7863211",
-  "email": "msu@humenne.sk",
-  "web": "humenne.sk",
-  "zona": "PO4",
-  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
-  "lat": 48.9355568,
-  "lon": 21.9071083,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Bardejov (Mestsky urad)",
-  "ico": "00321842",
-  "adresa": "Radnicne namestie 16",
-  "mesto": "Bardejov",
-  "okres": "Bardejov",
-  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "054/4862122",
-  "email": "info@bardejov.sk",
-  "web": "bardejov.sk",
-  "zona": "PO3",
-  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
-  "lat": 49.2921571,
-  "lon": 21.2764398,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Mesto Vranov nad Toplou (Mestsky urad)",
-  "ico": "00332933",
-  "adresa": "Dr. C. Daxnera 87/1",
-  "mesto": "Vranov nad Toplou",
-  "okres": "Vranov nad Toplou",
-  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
-  "tel": "057/4422551",
-  "email": "",
-  "web": "vranov.sk",
-  "zona": "PO4",
-  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
-  "lat": 48.8900235,
-  "lon": 21.6855858,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Lesy SR, statny podnik, OZ Saris Presov",
-  "ico": "36038351",
-  "adresa": "Obrancov mieru 6",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "statny podnik, jeden z uzemne najvacsich OZ; zavodne stravovanie",
-  "tel": "",
-  "email": "",
-  "web": "lesy.sk",
-  "zona": "PO1",
-  "pozn": "statny podnik Lesy SR, zamestnanecke stravovanie",
-  "lat": 48.9937862,
-  "lon": 21.2297657,
-  "konatel": "Boris Gregor"
- },
- {
-  "kraj": "PO",
-  "kat": "Statne firmy a urady",
-  "firma": "Krajske riaditelstvo Hasicskeho a zachranneho zboru v Presove",
-  "ico": "37872061",
-  "adresa": "Poziarnicka 1",
-  "mesto": "Presov",
-  "okres": "Presov",
-  "velkost": "statny zbor, stovky zamestnancov; pod MV SR",
-  "tel": "051/708 2381",
-  "email": "sekretariat.pv@minv.sk",
-  "web": "minv.sk",
-  "zona": "PO1",
-  "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
-  "lat": 48.9966046,
-  "lon": 21.2357529,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica Poprad a.s.",
-  "ico": "36513458",
-  "adresa": "Banicka 803/28",
-  "mesto": "Poprad",
-  "okres": "Poprad",
-  "velkost": "obrat 77 mil EUR (2025, trzby), 1000-1999 zam",
-  "tel": "",
-  "email": "",
-  "web": "nemocnicapp.sk",
-  "zona": "PO2",
-  "pozn": "SILNY CIEL; statna a.s.; 1000+ zam; velka regionalna nemocnica",
-  "lat": 49.0518388,
-  "lon": 20.3035108,
-  "konatel": "Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "NsP Sv. Jakuba n.o. Bardejov",
-  "ico": "36167908",
-  "adresa": "Sv. Jakuba 21",
-  "mesto": "Bardejov",
-  "okres": "Bardejov",
-  "velkost": "obrat 42 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "nsp-bardejov.sk",
-  "zona": "PO4",
-  "pozn": "SILNY CIEL; n.o. PSK; 500-999 zam",
-  "lat": 49.2872502,
-  "lon": 21.2723445,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica A. Lena Humenne a.s.",
-  "ico": "47249048",
-  "adresa": "Nemocnicna 7",
-  "mesto": "Humenne",
-  "okres": "Humenne",
-  "velkost": "obrat 25 mil EUR (2024, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "pentahospitals.sk",
-  "zona": "PO5",
-  "pozn": "SILNY CIEL; Penta Hospitals SK (byvaly Svet zdravia); 500-999 zam",
-  "lat": 48.9346454,
-  "lon": 21.8983233,
-  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Vranovska nemocnica a.s.",
-  "ico": "47249021",
-  "adresa": "M. R. Stefanika 187/177B",
-  "mesto": "Vranov nad Toplou",
-  "okres": "Vranov nad Toplou",
-  "velkost": "obrat 26 mil EUR (2024, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "pentahospitals.sk",
-  "zona": "PO6",
-  "pozn": "SILNY CIEL; Penta Hospitals SK; 500-999 zam",
-  "lat": 48.8891513,
-  "lon": 21.6822318,
-  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo"
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Lubovnianska nemocnica n.o.",
-  "ico": "37886851",
-  "adresa": "Obrancov mieru 510/3",
-  "mesto": "Stara Lubovna",
-  "okres": "Stara Lubovna",
-  "velkost": "obrat 29 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "lubovnianskanemocnica.sk",
-  "zona": "PO7",
-  "pozn": "SILNY CIEL; n.o. PSK; 500-999 zam",
-  "lat": 49.2975195,
-  "lon": 20.687879,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.",
-  "ico": "37886436",
-  "adresa": "Huncovska 1788/42",
-  "mesto": "Kezmarok",
-  "okres": "Kezmarok",
-  "velkost": "obrat 14 mil EUR (2024, trzby), 250-499 zam",
-  "tel": "",
-  "email": "",
-  "web": "nemocnicakezmarok.agel.sk",
-  "zona": "PO3",
-  "pozn": "AGEL n.o.; 250-499 zam",
-  "lat": 49.131834,
-  "lon": 20.4216313,
-  "konatel": ""
- },
- {
-  "kraj": "PO",
-  "kat": "Tackaren / zavodna jedalen",
-  "firma": "Nemocnica AGEL Levoca a.s.",
-  "ico": "36594849",
-  "adresa": "Probstnerova cesta 2/3082",
-  "mesto": "Levoca",
-  "okres": "Levoca",
-  "velkost": "obrat 30 mil EUR (2025, trzby), 500-999 zam",
-  "tel": "",
-  "email": "",
-  "web": "nemocnicalevoca.agel.sk",
-  "zona": "PO3",
-  "pozn": "SILNY CIEL; AGEL a.s.; 500-999 zam",
-  "lat": 49.0210406,
-  "lon": 20.5851443,
-  "konatel": "Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja"
+  "lon": 18.7720268
  },
  {
   "kraj": "KE",
@@ -8559,9 +7663,9 @@ const GASTRO_DATA = [
   "web": "spolocenskypavilon.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; event management + catering pre firemne akcie do 2000 hosti",
+  "konatel": "Zora Tokárová",
   "lat": 48.7076175,
-  "lon": 21.2411314,
-  "konatel": "Zora Tokárová"
+  "lon": 21.2411314
  },
  {
   "kraj": "KE",
@@ -8577,9 +7681,9 @@ const GASTRO_DATA = [
   "web": "gastromila.sk",
   "zona": "KE1",
   "pozn": "catering + conference service + event management, vlastna jedalen/pizzeria od 2000",
+  "konatel": "Mária Bilá, Michal Bilý, Lucia Gamcová",
   "lat": 48.7071018,
-  "lon": 21.222118,
-  "konatel": "Mária Bilá, Michal Bilý, Lucia Gamcová"
+  "lon": 21.222118
  },
  {
   "kraj": "KE",
@@ -8595,9 +7699,9 @@ const GASTRO_DATA = [
   "web": "platzgroup.sk",
   "zona": "KE1",
   "pozn": "kantina + firemny/svadobny catering 15-1000 osob",
+  "konatel": "Ondrej Janitor, Ján Hollý",
   "lat": 48.7073382,
-  "lon": 21.2476674,
-  "konatel": "Ondrej Janitor, Ján Hollý"
+  "lon": 21.2476674
  },
  {
   "kraj": "KE",
@@ -8613,9 +7717,9 @@ const GASTRO_DATA = [
   "web": "lubenkacatering.sk",
   "zona": "KE2",
   "pozn": "catering svadby/firemne akcie pre Trebisov-Kosice-Vranov",
+  "konatel": "Dominik Šefčik",
   "lat": 48.6355088,
-  "lon": 21.7176865,
-  "konatel": "Dominik Šefčik"
+  "lon": 21.7176865
  },
  {
   "kraj": "KE",
@@ -8631,9 +7735,9 @@ const GASTRO_DATA = [
   "web": "jrcatering.sk",
   "zona": "KE2",
   "pozn": "zivnostnik; firemne a sukromne podujatia/rauty/svadby v Michalovciach",
+  "konatel": "",
   "lat": 48.7595142,
-  "lon": 21.9311225,
-  "konatel": ""
+  "lon": 21.9311225
  },
  {
   "kraj": "KE",
@@ -8649,9 +7753,9 @@ const GASTRO_DATA = [
   "web": "restaurak.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; prevadzkuje Jedalen Vojvodska, zmluvny partner 15 mestskych casti + Magistrat Kosice",
+  "konatel": "Marek Mruz",
   "lat": 48.7350947,
-  "lon": 21.2398501,
-  "konatel": "Marek Mruz"
+  "lon": 21.2398501
  },
  {
   "kraj": "KE",
@@ -8667,9 +7771,9 @@ const GASTRO_DATA = [
   "web": "nasa-ke.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; velka jedalen s rozvozom stravy; sidlo Valaliky",
+  "konatel": "Peter Pástor, Slávka Pástorová",
   "lat": 48.6858609,
-  "lon": 21.2689292,
-  "konatel": "Peter Pástor, Slávka Pástorová"
+  "lon": 21.2689292
  },
  {
   "kraj": "KE",
@@ -8685,9 +7789,9 @@ const GASTRO_DATA = [
   "web": "prvacateringova.sk",
   "zona": "KE1",
   "pozn": "dodavatel polotovarov/stravy pre skolske + zavodne jedalne, nemocnice, soc. zariadenia",
+  "konatel": "Želmíra Cehuľová, Milan Cehuľa",
   "lat": 48.7220196,
-  "lon": 21.2692121,
-  "konatel": "Želmíra Cehuľová, Milan Cehuľa"
+  "lon": 21.2692121
  },
  {
   "kraj": "KE",
@@ -8703,9 +7807,9 @@ const GASTRO_DATA = [
   "web": "usske.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL #1 vychodu; ~10000 zam, najvacsia zavodna jedalen v kraji; operator jedalne neovereny",
+  "konatel": "Elena Petrášková, Miroslav Kiraľvarga, Marcel Novosad, David Hathaway, Silvia Gaálová",
   "lat": 48.622784,
-  "lon": 21.1925354,
-  "konatel": "Elena Petrášková, Miroslav Kiraľvarga, Marcel Novosad, David Hathaway, Silvia Gaálová"
+  "lon": 21.1925354
  },
  {
   "kraj": "KE",
@@ -8721,9 +7825,9 @@ const GASTRO_DATA = [
   "web": "deutschetelekomitsolutions.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; IT centrum (byv. T-Systems) v Cassovare, tisice zam, vlastna kantina; operator neovereny",
+  "konatel": "Igor Stančik, Ondrej Šestina, Ľubor Žatko",
   "lat": 48.7073382,
-  "lon": 21.2476674,
-  "konatel": "Igor Stančik, Ondrej Šestina, Ľubor Žatko"
+  "lon": 21.2476674
  },
  {
   "kraj": "KE",
@@ -8739,9 +7843,9 @@ const GASTRO_DATA = [
   "web": "magna.com",
   "zona": "KE1",
   "pozn": "SILNY CIEL; vyroba prevodoviek (byv. Getrag Ford) v priem. parku Kechnec; operator jedalne neovereny",
+  "konatel": "Katarína Vaškovičová, Hans-Jürgen Herlemann",
   "lat": 48.5553884,
-  "lon": 21.2596858,
-  "konatel": "Katarína Vaškovičová, Hans-Jürgen Herlemann"
+  "lon": 21.2596858
  },
  {
   "kraj": "KE",
@@ -8757,9 +7861,9 @@ const GASTRO_DATA = [
   "web": "marelli.com",
   "zona": "KE1",
   "pozn": "automotive elektronika (byv. Magneti Marelli) v priem. parku Kechnec; operator jedalne neovereny",
+  "konatel": "Marco Manzi, Gianpaolo Accossato, Giuseppe Rosso",
   "lat": 48.5553884,
-  "lon": 21.2596858,
-  "konatel": "Marco Manzi, Gianpaolo Accossato, Giuseppe Rosso"
+  "lon": 21.2596858
  },
  {
   "kraj": "KE",
@@ -8775,9 +7879,9 @@ const GASTRO_DATA = [
   "web": "embraco.com",
   "zona": "KE3",
   "pozn": "SILNY CIEL; vyroba kompresorov, sucast Nidec Global Appliance; operator jedalne neovereny",
+  "konatel": "André Bublitz",
   "lat": 48.9362563,
-  "lon": 20.6006167,
-  "konatel": "André Bublitz"
+  "lon": 20.6006167
  },
  {
   "kraj": "KE",
@@ -8793,9 +7897,9 @@ const GASTRO_DATA = [
   "web": "bosch.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; vyroba motorov/cerpadiel pre spotrebice (skupina BSH/Bosch); operator zavodnej jedalne neovereny",
+  "konatel": "Peter Medviď, Ján Schumera, Ľubomír Hrin, Marcel Polák",
   "lat": 48.7412052,
-  "lon": 21.9031004,
-  "konatel": "Peter Medviď, Ján Schumera, Ľubomír Hrin, Marcel Polák"
+  "lon": 21.9031004
  },
  {
   "kraj": "KE",
@@ -8811,9 +7915,9 @@ const GASTRO_DATA = [
   "web": "vusch.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; velka ustavna kuchyna, stovky porcii denne pacienti + personal",
+  "konatel": "Štefan Lukačín, Marián Albert, Ingrid Schusterová, Bibiána Kafková",
   "lat": 48.7212306,
-  "lon": 21.2412026,
-  "konatel": "Štefan Lukačín, Marián Albert, Ingrid Schusterová, Bibiána Kafková"
+  "lon": 21.2412026
  },
  {
   "kraj": "KE",
@@ -8829,9 +7933,9 @@ const GASTRO_DATA = [
   "web": "dfnkosice.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; vlastna nemocnicna kuchyna, detska + dospela strava + personal",
+  "konatel": "",
   "lat": 48.7223219,
-  "lon": 21.2387391,
-  "konatel": ""
+  "lon": 21.2387391
  },
  {
   "kraj": "KE",
@@ -8847,9 +7951,9 @@ const GASTRO_DATA = [
   "web": "vou.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; ustavne stravovanie onkologickych pacientov + personal",
+  "konatel": "Tomáš Sieber, Igor Jenčo, Milan Maďar, Renáta Lenártová",
   "lat": 48.7091037,
-  "lon": 21.256115,
-  "konatel": "Tomáš Sieber, Igor Jenčo, Milan Maďar, Renáta Lenártová"
+  "lon": 21.256115
  },
  {
   "kraj": "KE",
@@ -8865,9 +7969,9 @@ const GASTRO_DATA = [
   "web": "agel.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; velka nemocnica s vlastnou kuchynou, stovky porcii denne",
+  "konatel": "Tomáš Lučkai, Erik Dosedla, Ján Luczy, František Sabol, Michal Zakarovský",
   "lat": 48.6425385,
-  "lon": 21.1728736,
-  "konatel": "Tomáš Lučkai, Erik Dosedla, Ján Luczy, František Sabol, Michal Zakarovský"
+  "lon": 21.1728736
  },
  {
   "kraj": "KE",
@@ -8883,9 +7987,9 @@ const GASTRO_DATA = [
   "web": "uvlf.sk",
   "zona": "KE1",
   "pozn": "univerzitna menza; pravidelne objemy stravy pocas semestra",
+  "konatel": "",
   "lat": 48.7332774,
-  "lon": 21.2503524,
-  "konatel": ""
+  "lon": 21.2503524
  },
  {
   "kraj": "KE",
@@ -8901,9 +8005,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; velka okresna nemocnica s vlastnou kuchynou pacienti + personal",
+  "konatel": "Marián Haviernik, Radoslav Čuha, Tomáš Valaška, Igor Pramuk",
   "lat": 48.7534923,
-  "lon": 21.9157388,
-  "konatel": "Marián Haviernik, Radoslav Čuha, Tomáš Valaška, Igor Pramuk"
+  "lon": 21.9157388
  },
  {
   "kraj": "KE",
@@ -8919,9 +8023,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; nemocnicna kuchyna, stovky porcii denne",
+  "konatel": "Marián Haviernik, Radoslav Čuha, Tomáš Valaška, Igor Pramuk",
   "lat": 48.6114443,
-  "lon": 21.7192835,
-  "konatel": "Marián Haviernik, Radoslav Čuha, Tomáš Valaška, Igor Pramuk"
+  "lon": 21.7192835
  },
  {
   "kraj": "KE",
@@ -8937,9 +8041,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "KE3",
   "pozn": "SILNY CIEL; vlastna nemocnicna kuchyna pacienti + zamestnanci",
+  "konatel": "Renáta Šuláková, Radoslav Čuha, Tomáš Valaška, Igor Pramuk",
   "lat": 48.9566079,
-  "lon": 20.566875,
-  "konatel": "Renáta Šuláková, Radoslav Čuha, Tomáš Valaška, Igor Pramuk"
+  "lon": 20.566875
  },
  {
   "kraj": "KE",
@@ -8955,9 +8059,9 @@ const GASTRO_DATA = [
   "web": "pentahospitals.sk",
   "zona": "KE4",
   "pozn": "SILNY CIEL; jedina velka nemocnica v okrese, vlastna kuchyna",
+  "konatel": "Viktor Halíř, Radoslav Čuha, Tomáš Valaška, Igor Pramuk",
   "lat": 48.6653704,
-  "lon": 20.5327602,
-  "konatel": "Viktor Halíř, Radoslav Čuha, Tomáš Valaška, Igor Pramuk"
+  "lon": 20.5327602
  },
  {
   "kraj": "KE",
@@ -8973,9 +8077,9 @@ const GASTRO_DATA = [
   "web": "pnmi.sk",
   "zona": "KE2",
   "pozn": "dlhe pobyty pacientov = stabilna kuchyna 3x denne",
+  "konatel": "",
   "lat": 48.7545227,
-  "lon": 21.9390383,
-  "konatel": ""
+  "lon": 21.9390383
  },
  {
   "kraj": "KE",
@@ -8991,9 +8095,9 @@ const GASTRO_DATA = [
   "web": "arcuskosice.sk",
   "zona": "KE1",
   "pozn": "~200 klientov celorocne, denne plnohodnotna strava",
+  "konatel": "",
   "lat": 48.7125657,
-  "lon": 21.2562074,
-  "konatel": ""
+  "lon": 21.2562074
  },
  {
   "kraj": "KE",
@@ -9009,9 +8113,9 @@ const GASTRO_DATA = [
   "web": "doubletree-kosice.com",
   "zona": "KE1",
   "pozn": "SILNY CIEL; DoubleTree by Hilton, multifunkcna banketova sala do 450 osob",
+  "konatel": "Michal Zuber, Petr Janů, Rudolf Križan, Stela Kostrubová",
   "lat": 48.7176174,
-  "lon": 21.2604142,
-  "konatel": "Michal Zuber, Petr Janů, Rudolf Križan, Stela Kostrubová"
+  "lon": 21.2604142
  },
  {
   "kraj": "KE",
@@ -9027,9 +8131,9 @@ const GASTRO_DATA = [
   "web": "hotel-yasmin.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; business and conference hotel so 7 salami",
+  "konatel": "Ing. Ivan Propper, Ing. Štefan Koluš, František Buchala, Ing. Andrej Kasana, Pavel Borsig",
   "lat": 48.729626,
-  "lon": 21.2571644,
-  "konatel": "Ing. Ivan Propper, Ing. Štefan Koluš, František Buchala, Ing. Andrej Kasana, Pavel Borsig"
+  "lon": 21.2571644
  },
  {
   "kraj": "KE",
@@ -9045,9 +8149,9 @@ const GASTRO_DATA = [
   "web": "hotel-centrum.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; Congress Hotel Centrum, sala Nobel kapacita do 650 osob",
+  "konatel": "Peter Trebuňa, Michal Ráchela, Ľubomír Švorc, Jarom Markovič",
   "lat": 48.716553,
-  "lon": 21.2608127,
-  "konatel": "Peter Trebuňa, Michal Ráchela, Ľubomír Švorc, Jarom Markovič"
+  "lon": 21.2608127
  },
  {
   "kraj": "KE",
@@ -9063,9 +8167,9 @@ const GASTRO_DATA = [
   "web": "hotelrocakosice.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; Kongres Hotel Roca, hlavna sala do 400 a banketova ROCA 200 osob",
+  "konatel": "Juraj Šulik, Peter Drozda",
   "lat": 48.697532,
-  "lon": 21.2635058,
-  "konatel": "Juraj Šulik, Peter Drozda"
+  "lon": 21.2635058
  },
  {
   "kraj": "KE",
@@ -9081,9 +8185,9 @@ const GASTRO_DATA = [
   "web": "hotelbankov.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; najstarsi hotel na Slovensku, podujatia vratane letnej zahrady do 600 osob",
+  "konatel": "Ing. Marián Miškov, Miroslav Kollár, Ján Geško, Adriana Hurová",
   "lat": 48.74745,
-  "lon": 21.20827,
-  "konatel": "Ing. Marián Miškov, Miroslav Kollár, Ján Geško, Adriana Hurová"
+  "lon": 21.20827
  },
  {
   "kraj": "KE",
@@ -9099,9 +8203,9 @@ const GASTRO_DATA = [
   "web": "ambassador.sk",
   "zona": "KE1",
   "pozn": "Hotel Ambassador, konferencna sala v centre",
+  "konatel": "Emília Zapotocká, Alexander Zápotocký",
   "lat": 48.7249336,
-  "lon": 21.2561547,
-  "konatel": "Emília Zapotocká, Alexander Zápotocký"
+  "lon": 21.2561547
  },
  {
   "kraj": "KE",
@@ -9117,9 +8221,9 @@ const GASTRO_DATA = [
   "web": "goldenroyal.sk",
   "zona": "KE1",
   "pozn": "Golden Royal Boutique Hotel and Spa, kongresove priestory do 160 osob",
+  "konatel": "Anna Mátéová",
   "lat": 48.7249398,
-  "lon": 21.2596926,
-  "konatel": "Anna Mátéová"
+  "lon": 21.2596926
  },
  {
   "kraj": "KE",
@@ -9135,9 +8239,9 @@ const GASTRO_DATA = [
   "web": "hotelglamour.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; rezort pri Zemplinskej sirave, svadby a kongresy do 250 osob; sidlo firmy B. Bystrica",
+  "konatel": "Dana Morovská",
   "lat": 48.8079386,
-  "lon": 22.0009306,
-  "konatel": "Dana Morovská"
+  "lon": 22.0009306
  },
  {
   "kraj": "KE",
@@ -9153,9 +8257,9 @@ const GASTRO_DATA = [
   "web": "hotelchemes.sk",
   "zona": "KE2",
   "pozn": "Hotel Chemes pri Zemplinskej sirave, velka sala 100-200 osob",
+  "konatel": "",
   "lat": 48.8086142,
-  "lon": 22.0127441,
-  "konatel": ""
+  "lon": 22.0127441
  },
  {
   "kraj": "KE",
@@ -9171,9 +8275,9 @@ const GASTRO_DATA = [
   "web": "hotelmousson.sk",
   "zona": "KE2",
   "pozn": "svadobna restauracna sala do 120 hosti; prevadzkovu firmu overit ORSR",
+  "konatel": "",
   "lat": 48.7606239,
-  "lon": 21.9045571,
-  "konatel": ""
+  "lon": 21.9045571
  },
  {
   "kraj": "KE",
@@ -9189,9 +8293,9 @@ const GASTRO_DATA = [
   "web": "hotelmetropol.sk",
   "zona": "KE3",
   "pozn": "Hotel Metropol Wellness and Congress, kongresova sala do 200 osob",
+  "konatel": "Jozef Farkaš, Peter Farkaš, Ladislav Hreha, Radoslav Farkaš",
   "lat": 48.9462731,
-  "lon": 20.558999,
-  "konatel": "Jozef Farkaš, Peter Farkaš, Ladislav Hreha, Radoslav Farkaš"
+  "lon": 20.558999
  },
  {
   "kraj": "KE",
@@ -9207,9 +8311,9 @@ const GASTRO_DATA = [
   "web": "tamas.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; fransizant McDonald's pre Kosice (Plavaren, Optima, Popradska)",
+  "konatel": "Tamás Major",
   "lat": 48.7194683,
-  "lon": 21.2651149,
-  "konatel": "Tamás Major"
+  "lon": 21.2651149
  },
  {
   "kraj": "KE",
@@ -9225,9 +8329,9 @@ const GASTRO_DATA = [
   "web": "vamex.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; pekarska siet s 10 vlastnymi predajnami v KE kraji (Kosice, Michalovce)",
+  "konatel": "Zuzana Gumánová, Peter Ferčák, Roman Huppert, Viktor Gumán",
   "lat": 48.67892,
-  "lon": 21.28906,
-  "konatel": "Zuzana Gumánová, Peter Ferčák, Roman Huppert, Viktor Gumán"
+  "lon": 21.28906
  },
  {
   "kraj": "KE",
@@ -9243,9 +8347,9 @@ const GASTRO_DATA = [
   "web": "uni.sk",
   "zona": "KE1",
   "pozn": "Pekaren UNI; 3+ vlastne predajne/pekarne v KE kraji",
+  "konatel": "Vojtech Vrábel, Henrich Burdiga",
   "lat": 48.672394,
-  "lon": 21.2765499,
-  "konatel": "Vojtech Vrábel, Henrich Burdiga"
+  "lon": 21.2765499
  },
  {
   "kraj": "KE",
@@ -9261,9 +8365,9 @@ const GASTRO_DATA = [
   "web": "coop.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; druzstevna siet s viacerymi predajnami a obcerstvenim v okrese Michalovce",
+  "konatel": "Mária Švecová, Marta Blašková, Mária Dufincová, Ivan Ihnát, Milan Šalapka",
   "lat": 48.7576287,
-  "lon": 21.9181918,
-  "konatel": "Mária Švecová, Marta Blašková, Mária Dufincová, Ivan Ihnát, Milan Šalapka"
+  "lon": 21.9181918
  },
  {
   "kraj": "KE",
@@ -9279,9 +8383,9 @@ const GASTRO_DATA = [
   "web": "vucke.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; VUC zriadovatel desiatok skolskych a socialnych jedalni v celom kraji, VO stravy",
+  "konatel": "",
   "lat": 48.7276311,
-  "lon": 21.2544388,
-  "konatel": ""
+  "lon": 21.2544388
  },
  {
   "kraj": "KE",
@@ -9297,9 +8401,9 @@ const GASTRO_DATA = [
   "web": "kosice.sk",
   "zona": "KE1",
   "pozn": "Najvacsie mesto vychodu, zriadovatel desiatok skolskych jedalni, VO stravovania",
+  "konatel": "",
   "lat": 48.7144757,
-  "lon": 21.2338655,
-  "konatel": ""
+  "lon": 21.2338655
  },
  {
   "kraj": "KE",
@@ -9315,9 +8419,9 @@ const GASTRO_DATA = [
   "web": "upjs.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; velka kosicka univerzita, SD a jedalne pre studentov",
+  "konatel": "Daniel Pella",
   "lat": 48.7193707,
-  "lon": 21.2512131,
-  "konatel": "Daniel Pella"
+  "lon": 21.2512131
  },
  {
   "kraj": "KE",
@@ -9333,9 +8437,9 @@ const GASTRO_DATA = [
   "web": "tuke.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; najvacsia VS vychodu, vlastne jedalne a studentske domovy s kuchynami",
+  "konatel": "",
   "lat": 48.7305176,
-  "lon": 21.2454592,
-  "konatel": ""
+  "lon": 21.2454592
  },
  {
   "kraj": "KE",
@@ -9351,9 +8455,9 @@ const GASTRO_DATA = [
   "web": "unlp.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; najvacsia nemocnica vychodu, denne tisice stravnikov pacienti+personal, vlastna kuchyna",
+  "konatel": "",
   "lat": 48.7091037,
-  "lon": 21.256115,
-  "konatel": ""
+  "lon": 21.256115
  },
  {
   "kraj": "KE",
@@ -9369,9 +8473,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; vazenska kuchyna variaca denne pre stovky odsudenych a personal",
+  "konatel": "",
   "lat": 48.6331155,
-  "lon": 21.1710042,
-  "konatel": ""
+  "lon": 21.1710042
  },
  {
   "kraj": "KE",
@@ -9387,9 +8491,9 @@ const GASTRO_DATA = [
   "web": "zvjs.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; centralna vazba v meste, denna varba pre uvaznenych aj personal",
+  "konatel": "",
   "lat": 48.7177664,
-  "lon": 21.2478585,
-  "konatel": ""
+  "lon": 21.2478585
  },
  {
   "kraj": "KE",
@@ -9400,14 +8504,14 @@ const GASTRO_DATA = [
   "mesto": "Kosice-Sever",
   "okres": "Kosice I",
   "velkost": "stovky zamestnancov v klientskom centre a odboroch",
-  "tel": "055/6001201",
+  "tel": "055/6181111",
   "email": "",
   "web": "minv.sk",
   "zona": "KE1",
   "pozn": "velky statny zamestnavatel v sidle kraja (pod MV SR), klientske centrum",
+  "konatel": "",
   "lat": 48.7360852,
-  "lon": 21.2459087,
-  "konatel": ""
+  "lon": 21.2459087
  },
  {
   "kraj": "KE",
@@ -9423,9 +8527,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "KE1",
   "pozn": "velky zamestnavatel (pod MV SR ICO 00151866), policajne sluzobne stravovanie, VO",
+  "konatel": "",
   "lat": 48.7172221,
-  "lon": 21.2514097,
-  "konatel": ""
+  "lon": 21.2514097
  },
  {
   "kraj": "KE",
@@ -9441,9 +8545,9 @@ const GASTRO_DATA = [
   "web": "michalovce.sk",
   "zona": "KE2",
   "pozn": "okresne mesto, zriadovatel skolskych jedalni, VO stravovania pre samospravu",
+  "konatel": "",
   "lat": 48.755882,
-  "lon": 21.91768,
-  "konatel": ""
+  "lon": 21.91768
  },
  {
   "kraj": "KE",
@@ -9459,9 +8563,9 @@ const GASTRO_DATA = [
   "web": "spisskanovaves.eu",
   "zona": "KE3",
   "pozn": "okresne mesto, zriadovatel skolskych jedalni, VO stravy",
+  "konatel": "",
   "lat": 48.9440806,
-  "lon": 20.5672397,
-  "konatel": ""
+  "lon": 20.5672397
  },
  {
   "kraj": "KE",
@@ -9477,9 +8581,9 @@ const GASTRO_DATA = [
   "web": "trebisov.sk",
   "zona": "KE2",
   "pozn": "okresne mesto, zriadovatel skolskych jedalni, VO stravy",
+  "konatel": "",
   "lat": 48.6190461,
-  "lon": 21.7191398,
-  "konatel": ""
+  "lon": 21.7191398
  },
  {
   "kraj": "KE",
@@ -9495,9 +8599,9 @@ const GASTRO_DATA = [
   "web": "lumentv.sk",
   "zona": "KE2",
   "pozn": "SILNY CIEL; rozpoctova organizacia KSK, vlastna kuchyna pre seniorov/klientov + personal",
+  "konatel": "",
   "lat": 48.6198489,
-  "lon": 21.71409,
-  "konatel": ""
+  "lon": 21.71409
  },
  {
   "kraj": "KE",
@@ -9513,9 +8617,9 @@ const GASTRO_DATA = [
   "web": "minv.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR); adresa overit",
+  "konatel": "",
   "lat": 48.7360852,
-  "lon": 21.2459087,
-  "konatel": ""
+  "lon": 21.2459087
  },
  {
   "kraj": "KE",
@@ -9531,8 +8635,944 @@ const GASTRO_DATA = [
   "web": "zsr.sk",
   "zona": "KE1",
   "pozn": "SILNY CIEL; OZ Kosice - najvacsi ZSR uzol na vychode; vlastna kuchyna/zavodne stravovanie",
+  "konatel": "Miroslav Garaj",
   "lat": 48.7258034,
-  "lon": 21.2581545,
-  "konatel": "Miroslav Garaj"
+  "lon": 21.2581545
+ },
+ {
+  "kraj": "PO",
+  "kat": "Catering dodavatel",
+  "firma": "MICO s.r.o.",
+  "ico": "47089768",
+  "adresa": "Chalupkova 341/34",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 168 tis EUR (2024, trzby), 3-4 zam",
+  "tel": "0915623432",
+  "email": "micocatering@gmail.com",
+  "web": "micocatering.sk",
+  "zona": "PO1",
+  "pozn": "Eventovy + svadobny catering Presov/KE, kapacita svadby do 200 osob",
+  "konatel": "Jozef Mičo, Pavol Mičo",
+  "lat": 48.97293,
+  "lon": 21.25757
+ },
+ {
+  "kraj": "PO",
+  "kat": "Catering dodavatel",
+  "firma": "Euro Catering Agency s.r.o.",
+  "ico": "51544440",
+  "adresa": "Maly Saris 576",
+  "mesto": "Maly Saris",
+  "okres": "Presov",
+  "velkost": "obrat 7,8 tis EUR (2024, trzby), 1 zam",
+  "tel": "0904777750",
+  "email": "1eurocatering@gmail.com",
+  "web": "eurocatering.sk",
+  "zona": "PO1",
+  "pozn": "Maly regionalni catering Presov + okolie, zalozeny 2018",
+  "konatel": "Marek Poprenda",
+  "lat": 49.0003973,
+  "lon": 21.1850893
+ },
+ {
+  "kraj": "PO",
+  "kat": "Catering dodavatel",
+  "firma": "Bistro Tatjana - Tatiana Malyszka",
+  "ico": "51974983",
+  "adresa": "Kukucinova 4245",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "zivnostnik od 2019, rozvoz Poprad a okolie",
+  "tel": "0948308545",
+  "email": "info@tatjana.sk",
+  "web": "tatjana.sk",
+  "zona": "PO2",
+  "pozn": "Catering + donaska Poprad; firemne obedy, svadby, teambuildingy; prevadzka Podjavorinskey 3405/22",
+  "konatel": "",
+  "lat": 49.057731,
+  "lon": 20.3108247
+ },
+ {
+  "kraj": "PO",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "TOP GASTRO, s.r.o.",
+  "ico": "36480924",
+  "adresa": "Volgogradska 13",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 480 tis EUR (2025, trzby), 10-19 zam; 2500 jedal/den, 180 zmluv",
+  "tel": "051/7710429",
+  "email": "topgastro@gmail.com",
+  "web": "top-gastro.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; zavod + seniori + eventy od 2002, sponzorska sala 150 miest, NACE 5621",
+  "konatel": "Pavol Škripko",
+  "lat": 49.0105056,
+  "lon": 21.2201529
+ },
+ {
+  "kraj": "PO",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "ACEM, s.r.o.",
+  "ico": "43786774",
+  "adresa": "Solnobanska 11809/5A",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 2,644 mil EUR (2025, trzby), 25-49 zam; prevadzky Petrovany (Presov) aj Poprad",
+  "tel": "0918625732",
+  "email": "info@acem.sk",
+  "web": "acem.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; zavodne stravovanie vychod SK od 2007, operuje jedalen Tatravagonka (tatravagonka@acem.sk), prevadzka aj v Poprade; NACE 5621",
+  "konatel": "Peter Čmelík, Jozef Leško",
+  "lat": 48.9804658,
+  "lon": 21.2760365
+ },
+ {
+  "kraj": "PO",
+  "kat": "Vyvaren / catering kuchyna",
+  "firma": "Jozef Mico - TIP-TOP",
+  "ico": "10737618",
+  "adresa": "Chalupkova 34",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "50-99 zam; 8 predajni (Presov, Poprad, Kosice)",
+  "tel": "0918857273",
+  "email": "tip.top.objednavka@gmail.com",
+  "web": "tiptopjedla.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; najvacsia regionalna vyvaren PO kraja, rozvoz teplych jedal + maso velkoobchod, zivnostnik od 1992",
+  "konatel": "",
+  "lat": 48.9728268,
+  "lon": 21.2574657
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "TATRAVAGONKA a.s.",
+  "ico": "31699847",
+  "adresa": "Stefanikova 887/53",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 595 mil EUR (2024, trzby), 2000-2999 zam",
+  "tel": "",
+  "email": "",
+  "web": "tatravagonka.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; najvacsi vyrobca zeleznicnych vagonov SR, 2000+ zam, zavodna jedalen pre velku prevadzku",
+  "konatel": "Alexej Beljajev, Peter Malec, Juraj Hudáč, Jaroslava Ďumbalová",
+  "lat": 49.0597298,
+  "lon": 20.3156999
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Beko Manufacturing Slovakia spol. s r.o. (ex-Whirlpool)",
+  "ico": "35796570",
+  "adresa": "Hlavna 5039/1A",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 257,9 mil EUR (2024, trzby), 500-999 zam",
+  "tel": "",
+  "email": "",
+  "web": "beko.com",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; vyrobna prevadzka dom. spotrebicov WhirlpoolBeko 2024, zavodna jedalen pre 500+ zam",
+  "konatel": "Michal Major, Jaroslav Grygar, Fatih Ebiçlioglu, Hakan Bulgurlu",
+  "lat": 49.0751835,
+  "lon": 20.3254824
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "CHEMES a.s. Humenne",
+  "ico": "31695426",
+  "adresa": "Chemlonska 1",
+  "mesto": "Humenne",
+  "okres": "Humenne",
+  "velkost": "obrat 28,58 mil EUR (2023, trzby), v konkurze od 06.2026",
+  "tel": "",
+  "email": "",
+  "web": "chemes.sk",
+  "zona": "PO4",
+  "pozn": "Chemicky zavod v konkurze od 06/2026; overit nastupnicku firmu pred oslovenim",
+  "konatel": "Ing. František Chvostaľ, Ing. Vladimír Skoupil, Ing. Marek Matias, Ing. Martin Vinčúr",
+  "lat": 48.9287863,
+  "lon": 21.9060966
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "BUKOZA Export-Import a.s.",
+  "ico": "36445266",
+  "adresa": "Hencovska 2073",
+  "mesto": "Hencovce",
+  "okres": "Vranov nad Toplou",
+  "velkost": "obrat 88,87 mil EUR (2023, trzby), v konkurze od 05.2026",
+  "tel": "",
+  "email": "",
+  "web": "bukoza.sk",
+  "zona": "PO4",
+  "pozn": "Papierenska skupina v konkurze od 05/2026; overit noveho prevadzkovatela priemyselneho parku Hencovce pred oslovenim",
+  "konatel": "Miloslav Dittrich, Marek Mlčoch, Roman Staněk, František Dobiáš",
+  "lat": 48.8631495,
+  "lon": 21.7286199
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Fakultna nemocnica s poliklinikou J. A. Reimana Presov",
+  "ico": "00610577",
+  "adresa": "Jana Holleho 14",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 158,1 mil EUR (2025, trzby), 3000-3999 zam",
+  "tel": "051/7011111",
+  "email": "",
+  "web": "fnsppresov.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; uz v Statne firmy a urady; najvacsia nemocnica PO kraja, tackaren stravuje tisicky pacientov + personal denne",
+  "konatel": "",
+  "lat": 48.9964472,
+  "lon": 21.2536714
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Poprad a.s.",
+  "ico": "36513458",
+  "adresa": "Banicka 803/28",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 72,56 mil EUR (2024, trzby), 1000-1999 zam",
+  "tel": "052/7165111",
+  "email": "",
+  "web": "nemocnicapoprad.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; hlavna nemocnica Poprad, akutna starostlivost, tackaren pre 1000+ zam + pacienti",
+  "konatel": "Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor",
+  "lat": 49.0518388,
+  "lon": 20.3035108
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica AGEL Levoca a.s.",
+  "ico": "36594849",
+  "adresa": "Probstnerova cesta 2/3082",
+  "mesto": "Levoca",
+  "okres": "Levoca",
+  "velkost": "obrat 30,12 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "053/4512511",
+  "email": "",
+  "web": "nemocnica-levoca.sk",
+  "zona": "PO2",
+  "pozn": "Byvala Vseobecna nemocnica Levoca, prevzata sietou AGEL; tackaren pre pacientov a personel",
+  "konatel": "Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja",
+  "lat": 49.0210406,
+  "lon": 20.5851443
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "NsP Sv. Jakuba n.o. Bardejov",
+  "ico": "36167908",
+  "adresa": "Sv. Jakuba 21",
+  "mesto": "Bardejov",
+  "okres": "Bardejov",
+  "velkost": "obrat 41,58 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "054/4862111",
+  "email": "",
+  "web": "nspbardejov.sk",
+  "zona": "PO3",
+  "pozn": "Hlavna nemocnica okresu Bardejov, n.o., tackaren pre hospitalizovanych a zamestnancov",
+  "konatel": "",
+  "lat": 49.2872502,
+  "lon": 21.2723445
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica A. Lena Humenne a.s.",
+  "ico": "47249048",
+  "adresa": "Nemocnicna 7",
+  "mesto": "Humenne",
+  "okres": "Humenne",
+  "velkost": "obrat 24,67 mil EUR (2024, trzby), 500-999 zam",
+  "tel": "057/7786111",
+  "email": "",
+  "web": "nemocnicahumenne.sk",
+  "zona": "PO4",
+  "pozn": "Nastupnica po NsP Humenne; tackaren pre pacientov a personel okresu Humenne",
+  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo",
+  "lat": 48.9346454,
+  "lon": 21.8983233
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Vranovska nemocnica a.s.",
+  "ico": "47249021",
+  "adresa": "M. R. Stefanika 187/177B",
+  "mesto": "Vranov nad Toplou",
+  "okres": "Vranov nad Toplou",
+  "velkost": "obrat 25,79 mil EUR (2024, trzby), 500-999 zam",
+  "tel": "057/4461111",
+  "email": "",
+  "web": "vranovskanemocnica.sk",
+  "zona": "PO4",
+  "pozn": "Hlavna nemocnica okresu Vranov nad Toplou; tackaren pre hospitalizovanych a personel",
+  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo",
+  "lat": 48.8891513,
+  "lon": 21.6822318
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Lubovnianska nemocnica n.o.",
+  "ico": "37886851",
+  "adresa": "Obrancov mieru 510/3",
+  "mesto": "Stara Lubovna",
+  "okres": "Stara Lubovna",
+  "velkost": "obrat 30,3 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "052/4320111",
+  "email": "",
+  "web": "lubovnianskanemocnica.sk",
+  "zona": "PO2",
+  "pozn": "Jedina nemocnica okresu Stara Lubovna, n.o.; tackaren pre pacientov a zamestnancov",
+  "konatel": "",
+  "lat": 49.2975195,
+  "lon": 20.687879
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.",
+  "ico": "37886436",
+  "adresa": "Huncovska 1788/42",
+  "mesto": "Kezmarok",
+  "okres": "Kezmarok",
+  "velkost": "obrat 14,24 mil EUR (2024, trzby), 250-499 zam",
+  "tel": "052/4501111",
+  "email": "",
+  "web": "nemocnicakezmarok.sk",
+  "zona": "PO2",
+  "pozn": "Okresna nemocnica Kezmarok, n.o.; tackaren pre pacientov a zamestnancov",
+  "konatel": "",
+  "lat": 49.131834,
+  "lon": 20.4216313
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Presovska univerzita v Presove",
+  "ico": "17070775",
+  "adresa": "Ul. 17. novembra 13",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 48,09 mil EUR (2025, trzby), 1000-1999 zam",
+  "tel": "051/7722851",
+  "email": "",
+  "web": "unipo.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; uz v Statne firmy a urady; univerzitna menza stravuje tisicky studentov denne",
+  "konatel": "",
+  "lat": 49.0000074,
+  "lon": 21.2392122
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Tatry mountain resorts, a.s. (Grandhotel Praha)",
+  "ico": "31560636",
+  "adresa": "Tatranska Lomnica 8",
+  "mesto": "Tatranska Lomnica",
+  "okres": "Poprad",
+  "velkost": "obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 108 izieb + 15 apartmanov, banketova sala 250 osob",
+  "tel": "052/4780000",
+  "email": "info@grandhotel.sk",
+  "web": "grandhotel.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; historicky hotel 4* (1905) v Tatranskej Lomnici; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi)",
+  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
+  "lat": 49.1616613,
+  "lon": 20.2939518
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Tatry mountain resorts, a.s. (Grandhotel Stary Smokovec)",
+  "ico": "31560636",
+  "adresa": "Stary Smokovec 38",
+  "mesto": "Stary Smokovec",
+  "okres": "Poprad",
+  "velkost": "obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 70 izieb + 14 apartmanov, 214 luzok, banket 100-150 osob",
+  "tel": "052/4780000",
+  "email": "info@grandhotel.sk",
+  "web": "grandhotel.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; historicky hotel 4* (1904) Stary Smokovec; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi); GPS seedovat geocache",
+  "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
+  "lat": 49.1414836,
+  "lon": 20.2221042
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "BHP Tatry, s. r. o. (Grand Hotel Kempinski High Tatras)",
+  "ico": "45948879",
+  "adresa": "Kupelna 6",
+  "mesto": "Strbske Pleso",
+  "okres": "Poprad",
+  "velkost": "obrat 13,78 mil EUR (2024, trzby), 100-149 zam; 98 izieb, banket 150-200 osob, jediny 5* hotel PO kraja",
+  "tel": "052/3262222",
+  "email": "",
+  "web": "kempinski.com",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; jediny 5-hviezdicovy hotel v PO kraji, Strbske Pleso; prevadzkovatel BHP Tatry s.r.o. (sid. BA); vlastnik J&T",
+  "konatel": "Branislav Babík, Petr Janů",
+  "lat": 49.1192835,
+  "lon": 20.0595525
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "TATRA HOTEL SLOVAKIA, a.s. (Hotel Patria Strbske Pleso)",
+  "ico": "31638759",
+  "adresa": "K Vodopadom 4033/15",
+  "mesto": "Strbske Pleso",
+  "okres": "Poprad",
+  "velkost": "obrat 10,98 mil EUR (2025, trzby), 100-149 zam; hotel 4* na brehu Strbskeho plesa, banket 120-150 osob",
+  "tel": "",
+  "email": "",
+  "web": "hotelpatria.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; hotel priamo pri jazere Strbske Pleso, wellness + banketova sala; NACE 5510",
+  "konatel": "Michal Sýkora, Jozef Bendžala, Kamila Sýkorová",
+  "lat": 49.1244449,
+  "lon": 20.0609115
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "TMR Strbske Pleso s. r. o. (Hotel FIS)",
+  "ico": "55737854",
+  "adresa": "K Vodopadom 4028/26",
+  "mesto": "Strbske Pleso",
+  "okres": "Poprad",
+  "velkost": "obrat 8,46 mil EUR (2024, trzby), 10-19 zam; 80 izieb, konferencna kapacita 100 osob",
+  "tel": "0915954636",
+  "email": "hotelfis@hotelfis.sk",
+  "web": "hotelfis.sk",
+  "zona": "PO2",
+  "pozn": "Lyziarski hotel pri skokanskych mostikoch FIS Strbske Pleso; prevadzkovatel TMR Strbske Pleso s.r.o. (ine ICO ako TMR a.s.)",
+  "konatel": "Branislav Kačkovič, Dušan Slavkovský",
+  "lat": 49.1287622,
+  "lon": 20.0613192
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "AQUAPARK Poprad, s.r.o. (AquaCity Poprad)",
+  "ico": "36482609",
+  "adresa": "Sportova 1397/1",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 12,97 mil EUR (2024, trzby), 100-149 zam; kongresova sala 350 osob, geotermalna voda",
+  "tel": "052/7851222",
+  "email": "recepcia@aquacity.sk",
+  "web": "aquacity.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; aquapark + hotel + kongresovy komplex v Poprade; kongresova sala az 350 osob",
+  "konatel": "Richard Pichoňský, Peter Hudec, Róbert Bartek, Tomáš Zedníček",
+  "lat": 49.0603207,
+  "lon": 20.3068944
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "SATEL - SLOVAKIA, s.r.o. (Hotel Satel Poprad)",
+  "ico": "31712797",
+  "adresa": "Mnohelova 825",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 2,795 mil EUR (2024, trzby), 25-49 zam; 250 luzok, 8 konferencnych sali az 300 osob",
+  "tel": "",
+  "email": "",
+  "web": "hotelsatel.com",
+  "zona": "PO2",
+  "pozn": "Najvacsi hotel v meste Poprad (250 luzok); kongresy az 450 osob; NACE 5510",
+  "konatel": "Peter Zemančík",
+  "lat": 49.0567076,
+  "lon": 20.2960523
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "BARDEJOVSKE KUPELE a. s.",
+  "ico": "36168301",
+  "adresa": "Kupelny rad 1",
+  "mesto": "Bardejovske Kupele",
+  "okres": "Bardejov",
+  "velkost": "obrat 19,41 mil EUR (2025, trzby), 250-499 zam; kupelny komplex 4 hotely, banket/kongres 150-200 osob",
+  "tel": "054/4774000",
+  "email": "sekretariat@kupele-bj.sk",
+  "web": "kupele-bj.sk",
+  "zona": "PO3",
+  "pozn": "SILNY CIEL; historicke kupele od 1777 (Bardejovske Kupele), 4 hotely (Astoria, Ozon, Alexander, Alzbeta), 250-499 zam",
+  "konatel": "Jozef Bača, Helena Bačová, Oľga Bačová, Jaroslav Komora, Maroš Komora",
+  "lat": 49.3273239,
+  "lon": 21.2739014
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "KUPELE VYSNE RUZBACHY, a.s.",
+  "ico": "31714501",
+  "adresa": "Vysne Ruzbachy 48",
+  "mesto": "Vysne Ruzbachy",
+  "okres": "Kezmarok",
+  "velkost": "obrat 6,83 mil EUR (2024, trzby), 100-149 zam; Grand Hotel Strand 88 luzok + dalsie, banket 100-150 osob",
+  "tel": "052/4266111",
+  "email": "rezervacie@ruzbachy.sk",
+  "web": "ruzbachy.sk",
+  "zona": "PO2",
+  "pozn": "Termalny kupelny komplex Vysne Ruzbachy pod Pieninami; NACE 8699",
+  "konatel": "Ing. Ivan Maroš, Mgr. Soňa Marošová, Hezy Mordehaev, MUDr. Peter Bartoň",
+  "lat": 49.3042641,
+  "lon": 20.5648591
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "LINEAS, s.r.o. (Hotel Lineas Presov)",
+  "ico": "31692923",
+  "adresa": "Budovatelska 14",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 1,43 mil EUR (2024, trzby), 25-49 zam; 165 izieb, 340 luzok, kongresova sala az 200 osob",
+  "tel": "0907801093",
+  "email": "akcia@lineas.sk",
+  "web": "lineas.sk",
+  "zona": "PO1",
+  "pozn": "Najvacsi hotel v meste Presov (340 luzok); kongresove kapacity do 200 osob; NACE 5510",
+  "konatel": "Vladimír Stračiak, Ján Hardoň, Jozef Durkoš",
+  "lat": 48.985434,
+  "lon": 21.2435871
+ },
+ {
+  "kraj": "PO",
+  "kat": "Velka restauracia / banketova sala",
+  "firma": "Hotel DUKLA, a.s. Presov",
+  "ico": "36482293",
+  "adresa": "Namestie legionarov 2",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 944 tis EUR (2024, trzby), 10-19 zam; 60 izieb, banketova sala 120 osob (divadlo 200 osob)",
+  "tel": "051/7722741",
+  "email": "recepcia@hotelduklapresov.sk",
+  "web": "hotelduklapresov.sk",
+  "zona": "PO1",
+  "pozn": "Hotel v centre Presova, banketova kapacita 120 osob; NACE 5510",
+  "konatel": "Anton Bidovský, Oto Sivák, Juraj Koval, Stanislav Oravec",
+  "lat": 48.9936783,
+  "lon": 21.2442244
+ },
+ {
+  "kraj": "PO",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "McDonald's Slovakia spol. s r.o.",
+  "ico": "31392229",
+  "adresa": "Vihorlatska 13591/2B",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 52,45 mil EUR (2024, trzby); 3 pobocky v PO kraji (Presov MAX, Presov OC Novum, Poprad)",
+  "tel": "",
+  "email": "",
+  "web": "mcdonalds.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; 3 pobocky v PO: Presov MAX (Vihorlatska), Presov OC Novum (Nam. legionarov), Poprad (Stefanikova)",
+  "konatel": "Tereza Trepáčová, Yuliya Badritdinova",
+  "lat": 48.99802,
+  "lon": 21.26936
+ },
+ {
+  "kraj": "PO",
+  "kat": "Restauracna siet (3+ prevadzok)",
+  "firma": "Queensway Restaurants Slovakia s.r.o. (KFC)",
+  "ico": "35852143",
+  "adresa": "Vihorlatska 14",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "obrat 20,845 mil EUR (2024, trzby), 250-499 zam celonarodne; 2 pobocky v PO (Presov OC Novum, Poprad OC Forum) + 3. v stavbe 2026-2027",
+  "tel": "",
+  "email": "",
+  "web": "kfcslovakia.sk",
+  "zona": "PO1",
+  "pozn": "KFC SK franchize; 2 prevadzky v PO + 3. Presov-Solivar v stavbe (2026-2027); zaradit ako perspektivnu siet s prisucom v PO",
+  "konatel": "Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy",
+  "lat": 48.9999611,
+  "lon": 21.2731762
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Presovsky samospravny kraj (PSK)",
+  "ico": "37870475",
+  "adresa": "Namestie mieru 2",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "zriadovatel SS a soc. zariadeni s kuchynami v celom kraji; VO stravy/potravin",
+  "tel": "051/7081111",
+  "email": "info@psk.sk",
+  "web": "psk.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; VUC zriadovatel skol a soc. sluzieb s vlastnymi kuchynami",
+  "konatel": "",
+  "lat": 49.0019597,
+  "lon": 21.2417788
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Presovska univerzita v Presove",
+  "ico": "17070775",
+  "adresa": "Ul. 17. novembra 13",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "univerzita 7000+ studentov; vlastne SD a jedalne",
+  "tel": "051/7722851",
+  "email": "",
+  "web": "unipo.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; univerzitne jedalne a studentske domovy, masova denna strava",
+  "konatel": "",
+  "lat": 49.0000074,
+  "lon": 21.2392122
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Fakultna nemocnica s poliklinikou J. A. Reimana Presov",
+  "ico": "00610577",
+  "adresa": "Holleho 14",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "velka nemocnica, stovky luzok; vlastna nemocnicna kuchyna, celodenna strava pacienti+personal",
+  "tel": "051/7011111",
+  "email": "",
+  "web": "fnsppresov.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; velka nemocnicna kuchyna, stabilny odber potravin",
+  "konatel": "",
+  "lat": 48.9964472,
+  "lon": 21.2536714
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Ustav na vykon vazby a Ustav na vykon trestu odnatia slobody Presov (ZVJS)",
+  "ico": "00738409",
+  "adresa": "Kpt. Nalepku 1",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "vazenska kuchyna, denna strava pre vaznov + personal",
+  "tel": "",
+  "email": "",
+  "web": "zvjs.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; vazenska kuchyna, garantovany objem, VO potravin",
+  "konatel": "",
+  "lat": 48.9925511,
+  "lon": 21.2461638
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "2. mechanizovana brigada Presov (VU 1018, OS SR)",
+  "ico": "30845572",
+  "adresa": "Mukacevska 22",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "velka vojenska posadka; vojenska jedalen/stravovanie utvaru",
+  "tel": "",
+  "email": "",
+  "web": "mosr.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; vojensky utvar OS SR pod MO SR, posadkove stravovanie",
+  "konatel": "",
+  "lat": 49.0115086,
+  "lon": 21.225793
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Krajske riaditelstvo Policajneho zboru v Presove",
+  "ico": "00151866",
+  "adresa": "Sturova 7",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "krajska policia; zavodne stravovanie zamestnancov",
+  "tel": "0961/801111",
+  "email": "",
+  "web": "minv.sk",
+  "zona": "PO1",
+  "pozn": "krajsky urad PZ pod MV SR (ICO 00151866), zamestnanecke stravovanie",
+  "konatel": "",
+  "lat": 48.9866306,
+  "lon": 21.2443316
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Presov (Mestsky urad)",
+  "ico": "00327646",
+  "adresa": "Hlavna 73",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "stovky zamestnancov MsU; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "051/3100111",
+  "email": "mesto.radnica@presov.sk",
+  "web": "presov.sk",
+  "zona": "PO1",
+  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin pre MS/ZS",
+  "konatel": "",
+  "lat": 48.9972579,
+  "lon": 21.2397286
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Poprad (Mestsky urad)",
+  "ico": "00326470",
+  "adresa": "Nabrezie Jana Pavla II. 2802/3",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "druhe najvacsie mesto kraja; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "052/7167111",
+  "email": "podatelna@msupoprad.sk",
+  "web": "poprad.sk",
+  "zona": "PO2",
+  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
+  "konatel": "",
+  "lat": 49.0556857,
+  "lon": 20.2955291
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Humenne (Mestsky urad)",
+  "ico": "00323021",
+  "adresa": "Kukorelliho 1501/34",
+  "mesto": "Humenne",
+  "okres": "Humenne",
+  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "057/7863211",
+  "email": "msu@humenne.sk",
+  "web": "humenne.sk",
+  "zona": "PO4",
+  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
+  "konatel": "",
+  "lat": 48.9355568,
+  "lon": 21.9071083
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Bardejov (Mestsky urad)",
+  "ico": "00321842",
+  "adresa": "Radnicne namestie 16",
+  "mesto": "Bardejov",
+  "okres": "Bardejov",
+  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "054/4862122",
+  "email": "info@bardejov.sk",
+  "web": "bardejov.sk",
+  "zona": "PO3",
+  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
+  "konatel": "",
+  "lat": 49.2921571,
+  "lon": 21.2764398
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Mesto Vranov nad Toplou (Mestsky urad)",
+  "ico": "00332933",
+  "adresa": "Dr. C. Daxnera 87/1",
+  "mesto": "Vranov nad Toplou",
+  "okres": "Vranov nad Toplou",
+  "velkost": "okresne mesto; zriadovatel MS/ZS so skolskymi jedalnami",
+  "tel": "057/4422551",
+  "email": "",
+  "web": "vranov.sk",
+  "zona": "PO4",
+  "pozn": "mesto zriadovatel skolskych jedalni, VO potravin",
+  "konatel": "",
+  "lat": 48.8900235,
+  "lon": 21.6855858
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Lesy SR, statny podnik, OZ Saris Presov",
+  "ico": "36038351",
+  "adresa": "Obrancov mieru 6",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "statny podnik, jeden z uzemne najvacsich OZ; zavodne stravovanie",
+  "tel": "",
+  "email": "",
+  "web": "lesy.sk",
+  "zona": "PO1",
+  "pozn": "statny podnik Lesy SR, zamestnanecke stravovanie",
+  "konatel": "Boris Gregor",
+  "lat": 48.9937862,
+  "lon": 21.2297657
+ },
+ {
+  "kraj": "PO",
+  "kat": "Statne firmy a urady",
+  "firma": "Krajske riaditelstvo Hasicskeho a zachranneho zboru v Presove",
+  "ico": "37872061",
+  "adresa": "Poziarnicka 1",
+  "mesto": "Presov",
+  "okres": "Presov",
+  "velkost": "statny zbor, stovky zamestnancov; pod MV SR",
+  "tel": "051/708 2381",
+  "email": "sekretariat.pv@minv.sk",
+  "web": "minv.sk",
+  "zona": "PO1",
+  "pozn": "SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)",
+  "konatel": "",
+  "lat": 48.9966046,
+  "lon": 21.2357529
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Poprad a.s.",
+  "ico": "36513458",
+  "adresa": "Banicka 803/28",
+  "mesto": "Poprad",
+  "okres": "Poprad",
+  "velkost": "obrat 77 mil EUR (2025, trzby), 1000-1999 zam",
+  "tel": "052/7165111",
+  "email": "",
+  "web": "nemocnicapoprad.sk",
+  "zona": "PO2",
+  "pozn": "SILNY CIEL; statna a.s.; 1000+ zam; velka regionalna nemocnica",
+  "konatel": "Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor",
+  "lat": 49.0518388,
+  "lon": 20.3035108
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "NsP Sv. Jakuba n.o. Bardejov",
+  "ico": "36167908",
+  "adresa": "Sv. Jakuba 21",
+  "mesto": "Bardejov",
+  "okres": "Bardejov",
+  "velkost": "obrat 42 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "054/4862111",
+  "email": "",
+  "web": "nspbardejov.sk",
+  "zona": "PO4",
+  "pozn": "SILNY CIEL; n.o. PSK; 500-999 zam",
+  "konatel": "",
+  "lat": 49.2872502,
+  "lon": 21.2723445
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica A. Lena Humenne a.s.",
+  "ico": "47249048",
+  "adresa": "Nemocnicna 7",
+  "mesto": "Humenne",
+  "okres": "Humenne",
+  "velkost": "obrat 25 mil EUR (2024, trzby), 500-999 zam",
+  "tel": "057/7786111",
+  "email": "",
+  "web": "nemocnicahumenne.sk",
+  "zona": "PO5",
+  "pozn": "SILNY CIEL; Penta Hospitals SK (byvaly Svet zdravia); 500-999 zam",
+  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo",
+  "lat": 48.9346454,
+  "lon": 21.8983233
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Vranovska nemocnica a.s.",
+  "ico": "47249021",
+  "adresa": "M. R. Stefanika 187/177B",
+  "mesto": "Vranov nad Toplou",
+  "okres": "Vranov nad Toplou",
+  "velkost": "obrat 26 mil EUR (2024, trzby), 500-999 zam",
+  "tel": "057/4461111",
+  "email": "",
+  "web": "vranovskanemocnica.sk",
+  "zona": "PO6",
+  "pozn": "SILNY CIEL; Penta Hospitals SK; 500-999 zam",
+  "konatel": "MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo",
+  "lat": 48.8891513,
+  "lon": 21.6822318
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Lubovnianska nemocnica n.o.",
+  "ico": "37886851",
+  "adresa": "Obrancov mieru 510/3",
+  "mesto": "Stara Lubovna",
+  "okres": "Stara Lubovna",
+  "velkost": "obrat 29 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "052/4320111",
+  "email": "",
+  "web": "lubovnianskanemocnica.sk",
+  "zona": "PO7",
+  "pozn": "SILNY CIEL; n.o. PSK; 500-999 zam",
+  "konatel": "",
+  "lat": 49.2975195,
+  "lon": 20.687879
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.",
+  "ico": "37886436",
+  "adresa": "Huncovska 1788/42",
+  "mesto": "Kezmarok",
+  "okres": "Kezmarok",
+  "velkost": "obrat 14 mil EUR (2024, trzby), 250-499 zam",
+  "tel": "052/4501111",
+  "email": "",
+  "web": "nemocnicakezmarok.sk",
+  "zona": "PO3",
+  "pozn": "AGEL n.o.; 250-499 zam",
+  "konatel": "",
+  "lat": 49.131834,
+  "lon": 20.4216313
+ },
+ {
+  "kraj": "PO",
+  "kat": "Tackaren / zavodna jedalen",
+  "firma": "Nemocnica AGEL Levoca a.s.",
+  "ico": "36594849",
+  "adresa": "Probstnerova cesta 2/3082",
+  "mesto": "Levoca",
+  "okres": "Levoca",
+  "velkost": "obrat 30 mil EUR (2025, trzby), 500-999 zam",
+  "tel": "053/4512511",
+  "email": "",
+  "web": "nemocnica-levoca.sk",
+  "zona": "PO3",
+  "pozn": "SILNY CIEL; AGEL a.s.; 500-999 zam",
+  "konatel": "Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja",
+  "lat": 49.0210406,
+  "lon": 20.5851443
  }
 ];
