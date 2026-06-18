@@ -106,7 +106,8 @@ def write_xml(path, kraj_nazov, rows):
             f.write(f'  <prevadzka kategoria="{escape(r["Kategoria"])}" zona="{escape(r["Zona_trasa"])}">\n')
             for tag, key in [('firma','Firma'),('ico','ICO'),('adresa','Adresa'),
                              ('mesto','Mesto_Stvrt'),('okres','Okres'),('velkost','Velkost_Trzby_Kapacita'),
-                             ('telefon','Telefon'),('email','Email'),('web','Web'),('poznamka','Poznamka')]:
+                             ('telefon','Telefon'),('email','Email'),('web','Web'),
+                             ('konatel','Konatel'),('poznamka','Poznamka')]:
                 f.write(f'    <{tag}>{escape(r.get(key,"") or "")}</{tag}>\n')
             if r['lat']:
                 f.write(f'    <gps lat="{r["lat"]}" lon="{r["lon"]}"/>\n')
@@ -135,6 +136,7 @@ for kod, nazov, csv_in, xml_out in KRAJE:
             'adresa': r['Adresa'], 'mesto': r['Mesto_Stvrt'], 'okres': r['Okres'],
             'velkost': r['Velkost_Trzby_Kapacita'], 'tel': r['Telefon'], 'email': r['Email'],
             'web': r['Web'], 'zona': r['Zona_trasa'], 'pozn': r['Poznamka'],
+            'konatel': r.get('Konatel', ''),
             'lat': r['lat'], 'lon': r['lon'],
         })
 

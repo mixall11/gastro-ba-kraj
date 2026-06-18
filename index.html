@@ -323,6 +323,7 @@ function popup(d,idx){
   h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]} · ${d.kraj}</span>`;
   h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
   if(d.velkost) h+=`<div class="pop-size">📊 ${esc(d.velkost)}</div>`;
+  if(d.konatel) h+=`<div class="pop-row">👤 <b>${esc(d.konatel)}</b></div>`;
   if(d.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(d.tel).replace(/\s/g,'')}">${esc(d.tel)}</a></div>`;
   if(d.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(d.email)}">${esc(d.email)}</a></div>`;
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
