@@ -62,6 +62,26 @@
   .stExp{display:flex;gap:6px;margin-top:8px}
   .stExp button{flex:1;padding:8px 6px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:12px;font-weight:600;cursor:pointer}
   .stExp button:hover{border-color:#38bdf8}
+  /* autocomplete firma */
+  #searchWrap{position:relative}
+  #searchDrop{position:absolute;top:100%;left:0;right:0;z-index:2000;background:var(--panel);border:1px solid #475569;border-radius:8px;margin-top:3px;display:none;max-height:220px;overflow-y:auto;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+  #searchDrop.open{display:block}
+  .sdItem{padding:8px 11px;cursor:pointer;font-size:13px;border-bottom:1px solid var(--panel2);line-height:1.4}
+  .sdItem:last-child{border-bottom:none}
+  .sdItem:hover,.sdItem.active{background:var(--panel2)}
+  .sdItem b{color:#7dd3fc;font-weight:600}
+  /* nápoveda */
+  .h2row{display:flex;align-items:center;gap:6px}
+  .helpBtn{background:none;border:1px solid var(--panel2);border-radius:50%;width:18px;height:18px;color:var(--muted);cursor:pointer;font-size:11px;line-height:1;padding:0;display:flex;align-items:center;justify-content:center;margin-left:auto;flex-shrink:0}
+  .helpBtn:hover{color:#7dd3fc;border-color:#7dd3fc}
+  #helpModal{display:none;position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.65);align-items:center;justify-content:center;padding:16px}
+  #helpModal.open{display:flex}
+  #helpBox{background:var(--panel);border-radius:14px;padding:22px 24px;max-width:400px;width:100%;max-height:80vh;overflow-y:auto;border:1px solid var(--panel2)}
+  #helpBox h3{margin:0 0 14px;font-size:15px}
+  .hSection{margin-bottom:13px}
+  .hSection h4{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#7dd3fc;margin:0 0 4px}
+  .hSection p{font-size:13px;color:var(--muted);margin:0;line-height:1.55}
+  #helpClose{display:block;width:100%;padding:10px;border-radius:8px;border:0;background:#0ea5e9;color:#fff;font-size:13px;font-weight:600;cursor:pointer;margin-top:16px}
   #mapToggle{display:none}
   @media(max-width:720px){
     #app{flex-direction:column}
@@ -79,8 +99,11 @@
     <div class="sub">Veľkokapacitná gastronómia · <span class="count" id="count">0</span> / <span id="total">0</span> prevádzok</div>
 
     <div class="box">
-      <h2>Hľadať vo firmách</h2>
-      <input id="search" type="text" placeholder="názov, mesto, ulica…" autocomplete="off">
+      <h2 class="h2row">Hľadať vo firmách <button class="helpBtn" id="helpBtn" title="Nápoveda k mape">?</button></h2>
+      <div id="searchWrap">
+        <input id="search" type="text" placeholder="názov, mesto, ulica…" autocomplete="off">
+        <div id="searchDrop"></div>
+      </div>
     </div>
 
     <div class="box">
@@ -178,6 +201,37 @@
   </div>
   <div id="map"></div>
   <button id="mapToggle" aria-label="Celá mapa">🗺️ Celá mapa</button>
+</div>
+
+<div id="helpModal">
+  <div id="helpBox">
+    <h3>🗺️ Nápoveda — Gastro mapa</h3>
+    <div class="hSection">
+      <h4>🔍 Vyhľadávanie firmy</h4>
+      <p>Napíš 2+ znaky — objaví sa zoznam firiem. Kliknutím mapa priblíži danú prevádzku a otvorí detail. Šípky ↑↓ + Enter fungujú aj z klávesnice.</p>
+    </div>
+    <div class="hSection">
+      <h4>📂 Typ prevádzky</h4>
+      <p>Zaškrtni/odškrtni kategórie — mapa sa okamžite prefiltruje. Farba bodky zodpovedá farbe na mape.</p>
+    </div>
+    <div class="hSection">
+      <h4>📍 Stav cieľa</h4>
+      <p>V detaile každej firmy nastav stav (čaká / navštívené / úspech / neúspech / vybavené). Stavy sa ukladajú v prehliadači. Export/Import slúži na zálohu alebo prenos na iné zariadenie.</p>
+    </div>
+    <div class="hSection">
+      <h4>🏙️ Kraj a okres</h4>
+      <p>Vyber kraj a konkrétne okresy — zobrazí sa len daná oblasť. Momentálne aktívny Bratislavský kraj, ostatné pribudnú.</p>
+    </div>
+    <div class="hSection">
+      <h4>🚗 Trasa</h4>
+      <p>Zaškrtni „Trasa autom" — vypočíta optimálnu cestu zo zvoleného štartu cez všetky viditeľné prevádzky. Tlačidlo Google Maps otvorí trasu v navigácii (max 10 zastávok).</p>
+    </div>
+    <div class="hSection">
+      <h4>🛰️ Podklad mapy</h4>
+      <p>Vpravo hore prepni medzi štandardnou mapou a leteckým pohľadom.</p>
+    </div>
+    <button id="helpClose">Zavrieť</button>
+  </div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -472,6 +526,59 @@ buildOkresy();
 updateStatusCounts();
 apply();
 map.fitBounds(allBounds.pad(0.05));
+
+// --- Autocomplete vyhľadávanie firmy ---
+(function(){
+  const inp=document.getElementById('search');
+  const drop=document.getElementById('searchDrop');
+  let hits=[],activeIdx=-1;
+  function hlText(str,q){
+    return esc(str).replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'),s=>`<b>${s}</b>`);
+  }
+  function renderDrop(q){
+    const lq=q.toLowerCase();
+    hits=markers.filter(m=>{
+      const d=m._d;
+      return d.firma.toLowerCase().includes(lq)||(d.mesto||'').toLowerCase().includes(lq);
+    }).slice(0,9);
+    if(!hits.length){closeDrop();return;}
+    drop.innerHTML=hits.map((m,i)=>{
+      const d=m._d;
+      return `<div class="sdItem" data-i="${i}">${hlText(d.firma,q)} <span style="color:var(--muted);font-size:11px">· ${esc(d.mesto)}</span></div>`;
+    }).join('');
+    drop.querySelectorAll('.sdItem').forEach(el=>
+      el.addEventListener('mousedown',e=>{e.preventDefault();pick(+el.dataset.i);}));
+    activeIdx=-1;
+    drop.classList.add('open');
+  }
+  function closeDrop(){drop.classList.remove('open');hits=[];activeIdx=-1;}
+  function pick(i){
+    const m=hits[i];if(!m)return;
+    inp.value=m._d.firma;
+    closeDrop();
+    apply();
+    map.setView(m.getLatLng(),16);
+    setTimeout(()=>m.openPopup(),60);
+  }
+  inp.addEventListener('input',()=>{
+    const q=inp.value.trim();
+    if(q.length>=2)renderDrop(q);else closeDrop();
+  });
+  inp.addEventListener('blur',()=>setTimeout(closeDrop,200));
+  inp.addEventListener('keydown',e=>{
+    if(!drop.classList.contains('open'))return;
+    const items=drop.querySelectorAll('.sdItem');
+    if(e.key==='ArrowDown'){e.preventDefault();activeIdx=Math.min(activeIdx+1,items.length-1);items.forEach((el,j)=>el.classList.toggle('active',j===activeIdx));}
+    else if(e.key==='ArrowUp'){e.preventDefault();activeIdx=Math.max(activeIdx-1,0);items.forEach((el,j)=>el.classList.toggle('active',j===activeIdx));}
+    else if(e.key==='Enter'&&activeIdx>=0){e.preventDefault();pick(activeIdx);}
+    else if(e.key==='Escape')closeDrop();
+  });
+})();
+
+// --- Nápoveda ---
+document.getElementById('helpBtn').addEventListener('click',()=>document.getElementById('helpModal').classList.add('open'));
+document.getElementById('helpClose').addEventListener('click',()=>document.getElementById('helpModal').classList.remove('open'));
+document.getElementById('helpModal').addEventListener('click',e=>{if(e.target.id==='helpModal')document.getElementById('helpModal').classList.remove('open');});
 </script>
 </body>
 </html>
