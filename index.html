@@ -266,16 +266,18 @@ function isMimoBA(d){ return !BA_CITY.includes(d.okres); }
 function applyStatusStyle(m){
   const st=getStatus(m._d);
   const dim=isMimoBA(m._d);
-  if(dim){
-    const fc=st==='wait'?m.options.fillColor:(STATUS[st].color);
-    m.setStyle({color:'#475569',weight:1,fillColor:fc,fillOpacity:0.28});
-    m.setRadius(6);
-  } else if(st==='wait'){
-    m.setStyle({color:'#fff',weight:2,fillOpacity:.95});
-    m.setRadius(7);
+  if(st==='success'){
+    m.setStyle({fillColor:'#16a34a',fillOpacity:dim?.45:1,color:'#16a34a',weight:dim?1:1.5});
+    m.setRadius(dim?6:8);
+  } else if(st==='fail'){
+    m.setStyle({fillOpacity:0,color:'#dc2626',weight:dim?1.5:2.5});
+    m.setRadius(dim?6:8);
+  } else if(st==='proc'){
+    m.setStyle({fillOpacity:dim?.28:.95,color:dim?'#475569':'#0ea5e9',weight:dim?1:3});
+    m.setRadius(dim?6:8);
   } else {
-    m.setStyle({color:STATUS[st].color,weight:3.5,fillOpacity:.95});
-    m.setRadius(8);
+    m.setStyle({fillOpacity:dim?.28:.95,color:dim?'#475569':'#fff',weight:dim?1:2});
+    m.setRadius(dim?6:7);
   }
 }
 const STARTS={
