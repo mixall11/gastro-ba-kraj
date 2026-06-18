@@ -21,7 +21,9 @@ KRAJE = [
 
 # manualne GPS opravy (ICO -> lat,lon) tam, kde Nominatim trafi vedlajsiu budovu
 MANUAL_GPS = {
-    '31392229': (48.13244, 17.10755),  # McDonald's, Einsteinova 33 (Nominatim trafil budovu ERNI ~550m vedla)
+    # McDonald's ICO 31392229 ZRUSENY z MANUAL_GPS — firma ma viacero prevadzok v roznych krajoch
+    # BA coords seednute do geocache["Einsteinova 33, Bratislava, Petrzalka, Slovakia"]
+    # PO coords seednute do geocache["Vihorlatska 13591/2B, Presov, Slovakia"]
     '35826487': (48.15663, 17.89696),  # Duslo Sala (adresa "Administrativna budova ev.c.1236" trafila vychod SR)
     '36709557': (49.10310, 18.31760),  # Continental Tires Slovakia Puchov (Nominatim trafil centrum Puchova ~2,4km, realny zavod je v Hornych Kockovciach)
     '31701931': (48.74745, 21.20827),  # Hotel Bankov Kosice (adresa "Dolny Bankov 2" padla na centroid Kosice-Sever; realny hotel v lese Bankov)

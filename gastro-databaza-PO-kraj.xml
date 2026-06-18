@@ -1,5 +1,421 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Presovsky" typ="vsetky" pocet="12">
+<gastro_databaza kraj="Presovsky" typ="vsetky" pocet="44">
+  <prevadzka kategoria="Catering dodavatel" zona="PO1">
+    <firma>MICO s.r.o.</firma>
+    <ico>47089768</ico>
+    <adresa>Chalupkova 341/34</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 168 tis EUR (2024, trzby), 3-4 zam</velkost>
+    <telefon>0915623432</telefon>
+    <email>micocatering@gmail.com</email>
+    <web>micocatering.sk</web>
+    <poznamka>Eventovy + svadobny catering Presov/KE, kapacita svadby do 200 osob</poznamka>
+    <gps lat="48.97293" lon="21.25757"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="PO1">
+    <firma>Euro Catering Agency s.r.o.</firma>
+    <ico>51544440</ico>
+    <adresa>Maly Saris 576</adresa>
+    <mesto>Maly Saris</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 7,8 tis EUR (2024, trzby), 1 zam</velkost>
+    <telefon>0904777750</telefon>
+    <email>1eurocatering@gmail.com</email>
+    <web>eurocatering.sk</web>
+    <poznamka>Maly regionalni catering Presov + okolie, zalozeny 2018</poznamka>
+    <gps lat="49.0003973" lon="21.1850893"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="PO2">
+    <firma>Bistro Tatjana - Tatiana Malyszka</firma>
+    <ico>51974983</ico>
+    <adresa>Kukucinova 4245</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>zivnostnik od 2019, rozvoz Poprad a okolie</velkost>
+    <telefon>0948308545</telefon>
+    <email>info@tatjana.sk</email>
+    <web>tatjana.sk</web>
+    <poznamka>Catering + donaska Poprad; firemne obedy, svadby, teambuildingy; prevadzka Podjavorinskey 3405/22</poznamka>
+    <gps lat="49.057731" lon="20.3108247"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="PO1">
+    <firma>TOP GASTRO, s.r.o.</firma>
+    <ico>36480924</ico>
+    <adresa>Volgogradska 13</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 480 tis EUR (2025, trzby), 10-19 zam; 2500 jedal/den, 180 zmluv</velkost>
+    <telefon>051/7710429</telefon>
+    <email>topgastro@gmail.com</email>
+    <web>top-gastro.sk</web>
+    <poznamka>SILNY CIEL; zavod + seniori + eventy od 2002, sponzorska sala 150 miest, NACE 5621</poznamka>
+    <gps lat="49.0105056" lon="21.2201529"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="PO1">
+    <firma>ACEM, s.r.o.</firma>
+    <ico>43786774</ico>
+    <adresa>Solnobanska 11809/5A</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 2,644 mil EUR (2025, trzby), 25-49 zam; prevadzky Petrovany (Presov) aj Poprad</velkost>
+    <telefon>0918625732</telefon>
+    <email>info@acem.sk</email>
+    <web>acem.sk</web>
+    <poznamka>SILNY CIEL; zavodne stravovanie vychod SK od 2007, operuje jedalen Tatravagonka (tatravagonka@acem.sk), prevadzka aj v Poprade; NACE 5621</poznamka>
+    <gps lat="48.9804658" lon="21.2760365"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="PO1">
+    <firma>Jozef Mico - TIP-TOP</firma>
+    <ico>10737618</ico>
+    <adresa>Chalupkova 34</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>50-99 zam; 8 predajni (Presov, Poprad, Kosice)</velkost>
+    <telefon>0918857273</telefon>
+    <email>tip.top.objednavka@gmail.com</email>
+    <web>tiptopjedla.sk</web>
+    <poznamka>SILNY CIEL; najvacsia regionalna vyvaren PO kraja, rozvoz teplych jedal + maso velkoobchod, zivnostnik od 1992</poznamka>
+    <gps lat="48.9728268" lon="21.2574657"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>TATRAVAGONKA a.s.</firma>
+    <ico>31699847</ico>
+    <adresa>Stefanikova 887/53</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 595 mil EUR (2024, trzby), 2000-2999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>tatravagonka.sk</web>
+    <poznamka>SILNY CIEL; najvacsi vyrobca zeleznicnych vagonov SR, 2000+ zam, zavodna jedalen pre velku prevadzku</poznamka>
+    <gps lat="49.0597298" lon="20.3156999"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Beko Manufacturing Slovakia spol. s r.o. (ex-Whirlpool)</firma>
+    <ico>35796570</ico>
+    <adresa>Hlavna 5039/1A</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 257,9 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>beko.com</web>
+    <poznamka>SILNY CIEL; vyrobna prevadzka dom. spotrebicov WhirlpoolBeko 2024, zavodna jedalen pre 500+ zam</poznamka>
+    <gps lat="49.0751835" lon="20.3254824"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO4">
+    <firma>CHEMES a.s. Humenne</firma>
+    <ico>31695426</ico>
+    <adresa>Chemlonska 1</adresa>
+    <mesto>Humenne</mesto>
+    <okres>Humenne</okres>
+    <velkost>obrat 28,58 mil EUR (2023, trzby), v konkurze od 06.2026</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>chemes.sk</web>
+    <poznamka>Chemicky zavod v konkurze od 06/2026; overit nastupnicku firmu pred oslovenim</poznamka>
+    <gps lat="48.9287863" lon="21.9060966"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO4">
+    <firma>BUKOZA Export-Import a.s.</firma>
+    <ico>36445266</ico>
+    <adresa>Hencovska 2073</adresa>
+    <mesto>Hencovce</mesto>
+    <okres>Vranov nad Toplou</okres>
+    <velkost>obrat 88,87 mil EUR (2023, trzby), v konkurze od 05.2026</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>bukoza.sk</web>
+    <poznamka>Papierenska skupina v konkurze od 05/2026; overit noveho prevadzkovatela priemyselneho parku Hencovce pred oslovenim</poznamka>
+    <gps lat="48.8631495" lon="21.7286199"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO1">
+    <firma>Fakultna nemocnica s poliklinikou J. A. Reimana Presov</firma>
+    <ico>00610577</ico>
+    <adresa>Jana Holleho 14</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 158,1 mil EUR (2025, trzby), 3000-3999 zam</velkost>
+    <telefon>051/3441111</telefon>
+    <email></email>
+    <web>fnspresov.sk</web>
+    <poznamka>SILNY CIEL; uz v Statne firmy a urady; najvacsia nemocnica PO kraja, tackaren stravuje tisicky pacientov + personal denne</poznamka>
+    <gps lat="48.9978055" lon="21.2557611"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Nemocnica Poprad a.s.</firma>
+    <ico>36513458</ico>
+    <adresa>Banicka 803/28</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 72,56 mil EUR (2024, trzby), 1000-1999 zam</velkost>
+    <telefon>052/7165111</telefon>
+    <email></email>
+    <web>nemocnicapoprad.sk</web>
+    <poznamka>SILNY CIEL; hlavna nemocnica Poprad, akutna starostlivost, tackaren pre 1000+ zam + pacienti</poznamka>
+    <gps lat="49.0518388" lon="20.3035108"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Nemocnica AGEL Levoca a.s.</firma>
+    <ico>36594849</ico>
+    <adresa>Probstnerova cesta 2/3082</adresa>
+    <mesto>Levoca</mesto>
+    <okres>Levoca</okres>
+    <velkost>obrat 30,12 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon>053/4512511</telefon>
+    <email></email>
+    <web>nemocnica-levoca.sk</web>
+    <poznamka>Byvala Vseobecna nemocnica Levoca, prevzata sietou AGEL; tackaren pre pacientov a personel</poznamka>
+    <gps lat="49.0210406" lon="20.5851443"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO3">
+    <firma>NsP Sv. Jakuba n.o. Bardejov</firma>
+    <ico>36167908</ico>
+    <adresa>Sv. Jakuba 21</adresa>
+    <mesto>Bardejov</mesto>
+    <okres>Bardejov</okres>
+    <velkost>obrat 41,58 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon>054/4862111</telefon>
+    <email></email>
+    <web>nspbardejov.sk</web>
+    <poznamka>Hlavna nemocnica okresu Bardejov, n.o., tackaren pre hospitalizovanych a zamestnancov</poznamka>
+    <gps lat="49.2872502" lon="21.2723445"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO4">
+    <firma>Nemocnica A. Lena Humenne a.s.</firma>
+    <ico>47249048</ico>
+    <adresa>Nemocnicna 7</adresa>
+    <mesto>Humenne</mesto>
+    <okres>Humenne</okres>
+    <velkost>obrat 24,67 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon>057/7786111</telefon>
+    <email></email>
+    <web>nemocnicahumenne.sk</web>
+    <poznamka>Nastupnica po NsP Humenne; tackaren pre pacientov a personel okresu Humenne</poznamka>
+    <gps lat="48.9346454" lon="21.8983233"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO4">
+    <firma>Vranovska nemocnica a.s.</firma>
+    <ico>47249021</ico>
+    <adresa>M. R. Stefanika 187/177B</adresa>
+    <mesto>Vranov nad Toplou</mesto>
+    <okres>Vranov nad Toplou</okres>
+    <velkost>obrat 25,79 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon>057/4461111</telefon>
+    <email></email>
+    <web>vranovskanemocnica.sk</web>
+    <poznamka>Hlavna nemocnica okresu Vranov nad Toplou; tackaren pre hospitalizovanych a personel</poznamka>
+    <gps lat="48.8891513" lon="21.6822318"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Lubovnianska nemocnica n.o.</firma>
+    <ico>37886851</ico>
+    <adresa>Obrancov mieru 510/3</adresa>
+    <mesto>Stara Lubovna</mesto>
+    <okres>Stara Lubovna</okres>
+    <velkost>obrat 30,3 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon>052/4320111</telefon>
+    <email></email>
+    <web>lubovnianskanemocnica.sk</web>
+    <poznamka>Jedina nemocnica okresu Stara Lubovna, n.o.; tackaren pre pacientov a zamestnancov</poznamka>
+    <gps lat="49.2975195" lon="20.687879"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.</firma>
+    <ico>37886436</ico>
+    <adresa>Huncovska 1788/42</adresa>
+    <mesto>Kezmarok</mesto>
+    <okres>Kezmarok</okres>
+    <velkost>obrat 14,24 mil EUR (2024, trzby), 250-499 zam</velkost>
+    <telefon>052/4501111</telefon>
+    <email></email>
+    <web>nemocnicakezmarok.sk</web>
+    <poznamka>Okresna nemocnica Kezmarok, n.o.; tackaren pre pacientov a zamestnancov</poznamka>
+    <gps lat="49.131834" lon="20.4216313"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO1">
+    <firma>Presovska univerzita v Presove</firma>
+    <ico>17070775</ico>
+    <adresa>Ul. 17. novembra 13</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 48,09 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon>051/7570111</telefon>
+    <email></email>
+    <web>unipo.sk</web>
+    <poznamka>SILNY CIEL; uz v Statne firmy a urady; univerzitna menza stravuje tisicky studentov denne</poznamka>
+    <gps lat="49.0000074" lon="21.2392122"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>Tatry mountain resorts, a.s. (Grandhotel Praha)</firma>
+    <ico>31560636</ico>
+    <adresa>Tatranska Lomnica 8</adresa>
+    <mesto>Tatranska Lomnica</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 108 izieb + 15 apartmanov, banketova sala 250 osob</velkost>
+    <telefon>052/4780111</telefon>
+    <email>hotelreservations@tmr.sk</email>
+    <web>tmrhotels.com</web>
+    <poznamka>SILNY CIEL; historicky hotel 4* (1905) v Tatranskej Lomnici; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi)</poznamka>
+    <gps lat="49.1616613" lon="20.2939518"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>Tatry mountain resorts, a.s. (Grandhotel Stary Smokovec)</firma>
+    <ico>31560636</ico>
+    <adresa>Stary Smokovec 38</adresa>
+    <mesto>Stary Smokovec</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 70 izieb + 14 apartmanov, 214 luzok, banket 100-150 osob</velkost>
+    <telefon>052/4780000</telefon>
+    <email>info@grandhotel.sk</email>
+    <web>grandhotel.sk</web>
+    <poznamka>SILNY CIEL; historicky hotel 4* (1904) Stary Smokovec; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi); GPS seedovat geocache</poznamka>
+    <gps lat="49.1414836" lon="20.2221042"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>BHP Tatry, s. r. o. (Grand Hotel Kempinski High Tatras)</firma>
+    <ico>45948879</ico>
+    <adresa>Kupelna 6</adresa>
+    <mesto>Strbske Pleso</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 13,78 mil EUR (2024, trzby), 100-149 zam; 98 izieb, banket 150-200 osob, jediny 5* hotel PO kraja</velkost>
+    <telefon>052/3262222</telefon>
+    <email></email>
+    <web>kempinski.com</web>
+    <poznamka>SILNY CIEL; jediny 5-hviezdicovy hotel v PO kraji, Strbske Pleso; prevadzkovatel BHP Tatry s.r.o. (sid. BA); vlastnik J&amp;T</poznamka>
+    <gps lat="49.1192835" lon="20.0595525"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>TATRA HOTEL SLOVAKIA, a.s. (Hotel Patria Strbske Pleso)</firma>
+    <ico>31638759</ico>
+    <adresa>K Vodopadom 4033/15</adresa>
+    <mesto>Strbske Pleso</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 10,98 mil EUR (2025, trzby), 100-149 zam; hotel 4* na brehu Strbskeho plesa, banket 120-150 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelpatria.sk</web>
+    <poznamka>SILNY CIEL; hotel priamo pri jazere Strbske Pleso, wellness + banketova sala; NACE 5510</poznamka>
+    <gps lat="49.1244449" lon="20.0609115"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>TMR Strbske Pleso s. r. o. (Hotel FIS)</firma>
+    <ico>55737854</ico>
+    <adresa>K Vodopadom 4028/26</adresa>
+    <mesto>Strbske Pleso</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 8,46 mil EUR (2024, trzby), 10-19 zam; 80 izieb, konferencna kapacita 100 osob</velkost>
+    <telefon>0915954636</telefon>
+    <email>hotelfis@hotelfis.sk</email>
+    <web>hotelfis.sk</web>
+    <poznamka>Lyziarski hotel pri skokanskych mostikoch FIS Strbske Pleso; prevadzkovatel TMR Strbske Pleso s.r.o. (ine ICO ako TMR a.s.)</poznamka>
+    <gps lat="49.1287622" lon="20.0613192"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>AQUAPARK Poprad, s.r.o. (AquaCity Poprad)</firma>
+    <ico>36482609</ico>
+    <adresa>Sportova 1397/1</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 12,97 mil EUR (2024, trzby), 100-149 zam; kongresova sala 350 osob, geotermalna voda</velkost>
+    <telefon>052/7851222</telefon>
+    <email>recepcia@aquacity.sk</email>
+    <web>aquacity.sk</web>
+    <poznamka>SILNY CIEL; aquapark + hotel + kongresovy komplex v Poprade; kongresova sala az 350 osob</poznamka>
+    <gps lat="49.0603207" lon="20.3068944"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>SATEL - SLOVAKIA, s.r.o. (Hotel Satel Poprad)</firma>
+    <ico>31712797</ico>
+    <adresa>Mnohelova 825</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 2,795 mil EUR (2024, trzby), 25-49 zam; 250 luzok, 8 konferencnych sali az 300 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelsatel.com</web>
+    <poznamka>Najvacsi hotel v meste Poprad (250 luzok); kongresy az 450 osob; NACE 5510</poznamka>
+    <gps lat="49.0567076" lon="20.2960523"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO3">
+    <firma>BARDEJOVSKE KUPELE a. s.</firma>
+    <ico>36168301</ico>
+    <adresa>Kupelny rad 1</adresa>
+    <mesto>Bardejovske Kupele</mesto>
+    <okres>Bardejov</okres>
+    <velkost>obrat 19,41 mil EUR (2025, trzby), 250-499 zam; kupelny komplex 4 hotely, banket/kongres 150-200 osob</velkost>
+    <telefon>054/4774000</telefon>
+    <email>sekretariat@kupele-bj.sk</email>
+    <web>kupele-bj.sk</web>
+    <poznamka>SILNY CIEL; historicke kupele od 1777 (Bardejovske Kupele), 4 hotely (Astoria, Ozon, Alexander, Alzbeta), 250-499 zam</poznamka>
+    <gps lat="49.3273239" lon="21.2739014"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO2">
+    <firma>KUPELE VYSNE RUZBACHY, a.s.</firma>
+    <ico>31714501</ico>
+    <adresa>Vysne Ruzbachy 48</adresa>
+    <mesto>Vysne Ruzbachy</mesto>
+    <okres>Kezmarok</okres>
+    <velkost>obrat 6,83 mil EUR (2024, trzby), 100-149 zam; Grand Hotel Strand 88 luzok + dalsie, banket 100-150 osob</velkost>
+    <telefon>052/4266111</telefon>
+    <email>rezervacie@ruzbachy.sk</email>
+    <web>ruzbachy.sk</web>
+    <poznamka>Termalny kupelny komplex Vysne Ruzbachy pod Pieninami; NACE 8699</poznamka>
+    <gps lat="49.3042641" lon="20.5648591"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO1">
+    <firma>LINEAS, s.r.o. (Hotel Lineas Presov)</firma>
+    <ico>31692923</ico>
+    <adresa>Budovatelska 14</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 1,43 mil EUR (2024, trzby), 25-49 zam; 165 izieb, 340 luzok, kongresova sala az 200 osob</velkost>
+    <telefon>0907801093</telefon>
+    <email>akcia@lineas.sk</email>
+    <web>lineas.sk</web>
+    <poznamka>Najvacsi hotel v meste Presov (340 luzok); kongresove kapacity do 200 osob; NACE 5510</poznamka>
+    <gps lat="48.985434" lon="21.2435871"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="PO1">
+    <firma>Hotel DUKLA, a.s. Presov</firma>
+    <ico>36482293</ico>
+    <adresa>Namestie legionarov 2</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 944 tis EUR (2024, trzby), 10-19 zam; 60 izieb, banketova sala 120 osob (divadlo 200 osob)</velkost>
+    <telefon>051/7722741</telefon>
+    <email>recepcia@hotelduklapresov.sk</email>
+    <web>hotelduklapresov.sk</web>
+    <poznamka>Hotel v centre Presova, banketova kapacita 120 osob; NACE 5510</poznamka>
+    <gps lat="48.9936783" lon="21.2442244"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="PO1">
+    <firma>McDonald's Slovakia spol. s r.o.</firma>
+    <ico>31392229</ico>
+    <adresa>Vihorlatska 13591/2B</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 52,45 mil EUR (2024, trzby); 3 pobocky v PO kraji (Presov MAX, Presov OC Novum, Poprad)</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>mcdonalds.sk</web>
+    <poznamka>SILNY CIEL; 3 pobocky v PO: Presov MAX (Vihorlatska), Presov OC Novum (Nam. legionarov), Poprad (Stefanikova)</poznamka>
+    <gps lat="48.99802" lon="21.26936"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="PO1">
+    <firma>Queensway Restaurants Slovakia s.r.o. (KFC)</firma>
+    <ico>35852143</ico>
+    <adresa>Vihorlatska 14</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>obrat 20,845 mil EUR (2024, trzby), 250-499 zam celonarodne; 2 pobocky v PO (Presov OC Novum, Poprad OC Forum) + 3. v stavbe 2026-2027</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>kfcslovakia.sk</web>
+    <poznamka>KFC SK franchize; 2 prevadzky v PO + 3. Presov-Solivar v stavbe (2026-2027); zaradit ako perspektivnu siet s prisucom v PO</poznamka>
+    <gps lat="48.9999611" lon="21.2731762"/>
+  </prevadzka>
   <prevadzka kategoria="Statne firmy a urady" zona="PO1">
     <firma>Presovsky samospravny kraj (PSK)</firma>
     <ico>37870475</ico>
