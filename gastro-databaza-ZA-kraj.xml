@@ -1,5 +1,538 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Zilinsky" typ="vsetky" pocet="14">
+<gastro_databaza kraj="Zilinsky" typ="vsetky" pocet="55">
+  <prevadzka kategoria="Catering dodavatel" zona="ZA1">
+    <firma>EL TORO, s.r.o.</firma>
+    <ico>36787752</ico>
+    <adresa>Kamenna 8898/3A</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 1,47 mil EUR (2025, trzby), 25-49 zam; zavodne stravovanie + rozvoz obedov pre firmy + catering, 2 prevadzky v Ziline + Dolny Kubin</velkost>
+    <telefon>+421 911 991 991</telefon>
+    <email>objednavky@eltoro.sk</email>
+    <web>eltoro.sk</web>
+    <poznamka>SILNY CIEL; rozvoz jedal pre firmy a zamestnancov + catering; pobocka v Dolnom Kubine (eltorodk.sk), NACE 5611</poznamka>
+    <gps lat="49.20385" lon="18.72742"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="ZA3">
+    <firma>DUGE CATERING, s. r. o.</firma>
+    <ico>45423121</ico>
+    <adresa>Palenica 752 (prevadzka/kuchyna)</adresa>
+    <mesto>Liptovsky Hradok</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>obrat 1,71 mil EUR (2024, trzby), 20-24 zam; zavodne stravovanie horny Liptov + catering + jedalen 280 miest + 2 saloniky po 50</velkost>
+    <telefon>+421 911 942 762</telefon>
+    <email>dugecatering@gmail.com</email>
+    <web>dugecatering.sk</web>
+    <poznamka>SILNY CIEL; zavodne stravovanie + rozvoz + bankety/svadby pre horny Liptov; sidlo Janosikova 538 Liptovsky Mikulas, NACE catering</poznamka>
+    <gps lat="49.0362197" lon="19.7367544"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="ZA2">
+    <firma>GASTRO TURIEC, s.r.o.</firma>
+    <ico>47001330</ico>
+    <adresa>Tomcany (byvale Druzstvo)</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>obrat 0,18 mil EUR (2024, trzby); denne menu s rozvozom 365 dni v roku + svadby/oslavy/kary pre region Turiec</velkost>
+    <telefon>+421 907 834 675</telefon>
+    <email></email>
+    <web>gastroturiec.sk</web>
+    <poznamka>rozvoz denneho menu + eventovy catering (svadby od 14 EUR/os); prevadzka Martin-Tomcany, na trhu cca 18 rokov</poznamka>
+    <gps lat="49.0622551" lon="18.9410104"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="ZA1">
+    <firma>BUENO GUSTO s.r.o.</firma>
+    <ico>50683462</ico>
+    <adresa>Rosinska cesta 8 (areal VUVT)</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 0,47 mil EUR (2025, trzby); restauracna kuchyna 170 miest, firemne stravovanie od 10 zam s mesacnou fakturaciou, catering eventy 24-160 os</velkost>
+    <telefon>+421 948 702 041</telefon>
+    <email>info@buenogusto.sk</email>
+    <web>buenogusto.sk</web>
+    <poznamka>firemne stravovanie (vernostne karty + mesacna fakturacia) + catering; vlastna vyrobna kuchyna v Ziline</poznamka>
+    <gps lat="49.1980494" lon="18.7685331"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="ZA1">
+    <firma>SLOVTREND, s.r.o.</firma>
+    <ico>47714514</ico>
+    <adresa>Dolne Rudiny 8973/4</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 4,17 mil EUR (2025, trzby), 50-99 zam; zavodne stravovanie pre 1300+ stravnikov vo viacerych vydajnych miestach</velkost>
+    <telefon>+421 915 808 008</telefon>
+    <email>stravovanie@slovtrend.sk</email>
+    <web>slovtrend.sk</web>
+    <poznamka>SILNY CIEL; velkokapacitne zavodne stravovanie + rozvoz obedov do firiem + catering, 1300+ stravnikov denne, NACE 5611</poznamka>
+    <gps lat="49.2208498" lon="18.7299827"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="ZA1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Bytcicka 16 (prevadzka/kuchyna Zilina)</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 5,82 mil EUR (2024, trzby), 150-199 zam; cca 10000 stravnych jednotiek denne, 30 bufetov/vydajni, NACE 5622</velkost>
+    <telefon>+421 910 598 395</telefon>
+    <email>objednavkyza@food-time.sk</email>
+    <web>food-time.sk</web>
+    <poznamka>SILNY CIEL; velky dodavatel zavodneho stravovania 24/7, vyrobna kuchyna v Ziline; sidlo firmy je Trencianske Teplice (TN kraj), prevadzka pre ZA</poznamka>
+    <gps lat="49.2025305" lon="18.731419"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="ZA3">
+    <firma>Peter Mlyncek PEMMEVA obchodno-restauracne sluzby</firma>
+    <ico>10857630</ico>
+    <adresa>Smrecianska 664 (centralna lahodkarska vyrobna)</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>zivnost (ZRSR), 20-24 zam; centralna lahodkarska vyrobna + zavodne stravovanie + rozvoz obedov do firiem, na trhu od 1992</velkost>
+    <telefon>+421 903 806 205</telefon>
+    <email>mlyncekpemmeva@gmail.com</email>
+    <web>pemmeva.sk</web>
+    <poznamka>SILNY CIEL; centralna vyrobna + zavodne stravovanie + catering + bufet v nemocnici; sidlo Zavazna Poruba; existuje aj samostatna s.r.o. ICO 51871939 (mensi obrat)</poznamka>
+    <gps lat="49.0785371" lon="19.6514188"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="ZA1">
+    <firma>Jedalen mesta Zilina (prispevkova organizacia mesta)</firma>
+    <ico>00321796</ico>
+    <adresa>Namestie J. Borodaca 1</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>cca 806 jedal denne (z toho ~420 rozvoz elektromobilmi do dennych centier a seniorom); 4 stravovacie zariadenia mesta</velkost>
+    <telefon>+421 905 393 526</telefon>
+    <email>kc_informator@zilina.sk</email>
+    <web>zilina.sk</web>
+    <poznamka>SILNY CIEL; mestska velkokapacitna vyvarovna + rozvoz seniorom; ICO 00321796 je ICO Mesta Zilina (zriadovatel)</poznamka>
+    <gps lat="49.21278" lon="18.7618657"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA1">
+    <firma>Kia Slovakia s.r.o.</firma>
+    <ico>35876832</ico>
+    <adresa>Sv. Jana Nepomuckeho 1282/1</adresa>
+    <mesto>Teplicka nad Vahom</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 8156 mil EUR (2024, vynosy), 3000-3999 zam</velkost>
+    <telefon>+421 41 515 0111</telefon>
+    <email>info@kia-motors.sk</email>
+    <web>kia.sk</web>
+    <poznamka>SILNY CIEL; najvacsia automobilka kraja, uzavrety areal, 3 zmeny, tisice obedov denne; operator jedalne neovereny</poznamka>
+    <gps lat="49.2138586" lon="18.8128131"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA1">
+    <firma>Mobis Slovakia s.r.o.</firma>
+    <ico>35876557</ico>
+    <adresa>MOBIS ulica 1</adresa>
+    <mesto>Gbelany</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 2012 mil EUR (2024, trzby), 2000-2999 zam</velkost>
+    <telefon>+421 41 515 8158</telefon>
+    <email></email>
+    <web>mobis.sk</web>
+    <poznamka>SILNY CIEL; najvacsi dodavatel modulov pre Kiu, smenna prevadzka, tisice stravnikov; operator jedalne neovereny</poznamka>
+    <gps lat="49.2127399" lon="18.8478998"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA1">
+    <firma>Hyundai Transys Slovakia s.r.o.</firma>
+    <ico>47746122</ico>
+    <adresa>Bratislavska cesta 119</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 261,7 mil EUR (2024, trzby), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hyundai-transys.sk</web>
+    <poznamka>byvaly Hyundai Dymos Slovakia, dodavatel prevodoviek/sedaciek pre Kiu; mensi zavod ale smenna prevadzka; operator jedalne neovereny</poznamka>
+    <gps lat="49.22958" lon="18.72759"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA4">
+    <firma>Schaeffler Kysuce, spol. s r.o.</firma>
+    <ico>36386553</ico>
+    <adresa>Dr. G. Schaefflera 1</adresa>
+    <mesto>Kysucke Nove Mesto</mesto>
+    <okres>Kysucke Nove Mesto</okres>
+    <velkost>obrat 764,8 mil EUR (2024, trzby), 3000-3999 zam</velkost>
+    <telefon>+421 41 420 5110</telefon>
+    <email>schaefflerkysuce@schaeffler.com</email>
+    <web>schaeffler.sk</web>
+    <poznamka>SILNY CIEL; byvaly INA Kysuce, najvacsi zamestnavatel Kysuc, vyroba lozisk, kontinualna prevadzka, tisice stravnikov; operator jedalne neovereny</poznamka>
+    <gps lat="49.297989" lon="18.7674727"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA1">
+    <firma>KINEX BEARINGS, a.s.</firma>
+    <ico>35962623</ico>
+    <adresa>1. maja 71/36</adresa>
+    <mesto>Bytca</mesto>
+    <okres>Bytca</okres>
+    <velkost>500-999 zam; vyroba lozisk, 2 zavody (Bytca + Kysucke Nove Mesto)</velkost>
+    <telefon>+421 41 5556 451</telefon>
+    <email></email>
+    <web>kinex.sk</web>
+    <poznamka>byvaly ZKL Kinex, vyrobca loziskovych segmentov, smenna prevadzka v Bytci; operator jedalne neovereny</poznamka>
+    <gps lat="49.2215664" lon="18.555622"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA3">
+    <firma>Mondi SCP, a.s.</firma>
+    <ico>31637051</ico>
+    <adresa>Tatranska cesta 3</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>obrat 748,4 mil EUR (2024, trzby), 1000-1999 zam (~1500)</velkost>
+    <telefon>+421 44 436 2222</telefon>
+    <email></email>
+    <web>mondislovensko.sk</web>
+    <poznamka>SILNY CIEL; najvacsia integrovana papierna a celuloza v SR, nepretrzita prevadzka, velky pocet zamestnancov na jednom mieste; operator jedalne neovereny</poznamka>
+    <gps lat="49.0778956" lon="19.3186291"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA5">
+    <firma>Panasonic Industrial Devices Slovakia s.r.o.</firma>
+    <ico>36372285</ico>
+    <adresa>Oravicka 616</adresa>
+    <mesto>Trstena</mesto>
+    <okres>Tvrdosin</okres>
+    <velkost>1000-1999 zam (zavod Trstena ~1600); vyroba vykonovej elektroniky pre automotive</velkost>
+    <telefon>+421 43 5303200</telefon>
+    <email>info.trstena@eu.panasonic.com</email>
+    <web>pideu.panasonic.sk</web>
+    <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu Tvrdosin, smenna prevadzka, masove stravovanie; operator jedalne neovereny</poznamka>
+    <gps lat="49.3648877" lon="19.6247664"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA5">
+    <firma>Yanfeng International Automotive Technology Slovakia s.r.o.</firma>
+    <ico>47988673</ico>
+    <adresa>Namestovo 1088</adresa>
+    <mesto>Namestovo</mesto>
+    <okres>Namestovo</okres>
+    <velkost>obrat 211,2 mil EUR (2024, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>yanfeng.com</web>
+    <poznamka>SILNY CIEL; vyrobny zavod automobilovych interierov v Namestove (odstepny zavod ICO 47257831, sidlo BA), velky zamestnavatel Oravy; operator jedalne neovereny</poznamka>
+    <gps lat="49.4227984" lon="19.5011939"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA3">
+    <firma>Ustredna vojenska nemocnica SNP Ruzomberok - FN</firma>
+    <ico>31936415</ico>
+    <adresa>gen. Milosa Vesela 21</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>obrat 132,7 mil EUR (2025, vynosy); nemocnicna kuchyna pacienti+personal, 1000-1999 zam</velkost>
+    <telefon>+421 44 438 2900</telefon>
+    <email>uvn@uvn.sk</email>
+    <web>uvn.sk</web>
+    <poznamka>SILNY CIEL; najvacsia vojenska fakultna nemocnica v SR, velkokapacitna nemocnicna kuchyna pre pacientov a personal</poznamka>
+    <gps lat="49.076232" lon="19.3124302"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA4">
+    <firma>Kysucka nemocnica s poliklinikou Cadca</firma>
+    <ico>17335469</ico>
+    <adresa>Palarikova 2311</adresa>
+    <mesto>Cadca</mesto>
+    <okres>Cadca</okres>
+    <velkost>obrat 47,75 mil EUR (2025, vynosy); nemocnicna kuchyna pacienti+personal, 500-999 zam</velkost>
+    <telefon>+421 41 460 4111</telefon>
+    <email></email>
+    <web>kysuckanemocnica.sk</web>
+    <poznamka>SILNY CIEL; krajska nemocnica pre Kysuce (ZSK), nemocnicna kuchyna pacienti + personal, pravidelne VO potravin</poznamka>
+    <gps lat="49.4383465" lon="18.7720268"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA3">
+    <firma>Liptovska nemocnica s poliklinikou MUDr. Ivana Stodolu Liptovsky Mikulas</firma>
+    <ico>17336163</ico>
+    <adresa>Palucanska 214/25</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>obrat 34,54 mil EUR (2024, vynosy); nemocnicna kuchyna pacienti+personal, 500-999 zam</velkost>
+    <telefon>+421 44 5563 111</telefon>
+    <email></email>
+    <web>nsplm.sk</web>
+    <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre Liptov, nemocnicna kuchyna pacienti + personal</poznamka>
+    <gps lat="49.0861328" lon="19.5898188"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA5">
+    <firma>Dolnooravska nemocnica s poliklinikou MUDr. L. N. Jegeho Dolny Kubin</firma>
+    <ico>00634905</ico>
+    <adresa>Nemocnicna 1944/10</adresa>
+    <mesto>Dolny Kubin</mesto>
+    <okres>Dolny Kubin</okres>
+    <velkost>obrat 32,0 mil EUR (2024, vynosy); nemocnicna kuchyna pacienti+personal, 500-999 zam</velkost>
+    <telefon>+421 43 5801 111</telefon>
+    <email></email>
+    <web>donsp.sk</web>
+    <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre dolnu Oravu, nemocnicna kuchyna pacienti + personal</poznamka>
+    <gps lat="49.2142852" lon="19.3031187"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA5">
+    <firma>Hornooravska nemocnica s poliklinikou Trstena</firma>
+    <ico>00634891</ico>
+    <adresa>Mieru 549/16</adresa>
+    <mesto>Trstena</mesto>
+    <okres>Tvrdosin</okres>
+    <velkost>obrat 31,45 mil EUR (2025, vynosy); nemocnicna kuchyna pacienti+personal, 500-999 zam</velkost>
+    <telefon>+421 43 5392 444</telefon>
+    <email>nsp@nsptrstena.sk</email>
+    <web>nsptrstena.sk</web>
+    <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre hornu Oravu, nemocnicna kuchyna pacienti + personal</poznamka>
+    <gps lat="49.3581308" lon="19.6017006"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>Tatry mountain resorts, a.s.</firma>
+    <ico>31560636</ico>
+    <adresa>Demanovska Dolina 72</adresa>
+    <mesto>Demanovska Dolina</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>Grand Hotel Jasna 147 izieb, kongresove saly kombinovane az 300 osob</velkost>
+    <telefon>+421 44 523 1911</telefon>
+    <email>info@grandjasna.sk</email>
+    <web>grandjasna.sk</web>
+    <poznamka>SILNY CIEL; vlajkovy 4* rezort TMR v Jasnej, kongresova/banketova kapacita az 300 osob, MICE a firemne eventy</poznamka>
+    <gps lat="48.97122" lon="19.58108"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>Tatry mountain resorts, a.s.</firma>
+    <ico>31560636</ico>
+    <adresa>Raztocska 21</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>Tatralandia aquapark cca 1,2 mil navstevnikov rocne, 100+ chatiek, kongresova sala 300-320 osob</velkost>
+    <telefon>+421 44 556 1011</telefon>
+    <email>info@tatralandia.sk</email>
+    <web>tatralandia.sk</web>
+    <poznamka>SILNY CIEL; najnavstevovanejsi aquapark SK (~1,2 mil rocne), celorocna prevadzka, banketova kapacita 300-320 osob</poznamka>
+    <gps lat="49.10706" lon="19.57128"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>PROPERTY HOLDING, a.s.</firma>
+    <ico>36358606</ico>
+    <adresa>Demanovska Dolina 20</adresa>
+    <mesto>Demanovska Dolina</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>Wellness Hotel Chopok 67 izieb, sala Praslicka 360 osob + sala Plesnivec 150 osob, obrat cca 6,4 mil EUR (2024), 50-99 zam</velkost>
+    <telefon>+421 44 559 1490</telefon>
+    <email>rezervacie@hotelchopok.sk</email>
+    <web>hotelchopok.sk</web>
+    <poznamka>SILNY CIEL; kongresovy hotel 4* v Demanovskej, banketova sala Praslicka 360 osob + Plesnivec 150 osob</poznamka>
+    <gps lat="49.01919" lon="19.57668"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>Tatry mountain resorts, a.s.</firma>
+    <ico>31560636</ico>
+    <adresa>Besenova 136</adresa>
+    <mesto>Besenova</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>Hotel Galeria Thermal 85 izieb, kongresova sala 270 osob, kombinovana kapacita sal az 410 miest</velkost>
+    <telefon>+421 44 4307 700</telefon>
+    <email>info@galeriathermal.sk</email>
+    <web>galeriathermal.sk</web>
+    <poznamka>SILNY CIEL; 4* hotel s termalnym wellnessom pri aquaparku Gino Paradise Besenova (TMR), banketova kapacita 270-410 osob</poznamka>
+    <gps lat="49.1005697" lon="19.4464463"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>TATRY HOTELS s.r.o.</firma>
+    <ico>43822312</ico>
+    <adresa>Demanovska Dolina 5</adresa>
+    <mesto>Demanovska Dolina</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>Hotel Tri Studnicky 42 izieb, restauracia 100 miest, konferencna sala max 80 osob, obrat cca 2,1 mil EUR (2025), 25-49 zam</velkost>
+    <telefon>+421 44 547 8000</telefon>
+    <email>info@tristudnicky.sk</email>
+    <web>tristudnicky.sk</web>
+    <poznamka>Butikovy 4* hotel (dcera TMR), restauracia 100 miest; banketova/konferencna sala do 80 osob</poznamka>
+    <gps lat="49.02962" lon="19.5724"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA1">
+    <firma>Slovenske liecebne kupele Rajecke Teplice, a.s.</firma>
+    <ico>31642284</ico>
+    <adresa>Osloboditelov 84/4</adresa>
+    <mesto>Rajecke Teplice</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 22,4 mil EUR (2024, trzby), 100-249 zam; restauracia Aphrodite Palace cca 205 miest, kongresove priestory ~100 osob</velkost>
+    <telefon>+421 41 5494 256</telefon>
+    <email>spa@spa.sk</email>
+    <web>spa.sk</web>
+    <poznamka>SILNY CIEL; kupelny rezort Aphrodite s aquaparkom, velkokapacitna restauracia ~205 miest, banketove/kongresove priestory ~100 osob</poznamka>
+    <gps lat="49.130319" lon="18.6970297"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA1">
+    <firma>DIERY Rezort s.r.o.</firma>
+    <ico>36000728</ico>
+    <adresa>Biely Potok 664</adresa>
+    <mesto>Terchova</mesto>
+    <okres>Zilina</okres>
+    <velkost>Hotel Diery, konferencna sala 150 osob, banketova sala 100 osob, obrat 1,87 mil EUR (2024, trzby), 25-49 zam</velkost>
+    <telefon>+421 41 5695 322</telefon>
+    <email>info@hotel-diery.sk</email>
+    <web>hotel-diery.sk</web>
+    <poznamka>Rezortovy hotel pri Terchovskych dierach (Vratna dolina), konferencna/banketova kapacita 100-150 osob</poznamka>
+    <gps lat="49.2575433" lon="19.0667606"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA1">
+    <firma>HI Kongres Hotel Zilina s.r.o.</firma>
+    <ico>47504781</ico>
+    <adresa>Sportova 2</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>Holiday Inn Zilina, sala Milenium banket az 600 osob (Milenium I 150 + II 200), obrat cca 4,3 mil EUR (2024, trzby), 50-99 zam</velkost>
+    <telefon>+421 41 5050 100</telefon>
+    <email>info@holidayinn-zilina.sk</email>
+    <web>holidayinn-zilina.sk</web>
+    <poznamka>SILNY CIEL; najvacsi kongresovo-banketovy hotel v Ziline (brand Holiday Inn/IHG, prevadzkuje HI Kongres Hotel Zilina s.r.o.), banket az 600 osob</poznamka>
+    <gps lat="49.2295687" lon="18.7420638"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA2">
+    <firma>HOTEL TURIEC, a.s.</firma>
+    <ico>36715425</ico>
+    <adresa>A. Sokolika 2</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>obrat 3,02 mil EUR (2024, trzby); 7 konferencnych sal (10-250 osob), banketova kapacita do 170 osob</velkost>
+    <telefon>+421 43 4012 077</telefon>
+    <email>hotelturiec@hotelturiec.sk</email>
+    <web>hotelturiec.sk</web>
+    <poznamka>SILNY CIEL; 4* biznis hotel v Martine, 7 konferencnych sal, banketova kapacita do 170 osob</poznamka>
+    <gps lat="49.0620277" lon="18.9233544"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA2">
+    <firma>Victoria Group, s.r.o.</firma>
+    <ico>36411779</ico>
+    <adresa>V. Zingora 9820</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>Hotel Victoria, Congress sala 220 osob + Lobby Bar 250 osob, banketova kapacita az 350 osob, obrat 1,82 mil EUR (2025, trzby)</velkost>
+    <telefon>+421 43 4304 836</telefon>
+    <email>recepcia@hotelvictoria.sk</email>
+    <web>hotelvictoria.sk</web>
+    <poznamka>SILNY CIEL; 4* hotel v Martine, banketova kapacita az 350 osob (Congress + Lobby Bar)</poznamka>
+    <gps lat="49.0809886" lon="18.8994056"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA2">
+    <firma>Slovenske liecebne kupele Turcianske Teplice, a.s.</firma>
+    <ico>31642322</ico>
+    <adresa>SNP 519</adresa>
+    <mesto>Turcianske Teplice</mesto>
+    <okres>Turcianske Teplice</okres>
+    <velkost>obrat cca 14 mil EUR (2024, trzby), 100-249 zam; Hotel Royal Palace 5*, Kursalon banket 150 osob / koktail 200 osob</velkost>
+    <telefon>+421 43 4918 010</telefon>
+    <email>royalreservations@therme.sk</email>
+    <web>therme.sk</web>
+    <poznamka>SILNY CIEL; kupelny rezort Turcianske Teplice (Hotel Royal Palace 5*), banketova sala Kursalon do 150-200 osob</poznamka>
+    <gps lat="48.8606904" lon="18.8607068"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA3">
+    <firma>SLOVAKIA REAL - IN, a.s.</firma>
+    <ico>35789638</ico>
+    <adresa>A. Bernolaka 1</adresa>
+    <mesto>Ruzomberok</mesto>
+    <okres>Ruzomberok</okres>
+    <velkost>Hotel Kultura, Velka dvorana az 500 osob, Spolocenska sala 150 osob, Atrium 100 osob, obrat cca 2,9 mil EUR (2024, trzby)</velkost>
+    <telefon>+421 44 4313 111</telefon>
+    <email>recepcia@hotelkultura.sk</email>
+    <web>hotelkultura.sk</web>
+    <poznamka>SILNY CIEL; kongresovy hotel v Ruzomberku, Velka dvorana az 500 osob, viacero banketovych sal</poznamka>
+    <gps lat="49.0815718" lon="19.3034168"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA5">
+    <firma>Hotel Altis Rezort, s.r.o.</firma>
+    <ico>31431127</ico>
+    <adresa>Oravska Priehrada 612</adresa>
+    <mesto>Namestovo</mesto>
+    <okres>Namestovo</okres>
+    <velkost>4* hotel pri Oravskej priehrade, kongresove centrum az cca 100 hosti</velkost>
+    <telefon>+421 904 747 747</telefon>
+    <email>recepcia@hotelaltis.sk</email>
+    <web>hotelaltis.sk</web>
+    <poznamka>SILNY CIEL; 4* hotel pri Oravskej priehrade, kongresova/banketova kapacita cca 100 hosti</poznamka>
+    <gps lat="49.4011358" lon="19.5061786"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="ZA5">
+    <firma>KIMEX Group s.r.o.</firma>
+    <ico>36191906</ico>
+    <adresa>Brezovica 370</adresa>
+    <mesto>Brezovica</mesto>
+    <okres>Tvrdosin</okres>
+    <velkost>Oravsky Haj Garden Hotel &amp; Resort, banketova sala 120 osob, kongresna sala az 150 osob</velkost>
+    <telefon>+421 915 830 042</telefon>
+    <email>events@oravskyhaj.sk</email>
+    <web>oravskyhaj.sk</web>
+    <poznamka>SILNY CIEL; Oravsky Haj Garden Hotel &amp; Resort pri Trstene, banketova kapacita 120-150 osob (firma KIMEX, sidlo Kosice)</poznamka>
+    <gps lat="49.34815" lon="19.66246"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA2">
+    <firma>NHABE s.r.o.</firma>
+    <ico>51043181</ico>
+    <adresa>M. R. Stefanika 22</adresa>
+    <mesto>Martin</mesto>
+    <okres>Martin</okres>
+    <velkost>obrat 0,76 mil EUR (2024, trzby), 10-19 zam; 3 prevadzky</velkost>
+    <telefon>+421910172869</telefon>
+    <email>info@nhabe.sk</email>
+    <web>nhabe.sk</web>
+    <poznamka>SILNY CIEL; vietnamske bistro NhaBe, 3 prevadzky (Martin, Banska Bystrica, Zilina-Vlcince Obchodna 3D); zalozene 2017</poznamka>
+    <gps lat="49.0637701" lon="18.9221005"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA3">
+    <firma>Liptovske pekarne a cukrarne VCELA - Lippek k.s.</firma>
+    <ico>36394556</ico>
+    <adresa>1. maja 1919</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>obrat 10,73 mil EUR (2025, trzby), 100-149 zam; 8 prevadzok (2 kaviarne Cafe Vcela + 6 predajni s cerstvym pecivom)</velkost>
+    <telefon>+421445520473</telefon>
+    <email>lippek@lippek.sk</email>
+    <web>lippek.sk</web>
+    <poznamka>SILNY CIEL; pekarensko-cukrarska siet; 2 kaviarne Cafe Vcela (Garbiarska + Podbreziny v Lipt. Mikulasi) + predajne v Lipt. Hradku, Ruzomberku, Likavke; gastro jadro = 2 kaviarne, zvysok maloobchod s pecivom</poznamka>
+    <gps lat="49.0801168" lon="19.6283257"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA1">
+    <firma>McDonald's franchisant Zilina-Martin (Luiz Franca, prevadzkovatel)</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>Nam. A. Hlinku 7B (Mirage)</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>5 prevadzok (Martin, 3x Zilina, Dolny Hricov pri D3); obrat/zam franchisanta verejne neoverene</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web></web>
+    <poznamka>SILNY CIEL; McD prevadzky v Ziline a Martine drzi licencny partner Luiz Franca (od 2020); firma/ICO franchisanta sa nepodarilo overit v ORSR/FinStat - NIE centrala McDonald's Slovakia s.r.o.</poznamka>
+    <gps lat="49.0798132" lon="19.2985208"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA1">
+    <firma>COOP Jednota Zilina, spotrebne druzstvo</firma>
+    <ico>00169048</ico>
+    <adresa>Predmestska 71</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>obrat 149 mil EUR (2025, trzby), 500-999 zam; siet predajni s vyrobou hotovych jedal/polotovarov</velkost>
+    <telefon>+421417051900</telefon>
+    <email></email>
+    <web>coopjednotaza.sk</web>
+    <poznamka>SILNY CIEL; spotrebne druzstvo, primarne maloobchod s potravinami; gastro zlozka = vyroba hotovych jedal a stravovacia cinnost v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
+    <gps lat="49.2202592" lon="18.7484913"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA4">
+    <firma>COOP Jednota Cadca, spotrebne druzstvo</firma>
+    <ico>00168947</ico>
+    <adresa>Palarikova 87</adresa>
+    <mesto>Cadca</mesto>
+    <okres>Cadca</okres>
+    <velkost>obrat 150,5 mil EUR (2025, trzby), 1000-1999 zam; siet predajni s gastro/stravovacou zlozkou</velkost>
+    <telefon>+421414332152</telefon>
+    <email></email>
+    <web>coopcadca.sk</web>
+    <poznamka>SILNY CIEL; spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
+    <gps lat="49.4381099" lon="18.7851344"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="ZA3">
+    <firma>COOP Jednota Liptovsky Mikulas, spotrebne druzstvo</firma>
+    <ico>00168963</ico>
+    <adresa>ul. 1. maja 54</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>obrat 85,24 mil EUR (2025, trzby), 500-999 zam; siet predajni s gastro/stravovacou zlozkou</velkost>
+    <telefon>+421443700201</telefon>
+    <email></email>
+    <web>jednotalm.sk</web>
+    <poznamka>spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
+    <gps lat="49.08056" lon="19.61983"/>
+  </prevadzka>
   <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
     <firma>Zilinsky samospravny kraj</firma>
     <ico>37808427</ico>
