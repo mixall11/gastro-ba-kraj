@@ -392,23 +392,6 @@ const GASTRO_DATA = [
  },
  {
   "kraj": "BA",
-  "kat": "Vyvaren / catering kuchyna",
-  "firma": "OXA Delivery Service s.r.o.",
-  "ico": "50293231",
-  "adresa": "Stredna 1",
-  "mesto": "Bratislava-Ruzinov",
-  "okres": "Bratislava II",
-  "velkost": "0,6 mil EUR (2024), 5-9 zam",
-  "tel": "",
-  "email": "",
-  "web": "",
-  "zona": "Z2",
-  "pozn": "catering pre materske skoly; kontakt cez ORSR",
-  "lat": 48.1763819,
-  "lon": 17.1703672
- },
- {
-  "kraj": "BA",
   "kat": "Tackaren / zavodna jedalen",
   "firma": "Eat & Meet - Mlynska dolina (UK)",
   "ico": "",
