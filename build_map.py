@@ -24,6 +24,8 @@ MANUAL_GPS = {
     '31392229': (48.13244, 17.10755),  # McDonald's, Einsteinova 33 (Nominatim trafil budovu ERNI ~550m vedla)
     '35826487': (48.15663, 17.89696),  # Duslo Sala (adresa "Administrativna budova ev.c.1236" trafila vychod SR)
     '36709557': (49.10310, 18.31760),  # Continental Tires Slovakia Puchov (Nominatim trafil centrum Puchova ~2,4km, realny zavod je v Hornych Kockovciach)
+    '31701931': (48.74745, 21.20827),  # Hotel Bankov Kosice (adresa "Dolny Bankov 2" padla na centroid Kosice-Sever; realny hotel v lese Bankov)
+    '36200514': (48.67892, 21.28906),  # VAMEX Kosice, Lubina 1 (Nad jazerom; "Kosice-Sever" centroid bol zly)
 }
 
 # mestske casti BA -> oficialny okres Bratislava I-V (pre BA kraj)
@@ -34,6 +36,19 @@ BA_OKRES = {
     'Bratislava-Karlova Ves':'Bratislava IV','Bratislava-Dubravka':'Bratislava IV','Bratislava-Devinska Nova Ves':'Bratislava IV',
     'Bratislava-Petrzalka':'Bratislava V',
     'Bratislava':'Bratislava I',
+}
+
+# mestske casti Kosice -> oficialny okres Kosice I-IV (pre KE kraj)
+KE_OKRES = {
+    'Kosice-Stare Mesto':'Kosice I','Kosice-Sever':'Kosice I','Kosice-Dzungla':'Kosice I',
+    'Kosice-Kavecany':'Kosice I','Kosice-Tahanovce':'Kosice I','Kosice-Sidlisko Tahanovce':'Kosice I',
+    'Kosice-Zapad':'Kosice II','Kosice-KVP':'Kosice II','Kosice-Myslava':'Kosice II',
+    'Kosice-Peres':'Kosice II','Kosice-Lorincik':'Kosice II','Kosice-Lunik IX':'Kosice II',
+    'Kosice-Saca':'Kosice II','Kosice-Polov':'Kosice II','Kosice-Barca':'Kosice II',
+    'Kosice-Dargovskych hrdinov':'Kosice III','Kosice-Furca':'Kosice III','Kosice-Kosicka Nova Ves':'Kosice III',
+    'Kosice-Juh':'Kosice IV','Kosice-Nad jazerom':'Kosice IV','Kosice-Krasna':'Kosice IV',
+    'Kosice-Sebastovce':'Kosice IV','Kosice-Vysne Opatske':'Kosice IV',
+    'Kosice':'Kosice I',
 }
 
 cache = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
@@ -104,6 +119,8 @@ for kod, nazov, csv_in, xml_out in KRAJE:
         la, lo = MANUAL_GPS.get(r['ICO']) or geocode_row(r)
         if kod == 'BA':
             r['Okres'] = BA_OKRES.get(r['Mesto_Stvrt'], r['Okres'])
+        if kod == 'KE':
+            r['Okres'] = KE_OKRES.get(r['Mesto_Stvrt'], r['Okres'])
         r['lat'], r['lon'] = la, lo
         flag = 'OK ' if la else '!! '
         print(f"  {flag}{r['Firma'][:42]:42} | {r['Mesto_Stvrt']}")

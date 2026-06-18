@@ -1,5 +1,525 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Kosicky" typ="vsetky" pocet="13">
+<gastro_databaza kraj="Kosicky" typ="vsetky" pocet="53">
+  <prevadzka kategoria="Catering dodavatel" zona="KE1">
+    <firma>SPOLOCENSKY PAVILON s.r.o.</firma>
+    <ico>45508127</ico>
+    <adresa>Trieda SNP 61</adresa>
+    <mesto>Kosice-Zapad</mesto>
+    <okres>Kosice II</okres>
+    <velkost>obrat 1,29 mil EUR (2025, trzby), 25-49 zam</velkost>
+    <telefon>0911 743 724</telefon>
+    <email>info@spolocenskypavilon.sk</email>
+    <web>spolocenskypavilon.sk</web>
+    <poznamka>SILNY CIEL; event management + catering pre firemne akcie do 2000 hosti</poznamka>
+    <gps lat="48.7076175" lon="21.2411314"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="KE1">
+    <firma>GASTROMILA, spol. s r.o.</firma>
+    <ico>36203271</ico>
+    <adresa>Piestanska 2</adresa>
+    <mesto>Kosice-Zapad</mesto>
+    <okres>Kosice II</okres>
+    <velkost>obrat 1,13 mil EUR (2024, trzby), 10-19 zam</velkost>
+    <telefon>0908 849 791</telefon>
+    <email>gastromila@gastromila.sk</email>
+    <web>gastromila.sk</web>
+    <poznamka>catering + conference service + event management, vlastna jedalen/pizzeria od 2000</poznamka>
+    <gps lat="48.7071018" lon="21.222118"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="KE1">
+    <firma>Platz Catering s.r.o.</firma>
+    <ico>54849063</ico>
+    <adresa>Moldavska cesta 8B</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>obrat 0,49 mil EUR (2025, trzby), do 9 zam</velkost>
+    <telefon>0951 003 574</telefon>
+    <email>info@platzgroup.sk</email>
+    <web>platzgroup.sk</web>
+    <poznamka>kantina + firemny/svadobny catering 15-1000 osob</poznamka>
+    <gps lat="48.7073382" lon="21.2476674"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="KE2">
+    <firma>Lubenka catering, s.r.o.</firma>
+    <ico>54623626</ico>
+    <adresa>Pribinova 1</adresa>
+    <mesto>Trebisov</mesto>
+    <okres>Trebisov</okres>
+    <velkost>obrat 0,22 mil EUR (2024, trzby), do 9 zam</velkost>
+    <telefon>0911 137 747</telefon>
+    <email>info@lubenkacatering.sk</email>
+    <web>lubenkacatering.sk</web>
+    <poznamka>catering svadby/firemne akcie pre Trebisov-Kosice-Vranov</poznamka>
+    <gps lat="48.6355088" lon="21.7176865"/>
+  </prevadzka>
+  <prevadzka kategoria="Catering dodavatel" zona="KE2">
+    <firma>Jaroslav Kriso - J&amp;R Catering</firma>
+    <ico>40940616</ico>
+    <adresa>Nad Laborcom 1771/8</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>zivnost (ZRSR), maly cateringovy prevadzkovatel</velkost>
+    <telefon>0907 147 637</telefon>
+    <email>jrcatering@jrcatering.sk</email>
+    <web>jrcatering.sk</web>
+    <poznamka>zivnostnik; firemne a sukromne podujatia/rauty/svadby v Michalovciach</poznamka>
+    <gps lat="48.7595142" lon="21.9311225"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="KE1">
+    <firma>Gastroservis MM, s.r.o.</firma>
+    <ico>46531483</ico>
+    <adresa>Hurbanova 6</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 0,90 mil EUR (2025, trzby), 10-19 zam</velkost>
+    <telefon>0907 588 129</telefon>
+    <email>kuchyna@restaurak.sk</email>
+    <web>restaurak.sk</web>
+    <poznamka>SILNY CIEL; prevadzkuje Jedalen Vojvodska, zmluvny partner 15 mestskych casti + Magistrat Kosice</poznamka>
+    <gps lat="48.7350947" lon="21.2398501"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="KE1">
+    <firma>NASA s.r.o.</firma>
+    <ico>36660078</ico>
+    <adresa>Juzna trieda 82</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>obrat 2,72 mil EUR (2025, trzby), 25-49 zam</velkost>
+    <telefon>0918 603 657</telefon>
+    <email>kosicenasa@gmail.com</email>
+    <web>nasa-ke.sk</web>
+    <poznamka>SILNY CIEL; velka jedalen s rozvozom stravy; sidlo Valaliky</poznamka>
+    <gps lat="48.6858609" lon="21.2689292"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="KE1">
+    <firma>Prva cateringova spol. s r.o.</firma>
+    <ico>36208027</ico>
+    <adresa>Holubyho 12</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 0,93 mil EUR (2025, trzby), 5-9 zam</velkost>
+    <telefon>0911 121 191</telefon>
+    <email>obchod@prvacateringova.sk</email>
+    <web>prvacateringova.sk</web>
+    <poznamka>dodavatel polotovarov/stravy pre skolske + zavodne jedalne, nemocnice, soc. zariadenia</poznamka>
+    <gps lat="48.7220196" lon="21.2692121"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>U.S. Steel Kosice, s.r.o.</firma>
+    <ico>36199222</ico>
+    <adresa>Vstupny areal U. S. Steel</adresa>
+    <mesto>Kosice-Saca</mesto>
+    <okres>Kosice II</okres>
+    <velkost>obrat 2397 mil EUR (2025, trzby), 5000-9999 zam</velkost>
+    <telefon>055/673 1111</telefon>
+    <email>webmaster@sk.uss.com</email>
+    <web>usske.sk</web>
+    <poznamka>SILNY CIEL #1 vychodu; ~10000 zam, najvacsia zavodna jedalen v kraji; operator jedalne neovereny</poznamka>
+    <gps lat="48.622784" lon="21.1925354"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Deutsche Telekom Systems Solutions Slovakia s.r.o.</firma>
+    <ico>35976721</ico>
+    <adresa>Moldavska cesta 8B</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>obrat 131 mil EUR (2025, trzby), 2000-2999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>deutschetelekomitsolutions.sk</web>
+    <poznamka>SILNY CIEL; IT centrum (byv. T-Systems) v Cassovare, tisice zam, vlastna kantina; operator neovereny</poznamka>
+    <gps lat="48.7073382" lon="21.2476674"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Magna PT s.r.o.</firma>
+    <ico>51286378</ico>
+    <adresa>Perinska cesta 282</adresa>
+    <mesto>Kechnec</mesto>
+    <okres>Kosice-okolie</okres>
+    <velkost>obrat 702 mil EUR (2024, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>magna.com</web>
+    <poznamka>SILNY CIEL; vyroba prevodoviek (byv. Getrag Ford) v priem. parku Kechnec; operator jedalne neovereny</poznamka>
+    <gps lat="48.5553884" lon="21.2596858"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Marelli Kechnec Slovakia s.r.o.</firma>
+    <ico>36751758</ico>
+    <adresa>Perinska cesta 275</adresa>
+    <mesto>Kechnec</mesto>
+    <okres>Kosice-okolie</okres>
+    <velkost>obrat 183 mil EUR (2023, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>marelli.com</web>
+    <poznamka>automotive elektronika (byv. Magneti Marelli) v priem. parku Kechnec; operator jedalne neovereny</poznamka>
+    <gps lat="48.5553884" lon="21.2596858"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE3">
+    <firma>Embraco Slovakia s.r.o.</firma>
+    <ico>35734132</ico>
+    <adresa>Odorinska cesta 2</adresa>
+    <mesto>Spisska Nova Ves</mesto>
+    <okres>Spisska Nova Ves</okres>
+    <velkost>obrat 217 mil EUR (2024, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>embraco.com</web>
+    <poznamka>SILNY CIEL; vyroba kompresorov, sucast Nidec Global Appliance; operator jedalne neovereny</poznamka>
+    <gps lat="48.9362563" lon="20.6006167"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE2">
+    <firma>BSH Drives and Pumps s.r.o.</firma>
+    <ico>36187828</ico>
+    <adresa>Tovarenska 2</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>obrat 195 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>bosch.sk</web>
+    <poznamka>SILNY CIEL; vyroba motorov/cerpadiel pre spotrebice (skupina BSH/Bosch); operator zavodnej jedalne neovereny</poznamka>
+    <gps lat="48.7412052" lon="21.9031004"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Vychodoslovensky ustav srdcovych a cievnych chorob, a.s. (VUSCH)</firma>
+    <ico>36601284</ico>
+    <adresa>Ondavska 8</adresa>
+    <mesto>Kosice-Zapad</mesto>
+    <okres>Kosice II</okres>
+    <velkost>specializovana kardiochirurgicka nemocnica, 1000+ zam; vlastna ustavna kuchyna</velkost>
+    <telefon>055/789 2222</telefon>
+    <email>sekretariat@vusch.sk</email>
+    <web>vusch.sk</web>
+    <poznamka>SILNY CIEL; velka ustavna kuchyna, stovky porcii denne pacienti + personal</poznamka>
+    <gps lat="48.7212306" lon="21.2412026"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Detska fakultna nemocnica Kosice (DFN)</firma>
+    <ico>00606715</ico>
+    <adresa>Trieda SNP 1</adresa>
+    <mesto>Kosice-Zapad</mesto>
+    <okres>Kosice II</okres>
+    <velkost>statna prispevkova org., 500-999 zam; detska fakultna nemocnica s vlastnou kuchynou</velkost>
+    <telefon>055/235 2882</telefon>
+    <email>sekretariat@dfnkosice.sk</email>
+    <web>dfnkosice.sk</web>
+    <poznamka>SILNY CIEL; vlastna nemocnicna kuchyna, detska + dospela strava + personal</poznamka>
+    <gps lat="48.7223219" lon="21.2387391"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Vychodoslovensky onkologicky ustav, a.s. (VOU)</firma>
+    <ico>36603350</ico>
+    <adresa>Rastislavova 43</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>specializovana onkologicka nemocnica, ustavna kuchyna pacienti + zamestnanci</velkost>
+    <telefon>055/6135 111</telefon>
+    <email>sekretariat@vou.sk</email>
+    <web>vou.sk</web>
+    <poznamka>SILNY CIEL; ustavne stravovanie onkologickych pacientov + personal</poznamka>
+    <gps lat="48.7091037" lon="21.256115"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Fakultna nemocnica AGEL Kosice-Saca, a.s.</firma>
+    <ico>36168165</ico>
+    <adresa>Lucna 57</adresa>
+    <mesto>Kosice-Saca</mesto>
+    <okres>Kosice II</okres>
+    <velkost>obrat 65,00 mil EUR (2024, vynosy), 500-999 zam; velka sukromna fakultna nemocnica</velkost>
+    <telefon>055/7234 111</telefon>
+    <email>saca@agel.sk</email>
+    <web>agel.sk</web>
+    <poznamka>SILNY CIEL; velka nemocnica s vlastnou kuchynou, stovky porcii denne</poznamka>
+    <gps lat="48.6425385" lon="21.1728736"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>Univerzita veterinarskeho lekarstva a farmacie v Kosiciach (UVLF)</firma>
+    <ico>00397474</ico>
+    <adresa>Komenskeho 73</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>verejna vysoka skola s vlastnou menzou a ucelovym stravovacim zariadenim</velkost>
+    <telefon>055/2982 010</telefon>
+    <email>uvlf@uvlf.sk</email>
+    <web>uvlf.sk</web>
+    <poznamka>univerzitna menza; pravidelne objemy stravy pocas semestra</poznamka>
+    <gps lat="48.7332774" lon="21.2503524"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE2">
+    <firma>Nemocnica s poliklinikou Stefana Kukuru Michalovce, a.s.</firma>
+    <ico>44927380</ico>
+    <adresa>Spitalska 2</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>obrat 51,38 mil EUR (2024, vynosy), 500-999 zam; Svet zdravia / Penta Hospitals</velkost>
+    <telefon>056/6416 111</telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; velka okresna nemocnica s vlastnou kuchynou pacienti + personal</poznamka>
+    <gps lat="48.7534923" lon="21.9157388"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE2">
+    <firma>Nemocnica s poliklinikou Trebisov, a.s.</firma>
+    <ico>36597376</ico>
+    <adresa>SNP 1079/76</adresa>
+    <mesto>Trebisov</mesto>
+    <okres>Trebisov</okres>
+    <velkost>obrat 32,76 mil EUR (2024, vynosy), 500-999 zam; Svet zdravia / Penta Hospitals</velkost>
+    <telefon>056/6660 111</telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; nemocnicna kuchyna, stovky porcii denne</poznamka>
+    <gps lat="48.6114443" lon="21.7192835"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE3">
+    <firma>Nemocnica s poliklinikou Spisska Nova Ves, a.s.</firma>
+    <ico>36597350</ico>
+    <adresa>Janskeho 1</adresa>
+    <mesto>Spisska Nova Ves</mesto>
+    <okres>Spisska Nova Ves</okres>
+    <velkost>obrat 30,01 mil EUR (2024, vynosy), 500-999 zam; Svet zdravia / Penta Hospitals</velkost>
+    <telefon>053/4199 111</telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; vlastna nemocnicna kuchyna pacienti + zamestnanci</poznamka>
+    <gps lat="48.9566079" lon="20.566875"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE4">
+    <firma>Nemocnica s poliklinikou sv. Barbory Roznava, a.s.</firma>
+    <ico>36597341</ico>
+    <adresa>Spitalska 1</adresa>
+    <mesto>Roznava</mesto>
+    <okres>Roznava</okres>
+    <velkost>obrat 26,45 mil EUR (2024, vynosy), 500-999 zam; Svet zdravia / Penta Hospitals</velkost>
+    <telefon>058/7777 111</telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; jedina velka nemocnica v okrese, vlastna kuchyna</poznamka>
+    <gps lat="48.6653704" lon="20.5327602"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE2">
+    <firma>Psychiatricka nemocnica Michalovce, n.o.</firma>
+    <ico>35581000</ico>
+    <adresa>Andreja Hrehovcika 1</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>nezisk. org., psychiatricka nemocnica; ustavne stravovanie hospitalizovanych + personal</velkost>
+    <telefon>056/6826 111</telefon>
+    <email>pnmi@pnmi.sk</email>
+    <web>pnmi.sk</web>
+    <poznamka>dlhe pobyty pacientov = stabilna kuchyna 3x denne</poznamka>
+    <gps lat="48.7545227" lon="21.9390383"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="KE1">
+    <firma>ARCUS - Specializovane zariadenie a zariadenie pre seniorov</firma>
+    <ico>35538562</ico>
+    <adresa>Skladna 4</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>rozpoctova org. KSK, kapacita ~200 lozok (celorocny pobyt); vlastna kuchyna 3x denne</velkost>
+    <telefon>055/7292 351</telefon>
+    <email>arcus@arcuskosice.sk</email>
+    <web>arcuskosice.sk</web>
+    <poznamka>~200 klientov celorocne, denne plnohodnotna strava</poznamka>
+    <gps lat="48.7125657" lon="21.2562074"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>Interhouse Kosice, a.s.</firma>
+    <ico>31706631</ico>
+    <adresa>Hlavna 1</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 8,01 mil EUR (2024, trzby), 50-99 zam; banketova kapacita do 450 osob</velkost>
+    <telefon>055/325 1100</telefon>
+    <email>reservations@hiltonkosice.sk</email>
+    <web>doubletree-kosice.com</web>
+    <poznamka>SILNY CIEL; DoubleTree by Hilton, multifunkcna banketova sala do 450 osob</poznamka>
+    <gps lat="48.7176174" lon="21.2604142"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>PROMENADA, a.s. (Hotel Yasmin)</firma>
+    <ico>35908467</ico>
+    <adresa>Tyrsovo nabrezie 1</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 3,76 mil EUR (2024, trzby), 25-49 zam; 7 kongresovych sal</velkost>
+    <telefon>055/795 1100</telefon>
+    <email>info@hotel-yasmin.sk</email>
+    <web>hotel-yasmin.sk</web>
+    <poznamka>SILNY CIEL; business and conference hotel so 7 salami</poznamka>
+    <gps lat="48.729626" lon="21.2571644"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>Dom techniky ZSVTS KE, s.r.o. (Hotel Centrum)</firma>
+    <ico>46520104</ico>
+    <adresa>Juzna trieda 2A</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 1,50 mil EUR (2024, trzby), 10-19 zam; sala Nobel do 650 osob</velkost>
+    <telefon>055/622 0350</telefon>
+    <email>info@hotel-centrum.sk</email>
+    <web>hotel-centrum.sk</web>
+    <poznamka>SILNY CIEL; Congress Hotel Centrum, sala Nobel kapacita do 650 osob</poznamka>
+    <gps lat="48.716553" lon="21.2608127"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>BUILDINGS CITY, s.r.o. (Hotel Roca)</firma>
+    <ico>45254389</ico>
+    <adresa>Juzna trieda 117</adresa>
+    <mesto>Kosice-Juh</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>obrat 2,22 mil EUR (2024, trzby), 25-49 zam; hlavna sala 400 / banketova ROCA 200 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelrocakosice.sk</web>
+    <poznamka>SILNY CIEL; Kongres Hotel Roca, hlavna sala do 400 a banketova ROCA 200 osob</poznamka>
+    <gps lat="48.697532" lon="21.2635058"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>Hotel Bankov, a.s.</firma>
+    <ico>31701931</ico>
+    <adresa>Dolny Bankov 2</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 1,62 mil EUR (2025, trzby), 20-24 zam; podujatia do 600 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelbankov.sk</web>
+    <poznamka>SILNY CIEL; najstarsi hotel na Slovensku, podujatia vratane letnej zahrady do 600 osob</poznamka>
+    <gps lat="48.74745" lon="21.20827"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>EZEX s.r.o. (Hotel Ambassador)</firma>
+    <ico>31737510</ico>
+    <adresa>Hlavna 101</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 1,01 mil EUR (2025, trzby), 10-19 zam; konferencna sala pre vacsie podujatia</velkost>
+    <telefon>0905 220 430</telefon>
+    <email>ambassador@ambassador.sk</email>
+    <web>ambassador.sk</web>
+    <poznamka>Hotel Ambassador, konferencna sala v centre</poznamka>
+    <gps lat="48.7249336" lon="21.2561547"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE1">
+    <firma>GOLDEN ROYAL Group, s.r.o.</firma>
+    <ico>36599956</ico>
+    <adresa>Vodna 8</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 1,09 mil EUR (2019, trzby), 20-24 zam; kongresove priestory do 160 osob</velkost>
+    <telefon>055/720 1011</telefon>
+    <email>hotel@goldenroyal.sk</email>
+    <web>goldenroyal.sk</web>
+    <poznamka>Golden Royal Boutique Hotel and Spa, kongresove priestory do 160 osob</poznamka>
+    <gps lat="48.7249398" lon="21.2596926"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE2">
+    <firma>HOTEL GLAMOUR s.r.o.</firma>
+    <ico>36684228</ico>
+    <adresa>Kaluza 744</adresa>
+    <mesto>Kaluza</mesto>
+    <okres>Michalovce</okres>
+    <velkost>obrat 1,25 mil EUR (2025, trzby), 10-19 zam; vnutorne priestory do 250 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelglamour.sk</web>
+    <poznamka>SILNY CIEL; rezort pri Zemplinskej sirave, svadby a kongresy do 250 osob; sidlo firmy B. Bystrica</poznamka>
+    <gps lat="48.8079386" lon="22.0009306"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE2">
+    <firma>Jaroslav Kudroc (Hotel Chemes)</firma>
+    <ico>35453770</ico>
+    <adresa>Kamenec Kaluza 219</adresa>
+    <mesto>Kaluza</mesto>
+    <okres>Michalovce</okres>
+    <velkost>zivnost (ZRSR), 10-19 zam; velka sala 100-200 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelchemes.sk</web>
+    <poznamka>Hotel Chemes pri Zemplinskej sirave, velka sala 100-200 osob</poznamka>
+    <gps lat="48.8086142" lon="22.0127441"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE2">
+    <firma>Hotel Mousson</firma>
+    <ico>doplnit ORSR</ico>
+    <adresa>T. J. Moussona 1</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>restauracna/svadobna sala 110-120 hosti, kongresova sala 60</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelmousson.sk</web>
+    <poznamka>svadobna restauracna sala do 120 hosti; prevadzkovu firmu overit ORSR</poznamka>
+    <gps lat="48.7606239" lon="21.9045571"/>
+  </prevadzka>
+  <prevadzka kategoria="Velka restauracia / banketova sala" zona="KE3">
+    <firma>METROPOL Invest, a.s. (Hotel Metropol)</firma>
+    <ico>31673074</ico>
+    <adresa>Stefanikovo namestie 2</adresa>
+    <mesto>Spisska Nova Ves</mesto>
+    <okres>Spisska Nova Ves</okres>
+    <velkost>obrat 1,18 mil EUR (2024, trzby), 25-49 zam; kongresova sala do 200 osob</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hotelmetropol.sk</web>
+    <poznamka>Hotel Metropol Wellness and Congress, kongresova sala do 200 osob</poznamka>
+    <gps lat="48.9462731" lon="20.558999"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="KE1">
+    <firma>TAMAS, s.r.o.</firma>
+    <ico>36208361</ico>
+    <adresa>Protifasistickych bojovnikov 6</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>obrat 17,07 mil EUR (2024, trzby), 100-149 zam; 3+ McDonald's prevadzky v Kosiciach + Presov</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>tamas.sk</web>
+    <poznamka>SILNY CIEL; fransizant McDonald's pre Kosice (Plavaren, Optima, Popradska)</poznamka>
+    <gps lat="48.7194683" lon="21.2651149"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="KE1">
+    <firma>VAMEX, a.s., Kosice</firma>
+    <ico>36200514</ico>
+    <adresa>Lubina 1</adresa>
+    <mesto>Kosice-Nad jazerom</mesto>
+    <okres>Kosice IV</okres>
+    <velkost>obrat 27,22 mil EUR (2024, trzby), 250-499 zam; najvacsia pekaren na vychode + 10 vlastnych predajni</velkost>
+    <telefon>055/783 6011</telefon>
+    <email>sekretariat@vamex.sk</email>
+    <web>vamex.sk</web>
+    <poznamka>SILNY CIEL; pekarska siet s 10 vlastnymi predajnami v KE kraji (Kosice, Michalovce)</poznamka>
+    <gps lat="48.67892" lon="21.28906"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="KE1">
+    <firma>UNI, spol. s r.o. (Pekaren UNI)</firma>
+    <ico>36203939</ico>
+    <adresa>Podnikatelska 3</adresa>
+    <mesto>Kosice-Barca</mesto>
+    <okres>Kosice II</okres>
+    <velkost>obrat 1,71 mil EUR (2024, trzby), 25-49 zam; vlastne predajne Kosice, Valaliky, Cana</velkost>
+    <telefon>055/309 0900</telefon>
+    <email>centrala@uni.sk</email>
+    <web>uni.sk</web>
+    <poznamka>Pekaren UNI; 3+ vlastne predajne/pekarne v KE kraji</poznamka>
+    <gps lat="48.672394" lon="21.2765499"/>
+  </prevadzka>
+  <prevadzka kategoria="Restauracna siet (3+ prevadzok)" zona="KE2">
+    <firma>COOP JEDNOTA Michalovce, spotrebne druzstvo</firma>
+    <ico>00169099</ico>
+    <adresa>Obchodna 2</adresa>
+    <mesto>Michalovce</mesto>
+    <okres>Michalovce</okres>
+    <velkost>obrat 16,65 mil EUR (2025, trzby), 150-199 zam; viacero predajni + gastro/bufetove prevadzky</velkost>
+    <telefon>056/642 1156</telefon>
+    <email></email>
+    <web>coop.sk</web>
+    <poznamka>SILNY CIEL; druzstevna siet s viacerymi predajnami a obcerstvenim v okrese Michalovce</poznamka>
+    <gps lat="48.7576287" lon="21.9181918"/>
+  </prevadzka>
   <prevadzka kategoria="Statne firmy a urady" zona="KE1">
     <firma>Kosicky samospravny kraj</firma>
     <ico>35541016</ico>
