@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="64">
+<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="69">
   <prevadzka kategoria="Catering dodavatel" zona="N1">
     <firma>Catering Trencin (Polis)</firma>
     <ico>53236807</ico>
@@ -831,5 +831,70 @@
     <web>minv.sk</web>
     <poznamka>okresny urad v sidle kraja pod MV SR (ICO 00151866); odber stravnych sluzieb pre zamestnancov, over model</poznamka>
     <gps lat="48.8932726" lon="18.0400079"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TN1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Trencine</firma>
+    <ico>36127647</ico>
+    <adresa>Stefanikova 20</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>032/741 1550</telefon>
+    <email>sekretariat.tc@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
+    <gps lat="48.9952219" lon="18.2281263"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="TN2">
+    <firma>Nemocnica s poliklinikou Prievidza so sidlom v Bojniciach</firma>
+    <ico>17335795</ico>
+    <adresa>Nemocnicna 581/2</adresa>
+    <mesto>Bojnice</mesto>
+    <okres>Prievidza</okres>
+    <velkost>obrat 50 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>hospital-bojnice.sk</web>
+    <poznamka>SILNY CIEL; prispevkova org TSK; sidlo Bojnice (nie Prievidza); 1000+ zam</poznamka>
+    <gps lat="48.7853369" lon="18.5894152"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="TN3">
+    <firma>Nemocnica s poliklinikou Povazska Bystrica</firma>
+    <ico>00610411</ico>
+    <adresa>Nemocnicna 986/1</adresa>
+    <mesto>Povazska Bystrica</mesto>
+    <okres>Povazska Bystrica</okres>
+    <velkost>obrat 52 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicapb.sk</web>
+    <poznamka>SILNY CIEL; prispevkova org TSK; 1000+ zam</poznamka>
+    <gps lat="49.1066834" lon="18.4605166"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="TN4">
+    <firma>NsP Nove Mesto nad Vahom n.o.</firma>
+    <ico>36119369</ico>
+    <adresa>M. R. Stefanika 812/2</adresa>
+    <mesto>Nove Mesto nad Vahom</mesto>
+    <okres>Nove Mesto nad Vahom</okres>
+    <velkost>obrat 11 mil EUR (2025, trzby), 200-249 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnica.nspnm.sk</web>
+    <poznamka>mensa lozkova nemocnica; n.o. TSK</poznamka>
+    <gps lat="48.7535834" lon="17.8311931"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="TN4">
+    <firma>Nemocnica s poliklinikou Myjava</firma>
+    <ico>00610721</ico>
+    <adresa>Staromyjavska 712/59</adresa>
+    <mesto>Myjava</mesto>
+    <okres>Myjava</okres>
+    <velkost>obrat 16 mil EUR (2025, trzby), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nspmyjava.sk</web>
+    <poznamka>prispevkova org TSK; 250-499 zam</poznamka>
+    <gps lat="48.7632026" lon="17.5613471"/>
   </prevadzka>
 </gastro_databaza>

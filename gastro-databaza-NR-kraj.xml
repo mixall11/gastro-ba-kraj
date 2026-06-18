@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Nitriansky" typ="vsetky" pocet="60">
+<gastro_databaza kraj="Nitriansky" typ="vsetky" pocet="65">
   <prevadzka kategoria="Tackaren / zavodna jedalen" zona="">
     <firma>Jaguar Land Rover Slovakia s.r.o.</firma>
     <ico>48302392</ico>
@@ -779,5 +779,70 @@
     <web>levice.sk</web>
     <poznamka>SILNY CIEL; zriadovatel MS/ZS so skolskymi jedalnami v meste Levice (odber potravin/stravy)</poznamka>
     <gps lat="48.2193111" lon="18.6065104"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="NR1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Nitre</firma>
+    <ico>37862961</ico>
+    <adresa>Dolnocermanska 64</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>037/641 6200</telefon>
+    <email></email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
+    <gps lat="48.2992514" lon="18.0671306"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="NR1">
+    <firma>Fakultna nemocnica Nitra</firma>
+    <ico>17336007</ico>
+    <adresa>Spitalska 588/6</adresa>
+    <mesto>Nitra</mesto>
+    <okres>Nitra</okres>
+    <velkost>obrat 110 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>fnnitra.sk</web>
+    <poznamka>SILNY CIEL; statna prispevkova org MZ SR, 600+ lozok; velka nemocnicna kuchyna</poznamka>
+    <gps lat="48.3020114" lon="18.087383"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="NR4">
+    <firma>Fakultna nemocnica s poliklinikou Nove Zamky</firma>
+    <ico>17336112</ico>
+    <adresa>Slovenska 5587/11A</adresa>
+    <mesto>Nove Zamky</mesto>
+    <okres>Nove Zamky</okres>
+    <velkost>obrat 89 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nspnz.sk</web>
+    <poznamka>SILNY CIEL; statna prispevkova org MZ SR; 1000+ zam</poznamka>
+    <gps lat="47.9885036" lon="18.1535382"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="NR6">
+    <firma>Nemocnica AGEL Komarno s.r.o.</firma>
+    <ico>50828371</ico>
+    <adresa>Medercska 39</adresa>
+    <mesto>Komarno</mesto>
+    <okres>Komarno</okres>
+    <velkost>obrat 49 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicakomarno.agel.sk</web>
+    <poznamka>SILNY CIEL; AGEL skupina; lozkova nemocnica</poznamka>
+    <gps lat="47.76432" lon="18.126722"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="NR5">
+    <firma>Nemocnica AGEL Levice s.r.o.</firma>
+    <ico>50861450</ico>
+    <adresa>SNP 19</adresa>
+    <mesto>Levice</mesto>
+    <okres>Levice</okres>
+    <velkost>obrat 48 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicalevice.agel.sk</web>
+    <poznamka>SILNY CIEL; AGEL skupina; lozkova nemocnica</poznamka>
+    <gps lat="48.2227843" lon="18.6145835"/>
   </prevadzka>
 </gastro_databaza>

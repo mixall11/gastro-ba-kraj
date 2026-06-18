@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Kosicky" typ="vsetky" pocet="53">
+<gastro_databaza kraj="Kosicky" typ="vsetky" pocet="55">
   <prevadzka kategoria="Catering dodavatel" zona="KE1">
     <firma>SPOLOCENSKY PAVILON s.r.o.</firma>
     <ico>45508127</ico>
@@ -688,5 +688,31 @@
     <web>lumentv.sk</web>
     <poznamka>SILNY CIEL; rozpoctova organizacia KSK, vlastna kuchyna pre seniorov/klientov + personal</poznamka>
     <gps lat="48.6198489" lon="21.71409"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Kosiciach</firma>
+    <ico>35542543</ico>
+    <adresa>Komenskeho 52</adresa>
+    <mesto>Kosice-Sever</mesto>
+    <okres>Kosice I</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>0961 965 001</telefon>
+    <email>sekretariat.ki@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR); adresa overit</poznamka>
+    <gps lat="48.7360852" lon="21.2459087"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="KE1">
+    <firma>Zeleznice Slovenskej republiky - OR Kosice</firma>
+    <ico>31364501</ico>
+    <adresa>Kasarenske namestie 11</adresa>
+    <mesto>Kosice-Stare Mesto</mesto>
+    <okres>Kosice I</okres>
+    <velkost>500+ zam (oblastne riaditelstvo)</velkost>
+    <telefon>055/229 4004</telefon>
+    <email></email>
+    <web>zsr.sk</web>
+    <poznamka>SILNY CIEL; OZ Kosice - najvacsi ZSR uzol na vychode; vlastna kuchyna/zavodne stravovanie</poznamka>
+    <gps lat="48.7258034" lon="21.2581545"/>
   </prevadzka>
 </gastro_databaza>

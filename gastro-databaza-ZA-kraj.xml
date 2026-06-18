@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Zilinsky" typ="vsetky" pocet="55">
+<gastro_databaza kraj="Zilinsky" typ="vsetky" pocet="60">
   <prevadzka kategoria="Catering dodavatel" zona="ZA1">
     <firma>EL TORO, s.r.o.</firma>
     <ico>36787752</ico>
@@ -714,5 +714,70 @@
     <web>minv.sk</web>
     <poznamka>krajske riaditelstvo PZ pod MV SR (ICO 00151866), stravovanie prislusnikov, VO stravnych sluzieb</poznamka>
     <gps lat="49.2216152" lon="18.7363761"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Ziline</firma>
+    <ico>37809369</ico>
+    <adresa>Namestie poziarnikov 1</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>041/707 2201</telefon>
+    <email>sekretariat.zi@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
+    <gps lat="49.22059" lon="18.7349889"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="ZA1">
+    <firma>Zeleznice Slovenskej republiky - OR Zilina</firma>
+    <ico>31364501</ico>
+    <adresa>1. maja 34</adresa>
+    <mesto>Zilina</mesto>
+    <okres>Zilina</okres>
+    <velkost>2293 zam (oblastne riaditelstvo)</velkost>
+    <telefon>041/229 5112</telefon>
+    <email>ORZA.sekretariat@zsr.sk</email>
+    <web>zsr.sk</web>
+    <poznamka>SILNY CIEL; OZ Zilina - najvacsi ZSR uzol; vlastna kuchyna/zavodne stravovanie</poznamka>
+    <gps lat="49.2248108" lon="18.7487078"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA3">
+    <firma>Liptovska nemocnica s poliklinikou MUDr. Ivana Stodolu</firma>
+    <ico>17336163</ico>
+    <adresa>Palucanska 214/25</adresa>
+    <mesto>Liptovsky Mikulas</mesto>
+    <okres>Liptovsky Mikulas</okres>
+    <velkost>500+ zam</velkost>
+    <telefon>044/556 3100</telefon>
+    <email></email>
+    <web>nsplm.sk</web>
+    <poznamka>SILNY CIEL; ZSK; lozkova nemocnica; Liptov</poznamka>
+    <gps lat="49.0861328" lon="19.5898188"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA5">
+    <firma>Dolnooravska nemocnica s poliklinikou MUDr. L. N. Jegeho</firma>
+    <ico>00634905</ico>
+    <adresa>Nemocnicna 1944/10</adresa>
+    <mesto>Dolny Kubin</mesto>
+    <okres>Dolny Kubin</okres>
+    <velkost>250-499 zam</velkost>
+    <telefon>043/580 1111</telefon>
+    <email></email>
+    <web>donsp.sk</web>
+    <poznamka>ZSK; lozkova nemocnica; Oravia (okres Dolny Kubin)</poznamka>
+    <gps lat="49.2142852" lon="19.3031187"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="ZA4">
+    <firma>Kysucka nemocnica s poliklinikou Cadca</firma>
+    <ico>17335469</ico>
+    <adresa>Palarikova 2311</adresa>
+    <mesto>Cadca</mesto>
+    <okres>Cadca</okres>
+    <velkost>200-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>kysuckanemocnica.sk</web>
+    <poznamka>ZSK; lozkova nemocnica; Kysuce</poznamka>
+    <gps lat="49.4383465" lon="18.7720268"/>
   </prevadzka>
 </gastro_databaza>

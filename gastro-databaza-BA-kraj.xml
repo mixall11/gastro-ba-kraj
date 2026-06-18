@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="95">
+<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="96">
   <prevadzka kategoria="Catering dodavatel" zona="Z2">
     <firma>MENju s.r.o.</firma>
     <ico>53455339</ico>
@@ -1234,5 +1234,18 @@
     <web>posta.sk</web>
     <poznamka>Velky statny zamestnavatel; BA prevadzka/uzol so zamestnaneckym stravovanim</poznamka>
     <gps lat="48.170123" lon="17.1476088"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BA1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Bratislave</firma>
+    <ico>36063860</ico>
+    <adresa>Radlinskeho 6</adresa>
+    <mesto>Bratislava-Stare Mesto</mesto>
+    <okres>Bratislava I</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>0961 047 201</telefon>
+    <email>sekretariat.bl@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR 00151866)</poznamka>
+    <gps lat="48.1501233" lon="17.1148611"/>
   </prevadzka>
 </gastro_databaza>

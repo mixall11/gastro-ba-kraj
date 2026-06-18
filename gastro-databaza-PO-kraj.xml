@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Presovsky" typ="vsetky" pocet="44">
+<gastro_databaza kraj="Presovsky" typ="vsetky" pocet="52">
   <prevadzka kategoria="Catering dodavatel" zona="PO1">
     <firma>MICO s.r.o.</firma>
     <ico>47089768</ico>
@@ -571,5 +571,109 @@
     <web>lesy.sk</web>
     <poznamka>statny podnik Lesy SR, zamestnanecke stravovanie</poznamka>
     <gps lat="48.9937862" lon="21.2297657"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="PO1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Presove</firma>
+    <ico>37872061</ico>
+    <adresa>Poziarnicka 1</adresa>
+    <mesto>Presov</mesto>
+    <okres>Presov</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>051/708 2381</telefon>
+    <email>sekretariat.pv@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
+    <gps lat="48.9966046" lon="21.2357529"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO2">
+    <firma>Nemocnica Poprad a.s.</firma>
+    <ico>36513458</ico>
+    <adresa>Banicka 803/28</adresa>
+    <mesto>Poprad</mesto>
+    <okres>Poprad</okres>
+    <velkost>obrat 77 mil EUR (2025, trzby), 1000-1999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicapp.sk</web>
+    <poznamka>SILNY CIEL; statna a.s.; 1000+ zam; velka regionalna nemocnica</poznamka>
+    <gps lat="49.0518388" lon="20.3035108"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO4">
+    <firma>NsP Sv. Jakuba n.o. Bardejov</firma>
+    <ico>36167908</ico>
+    <adresa>Sv. Jakuba 21</adresa>
+    <mesto>Bardejov</mesto>
+    <okres>Bardejov</okres>
+    <velkost>obrat 42 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nsp-bardejov.sk</web>
+    <poznamka>SILNY CIEL; n.o. PSK; 500-999 zam</poznamka>
+    <gps lat="49.2872502" lon="21.2723445"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO5">
+    <firma>Nemocnica A. Lena Humenne a.s.</firma>
+    <ico>47249048</ico>
+    <adresa>Nemocnicna 7</adresa>
+    <mesto>Humenne</mesto>
+    <okres>Humenne</okres>
+    <velkost>obrat 25 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; Penta Hospitals SK (byvaly Svet zdravia); 500-999 zam</poznamka>
+    <gps lat="48.9346454" lon="21.8983233"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO6">
+    <firma>Vranovska nemocnica a.s.</firma>
+    <ico>47249021</ico>
+    <adresa>M. R. Stefanika 187/177B</adresa>
+    <mesto>Vranov nad Toplou</mesto>
+    <okres>Vranov nad Toplou</okres>
+    <velkost>obrat 26 mil EUR (2024, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; Penta Hospitals SK; 500-999 zam</poznamka>
+    <gps lat="48.8891513" lon="21.6822318"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO7">
+    <firma>Lubovnianska nemocnica n.o.</firma>
+    <ico>37886851</ico>
+    <adresa>Obrancov mieru 510/3</adresa>
+    <mesto>Stara Lubovna</mesto>
+    <okres>Stara Lubovna</okres>
+    <velkost>obrat 29 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>lubovnianskanemocnica.sk</web>
+    <poznamka>SILNY CIEL; n.o. PSK; 500-999 zam</poznamka>
+    <gps lat="49.2975195" lon="20.687879"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO3">
+    <firma>Nemocnica Dr. Vojtecha Alexandra v Kezmarku n.o.</firma>
+    <ico>37886436</ico>
+    <adresa>Huncovska 1788/42</adresa>
+    <mesto>Kezmarok</mesto>
+    <okres>Kezmarok</okres>
+    <velkost>obrat 14 mil EUR (2024, trzby), 250-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicakezmarok.agel.sk</web>
+    <poznamka>AGEL n.o.; 250-499 zam</poznamka>
+    <gps lat="49.131834" lon="20.4216313"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="PO3">
+    <firma>Nemocnica AGEL Levoca a.s.</firma>
+    <ico>36594849</ico>
+    <adresa>Probstnerova cesta 2/3082</adresa>
+    <mesto>Levoca</mesto>
+    <okres>Levoca</okres>
+    <velkost>obrat 30 mil EUR (2025, trzby), 500-999 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nemocnicalevoca.agel.sk</web>
+    <poznamka>SILNY CIEL; AGEL a.s.; 500-999 zam</poznamka>
+    <gps lat="49.0210406" lon="20.5851443"/>
   </prevadzka>
 </gastro_databaza>

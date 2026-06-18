@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="67">
+<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="75">
   <prevadzka kategoria="Catering dodavatel" zona="B1">
     <firma>Stravovanie KOZAK, s. r. o.</firma>
     <ico>57362777</ico>
@@ -870,5 +870,109 @@
     <web>ziar.sk</web>
     <poznamka>zriadovatel MS/ZS so skolskymi jedalnami v Ziari nad Hronom (odber potravin/stravy)</poznamka>
     <gps lat="48.5917457" lon="18.8496777"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="BB1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Banskej Bystrici</firma>
+    <ico>37830058</ico>
+    <adresa>Komenskeho 27</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon>0961 606 511</telefon>
+    <email>sekretariat.bc@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
+    <gps lat="48.7398807" lon="19.1472445"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="B2">
+    <firma>Zeleznice Slovenskej republiky - OR Zvolen</firma>
+    <ico>31364501</ico>
+    <adresa>M. R. Stefanika 295/4</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>100+ zam (oblastne riaditelstvo)</velkost>
+    <telefon>045/229 4004</telefon>
+    <email></email>
+    <web>zsr.sk</web>
+    <poznamka>OZ Zvolen - oblastne riaditelstvo pre BB kraj; vlastna kuchyna/zavodne stravovanie</poznamka>
+    <gps lat="48.5772763" lon="19.1227954"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B2">
+    <firma>Nemocnica AGEL Zvolen a.s.</firma>
+    <ico>45594929</ico>
+    <adresa>Kuzmanyho nabrezie 28</adresa>
+    <mesto>Zvolen</mesto>
+    <okres>Zvolen</okres>
+    <velkost>500-999 zam</velkost>
+    <telefon>045/520 1111</telefon>
+    <email>info@nemocnicazvolen.sk</email>
+    <web>nemocnicazvolen.agel.sk</web>
+    <poznamka>SILNY CIEL; AGEL skupina; lozkova nemocnica BB kraj</poznamka>
+    <gps lat="48.5804374" lon="19.1340044"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B5">
+    <firma>Nemocnica s poliklinikou Brezno n.o.</firma>
+    <ico>31908969</ico>
+    <adresa>Banisko 273/1</adresa>
+    <mesto>Brezno</mesto>
+    <okres>Brezno</okres>
+    <velkost>200-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>nspbr.sk</web>
+    <poznamka>statna n.o.; lozkova nemocnica; zriadovatel BBSK</poznamka>
+    <gps lat="48.809133" lon="19.6236492"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>Vseobecna nemocnica s poliklinikou Lucenec n.o.</firma>
+    <ico>37954571</ico>
+    <adresa>Namestie republiky 2373/15</adresa>
+    <mesto>Lucenec</mesto>
+    <okres>Lucenec</okres>
+    <velkost>200-499 zam</velkost>
+    <telefon></telefon>
+    <email></email>
+    <web>lcnsp.sk</web>
+    <poznamka>n.o.; lozkova nemocnica BB kraj</poznamka>
+    <gps lat="48.3286318" lon="19.6596809"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B6">
+    <firma>Nemocnica s poliklinikou n.o. Revuca</firma>
+    <ico>45736324</ico>
+    <adresa>Litovelska 25</adresa>
+    <mesto>Revuca</mesto>
+    <okres>Revuca</okres>
+    <velkost>200-249 zam</velkost>
+    <telefon>058/483 3333</telefon>
+    <email>nsprevuca@nsprevuca.sk</email>
+    <web>nsprevuca.sk</web>
+    <poznamka>n.o.; lozkova nemocnica; okres Revuca</poznamka>
+    <gps lat="48.6916682" lon="20.1186586"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B7">
+    <firma>Vseobecna nemocnica s poliklinikou Rimavska Sobota a.s.</firma>
+    <ico>35960884</ico>
+    <adresa>Srobarova 1</adresa>
+    <mesto>Rimavska Sobota</mesto>
+    <okres>Rimavska Sobota</okres>
+    <velkost>500+ zam</velkost>
+    <telefon>047/561 2598</telefon>
+    <email></email>
+    <web>pentahospitals.sk</web>
+    <poznamka>SILNY CIEL; Penta Hospitals (byvaly Svet zdravia); lozkova nemocnica</poznamka>
+    <gps lat="48.3843739" lon="20.0264796"/>
+  </prevadzka>
+  <prevadzka kategoria="Tackaren / zavodna jedalen" zona="B2">
+    <firma>Nemocnica AGEL Ziar nad Hronom a Banska Stiavnica s.r.o.</firma>
+    <ico>54588952</ico>
+    <adresa>Sladkovicova 11</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>200-499 zam</velkost>
+    <telefon>045/670 9964</telefon>
+    <email></email>
+    <web>nemocnicaziarnadhronom.agel.sk</web>
+    <poznamka>AGEL od 2023 (byvaly Svet zdravia); 196 lozok</poznamka>
+    <gps lat="48.590194" lon="18.8429164"/>
   </prevadzka>
 </gastro_databaza>

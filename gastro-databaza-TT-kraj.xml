@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="61">
+<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="63">
   <prevadzka kategoria="Catering dodavatel" zona="T1">
     <firma>Frape catering s.r.o.</firma>
     <ico>44178450</ico>
@@ -792,5 +792,31 @@
     <web>minv.sk</web>
     <poznamka>najvacsi okresny urad v kraji, miestna statna sprava, moznost cateringu/VO</poznamka>
     <gps lat="48.3718636" lon="17.5859539"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Krajske riaditelstvo Hasicskeho a zachranneho zboru v Trnave</firma>
+    <ico>00151866</ico>
+    <adresa>Vajanskeho 22</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>statny zbor, stovky zamestnancov; pod MV SR</velkost>
+    <telefon></telefon>
+    <email>sekretariat.tt@minv.sk</email>
+    <web>minv.sk</web>
+    <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; ICO=MV SR (vlastne ICO nedohladane)</poznamka>
+    <gps lat="48.3742834" lon="17.5853656"/>
+  </prevadzka>
+  <prevadzka kategoria="Statne firmy a urady" zona="TT1">
+    <firma>Zeleznice Slovenskej republiky - OR Trnava</firma>
+    <ico>31364501</ico>
+    <adresa>Bratislavska 2/A</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>100+ zam (oblastne riaditelstvo)</velkost>
+    <telefon>033/229 4266</telefon>
+    <email></email>
+    <web>zsr.sk</web>
+    <poznamka>OZ Trnava pokryva TT+NR kraj; vlastna kuchyna/zavodne stravovanie</poznamka>
+    <gps lat="48.3687029" lon="17.5842316"/>
   </prevadzka>
 </gastro_databaza>
