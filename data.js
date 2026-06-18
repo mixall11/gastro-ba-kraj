@@ -174,17 +174,17 @@ const GASTRO_DATA = [
   "kat": "Catering dodavatel",
   "firma": "Medusa Restaurants a.s. (Medusa Catering)",
   "ico": "35849592",
-  "adresa": "Sutazna 3",
+  "adresa": "Svatoplukova 2A",
   "mesto": "Bratislava-Ruzinov",
   "okres": "Bratislava II",
   "velkost": "trzby 28,15 mil EUR (2024), 250-499 zam",
   "tel": "+421 2 3300 2808",
-  "email": "",
+  "email": "recepcia@medusagroup.sk",
   "web": "medusarestaurants.sk",
   "zona": "Z2",
-  "pozn": "najvacsia gastro skupina SK; event catering pre tisice",
-  "lat": 48.1488728,
-  "lon": 17.1273748
+  "pozn": "najvacsia gastro skupina SK; event catering pre tisice; prevadzka Pradiareni 1900",
+  "lat": 48.1484987,
+  "lon": 17.1310906
  },
  {
   "kraj": "BA",
