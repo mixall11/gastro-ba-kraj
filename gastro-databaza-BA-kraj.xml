@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="96">
+<gastro_databaza kraj="Bratislavsky" typ="vsetky" pocet="93">
   <prevadzka kategoria="Catering dodavatel" zona="Z2">
     <firma>MENju s.r.o.</firma>
     <ico>53455339</ico>
@@ -169,32 +169,6 @@
     <poznamka>eventy + pozicovna inventara; over ICO</poznamka>
     <gps lat="48.1738535" lon="17.176006"/>
   </prevadzka>
-  <prevadzka kategoria="Catering dodavatel" zona="Z5">
-    <firma>GASTRO-CENTRUM Antovszky s.r.o.</firma>
-    <ico>31402666</ico>
-    <adresa>Hradska 26</adresa>
-    <mesto>Bratislava-Vrakuna</mesto>
-    <okres>Bratislava II</okres>
-    <velkost>spiaca firma ~0 EUR</velkost>
-    <telefon></telefon>
-    <email></email>
-    <web>antovszkycatering.sk</web>
-    <poznamka>VYRADIT - fakticky necinna</poznamka>
-    <gps lat="48.1520531" lon="17.1987878"/>
-  </prevadzka>
-  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
-    <firma>Delirest Slovakia s.r.o. (brand EUREST)</firma>
-    <ico>31342809</ico>
-    <adresa>Plynarenska 7/B</adresa>
-    <mesto>Bratislava-Ruzinov</mesto>
-    <okres>Bratislava II</okres>
-    <velkost>LIDER: 35,5 mil EUR, 500-999 zam</velkost>
-    <telefon></telefon>
-    <email></email>
-    <web>eurest.sk</web>
-    <poznamka>tel/email cez ORSR (web docasne down)</poznamka>
-    <gps lat="48.1455454" lon="17.143422"/>
-  </prevadzka>
   <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z6">
     <firma>FOOD TIME s.r.o.</firma>
     <ico>52079881</ico>
@@ -324,19 +298,6 @@
     <web>jedlobratislava.sk</web>
     <poznamka>rozvoz po celej BA vratane noci</poznamka>
     <gps lat="48.1608571" lon="17.1477295"/>
-  </prevadzka>
-  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
-    <firma>OXA Delivery Service s.r.o.</firma>
-    <ico>50293231</ico>
-    <adresa>Stredna 1</adresa>
-    <mesto>Bratislava-Ruzinov</mesto>
-    <okres>Bratislava II</okres>
-    <velkost>0,6 mil EUR (2024), 5-9 zam</velkost>
-    <telefon></telefon>
-    <email></email>
-    <web></web>
-    <poznamka>catering pre materske skoly; kontakt cez ORSR</poznamka>
-    <gps lat="48.1763819" lon="17.1703672"/>
   </prevadzka>
   <prevadzka kategoria="Tackaren / zavodna jedalen" zona="Z4">
     <firma>Eat &amp; Meet - Mlynska dolina (UK)</firma>

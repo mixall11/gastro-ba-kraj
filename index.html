@@ -83,6 +83,80 @@
   .hSection p{font-size:13px;color:var(--muted);margin:0;line-height:1.55}
   #helpClose{display:block;width:100%;padding:10px;border-radius:8px;border:0;background:#0ea5e9;color:#fff;font-size:13px;font-weight:600;cursor:pointer;margin-top:16px}
   #mapToggle{display:none}
+  /* edit form v popupe */
+  .pop-edit{margin-top:8px;padding-top:8px;border-top:1px solid #cbd5e1}
+  .pop-edit label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#64748b;margin:6px 0 2px}
+  .pop-edit input{width:100%;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;color:#0f172a;background:#fff}
+  .pop-edit-row{display:flex;gap:6px;margin-top:8px}
+  .pop-edit-row button{flex:1;padding:6px;border-radius:6px;border:0;font-size:12px;font-weight:700;cursor:pointer}
+  .pe-save{background:#16a34a;color:#fff}
+  .pe-cancel{background:#f1f5f9;color:#334155}
+  /* flags: priorita + známosť */
+  .pop-flags{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+  .flag-btn{font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;border:1px solid;cursor:pointer;transition:all .15s}
+  .flag-high{border-color:#f59e0b;background:#fef3c7;color:#b45309}
+  .flag-high.on{background:#f59e0b;color:#fff}
+  .flag-low{border-color:#38bdf8;background:#e0f2fe;color:#0369a1}
+  .flag-low.on{background:#38bdf8;color:#fff}
+  .flag-known{border-color:#4ade80;background:#dcfce7;color:#166534}
+  .flag-known.on{background:#4ade80;color:#fff}
+  .flag-unknown{border-color:#cbd5e1;background:#f1f5f9;color:#64748b}
+  .flag-unknown.on{background:#64748b;color:#fff}
+  /* modály */
+  .modal{display:none;position:fixed;inset:0;z-index:5000;background:rgba(0,0,0,.68);align-items:center;justify-content:center;padding:16px}
+  .modal.open{display:flex}
+  .modal-box{background:var(--panel);border:1px solid var(--panel2);border-radius:14px;padding:20px 22px;max-width:480px;width:100%;max-height:85vh;overflow-y:auto}
+  .modal-box h3{margin:0 0 16px;font-size:15px}
+  .modal-label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:10px 0 3px}
+  .modal-input{width:100%;padding:8px 10px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:13px;font-family:inherit}
+  .modal-textarea{min-height:80px;resize:vertical}
+  .modal-row{display:flex;gap:8px;margin-bottom:12px}
+  .modal-row>*{flex:1}
+  .m-actions{display:flex;gap:8px;margin-top:16px}
+  .m-actions button{flex:1;padding:10px;border-radius:8px;border:0;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s}
+  .m-primary{background:#0ea5e9;color:#fff}
+  .m-primary:hover{background:#0284c7}
+  .m-ghost{background:var(--panel2);color:var(--text)}
+  .m-ghost:hover{background:#475569}
+  /* plánovač overlay */
+  #planner{display:none;position:fixed;inset:0;z-index:4000;background:var(--bg);flex-direction:column}
+  #planner.open{display:flex}
+  .pl-head{display:flex;align-items:center;gap:14px;padding:12px 18px;border-bottom:1px solid var(--panel2);flex-wrap:wrap}
+  .pl-head h3{margin:0;font-size:16px;color:#fff;flex-grow:1}
+  .pl-nav{display:flex;align-items:center;gap:8px}
+  .pl-nav button{background:var(--panel2);color:var(--text);border:0;border-radius:8px;padding:7px 11px;font-size:13px;font-weight:600;cursor:pointer}
+  .pl-nav button:hover{background:#475569}
+  #plRange{font-size:14px;font-weight:700;color:#7dd3fc;min-width:190px;text-align:center}
+  .pl-actions{display:flex;gap:8px}
+  .pl-actions button{background:var(--panel2);color:var(--text);border:0;border-radius:8px;padding:7px 11px;font-size:13px;font-weight:600;cursor:pointer}
+  .pl-actions button#plClose{background:#dc2626;color:#fff}
+  .pl-body{flex:1;display:flex;min-height:0}
+  .pl-list{width:280px;flex-shrink:0;border-right:1px solid var(--panel2);display:flex;flex-direction:column;background:var(--panel)}
+  .pl-list .pl-search-wrap{padding:12px}
+  #plSearch{width:100%;padding:9px 11px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:13px}
+  #plHint{font-size:11px;color:#7dd3fc;padding:0 12px 8px}
+  #plContacts{flex:1;overflow-y:auto;padding:0 8px 12px}
+  .plc{padding:8px 10px;border-radius:8px;cursor:pointer;font-size:13px;line-height:1.35;border:1px solid transparent}
+  .plc:hover{background:var(--panel2)}
+  .plc.sel{background:#0ea5e9;color:#fff;border-color:#0ea5e9}
+  .plc small{display:block;color:var(--muted);font-size:11px}
+  .plc.sel small{color:#e0f2fe}
+  .plc .pdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+  .pl-cal{flex:1;overflow:auto;background:var(--bg)}
+  .cal-head{display:grid;grid-template-columns:54px repeat(7,1fr);position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--panel2)}
+  .cal-hcell{padding:8px 4px;text-align:center;font-size:12px;color:var(--muted);border-left:1px solid var(--panel2)}
+  .cal-hcell.today{color:#7dd3fc;font-weight:700}
+  .cal-hcell b{display:block;font-size:16px;color:var(--text)}
+  .cal-body{display:grid;grid-template-columns:54px repeat(7,1fr);grid-auto-rows:48px}
+  .cal-gutter{position:relative}
+  .cal-hour-lbl{height:48px;font-size:11px;color:var(--muted);text-align:right;padding-right:6px;border-top:1px solid var(--panel2);box-sizing:border-box}
+  .cal-day{position:relative;border-left:1px solid var(--panel2);cursor:pointer;min-height:1152px}
+  .cal-day .cal-slot{height:48px;border-top:1px solid var(--panel2);box-sizing:border-box}
+  .cal-day .cal-slot:hover{background:rgba(14,165,233,.08)}
+  .cal-day.today{background:rgba(125,211,252,.05)}
+  .cal-ev{position:absolute;left:3px;right:3px;border-radius:6px;padding:3px 6px;font-size:11px;line-height:1.25;color:#fff;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.4);z-index:2}
+  .cal-ev b{display:block;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cal-ev .evt{opacity:.85;font-size:10px}
   @media(max-width:720px){
     #app{flex-direction:column}
     #sidebar{width:100%;max-height:48vh}
@@ -162,6 +236,11 @@
     </div>
 
     <div class="box">
+      <button class="btn" onclick="openPlanner()" style="background:#7c3aed;margin-top:0">📅 Plánovač — dni a hodiny</button>
+      <button class="btn" onclick="openTrelloModal()" style="background:#0079bf;margin-top:8px">🔷 Export do Trella</button>
+    </div>
+
+    <div class="box">
       <h2>Štart trasy</h2>
       <select id="startSel">
         <optgroup label="Bratislava">
@@ -200,6 +279,70 @@
   </div>
   <div id="map"></div>
   <button id="mapToggle" aria-label="Celá mapa">🗺️ Celá mapa</button>
+  <div id="planner" class="overlay">
+    <div class="pl-head">
+      <h3>📅 Plánovač — plán na dni</h3>
+      <div class="pl-nav">
+        <button onclick="planPrevWeek()">&lt;</button>
+        <div id="plRange">Týždeň</div>
+        <button onclick="planToday()">Dnes</button>
+        <button onclick="planNextWeek()">&gt;</button>
+      </div>
+      <div class="pl-actions">
+        <button onclick="downloadIcal()" title="Stiahnuť udalosti ako .ics">⬇ iCal</button>
+        <button id="plClose" onclick="closePlanner()">✕ Zatvoriť</button>
+      </div>
+    </div>
+    <div class="pl-body">
+      <div class="pl-list">
+        <div class="pl-search-wrap">
+          <input id="plSearch" placeholder="Hľadať kontakt…" autocomplete="off">
+          <div id="plHint" style="display:none"></div>
+        </div>
+        <div id="plContacts"></div>
+      </div>
+      <div class="pl-cal" id="plCal"></div>
+    </div>
+  </div>
+  <div id="plModal" class="modal">
+    <div class="modal-box">
+      <h3 id="plModalTitle">Pridať udalosť</h3>
+      <label class="modal-label">Kontakt</label>
+      <input type="text" id="plMFirma" placeholder="Firma" readonly style="background:#f1f5f9">
+      <label class="modal-label">Dátum a čas</label>
+      <input type="text" id="plMDateTime" readonly style="background:#f1f5f9;margin-bottom:6px">
+      <label class="modal-label">Poznámka k udalosti</label>
+      <textarea id="plMNote" placeholder="napr. Schôdza s manažérom, diskusia o kapacite…" class="modal-textarea"></textarea>
+      <div class="m-actions">
+        <button class="m-primary" onclick="savePlEvent()">✓ Pridať</button>
+        <button class="m-ghost" onclick="closePlModal()">Zrušiť</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="trelloModal" class="modal">
+    <div class="modal-box">
+      <h3>🔷 Export do Trella</h3>
+      <label class="modal-label">Trello API Key</label>
+      <input type="text" id="trKey" placeholder="Skopíruj z https://trello.com/app-key" class="modal-input">
+      <label class="modal-label">Trello Token</label>
+      <input type="text" id="trToken" placeholder="Vygeneruj token vedľa API Key" class="modal-input">
+      <label class="modal-label">Board (ID alebo URL)</label>
+      <input type="text" id="trBoardId" placeholder="Skopíruj z URL: trello.com/b/[BOARD_ID]" class="modal-input">
+      <label class="modal-label">List (ID alebo názov)</label>
+      <input type="text" id="trListId" placeholder="napr. 'Kontakty' alebo list ID" class="modal-input">
+      <label class="modal-label" style="margin-top:12px">Čo exportovať?</label>
+      <div style="display:flex;gap:8px">
+        <label style="display:flex;align-items:center;gap:6px;flex:1;font-size:13px"><input type="radio" name="trExportType" value="visible" checked> Viditeľné</label>
+        <label style="display:flex;align-items:center;gap:6px;flex:1;font-size:13px"><input type="radio" name="trExportType" value="nwait"> Bez „Čaká"</label>
+      </div>
+      <div class="m-actions">
+        <button class="m-primary" onclick="exportToTrello()">📤 Exportovať</button>
+        <button class="m-ghost" onclick="closeTrelloModal()">Zrušiť</button>
+      </div>
+      <div class="m-note">Údaje (API Key, Token) sú uložené len v tomto prehliadači, neposlané na server.</div>
+    </div>
+  </div>
 </div>
 
 <div id="helpModal">
@@ -254,13 +397,28 @@ const STATUS={
 };
 const STATUS_ORDER=['wait','proc','success','fail'];
 const STATUS_STORE='gastro_status_v1';
+const CONTACT_STORE='gastro_contact_v1';
+const EVENTS_STORE='gastro_events_v1';
 let statusMap={};
+let contactMap={};
+let eventsMap=[];
 try{ statusMap=JSON.parse(localStorage.getItem(STATUS_STORE)||'{}')||{}; }catch(e){ statusMap={}; }
+try{ contactMap=JSON.parse(localStorage.getItem(CONTACT_STORE)||'{}')||{}; }catch(e){ contactMap={}; }
+try{ eventsMap=JSON.parse(localStorage.getItem(EVENTS_STORE)||'[]')||[]; }catch(e){ eventsMap=[]; }
 // stabilný kľúč bodu — IČO ak je, inak firma|mesto|adresa (prežije regeneráciu data.js)
 function bodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
 function getStatus(d){ return statusMap[bodKey(d)]||'wait'; }
 function saveStatus(){ try{ localStorage.setItem(STATUS_STORE, JSON.stringify(statusMap)); }catch(e){} }
 function setStatusFor(d,s){ const k=bodKey(d); if(s==='wait') delete statusMap[k]; else statusMap[k]=s; saveStatus(); }
+function saveContactMap(){ try{ localStorage.setItem(CONTACT_STORE, JSON.stringify(contactMap)); }catch(e){} }
+function saveEvents(){ try{ localStorage.setItem(EVENTS_STORE, JSON.stringify(eventsMap)); }catch(e){} }
+function getContactData(d){
+  const k=bodKey(d);
+  const defa={prio:'',known:'',note:'',tel:d.tel||'',email:d.email||'',meno:d.konatel||''};
+  return contactMap[k]||defa;
+}
+function setContactData(d,cd){ const k=bodKey(d); contactMap[k]=cd; saveContactMap(); }
+function updateContactField(d,field,val){ const cd=getContactData(d); cd[field]=val; setContactData(d,cd); }
 const BA_CITY=['Bratislava I','Bratislava II','Bratislava III','Bratislava IV','Bratislava V'];
 function isMimoBA(d){ return !BA_CITY.includes(d.okres); }
 function applyStatusStyle(m){
@@ -319,16 +477,41 @@ function jitter(la,lo){
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
 function popup(d,idx){
+  const cd=getContactData(d);
   let h=`<div class="pop-name">${esc(d.firma)}</div>`;
   h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]} · ${d.kraj}</span>`;
   h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
   if(d.velkost) h+=`<div class="pop-size">📊 ${esc(d.velkost)}</div>`;
-  if(d.konatel) h+=`<div class="pop-row">👤 <b>${esc(d.konatel)}</b></div>`;
-  if(d.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(d.tel).replace(/\s/g,'')}">${esc(d.tel)}</a></div>`;
-  if(d.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(d.email)}">${esc(d.email)}</a></div>`;
+
+  // flags: priorita + známosť
+  h+=`<div class="pop-flags">`;
+  h+=`<button class="flag-btn flag-high ${cd.prio==='h'?'on':''}" onclick="togglePrio(${idx},'h')" title="Vysoká priorita">⭐ Vysoká</button>`;
+  h+=`<button class="flag-btn flag-low ${cd.prio==='l'?'on':''}" onclick="togglePrio(${idx},'l')" title="Nízka priorita">Nízka</button>`;
+  h+=`<button class="flag-btn flag-known ${cd.known==='y'?'on':''}" onclick="toggleKnown(${idx},'y')" title="Známy kontakt">✓ Známy</button>`;
+  h+=`<button class="flag-btn flag-unknown ${cd.known==='n'?'on':''}" onclick="toggleKnown(${idx},'n')" title="Neznámy kontakt">? Neznámy</button>`;
+  h+=`</div>`;
+
+  // editovateľné polia
+  h+=`<div class="pop-edit">`;
+  h+=`<label>Meno (konateľ/manažér)</label>`;
+  h+=`<input type="text" id="edf_meno_${idx}" placeholder="napr. Ján Novák" value="${esc(cd.meno)}" style="font-size:12px">`;
+  h+=`<label style="margin-top:6px">Telefón</label>`;
+  h+=`<input type="text" id="edf_tel_${idx}" placeholder="napr. +421 910 123 456" value="${esc(cd.tel)}" style="font-size:12px">`;
+  h+=`<label style="margin-top:6px">Email</label>`;
+  h+=`<input type="text" id="edf_email_${idx}" placeholder="napr. contact@firma.sk" value="${esc(cd.email)}" style="font-size:12px">`;
+  h+=`<label style="margin-top:6px">Poznámka</label>`;
+  h+=`<textarea id="edf_note_${idx}" placeholder="napr. Zaujíma ho catering na firemnú párty..." style="font-size:12px;min-height:48px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-family:inherit" onblur="saveNoteField(${idx})">${esc(cd.note)}</textarea>`;
+  h+=`<div class="pop-edit-row">`;
+  h+=`<button class="pe-save" onclick="saveEditFields(${idx})">💾 Uložiť</button>`;
+  h+=`</div>`;
+  h+=`</div>`;
+
+  h+=`<div class="pop-row" style="color:#64748b;font-size:11px;margin-top:6px">Original: tel <a href="tel:${esc(d.tel||'').replace(/\s/g,'')}">${esc(d.tel||'—')}</a> · email <a href="mailto:${esc(d.email||'')}">${esc(d.email||'—')}</a></div>`;
+  if(d.konatel) h+=`<div class="pop-row">👤 <b>${esc(d.konatel)}</b> (systém)</div>`;
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
   if(d.ico)   h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
   if(d.pozn)  h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
+
   const cur=getStatus(d);
   h+=`<div class="pop-status-lbl">Stav</div><div class="pop-status">`;
   h+=STATUS_ORDER.map(s=>`<button class="${s===cur?'on':''}"${s===cur?` style="background:${STATUS[s].color}"`:''} onclick="setBodStatus(${idx},'${s}')">${STATUS[s].emoji} ${STATUS[s].label}</button>`).join('');
@@ -353,7 +536,56 @@ function setBodStatus(idx,s){
   updateStatusCounts();
   apply();
 }
+function togglePrio(idx,v){
+  const m=markers[idx]; if(!m) return;
+  const cd=getContactData(m._d);
+  cd.prio=(cd.prio===v)?'':v;
+  setContactData(m._d,cd);
+  m.setPopupContent(popup(m._d,idx));
+}
+function toggleKnown(idx,v){
+  const m=markers[idx]; if(!m) return;
+  const cd=getContactData(m._d);
+  cd.known=(cd.known===v)?'':v;
+  setContactData(m._d,cd);
+  m.setPopupContent(popup(m._d,idx));
+}
+function saveEditFields(idx){
+  const m=markers[idx]; if(!m) return;
+  const cd=getContactData(m._d);
+  cd.meno=document.getElementById('edf_meno_'+idx)?.value||'';
+  cd.tel=document.getElementById('edf_tel_'+idx)?.value||'';
+  cd.email=document.getElementById('edf_email_'+idx)?.value||'';
+  cd.note=document.getElementById('edf_note_'+idx)?.value||'';
+  setContactData(m._d,cd);
+  m.setPopupContent(popup(m._d,idx));
+}
+function saveNoteField(idx){
+  const m=markers[idx]; if(!m) return;
+  const cd=getContactData(m._d);
+  cd.note=document.getElementById('edf_note_'+idx)?.value||'';
+  setContactData(m._d,cd);
+}
 window.setBodStatus=setBodStatus;
+window.togglePrio=togglePrio;
+window.toggleKnown=toggleKnown;
+window.saveEditFields=saveEditFields;
+window.saveNoteField=saveNoteField;
+window.openPlanner=openPlanner;
+window.closePlanner=closePlanner;
+window.planPrevWeek=planPrevWeek;
+window.planNextWeek=planNextWeek;
+window.planToday=planToday;
+window.selectPlContact=selectPlContact;
+window.openPlModal=openPlModal;
+window.closePlModal=closePlModal;
+window.savePlEvent=savePlEvent;
+window.showPlEvent=showPlEvent;
+window.openTrelloModal=openTrelloModal;
+window.closeTrelloModal=closeTrelloModal;
+window.exportToTrello=exportToTrello;
+window.downloadIcal=downloadIcal;
+window.openGCalEvent=openGCalEvent;
 function updateStatusCounts(){
   const c={wait:0,proc:0,success:0,fail:0};
   markers.forEach(m=>c[getStatus(m._d)]++);
@@ -587,6 +819,254 @@ map.fitBounds(allBounds.pad(0.05));
     else if(e.key==='Escape')closeDrop();
   });
 })();
+
+// --- Plánovač (kalendár) ---
+let plMonday=null; // momentálny pondelok (js Date)
+let plSelectedContact=null; // momentálne vybraný kontakt (bodKey)
+let plModalData={bodKey:'',firma:'',start:null}; // data pre modal
+
+function setPlMonday(date){
+  const d=new Date(date);
+  d.setDate(d.getDate()-d.getDay()+1);
+  d.setHours(0,0,0,0);
+  return d;
+}
+function fmtDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function fmtTime(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');}
+function fmtDayShort(d){const dn=['Ne','Po','Ut','St','Št','Pi','So'];return dn[d.getDay()];}
+
+function openPlanner(){
+  plMonday=setPlMonday(new Date());
+  document.getElementById('planner').classList.add('open');
+  renderPlanner();
+}
+function closePlanner(){
+  document.getElementById('planner').classList.remove('open');
+  closePlModal();
+}
+function planPrevWeek(){
+  plMonday.setDate(plMonday.getDate()-7);
+  renderPlanner();
+}
+function planNextWeek(){
+  plMonday.setDate(plMonday.getDate()+7);
+  renderPlanner();
+}
+function planToday(){
+  plMonday=setPlMonday(new Date());
+  renderPlanner();
+}
+
+function renderPlanner(){
+  // update range
+  const sun=new Date(plMonday);sun.setDate(sun.getDate()+6);
+  document.getElementById('plRange').textContent=`${fmtDate(plMonday)} — ${fmtDate(sun)}`;
+
+  // kontakty v ľavo
+  const allData=markers.map(m=>({bodKey:bodKey(m._d),m:m,d:m._d}));
+  const sq=(document.getElementById('plSearch').value||'').toLowerCase();
+  const filt=sq?allData.filter(x=>(x.d.firma+' '+x.d.mesto).toLowerCase().includes(sq)):allData;
+
+  const pc=document.getElementById('plContacts');
+  pc.innerHTML=filt.map((x,i)=>{
+    const sel=plSelectedContact===x.bodKey?'sel':'';
+    const cd=getContactData(x.d);
+    return `<div class="plc ${sel}" onclick="selectPlContact('${x.bodKey.replace(/'/g,"\\'")}')"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>${esc(x.d.firma)}<small>${esc(x.d.mesto)}</small></div>`;
+  }).join('');
+
+  if(filt.length===0) document.getElementById('plHint').style.display='block';
+  else document.getElementById('plHint').style.display='none';
+
+  // kalendár v pravo (7 dní × 24 hodín)
+  const cal=document.getElementById('plCal');
+  const days=[];
+  for(let di=0;di<7;di++){
+    const d=new Date(plMonday);
+    d.setDate(d.getDate()+di);
+    days.push(d);
+  }
+
+  let h='<div class="cal-head">';
+  h+='<div class="cal-hcell"></div>';
+  days.forEach(d=>{
+    const isToday=fmtDate(d)===fmtDate(new Date());
+    h+=`<div class="cal-hcell ${isToday?'today':''}"><b>${d.getDate()}</b> ${fmtDayShort(d)}</div>`;
+  });
+  h+='</div><div class="cal-body">';
+
+  for(let hr=0;hr<24;hr++){
+    h+=`<div class="cal-hour-lbl">${String(hr).padStart(2,'0')}:00</div>`;
+    for(let di=0;di<7;di++){
+      const isToday=fmtDate(days[di])===fmtDate(new Date());
+      h+=`<div class="cal-day ${isToday?'today':''}" data-day="${di}" data-hour="${hr}" onclick="openPlModal('${fmtDate(days[di])}',${hr})"></div>`;
+    }
+  }
+  h+='</div>';
+  cal.innerHTML=h;
+
+  // namaľovať eventy na správne miesta v gridu
+  eventsMap.forEach(ev=>{
+    const start=new Date(ev.start);
+    const dayIdx=days.findIndex(d=>fmtDate(d)===fmtDate(start));
+    if(dayIdx>=0){
+      const hr=start.getHours();
+      const slot=cal.querySelector(`.cal-day[data-day="${dayIdx}"][data-hour="${hr}"]`);
+      if(slot){
+        const ev_el=document.createElement('div');
+        ev_el.className='cal-ev';
+        ev_el.style.background=ev.color||'#0ea5e9';
+        ev_el.style.top=(start.getMinutes()*48/60)+'px';
+        ev_el.style.height=Math.max(32,(ev.end-ev.start)/60000*48/60)+'px';
+        ev_el.innerHTML=`<b>${esc(ev.firma)}</b><div class="evt">${fmtTime(start)}</div>`;
+        ev_el.onclick=e=>{e.stopPropagation();showPlEvent(ev);};
+        ev_el.style.position='absolute';
+        slot.appendChild(ev_el);
+      }
+    }
+  });
+}
+
+function selectPlContact(bodKey){
+  plSelectedContact=plSelectedContact===bodKey?null:bodKey;
+  renderPlanner();
+}
+
+function openPlModal(dateStr,h24){
+  if(!plSelectedContact){alert('Vyber kontakt v zozname vľavo');return;}
+  const m=markers.find(m=>bodKey(m._d)===plSelectedContact);
+  if(!m)return;
+  plModalData={bodKey:plSelectedContact,firma:m._d.firma,start:new Date(dateStr+'T'+String(h24).padStart(2,'0')+':00:00')};
+  document.getElementById('plMFirma').value=m._d.firma;
+  document.getElementById('plMDateTime').value=fmtDate(plModalData.start)+' o '+fmtTime(plModalData.start);
+  document.getElementById('plMNote').value='';
+  document.getElementById('plModalTitle').textContent='Pridať udalosť';
+  document.getElementById('plModal').classList.add('open');
+}
+
+function closePlModal(){
+  document.getElementById('plModal').classList.remove('open');
+}
+
+function savePlEvent(){
+  if(!plModalData.start)return;
+  const note=document.getElementById('plMNote').value.trim();
+  const end=new Date(plModalData.start.getTime()+60*60*1000); // default 1h
+  eventsMap.push({
+    id:Date.now()+Math.random(),
+    bodKey:plModalData.bodKey,
+    firma:plModalData.firma,
+    start:plModalData.start.getTime(),
+    end:end.getTime(),
+    note:note,
+    color:'#0ea5e9'
+  });
+  saveEvents();
+  closePlModal();
+  renderPlanner();
+}
+
+function showPlEvent(ev){
+  const start=new Date(ev.start);
+  const txt=`${ev.firma}\n${fmtDate(start)} ${fmtTime(start)} — ${fmtTime(new Date(ev.end))}\n${ev.note||'—'}\n\n[1] Zmazať [2] Do Google Calendar [3] Zrušiť`;
+  const action=prompt(txt);
+  if(action==='1'){
+    eventsMap=eventsMap.filter(e=>e.id!==ev.id);
+    saveEvents();
+    renderPlanner();
+  } else if(action==='2'){
+    openGCalEvent(ev);
+  }
+}
+
+function openGCalEvent(ev){
+  const start=new Date(ev.start);
+  const end=new Date(ev.end);
+  const startStr=start.getFullYear()+String(start.getMonth()+1).padStart(2,'0')+String(start.getDate()).padStart(2,'0')+'T'+String(start.getHours()).padStart(2,'0')+String(start.getMinutes()).padStart(2,'0')+'00Z';
+  const endStr=end.getFullYear()+String(end.getMonth()+1).padStart(2,'0')+String(end.getDate()).padStart(2,'0')+'T'+String(end.getHours()).padStart(2,'0')+String(end.getMinutes()).padStart(2,'0')+'00Z';
+  const gcalUrl='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(ev.firma)+'&dates='+startStr+'/'+endStr+'&details='+encodeURIComponent(ev.note||'');
+  window.open(gcalUrl,'_blank');
+}
+
+function downloadIcal(){
+  if(!eventsMap.length){alert('Žiadne udalosti na export');return;}
+  let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Gastro Mapa//SK//EN\r\n';
+  eventsMap.forEach(ev=>{
+    const start=new Date(ev.start);
+    const end=new Date(ev.end);
+    const fmtDt=d=>d.getUTCFullYear()+String(d.getUTCMonth()+1).padStart(2,'0')+String(d.getUTCDate()).padStart(2,'0')+'T'+String(d.getUTCHours()).padStart(2,'0')+String(d.getUTCMinutes()).padStart(2,'0')+'00Z';
+    ics+='BEGIN:VEVENT\r\nDTSTART:'+fmtDt(start)+'\r\nDTEND:'+fmtDt(end)+'\r\nSUMMARY:'+ev.firma.replace(/\r?\n/g,'')+'\r\nDESCRIPTION:'+ev.note.replace(/\r?\n/g,' ')+'\r\nEND:VEVENT\r\n';
+  });
+  ics+='END:VCALENDAR';
+  const blob=new Blob([ics],{type:'text/calendar'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='gastro-events.ics';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(a.href);
+}
+
+document.getElementById('plSearch').addEventListener('input',renderPlanner);
+
+// --- Trello export ---
+const TRELLO_STORE='gastro_trello_v1';
+let trelloCreds={key:'',token:'',boardId:'',listId:''};
+try{ trelloCreds=JSON.parse(localStorage.getItem(TRELLO_STORE)||'{}')||{}; }catch(e){ trelloCreds={}; }
+
+function saveTrelloCreds(){
+  try{ localStorage.setItem(TRELLO_STORE, JSON.stringify(trelloCreds)); }catch(e){}
+}
+
+function openTrelloModal(){
+  document.getElementById('trKey').value=trelloCreds.key||'';
+  document.getElementById('trToken').value=trelloCreds.token||'';
+  document.getElementById('trBoardId').value=trelloCreds.boardId||'';
+  document.getElementById('trListId').value=trelloCreds.listId||'';
+  document.getElementById('trelloModal').classList.add('open');
+}
+
+function closeTrelloModal(){
+  document.getElementById('trelloModal').classList.remove('open');
+}
+
+async function exportToTrello(){
+  const key=document.getElementById('trKey').value.trim();
+  const token=document.getElementById('trToken').value.trim();
+  const boardId=document.getElementById('trBoardId').value.trim();
+  const listId=document.getElementById('trListId').value.trim();
+
+  if(!key||!token||!boardId||!listId){alert('Vyplň všetky polia');return;}
+
+  trelloCreds={key,token,boardId,listId};
+  saveTrelloCreds();
+
+  const type=document.querySelector('input[name="trExportType"]:checked')?.value||'visible';
+  const toExport=type==='visible'?markers.filter(m=>map.hasLayer(m)):markers.filter(m=>getStatus(m._d)!=='wait');
+
+  alert('Exportujem '+toExport.length+' kontaktov na Trello…');
+
+  for(const m of toExport){
+    const d=m._d;
+    const cd=getContactData(d);
+    const desc=`Meno: ${cd.meno||'—'}\nTel: ${cd.tel||'—'}\nEmail: ${cd.email||'—'}\nPrioritá: ${cd.prio==='h'?'Vysoká':cd.prio==='l'?'Nízka':'—'}\nPoznámka: ${cd.note||'—'}`;
+    const url=`https://api.trello.com/1/cards?idList=${listId}&key=${key}&token=${token}`;
+
+    try{
+      const res=await fetch(url,{
+        method:'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded'},
+        body:'name='+encodeURIComponent(d.firma)+'&desc='+encodeURIComponent(desc)
+      });
+      if(!res.ok) throw new Error('HTTP '+res.status);
+    }catch(e){
+      alert('Chyba pri exportu '+d.firma+': '+e.message);
+      return;
+    }
+  }
+  alert('✓ Všetky kontakty exportované na Trello!');
+  closeTrelloModal();
+}
 
 // --- Nápoveda ---
 document.getElementById('helpBtn').addEventListener('click',()=>document.getElementById('helpModal').classList.add('open'));
