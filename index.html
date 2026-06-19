@@ -151,9 +151,13 @@
   .plc .pdot{display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0}
   .plc-top{display:flex;align-items:center;gap:6px}
   .plc-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .plflag{font-size:11px;flex-shrink:0}
-  .pf-low{color:#38bdf8} .pf-known{color:#4ade80;font-weight:700} .pf-unk{color:#f59e0b;font-weight:700}
-  .plc.sel .plflag{filter:brightness(1.6)}
+  .plc-badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+  .plb{font-size:10px;font-weight:800;padding:2px 8px;border-radius:6px;text-transform:uppercase;letter-spacing:.02em;line-height:1.5}
+  .plb-high{background:#f59e0b;color:#fff}
+  .plb-low{background:#0ea5e9;color:#fff}
+  .plb-known{background:#16a34a;color:#fff}
+  .plb-unk{background:#64748b;color:#fff}
+  .plc.sel .plb{box-shadow:0 0 0 1.5px rgba(255,255,255,.5)}
   .plc-tag{background:none;border:0;cursor:pointer;font-size:13px;opacity:.55;padding:0 2px;flex-shrink:0;color:inherit}
   .plc-tag:hover{opacity:1}
   .plc.sel .plc-tag{opacity:.9}
@@ -1007,17 +1011,18 @@ function planToday(){
 let plRendered=[]; // bodKey v poradí renderu (pre data-i)
 function plRowHtml(x,i){
   const cd=getContactData(x.d);
-  let fl='';
-  if(cd.prio==='h') fl+='<span class="plflag" title="Vysoká priorita">⭐</span>';
-  else if(cd.prio==='l') fl+='<span class="plflag pf-low" title="Nízka priorita">▽</span>';
-  if(cd.known==='y') fl+='<span class="plflag pf-known" title="Známy kontakt">✓</span>';
-  else if(cd.known==='n') fl+='<span class="plflag pf-unk" title="Neznámy kontakt">?</span>';
+  let badges='';
+  if(cd.prio==='h') badges+='<span class="plb plb-high">★ Vysoká</span>';
+  else if(cd.prio==='l') badges+='<span class="plb plb-low">★ Nízka</span>';
+  if(cd.known==='y') badges+='<span class="plb plb-known">✓ Známy</span>';
+  else if(cd.known==='n') badges+='<span class="plb plb-unk">✕ Neznámy</span>';
   const chips=contactGroups(x.d).map(id=>`<span class="grp-chip">${esc(groupName(id))}</span>`).join('');
   const sel=plSelectedContact===x.bodKey?'sel':'';
   return `<div class="plc ${sel}" data-i="${i}">`
     +`<div class="plc-top"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>`
-    +`<span class="plc-name">${esc(x.d.firma)}</span>${fl}`
+    +`<span class="plc-name">${esc(x.d.firma)}</span>`
     +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny">🏷</button></div>`
+    +(badges?`<div class="plc-badges">${badges}</div>`:'')
     +`<small>${esc(x.d.mesto)}${chips?'<br>'+chips:''}</small></div>`;
 }
 function renderPlContacts(){
