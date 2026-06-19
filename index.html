@@ -171,6 +171,12 @@
   .plc-tag{background:none;border:0;cursor:pointer;font-size:13px;opacity:.55;padding:0 2px;flex-shrink:0;color:inherit}
   .plc-tag:hover{opacity:1}
   .plc.sel .plc-tag{opacity:.9}
+  .plc-mk{background:none;border:0;cursor:pointer;font-size:13px;padding:0 1px;flex-shrink:0;opacity:.35;color:inherit;line-height:1}
+  .plc-mk:hover{opacity:.85}
+  .plc-mk.on-h{opacity:1;color:#f59e0b}
+  .plc-mk.on-y{opacity:1;color:#22c55e}
+  .plc-mk.on-n{opacity:1;color:#fb923c}
+  .plc.sel .plc-mk{color:#fff}
   .plc-fav{background:none;border:0;cursor:pointer;font-size:15px;padding:0 2px;flex-shrink:0;color:#475569;line-height:1}
   .plc-fav:hover{color:#ef4444}
   .plc-fav.on{color:#ef4444}
@@ -386,6 +392,7 @@
       <h3 id="evMTitle">Udalosť</h3>
       <div id="evMWhen" style="font-size:13px;color:#7dd3fc;margin-bottom:6px"></div>
       <div id="evMNote" style="font-size:13px;color:var(--text);white-space:pre-wrap;margin-bottom:6px"></div>
+      <div id="evMarks"></div>
       <div class="m-actions">
         <button class="m-primary" onclick="evToGCal()" style="background:#4285f4">📅 Google Calendar</button>
         <button class="m-danger" onclick="evDelete()">🗑 Zmazať</button>
@@ -1101,8 +1108,11 @@ function plRowHtml(x,i){
     +`<div class="plc-top"><span class="plc-code">${code}</span><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>`
     +`<span class="plc-name">${esc(x.d.firma)}</span>`
     +(sched?`<span class="plc-sched-tag" title="Už v kalendári">📅</span>`:'')
+    +`<button class="plc-mk ${cd.prio==='h'?'on-h':''}" data-ki="${i}" data-mk="prio:h" title="Vysoká priorita">⭐</button>`
+    +`<button class="plc-mk ${cd.known==='y'?'on-y':''}" data-ki="${i}" data-mk="known:y" title="Známy">✓</button>`
+    +`<button class="plc-mk ${cd.known==='n'?'on-n':''}" data-ki="${i}" data-mk="known:n" title="Neznámy">✕</button>`
     +`<button class="plc-fav ${cd.fav?'on':''}" data-fav="${i}" title="Obľúbený kontakt">♥</button>`
-    +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny">🏷</button></div>`
+    +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny / viac">🏷</button></div>`
     +(badges?`<div class="plc-badges">${badges}</div>`:'')
     +`<small>${esc(x.d.mesto)}${chips?'<br>'+chips:''}</small></div>`;
 }
@@ -1172,6 +1182,7 @@ function renderPlContacts(){
       el.addEventListener('dragend',()=>{ draggedKey=null; });
     }
   });
+  pc.querySelectorAll('.plc-mk').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();applyMark(plRendered[+el.dataset.ki],el.dataset.mk);renderPlanner();}));
   pc.querySelectorAll('.plc-fav').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();toggleFavKey(plRendered[+el.dataset.fav]);}));
   pc.querySelectorAll('.plc-tag').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();openGroupModal(plRendered[+el.dataset.tag]);}));
   pc.querySelectorAll('.pl-grp-del').forEach(el=>el.addEventListener('click',()=>deleteGroup(el.dataset.del)));
@@ -1187,35 +1198,31 @@ function openGroupModal(key){
   renderGrpChecklist();
   document.getElementById('grpModal').classList.add('open');
 }
-function renderMarkControls(){
-  const m=markers.find(mm=>bodKey(mm._d)===grpModalKey);
-  if(!m){document.getElementById('grpMarks').innerHTML='';return;}
-  const cd=getContactData(m._d);
-  document.getElementById('grpMarks').innerHTML=
-    `<label class="modal-label">Priorita</label>`
-    +`<div class="mark-row">`
+// zdieľaný HTML tlačidiel označení (priorita/známosť/obľúbený)
+function markButtonsHtml(cd){
+  return `<label class="modal-label">Priorita</label><div class="mark-row">`
     +`<button class="flag-btn flag-high ${cd.prio==='h'?'on':''}" data-mk="prio:h">⭐ Vysoká</button>`
-    +`<button class="flag-btn flag-low ${cd.prio==='l'?'on':''}" data-mk="prio:l">Nízka</button>`
-    +`</div>`
-    +`<label class="modal-label">Známosť</label>`
-    +`<div class="mark-row">`
+    +`<button class="flag-btn flag-low ${cd.prio==='l'?'on':''}" data-mk="prio:l">Nízka</button></div>`
+    +`<label class="modal-label">Známosť</label><div class="mark-row">`
     +`<button class="flag-btn flag-known ${cd.known==='y'?'on':''}" data-mk="known:y">✓ Známy</button>`
-    +`<button class="flag-btn flag-unknown ${cd.known==='n'?'on':''}" data-mk="known:n">✕ Neznámy</button>`
-    +`</div>`
-    +`<label class="modal-label">Obľúbený</label>`
-    +`<div class="mark-row">`
-    +`<button class="flag-btn flag-fav ${cd.fav?'on':''}" data-mk="fav">${cd.fav?'❤':'♡'} Obľúbený</button>`
-    +`</div>`;
-  document.querySelectorAll('#grpMarks [data-mk]').forEach(b=>b.addEventListener('click',()=>setMark(b.dataset.mk)));
+    +`<button class="flag-btn flag-unknown ${cd.known==='n'?'on':''}" data-mk="known:n">✕ Neznámy</button></div>`
+    +`<label class="modal-label">Obľúbený</label><div class="mark-row">`
+    +`<button class="flag-btn flag-fav ${cd.fav?'on':''}" data-mk="fav">${cd.fav?'❤':'♡'} Obľúbený</button></div>`;
 }
-function setMark(mk){
-  const m=markers.find(mm=>bodKey(mm._d)===grpModalKey); if(!m) return;
+function applyMark(key,mk){
+  const m=markers.find(mm=>bodKey(mm._d)===key); if(!m) return;
   const cd=getContactData(m._d);
   if(mk==='fav') cd.fav=!cd.fav;
   else{ const [f,v]=mk.split(':'); cd[f]=(cd[f]===v)?'':v; }
   setContactData(m._d,cd);
   applyStatusStyle(m);
-  renderMarkControls();
+}
+function renderMarkControls(){
+  const m=markers.find(mm=>bodKey(mm._d)===grpModalKey);
+  if(!m){document.getElementById('grpMarks').innerHTML='';return;}
+  const box=document.getElementById('grpMarks');
+  box.innerHTML=markButtonsHtml(getContactData(m._d));
+  box.querySelectorAll('[data-mk]').forEach(b=>b.addEventListener('click',()=>{ applyMark(grpModalKey,b.dataset.mk); renderMarkControls(); }));
 }
 function renderGrpChecklist(){
   const m=markers.find(mm=>bodKey(mm._d)===grpModalKey);
@@ -1376,10 +1383,25 @@ let evModalEvent=null;
 function showPlEvent(ev){
   evModalEvent=ev;
   const start=new Date(ev.start);
-  document.getElementById('evMTitle').textContent=ev.firma;
+  const m=markers.find(mm=>bodKey(mm._d)===ev.bodKey);
+  const code=m?contactCode(m._d):'';
+  document.getElementById('evMTitle').textContent=(code?code+' · ':'')+ev.firma;
   document.getElementById('evMWhen').textContent=fmtDate(start)+' · '+fmtTime(start)+' — '+fmtTime(new Date(ev.end));
   document.getElementById('evMNote').textContent=ev.note||'(bez poznámky)';
+  renderEvMarks();
   document.getElementById('evModal').classList.add('open');
+}
+function renderEvMarks(){
+  if(!evModalEvent) return;
+  const m=markers.find(mm=>bodKey(mm._d)===evModalEvent.bodKey);
+  const box=document.getElementById('evMarks');
+  if(!m){ box.innerHTML=''; return; }
+  box.innerHTML=markButtonsHtml(getContactData(m._d));
+  box.querySelectorAll('[data-mk]').forEach(b=>b.addEventListener('click',()=>{
+    applyMark(evModalEvent.bodKey,b.dataset.mk);
+    renderEvMarks();
+    renderPlanner(); // živá aktualizácia bloku v kalendári aj zoznamu
+  }));
 }
 function closeEvModal(){
   document.getElementById('evModal').classList.remove('open');
