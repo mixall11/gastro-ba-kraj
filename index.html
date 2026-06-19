@@ -161,6 +161,13 @@
   .plc-tag{background:none;border:0;cursor:pointer;font-size:13px;opacity:.55;padding:0 2px;flex-shrink:0;color:inherit}
   .plc-tag:hover{opacity:1}
   .plc.sel .plc-tag{opacity:.9}
+  .plc-fav{background:none;border:0;cursor:pointer;font-size:15px;padding:0 2px;flex-shrink:0;color:#475569;line-height:1}
+  .plc-fav:hover{color:#ef4444}
+  .plc-fav.on{color:#ef4444}
+  .plc.sel .plc-fav{color:rgba(255,255,255,.5)}
+  .plc.sel .plc-fav.on{color:#fff}
+  .flag-fav{border-color:#ef4444;background:#fee2e2;color:#b91c1c}
+  .flag-fav.on{background:#ef4444;color:#fff}
   .grp-chip{display:inline-block;background:var(--panel2);color:#cbd5e1;border-radius:10px;padding:1px 7px;font-size:10px;margin:2px 3px 0 0}
   .plc.sel .grp-chip{background:rgba(255,255,255,.25);color:#fff}
   .pl-view{width:100%;margin-top:8px;padding:7px 9px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:12px;cursor:pointer}
@@ -329,6 +336,7 @@
           <select id="plGroupView" class="pl-view">
             <option value="kraj">🗺 Podľa kraja (A–Z)</option>
             <option value="abc">🔤 Abecedne (všetko)</option>
+            <option value="fav">❤ Obľúbené</option>
             <option value="group">📁 Moje skupiny</option>
           </select>
           <div id="plHint" style="display:none"></div>
@@ -578,8 +586,9 @@ function popup(d,idx){
   h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
   if(d.velkost) h+=`<div class="pop-size">📊 ${esc(d.velkost)}</div>`;
 
-  // flags: priorita + známosť
+  // flags: obľúbený + priorita + známosť
   h+=`<div class="pop-flags">`;
+  h+=`<button class="flag-btn flag-fav ${cd.fav?'on':''}" onclick="toggleFav(${idx})" title="Obľúbený kontakt">${cd.fav?'❤':'♡'} Obľúbený</button>`;
   h+=`<button class="flag-btn flag-high ${cd.prio==='h'?'on':''}" onclick="togglePrio(${idx},'h')" title="Vysoká priorita">⭐ Vysoká</button>`;
   h+=`<button class="flag-btn flag-low ${cd.prio==='l'?'on':''}" onclick="togglePrio(${idx},'l')" title="Nízka priorita">Nízka</button>`;
   h+=`<button class="flag-btn flag-known ${cd.known==='y'?'on':''}" onclick="toggleKnown(${idx},'y')" title="Známy kontakt">✓ Známy</button>`;
@@ -664,6 +673,20 @@ function toggleKnown(idx,v){
   setContactData(m._d,cd);
   m.setPopupContent(popup(m._d,idx));
 }
+function toggleFav(idx){
+  const m=markers[idx]; if(!m) return;
+  const cd=getContactData(m._d);
+  cd.fav=!cd.fav;
+  setContactData(m._d,cd);
+  m.setPopupContent(popup(m._d,idx));
+}
+function toggleFavKey(key){
+  const m=markers.find(mm=>bodKey(mm._d)===key); if(!m) return;
+  const cd=getContactData(m._d);
+  cd.fav=!cd.fav;
+  setContactData(m._d,cd);
+  renderPlanner();
+}
 function enterEdit(idx){
   popupEditIdx=idx;
   const m=markers[idx]; if(m) m.setPopupContent(popup(m._d,idx));
@@ -710,6 +733,8 @@ function updateTotal(){
 window.setBodStatus=setBodStatus;
 window.togglePrio=togglePrio;
 window.toggleKnown=toggleKnown;
+window.toggleFav=toggleFav;
+window.toggleFavKey=toggleFavKey;
 window.enterEdit=enterEdit;
 window.cancelEdit=cancelEdit;
 window.saveEditFields=saveEditFields;
@@ -988,13 +1013,17 @@ function fmtDate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2
 function fmtTime(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');}
 function fmtDayShort(d){const dn=['Ne','Po','Ut','St','Št','Pi','So'];return dn[d.getDay()];}
 
+const PLANNER_OPEN_STORE='gastro_planner_open_v1';
 function openPlanner(){
   plMonday=setPlMonday(new Date());
+  try{ const v=localStorage.getItem('gastro_planner_view_v1'); if(v) document.getElementById('plGroupView').value=v; }catch(e){}
   document.getElementById('planner').classList.add('open');
+  try{ localStorage.setItem(PLANNER_OPEN_STORE,'1'); }catch(e){}
   renderPlanner();
 }
 function closePlanner(){
   document.getElementById('planner').classList.remove('open');
+  try{ localStorage.removeItem(PLANNER_OPEN_STORE); }catch(e){}
   closePlModal();
 }
 function planPrevWeek(){
@@ -1023,6 +1052,7 @@ function plRowHtml(x,i){
   return `<div class="plc ${sel}" data-i="${i}">`
     +`<div class="plc-top"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>`
     +`<span class="plc-name">${esc(x.d.firma)}</span>`
+    +`<button class="plc-fav ${cd.fav?'on':''}" data-fav="${i}" title="Obľúbený kontakt">♥</button>`
     +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny">🏷</button></div>`
     +(badges?`<div class="plc-badges">${badges}</div>`:'')
     +`<small>${esc(x.d.mesto)}${chips?'<br>'+chips:''}</small></div>`;
@@ -1037,8 +1067,13 @@ function renderPlContacts(){
   const markRank=x=>{const cd=getContactData(x.d);return cd.prio==='h'?0:cd.prio==='l'?1:2;};
   const byMark=(a,b)=>{const r=markRank(a)-markRank(b);return r!==0?r:byName(a,b);};
 
-  const rows=[]; // {hdr,gid} alebo {x}
-  if(view==='group'){
+  const rows=[]; // {hdr,gid} alebo {x} alebo {msg}
+  if(view==='fav'){
+    const favs=filt.filter(x=>getContactData(x.d).fav).sort(byMark);
+    rows.push({hdr:'❤ Obľúbené ('+favs.length+')'});
+    if(!favs.length) rows.push({msg:'Zatiaľ žiadne obľúbené. Klikni ♥ pri kontakte alebo „❤ Obľúbený" v detaile na mape.'});
+    favs.forEach(x=>rows.push({x}));
+  } else if(view==='group'){
     groupsList.forEach(g=>{
       const mem=filt.filter(x=>contactGroups(x.d).includes(g.id)).sort(byMark);
       rows.push({hdr:'📁 '+g.name+' ('+mem.length+')',gid:g.id});
@@ -1067,7 +1102,9 @@ function renderPlContacts(){
   plRendered=[];
   let html='';
   rows.forEach(r=>{
-    if(r.hdr!==undefined){
+    if(r.msg!==undefined){
+      html+=`<div class="m-note" style="padding:8px 10px">${esc(r.msg)}</div>`;
+    } else if(r.hdr!==undefined){
       html+=`<div class="pl-grp">${esc(r.hdr)}${r.gid?`<span class="pl-grp-del" data-del="${r.gid}" title="Zmazať skupinu">✕</span>`:''}</div>`;
     } else {
       const i=plRendered.length; plRendered.push(r.x.bodKey);
@@ -1077,6 +1114,7 @@ function renderPlContacts(){
   const pc=document.getElementById('plContacts');
   pc.innerHTML=html;
   pc.querySelectorAll('.plc').forEach(el=>el.addEventListener('click',()=>selectPlContact(plRendered[+el.dataset.i])));
+  pc.querySelectorAll('.plc-fav').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();toggleFavKey(plRendered[+el.dataset.fav]);}));
   pc.querySelectorAll('.plc-tag').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();openGroupModal(plRendered[+el.dataset.tag]);}));
   pc.querySelectorAll('.pl-grp-del').forEach(el=>el.addEventListener('click',()=>deleteGroup(el.dataset.del)));
 }
@@ -1290,7 +1328,11 @@ function downloadIcal(){
 }
 
 document.getElementById('plSearch').addEventListener('input',renderPlanner);
-document.getElementById('plGroupView').addEventListener('change',renderPlanner);
+const PLANNER_VIEW_STORE='gastro_planner_view_v1';
+document.getElementById('plGroupView').addEventListener('change',e=>{
+  try{ localStorage.setItem(PLANNER_VIEW_STORE,e.target.value); }catch(_){}
+  renderPlanner();
+});
 
 // --- Trello export ---
 const TRELLO_STORE='gastro_trello_v1';
@@ -1396,6 +1438,9 @@ document.addEventListener('keydown',e=>{
   document.querySelectorAll('.modal.open').forEach(m=>m.classList.remove('open'));
   if(!document.querySelector('.modal.open') && document.getElementById('planner').classList.contains('open')) closePlanner();
 });
+
+// po refreshi: ak bol plánovač otvorený, znova ho otvor (neskáč na mapu)
+try{ if(localStorage.getItem(PLANNER_OPEN_STORE)==='1') openPlanner(); }catch(e){}
 </script>
 </body>
 </html>
