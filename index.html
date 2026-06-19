@@ -91,6 +91,11 @@
   .pop-edit-row button{flex:1;padding:6px;border-radius:6px;border:0;font-size:12px;font-weight:700;cursor:pointer}
   .pe-save{background:#16a34a;color:#fff}
   .pe-cancel{background:#f1f5f9;color:#334155}
+  .pe-edit{background:#0ea5e9;color:#fff}
+  .pe-del{background:#fee2e2;color:#b91c1c}
+  .pe-del:hover{background:#dc2626;color:#fff}
+  .pop-note{background:#fffbeb;border:1px solid #fde68a;border-radius:6px;padding:5px 8px;margin:6px 0;color:#92400e;font-size:12px;line-height:1.4}
+  .pop-contact{margin-top:6px}
   /* flags: priorita + známosť */
   .pop-flags{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
   .flag-btn{font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;border:1px solid;cursor:pointer;transition:all .15s}
@@ -118,6 +123,8 @@
   .m-primary:hover{background:#0284c7}
   .m-ghost{background:var(--panel2);color:var(--text)}
   .m-ghost:hover{background:#475569}
+  .m-danger{background:#dc2626;color:#fff}
+  .m-danger:hover{background:#b91c1c}
   /* plánovač overlay */
   #planner{display:none;position:fixed;inset:0;z-index:4000;background:var(--bg);flex-direction:column}
   #planner.open{display:flex}
@@ -148,15 +155,13 @@
   .cal-hcell.today{color:#7dd3fc;font-weight:700}
   .cal-hcell b{display:block;font-size:16px;color:var(--text)}
   .cal-body{display:grid;grid-template-columns:54px repeat(7,1fr);grid-auto-rows:48px}
-  .cal-gutter{position:relative}
-  .cal-hour-lbl{height:48px;font-size:11px;color:var(--muted);text-align:right;padding-right:6px;border-top:1px solid var(--panel2);box-sizing:border-box}
-  .cal-day{position:relative;border-left:1px solid var(--panel2);cursor:pointer;min-height:1152px}
-  .cal-day .cal-slot{height:48px;border-top:1px solid var(--panel2);box-sizing:border-box}
-  .cal-day .cal-slot:hover{background:rgba(14,165,233,.08)}
-  .cal-day.today{background:rgba(125,211,252,.05)}
-  .cal-ev{position:absolute;left:3px;right:3px;border-radius:6px;padding:3px 6px;font-size:11px;line-height:1.25;color:#fff;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.4);z-index:2}
+  .cal-hour-lbl{font-size:11px;color:var(--muted);text-align:right;padding-right:6px;border-top:1px solid var(--panel2);box-sizing:border-box;padding-top:2px}
+  .cal-day{position:relative;border-left:1px solid var(--panel2);border-top:1px solid var(--panel2);cursor:pointer}
+  .cal-day:hover{background:rgba(14,165,233,.08)}
+  .cal-day.today{background:rgba(125,211,252,.06)}
+  .cal-ev{position:absolute;left:2px;right:2px;border-radius:5px;padding:2px 5px;font-size:10px;line-height:1.2;color:#fff;overflow:hidden;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.4);z-index:2}
   .cal-ev b{display:block;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .cal-ev .evt{opacity:.85;font-size:10px}
+  .cal-ev .evt{opacity:.85;font-size:9px}
   @media(max-width:720px){
     #app{flex-direction:column}
     #sidebar{width:100%;max-height:48vh}
@@ -238,6 +243,7 @@
     <div class="box">
       <button class="btn" onclick="openPlanner()" style="background:#7c3aed;margin-top:0">📅 Plánovač — dni a hodiny</button>
       <button class="btn" onclick="openTrelloModal()" style="background:#0079bf;margin-top:8px">🔷 Export do Trella</button>
+      <button class="btn" onclick="restoreDeleted()" style="background:transparent;border:1px solid var(--panel2);color:var(--muted);font-weight:500;margin-top:8px">♻ Obnoviť zmazané profily</button>
     </div>
 
     <div class="box">
@@ -289,7 +295,8 @@
         <button onclick="planNextWeek()">&gt;</button>
       </div>
       <div class="pl-actions">
-        <button onclick="downloadIcal()" title="Stiahnuť udalosti ako .ics">⬇ iCal</button>
+        <button onclick="downloadIcal()" title="Stiahnuť udalosti ako .ics (Google/Apple Calendar)">⬇ iCal / Google</button>
+        <button onclick="exportEventsToTrello()" title="Exportovať udalosti na Trello s termínmi">🔷 Trello</button>
         <button id="plClose" onclick="closePlanner()">✕ Zatvoriť</button>
       </div>
     </div>
@@ -310,12 +317,36 @@
       <label class="modal-label">Kontakt</label>
       <input type="text" id="plMFirma" placeholder="Firma" readonly style="background:#f1f5f9">
       <label class="modal-label">Dátum a čas</label>
-      <input type="text" id="plMDateTime" readonly style="background:#f1f5f9;margin-bottom:6px">
+      <input type="text" id="plMDateTime" readonly style="background:#f1f5f9">
+      <label class="modal-label">Trvanie</label>
+      <select id="plMDur" class="modal-input">
+        <option value="30">30 min</option>
+        <option value="60" selected>1 hodina</option>
+        <option value="90">1,5 hodiny</option>
+        <option value="120">2 hodiny</option>
+        <option value="180">3 hodiny</option>
+        <option value="240">4 hodiny</option>
+      </select>
       <label class="modal-label">Poznámka k udalosti</label>
       <textarea id="plMNote" placeholder="napr. Schôdza s manažérom, diskusia o kapacite…" class="modal-textarea"></textarea>
       <div class="m-actions">
         <button class="m-primary" onclick="savePlEvent()">✓ Pridať</button>
         <button class="m-ghost" onclick="closePlModal()">Zrušiť</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="evModal" class="modal">
+    <div class="modal-box">
+      <h3 id="evMTitle">Udalosť</h3>
+      <div id="evMWhen" style="font-size:13px;color:#7dd3fc;margin-bottom:6px"></div>
+      <div id="evMNote" style="font-size:13px;color:var(--text);white-space:pre-wrap;margin-bottom:6px"></div>
+      <div class="m-actions">
+        <button class="m-primary" onclick="evToGCal()" style="background:#4285f4">📅 Google Calendar</button>
+        <button class="m-danger" onclick="evDelete()">🗑 Zmazať</button>
+      </div>
+      <div class="m-actions" style="margin-top:8px">
+        <button class="m-ghost" onclick="closeEvModal()">Zavrieť</button>
       </div>
     </div>
   </div>
@@ -399,12 +430,15 @@ const STATUS_ORDER=['wait','proc','success','fail'];
 const STATUS_STORE='gastro_status_v1';
 const CONTACT_STORE='gastro_contact_v1';
 const EVENTS_STORE='gastro_events_v1';
+const DELETED_STORE='gastro_deleted_v1';
 let statusMap={};
 let contactMap={};
 let eventsMap=[];
+let deletedSet=new Set();
 try{ statusMap=JSON.parse(localStorage.getItem(STATUS_STORE)||'{}')||{}; }catch(e){ statusMap={}; }
 try{ contactMap=JSON.parse(localStorage.getItem(CONTACT_STORE)||'{}')||{}; }catch(e){ contactMap={}; }
 try{ eventsMap=JSON.parse(localStorage.getItem(EVENTS_STORE)||'[]')||[]; }catch(e){ eventsMap=[]; }
+try{ deletedSet=new Set(JSON.parse(localStorage.getItem(DELETED_STORE)||'[]')||[]); }catch(e){ deletedSet=new Set(); }
 // stabilný kľúč bodu — IČO ak je, inak firma|mesto|adresa (prežije regeneráciu data.js)
 function bodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
 function getStatus(d){ return statusMap[bodKey(d)]||'wait'; }
@@ -412,6 +446,8 @@ function saveStatus(){ try{ localStorage.setItem(STATUS_STORE, JSON.stringify(st
 function setStatusFor(d,s){ const k=bodKey(d); if(s==='wait') delete statusMap[k]; else statusMap[k]=s; saveStatus(); }
 function saveContactMap(){ try{ localStorage.setItem(CONTACT_STORE, JSON.stringify(contactMap)); }catch(e){} }
 function saveEvents(){ try{ localStorage.setItem(EVENTS_STORE, JSON.stringify(eventsMap)); }catch(e){} }
+function saveDeleted(){ try{ localStorage.setItem(DELETED_STORE, JSON.stringify([...deletedSet])); }catch(e){} }
+function isDeleted(d){ return deletedSet.has(bodKey(d)); }
 function getContactData(d){
   const k=bodKey(d);
   const defa={prio:'',known:'',note:'',tel:d.tel||'',email:d.email||'',meno:d.konatel||''};
@@ -436,6 +472,11 @@ function applyStatusStyle(m){
   } else {
     m.setStyle({fillOpacity:dim?.28:.95,color:dim?'#475569':'#fff',weight:dim?1:2});
     m.setRadius(dim?6:7);
+  }
+  // vysoká priorita = zlatý prsteň navrch (okrem neúspechu)
+  if(getContactData(m._d).prio==='h' && st!=='fail'){
+    m.setStyle({color:'#f59e0b',weight:dim?2:4});
+    m.setRadius(dim?7:9);
   }
 }
 const STARTS={
@@ -476,8 +517,10 @@ function jitter(la,lo){
   return [la+r*Math.cos(ang), lo+r*Math.sin(ang)];
 }
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+let popupEditIdx=null;
 function popup(d,idx){
   const cd=getContactData(d);
+  const editing=popupEditIdx===idx;
   let h=`<div class="pop-name">${esc(d.firma)}</div>`;
   h+=`<span class="pop-badge" style="background:${COLORS[d.kat]}">${LABEL[d.kat]} · ${d.kraj}</span>`;
   h+=`<div class="pop-row">📍 ${esc(d.adresa)}, ${esc(d.mesto)} <i>(${esc(d.okres)})</i></div>`;
@@ -491,23 +534,39 @@ function popup(d,idx){
   h+=`<button class="flag-btn flag-unknown ${cd.known==='n'?'on':''}" onclick="toggleKnown(${idx},'n')" title="Neznámy kontakt">? Neznámy</button>`;
   h+=`</div>`;
 
-  // editovateľné polia
-  h+=`<div class="pop-edit">`;
-  h+=`<label>Meno (konateľ/manažér)</label>`;
-  h+=`<input type="text" id="edf_meno_${idx}" placeholder="napr. Ján Novák" value="${esc(cd.meno)}" style="font-size:12px">`;
-  h+=`<label style="margin-top:6px">Telefón</label>`;
-  h+=`<input type="text" id="edf_tel_${idx}" placeholder="napr. +421 910 123 456" value="${esc(cd.tel)}" style="font-size:12px">`;
-  h+=`<label style="margin-top:6px">Email</label>`;
-  h+=`<input type="text" id="edf_email_${idx}" placeholder="napr. contact@firma.sk" value="${esc(cd.email)}" style="font-size:12px">`;
-  h+=`<label style="margin-top:6px">Poznámka</label>`;
-  h+=`<textarea id="edf_note_${idx}" placeholder="napr. Zaujíma ho catering na firemnú párty..." style="font-size:12px;min-height:48px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-family:inherit" onblur="saveNoteField(${idx})">${esc(cd.note)}</textarea>`;
-  h+=`<div class="pop-edit-row">`;
-  h+=`<button class="pe-save" onclick="saveEditFields(${idx})">💾 Uložiť</button>`;
-  h+=`</div>`;
-  h+=`</div>`;
+  if(editing){
+    // editačný režim — polia + akcie
+    h+=`<div class="pop-edit">`;
+    h+=`<label>Meno (konateľ/manažér)</label>`;
+    h+=`<input type="text" id="edf_meno_${idx}" placeholder="napr. Ján Novák" value="${esc(cd.meno)}" style="font-size:12px">`;
+    h+=`<label style="margin-top:6px">Telefón</label>`;
+    h+=`<input type="text" id="edf_tel_${idx}" placeholder="napr. +421 910 123 456" value="${esc(cd.tel)}" style="font-size:12px">`;
+    h+=`<label style="margin-top:6px">Email</label>`;
+    h+=`<input type="text" id="edf_email_${idx}" placeholder="napr. contact@firma.sk" value="${esc(cd.email)}" style="font-size:12px">`;
+    h+=`<label style="margin-top:6px">Poznámka</label>`;
+    h+=`<textarea id="edf_note_${idx}" placeholder="napr. Zaujíma ho catering na firemnú párty..." style="font-size:12px;min-height:48px;padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px;font-family:inherit">${esc(cd.note)}</textarea>`;
+    h+=`<div class="pop-edit-row">`;
+    h+=`<button class="pe-save" onclick="saveEditFields(${idx})">💾 Uložiť úpravy</button>`;
+    h+=`<button class="pe-cancel" onclick="cancelEdit(${idx})">✕ Zrušiť</button>`;
+    h+=`</div>`;
+    h+=`<div class="pop-edit-row">`;
+    h+=`<button class="pe-del" onclick="deleteProfile(${idx})">🗑 Zmazať celý profil</button>`;
+    h+=`</div>`;
+    h+=`</div>`;
+  } else {
+    // čítací režim — aktuálne kontaktné údaje + akcie
+    h+=`<div class="pop-contact">`;
+    if(cd.meno)  h+=`<div class="pop-row">👤 <b>${esc(cd.meno)}</b></div>`;
+    if(cd.tel)   h+=`<div class="pop-row">📞 <a href="tel:${esc(cd.tel).replace(/\s/g,'')}">${esc(cd.tel)}</a></div>`;
+    if(cd.email) h+=`<div class="pop-row">✉️ <a href="mailto:${esc(cd.email)}">${esc(cd.email)}</a></div>`;
+    if(cd.note)  h+=`<div class="pop-note">📝 ${esc(cd.note)}</div>`;
+    h+=`</div>`;
+    h+=`<div class="pop-edit-row">`;
+    h+=`<button class="pe-edit" onclick="enterEdit(${idx})">✏️ Upraviť kontakt</button>`;
+    h+=`<button class="pe-del" onclick="deleteProfile(${idx})">🗑 Zmazať profil</button>`;
+    h+=`</div>`;
+  }
 
-  h+=`<div class="pop-row" style="color:#64748b;font-size:11px;margin-top:6px">Original: tel <a href="tel:${esc(d.tel||'').replace(/\s/g,'')}">${esc(d.tel||'—')}</a> · email <a href="mailto:${esc(d.email||'')}">${esc(d.email||'—')}</a></div>`;
-  if(d.konatel) h+=`<div class="pop-row">👤 <b>${esc(d.konatel)}</b> (systém)</div>`;
   if(d.web)   h+=`<div class="pop-row">🌐 <a href="https://${esc(d.web)}" target="_blank" rel="noopener">${esc(d.web)}</a></div>`;
   if(d.ico)   h+=`<div class="pop-row">IČO: <b>${esc(d.ico)}</b></div>`;
   if(d.pozn)  h+=`<div class="pop-row" style="color:#64748b;font-size:12px;margin-top:5px">${esc(d.pozn)}</div>`;
@@ -526,7 +585,9 @@ GASTRO_DATA.forEach(d=>{
   const [la,lo]=jitter(d.lat,d.lon);
   const idx=markers.length;
   const m=L.circleMarker([la,lo],{radius:7,color:'#fff',weight:2,fillColor:COLORS[d.kat]||'#64748b',fillOpacity:.95}).bindPopup(()=>popup(d,idx));
-  m._d=d; m._i=idx; markers.push(m); m.addTo(map); applyStatusStyle(m);
+  m._d=d; m._i=idx; markers.push(m);
+  if(!isDeleted(d)) m.addTo(map);
+  applyStatusStyle(m);
 });
 function setBodStatus(idx,s){
   const m=markers[idx]; if(!m) return;
@@ -541,6 +602,7 @@ function togglePrio(idx,v){
   const cd=getContactData(m._d);
   cd.prio=(cd.prio===v)?'':v;
   setContactData(m._d,cd);
+  applyStatusStyle(m);
   m.setPopupContent(popup(m._d,idx));
 }
 function toggleKnown(idx,v){
@@ -550,6 +612,14 @@ function toggleKnown(idx,v){
   setContactData(m._d,cd);
   m.setPopupContent(popup(m._d,idx));
 }
+function enterEdit(idx){
+  popupEditIdx=idx;
+  const m=markers[idx]; if(m) m.setPopupContent(popup(m._d,idx));
+}
+function cancelEdit(idx){
+  popupEditIdx=null;
+  const m=markers[idx]; if(m) m.setPopupContent(popup(m._d,idx));
+}
 function saveEditFields(idx){
   const m=markers[idx]; if(!m) return;
   const cd=getContactData(m._d);
@@ -558,19 +628,41 @@ function saveEditFields(idx){
   cd.email=document.getElementById('edf_email_'+idx)?.value||'';
   cd.note=document.getElementById('edf_note_'+idx)?.value||'';
   setContactData(m._d,cd);
+  popupEditIdx=null;
   m.setPopupContent(popup(m._d,idx));
 }
-function saveNoteField(idx){
+function deleteProfile(idx){
   const m=markers[idx]; if(!m) return;
-  const cd=getContactData(m._d);
-  cd.note=document.getElementById('edf_note_'+idx)?.value||'';
-  setContactData(m._d,cd);
+  if(!confirm('Naozaj zmazať celý profil „'+m._d.firma+'"?\n\nZmizne z mapy aj zo zoznamu. (Obnoviť sa dá len cez „Obnoviť zmazané".)')) return;
+  deletedSet.add(bodKey(m._d));
+  saveDeleted();
+  popupEditIdx=null;
+  map.closePopup();
+  if(map.hasLayer(m)) map.removeLayer(m);
+  updateTotal();
+  apply();
+  if(document.getElementById('planner').classList.contains('open')) renderPlanner();
+}
+function restoreDeleted(){
+  if(!deletedSet.size){alert('Žiadne zmazané profily.');return;}
+  if(!confirm('Obnoviť všetkých '+deletedSet.size+' zmazaných profilov?')) return;
+  deletedSet.clear();
+  saveDeleted();
+  updateTotal();
+  apply();
+}
+function updateTotal(){
+  const live=markers.filter(m=>!isDeleted(m._d)).length;
+  document.getElementById('total').textContent=live;
 }
 window.setBodStatus=setBodStatus;
 window.togglePrio=togglePrio;
 window.toggleKnown=toggleKnown;
+window.enterEdit=enterEdit;
+window.cancelEdit=cancelEdit;
 window.saveEditFields=saveEditFields;
-window.saveNoteField=saveNoteField;
+window.deleteProfile=deleteProfile;
+window.restoreDeleted=restoreDeleted;
 window.openPlanner=openPlanner;
 window.closePlanner=closePlanner;
 window.planPrevWeek=planPrevWeek;
@@ -581,9 +673,13 @@ window.openPlModal=openPlModal;
 window.closePlModal=closePlModal;
 window.savePlEvent=savePlEvent;
 window.showPlEvent=showPlEvent;
+window.closeEvModal=closeEvModal;
+window.evDelete=evDelete;
+window.evToGCal=evToGCal;
 window.openTrelloModal=openTrelloModal;
 window.closeTrelloModal=closeTrelloModal;
 window.exportToTrello=exportToTrello;
+window.exportEventsToTrello=exportEventsToTrello;
 window.downloadIcal=downloadIcal;
 window.openGCalEvent=openGCalEvent;
 function updateStatusCounts(){
@@ -602,7 +698,7 @@ function importStatus(e){
   r.onload=()=>{ try{ const o=JSON.parse(r.result); if(o&&typeof o==='object'){ statusMap=Object.assign(statusMap,o); saveStatus(); markers.forEach(applyStatusStyle); updateStatusCounts(); apply(); alert('Stavy načítané zo zálohy.'); } else alert('Neplatný formát.'); }catch(err){ alert('Neplatný JSON súbor.'); } e.target.value=''; };
   r.readAsText(f);
 }
-document.getElementById('total').textContent=markers.length;
+updateTotal();
 const allBounds=L.latLngBounds(markers.map(m=>m.getLatLng()));
 
 // --- okresne filtre (podla kraja) ---
@@ -726,7 +822,7 @@ function apply(){
   let n=0;
   markers.forEach(m=>{
     const d=m._d;
-    const hit=kats.includes(d.kat)&&oks.includes(d.okres)&&sts.includes(getStatus(d))
+    const hit=!isDeleted(d)&&kats.includes(d.kat)&&oks.includes(d.okres)&&sts.includes(getStatus(d))
       &&(!q||(d.firma+' '+d.mesto+' '+d.adresa+' '+d.okres).toLowerCase().includes(q));
     if(hit){if(!map.hasLayer(m))m.addTo(map);n++;}
     else if(map.hasLayer(m))map.removeLayer(m);
@@ -862,20 +958,21 @@ function renderPlanner(){
   const sun=new Date(plMonday);sun.setDate(sun.getDate()+6);
   document.getElementById('plRange').textContent=`${fmtDate(plMonday)} — ${fmtDate(sun)}`;
 
-  // kontakty v ľavo
-  const allData=markers.map(m=>({bodKey:bodKey(m._d),m:m,d:m._d}));
+  // kontakty v ľavo (bez zmazaných)
+  const allData=markers.filter(m=>!isDeleted(m._d)).map(m=>({bodKey:bodKey(m._d),d:m._d}));
   const sq=(document.getElementById('plSearch').value||'').toLowerCase();
   const filt=sq?allData.filter(x=>(x.d.firma+' '+x.d.mesto).toLowerCase().includes(sq)):allData;
 
   const pc=document.getElementById('plContacts');
   pc.innerHTML=filt.map((x,i)=>{
     const sel=plSelectedContact===x.bodKey?'sel':'';
-    const cd=getContactData(x.d);
-    return `<div class="plc ${sel}" onclick="selectPlContact('${x.bodKey.replace(/'/g,"\\'")}')"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>${esc(x.d.firma)}<small>${esc(x.d.mesto)}</small></div>`;
+    return `<div class="plc ${sel}" data-i="${i}"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>${esc(x.d.firma)}<small>${esc(x.d.mesto)}</small></div>`;
   }).join('');
+  pc.querySelectorAll('.plc').forEach(el=>el.addEventListener('click',()=>selectPlContact(filt[+el.dataset.i].bodKey)));
 
-  if(filt.length===0) document.getElementById('plHint').style.display='block';
-  else document.getElementById('plHint').style.display='none';
+  const hint=document.getElementById('plHint');
+  hint.textContent=plSelectedContact?'✓ Vybraný — klikni na čas v kalendári':'Klikni na firmu, potom na hodinu v kalendári';
+  hint.style.display='block';
 
   // kalendár v pravo (7 dní × 24 hodín)
   const cal=document.getElementById('plCal');
@@ -950,7 +1047,8 @@ function closePlModal(){
 function savePlEvent(){
   if(!plModalData.start)return;
   const note=document.getElementById('plMNote').value.trim();
-  const end=new Date(plModalData.start.getTime()+60*60*1000); // default 1h
+  const durMin=+document.getElementById('plMDur').value||60;
+  const end=new Date(plModalData.start.getTime()+durMin*60*1000);
   eventsMap.push({
     id:Date.now()+Math.random(),
     bodKey:plModalData.bodKey,
@@ -965,36 +1063,58 @@ function savePlEvent(){
   renderPlanner();
 }
 
+let evModalEvent=null;
 function showPlEvent(ev){
+  evModalEvent=ev;
   const start=new Date(ev.start);
-  const txt=`${ev.firma}\n${fmtDate(start)} ${fmtTime(start)} — ${fmtTime(new Date(ev.end))}\n${ev.note||'—'}\n\n[1] Zmazať [2] Do Google Calendar [3] Zrušiť`;
-  const action=prompt(txt);
-  if(action==='1'){
-    eventsMap=eventsMap.filter(e=>e.id!==ev.id);
-    saveEvents();
-    renderPlanner();
-  } else if(action==='2'){
-    openGCalEvent(ev);
-  }
+  document.getElementById('evMTitle').textContent=ev.firma;
+  document.getElementById('evMWhen').textContent=fmtDate(start)+' · '+fmtTime(start)+' — '+fmtTime(new Date(ev.end));
+  document.getElementById('evMNote').textContent=ev.note||'(bez poznámky)';
+  document.getElementById('evModal').classList.add('open');
+}
+function closeEvModal(){
+  document.getElementById('evModal').classList.remove('open');
+  evModalEvent=null;
+}
+function evDelete(){
+  if(!evModalEvent)return;
+  eventsMap=eventsMap.filter(e=>e.id!==evModalEvent.id);
+  saveEvents();
+  closeEvModal();
+  renderPlanner();
+}
+function evToGCal(){
+  if(evModalEvent) openGCalEvent(evModalEvent);
 }
 
+// UTC formát pre kalendárové exporty (start je local epoch → getUTC* dá správny UTC)
+function utcStamp(d){
+  return d.getUTCFullYear()+String(d.getUTCMonth()+1).padStart(2,'0')+String(d.getUTCDate()).padStart(2,'0')
+    +'T'+String(d.getUTCHours()).padStart(2,'0')+String(d.getUTCMinutes()).padStart(2,'0')+'00Z';
+}
+function icsEsc(s){ return (s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n'); }
+
 function openGCalEvent(ev){
-  const start=new Date(ev.start);
-  const end=new Date(ev.end);
-  const startStr=start.getFullYear()+String(start.getMonth()+1).padStart(2,'0')+String(start.getDate()).padStart(2,'0')+'T'+String(start.getHours()).padStart(2,'0')+String(start.getMinutes()).padStart(2,'0')+'00Z';
-  const endStr=end.getFullYear()+String(end.getMonth()+1).padStart(2,'0')+String(end.getDate()).padStart(2,'0')+'T'+String(end.getHours()).padStart(2,'0')+String(end.getMinutes()).padStart(2,'0')+'00Z';
-  const gcalUrl='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(ev.firma)+'&dates='+startStr+'/'+endStr+'&details='+encodeURIComponent(ev.note||'');
+  const start=utcStamp(new Date(ev.start));
+  const end=utcStamp(new Date(ev.end));
+  const gcalUrl='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(ev.firma)
+    +'&dates='+start+'/'+end+'&details='+encodeURIComponent(ev.note||'');
   window.open(gcalUrl,'_blank');
 }
 
 function downloadIcal(){
   if(!eventsMap.length){alert('Žiadne udalosti na export');return;}
-  let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Gastro Mapa//SK//EN\r\n';
-  eventsMap.forEach(ev=>{
-    const start=new Date(ev.start);
-    const end=new Date(ev.end);
-    const fmtDt=d=>d.getUTCFullYear()+String(d.getUTCMonth()+1).padStart(2,'0')+String(d.getUTCDate()).padStart(2,'0')+'T'+String(d.getUTCHours()).padStart(2,'0')+String(d.getUTCMinutes()).padStart(2,'0')+'00Z';
-    ics+='BEGIN:VEVENT\r\nDTSTART:'+fmtDt(start)+'\r\nDTEND:'+fmtDt(end)+'\r\nSUMMARY:'+ev.firma.replace(/\r?\n/g,'')+'\r\nDESCRIPTION:'+ev.note.replace(/\r?\n/g,' ')+'\r\nEND:VEVENT\r\n';
+  const stamp=utcStamp(new Date());
+  let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Gastro Mapa//SK//EN\r\nCALSCALE:GREGORIAN\r\n';
+  eventsMap.forEach((ev,i)=>{
+    ics+='BEGIN:VEVENT\r\n'
+      +'UID:gastro-'+ev.id+'@mixall11.github.io\r\n'
+      +'DTSTAMP:'+stamp+'\r\n'
+      +'DTSTART:'+utcStamp(new Date(ev.start))+'\r\n'
+      +'DTEND:'+utcStamp(new Date(ev.end))+'\r\n'
+      +'SUMMARY:'+icsEsc(ev.firma)+'\r\n'
+      +'DESCRIPTION:'+icsEsc(ev.note)+'\r\n'
+      +'END:VEVENT\r\n';
   });
   ics+='END:VCALENDAR';
   const blob=new Blob([ics],{type:'text/calendar'});
@@ -1030,48 +1150,89 @@ function closeTrelloModal(){
   document.getElementById('trelloModal').classList.remove('open');
 }
 
-async function exportToTrello(){
+function readTrelloCreds(){
   const key=document.getElementById('trKey').value.trim();
   const token=document.getElementById('trToken').value.trim();
-  const boardId=document.getElementById('trBoardId').value.trim();
+  let boardId=document.getElementById('trBoardId').value.trim();
   const listId=document.getElementById('trListId').value.trim();
-
-  if(!key||!token||!boardId||!listId){alert('Vyplň všetky polia');return;}
-
+  const bm=boardId.match(/trello\.com\/b\/([^\/\s]+)/); if(bm) boardId=bm[1];
+  if(!key||!token||!boardId||!listId){alert('Vyplň všetky polia (Key, Token, Board, List).');return null;}
   trelloCreds={key,token,boardId,listId};
   saveTrelloCreds();
+  return trelloCreds;
+}
+const trSleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function trResolveListId(c){
+  if(/^[0-9a-fA-F]{24}$/.test(c.listId)) return c.listId;
+  const res=await fetch(`https://api.trello.com/1/boards/${encodeURIComponent(c.boardId)}/lists?key=${c.key}&token=${c.token}`);
+  if(!res.ok) throw new Error('Nepodarilo sa načítať listy boardu (HTTP '+res.status+'). Skontroluj Board ID / Key / Token.');
+  const lists=await res.json();
+  const match=lists.find(l=>l.name.toLowerCase()===c.listId.toLowerCase());
+  if(!match) throw new Error('List „'+c.listId+'" sa nenašiel. Dostupné listy: '+lists.map(l=>l.name).join(', '));
+  return match.id;
+}
+async function trCreateCard(c,idList,name,desc,due){
+  let body='name='+encodeURIComponent(name)+'&desc='+encodeURIComponent(desc);
+  if(due) body+='&due='+encodeURIComponent(due);
+  const res=await fetch(`https://api.trello.com/1/cards?idList=${idList}&key=${c.key}&token=${c.token}`,
+    {method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body});
+  if(!res.ok) throw new Error('HTTP '+res.status);
+}
 
+async function exportToTrello(){
+  const c=readTrelloCreds(); if(!c) return;
   const type=document.querySelector('input[name="trExportType"]:checked')?.value||'visible';
-  const toExport=type==='visible'?markers.filter(m=>map.hasLayer(m)):markers.filter(m=>getStatus(m._d)!=='wait');
-
-  alert('Exportujem '+toExport.length+' kontaktov na Trello…');
-
+  const toExport=type==='visible'
+    ? markers.filter(m=>map.hasLayer(m))
+    : markers.filter(m=>!isDeleted(m._d)&&getStatus(m._d)!=='wait');
+  if(!toExport.length){alert('Žiadne kontakty na export.');return;}
+  if(!confirm('Exportovať '+toExport.length+' kontaktov na Trello?')) return;
+  let idList;
+  try{ idList=await trResolveListId(c); }catch(e){ alert(e.message); return; }
+  let ok=0;
   for(const m of toExport){
-    const d=m._d;
-    const cd=getContactData(d);
-    const desc=`Meno: ${cd.meno||'—'}\nTel: ${cd.tel||'—'}\nEmail: ${cd.email||'—'}\nPrioritá: ${cd.prio==='h'?'Vysoká':cd.prio==='l'?'Nízka':'—'}\nPoznámka: ${cd.note||'—'}`;
-    const url=`https://api.trello.com/1/cards?idList=${listId}&key=${key}&token=${token}`;
-
-    try{
-      const res=await fetch(url,{
-        method:'POST',
-        headers:{'Content-Type':'application/x-www-form-urlencoded'},
-        body:'name='+encodeURIComponent(d.firma)+'&desc='+encodeURIComponent(desc)
-      });
-      if(!res.ok) throw new Error('HTTP '+res.status);
-    }catch(e){
-      alert('Chyba pri exportu '+d.firma+': '+e.message);
-      return;
-    }
+    const d=m._d, cd=getContactData(d);
+    const desc=`Meno: ${cd.meno||'—'}\nTel: ${cd.tel||'—'}\nEmail: ${cd.email||'—'}\nKategória: ${LABEL[d.kat]||d.kat}\nMesto: ${d.mesto}\nPriorita: ${cd.prio==='h'?'Vysoká':cd.prio==='l'?'Nízka':'—'}\nStav: ${STATUS[getStatus(d)].label}\nPoznámka: ${cd.note||'—'}`;
+    try{ await trCreateCard(c,idList,d.firma,desc); ok++; }
+    catch(e){ alert('Chyba pri „'+d.firma+'": '+e.message+'\nExportovaných '+ok+'/'+toExport.length); return; }
+    await trSleep(120);
   }
-  alert('✓ Všetky kontakty exportované na Trello!');
+  alert('✓ Exportovaných '+ok+' kontaktov na Trello!');
   closeTrelloModal();
+}
+
+async function exportEventsToTrello(){
+  if(!eventsMap.length){alert('Žiadne udalosti v plánovači na export.');return;}
+  const c=trelloCreds;
+  if(!c.key||!c.token||!c.boardId||!c.listId){alert('Najprv nastav Trello cez „Export do Trella" (Key, Token, Board, List).');openTrelloModal();return;}
+  if(!confirm('Exportovať '+eventsMap.length+' udalostí na Trello (s termínmi due)?')) return;
+  let idList;
+  try{ idList=await trResolveListId(c); }catch(e){ alert(e.message); return; }
+  let ok=0;
+  for(const ev of eventsMap){
+    const st=new Date(ev.start);
+    const name=ev.firma+' — '+fmtDate(st)+' '+fmtTime(st);
+    try{ await trCreateCard(c,idList,name,ev.note||'',st.toISOString()); ok++; }
+    catch(e){ alert('Chyba: '+e.message+'\nExportovaných '+ok+'/'+eventsMap.length); return; }
+    await trSleep(120);
+  }
+  alert('✓ Exportovaných '+ok+' udalostí na Trello!');
 }
 
 // --- Nápoveda ---
 document.getElementById('helpBtn').addEventListener('click',()=>document.getElementById('helpModal').classList.add('open'));
 document.getElementById('helpClose').addEventListener('click',()=>document.getElementById('helpModal').classList.remove('open'));
 document.getElementById('helpModal').addEventListener('click',e=>{if(e.target.id==='helpModal')document.getElementById('helpModal').classList.remove('open');});
+
+// zatvor modál klikom na pozadie + Escape
+document.querySelectorAll('.modal').forEach(mod=>{
+  mod.addEventListener('click',e=>{ if(e.target===mod) mod.classList.remove('open'); });
+});
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape') return;
+  document.querySelectorAll('.modal.open').forEach(m=>m.classList.remove('open'));
+  if(!document.querySelector('.modal.open') && document.getElementById('planner').classList.contains('open')) closePlanner();
+});
 </script>
 </body>
 </html>
