@@ -1033,26 +1033,35 @@ function renderPlContacts(){
   const filt=sq?allData.filter(x=>(x.d.firma+' '+x.d.mesto).toLowerCase().includes(sq)):allData;
   const view=document.getElementById('plGroupView').value;
   const byName=(a,b)=>a.d.firma.localeCompare(b.d.firma,'sk');
+  const isMarked=x=>{const cd=getContactData(x.d);return !!(cd.prio||cd.known);};
+  const markRank=x=>{const cd=getContactData(x.d);return cd.prio==='h'?0:cd.prio==='l'?1:2;};
+  const byMark=(a,b)=>{const r=markRank(a)-markRank(b);return r!==0?r:byName(a,b);};
 
   const rows=[]; // {hdr,gid} alebo {x}
-  if(view==='kraj'){
-    const sorted=filt.slice().sort((a,b)=>{
-      const k=KRAJ_ORDER.indexOf(a.d.kraj)-KRAJ_ORDER.indexOf(b.d.kraj);
-      return k!==0?k:byName(a,b);
-    });
-    let cur=null;
-    sorted.forEach(x=>{ if(x.d.kraj!==cur){cur=x.d.kraj; rows.push({hdr:(KRAJ_NAME[cur]||cur)+' kraj'});} rows.push({x}); });
-  } else if(view==='abc'){
-    filt.slice().sort(byName).forEach(x=>rows.push({x}));
-  } else { // moje skupiny
+  if(view==='group'){
     groupsList.forEach(g=>{
-      const mem=filt.filter(x=>contactGroups(x.d).includes(g.id)).sort(byName);
+      const mem=filt.filter(x=>contactGroups(x.d).includes(g.id)).sort(byMark);
       rows.push({hdr:'📁 '+g.name+' ('+mem.length+')',gid:g.id});
       mem.forEach(x=>rows.push({x}));
     });
-    const none=filt.filter(x=>!contactGroups(x.d).length).sort(byName);
+    const none=filt.filter(x=>!contactGroups(x.d).length).sort(byMark);
     rows.push({hdr:'Bez skupiny ('+none.length+')'});
     none.forEach(x=>rows.push({x}));
+  } else {
+    // označené úplne hore (nad všetkých), zoradené priorita→známosť→názov
+    const marked=filt.filter(isMarked).sort(byMark);
+    const rest=filt.filter(x=>!isMarked(x));
+    if(marked.length){ rows.push({hdr:'⭐ Označené ('+marked.length+')'}); marked.forEach(x=>rows.push({x})); }
+    if(view==='kraj'){
+      const sorted=rest.slice().sort((a,b)=>{
+        const k=KRAJ_ORDER.indexOf(a.d.kraj)-KRAJ_ORDER.indexOf(b.d.kraj);
+        return k!==0?k:byName(a,b);
+      });
+      let cur=null;
+      sorted.forEach(x=>{ if(x.d.kraj!==cur){cur=x.d.kraj; rows.push({hdr:(KRAJ_NAME[cur]||cur)+' kraj'});} rows.push({x}); });
+    } else { // abc
+      rest.slice().sort(byName).forEach(x=>rows.push({x}));
+    }
   }
 
   plRendered=[];
