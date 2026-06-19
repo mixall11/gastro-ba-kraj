@@ -351,7 +351,9 @@
           <input id="plSearch" placeholder="Hľadať kontakt…" autocomplete="off">
           <select id="plGroupView" class="pl-view">
             <option value="kraj">🗺 Podľa kraja (A–Z)</option>
+            <option value="mesto">🏙 Podľa mesta (A–Z)</option>
             <option value="abc">🔤 Abecedne (všetko)</option>
+            <option value="marks">🏷 Podľa označenia</option>
             <option value="fav">❤ Obľúbené</option>
             <option value="group">📁 Moje skupiny</option>
           </select>
@@ -1141,6 +1143,19 @@ function renderPlContacts(){
     const none=filt.filter(x=>!contactGroups(x.d).length).sort(byMark);
     rows.push({hdr:'Bez skupiny ('+none.length+')'});
     none.forEach(x=>rows.push({x}));
+  } else if(view==='marks'){
+    // sekcie podľa označenia (kontakt sa môže objaviť vo viacerých)
+    [
+      {h:'⭐ Vysoká priorita', t:x=>getContactData(x.d).prio==='h'},
+      {h:'★ Nízka priorita',   t:x=>getContactData(x.d).prio==='l'},
+      {h:'✓ Známi',            t:x=>getContactData(x.d).known==='y'},
+      {h:'✕ Neznámi',          t:x=>getContactData(x.d).known==='n'},
+    ].forEach(s=>{
+      const mem=filt.filter(s.t).sort(byName);
+      if(mem.length){ rows.push({hdr:s.h+' ('+mem.length+')'}); mem.forEach(x=>rows.push({x})); }
+    });
+    const none=filt.filter(x=>{const c=getContactData(x.d);return !c.prio&&!c.known&&!c.fav;}).sort(byName);
+    if(none.length){ rows.push({hdr:'⚪ Neoznačené ('+none.length+')'}); none.forEach(x=>rows.push({x})); }
   } else {
     // označené úplne hore (nad všetkých), zoradené priorita→známosť→názov
     const marked=filt.filter(isMarked).sort(byMark);
@@ -1153,6 +1168,13 @@ function renderPlContacts(){
       });
       let cur=null;
       sorted.forEach(x=>{ if(x.d.kraj!==cur){cur=x.d.kraj; rows.push({hdr:(KRAJ_NAME[cur]||cur)+' kraj'});} rows.push({x}); });
+    } else if(view==='mesto'){
+      const sorted=rest.slice().sort((a,b)=>{
+        const c=(a.d.mesto||'').localeCompare(b.d.mesto||'','sk');
+        return c!==0?c:byName(a,b);
+      });
+      let cur=null;
+      sorted.forEach(x=>{ const city=x.d.mesto||'—'; if(city!==cur){cur=city; rows.push({hdr:'🏙 '+city});} rows.push({x}); });
     } else { // abc
       rest.slice().sort(byName).forEach(x=>rows.push({x}));
     }
