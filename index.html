@@ -146,9 +146,25 @@
   .plc{padding:8px 10px;border-radius:8px;cursor:pointer;font-size:13px;line-height:1.35;border:1px solid transparent}
   .plc:hover{background:var(--panel2)}
   .plc.sel{background:#0ea5e9;color:#fff;border-color:#0ea5e9}
-  .plc small{display:block;color:var(--muted);font-size:11px}
+  .plc small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
   .plc.sel small{color:#e0f2fe}
-  .plc .pdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+  .plc .pdot{display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0}
+  .plc-top{display:flex;align-items:center;gap:6px}
+  .plc-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .plflag{font-size:11px;flex-shrink:0}
+  .pf-low{color:#38bdf8} .pf-known{color:#4ade80;font-weight:700} .pf-unk{color:#f59e0b;font-weight:700}
+  .plc.sel .plflag{filter:brightness(1.6)}
+  .plc-tag{background:none;border:0;cursor:pointer;font-size:13px;opacity:.55;padding:0 2px;flex-shrink:0;color:inherit}
+  .plc-tag:hover{opacity:1}
+  .plc.sel .plc-tag{opacity:.9}
+  .grp-chip{display:inline-block;background:var(--panel2);color:#cbd5e1;border-radius:10px;padding:1px 7px;font-size:10px;margin:2px 3px 0 0}
+  .plc.sel .grp-chip{background:rgba(255,255,255,.25);color:#fff}
+  .pl-view{width:100%;margin-top:8px;padding:7px 9px;border-radius:8px;border:1px solid var(--panel2);background:var(--bg);color:var(--text);font-size:12px;cursor:pointer}
+  .pl-grp{font-size:11px;font-weight:700;color:#7dd3fc;text-transform:uppercase;letter-spacing:.03em;padding:11px 6px 4px;display:flex;align-items:center;gap:6px;position:sticky;top:0;background:var(--panel)}
+  .pl-grp-del{margin-left:auto;color:#ef4444;cursor:pointer;font-weight:700;font-size:12px}
+  .grp-check{display:flex;align-items:center;gap:8px;padding:8px 4px;font-size:14px;cursor:pointer;border-bottom:1px solid var(--panel2)}
+  .grp-check input{width:16px;height:16px;accent-color:#38bdf8}
+  .grp-del-x{margin-left:auto;color:#ef4444;cursor:pointer;font-size:12px}
   .pl-cal{flex:1;overflow:auto;background:var(--bg)}
   .cal-head{display:grid;grid-template-columns:54px repeat(7,1fr);position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--panel2)}
   .cal-hcell{padding:8px 4px;text-align:center;font-size:12px;color:var(--muted);border-left:1px solid var(--panel2)}
@@ -304,6 +320,11 @@
       <div class="pl-list">
         <div class="pl-search-wrap">
           <input id="plSearch" placeholder="Hľadať kontakt…" autocomplete="off">
+          <select id="plGroupView" class="pl-view">
+            <option value="kraj">🗺 Podľa kraja (A–Z)</option>
+            <option value="abc">🔤 Abecedne (všetko)</option>
+            <option value="group">📁 Moje skupiny</option>
+          </select>
           <div id="plHint" style="display:none"></div>
         </div>
         <div id="plContacts"></div>
@@ -347,6 +368,21 @@
       </div>
       <div class="m-actions" style="margin-top:8px">
         <button class="m-ghost" onclick="closeEvModal()">Zavrieť</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="grpModal" class="modal">
+    <div class="modal-box">
+      <h3>📁 Skupiny — <span id="grpFirma"></span></h3>
+      <div id="grpList"></div>
+      <div class="modal-row" style="margin-top:12px">
+        <input id="grpNewName" class="modal-input" placeholder="Názov novej skupiny (napr. Horúci leady)">
+        <button class="m-primary" style="flex:0 0 auto;padding:8px 14px" onclick="addGroupFromModal()">＋</button>
+      </div>
+      <div class="m-actions">
+        <button class="m-primary" onclick="saveGroupAssign()">✓ Uložiť</button>
+        <button class="m-ghost" onclick="closeGrpModal()">Zavrieť</button>
       </div>
     </div>
   </div>
@@ -439,6 +475,11 @@ try{ statusMap=JSON.parse(localStorage.getItem(STATUS_STORE)||'{}')||{}; }catch(
 try{ contactMap=JSON.parse(localStorage.getItem(CONTACT_STORE)||'{}')||{}; }catch(e){ contactMap={}; }
 try{ eventsMap=JSON.parse(localStorage.getItem(EVENTS_STORE)||'[]')||[]; }catch(e){ eventsMap=[]; }
 try{ deletedSet=new Set(JSON.parse(localStorage.getItem(DELETED_STORE)||'[]')||[]); }catch(e){ deletedSet=new Set(); }
+const GROUPS_STORE='gastro_groups_v1';
+let groupsList=[]; // [{id,name}]
+try{ groupsList=JSON.parse(localStorage.getItem(GROUPS_STORE)||'[]')||[]; }catch(e){ groupsList=[]; }
+const KRAJ_NAME={BA:'Bratislavský',TT:'Trnavský',TN:'Trenčiansky',NR:'Nitriansky',ZA:'Žilinský',BB:'Banskobystrický',PO:'Prešovský',KE:'Košický'};
+const KRAJ_ORDER=['BA','TT','TN','NR','ZA','BB','PO','KE'];
 // stabilný kľúč bodu — IČO ak je, inak firma|mesto|adresa (prežije regeneráciu data.js)
 function bodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
 function getStatus(d){ return statusMap[bodKey(d)]||'wait'; }
@@ -448,9 +489,14 @@ function saveContactMap(){ try{ localStorage.setItem(CONTACT_STORE, JSON.stringi
 function saveEvents(){ try{ localStorage.setItem(EVENTS_STORE, JSON.stringify(eventsMap)); }catch(e){} }
 function saveDeleted(){ try{ localStorage.setItem(DELETED_STORE, JSON.stringify([...deletedSet])); }catch(e){} }
 function isDeleted(d){ return deletedSet.has(bodKey(d)); }
+function saveGroups(){ try{ localStorage.setItem(GROUPS_STORE, JSON.stringify(groupsList)); }catch(e){} }
+function createGroup(name){ const id='g'+Date.now().toString(36)+Math.floor(Math.random()*1000); groupsList.push({id,name}); saveGroups(); return id; }
+function groupName(id){ const g=groupsList.find(x=>x.id===id); return g?g.name:''; }
+function contactGroups(d){ const g=getContactData(d).groups; return Array.isArray(g)?g:[]; }
+function setContactGroups(d,ids){ const cd=getContactData(d); cd.groups=ids; setContactData(d,cd); }
 function getContactData(d){
   const k=bodKey(d);
-  const defa={prio:'',known:'',note:'',tel:d.tel||'',email:d.email||'',meno:d.konatel||''};
+  const defa={prio:'',known:'',note:'',tel:d.tel||'',email:d.email||'',meno:d.konatel||'',groups:[]};
   return contactMap[k]||defa;
 }
 function setContactData(d,cd){ const k=bodKey(d); contactMap[k]=cd; saveContactMap(); }
@@ -673,6 +719,11 @@ window.openPlModal=openPlModal;
 window.closePlModal=closePlModal;
 window.savePlEvent=savePlEvent;
 window.showPlEvent=showPlEvent;
+window.openGroupModal=openGroupModal;
+window.closeGrpModal=closeGrpModal;
+window.addGroupFromModal=addGroupFromModal;
+window.saveGroupAssign=saveGroupAssign;
+window.deleteGroup=deleteGroup;
 window.closeEvModal=closeEvModal;
 window.evDelete=evDelete;
 window.evToGCal=evToGCal;
@@ -953,23 +1004,110 @@ function planToday(){
   renderPlanner();
 }
 
+let plRendered=[]; // bodKey v poradí renderu (pre data-i)
+function plRowHtml(x,i){
+  const cd=getContactData(x.d);
+  let fl='';
+  if(cd.prio==='h') fl+='<span class="plflag" title="Vysoká priorita">⭐</span>';
+  else if(cd.prio==='l') fl+='<span class="plflag pf-low" title="Nízka priorita">▽</span>';
+  if(cd.known==='y') fl+='<span class="plflag pf-known" title="Známy kontakt">✓</span>';
+  else if(cd.known==='n') fl+='<span class="plflag pf-unk" title="Neznámy kontakt">?</span>';
+  const chips=contactGroups(x.d).map(id=>`<span class="grp-chip">${esc(groupName(id))}</span>`).join('');
+  const sel=plSelectedContact===x.bodKey?'sel':'';
+  return `<div class="plc ${sel}" data-i="${i}">`
+    +`<div class="plc-top"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>`
+    +`<span class="plc-name">${esc(x.d.firma)}</span>${fl}`
+    +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny">🏷</button></div>`
+    +`<small>${esc(x.d.mesto)}${chips?'<br>'+chips:''}</small></div>`;
+}
+function renderPlContacts(){
+  const allData=markers.filter(m=>!isDeleted(m._d)).map(m=>({bodKey:bodKey(m._d),d:m._d}));
+  const sq=(document.getElementById('plSearch').value||'').toLowerCase();
+  const filt=sq?allData.filter(x=>(x.d.firma+' '+x.d.mesto).toLowerCase().includes(sq)):allData;
+  const view=document.getElementById('plGroupView').value;
+  const byName=(a,b)=>a.d.firma.localeCompare(b.d.firma,'sk');
+
+  const rows=[]; // {hdr,gid} alebo {x}
+  if(view==='kraj'){
+    const sorted=filt.slice().sort((a,b)=>{
+      const k=KRAJ_ORDER.indexOf(a.d.kraj)-KRAJ_ORDER.indexOf(b.d.kraj);
+      return k!==0?k:byName(a,b);
+    });
+    let cur=null;
+    sorted.forEach(x=>{ if(x.d.kraj!==cur){cur=x.d.kraj; rows.push({hdr:(KRAJ_NAME[cur]||cur)+' kraj'});} rows.push({x}); });
+  } else if(view==='abc'){
+    filt.slice().sort(byName).forEach(x=>rows.push({x}));
+  } else { // moje skupiny
+    groupsList.forEach(g=>{
+      const mem=filt.filter(x=>contactGroups(x.d).includes(g.id)).sort(byName);
+      rows.push({hdr:'📁 '+g.name+' ('+mem.length+')',gid:g.id});
+      mem.forEach(x=>rows.push({x}));
+    });
+    const none=filt.filter(x=>!contactGroups(x.d).length).sort(byName);
+    rows.push({hdr:'Bez skupiny ('+none.length+')'});
+    none.forEach(x=>rows.push({x}));
+  }
+
+  plRendered=[];
+  let html='';
+  rows.forEach(r=>{
+    if(r.hdr!==undefined){
+      html+=`<div class="pl-grp">${esc(r.hdr)}${r.gid?`<span class="pl-grp-del" data-del="${r.gid}" title="Zmazať skupinu">✕</span>`:''}</div>`;
+    } else {
+      const i=plRendered.length; plRendered.push(r.x.bodKey);
+      html+=plRowHtml(r.x,i);
+    }
+  });
+  const pc=document.getElementById('plContacts');
+  pc.innerHTML=html;
+  pc.querySelectorAll('.plc').forEach(el=>el.addEventListener('click',()=>selectPlContact(plRendered[+el.dataset.i])));
+  pc.querySelectorAll('.plc-tag').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();openGroupModal(plRendered[+el.dataset.tag]);}));
+  pc.querySelectorAll('.pl-grp-del').forEach(el=>el.addEventListener('click',()=>deleteGroup(el.dataset.del)));
+}
+
+// --- skupiny: modal ---
+let grpModalKey=null;
+function openGroupModal(key){
+  grpModalKey=key;
+  const m=markers.find(mm=>bodKey(mm._d)===key);
+  document.getElementById('grpFirma').textContent=m?m._d.firma:'';
+  renderGrpChecklist();
+  document.getElementById('grpModal').classList.add('open');
+}
+function renderGrpChecklist(){
+  const m=markers.find(mm=>bodKey(mm._d)===grpModalKey);
+  const cur=m?contactGroups(m._d):[];
+  const box=document.getElementById('grpList');
+  if(!groupsList.length){ box.innerHTML='<div class="m-note">Zatiaľ žiadne skupiny. Vytvor prvú nižšie.</div>'; return; }
+  box.innerHTML=groupsList.map(g=>`<label class="grp-check"><input type="checkbox" value="${g.id}" ${cur.includes(g.id)?'checked':''}> ${esc(g.name)} <span class="grp-del-x" data-del="${g.id}" title="Zmazať skupinu">✕</span></label>`).join('');
+  box.querySelectorAll('.grp-del-x').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();deleteGroup(el.dataset.del);}));
+}
+function addGroupFromModal(){
+  const inp=document.getElementById('grpNewName'); const name=inp.value.trim();
+  if(!name)return; createGroup(name); inp.value=''; renderGrpChecklist();
+}
+function saveGroupAssign(){
+  const m=markers.find(mm=>bodKey(mm._d)===grpModalKey);
+  if(m){ const ids=[...document.querySelectorAll('#grpList input:checked')].map(c=>c.value); setContactGroups(m._d,ids); }
+  closeGrpModal();
+  renderPlanner();
+}
+function closeGrpModal(){ document.getElementById('grpModal').classList.remove('open'); grpModalKey=null; }
+function deleteGroup(id){
+  if(!confirm('Zmazať skupinu „'+groupName(id)+'"? Kontakty zostanú, len sa z nej odoberú.')) return;
+  groupsList=groupsList.filter(g=>g.id!==id); saveGroups();
+  Object.keys(contactMap).forEach(k=>{ const cd=contactMap[k]; if(Array.isArray(cd.groups)) cd.groups=cd.groups.filter(x=>x!==id); });
+  saveContactMap();
+  if(grpModalKey) renderGrpChecklist();
+  renderPlanner();
+}
+
 function renderPlanner(){
   // update range
   const sun=new Date(plMonday);sun.setDate(sun.getDate()+6);
   document.getElementById('plRange').textContent=`${fmtDate(plMonday)} — ${fmtDate(sun)}`;
 
-  // kontakty v ľavo (bez zmazaných)
-  const allData=markers.filter(m=>!isDeleted(m._d)).map(m=>({bodKey:bodKey(m._d),d:m._d}));
-  const sq=(document.getElementById('plSearch').value||'').toLowerCase();
-  const filt=sq?allData.filter(x=>(x.d.firma+' '+x.d.mesto).toLowerCase().includes(sq)):allData;
-
-  const pc=document.getElementById('plContacts');
-  pc.innerHTML=filt.map((x,i)=>{
-    const sel=plSelectedContact===x.bodKey?'sel':'';
-    return `<div class="plc ${sel}" data-i="${i}"><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>${esc(x.d.firma)}<small>${esc(x.d.mesto)}</small></div>`;
-  }).join('');
-  pc.querySelectorAll('.plc').forEach(el=>el.addEventListener('click',()=>selectPlContact(filt[+el.dataset.i].bodKey)));
-
+  renderPlContacts();
   const hint=document.getElementById('plHint');
   hint.textContent=plSelectedContact?'✓ Vybraný — klikni na čas v kalendári':'Klikni na firmu, potom na hodinu v kalendári';
   hint.style.display='block';
@@ -1128,6 +1266,7 @@ function downloadIcal(){
 }
 
 document.getElementById('plSearch').addEventListener('input',renderPlanner);
+document.getElementById('plGroupView').addEventListener('change',renderPlanner);
 
 // --- Trello export ---
 const TRELLO_STORE='gastro_trello_v1';
