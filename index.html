@@ -503,7 +503,7 @@ const esriImg=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/
 const esriRef=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19});
 const aerial=L.layerGroup([esriImg,esriRef]);
 
-const map=L.map('map',{scrollWheelZoom:true,layers:[street]}).setView([48.2,17.3],9);
+const map=L.map('map',{scrollWheelZoom:true,layers:[street],closePopupOnClick:false}).setView([48.2,17.3],9);
 L.control.layers({'🗺️ Mapa':street,'🛰️ Letecký':aerial},null,{position:'topright',collapsed:false}).addTo(map);
 
 const startMarker=L.marker([curStart().lat,curStart().lon]).addTo(map).bindPopup('<b>🚩 Štart objazdu</b>');
