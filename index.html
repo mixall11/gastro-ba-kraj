@@ -506,8 +506,10 @@ let groupsList=[]; // [{id,name}]
 try{ groupsList=JSON.parse(localStorage.getItem(GROUPS_STORE)||'[]')||[]; }catch(e){ groupsList=[]; }
 const KRAJ_NAME={BA:'Bratislavský',TT:'Trnavský',TN:'Trenčiansky',NR:'Nitriansky',ZA:'Žilinský',BB:'Banskobystrický',PO:'Prešovský',KE:'Košický'};
 const KRAJ_ORDER=['BA','TT','TN','NR','ZA','BB','PO','KE'];
-// stabilný kľúč bodu — IČO ak je, inak firma|mesto|adresa (prežije regeneráciu data.js)
-function bodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
+// kľúč bodu — PER PROFIL (firma+mesto+adresa+IČO), aby pobočky so spoločným IČO
+// boli samostatné. oldBodKey = pôvodná schéma (len pre jednorazovú migráciu).
+function bodKey(d){ return [d.firma,d.mesto,(d.adresa||''),(d.ico||'')].join('|'); }
+function oldBodKey(d){ return d.ico ? 'ico:'+String(d.ico).replace(/\s/g,'') : (d.firma+'|'+d.mesto+'|'+(d.adresa||'')); }
 function getStatus(d){ return statusMap[bodKey(d)]||'wait'; }
 function saveStatus(){ try{ localStorage.setItem(STATUS_STORE, JSON.stringify(statusMap)); }catch(e){} }
 function setStatusFor(d,s){ const k=bodKey(d); if(s==='wait') delete statusMap[k]; else statusMap[k]=s; saveStatus(); }
@@ -661,6 +663,25 @@ function popup(d,idx){
   h+=`<a class="pop-nav" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(gmapsQ(d))}&travelmode=driving" target="_blank" rel="noopener">🧭 Navigovať sem</a>`;
   return h;
 }
+
+// jednorazová migrácia kľúčov na per-profil schému (zachová doterajšie stavy/označenia/udalosti)
+(function migrateKeysV2(){
+  try{ if(localStorage.getItem('gastro_keymig_v2')) return; }catch(e){ return; }
+  GASTRO_DATA.forEach(d=>{
+    if(d.lat==null) return;
+    const o=oldBodKey(d), n=bodKey(d);
+    if(o===n) return;
+    if(statusMap[o]!=null && statusMap[n]==null) statusMap[n]=statusMap[o];
+    if(contactMap[o]!=null && contactMap[n]==null) contactMap[n]=JSON.parse(JSON.stringify(contactMap[o]));
+    if(deletedSet.has(o)) deletedSet.add(n);
+  });
+  eventsMap.forEach(ev=>{
+    const d=GASTRO_DATA.find(x=>oldBodKey(x)===ev.bodKey);
+    if(d) ev.bodKey=bodKey(d);
+  });
+  saveStatus(); saveContactMap(); saveDeleted(); saveEvents();
+  try{ localStorage.setItem('gastro_keymig_v2','1'); }catch(e){}
+})();
 
 const markers=[];
 GASTRO_DATA.forEach(d=>{
