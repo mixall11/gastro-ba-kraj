@@ -10,6 +10,7 @@
     <telefon>0915623432</telefon>
     <email>micocatering@gmail.com</email>
     <web>micocatering.sk</web>
+    <konatel>Jozef Mičo, Pavol Mičo</konatel>
     <poznamka>Eventovy + svadobny catering Presov/KE, kapacita svadby do 200 osob</poznamka>
     <gps lat="48.97293" lon="21.25757"/>
   </prevadzka>
@@ -23,6 +24,7 @@
     <telefon>0904777750</telefon>
     <email>1eurocatering@gmail.com</email>
     <web>eurocatering.sk</web>
+    <konatel>Marek Poprenda</konatel>
     <poznamka>Maly regionalni catering Presov + okolie, zalozeny 2018</poznamka>
     <gps lat="49.0003973" lon="21.1850893"/>
   </prevadzka>
@@ -36,6 +38,7 @@
     <telefon>0948308545</telefon>
     <email>info@tatjana.sk</email>
     <web>tatjana.sk</web>
+    <konatel></konatel>
     <poznamka>Catering + donaska Poprad; firemne obedy, svadby, teambuildingy; prevadzka Podjavorinskey 3405/22</poznamka>
     <gps lat="49.057731" lon="20.3108247"/>
   </prevadzka>
@@ -49,6 +52,7 @@
     <telefon>051/7710429</telefon>
     <email>topgastro@gmail.com</email>
     <web>top-gastro.sk</web>
+    <konatel>Pavol Škripko</konatel>
     <poznamka>SILNY CIEL; zavod + seniori + eventy od 2002, sponzorska sala 150 miest, NACE 5621</poznamka>
     <gps lat="49.0105056" lon="21.2201529"/>
   </prevadzka>
@@ -62,6 +66,7 @@
     <telefon>0918625732</telefon>
     <email>info@acem.sk</email>
     <web>acem.sk</web>
+    <konatel>Peter Čmelík, Jozef Leško</konatel>
     <poznamka>SILNY CIEL; zavodne stravovanie vychod SK od 2007, operuje jedalen Tatravagonka (tatravagonka@acem.sk), prevadzka aj v Poprade; NACE 5621</poznamka>
     <gps lat="48.9804658" lon="21.2760365"/>
   </prevadzka>
@@ -75,6 +80,7 @@
     <telefon>0918857273</telefon>
     <email>tip.top.objednavka@gmail.com</email>
     <web>tiptopjedla.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; najvacsia regionalna vyvaren PO kraja, rozvoz teplych jedal + maso velkoobchod, zivnostnik od 1992</poznamka>
     <gps lat="48.9728268" lon="21.2574657"/>
   </prevadzka>
@@ -88,6 +94,7 @@
     <telefon></telefon>
     <email></email>
     <web>tatravagonka.sk</web>
+    <konatel>Alexej Beljajev, Peter Malec, Juraj Hudáč, Jaroslava Ďumbalová</konatel>
     <poznamka>SILNY CIEL; najvacsi vyrobca zeleznicnych vagonov SR, 2000+ zam, zavodna jedalen pre velku prevadzku</poznamka>
     <gps lat="49.0597298" lon="20.3156999"/>
   </prevadzka>
@@ -101,6 +108,7 @@
     <telefon></telefon>
     <email></email>
     <web>beko.com</web>
+    <konatel>Michal Major, Jaroslav Grygar, Fatih Ebiçlioglu, Hakan Bulgurlu</konatel>
     <poznamka>SILNY CIEL; vyrobna prevadzka dom. spotrebicov WhirlpoolBeko 2024, zavodna jedalen pre 500+ zam</poznamka>
     <gps lat="49.0751835" lon="20.3254824"/>
   </prevadzka>
@@ -114,6 +122,7 @@
     <telefon></telefon>
     <email></email>
     <web>chemes.sk</web>
+    <konatel>Ing. František Chvostaľ, Ing. Vladimír Skoupil, Ing. Marek Matias, Ing. Martin Vinčúr</konatel>
     <poznamka>Chemicky zavod v konkurze od 06/2026; overit nastupnicku firmu pred oslovenim</poznamka>
     <gps lat="48.9287863" lon="21.9060966"/>
   </prevadzka>
@@ -127,6 +136,7 @@
     <telefon></telefon>
     <email></email>
     <web>bukoza.sk</web>
+    <konatel>Miloslav Dittrich, Marek Mlčoch, Roman Staněk, František Dobiáš</konatel>
     <poznamka>Papierenska skupina v konkurze od 05/2026; overit noveho prevadzkovatela priemyselneho parku Hencovce pred oslovenim</poznamka>
     <gps lat="48.8631495" lon="21.7286199"/>
   </prevadzka>
@@ -137,9 +147,10 @@
     <mesto>Presov</mesto>
     <okres>Presov</okres>
     <velkost>obrat 158,1 mil EUR (2025, trzby), 3000-3999 zam</velkost>
-    <telefon>051/3441111</telefon>
+    <telefon>051/7011111</telefon>
     <email></email>
-    <web>fnspresov.sk</web>
+    <web>fnsppresov.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; uz v Statne firmy a urady; najvacsia nemocnica PO kraja, tackaren stravuje tisicky pacientov + personal denne</poznamka>
     <gps lat="48.9978055" lon="21.2557611"/>
   </prevadzka>
@@ -153,6 +164,7 @@
     <telefon>052/7165111</telefon>
     <email></email>
     <web>nemocnicapoprad.sk</web>
+    <konatel>Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor</konatel>
     <poznamka>SILNY CIEL; hlavna nemocnica Poprad, akutna starostlivost, tackaren pre 1000+ zam + pacienti</poznamka>
     <gps lat="49.0518388" lon="20.3035108"/>
   </prevadzka>
@@ -166,6 +178,7 @@
     <telefon>053/4512511</telefon>
     <email></email>
     <web>nemocnica-levoca.sk</web>
+    <konatel>Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja</konatel>
     <poznamka>Byvala Vseobecna nemocnica Levoca, prevzata sietou AGEL; tackaren pre pacientov a personel</poznamka>
     <gps lat="49.0210406" lon="20.5851443"/>
   </prevadzka>
@@ -179,6 +192,7 @@
     <telefon>054/4862111</telefon>
     <email></email>
     <web>nspbardejov.sk</web>
+    <konatel></konatel>
     <poznamka>Hlavna nemocnica okresu Bardejov, n.o., tackaren pre hospitalizovanych a zamestnancov</poznamka>
     <gps lat="49.2872502" lon="21.2723445"/>
   </prevadzka>
@@ -192,6 +206,7 @@
     <telefon>057/7786111</telefon>
     <email></email>
     <web>nemocnicahumenne.sk</web>
+    <konatel>MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo</konatel>
     <poznamka>Nastupnica po NsP Humenne; tackaren pre pacientov a personel okresu Humenne</poznamka>
     <gps lat="48.9346454" lon="21.8983233"/>
   </prevadzka>
@@ -205,6 +220,7 @@
     <telefon>057/4461111</telefon>
     <email></email>
     <web>vranovskanemocnica.sk</web>
+    <konatel>MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo</konatel>
     <poznamka>Hlavna nemocnica okresu Vranov nad Toplou; tackaren pre hospitalizovanych a personel</poznamka>
     <gps lat="48.8891513" lon="21.6822318"/>
   </prevadzka>
@@ -218,6 +234,7 @@
     <telefon>052/4320111</telefon>
     <email></email>
     <web>lubovnianskanemocnica.sk</web>
+    <konatel></konatel>
     <poznamka>Jedina nemocnica okresu Stara Lubovna, n.o.; tackaren pre pacientov a zamestnancov</poznamka>
     <gps lat="49.2975195" lon="20.687879"/>
   </prevadzka>
@@ -231,6 +248,7 @@
     <telefon>052/4501111</telefon>
     <email></email>
     <web>nemocnicakezmarok.sk</web>
+    <konatel></konatel>
     <poznamka>Okresna nemocnica Kezmarok, n.o.; tackaren pre pacientov a zamestnancov</poznamka>
     <gps lat="49.131834" lon="20.4216313"/>
   </prevadzka>
@@ -241,9 +259,10 @@
     <mesto>Presov</mesto>
     <okres>Presov</okres>
     <velkost>obrat 48,09 mil EUR (2025, trzby), 1000-1999 zam</velkost>
-    <telefon>051/7570111</telefon>
+    <telefon>051/7722851</telefon>
     <email></email>
     <web>unipo.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; uz v Statne firmy a urady; univerzitna menza stravuje tisicky studentov denne</poznamka>
     <gps lat="49.0000074" lon="21.2392122"/>
   </prevadzka>
@@ -254,9 +273,10 @@
     <mesto>Tatranska Lomnica</mesto>
     <okres>Poprad</okres>
     <velkost>obrat 144 mil EUR skupiny (2024, trzby), 1000-1999 zam skupiny; 108 izieb + 15 apartmanov, banketova sala 250 osob</velkost>
-    <telefon>052/4780111</telefon>
-    <email>hotelreservations@tmr.sk</email>
-    <web>tmrhotels.com</web>
+    <telefon>052/4780000</telefon>
+    <email>info@grandhotel.sk</email>
+    <web>grandhotel.sk</web>
+    <konatel>Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský</konatel>
     <poznamka>SILNY CIEL; historicky hotel 4* (1905) v Tatranskej Lomnici; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi)</poznamka>
     <gps lat="49.1616613" lon="20.2939518"/>
   </prevadzka>
@@ -270,6 +290,7 @@
     <telefon>052/4780000</telefon>
     <email>info@grandhotel.sk</email>
     <web>grandhotel.sk</web>
+    <konatel>Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský</konatel>
     <poznamka>SILNY CIEL; historicky hotel 4* (1904) Stary Smokovec; prevadzkovatel TMR a.s. (ICO zdielane s dalsimi TMR hotelmi); GPS seedovat geocache</poznamka>
     <gps lat="49.1414836" lon="20.2221042"/>
   </prevadzka>
@@ -283,6 +304,7 @@
     <telefon>052/3262222</telefon>
     <email></email>
     <web>kempinski.com</web>
+    <konatel>Branislav Babík, Petr Janů</konatel>
     <poznamka>SILNY CIEL; jediny 5-hviezdicovy hotel v PO kraji, Strbske Pleso; prevadzkovatel BHP Tatry s.r.o. (sid. BA); vlastnik J&amp;T</poznamka>
     <gps lat="49.1192835" lon="20.0595525"/>
   </prevadzka>
@@ -296,6 +318,7 @@
     <telefon></telefon>
     <email></email>
     <web>hotelpatria.sk</web>
+    <konatel>Michal Sýkora, Jozef Bendžala, Kamila Sýkorová</konatel>
     <poznamka>SILNY CIEL; hotel priamo pri jazere Strbske Pleso, wellness + banketova sala; NACE 5510</poznamka>
     <gps lat="49.1244449" lon="20.0609115"/>
   </prevadzka>
@@ -309,6 +332,7 @@
     <telefon>0915954636</telefon>
     <email>hotelfis@hotelfis.sk</email>
     <web>hotelfis.sk</web>
+    <konatel>Branislav Kačkovič, Dušan Slavkovský</konatel>
     <poznamka>Lyziarski hotel pri skokanskych mostikoch FIS Strbske Pleso; prevadzkovatel TMR Strbske Pleso s.r.o. (ine ICO ako TMR a.s.)</poznamka>
     <gps lat="49.1287622" lon="20.0613192"/>
   </prevadzka>
@@ -322,6 +346,7 @@
     <telefon>052/7851222</telefon>
     <email>recepcia@aquacity.sk</email>
     <web>aquacity.sk</web>
+    <konatel>Richard Pichoňský, Peter Hudec, Róbert Bartek, Tomáš Zedníček</konatel>
     <poznamka>SILNY CIEL; aquapark + hotel + kongresovy komplex v Poprade; kongresova sala az 350 osob</poznamka>
     <gps lat="49.0603207" lon="20.3068944"/>
   </prevadzka>
@@ -335,6 +360,7 @@
     <telefon></telefon>
     <email></email>
     <web>hotelsatel.com</web>
+    <konatel>Peter Zemančík</konatel>
     <poznamka>Najvacsi hotel v meste Poprad (250 luzok); kongresy az 450 osob; NACE 5510</poznamka>
     <gps lat="49.0567076" lon="20.2960523"/>
   </prevadzka>
@@ -348,6 +374,7 @@
     <telefon>054/4774000</telefon>
     <email>sekretariat@kupele-bj.sk</email>
     <web>kupele-bj.sk</web>
+    <konatel>Jozef Bača, Helena Bačová, Oľga Bačová, Jaroslav Komora, Maroš Komora</konatel>
     <poznamka>SILNY CIEL; historicke kupele od 1777 (Bardejovske Kupele), 4 hotely (Astoria, Ozon, Alexander, Alzbeta), 250-499 zam</poznamka>
     <gps lat="49.3273239" lon="21.2739014"/>
   </prevadzka>
@@ -361,6 +388,7 @@
     <telefon>052/4266111</telefon>
     <email>rezervacie@ruzbachy.sk</email>
     <web>ruzbachy.sk</web>
+    <konatel>Ing. Ivan Maroš, Mgr. Soňa Marošová, Hezy Mordehaev, MUDr. Peter Bartoň</konatel>
     <poznamka>Termalny kupelny komplex Vysne Ruzbachy pod Pieninami; NACE 8699</poznamka>
     <gps lat="49.3042641" lon="20.5648591"/>
   </prevadzka>
@@ -374,6 +402,7 @@
     <telefon>0907801093</telefon>
     <email>akcia@lineas.sk</email>
     <web>lineas.sk</web>
+    <konatel>Vladimír Stračiak, Ján Hardoň, Jozef Durkoš</konatel>
     <poznamka>Najvacsi hotel v meste Presov (340 luzok); kongresove kapacity do 200 osob; NACE 5510</poznamka>
     <gps lat="48.985434" lon="21.2435871"/>
   </prevadzka>
@@ -387,6 +416,7 @@
     <telefon>051/7722741</telefon>
     <email>recepcia@hotelduklapresov.sk</email>
     <web>hotelduklapresov.sk</web>
+    <konatel>Anton Bidovský, Oto Sivák, Juraj Koval, Stanislav Oravec</konatel>
     <poznamka>Hotel v centre Presova, banketova kapacita 120 osob; NACE 5510</poznamka>
     <gps lat="48.9936783" lon="21.2442244"/>
   </prevadzka>
@@ -400,6 +430,7 @@
     <telefon></telefon>
     <email></email>
     <web>mcdonalds.sk</web>
+    <konatel>Tereza Trepáčová, Yuliya Badritdinova</konatel>
     <poznamka>SILNY CIEL; 3 pobocky v PO: Presov MAX (Vihorlatska), Presov OC Novum (Nam. legionarov), Poprad (Stefanikova)</poznamka>
     <gps lat="48.99802" lon="21.26936"/>
   </prevadzka>
@@ -413,6 +444,7 @@
     <telefon></telefon>
     <email></email>
     <web>kfcslovakia.sk</web>
+    <konatel>Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy</konatel>
     <poznamka>KFC SK franchize; 2 prevadzky v PO + 3. Presov-Solivar v stavbe (2026-2027); zaradit ako perspektivnu siet s prisucom v PO</poznamka>
     <gps lat="48.9999611" lon="21.2731762"/>
   </prevadzka>
@@ -426,6 +458,7 @@
     <telefon>051/7081111</telefon>
     <email>info@psk.sk</email>
     <web>psk.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; VUC zriadovatel skol a soc. sluzieb s vlastnymi kuchynami</poznamka>
     <gps lat="49.0019597" lon="21.2417788"/>
   </prevadzka>
@@ -439,6 +472,7 @@
     <telefon>051/7722851</telefon>
     <email></email>
     <web>unipo.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; univerzitne jedalne a studentske domovy, masova denna strava</poznamka>
     <gps lat="49.0000074" lon="21.2392122"/>
   </prevadzka>
@@ -452,6 +486,7 @@
     <telefon>051/7011111</telefon>
     <email></email>
     <web>fnsppresov.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; velka nemocnicna kuchyna, stabilny odber potravin</poznamka>
     <gps lat="48.9964472" lon="21.2536714"/>
   </prevadzka>
@@ -465,6 +500,7 @@
     <telefon></telefon>
     <email></email>
     <web>zvjs.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vazenska kuchyna, garantovany objem, VO potravin</poznamka>
     <gps lat="48.9925511" lon="21.2461638"/>
   </prevadzka>
@@ -478,6 +514,7 @@
     <telefon></telefon>
     <email></email>
     <web>mosr.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vojensky utvar OS SR pod MO SR, posadkove stravovanie</poznamka>
     <gps lat="49.0115086" lon="21.225793"/>
   </prevadzka>
@@ -491,6 +528,7 @@
     <telefon>0961/801111</telefon>
     <email></email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>krajsky urad PZ pod MV SR (ICO 00151866), zamestnanecke stravovanie</poznamka>
     <gps lat="48.9866306" lon="21.2443316"/>
   </prevadzka>
@@ -504,6 +542,7 @@
     <telefon>051/3100111</telefon>
     <email>mesto.radnica@presov.sk</email>
     <web>presov.sk</web>
+    <konatel></konatel>
     <poznamka>mesto zriadovatel skolskych jedalni, VO potravin pre MS/ZS</poznamka>
     <gps lat="48.9972579" lon="21.2397286"/>
   </prevadzka>
@@ -517,6 +556,7 @@
     <telefon>052/7167111</telefon>
     <email>podatelna@msupoprad.sk</email>
     <web>poprad.sk</web>
+    <konatel></konatel>
     <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
     <gps lat="49.0556857" lon="20.2955291"/>
   </prevadzka>
@@ -530,6 +570,7 @@
     <telefon>057/7863211</telefon>
     <email>msu@humenne.sk</email>
     <web>humenne.sk</web>
+    <konatel></konatel>
     <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
     <gps lat="48.9355568" lon="21.9071083"/>
   </prevadzka>
@@ -543,6 +584,7 @@
     <telefon>054/4862122</telefon>
     <email>info@bardejov.sk</email>
     <web>bardejov.sk</web>
+    <konatel></konatel>
     <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
     <gps lat="49.2921571" lon="21.2764398"/>
   </prevadzka>
@@ -556,6 +598,7 @@
     <telefon>057/4422551</telefon>
     <email></email>
     <web>vranov.sk</web>
+    <konatel></konatel>
     <poznamka>mesto zriadovatel skolskych jedalni, VO potravin</poznamka>
     <gps lat="48.8900235" lon="21.6855858"/>
   </prevadzka>
@@ -569,6 +612,7 @@
     <telefon></telefon>
     <email></email>
     <web>lesy.sk</web>
+    <konatel>Boris Gregor</konatel>
     <poznamka>statny podnik Lesy SR, zamestnanecke stravovanie</poznamka>
     <gps lat="48.9937862" lon="21.2297657"/>
   </prevadzka>
@@ -582,6 +626,7 @@
     <telefon>051/708 2381</telefon>
     <email>sekretariat.pv@minv.sk</email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
     <gps lat="48.9966046" lon="21.2357529"/>
   </prevadzka>
@@ -592,9 +637,10 @@
     <mesto>Poprad</mesto>
     <okres>Poprad</okres>
     <velkost>obrat 77 mil EUR (2025, trzby), 1000-1999 zam</velkost>
-    <telefon></telefon>
+    <telefon>052/7165111</telefon>
     <email></email>
-    <web>nemocnicapp.sk</web>
+    <web>nemocnicapoprad.sk</web>
+    <konatel>Stanislav Kandrik, Juraj Hudáč, Tomáš Rusiňák, Mikuláš Bodor</konatel>
     <poznamka>SILNY CIEL; statna a.s.; 1000+ zam; velka regionalna nemocnica</poznamka>
     <gps lat="49.0518388" lon="20.3035108"/>
   </prevadzka>
@@ -605,9 +651,10 @@
     <mesto>Bardejov</mesto>
     <okres>Bardejov</okres>
     <velkost>obrat 42 mil EUR (2025, trzby), 500-999 zam</velkost>
-    <telefon></telefon>
+    <telefon>054/4862111</telefon>
     <email></email>
-    <web>nsp-bardejov.sk</web>
+    <web>nspbardejov.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; n.o. PSK; 500-999 zam</poznamka>
     <gps lat="49.2872502" lon="21.2723445"/>
   </prevadzka>
@@ -618,9 +665,10 @@
     <mesto>Humenne</mesto>
     <okres>Humenne</okres>
     <velkost>obrat 25 mil EUR (2024, trzby), 500-999 zam</velkost>
-    <telefon></telefon>
+    <telefon>057/7786111</telefon>
     <email></email>
-    <web>pentahospitals.sk</web>
+    <web>nemocnicahumenne.sk</web>
+    <konatel>MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo</konatel>
     <poznamka>SILNY CIEL; Penta Hospitals SK (byvaly Svet zdravia); 500-999 zam</poznamka>
     <gps lat="48.9346454" lon="21.8983233"/>
   </prevadzka>
@@ -631,9 +679,10 @@
     <mesto>Vranov nad Toplou</mesto>
     <okres>Vranov nad Toplou</okres>
     <velkost>obrat 26 mil EUR (2024, trzby), 500-999 zam</velkost>
-    <telefon></telefon>
+    <telefon>057/4461111</telefon>
     <email></email>
-    <web>pentahospitals.sk</web>
+    <web>vranovskanemocnica.sk</web>
+    <konatel>MUDr. Igor Pramuk, Ing. Juraj Mičko, Mgr. Ján Janovčík, Ing. Martin Hrežo</konatel>
     <poznamka>SILNY CIEL; Penta Hospitals SK; 500-999 zam</poznamka>
     <gps lat="48.8891513" lon="21.6822318"/>
   </prevadzka>
@@ -644,9 +693,10 @@
     <mesto>Stara Lubovna</mesto>
     <okres>Stara Lubovna</okres>
     <velkost>obrat 29 mil EUR (2025, trzby), 500-999 zam</velkost>
-    <telefon></telefon>
+    <telefon>052/4320111</telefon>
     <email></email>
     <web>lubovnianskanemocnica.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; n.o. PSK; 500-999 zam</poznamka>
     <gps lat="49.2975195" lon="20.687879"/>
   </prevadzka>
@@ -657,9 +707,10 @@
     <mesto>Kezmarok</mesto>
     <okres>Kezmarok</okres>
     <velkost>obrat 14 mil EUR (2024, trzby), 250-499 zam</velkost>
-    <telefon></telefon>
+    <telefon>052/4501111</telefon>
     <email></email>
-    <web>nemocnicakezmarok.agel.sk</web>
+    <web>nemocnicakezmarok.sk</web>
+    <konatel></konatel>
     <poznamka>AGEL n.o.; 250-499 zam</poznamka>
     <gps lat="49.131834" lon="20.4216313"/>
   </prevadzka>
@@ -670,9 +721,10 @@
     <mesto>Levoca</mesto>
     <okres>Levoca</okres>
     <velkost>obrat 30 mil EUR (2025, trzby), 500-999 zam</velkost>
-    <telefon></telefon>
+    <telefon>053/4512511</telefon>
     <email></email>
-    <web>nemocnicalevoca.agel.sk</web>
+    <web>nemocnica-levoca.sk</web>
+    <konatel>Pavol Papcun, František Lešundák, Tomáš Lučkai, Michal Pišoja</konatel>
     <poznamka>SILNY CIEL; AGEL a.s.; 500-999 zam</poznamka>
     <gps lat="49.0210406" lon="20.5851443"/>
   </prevadzka>

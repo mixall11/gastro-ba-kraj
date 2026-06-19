@@ -10,6 +10,7 @@
     <telefon>+421 911 991 991</telefon>
     <email>objednavky@eltoro.sk</email>
     <web>eltoro.sk</web>
+    <konatel>Richard Podhorec</konatel>
     <poznamka>SILNY CIEL; rozvoz jedal pre firmy a zamestnancov + catering; pobocka v Dolnom Kubine (eltorodk.sk), NACE 5611</poznamka>
     <gps lat="49.20385" lon="18.72742"/>
   </prevadzka>
@@ -23,6 +24,7 @@
     <telefon>+421 911 942 762</telefon>
     <email>dugecatering@gmail.com</email>
     <web>dugecatering.sk</web>
+    <konatel>Dušan Gejdoš</konatel>
     <poznamka>SILNY CIEL; zavodne stravovanie + rozvoz + bankety/svadby pre horny Liptov; sidlo Janosikova 538 Liptovsky Mikulas, NACE catering</poznamka>
     <gps lat="49.0362197" lon="19.7367544"/>
   </prevadzka>
@@ -36,6 +38,7 @@
     <telefon>+421 907 834 675</telefon>
     <email></email>
     <web>gastroturiec.sk</web>
+    <konatel>Martin Rizman, Ivan Rizman, Viera Rizmanová</konatel>
     <poznamka>rozvoz denneho menu + eventovy catering (svadby od 14 EUR/os); prevadzka Martin-Tomcany, na trhu cca 18 rokov</poznamka>
     <gps lat="49.0622551" lon="18.9410104"/>
   </prevadzka>
@@ -49,6 +52,7 @@
     <telefon>+421 948 702 041</telefon>
     <email>info@buenogusto.sk</email>
     <web>buenogusto.sk</web>
+    <konatel>Martin Novotný, Zuzana Blaha</konatel>
     <poznamka>firemne stravovanie (vernostne karty + mesacna fakturacia) + catering; vlastna vyrobna kuchyna v Ziline</poznamka>
     <gps lat="49.1980494" lon="18.7685331"/>
   </prevadzka>
@@ -62,6 +66,7 @@
     <telefon>+421 915 808 008</telefon>
     <email>stravovanie@slovtrend.sk</email>
     <web>slovtrend.sk</web>
+    <konatel>Adriana Hodasová, Rastislav Hodas, Tomáš Hodas</konatel>
     <poznamka>SILNY CIEL; velkokapacitne zavodne stravovanie + rozvoz obedov do firiem + catering, 1300+ stravnikov denne, NACE 5611</poznamka>
     <gps lat="49.2208498" lon="18.7299827"/>
   </prevadzka>
@@ -75,6 +80,7 @@
     <telefon>+421 910 598 395</telefon>
     <email>objednavkyza@food-time.sk</email>
     <web>food-time.sk</web>
+    <konatel>Michal Kintler, Tomáš Kotras</konatel>
     <poznamka>SILNY CIEL; velky dodavatel zavodneho stravovania 24/7, vyrobna kuchyna v Ziline; sidlo firmy je Trencianske Teplice (TN kraj), prevadzka pre ZA</poznamka>
     <gps lat="49.2025305" lon="18.731419"/>
   </prevadzka>
@@ -88,6 +94,7 @@
     <telefon>+421 903 806 205</telefon>
     <email>mlyncekpemmeva@gmail.com</email>
     <web>pemmeva.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; centralna vyrobna + zavodne stravovanie + catering + bufet v nemocnici; sidlo Zavazna Poruba; existuje aj samostatna s.r.o. ICO 51871939 (mensi obrat)</poznamka>
     <gps lat="49.0785371" lon="19.6514188"/>
   </prevadzka>
@@ -98,9 +105,10 @@
     <mesto>Zilina</mesto>
     <okres>Zilina</okres>
     <velkost>cca 806 jedal denne (z toho ~420 rozvoz elektromobilmi do dennych centier a seniorom); 4 stravovacie zariadenia mesta</velkost>
-    <telefon>+421 905 393 526</telefon>
-    <email>kc_informator@zilina.sk</email>
+    <telefon>041/7063111</telefon>
+    <email>sekretariatmsu@zilina.sk</email>
     <web>zilina.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; mestska velkokapacitna vyvarovna + rozvoz seniorom; ICO 00321796 je ICO Mesta Zilina (zriadovatel)</poznamka>
     <gps lat="49.21278" lon="18.7618657"/>
   </prevadzka>
@@ -114,6 +122,7 @@
     <telefon>+421 41 515 0111</telefon>
     <email>info@kia-motors.sk</email>
     <web>kia.sk</web>
+    <konatel>Chang Han, In Bae, Eui Chung, Tae Koo</konatel>
     <poznamka>SILNY CIEL; najvacsia automobilka kraja, uzavrety areal, 3 zmeny, tisice obedov denne; operator jedalne neovereny</poznamka>
     <gps lat="49.2138586" lon="18.8128131"/>
   </prevadzka>
@@ -127,6 +136,7 @@
     <telefon>+421 41 515 8158</telefon>
     <email></email>
     <web>mobis.sk</web>
+    <konatel>Shin Kang, Gyu Lee, Jaeho Lee, Youngbin Kim</konatel>
     <poznamka>SILNY CIEL; najvacsi dodavatel modulov pre Kiu, smenna prevadzka, tisice stravnikov; operator jedalne neovereny</poznamka>
     <gps lat="49.2127399" lon="18.8478998"/>
   </prevadzka>
@@ -140,6 +150,7 @@
     <telefon></telefon>
     <email></email>
     <web>hyundai-transys.sk</web>
+    <konatel>Hyuk-Chung Gueon</konatel>
     <poznamka>byvaly Hyundai Dymos Slovakia, dodavatel prevodoviek/sedaciek pre Kiu; mensi zavod ale smenna prevadzka; operator jedalne neovereny</poznamka>
     <gps lat="49.22958" lon="18.72759"/>
   </prevadzka>
@@ -153,6 +164,7 @@
     <telefon>+421 41 420 5110</telefon>
     <email>schaefflerkysuce@schaeffler.com</email>
     <web>schaeffler.sk</web>
+    <konatel>Ing. Jaroslav Patka, Ing. Miloš Šplhák</konatel>
     <poznamka>SILNY CIEL; byvaly INA Kysuce, najvacsi zamestnavatel Kysuc, vyroba lozisk, kontinualna prevadzka, tisice stravnikov; operator jedalne neovereny</poznamka>
     <gps lat="49.297989" lon="18.7674727"/>
   </prevadzka>
@@ -166,6 +178,7 @@
     <telefon>+421 41 5556 451</telefon>
     <email></email>
     <web>kinex.sk</web>
+    <konatel>Eduard Jakubík, Peter Schnelly, Michal Perun, Ferdinand Štefanec, Peter Hajnala</konatel>
     <poznamka>byvaly ZKL Kinex, vyrobca loziskovych segmentov, smenna prevadzka v Bytci; operator jedalne neovereny</poznamka>
     <gps lat="49.2215664" lon="18.555622"/>
   </prevadzka>
@@ -179,6 +192,7 @@
     <telefon>+421 44 436 2222</telefon>
     <email></email>
     <web>mondislovensko.sk</web>
+    <konatel>Miloslav Čurilla, Robert Wagner, Thomas Seidl, Joachim Grünewald, Bernhard Cantzler</konatel>
     <poznamka>SILNY CIEL; najvacsia integrovana papierna a celuloza v SR, nepretrzita prevadzka, velky pocet zamestnancov na jednom mieste; operator jedalne neovereny</poznamka>
     <gps lat="49.0778956" lon="19.3186291"/>
   </prevadzka>
@@ -192,6 +206,7 @@
     <telefon>+421 43 5303200</telefon>
     <email>info.trstena@eu.panasonic.com</email>
     <web>pideu.panasonic.sk</web>
+    <konatel>Robert Sippel, Jozef Hricov</konatel>
     <poznamka>SILNY CIEL; najvacsi zamestnavatel okresu Tvrdosin, smenna prevadzka, masove stravovanie; operator jedalne neovereny</poznamka>
     <gps lat="49.3648877" lon="19.6247664"/>
   </prevadzka>
@@ -205,6 +220,7 @@
     <telefon></telefon>
     <email></email>
     <web>yanfeng.com</web>
+    <konatel>Maria Fernandes, Daniel Freyder, Christoph Bremkamp, Jun Luo, Dušan Brázda</konatel>
     <poznamka>SILNY CIEL; vyrobny zavod automobilovych interierov v Namestove (odstepny zavod ICO 47257831, sidlo BA), velky zamestnavatel Oravy; operator jedalne neovereny</poznamka>
     <gps lat="49.4227984" lon="19.5011939"/>
   </prevadzka>
@@ -218,6 +234,7 @@
     <telefon>+421 44 438 2900</telefon>
     <email>uvn@uvn.sk</email>
     <web>uvn.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; najvacsia vojenska fakultna nemocnica v SR, velkokapacitna nemocnicna kuchyna pre pacientov a personal</poznamka>
     <gps lat="49.076232" lon="19.3124302"/>
   </prevadzka>
@@ -231,6 +248,7 @@
     <telefon>+421 41 460 4111</telefon>
     <email></email>
     <web>kysuckanemocnica.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; krajska nemocnica pre Kysuce (ZSK), nemocnicna kuchyna pacienti + personal, pravidelne VO potravin</poznamka>
     <gps lat="49.4383465" lon="18.7720268"/>
   </prevadzka>
@@ -244,6 +262,7 @@
     <telefon>+421 44 5563 111</telefon>
     <email></email>
     <web>nsplm.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre Liptov, nemocnicna kuchyna pacienti + personal</poznamka>
     <gps lat="49.0861328" lon="19.5898188"/>
   </prevadzka>
@@ -257,6 +276,7 @@
     <telefon>+421 43 5801 111</telefon>
     <email></email>
     <web>donsp.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre dolnu Oravu, nemocnicna kuchyna pacienti + personal</poznamka>
     <gps lat="49.2142852" lon="19.3031187"/>
   </prevadzka>
@@ -270,6 +290,7 @@
     <telefon>+421 43 5392 444</telefon>
     <email>nsp@nsptrstena.sk</email>
     <web>nsptrstena.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vseobecna nemocnica ZSK pre hornu Oravu, nemocnicna kuchyna pacienti + personal</poznamka>
     <gps lat="49.3581308" lon="19.6017006"/>
   </prevadzka>
@@ -280,9 +301,10 @@
     <mesto>Demanovska Dolina</mesto>
     <okres>Liptovsky Mikulas</okres>
     <velkost>Grand Hotel Jasna 147 izieb, kongresove saly kombinovane az 300 osob</velkost>
-    <telefon>+421 44 523 1911</telefon>
-    <email>info@grandjasna.sk</email>
-    <web>grandjasna.sk</web>
+    <telefon>+421 44 4307 700</telefon>
+    <email>info@galeriathermal.sk</email>
+    <web>galeriathermal.sk</web>
+    <konatel>Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský</konatel>
     <poznamka>SILNY CIEL; vlajkovy 4* rezort TMR v Jasnej, kongresova/banketova kapacita az 300 osob, MICE a firemne eventy</poznamka>
     <gps lat="48.97122" lon="19.58108"/>
   </prevadzka>
@@ -293,9 +315,10 @@
     <mesto>Liptovsky Mikulas</mesto>
     <okres>Liptovsky Mikulas</okres>
     <velkost>Tatralandia aquapark cca 1,2 mil navstevnikov rocne, 100+ chatiek, kongresova sala 300-320 osob</velkost>
-    <telefon>+421 44 556 1011</telefon>
-    <email>info@tatralandia.sk</email>
-    <web>tatralandia.sk</web>
+    <telefon>+421 44 4307 700</telefon>
+    <email>info@galeriathermal.sk</email>
+    <web>galeriathermal.sk</web>
+    <konatel>Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský</konatel>
     <poznamka>SILNY CIEL; najnavstevovanejsi aquapark SK (~1,2 mil rocne), celorocna prevadzka, banketova kapacita 300-320 osob</poznamka>
     <gps lat="49.10706" lon="19.57128"/>
   </prevadzka>
@@ -309,6 +332,7 @@
     <telefon>+421 44 559 1490</telefon>
     <email>rezervacie@hotelchopok.sk</email>
     <web>hotelchopok.sk</web>
+    <konatel>František Hirner, Juraj Hirner, Lucia Hirnerová, Roman Hirner</konatel>
     <poznamka>SILNY CIEL; kongresovy hotel 4* v Demanovskej, banketova sala Praslicka 360 osob + Plesnivec 150 osob</poznamka>
     <gps lat="49.01919" lon="19.57668"/>
   </prevadzka>
@@ -322,6 +346,7 @@
     <telefon>+421 44 4307 700</telefon>
     <email>info@galeriathermal.sk</email>
     <web>galeriathermal.sk</web>
+    <konatel>Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský</konatel>
     <poznamka>SILNY CIEL; 4* hotel s termalnym wellnessom pri aquaparku Gino Paradise Besenova (TMR), banketova kapacita 270-410 osob</poznamka>
     <gps lat="49.1005697" lon="19.4464463"/>
   </prevadzka>
@@ -335,6 +360,7 @@
     <telefon>+421 44 547 8000</telefon>
     <email>info@tristudnicky.sk</email>
     <web>tristudnicky.sk</web>
+    <konatel>Rudolf Galko, Michal Galko</konatel>
     <poznamka>Butikovy 4* hotel (dcera TMR), restauracia 100 miest; banketova/konferencna sala do 80 osob</poznamka>
     <gps lat="49.02962" lon="19.5724"/>
   </prevadzka>
@@ -348,6 +374,7 @@
     <telefon>+421 41 5494 256</telefon>
     <email>spa@spa.sk</email>
     <web>spa.sk</web>
+    <konatel>Zdenek Miškolci, Mária Záňová, Mária Barošová, Ladislav Miškolci, Janka Miškolciová</konatel>
     <poznamka>SILNY CIEL; kupelny rezort Aphrodite s aquaparkom, velkokapacitna restauracia ~205 miest, banketove/kongresove priestory ~100 osob</poznamka>
     <gps lat="49.130319" lon="18.6970297"/>
   </prevadzka>
@@ -361,6 +388,7 @@
     <telefon>+421 41 5695 322</telefon>
     <email>info@hotel-diery.sk</email>
     <web>hotel-diery.sk</web>
+    <konatel>Katarína Hlaváčová, Tatiana Pavlíková</konatel>
     <poznamka>Rezortovy hotel pri Terchovskych dierach (Vratna dolina), konferencna/banketova kapacita 100-150 osob</poznamka>
     <gps lat="49.2575433" lon="19.0667606"/>
   </prevadzka>
@@ -374,6 +402,7 @@
     <telefon>+421 41 5050 100</telefon>
     <email>info@holidayinn-zilina.sk</email>
     <web>holidayinn-zilina.sk</web>
+    <konatel>Jozef Mihalik, Jozef Michalek</konatel>
     <poznamka>SILNY CIEL; najvacsi kongresovo-banketovy hotel v Ziline (brand Holiday Inn/IHG, prevadzkuje HI Kongres Hotel Zilina s.r.o.), banket az 600 osob</poznamka>
     <gps lat="49.2295687" lon="18.7420638"/>
   </prevadzka>
@@ -387,6 +416,7 @@
     <telefon>+421 43 4012 077</telefon>
     <email>hotelturiec@hotelturiec.sk</email>
     <web>hotelturiec.sk</web>
+    <konatel>Ľudmila Kočvarová, Jaroslav Ondrľa, Radovan Kočvara, Nadežda Reiprichová</konatel>
     <poznamka>SILNY CIEL; 4* biznis hotel v Martine, 7 konferencnych sal, banketova kapacita do 170 osob</poznamka>
     <gps lat="49.0620277" lon="18.9233544"/>
   </prevadzka>
@@ -400,6 +430,7 @@
     <telefon>+421 43 4304 836</telefon>
     <email>recepcia@hotelvictoria.sk</email>
     <web>hotelvictoria.sk</web>
+    <konatel>Ondrej Čuraj, Martin Lindner</konatel>
     <poznamka>SILNY CIEL; 4* hotel v Martine, banketova kapacita az 350 osob (Congress + Lobby Bar)</poznamka>
     <gps lat="49.0809886" lon="18.8994056"/>
   </prevadzka>
@@ -413,6 +444,7 @@
     <telefon>+421 43 4918 010</telefon>
     <email>royalreservations@therme.sk</email>
     <web>therme.sk</web>
+    <konatel>Zuzana Ďurinová, Radovan Horecký, Alena Spišiaková, Gabriela Skorčíková</konatel>
     <poznamka>SILNY CIEL; kupelny rezort Turcianske Teplice (Hotel Royal Palace 5*), banketova sala Kursalon do 150-200 osob</poznamka>
     <gps lat="48.8606904" lon="18.8607068"/>
   </prevadzka>
@@ -426,6 +458,7 @@
     <telefon>+421 44 4313 111</telefon>
     <email>recepcia@hotelkultura.sk</email>
     <web>hotelkultura.sk</web>
+    <konatel>Ing. Ľubomír Cimrák, Ing. Michal Mišúl, Ing. Jozef Zurek, JUDr. Ondrej Juriga, Ing. Daniel Laura</konatel>
     <poznamka>SILNY CIEL; kongresovy hotel v Ruzomberku, Velka dvorana az 500 osob, viacero banketovych sal</poznamka>
     <gps lat="49.0815718" lon="19.3034168"/>
   </prevadzka>
@@ -439,6 +472,7 @@
     <telefon>+421 904 747 747</telefon>
     <email>recepcia@hotelaltis.sk</email>
     <web>hotelaltis.sk</web>
+    <konatel>Bruno Holthof</konatel>
     <poznamka>SILNY CIEL; 4* hotel pri Oravskej priehrade, kongresova/banketova kapacita cca 100 hosti</poznamka>
     <gps lat="49.4011358" lon="19.5061786"/>
   </prevadzka>
@@ -452,6 +486,7 @@
     <telefon>+421 915 830 042</telefon>
     <email>events@oravskyhaj.sk</email>
     <web>oravskyhaj.sk</web>
+    <konatel>Jozef Jankulák, Jozef Benčič</konatel>
     <poznamka>SILNY CIEL; Oravsky Haj Garden Hotel &amp; Resort pri Trstene, banketova kapacita 120-150 osob (firma KIMEX, sidlo Kosice)</poznamka>
     <gps lat="49.34815" lon="19.66246"/>
   </prevadzka>
@@ -465,6 +500,7 @@
     <telefon>+421910172869</telefon>
     <email>info@nhabe.sk</email>
     <web>nhabe.sk</web>
+    <konatel>Nam Nguyen</konatel>
     <poznamka>SILNY CIEL; vietnamske bistro NhaBe, 3 prevadzky (Martin, Banska Bystrica, Zilina-Vlcince Obchodna 3D); zalozene 2017</poznamka>
     <gps lat="49.0637701" lon="18.9221005"/>
   </prevadzka>
@@ -478,6 +514,7 @@
     <telefon>+421445520473</telefon>
     <email>lippek@lippek.sk</email>
     <web>lippek.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; pekarensko-cukrarska siet; 2 kaviarne Cafe Vcela (Garbiarska + Podbreziny v Lipt. Mikulasi) + predajne v Lipt. Hradku, Ruzomberku, Likavke; gastro jadro = 2 kaviarne, zvysok maloobchod s pecivom</poznamka>
     <gps lat="49.0801168" lon="19.6283257"/>
   </prevadzka>
@@ -491,6 +528,7 @@
     <telefon></telefon>
     <email></email>
     <web></web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; McD prevadzky v Ziline a Martine drzi licencny partner Luiz Franca (od 2020); firma/ICO franchisanta sa nepodarilo overit v ORSR/FinStat - NIE centrala McDonald's Slovakia s.r.o.</poznamka>
     <gps lat="49.0798132" lon="19.2985208"/>
   </prevadzka>
@@ -504,6 +542,7 @@
     <telefon>+421417051900</telefon>
     <email></email>
     <web>coopjednotaza.sk</web>
+    <konatel>Viera Hreusíková, Marián Jandačka, Miriam Drígeľová, Vincent Vojtek, Adriana Holienková</konatel>
     <poznamka>SILNY CIEL; spotrebne druzstvo, primarne maloobchod s potravinami; gastro zlozka = vyroba hotovych jedal a stravovacia cinnost v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
     <gps lat="49.2202592" lon="18.7484913"/>
   </prevadzka>
@@ -517,6 +556,7 @@
     <telefon>+421414332152</telefon>
     <email></email>
     <web>coopcadca.sk</web>
+    <konatel>Miroslav Janík, Martin Janík, Bohuslav Cyprich, Františka Soroková, František Strnádel</konatel>
     <poznamka>SILNY CIEL; spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
     <gps lat="49.4381099" lon="18.7851344"/>
   </prevadzka>
@@ -530,6 +570,7 @@
     <telefon>+421443700201</telefon>
     <email></email>
     <web>jednotalm.sk</web>
+    <konatel>Iveta Ághová, Soňa Balážiková, Anna Devečková, Alžbeta Kiniková, Edita Šarafínová</konatel>
     <poznamka>spotrebne druzstvo, primarne maloobchod; gastro zlozka = stravovacia cinnost/bufety v predajniach (doplnkova, nie samostatne restauracie)</poznamka>
     <gps lat="49.08056" lon="19.61983"/>
   </prevadzka>
@@ -543,6 +584,7 @@
     <telefon>041/5032111</telefon>
     <email>podatelna@zilinskazupa.sk</email>
     <web>zilinskazupa.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; VUC zriadovatel SS a DSS s vlastnymi skolskymi a zariadenskymi jedalnami, centralizovane VO potravin</poznamka>
     <gps lat="49.2167085" lon="18.7371007"/>
   </prevadzka>
@@ -556,6 +598,7 @@
     <telefon>041/5135001</telefon>
     <email>rektor@uniza.sk</email>
     <web>uniza.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; najvacsia VS v kraji, tisice stravnikov denne v menzach a SD, verejne obstaravanie stravy a potravin</poznamka>
     <gps lat="49.2038443" lon="18.7557359"/>
   </prevadzka>
@@ -569,6 +612,7 @@
     <telefon>043/4203303</telefon>
     <email>sekretariat@unm.sk</email>
     <web>unm.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; fakultna nemocnica s celoslovenskou posobnostou, velkokapacitna stravovacia prevadzka</poznamka>
     <gps lat="49.060448" lon="18.919489"/>
   </prevadzka>
@@ -582,6 +626,7 @@
     <telefon>041/5110111</telefon>
     <email>sekretariat@fnspza.sk</email>
     <web>fnspza.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; jedna z najvacsich nemocnic v kraji, velkokapacitna kuchyna, pravidelne VO potravin</poznamka>
     <gps lat="49.2177793" lon="18.7455203"/>
   </prevadzka>
@@ -595,6 +640,7 @@
     <telefon>0960/422090</telefon>
     <email>akaos@aos.sk</email>
     <web>aos.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vojenska akademia s vlastnym ICO, stala vojenska jedalen, VO stravy a potravin</poznamka>
     <gps lat="49.0596732" lon="19.5815009"/>
   </prevadzka>
@@ -608,6 +654,7 @@
     <telefon>044/4324035</telefon>
     <email></email>
     <web>zvjs.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, denne stravovanie stoviek osob, VO potravin</poznamka>
     <gps lat="49.0836812" lon="19.299741"/>
   </prevadzka>
@@ -621,6 +668,7 @@
     <telefon>043/4222720</telefon>
     <email></email>
     <web>zvjs.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vazenske zariadenie ZVJS s vlastnym ICO, velka kapacita, denne stravovanie stoviek osob</poznamka>
     <gps lat="49.0952717" lon="18.9748783"/>
   </prevadzka>
@@ -634,6 +682,7 @@
     <telefon>044/4326842</telefon>
     <email>rektor@ku.sk</email>
     <web>ku.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; druha univerzita v kraji, SD jedalen, VO stravy a potravin</poznamka>
     <gps lat="49.0824185" lon="19.2795441"/>
   </prevadzka>
@@ -647,6 +696,7 @@
     <telefon>041/7063111</telefon>
     <email>sekretariatmsu@zilina.sk</email>
     <web>zilina.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; mestsky urad zriadovatel skol so skolskymi jedalnami, centralne VO potravin pre jedalne</poznamka>
     <gps lat="49.2215702" lon="18.7427482"/>
   </prevadzka>
@@ -660,6 +710,7 @@
     <telefon>043/4204111</telefon>
     <email>msu@martin.sk</email>
     <web>martin.sk</web>
+    <konatel></konatel>
     <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
     <gps lat="49.0684556" lon="18.9257016"/>
   </prevadzka>
@@ -673,6 +724,7 @@
     <telefon>044/4314422</telefon>
     <email>podatelna@ruzomberok.sk</email>
     <web>ruzomberok.sk</web>
+    <konatel></konatel>
     <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
     <gps lat="49.0815132" lon="19.3034281"/>
   </prevadzka>
@@ -686,6 +738,7 @@
     <telefon>044/5565111</telefon>
     <email>lmikulas@mikulas.sk</email>
     <web>mikulas.sk</web>
+    <konatel></konatel>
     <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, VO potravin pre jedalne</poznamka>
     <gps lat="49.0857579" lon="19.6084034"/>
   </prevadzka>
@@ -699,6 +752,7 @@
     <telefon>041/4302212</telefon>
     <email>sekretariat@mestocadca.sk</email>
     <web>mestocadca.sk</web>
+    <konatel></konatel>
     <poznamka>mestsky urad zriadovatel skol so skolskymi jedalnami, centralny ciel pre Kysuce</poznamka>
     <gps lat="49.4381043" lon="18.7901917"/>
   </prevadzka>
@@ -712,6 +766,7 @@
     <telefon>0961/402115</telefon>
     <email></email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>krajske riaditelstvo PZ pod MV SR (ICO 00151866), stravovanie prislusnikov, VO stravnych sluzieb</poznamka>
     <gps lat="49.2216152" lon="18.7363761"/>
   </prevadzka>
@@ -725,6 +780,7 @@
     <telefon>041/707 2201</telefon>
     <email>sekretariat.zi@minv.sk</email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR)</poznamka>
     <gps lat="49.22059" lon="18.7349889"/>
   </prevadzka>
@@ -738,6 +794,7 @@
     <telefon>041/229 5112</telefon>
     <email>ORZA.sekretariat@zsr.sk</email>
     <web>zsr.sk</web>
+    <konatel>Miroslav Garaj</konatel>
     <poznamka>SILNY CIEL; OZ Zilina - najvacsi ZSR uzol; vlastna kuchyna/zavodne stravovanie</poznamka>
     <gps lat="49.2248108" lon="18.7487078"/>
   </prevadzka>
@@ -748,9 +805,10 @@
     <mesto>Liptovsky Mikulas</mesto>
     <okres>Liptovsky Mikulas</okres>
     <velkost>500+ zam</velkost>
-    <telefon>044/556 3100</telefon>
+    <telefon>+421 44 5563 111</telefon>
     <email></email>
     <web>nsplm.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; ZSK; lozkova nemocnica; Liptov</poznamka>
     <gps lat="49.0861328" lon="19.5898188"/>
   </prevadzka>
@@ -761,9 +819,10 @@
     <mesto>Dolny Kubin</mesto>
     <okres>Dolny Kubin</okres>
     <velkost>250-499 zam</velkost>
-    <telefon>043/580 1111</telefon>
+    <telefon>+421 43 5801 111</telefon>
     <email></email>
     <web>donsp.sk</web>
+    <konatel></konatel>
     <poznamka>ZSK; lozkova nemocnica; Oravia (okres Dolny Kubin)</poznamka>
     <gps lat="49.2142852" lon="19.3031187"/>
   </prevadzka>
@@ -774,9 +833,10 @@
     <mesto>Cadca</mesto>
     <okres>Cadca</okres>
     <velkost>200-499 zam</velkost>
-    <telefon></telefon>
+    <telefon>+421 41 460 4111</telefon>
     <email></email>
     <web>kysuckanemocnica.sk</web>
+    <konatel></konatel>
     <poznamka>ZSK; lozkova nemocnica; Kysuce</poznamka>
     <gps lat="49.4383465" lon="18.7720268"/>
   </prevadzka>

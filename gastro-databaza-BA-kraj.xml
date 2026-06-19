@@ -10,6 +10,7 @@
     <telefon>+421 908 368 968</telefon>
     <email>event@menju.sk</email>
     <web>menju.sk</web>
+    <konatel>Ing. Tomáš Janvars</konatel>
     <poznamka>rozvoz do officu + teambuilding; prevadzka Tomasikova 17</poznamka>
     <gps lat="48.2161175" lon="17.1654827"/>
   </prevadzka>
@@ -23,6 +24,7 @@
     <telefon>0948 083 707</telefon>
     <email>mirka.habudova@gurmanservis.sk</email>
     <web>macomenu.sk</web>
+    <konatel>Miroslava Habudová, Milan Habuda</konatel>
     <poznamka>denny rozvoz obedov od 7,50 EUR, dovoz zdarma, min 2 ks</poznamka>
     <gps lat="48.1794915" lon="17.1664571"/>
   </prevadzka>
@@ -36,6 +38,7 @@
     <telefon>0902 985 500</telefon>
     <email>office@mannacatering.sk</email>
     <web>mannacatering.sk</web>
+    <konatel>Szilárd Cséfalvay</konatel>
     <poznamka>SILNY CIEL; korporatne eventy (Accenture, IBM, Microsoft)</poznamka>
     <gps lat="48.1345931" lon="17.2114238"/>
   </prevadzka>
@@ -46,9 +49,10 @@
     <mesto>Bratislava-Petrzalka</mesto>
     <okres>Bratislava V</okres>
     <velkost>trzby 1,3 mil EUR (2025), 5-9 zam</velkost>
-    <telefon></telefon>
-    <email></email>
+    <telefon>421940637990</telefon>
+    <email>info@123catering.sk</email>
     <web>123catering.sk</web>
+    <konatel>Ing. Monika Dubjelová, Ing. Jozef Dubjel, Roman Střítecký</konatel>
     <poznamka>event catering; kontakt cez web/ORSR</poznamka>
     <gps lat="48.1281468" lon="17.1095441"/>
   </prevadzka>
@@ -62,6 +66,7 @@
     <telefon>+421 910 259 945</telefon>
     <email>manager@amisgroup.sk</email>
     <web>amisgroup.sk</web>
+    <konatel>Mgr. Peter Illy</konatel>
     <poznamka>zavodne stravovanie + sala Senec 250 os</poznamka>
     <gps lat="48.144877" lon="17.1749469"/>
   </prevadzka>
@@ -75,6 +80,7 @@
     <telefon>0948 611 544</telefon>
     <email>info@soupa.sk</email>
     <web>soupa.sk</web>
+    <konatel>Slavko Felix</konatel>
     <poznamka>bufety, ranajky, priestor Kulturama do 200 os</poznamka>
     <gps lat="48.1463945" lon="17.1029415"/>
   </prevadzka>
@@ -86,8 +92,9 @@
     <okres>Bratislava II</okres>
     <velkost>trzby 3,12 mil EUR (2024), 25-49 zam</velkost>
     <telefon>+421 903 456 662</telefon>
-    <email></email>
+    <email>roxy@roxycatering.sk</email>
     <web>roxycatering.sk</web>
+    <konatel>Ján Benetin, Peter Ondruššek</konatel>
     <poznamka>recepcie, vecierky, plesy</poznamka>
     <gps lat="48.1513206" lon="17.150143"/>
   </prevadzka>
@@ -101,6 +108,7 @@
     <telefon>+421 910 333 511</telefon>
     <email>info@papagrill.sk</email>
     <web>papagrill.sk</web>
+    <konatel>Adam Pernecký, Adrián Pernecký</konatel>
     <poznamka>SILNY CIEL; kontraktove firemne jedalne, kuchyna 600 m2; event +421 911 580 480</poznamka>
     <gps lat="48.4213126" lon="17.0373725"/>
   </prevadzka>
@@ -114,6 +122,7 @@
     <telefon>+421 948 929 323</telefon>
     <email>sekretariat@citygastro.sk</email>
     <web>citygastro.sk</web>
+    <konatel>Ing. Marian Lalik, Silvia Zaičková, Ing. Martin Borguľa, Ing. Michal Borguľa</konatel>
     <poznamka>zavodne stravovanie + catering, ISO 9001/22000; prevadzkuje jedalen EUBA</poznamka>
     <gps lat="48.1714307" lon="17.1245613"/>
   </prevadzka>
@@ -127,6 +136,7 @@
     <telefon></telefon>
     <email>info@bencikculinary.sk</email>
     <web>bencikculinary.sk</web>
+    <konatel>Pavol Benčík</konatel>
     <poznamka>premiove jedalne v BC (Obederia, La Cantina)</poznamka>
     <gps lat="48.1421185" lon="17.1078921"/>
   </prevadzka>
@@ -140,6 +150,7 @@
     <telefon>+421 2 3300 2808</telefon>
     <email>recepcia@medusagroup.sk</email>
     <web>medusarestaurants.sk</web>
+    <konatel>Ing. Peter Štecko, Bronislava Štecková, Tomáš Mrva</konatel>
     <poznamka>najvacsia gastro skupina SK; event catering pre tisice; prevadzka Pradiareni 1900</poznamka>
     <gps lat="48.1484987" lon="17.1310906"/>
   </prevadzka>
@@ -153,6 +164,7 @@
     <telefon>0908 898 677</telefon>
     <email>skgastro@skgastro.sk</email>
     <web>skgastro.sk</web>
+    <konatel></konatel>
     <poznamka>zavodne stravovanie; over ICO + sidlo</poznamka>
     <gps lat="48.1516988" lon="17.1093063"/>
   </prevadzka>
@@ -166,6 +178,7 @@
     <telefon>0910 166 999</telefon>
     <email>catering@cateringbratislava.sk</email>
     <web>cateringbratislava.sk</web>
+    <konatel></konatel>
     <poznamka>eventy + pozicovna inventara; over ICO</poznamka>
     <gps lat="48.1738535" lon="17.176006"/>
   </prevadzka>
@@ -179,6 +192,7 @@
     <telefon>+421 918 797 063</telefon>
     <email>obchod@food-time.sk</email>
     <web>food-time.sk</web>
+    <konatel>Michal Kintler, Tomáš Kotras</konatel>
     <poznamka>najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji</poznamka>
     <gps lat="48.3346371" lon="17.0444471"/>
   </prevadzka>
@@ -189,9 +203,10 @@
     <mesto>Bratislava-Nove Mesto</mesto>
     <okres>Bratislava III</okres>
     <velkost>7,1 mil EUR, 150-199 zam</velkost>
-    <telefon></telefon>
-    <email></email>
+    <telefon>421907161705</telefon>
+    <email>obchodsk@gthcatering.cz</email>
     <web>gthcatering.sk</web>
+    <konatel>Daria Choděrová, Tomáš Hubka</konatel>
     <poznamka>sidlo sa stahuje do Nitry od 1.6.2026</poznamka>
     <gps lat="48.1698902" lon="17.140156"/>
   </prevadzka>
@@ -205,6 +220,7 @@
     <telefon>+421 915 763 073</telefon>
     <email>bankovich@sharkam.eu</email>
     <web>sharkam.eu</web>
+    <konatel>Andrej Bruna, Pavol Bankovich</konatel>
     <poznamka>jedalen Technopol + protokolarny catering</poznamka>
     <gps lat="48.1352541" lon="17.1152978"/>
   </prevadzka>
@@ -218,6 +234,7 @@
     <telefon>+421 911 713 000</telefon>
     <email>javorkova@rcslovakia.sk</email>
     <web>rcslovakia.sk</web>
+    <konatel>Marián Zubo</konatel>
     <poznamka>eventy, kongresy</poznamka>
     <gps lat="48.1698902" lon="17.140156"/>
   </prevadzka>
@@ -231,6 +248,7 @@
     <telefon>+421 918 227 782</telefon>
     <email>info@timeoutcatering.sk</email>
     <web>timeoutcatering.sk</web>
+    <konatel>Tomáš Gajar, Pavol Hideghéty</konatel>
     <poznamka>pokryva BA + Senec + Pezinok</poznamka>
     <gps lat="48.2086452" lon="17.4018888"/>
   </prevadzka>
@@ -244,6 +262,7 @@
     <telefon>+421 904 884 427</telefon>
     <email>objednavky@pinostravovanie.sk</email>
     <web>pinostravovanie.sk</web>
+    <konatel>Tomáš Mészároš, Oliver Soboňa, Jozef Volárik</konatel>
     <poznamka>17+ rokov</poznamka>
     <gps lat="48.2053369" lon="17.1465294"/>
   </prevadzka>
@@ -257,6 +276,7 @@
     <telefon>0904 630 487</telefon>
     <email>info@oldeji.sk</email>
     <web>oldeji.sk</web>
+    <konatel></konatel>
     <poznamka>rozvoz v termonadobach + prevadzka jedalni</poznamka>
     <gps lat="48.1235338" lon="17.1089883"/>
   </prevadzka>
@@ -270,6 +290,7 @@
     <telefon>+421 903 995 595</telefon>
     <email>info@alfafood.sk</email>
     <web>alfafood.sk</web>
+    <konatel>Filip Minárik, Tibor Čapák</konatel>
     <poznamka>zavodne stravovanie</poznamka>
     <gps lat="48.1545738" lon="17.1112842"/>
   </prevadzka>
@@ -283,6 +304,7 @@
     <telefon>0948 080 180</telefon>
     <email>info@happy-day.sk</email>
     <web>happydaycatering.sk</web>
+    <konatel>Adrian Pastucha</konatel>
     <poznamka>16+ rokov</poznamka>
     <gps lat="48.1237261" lon="17.2123351"/>
   </prevadzka>
@@ -294,8 +316,9 @@
     <okres>Bratislava II</okres>
     <velkost>rozvoz obedov</velkost>
     <telefon>0905 600 000</telefon>
-    <email></email>
+    <email>oldbrickpubsk@gmail.com</email>
     <web>jedlobratislava.sk</web>
+    <konatel>Boris Križanovič</konatel>
     <poznamka>rozvoz po celej BA vratane noci</poznamka>
     <gps lat="48.1608571" lon="17.1477295"/>
   </prevadzka>
@@ -306,9 +329,10 @@
     <mesto>Bratislava-Karlova Ves</mesto>
     <okres>Bratislava IV</okres>
     <velkost>450 miest, 4000+ jedal/den (areal Mlyny az 6000)</velkost>
-    <telefon></telefon>
-    <email></email>
+    <telefon>903635457</telefon>
+    <email>info@eatandmeet.sk</email>
     <web>eatandmeet.sk</web>
+    <konatel></konatel>
     <poznamka>univerzitna; vlastna prevadzka UK</poznamka>
     <gps lat="48.1641859" lon="17.0678683"/>
   </prevadzka>
@@ -322,6 +346,7 @@
     <telefon></telefon>
     <email></email>
     <web>mlyny.uniba.sk</web>
+    <konatel></konatel>
     <poznamka>univerzitna jedalen</poznamka>
     <gps lat="48.1548435" lon="17.06991"/>
   </prevadzka>
@@ -335,6 +360,7 @@
     <telefon>+421 948 929 323</telefon>
     <email>sekretariat@citygastro.sk</email>
     <web>citygastro.sk</web>
+    <konatel></konatel>
     <poznamka>prevadzkuje City Gastro</poznamka>
     <gps lat="48.1275493" lon="17.1323468"/>
   </prevadzka>
@@ -345,9 +371,10 @@
     <mesto>Bratislava-Nove Mesto</mesto>
     <okres>Bratislava III</okres>
     <velkost>136 miest + siet 5-7 jedalni STU</velkost>
-    <telefon>+421 918 600 162</telefon>
-    <email></email>
+    <telefon>421917470507</telefon>
+    <email>public@stuba.sk</email>
     <web>stuba.sk</web>
+    <konatel></konatel>
     <poznamka>UZ SDaJ STU</poznamka>
     <gps lat="48.177312" lon="17.1261017"/>
   </prevadzka>
@@ -358,9 +385,10 @@
     <mesto>Bratislava-Ruzinov</mesto>
     <okres>Bratislava II</okres>
     <velkost>&gt;100k hospitalizacii/rok</velkost>
-    <telefon>02 48234111</telefon>
+    <telefon>+421 2 48234 111</telefon>
     <email></email>
     <web>unb.sk</web>
+    <konatel></konatel>
     <poznamka>vlastna OLVaS; vstup cez verejne obstaravanie</poznamka>
     <gps lat="48.1552301" lon="17.1519477"/>
   </prevadzka>
@@ -374,6 +402,7 @@
     <telefon></telefon>
     <email></email>
     <web>unb.sk</web>
+    <konatel></konatel>
     <poznamka>vlastna kuchyna, tacovy system</poznamka>
     <gps lat="48.1662606" lon="17.0863257"/>
   </prevadzka>
@@ -387,6 +416,7 @@
     <telefon></telefon>
     <email></email>
     <web>unb.sk</web>
+    <konatel></konatel>
     <poznamka>vlastna kuchyna</poznamka>
     <gps lat="48.1020874" lon="17.1183618"/>
   </prevadzka>
@@ -400,6 +430,7 @@
     <telefon></telefon>
     <email></email>
     <web>nusch.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1696588" lon="17.0869479"/>
   </prevadzka>
@@ -413,6 +444,7 @@
     <telefon></telefon>
     <email></email>
     <web>nou.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1718244" lon="17.0894784"/>
   </prevadzka>
@@ -426,6 +458,7 @@
     <telefon></telefon>
     <email></email>
     <web>nsmas.sk</web>
+    <konatel></konatel>
     <poznamka>vojensko-policajna univ. nemocnica</poznamka>
     <gps lat="48.1452492" lon="17.1175227"/>
   </prevadzka>
@@ -439,6 +472,7 @@
     <telefon></telefon>
     <email>facility/HR</email>
     <web>volkswagen.sk</web>
+    <konatel></konatel>
     <poznamka>operator stravovania NEOVERENY - priamy dopyt</poznamka>
     <gps lat="48.2350546" lon="16.9817538"/>
   </prevadzka>
@@ -452,6 +486,7 @@
     <telefon></telefon>
     <email>facility</email>
     <web>slovnaft.sk</web>
+    <konatel></konatel>
     <poznamka>operator neovereny</poznamka>
     <gps lat="48.1282386" lon="17.176661"/>
   </prevadzka>
@@ -465,6 +500,7 @@
     <telefon></telefon>
     <email></email>
     <web></web>
+    <konatel></konatel>
     <poznamka>cokoladovna</poznamka>
     <gps lat="48.1932309" lon="17.1416428"/>
   </prevadzka>
@@ -478,6 +514,7 @@
     <telefon></telefon>
     <email></email>
     <web>bencikculinary.sk</web>
+    <konatel></konatel>
     <poznamka>siet kantin v BC (Central, Apollo, Petrzalka)</poznamka>
     <gps lat="48.1484131" lon="17.1087896"/>
   </prevadzka>
@@ -491,6 +528,7 @@
     <telefon></telefon>
     <email></email>
     <web>foodseason.sk</web>
+    <konatel></konatel>
     <poznamka>bio suroviny, sous-vide</poznamka>
     <gps lat="48.1686969" lon="17.0753887"/>
   </prevadzka>
@@ -504,6 +542,7 @@
     <telefon></telefon>
     <email></email>
     <web></web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1686969" lon="17.0753887"/>
   </prevadzka>
@@ -517,6 +556,7 @@
     <telefon></telefon>
     <email></email>
     <web></web>
+    <konatel></konatel>
     <poznamka>zona Eurovea/Twin City</poznamka>
     <gps lat="48.1411404" lon="17.1273381"/>
   </prevadzka>
@@ -530,6 +570,7 @@
     <telefon>+421 903 123 134</telefon>
     <email>rezervacie@zylinder.sk</email>
     <web>zylinder.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1419314" lon="17.1077327"/>
   </prevadzka>
@@ -543,6 +584,7 @@
     <telefon>0907 701 070</telefon>
     <email>restauracia@vinomatysak.sk</email>
     <web>restauraciamatysak.sk</web>
+    <konatel></konatel>
     <poznamka>svadby</poznamka>
     <gps lat="48.2883571" lon="17.2666299"/>
   </prevadzka>
@@ -553,9 +595,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>~180 + terasa 25, salonik 35</velkost>
-    <telefon></telefon>
+    <telefon>944512265</telefon>
     <email>info@mestianskypivovar.sk</email>
     <web>mestianskypivovar.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1469194" lon="17.1081791"/>
   </prevadzka>
@@ -566,9 +609,10 @@
     <mesto>Malacky</mesto>
     <okres>Malacky</okres>
     <velkost>svadobna sala do 250, vlastna kuchyna</velkost>
-    <telefon></telefon>
-    <email></email>
+    <telefon>910780790</telefon>
+    <email>info@eventhall.sk</email>
     <web>eventhall.sk</web>
+    <konatel></konatel>
     <poznamka>kontakt cez web</poznamka>
     <gps lat="48.4325413" lon="17.0230915"/>
   </prevadzka>
@@ -579,9 +623,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>~280 + terasa 300, salonik 60</velkost>
-    <telefon>0948 710 888</telefon>
+    <telefon>948710888</telefon>
     <email>dunajska@mestianskypivovar.sk</email>
     <web>mestianskypivovar.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1459308" lon="17.1176901"/>
   </prevadzka>
@@ -593,8 +638,9 @@
     <okres>Pezinok</okres>
     <velkost>Zoya Museum 200-400, restauracia 80</velkost>
     <telefon>+421 905 704 873</telefon>
-    <email></email>
+    <email>martin.chovanec@elesko.sk</email>
     <web>elesko.sk</web>
+    <konatel></konatel>
     <poznamka>event manager Peter Toth</poznamka>
     <gps lat="48.3541412" lon="17.3219993"/>
   </prevadzka>
@@ -608,6 +654,7 @@
     <telefon>+421 917 629 221</telefon>
     <email>slovakpub@slovakpub.sk</email>
     <web>slovakpub.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1483346" lon="17.1124098"/>
   </prevadzka>
@@ -621,6 +668,7 @@
     <telefon></telefon>
     <email>nhgateone@nh-hotels.com</email>
     <web>nh-hotels.com</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1662442" lon="17.1774457"/>
   </prevadzka>
@@ -634,6 +682,7 @@
     <telefon></telefon>
     <email></email>
     <web>ihg.com</web>
+    <konatel></konatel>
     <poznamka>event kontakt cez IHG</poznamka>
     <gps lat="48.1530346" lon="17.1488827"/>
   </prevadzka>
@@ -647,6 +696,7 @@
     <telefon>+421 948 418 934</telefon>
     <email>dunajskypivovar@dunajskypivovar.sk</email>
     <web>dunajskypivovar.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1363762" lon="17.1132834"/>
   </prevadzka>
@@ -660,6 +710,7 @@
     <telefon>+421 948 660 459</telefon>
     <email>marketing@hotelsaffron.sk</email>
     <web>hotelsaffron.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1523448" lon="17.117072"/>
   </prevadzka>
@@ -673,6 +724,7 @@
     <telefon>+421 2 5939 0000</telefon>
     <email>reservation.bratislava@radissonblu.com</email>
     <web>radissonhotels.com</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1412124" lon="17.1085808"/>
   </prevadzka>
@@ -686,6 +738,7 @@
     <telefon>+421 904 543 513</telefon>
     <email>kakasova@hotelsenec.sk</email>
     <web>hotelsenec.sk</web>
+    <konatel></konatel>
     <poznamka>event Stela Kakasova</poznamka>
     <gps lat="48.2215028" lon="17.4005824"/>
   </prevadzka>
@@ -699,6 +752,7 @@
     <telefon></telefon>
     <email></email>
     <web>marriott.com</web>
+    <konatel></konatel>
     <poznamka>Eurovea; event cez Marriott MICE</poznamka>
     <gps lat="48.1403976" lon="17.1223178"/>
   </prevadzka>
@@ -709,9 +763,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>event 471 m2, do 400 delegatov</velkost>
-    <telefon></telefon>
+    <telefon>+353 1 5138080</telefon>
     <email></email>
     <web>radissonhotels.com</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1404872" lon="17.1050761"/>
   </prevadzka>
@@ -725,6 +780,7 @@
     <telefon>+421 2 5923 6100</telefon>
     <email></email>
     <web>falkensteiner.com</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1460616" lon="17.1034683"/>
   </prevadzka>
@@ -735,9 +791,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>banketove saly</velkost>
-    <telefon></telefon>
+    <telefon>+421 2 3223 8222</telefon>
     <email></email>
     <web>grandriverpark.sk</web>
+    <konatel></konatel>
     <poznamka>event cez Marriott</poznamka>
     <gps lat="48.1414165" lon="17.0903098"/>
   </prevadzka>
@@ -751,6 +808,7 @@
     <telefon>+421 908 602 020</telefon>
     <email></email>
     <web>kolibasenec.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.2215028" lon="17.4005824"/>
   </prevadzka>
@@ -764,6 +822,7 @@
     <telefon>+421 948 420 999</telefon>
     <email>trznica@staratrznica.sk</email>
     <web>staratrznica.sk</web>
+    <konatel></konatel>
     <poznamka>catering externy</poznamka>
     <gps lat="48.1448115" lon="17.1112785"/>
   </prevadzka>
@@ -777,6 +836,7 @@
     <telefon>+421 917 977 311</telefon>
     <email></email>
     <web>zelenydvormalacky.sk</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.425248" lon="17.0201504"/>
   </prevadzka>
@@ -787,9 +847,10 @@
     <mesto>Bernolakovo</mesto>
     <okres>Senec</okres>
     <velkost>terasova miestnost ~100, restauracia 60</velkost>
-    <telefon></telefon>
+    <telefon>421907795658</telefon>
     <email></email>
     <web>penzionpalenica.eu</web>
+    <konatel></konatel>
     <poznamka></poznamka>
     <gps lat="48.1989817" lon="17.3000328"/>
   </prevadzka>
@@ -803,6 +864,7 @@
     <telefon>+421 910 872 168</telefon>
     <email></email>
     <web>riverbank.sk</web>
+    <konatel></konatel>
     <poznamka>pri Grand Hotel River Park</poznamka>
     <gps lat="48.1414165" lon="17.0903098"/>
   </prevadzka>
@@ -813,9 +875,10 @@
     <mesto>Senec</mesto>
     <okres>Senec</okres>
     <velkost>sala do ~120 s parketom</velkost>
-    <telefon></telefon>
+    <telefon>+421 / 949 616 665</telefon>
     <email></email>
     <web>hotelnostalgia.sk</web>
+    <konatel></konatel>
     <poznamka>svadby/oslavy</poznamka>
     <gps lat="48.2199473" lon="17.3969901"/>
   </prevadzka>
@@ -829,6 +892,7 @@
     <telefon>+421 915 512 230</telefon>
     <email>ahoj@kruhpekaren.sk</email>
     <web>kruhpekaren.sk</web>
+    <konatel>Emília Tomljenović</konatel>
     <poznamka>3 prevadzky (siet remeselnych pekarni)</poznamka>
     <gps lat="48.1647644" lon="17.1307846"/>
   </prevadzka>
@@ -842,6 +906,7 @@
     <telefon>0940 629 026</telefon>
     <email></email>
     <web>triplefivecoffee.com</web>
+    <konatel>Martin Beniak, Tomáš Tatarka</konatel>
     <poznamka>3 prevadzky</poznamka>
     <gps lat="48.1509638" lon="17.1096081"/>
   </prevadzka>
@@ -855,6 +920,7 @@
     <telefon>+421 902 311 331</telefon>
     <email>info@freshgarden.sk</email>
     <web>freshgarden.sk</web>
+    <konatel>Radoslav Laurinec</konatel>
     <poznamka>3 prevadzky</poznamka>
     <gps lat="48.1462765" lon="17.1419155"/>
   </prevadzka>
@@ -865,9 +931,10 @@
     <mesto>Bratislava-Dubravka</mesto>
     <okres>Bratislava IV</okres>
     <velkost>3 restauracie fine-dining</velkost>
-    <telefon></telefon>
-    <email></email>
-    <web></web>
+    <telefon>421940511179</telefon>
+    <email>rezervacie@pulitzer.sk</email>
+    <web>https://pulitzer.sk/</web>
+    <konatel>Richard Farenzena</konatel>
     <poznamka>Stefanka, Pulitzer, U zlateho jelena</poznamka>
     <gps lat="48.1914663" lon="17.0408338"/>
   </prevadzka>
@@ -881,6 +948,7 @@
     <telefon></telefon>
     <email></email>
     <web>dominospizza.sk</web>
+    <konatel>Ivan Apostolov, Mário Apostolov</konatel>
     <poznamka>4 prevadzky</poznamka>
     <gps lat="48.1568421" lon="17.1419539"/>
   </prevadzka>
@@ -891,9 +959,10 @@
     <mesto>Bratislava-Vrakuna</mesto>
     <okres>Bratislava II</okres>
     <velkost>4 prevadzky, trzby 2,84 mil EUR (2024)</velkost>
-    <telefon></telefon>
+    <telefon>421903508894</telefon>
     <email></email>
-    <web></web>
+    <web>www.edo-kin.sk/</web>
+    <konatel>Michal Šramko, Karol Gálik</konatel>
     <poznamka>4 prevadzky</poznamka>
     <gps lat="48.1491794" lon="17.2137098"/>
   </prevadzka>
@@ -904,9 +973,10 @@
     <mesto>Bratislava-Nove Mesto</mesto>
     <okres>Bratislava III</okres>
     <velkost>5-6 kaviarni</velkost>
-    <telefon></telefon>
-    <email></email>
+    <telefon>‭+43 1 2260226 - 11‬</telefon>
+    <email>office@coffeeshopcompany.com</email>
     <web>coffeeshopcompany.com</web>
+    <konatel>Zhanna Alanova</konatel>
     <poznamka>5-6 kaviarni</poznamka>
     <gps lat="48.1754477" lon="17.132832"/>
   </prevadzka>
@@ -919,7 +989,8 @@
     <velkost>5-6 prevadzok</velkost>
     <telefon></telefon>
     <email>info@regalburger.com</email>
-    <web>regalburger.eu</web>
+    <web>regalburger.com</web>
+    <konatel>Jozef Bardík, Jozef Kuzma</konatel>
     <poznamka>5-6 prevadzok v BA; sidlo Drahovce (mimo BA kraja)</poznamka>
     <gps lat="48.1516988" lon="17.1093063"/>
   </prevadzka>
@@ -933,6 +1004,7 @@
     <telefon>+421 905 551 705</telefon>
     <email>bevanda@bevanda.sk</email>
     <web>bevanda.sk</web>
+    <konatel></konatel>
     <poznamka>6 restauracii</poznamka>
     <gps lat="48.2117407" lon="17.153861"/>
   </prevadzka>
@@ -946,6 +1018,7 @@
     <telefon></telefon>
     <email>info@mondieu.sk</email>
     <web>mondieu.sk</web>
+    <konatel>Ľubomír Slimák</konatel>
     <poznamka>7 kaviarni</poznamka>
     <gps lat="48.1577489" lon="17.1310655"/>
   </prevadzka>
@@ -959,6 +1032,7 @@
     <telefon>0905 295 165</telefon>
     <email>info@veglife.sk</email>
     <web>veglife.sk</web>
+    <konatel>Filip Jaško, Peter Jurík</konatel>
     <poznamka>cisty 1 kontakt - dobry B2B lead</poznamka>
     <gps lat="48.1710686" lon="17.0712854"/>
   </prevadzka>
@@ -972,6 +1046,7 @@
     <telefon>+421 918 689 366</telefon>
     <email>info@spustakaviaren.sk</email>
     <web>spustakaviaren.sk</web>
+    <konatel>Ing. Dušan Spusta</konatel>
     <poznamka>aj okresy; 2. ICO 35803568</poznamka>
     <gps lat="48.1269838" lon="17.1081707"/>
   </prevadzka>
@@ -985,6 +1060,7 @@
     <telefon></telefon>
     <email></email>
     <web>starbucksslovakia.sk</web>
+    <konatel>Ismael Moreno, Santiago Pérez</konatel>
     <poznamka>skupina AmRest, viac brandov</poznamka>
     <gps lat="48.1111834" lon="17.1029997"/>
   </prevadzka>
@@ -998,6 +1074,7 @@
     <telefon></telefon>
     <email></email>
     <web>kfcslovakia.sk</web>
+    <konatel>Karim Jivraj, Rudolf Hacker, Alexandra Maar, Pierre Hardy</konatel>
     <poznamka>over aktualnu entitu (AmRest)</poznamka>
     <gps lat="48.1534392" lon="17.1151016"/>
   </prevadzka>
@@ -1011,6 +1088,7 @@
     <telefon></telefon>
     <email></email>
     <web>mcdonalds.sk</web>
+    <konatel>Tereza Trepáčová, Yuliya Badritdinova</konatel>
     <poznamka>NAJVACSI retazec; +Pezinok</poznamka>
     <gps lat="48.13244" lon="17.10755"/>
   </prevadzka>
@@ -1024,6 +1102,7 @@
     <telefon>02/4826 4111</telefon>
     <email>podatelna@region-bsk.sk</email>
     <web>region-bsk.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; zriadovatel SOS/gymnazii a DSS s vlastnymi kuchynami; centralne VO potravin pre svoje organizacie</poznamka>
     <gps lat="48.1608571" lon="17.1477295"/>
   </prevadzka>
@@ -1037,6 +1116,7 @@
     <telefon>02/5935 6111</telefon>
     <email>info@bratislava.sk</email>
     <web>bratislava.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; siet skolskych jedalni MS/ZS, socialne zariadenia mesta, VO stravy a potravin</poznamka>
     <gps lat="48.1445175" lon="17.1091382"/>
   </prevadzka>
@@ -1047,9 +1127,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>najvacsia VS v SR, ~20-25 tis studentov + ~4-5 tis zam; vlastne menzy a jedalne</velkost>
-    <telefon>02/5924 4111</telefon>
-    <email></email>
-    <web>uniba.sk</web>
+    <telefon>02/9012 9555</telefon>
+    <email>mlyny@uniba.sk</email>
+    <web>mlyny.uniba.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vlastne vysokoskolske jedalne, tisice stravnikov denne</poznamka>
     <gps lat="48.1411725" lon="17.1154529"/>
   </prevadzka>
@@ -1063,6 +1144,7 @@
     <telefon>02/9012 9555</telefon>
     <email>mlyny@uniba.sk</email>
     <web>mlyny.uniba.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; najvacsi student. domov v SR, vlastne jedalne pre tisice stravnikov; sucast UK (rovnake ICO)</poznamka>
     <gps lat="48.1599875" lon="17.0668479"/>
   </prevadzka>
@@ -1076,6 +1158,7 @@
     <telefon>02/5729 4537</telefon>
     <email></email>
     <web>stuba.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; menza Mladost (Stare grunty 53) + dalsie jedalne, velkoobjemove stravovanie</poznamka>
     <gps lat="48.1547473" lon="17.1178057"/>
   </prevadzka>
@@ -1089,6 +1172,7 @@
     <telefon>02/6729 5356</telefon>
     <email>komunikacia@euba.sk</email>
     <web>euba.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; SD Horsky park/Hrobonova + univ. jedalen (prevadzkuje aj externy dodavatel)</poznamka>
     <gps lat="48.1275493" lon="17.1323468"/>
   </prevadzka>
@@ -1102,6 +1186,7 @@
     <telefon>02/4823 4111</telefon>
     <email>unb@unb.sk</email>
     <web>unb.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; viacero nemocnicnych kuchyn, strava pacientov + zamestnanci; velke VO potravin</poznamka>
     <gps lat="48.1538941" lon="17.1506544"/>
   </prevadzka>
@@ -1115,6 +1200,7 @@
     <telefon>02/4445 2134</telefon>
     <email>tlacove@mod.gov.sk</email>
     <web>mosr.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; rezortna jedalen na ustredi + VO stravovania pre OS SR</poznamka>
     <gps lat="48.1644832" lon="17.1319388"/>
   </prevadzka>
@@ -1128,6 +1214,7 @@
     <telefon>0960 312 333</telefon>
     <email></email>
     <web>vepba.mil.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; kasarenske kuchyne/jedalne vojakov; utvar OS SR (ICO pod MO SR 30845572)</poznamka>
     <gps lat="48.1644832" lon="17.1319388"/>
   </prevadzka>
@@ -1138,9 +1225,10 @@
     <mesto>Bratislava-Stare Mesto</mesto>
     <okres>Bratislava I</okres>
     <velkost>rezort &gt;30 tis zam; ustredie + jedalne na pracoviskach v BA</velkost>
-    <telefon>02/5094 1111</telefon>
+    <telefon>0961 011 111</telefon>
     <email>tokmv@minv.sk</email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; rezortne jedalne (PZ, HaZZ), centralne VO potravin a stravovania</poznamka>
     <gps lat="48.140558" lon="17.1182672"/>
   </prevadzka>
@@ -1154,6 +1242,7 @@
     <telefon>0961 011 111</telefon>
     <email></email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; jedalen pre policajtov na Spitalskej; rozpoctovo pod MV SR 00151866</poznamka>
     <gps lat="48.1482956" lon="17.1171202"/>
   </prevadzka>
@@ -1167,6 +1256,7 @@
     <telefon>02/2083 2105</telefon>
     <email>sekretariatrba@zvjs.sk</email>
     <web>zvjs.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; vazenska kuchyna, stabilne velkoobjemove VO potravin (maso, pecivo, zelenina)</poznamka>
     <gps lat="48.1513547" lon="17.1237338"/>
   </prevadzka>
@@ -1180,6 +1270,7 @@
     <telefon>02/2029 2111</telefon>
     <email>gro210@zsr.sk</email>
     <web>zsr.sk</web>
+    <konatel>Miroslav Garaj</konatel>
     <poznamka>Velky statny podnik, sidlo GR v BA; firemne stravovanie na ustredi a prevadzkach</poznamka>
     <gps lat="48.14349" lon="17.1186894"/>
   </prevadzka>
@@ -1193,6 +1284,7 @@
     <telefon>0850 122 413</telefon>
     <email></email>
     <web>posta.sk</web>
+    <konatel>Vladislav Kupka, Melinda Burdanová, Juliana Márquez, Michaela Rajtarová, Filip Kamenský</konatel>
     <poznamka>Velky statny zamestnavatel; BA prevadzka/uzol so zamestnaneckym stravovanim</poznamka>
     <gps lat="48.170123" lon="17.1476088"/>
   </prevadzka>
@@ -1206,6 +1298,7 @@
     <telefon>0961 047 201</telefon>
     <email>sekretariat.bl@minv.sk</email>
     <web>minv.sk</web>
+    <konatel></konatel>
     <poznamka>SILNY CIEL; HaZZ velky zamestnavatel so zavodnou kuchynou; hist. ICO (od 2013 pod MV SR 00151866)</poznamka>
     <gps lat="48.1501233" lon="17.1148611"/>
   </prevadzka>
