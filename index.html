@@ -167,6 +167,13 @@
   .plb-unk{background:#64748b;color:#fff}
   .plb-fav{background:#ef4444;color:#fff}
   .mark-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+  .plc-hint{flex-shrink:0;color:var(--muted);opacity:.4;font-size:14px;letter-spacing:1px}
+  .plc:hover .plc-hint{opacity:.9;color:#7dd3fc}
+  #plPop{display:none;position:fixed;z-index:4500;width:230px;background:var(--panel);border:1px solid #475569;border-radius:12px;padding:12px 14px;box-shadow:0 12px 32px rgba(0,0,0,.55)}
+  #plPop.open{display:block}
+  #plPop .plpop-title{font-size:13px;font-weight:700;color:#fff;margin-bottom:8px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #plPop .modal-label{margin:8px 0 3px}
+  #plPop .flag-btn{font-size:12px}
   .plc.sel .plb{box-shadow:0 0 0 1.5px rgba(255,255,255,.5)}
   .plc-tag{background:none;border:0;cursor:pointer;font-size:13px;opacity:.55;padding:0 2px;flex-shrink:0;color:inherit}
   .plc-tag:hover{opacity:1}
@@ -363,6 +370,7 @@
       </div>
       <div class="pl-cal" id="plCal"></div>
     </div>
+    <div id="plPop"></div>
   </div>
   <div id="plModal" class="modal">
     <div class="modal-box">
@@ -1056,6 +1064,8 @@ let plMonday=null; // momentálny pondelok (js Date)
 let plSelectedContact=null; // momentálne vybraný kontakt (bodKey)
 let plModalData={bodKey:'',firma:'',start:null}; // data pre modal
 let draggedKey=null; // bodKey kontaktu ťahaného zo zoznamu
+let plDragging=false;
+let plPopKey=null, plPopHideT=null;
 
 function setPlMonday(date){
   const d=new Date(date);
@@ -1093,6 +1103,32 @@ function planToday(){
   renderPlanner();
 }
 
+// --- hover popover s voľbami označenia ---
+function fillPlPop(){
+  const m=markers.find(mm=>bodKey(mm._d)===plPopKey); if(!m) return;
+  const pop=document.getElementById('plPop');
+  pop.innerHTML=`<div class="plpop-title">${esc(contactCode(m._d))} · ${esc(m._d.firma)}</div>`
+    +markButtonsHtml(getContactData(m._d))
+    +`<div class="mark-row" style="margin-top:10px"><button class="flag-btn" data-grp="1" style="width:100%">🏷 Skupiny…</button></div>`;
+  pop.querySelectorAll('[data-mk]').forEach(b=>b.addEventListener('click',()=>{ applyMark(plPopKey,b.dataset.mk); fillPlPop(); renderPlanner(); }));
+  pop.querySelector('[data-grp]').addEventListener('click',()=>{ const k=plPopKey; hidePlPop(); openGroupModal(k); });
+}
+function openPlPop(key,anchorEl){
+  if(plDragging) return;
+  clearTimeout(plPopHideT);
+  plPopKey=key;
+  fillPlPop();
+  const pop=document.getElementById('plPop');
+  pop.classList.add('open');
+  const r=anchorEl.getBoundingClientRect();
+  pop.style.top=Math.max(8,Math.min(r.top,window.innerHeight-pop.offsetHeight-8))+'px';
+  let left=r.right+6;
+  if(left+pop.offsetWidth>window.innerWidth-8) left=Math.max(8,r.left-pop.offsetWidth-6);
+  pop.style.left=left+'px';
+}
+function scheduleHidePlPop(){ clearTimeout(plPopHideT); plPopHideT=setTimeout(hidePlPop,200); }
+function hidePlPop(){ clearTimeout(plPopHideT); document.getElementById('plPop').classList.remove('open'); plPopKey=null; }
+
 let plRendered=[]; // bodKey v poradí renderu (pre data-i)
 function plRowHtml(x,i){
   const cd=getContactData(x.d);
@@ -1110,11 +1146,7 @@ function plRowHtml(x,i){
     +`<div class="plc-top"><span class="plc-code">${code}</span><span class="pdot" style="background:${COLORS[x.d.kat]}"></span>`
     +`<span class="plc-name">${esc(x.d.firma)}</span>`
     +(sched?`<span class="plc-sched-tag" title="Už v kalendári">📅</span>`:'')
-    +`<button class="plc-mk ${cd.prio==='h'?'on-h':''}" data-ki="${i}" data-mk="prio:h" title="Vysoká priorita">⭐</button>`
-    +`<button class="plc-mk ${cd.known==='y'?'on-y':''}" data-ki="${i}" data-mk="known:y" title="Známy">✓</button>`
-    +`<button class="plc-mk ${cd.known==='n'?'on-n':''}" data-ki="${i}" data-mk="known:n" title="Neznámy">✕</button>`
-    +`<button class="plc-fav ${cd.fav?'on':''}" data-fav="${i}" title="Obľúbený kontakt">♥</button>`
-    +`<button class="plc-tag" data-tag="${i}" title="Zaradiť do skupiny / viac">🏷</button></div>`
+    +`<span class="plc-hint" title="Podrž myš pre označenie">⋯</span></div>`
     +(badges?`<div class="plc-badges">${badges}</div>`:'')
     +`<small>${esc(x.d.mesto)}${chips?'<br>'+chips:''}</small></div>`;
 }
@@ -1200,13 +1232,12 @@ function renderPlContacts(){
       el.addEventListener('click',()=>{ const ev=eventsMap.find(e=>e.bodKey===key); if(ev) showPlEvent(ev); });
     } else {
       el.addEventListener('click',()=>selectPlContact(key));
-      el.addEventListener('dragstart',e=>{ draggedKey=key; e.dataTransfer.effectAllowed='copy'; try{e.dataTransfer.setData('text/plain',key);}catch(_){} });
-      el.addEventListener('dragend',()=>{ draggedKey=null; });
+      el.addEventListener('dragstart',e=>{ draggedKey=key; plDragging=true; hidePlPop(); e.dataTransfer.effectAllowed='copy'; try{e.dataTransfer.setData('text/plain',key);}catch(_){} });
+      el.addEventListener('dragend',()=>{ draggedKey=null; plDragging=false; });
     }
+    el.addEventListener('mouseenter',()=>openPlPop(key,el));
+    el.addEventListener('mouseleave',scheduleHidePlPop);
   });
-  pc.querySelectorAll('.plc-mk').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();applyMark(plRendered[+el.dataset.ki],el.dataset.mk);renderPlanner();}));
-  pc.querySelectorAll('.plc-fav').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();toggleFavKey(plRendered[+el.dataset.fav]);}));
-  pc.querySelectorAll('.plc-tag').forEach(el=>el.addEventListener('click',e=>{e.stopPropagation();openGroupModal(plRendered[+el.dataset.tag]);}));
   pc.querySelectorAll('.pl-grp-del').forEach(el=>el.addEventListener('click',()=>deleteGroup(el.dataset.del)));
 }
 
@@ -1486,6 +1517,11 @@ document.getElementById('plGroupView').addEventListener('change',e=>{
   try{ localStorage.setItem(PLANNER_VIEW_STORE,e.target.value); }catch(_){}
   renderPlanner();
 });
+(function(){
+  const pop=document.getElementById('plPop');
+  pop.addEventListener('mouseenter',()=>clearTimeout(plPopHideT));
+  pop.addEventListener('mouseleave',scheduleHidePlPop);
+})();
 
 // --- Trello export ---
 const TRELLO_STORE='gastro_trello_v1';
