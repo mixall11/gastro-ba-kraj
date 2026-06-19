@@ -248,8 +248,8 @@ const GASTRO_DATA = [
   "zona": "Z6",
   "pozn": "najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji",
   "konatel": "Michal Kintler, Tomáš Kotras",
-  "lat": 49.2025305,
-  "lon": 18.731419
+  "lat": 48.3346371,
+  "lon": 17.0444471
  },
  {
   "kraj": "BA",
@@ -1400,8 +1400,8 @@ const GASTRO_DATA = [
   "zona": "Z3",
   "pozn": "NAJVACSI retazec; +Pezinok",
   "konatel": "Tereza Trepáčová, Yuliya Badritdinova",
-  "lat": 48.99802,
-  "lon": 21.26936
+  "lat": 48.13244,
+  "lon": 17.10755
  },
  {
   "kraj": "BA",
@@ -1994,8 +1994,8 @@ const GASTRO_DATA = [
   "zona": "T1",
   "pozn": "SILNY CIEL; nemocnicna kuchyna pacienti + personal; verejny obstaravatel",
   "konatel": "",
-  "lat": 48.3683466,
-  "lon": 17.5883897
+  "lat": 48.374218,
+  "lon": 17.5809299
  },
  {
   "kraj": "TT",
@@ -5324,8 +5324,8 @@ const GASTRO_DATA = [
   "zona": "B1",
   "pozn": "SILNY CIEL; najvacsia nemocnica regiona, vlastna kuchyna pacienti + personal, verejny obstaravatel",
   "konatel": "",
-  "lat": 48.735429,
-  "lon": 19.1457338
+  "lat": 48.7435675,
+  "lon": 19.1206201
  },
  {
   "kraj": "BB",
@@ -6962,8 +6962,8 @@ const GASTRO_DATA = [
   "zona": "ZA3",
   "pozn": "SILNY CIEL; vlajkovy 4* rezort TMR v Jasnej, kongresova/banketova kapacita az 300 osob, MICE a firemne eventy",
   "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
-  "lat": 49.1005697,
-  "lon": 19.4464463
+  "lat": 48.97122,
+  "lon": 19.58108
  },
  {
   "kraj": "ZA",
@@ -6980,8 +6980,8 @@ const GASTRO_DATA = [
   "zona": "ZA3",
   "pozn": "SILNY CIEL; najnavstevovanejsi aquapark SK (~1,2 mil rocne), celorocna prevadzka, banketova kapacita 300-320 osob",
   "konatel": "Zuzana Ištvánfiová, Marian Klas, Igor Rattaj, František Hodorovský",
-  "lat": 49.1005697,
-  "lon": 19.4464463
+  "lat": 49.10706,
+  "lon": 19.57128
  },
  {
   "kraj": "ZA",
@@ -8834,8 +8834,8 @@ const GASTRO_DATA = [
   "zona": "PO1",
   "pozn": "SILNY CIEL; uz v Statne firmy a urady; najvacsia nemocnica PO kraja, tackaren stravuje tisicky pacientov + personal denne",
   "konatel": "",
-  "lat": 48.9964472,
-  "lon": 21.2536714
+  "lat": 48.9978055,
+  "lon": 21.2557611
  },
  {
   "kraj": "PO",
