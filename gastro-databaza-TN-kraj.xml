@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="69">
+<gastro_databaza kraj="Trenciansky" typ="vsetky" pocet="71">
   <prevadzka kategoria="Catering dodavatel" zona="N1">
     <firma>Catering Trencin (Polis)</firma>
     <ico>53236807</ico>
@@ -965,5 +965,33 @@
     <konatel></konatel>
     <poznamka>prispevkova org TSK; 250-499 zam</poznamka>
     <gps lat="48.7632026" lon="17.5613471"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="TN1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Partizanska 73</adresa>
+    <mesto>Banovce nad Bebravou</mesto>
+    <okres>Banovce nad Bebravou</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 911 114 849</telefon>
+    <email>objednavky@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Michal Kintler, Tomáš Kotras</konatel>
+    <poznamka>FOOD TIME regionalna pobocka (vydaj/distribucia); objednavky objednavky@food-time.sk</poznamka>
+    <gps lat="48.7208166" lon="18.2747752"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="TN1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Mladeznicka 2313</adresa>
+    <mesto>Trencin</mesto>
+    <okres>Trencin</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 905 891 427</telefon>
+    <email>stano@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Michal Stano</konatel>
+    <poznamka>FOOD TIME regionalna pobocka; reg. manazer Michal Stano</poznamka>
+    <gps lat="48.8986183" lon="18.043281"/>
   </prevadzka>
 </gastro_databaza>

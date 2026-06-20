@@ -189,12 +189,12 @@
     <mesto>Lozorno</mesto>
     <okres>Malacky</okres>
     <velkost>~5,2 mil EUR (2023); 10000+ porcii/den</velkost>
-    <telefon>+421 918 797 063</telefon>
-    <email>obchod@food-time.sk</email>
+    <telefon>+421 918 611 572</telefon>
+    <email>fodor@food-time.sk</email>
     <web>food-time.sk</web>
-    <konatel>Michal Kintler, Tomáš Kotras</konatel>
-    <poznamka>najvyssia kapacita; sidlo Tren. Teplice, prevadzka v BA kraji</poznamka>
-    <gps lat="48.3346371" lon="17.0444471"/>
+    <konatel>Marián Fodor</konatel>
+    <poznamka>najvyssia kapacita 10000+ porcii/den; vyrobna kuchyna; reg. manazer Marián Fodor; objednavky objednavkylozorno@food-time.sk, +421 918 797 063; konatelia Michal Kintler, Tomáš Kotras; sidlo Trencianske Teplice</poznamka>
+    <gps lat="48.3245713" lon="17.0116152"/>
   </prevadzka>
   <prevadzka kategoria="Vyvaren / catering kuchyna" zona="Z2">
     <firma>GTH catering s.r.o. (ex-Sodexo)</firma>
@@ -1090,7 +1090,7 @@
     <web>mcdonalds.sk</web>
     <konatel>Tereza Trepáčová, Yuliya Badritdinova</konatel>
     <poznamka>NAJVACSI retazec; +Pezinok</poznamka>
-    <gps lat="48.13244" lon="17.10755"/>
+    <gps lat="48.13249461495664" lon="17.107483785964146"/>
   </prevadzka>
   <prevadzka kategoria="Statne firmy a urady" zona="BA1">
     <firma>Bratislavsky samospravny kraj (Urad BSK)</firma>

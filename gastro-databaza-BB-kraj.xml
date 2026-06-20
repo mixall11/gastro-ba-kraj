@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="75">
+<gastro_databaza kraj="Banskobystricky" typ="vsetky" pocet="77">
   <prevadzka kategoria="Catering dodavatel" zona="B1">
     <firma>Stravovanie KOZAK, s. r. o.</firma>
     <ico>57362777</ico>
@@ -1049,5 +1049,33 @@
     <konatel>Waldemar Kmiecik, Ľudmila Veselá, Tomáš Lučkai, Ján Haško</konatel>
     <poznamka>AGEL od 2023 (byvaly Svet zdravia); 196 lozok</poznamka>
     <gps lat="48.590194" lon="18.8429164"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="BB1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Priemyselna 12</adresa>
+    <mesto>Ziar nad Hronom</mesto>
+    <okres>Ziar nad Hronom</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 917 290 673</telefon>
+    <email>kovacova@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Ivica Kováčová</konatel>
+    <poznamka>FOOD TIME regionalna pobocka; reg. manazerka Ivica Kováčová; objednavky objednavkyzh@food-time.sk, +421 917 049 105</poznamka>
+    <gps lat="48.5668272" lon="18.8552847"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="BB1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Namestie Ludvika Svobodu 1</adresa>
+    <mesto>Banska Bystrica</mesto>
+    <okres>Banska Bystrica</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 917 290 673</telefon>
+    <email>kovacova@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Ivica Kováčová</konatel>
+    <poznamka>FOOD TIME regionalna pobocka; prevadzka v arealy FNsP Roosevelta; reg. manazerka Ivica Kováčová</poznamka>
+    <gps lat="48.7434497" lon="19.1173576"/>
   </prevadzka>
 </gastro_databaza>

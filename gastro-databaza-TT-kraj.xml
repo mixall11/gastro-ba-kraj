@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="63">
+<gastro_databaza kraj="Trnavsky" typ="vsetky" pocet="65">
   <prevadzka kategoria="Catering dodavatel" zona="T1">
     <firma>Frape catering s.r.o.</firma>
     <ico>44178450</ico>
@@ -881,5 +881,33 @@
     <konatel>Miroslav Garaj</konatel>
     <poznamka>OZ Trnava pokryva TT+NR kraj; vlastna kuchyna/zavodne stravovanie</poznamka>
     <gps lat="48.3687029" lon="17.5842316"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="TT1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Andreja Zarnova 11</adresa>
+    <mesto>Trnava</mesto>
+    <okres>Trnava</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 917 950 030</telefon>
+    <email>gajdos@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Ján Gajdoš</konatel>
+    <poznamka>FOOD TIME regionalna pobocka; reg. manazer Ján Gajdoš</poznamka>
+    <gps lat="48.3683466" lon="17.5883897"/>
+  </prevadzka>
+  <prevadzka kategoria="Vyvaren / catering kuchyna" zona="TT1">
+    <firma>FOOD TIME s.r.o.</firma>
+    <ico>52079881</ico>
+    <adresa>Mazurova 2</adresa>
+    <mesto>Skalica</mesto>
+    <okres>Skalica</okres>
+    <velkost>regionalna pobocka FOOD TIME; firma obrat 5,82 mil EUR (2024), 150-199 zam</velkost>
+    <telefon>+421 918 611 572</telefon>
+    <email>fodor@food-time.sk</email>
+    <web>food-time.sk</web>
+    <konatel>Marián Fodor</konatel>
+    <poznamka>FOOD TIME regionalna pobocka; reg. manazer Marián Fodor; objednavky objednavkyskalica@food-time.sk, +421 918 797 063</poznamka>
+    <gps lat="48.8427792" lon="17.2250346"/>
   </prevadzka>
 </gastro_databaza>
